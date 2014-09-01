@@ -4,7 +4,7 @@
   <title><![CDATA[gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2014-09-01T20:22:12+01:00</updated>
+  <updated>2014-09-01T20:57:58+01:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Test Blog Post]]></title>
+    <link href="http://www.gep13.co.uk/blog/test-blog-post/"/>
+    <updated>2014-09-01T20:57:00+01:00</updated>
+    <id>http://www.gep13.co.uk/blog/test-blog-post</id>
+    <content type="html"><![CDATA[<p>This is a test blog post</p>
+]]></content>
+  </entry>
   
 </feed>
