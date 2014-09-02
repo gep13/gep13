@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -9,12 +10,28 @@
 	
 	<meta name="description" content="2014 general pc, gep13 blog Out with the old, in with the new - Microsoft Sculpt Ergonomic 2013 community events, conferences Slides and code from &hellip;">
 	
+=======
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Blog Archive - gep13&#8217;s blog</title>
+  <meta name="author" content="gep13">
+
+  
+  <meta name="description" content=" Blog Archive 2014 Test Blog Post
+Sep 01 2014 Recent Posts Test Blog Post GitHub Repos Status updating... @gep13 on GitHub ">
+  
+>>>>>>> d6ee814753de2000e626af946c28de2b44a24c01
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<<<<<<< HEAD
 	<link href="/feed" rel="alternate" title="gep13's blog" type="application/atom+xml">
 	
 	<link rel="canonical" href="http://www.gep13.co.uk/blog/archives/">
@@ -796,7 +813,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/ddd-north-2-getting-started-with-caliburnmicro/">DDD North 2 ñ Getting Started with Caliburn.Micro and Windows Phone 7</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/ddd-north-2-getting-started-with-caliburnmicro/">DDD North 2 ‚Äì Getting Started with Caliburn.Micro and Windows Phone 7</a></h1>
 </article>
 
     
@@ -1080,7 +1097,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/scottish-developers-have-a-new-committee-member-me/">Scottish Developers have a new Committee MemberÖ me!</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/scottish-developers-have-a-new-committee-member-me/">Scottish Developers have a new Committee Member‚Ä¶ me!</a></h1>
 </article>
 
     
@@ -1296,7 +1313,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/nokia-lumia-800-to-get-tethering-support-soon/">Nokia Lumia 800 to get tethering support, ìsoonî</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/nokia-lumia-800-to-get-tethering-support-soon/">Nokia Lumia 800 to get tethering support, ‚Äúsoon‚Äù</a></h1>
 </article>
 
     
@@ -1476,7 +1493,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/apex-photographics-tuition-course/">Apex Photographics ñ Tuition course</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/apex-photographics-tuition-course/">Apex Photographics ‚Äì Tuition course</a></h1>
 </article>
 
     
@@ -1716,7 +1733,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/2011-my-year-in-review/">2011 ñ My Year in Review</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/2011-my-year-in-review/">2011 ‚Äì My Year in Review</a></h1>
 </article>
 
     
@@ -1770,7 +1787,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/i-now-have-a-full-house-of-wp7-applications/">I now have a full house of WP7 applicationsÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/i-now-have-a-full-house-of-wp7-applications/">I now have a full house of WP7 applications‚Ä¶</a></h1>
 </article>
 
     
@@ -1788,7 +1805,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/gone-but-not-forgotten/">Gone, but not forgottenÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/gone-but-not-forgotten/">Gone, but not forgotten‚Ä¶</a></h1>
 </article>
 
     
@@ -1824,7 +1841,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/microsoft-lync-2010-for-windows-phone-wont-connect-to-office-365/">Microsoft Lync 2010 for Windows Phone ñ wonít connect to Office 365</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/microsoft-lync-2010-for-windows-phone-wont-connect-to-office-365/">Microsoft Lync 2010 for Windows Phone ‚Äì won‚Äôt connect to Office 365</a></h1>
 </article>
 
     
@@ -1860,7 +1877,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/i-feel-i-am-missing-some-applications/">I feel I am missing some applicationsÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/i-feel-i-am-missing-some-applications/">I feel I am missing some applications‚Ä¶</a></h1>
 </article>
 
     
@@ -2058,7 +2075,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/givecampuk-is-only-4-days-away/">#GiveCampUK is only 4 days awayÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/givecampuk-is-only-4-days-away/">#GiveCampUK is only 4 days away‚Ä¶</a></h1>
 </article>
 
     
@@ -2112,7 +2129,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/i-have-kindle-envy/">I have Kindle envyÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/i-have-kindle-envy/">I have Kindle envy‚Ä¶</a></h1>
 </article>
 
     
@@ -2148,7 +2165,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/windows-developer-required-e28093-aberdeen/">Windows Developer Required ñ Aberdeen</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/windows-developer-required-e28093-aberdeen/">Windows Developer Required ‚Äì Aberdeen</a></h1>
 </article>
 
     
@@ -2166,7 +2183,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/consultant-job-opportunity-aberdeen/">Consultant Job Opportunity ñ Aberdeen</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/consultant-job-opportunity-aberdeen/">Consultant Job Opportunity ‚Äì Aberdeen</a></h1>
 </article>
 
     
@@ -2184,7 +2201,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/progressive-net-tutorials-a-review-skillsmatter-prognet11/">Progressive .Net Tutorials ñ A Review @skillsmatter #prognet11</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/progressive-net-tutorials-a-review-skillsmatter-prognet11/">Progressive .Net Tutorials ‚Äì A Review @skillsmatter #prognet11</a></h1>
 </article>
 
     
@@ -2202,7 +2219,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/day-3-afternoon-session-prognet11-skillsmatter-markrendle-grumpydev/">Day 3 ñ Afternoon Session #prognet11 @skillsmatter @markrendle @grumpydev</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/day-3-afternoon-session-prognet11-skillsmatter-markrendle-grumpydev/">Day 3 ‚Äì Afternoon Session #prognet11 @skillsmatter @markrendle @grumpydev</a></h1>
 </article>
 
     
@@ -2220,7 +2237,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/day-3morning-session-prognet11-skillsmatter-stack72/">Day 3ñMorning Session #prognet11 @skillsmatter @jonskeet</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/day-3morning-session-prognet11-skillsmatter-stack72/">Day 3‚ÄìMorning Session #prognet11 @skillsmatter @jonskeet</a></h1>
 </article>
 
     
@@ -2238,7 +2255,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/day-2-afternoon-session-prognet11-skillsmatter-stack72/">Day 2 ñ Afternoon Session #prognet11 @skillsmatter @stack72</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/day-2-afternoon-session-prognet11-skillsmatter-stack72/">Day 2 ‚Äì Afternoon Session #prognet11 @skillsmatter @stack72</a></h1>
 </article>
 
     
@@ -2256,7 +2273,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/day-2-morning-session-prognet11-skillsmatter-simonbrown/">Day 2 ñ Morning Session #prognet11 @skillsmatter @simonbrown</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/day-2-morning-session-prognet11-skillsmatter-simonbrown/">Day 2 ‚Äì Morning Session #prognet11 @skillsmatter @simonbrown</a></h1>
 </article>
 
     
@@ -2274,7 +2291,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/day-1-afternoon-session-prognet11-skillsmatter-dylanbeattie/">Day 1 ñ Afternoon Session #prognet11 @skillsmatter @dylanbeattie</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/day-1-afternoon-session-prognet11-skillsmatter-dylanbeattie/">Day 1 ‚Äì Afternoon Session #prognet11 @skillsmatter @dylanbeattie</a></h1>
 </article>
 
     
@@ -2292,7 +2309,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/day-1-morning-session-prognet11-skillsmatter-icooper-serialseb/">Day 1 ñ Morning Session #prognet11 @skillsmatter @ICooper @serialseb</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/day-1-morning-session-prognet11-skillsmatter-icooper-serialseb/">Day 1 ‚Äì Morning Session #prognet11 @skillsmatter @ICooper @serialseb</a></h1>
 </article>
 
     
@@ -2310,7 +2327,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/adnuguk-october-meeting/">#ADNUGUK ñ October Meeting</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/adnuguk-october-meeting/">#ADNUGUK ‚Äì October Meeting</a></h1>
 </article>
 
     
@@ -2346,7 +2363,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/these-things-are-addictive/">These things are addictiveÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/these-things-are-addictive/">These things are addictive‚Ä¶</a></h1>
 </article>
 
     
@@ -2364,7 +2381,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/cant-access-office365-from-office-hub-on-wp7/">Canít access #Office365 from Office Hub on #WP7</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/cant-access-office365-from-office-hub-on-wp7/">Can‚Äôt access #Office365 from Office Hub on #WP7</a></h1>
 </article>
 
     
@@ -2382,7 +2399,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/adnuguk-september-meeting/">#ADNUGUK ñ September Meeting</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/adnuguk-september-meeting/">#ADNUGUK ‚Äì September Meeting</a></h1>
 </article>
 
     
@@ -2418,7 +2435,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/my-netbook-upgrade-completed/">My NetBook Upgrade ñ Completed</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/my-netbook-upgrade-completed/">My NetBook Upgrade ‚Äì Completed</a></h1>
 </article>
 
     
@@ -2454,7 +2471,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/adnuguk-august-meeting/">#ADNUGUK ñ August Meeting</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/adnuguk-august-meeting/">#ADNUGUK ‚Äì August Meeting</a></h1>
 </article>
 
     
@@ -2490,7 +2507,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/becoming-a-better-developer/">Becoming a better developerÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/becoming-a-better-developer/">Becoming a better developer‚Ä¶</a></h1>
 </article>
 
     
@@ -2508,7 +2525,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/dddbelfast-call-for-speakers/">#DDDBelfast ñ Call for speakers</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/dddbelfast-call-for-speakers/">#DDDBelfast ‚Äì Call for speakers</a></h1>
 </article>
 
     
@@ -2526,7 +2543,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/dddnorth-call-for-speakers/">#DDDNorth ñ Call for speakers</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/dddnorth-call-for-speakers/">#DDDNorth ‚Äì Call for speakers</a></h1>
 </article>
 
     
@@ -2616,7 +2633,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/i-did-not-know-that-fiddler-could-do-this/">I did not know that #Fiddler could do thisÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/i-did-not-know-that-fiddler-could-do-this/">I did not know that #Fiddler could do this‚Ä¶</a></h1>
 </article>
 
     
@@ -2634,7 +2651,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/very-much-looking-forward-to-givecampuk/">Very much looking forward to @GiveCampUKÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/very-much-looking-forward-to-givecampuk/">Very much looking forward to @GiveCampUK‚Ä¶</a></h1>
 </article>
 
     
@@ -2670,7 +2687,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/4x4-off-road-drivinghighland-safaris-aberfeldy/">4x4 Off Road DrivingñHighland Safaris, Aberfeldy</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/4x4-off-road-drivinghighland-safaris-aberfeldy/">4x4 Off Road Driving‚ÄìHighland Safaris, Aberfeldy</a></h1>
 </article>
 
     
@@ -2742,7 +2759,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/almost-time-for-dddsw/">Almost time for #DDDSWÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/almost-time-for-dddsw/">Almost time for #DDDSW‚Ä¶</a></h1>
 </article>
 
     
@@ -2814,7 +2831,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/using-a-wp7-to-automate-my-house/">Using a WP7 to automate my houseÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/using-a-wp7-to-automate-my-house/">Using a WP7 to automate my house‚Ä¶</a></h1>
 </article>
 
     
@@ -2832,7 +2849,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/vmware-workstation-troubles/">VMWare Workstation troublesÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/vmware-workstation-troubles/">VMWare Workstation troubles‚Ä¶</a></h1>
 </article>
 
     
@@ -2922,7 +2939,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/oreilly-media-ftw-oreillymedia/">OíReilly Media ñ FTW!!</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/oreilly-media-ftw-oreillymedia/">O‚ÄôReilly Media ‚Äì FTW!!</a></h1>
 </article>
 
     
@@ -2958,7 +2975,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/blacknightcant-say-enough-good-things-about-them/">BlacknightñCanít say enough good things about them!</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/blacknightcant-say-enough-good-things-about-them/">Blacknight‚ÄìCan‚Äôt say enough good things about them!</a></h1>
 </article>
 
     
@@ -3068,7 +3085,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/ive-just-registered-for-ddd-scotland-have-you/">Iíve just registered for DDD Scotland, have you?</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/ive-just-registered-for-ddd-scotland-have-you/">I‚Äôve just registered for DDD Scotland, have you?</a></h1>
 </article>
 
     
@@ -3124,7 +3141,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/vbforums-photography-contestresults/">VBForums Photography ContestñResults</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/vbforums-photography-contestresults/">VBForums Photography Contest‚ÄìResults</a></h1>
 </article>
 
     
@@ -3166,7 +3183,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/i-have-been-promoted/">I have been promotedÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/i-have-been-promoted/">I have been promoted‚Ä¶</a></h1>
 </article>
 
     
@@ -3194,7 +3211,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/onenote-2010-create-a-note-from-anywhere/">OneNote 2010 ñ Create a note from anywhere</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/onenote-2010-create-a-note-from-anywhere/">OneNote 2010 ‚Äì Create a note from anywhere</a></h1>
 </article>
 
     
@@ -3222,7 +3239,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/onenote-2010-make-text-in-image-searchable/">OneNote 2010 ñ Make Text in Image Searchable</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/onenote-2010-make-text-in-image-searchable/">OneNote 2010 ‚Äì Make Text in Image Searchable</a></h1>
 </article>
 
     
@@ -3450,7 +3467,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/nosql-autumn-conference-2010dundee/">NoSql Autumn Conference 2010ñDundee</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/nosql-autumn-conference-2010dundee/">NoSql Autumn Conference 2010‚ÄìDundee</a></h1>
 </article>
 
     
@@ -3500,7 +3517,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/why-cant-things-get-delivered-when-they-are-meant-to/">Why canít things get delivered when they are meant to?</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/why-cant-things-get-delivered-when-they-are-meant-to/">Why can‚Äôt things get delivered when they are meant to?</a></h1>
 </article>
 
     
@@ -3542,7 +3559,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/asp-net-vulnerability-update/">ASP.Net Vulnerability ñ Update</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/asp-net-vulnerability-update/">ASP.Net Vulnerability ‚Äì Update</a></h1>
 </article>
 
     
@@ -3654,7 +3671,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/new-article-posted/">New article postedÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/new-article-posted/">New article posted‚Ä¶</a></h1>
 </article>
 
     
@@ -3752,7 +3769,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/amazing/">AmazingÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/amazing/">Amazing‚Ä¶</a></h1>
 </article>
 
     
@@ -3766,7 +3783,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/helicopter-flying-lesson/">Helicopter flying lessonÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/helicopter-flying-lesson/">Helicopter flying lesson‚Ä¶</a></h1>
 </article>
 
     
@@ -3836,7 +3853,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/essential-visual-studio-addin-coderush-express/">Essential Visual Studio Addin ñ CodeRush Express</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/essential-visual-studio-addin-coderush-express/">Essential Visual Studio Addin ‚Äì CodeRush Express</a></h1>
 </article>
 
     
@@ -3850,7 +3867,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/essential-visual-studio-addin-copy-source-as-html/">Essential Visual Studio Addin ñ Copy Source As HTML</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/essential-visual-studio-addin-copy-source-as-html/">Essential Visual Studio Addin ‚Äì Copy Source As HTML</a></h1>
 </article>
 
     
@@ -3906,7 +3923,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/essential-visual-studio-addin-tfs-power-tools/">Essential Visual Studio Addin ñ TFS Power Tools</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/essential-visual-studio-addin-tfs-power-tools/">Essential Visual Studio Addin ‚Äì TFS Power Tools</a></h1>
 </article>
 
     
@@ -3948,7 +3965,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/our-new-kitten/">Our new kittenÖ</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/our-new-kitten/">Our new kitten‚Ä¶</a></h1>
 </article>
 
     
@@ -3962,7 +3979,7 @@ $(function(){
 </span>
 	    
 	</div>
-	<h1 class="archive-title" itemprop="name"><a href="/blog/tweetdeck-is-it-evil/">TweetDeckÖ Is it evil?</a></h1>
+	<h1 class="archive-title" itemprop="name"><a href="/blog/tweetdeck-is-it-evil/">TweetDeck‚Ä¶ Is it evil?</a></h1>
 </article>
 
     
@@ -5003,12 +5020,177 @@ $(function(){
 </script> <!-- Delete or comment this line to disable Fancybox -->
 
 
+=======
+  
+  <link rel="canonical" href="http://www.gep13.co.uk/blog/archives">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/feed" rel="alternate" title="gep13's blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">gep13&#8217;s blog</a></h1>
+  
+    <h2>Ramblings and Ponderings of a Microsoft Fan Boy&#8230;</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/feed" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:www.gep13.co.uk" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Blog Archive</h1>
+    
+  </header>
+  
+  <div id="blog-archives">
+
+
+
+  
+  <h2>2014</h2>
+
+<article>
+  
+<h1><a href="/blog/test-blog-post/">Test Blog Post</a></h1>
+<time datetime="2014-09-01T20:57:00+01:00" pubdate><span class='month'>Sep</span> <span class='day'>01</span> <span class='year'>2014</span></time>
+
+
+</article>
+
+</div>
+
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/test-blog-post/">Test Blog Post</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/gep13">@gep13</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'gep13',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
 
 
 
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - gep13 -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+>>>>>>> d6ee814753de2000e626af946c28de2b44a24c01
+
+
+
+
+
+<<<<<<< HEAD
 		</div>
 	</div>
+=======
+>>>>>>> d6ee814753de2000e626af946c28de2b44a24c01
 </body>
 </html>
