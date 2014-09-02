@@ -1,0 +1,616 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>gep13&#8217;s blog</title>
+	<meta name="author" content="gep13">
+
+	
+	<meta name="description" content="An Interesting Windows Phone 7 Build Error While creating the sample demos for my Windows Phone 7 presentation at DDDNorth, I ran into an &hellip;">
+	
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/feed" rel="alternate" title="gep13's blog" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://www.gep13.co.uk/posts/5/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- Cookie Consent -->
+<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
+
+<!-- Pure CSS -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><nav id="main-nav"><ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/adnuguk">ADNUGUK</a></li>
+</ul>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		<a class="facebook" href="http://www.facebook.com/gary.e.park" title="Facebook">Facebook</a>
+		
+		
+		<a class="google" href="https://plus.google.com/+GaryEwanPark" rel="author" title="Google+">Google+</a>
+		
+		
+		<a class="twitter" href="http://twitter.com/gep13" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/gep13" title="GitHub">GitHub</a>
+		
+		
+		
+		<a class="linkedin" href="http://www.linkedin.com/in/gep13">LinkedIn</a>
+		
+		
+		
+		<a class="delicious" href="http://delicious.com/gep13" title="Delicious">Delicious</a>
+		
+		
+		
+		<a class="rss" href="/feed" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+<div class="profile-container">
+  <div class="profilepic">
+    <script src="/javascripts/md5.js"></script>
+    <script type="text/javascript">
+$(function(){
+  $('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("gep13@gep13.co.uk") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+});
+    </script>
+  </div>
+  <hgroup>
+  <h1 class="site-title"><a href="/">gep13&#8217;s blog</a></h1>
+  
+  <p class="site-subtitle">Ramblings and Ponderings of a Microsoft Fan Boy&#8230;</p>
+  
+  </hgroup>
+  
+</div>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="article-inner">
+<div itemscope itemtype="http://schema.org/Blog">
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/an-interesting-windows-phone-7-build-error/" itemprop="url">An Interesting Windows Phone 7 Build Error</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p>While creating the sample demos for my Windows Phone 7 presentation at DDDNorth, I ran into an interesting error:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1484"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/2012-10-09_1936.png" alt="" /></a></p>
+
+<blockquote>“Manifest validation failed: AppManifestInvalidAuthor”</blockquote>
+
+
+<p>To put it into perspective, this was a brand new Windows Phone 7 application, fresh out of the box, with no changes made by me.  I had decided to build the project (as I periodically do) just to make sure that everything was fine before continuing, and I was welcomed with the above.</p>
+
+<p>Based on the description, I had a look in the WMAppManifest file, but I couldn&#8217;t find anything obviously wrong:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1483"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/2012-10-09_1937.png" alt="" /></a></p>
+
+<p>A quick Google later, and I had stumbled upon this <a href="http://digitaltransfusion.net/2010/09/21/wp7-manifest-validation-fails/">blog post</a> by <a href="http://twitter.com/ryanplemons">@ryanplemons</a> which answered the question.  Turns out there is a limit on the number of characters that you can have in the Publisher, Author and Title attributes of the App node:</p>
+
+<ul>
+<li><p>Publisher = 50 Characters</p></li>
+<li><p>Author = 50 Characters</p></li>
+<li><p>Title = 80 Characters</p></li>
+</ul>
+
+
+<p>The naming convention that I had adopted for the Demo Applications that I was creating was pushing me over this limit for this application.  A quick change to these attributes and the build error was gone.</p>
+
+<p>In all the Windows Phone 7 applications that I have created to date, this was the first time that I had seen this error.  Hopefully this will help someone in the same situation, thanks Ryan!</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/ddd-north-2-windows-phone-7-agenda-application/" itemprop="url">DDD North 2 Windows Phone 7 Agenda Application</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p><strong><em>UPDATE: </em></strong>I am happy to report that the DDD North 2 Agenda Application is now available on the Marketplace.  You can find it <a href="http://windowsphone.com/s?appid=7364a248-8439-4795-b276-809f00af9775">here</a>.  This link seems to work when browsing the marketplace on your phone, but it doesn&rsquo;t seem to work when doing it from my laptop just now.</p>
+
+<p>Are you going to DDD North 2?  Do you have a Windows Phone 7?  If so, then you need to get yourself the DDD North 2 Windows Phone 7 application.  At this point, I would normally give you a link to where you can download the application from the marketplace, however, there is a chance that the application will not be certified in time for that.</p>
+
+<p>However, all is not lost!  The creator of the application, Craig Murphy (@CAMURPHY) has posted the .xap file for the application onto his blog which you can find <a href="http://www.craigmurphy.com/blog/?p=2324">here</a>.  If you have a developer account, then you will be able to side load this application onto your phone (I have just done this, and can testify to it working correctly).</p>
+
+<p>If you don&rsquo;t know how to do the side loading, Craig mentions the Application Deployment Tool, which is really simple to use, and you can find steps to how to use it <a href="http://msdn.microsoft.com/en-us/library/windowsphone/develop/ff769512(v=vs.92">here</a>.aspx).  The only real gotchas are that you also need to have Zune installed, and your phone unlocked, and your handset must be registered, for the deployment to go through correctly.</p>
+
+<p>Big thanks to Craig for creating the application, I am sure that it will come in really useful on the day!</p>
+
+<p>If you are interested, you can see some of the screenshots for the application below:</p>
+
+<p>[gallery]</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/a-great-day-out-at-phoenix-falconry/" itemprop="url">A Great Day Out at Phoenix Falconry</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p>Last Sunday, I finally used a birthday present that I received last year; a day out at a Falconry Centre.  I had the choice of a number of Falconry centres in Scotland, but I ended up choosing Phoenix Falconry.  You can find their website <a href="http://falconry-in-scotland.co.uk/">here</a>, and you can find them on TripAdvisor <a href="http://www.tripadvisor.co.uk/Attraction_Review-g1146700-d2108482-Reviews-Phoenix_Falconry-Blackford_Perth_and_Kinross_Scotland.html">here,</a> as you will see, they come highly recommended!</p>
+
+<h1>The Experience</h1>
+
+<p>Phoenix Falconry offer a number of different <a href="http://www.scottishfalconry.co.uk/shopdisplayproducts.asp?id=1&amp;cat=Falcon+Experiences">experiences</a>.  I opted for “<a href="http://www.scottishfalconry.co.uk/shopexd.asp?id=3">The Phoenix Experience</a>”, which consisted of:</p>
+
+<blockquote>This half day action packed experience is designed to get you closer and more interactive than you ever imagined possible as you join us a our new luxury facility in scenic South Perthshire to handle and fly stunning birds of prey from around the world!
+
+You&#8217;ll learn about their ecology, biology and psychology and personally fly and handle up to 12 species of hawk, buzzard, owl, falcon and eagles including species as varied as the huge American Bald eagle to the 200mph Peregrine falcon!</blockquote>
+
+
+<p>I am happy to report that I had a great day, so much so that I have actually booked into another event, “<a href="http://www.scottishfalconry.co.uk/shopexd.asp?id=4">A Walk in the Wilderness</a>”.  If you are at all interested in attending an event at this facility make sure and book soon.  Speaking to the Falconer on the say, it turns out that Phoenix Falconry will no longer be doing public events, this will be their last season of doing them.  Turns out that it is not economic for them to continue doing them.  Instead, the centre will be concentrating on their breeding programme, which it reported to be going from strength to strength.</p>
+
+<h1>The birds</h1>
+
+<p>In total, there were 7 different birds of prey shown to us.  It really was a fascinating day, starting with a small Harris Hawk, and finishing with a Bald Eagle.  Some of the photos that I took on the day can be seen below (there were far more actually taken, and if you are interested, I would be happy to let you see them, but be warned there are lots!)</p>
+
+<p>[gallery]</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/building-the-caliburnmicro-source-code/" itemprop="url">Building the Caliburn.Micro Source Code</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>Caliburn.Micro Nuget Package doesn’t work</h1>
+
+<p>At the time of writing this blog post, the <a href="http://nuget.org/packages/Caliburn.Micro">Caliburn.Micro Nuget package</a> (Version 1.3.1) doesn’t install correctly.  It adds the necessary references to the Caliburn.Micro assemblies, but it doesn’t add the additional installation files to the project, namely the AppBootstrapper.cs and MainPageViewModel.cs.</p>
+
+<p>Thankfully, this is a known issue with the Caliburn.Micro package (it is listed <a href="http://caliburnmicro.codeplex.com/workitem/237">here</a>) and is actually as a result in the way the Nuget itself <a href="http://nuget.codeplex.com/workitem/2396">changed</a>.  Now, this problem has actually already been fixed in the latest Caliburn.Micro source code (which you can find <a href="http://caliburnmicro.codeplex.com/SourceControl/changeset/view/62cf1765f4ba">here</a>) but due to some remaining WinRT issues, the 1.3.2 version of Caliburn.Micro has not been released yet.</p>
+
+<p>So, what can you do if you want to get a working Nuget package?  The answer is to build the source code yourself.  Now, this may seem a little scary, but it really isn&#8217;t  and the following steps will work you through what you need to do.</p>
+
+<h1>To Clone or to download</h1>
+
+<p>The first decision that you will need to make is whether you want to Clone the Caliburn.Micro source control locally to your machine, or whether you just want to download the source code.  Due to the fact that I am lazy, the steps outlined here are going to talk you through the downloading route, but if you are interested in cloning the repository take a look at this article <a href="http://codeplex.codeplex.com/wikipage?title=Using%20TortoiseHG%20with%20CodePlex&amp;referringTitle=Source%20control%20clients&amp;ProjectName=codeplex">here</a>.</p>
+
+<h1>Let’s get started</h1>
+
+<p>So, first thing’s first, go ahead and download the latest Caliburn.Micro source code:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1466"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Download.png" alt="" /></a></p>
+
+<p>Once the zip file has downloaded:</p>
+
+<ol>
+<li><p> Go to the folder where you saved it</p></li>
+<li><p> Right click on the zip file and select properties</p></li>
+<li><p> Click the Unblock button</p></li>
+<li><p> Click on Apply, then click OK</p></li>
+<li><p> Right click on the zip file again and select Extract All, and walk through the extraction wizard</p></li>
+</ol>
+
+
+<p>Once that is complete, take a look at the contents of the folder.  In the root of the folder, you should see a “src” folder, which contains three Visual Studio solution files, namely:</p>
+
+<ul>
+<li><p>Caliburn.Micro.PackageBuilder.sln</p></li>
+<li><p>Caliburn.Micro.sln</p></li>
+<li><p>Caliburn.Micro.WinRT.sln</p></li>
+</ul>
+
+
+<p>In order to open the second solution file, you will need to have the Silverlight Tools and Windows Phone 7 SDK installed.</p>
+
+<p>In order to open the last solution file, you are going to need to have Visual Studio 2012 along with .Net Framework 4.5 installed.  If you don’t, and you try to open this solution in Visual Studio 2010, you will be greeted with the following:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1465"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_.WinRT_not_opening.png" alt="" /></a></p>
+
+<h1>Building the solutions</h1>
+
+<p>Depending on what frameworks you are targeting, i.e. Silverlight, Windows Phone 7, WinRT, open the correct solution file, and switch to doing a “Release” build.  Build the solution, and ensure that there are no errors.  The act of building the solution actually only creates the output assemblies, it doesn&#8217;t generate the Nuget package.  To be clear, at this point, you can build either solution, or both.  The Nuget package created works on whatever it can find, and will place only the output assemblies that it can located in the resulting Nuget package.</p>
+
+<h1>Creating the Nuget package</h1>
+
+<p>Go back to the root folder of the zip file, and find the “nuget” folder.  In here, you will find a PowerShell file called “create-packages.ps1”.</p>
+
+<p>Do the following:</p>
+
+<ol>
+<li><p> Open PowerShell as an Administrator</p></li>
+<li><p> Run the command <em><strong>Get-ExecutionPolicy</strong></em></p></li>
+<li><p> If this returns a value of “Restricted” then you are going to need to change this, otherwise the PowerShell script to create the Nuget package will not run.  The command that you will need to run is <strong><em>Set-ExecutionPolicy RemoteSigned</em></strong></p></li>
+<li><p> Browse to the folder where the above .ps1 file is located</p></li>
+<li><p> Run the following command <strong><em>.\create-package.ps1</em></strong></p></li>
+<li><p> This will generate two Nuget packages, one called “Caliburn.Micro.1.3.2.nupkg” and “Caliburn.Micro.Start.1.3.2.nupkg”</p></li>
+<li><p> Finally, if your previous execution policy for PowerShell was restricted, be sure to put this back.  To do this, run the command <strong><em>Set-ExecutionPolicy Restricted</em></strong></p></li>
+</ol>
+
+
+<h1>Why are there two Nuget packages?</h1>
+
+<p>In version 1.3.1 of Caliburn.Micro, it was assumed that everyone who was using the Nuget package wanted the additional files that it included.  This wasn&#8217;t always the case (as some people roll their own AppBootstrapper, etc) and as a result, they would have to delete the unwanted files.  To work around this, the Caliburn.Micro assemblies are stored in the “Caliburn.Micro.1.3.2.nupkg” package, and the additional installation files are stored in “Caliburn.Micro.Start.1.3.2.nupkg”.  To complete the story, the “.Start” package takes a dependency on the main “Caliburn.Micro” package.  This way, a user has a choice of what they want to use; very clever!</p>
+
+<h1>use a local Nuget repository</h1>
+
+<p>Now that you have these Nuget packages, what do you do with them?  What I do is I create a folder on my C:\ drive, typically c:\nugetpackages and I put the Nuget packages in there.  Then, within Visual Studio select Tools | Library Package Manager | Package Manager Settings.  In the windows that opens up, select “Package Sources”, click the green &ldquo;add&rdquo; button, and enter “Local Nuget” as the Name, and “C:\nugetpackages” as the source, and click the “Update” button:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1467"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Local_Nuget_Package_Source.png" alt="" /></a></p>
+
+<p>With this in place, then either through the Package Manager Console you can use the “Local Nuget” source and install the package:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1469"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Package_Manager_Console_Install.png" alt="" /></a></p>
+
+<p>Or, through the “Mange Nuget Packages” dialog you can again select “Local Nuget” and select the package that you want to install:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1468"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Manage_Nuget_Packages.png" alt="" /></a></p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/an-interesting-kindle-cover/" itemprop="url">An Interesting Kindle Cover</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p><em>DISCLAIMER:</em> I was recently approached by <a href="http://www.gearzap.com/">GearZap.com</a> to do an unbiased review of one of the products from their site.  The following is the result of that review.</p>
+
+<p>Like most developers I know, I have a Kindle.  The ability to carry hundreds of books around with you is a great thing, and a great resource.  Gone are the days of lugging around one epic tomb of a development book, we now carry them all.  However, in order to ensure that your Kindle doesn’t get damaged, you really need to get a cover for it, and if you haven’t already got one, make sure to take a look at the great selection <a href="http://www.gearzap.com/amazon-kindle-accessories/amazon-kindle-covers.html">here</a>.</p>
+
+<p>I was asked to do a review of the <a href="http://www.gearzap.com/tuff-luv-embrace-amazon-kindle-cover-black.html">Tuff-Luv Embrace Amazon Kindle Cover</a>, and I am happy to say that this is a really nice cover.  The unique selling point for this cover is the integrated hand-band, which makes is very easy to hold the Kindle.  The hand-band is really aimed at using your left hand, however, I found that it will also work with your right hand, although I have to say that it didn’t feel as secure when doing it this way.  While using the hand-band, you are easily able to reach the page navigation controls on your Kindle.</p>
+
+<p>When the Kindle is seated within the cover is feels very secure, and I don’t think that I would ever be concerned that it was going to become dislodged.  All round, a nice cover, that I would happy recommend to anyone.</p>
+
+<p>Some photos of the Kindle contained within this cover are shown below:</p>
+
+<p>[gallery]</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/time-to-say-goodbye-to-an-old-friend/" itemprop="url">Time to Say Goodbye to an Old Friend</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p>It is with a tinge of sadness, that today I had to say goodbye to an old friend. Over 6 years ago, I purchased my first car; a Silver Ford Focus Elle. I had been able to drive since passing my test when I was 17, but it wasn&rsquo;t until after finishing university that I purchased my first car. I loved this car, and I am happy to say that with the exception of having to replace a coil ignition unit, and general wear and tear, I have had no mechanical problems with my car (aside from the damage done to the car while parked outside my old flat, which included being scratched, wing mirrors kicked off, and being spray painted!!!).</p>
+
+<p>But alas, all good things must come to an end, and today was the day that I said goodbye to &ldquo;Elle&rdquo;:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/time-to-say-goodbye-to-an-old-friend/4.-another-view-from-the-front/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/4.-Another-view-from-the-front-224x300.jpg" alt="" /></a></p>
+
+<p>Enter the new replacement. A 6 month old Ford Focus Zetec S:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/time-to-say-goodbye-to-an-old-friend/8.-another-view-from-the-front/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/8.-Another-view-from-the-front-300x224.jpg" alt="" /></a></p>
+
+<p>I went back to the <a href="http://www.jimreidvehiclesales.co.uk/">Jim Reid Vehicle Sales</a> which is where I bought the first car, and I got a cracking deal, both on the trade in, and with the added extras that were thrown in. If anyone in the North East is looking for a new car, definitely give Jim a shout, I am sure that he would be able to help you out.</p>
+
+<p>I only picked up the car this lunch time, but I am already loving it. Great features include:</p>
+
+<ul>
+<li><p>Bluetooth hands free kit for mobile phone</p></li>
+<li><p>USB Port of connecting iPod</p></li>
+<li><p>Rear parking sensors</p></li>
+<li><p>Amazing body kit</p></li>
+<li><p>DAB Radio</p></li>
+</ul>
+
+
+<p>I am sure that there will be loads more features that I come to find irreplaceable.</p>
+
+<p>Some more photos of both cars can be seen below:</p>
+
+<p>[gallery]</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/first-impressions-of-windows-8-and-office-365-home-premium-preview/" itemprop="url">First Impressions of Windows 8 and Office 365 Home Premium Preview</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>Installing Windows 8</h1>
+
+<p>A couple of weeks ago, after purchasing a new <a href="http://www.crucial.com/uk/store/mpartspecs.aspx?mtbpoid=46122D1FA5CA7304">128GB SSD from Crucial</a>, I decided to take the plunge and get Windows 8 installed. I have heard mixed feedback on Windows 8, but like most things, you have to take it with a pinch of salt, until you try it for yourself. The outcome? I have to say, I really like it! Those who think they know me, will likely look to accuse me of being &ldquo;fanboi&rdquo;, but that is simply not the case. You can see immediately that a lot of thought has gone into the creation of Windows 8. Even if you are not a fan of the Windows 8 start screen, take a look at the Desktop of Windows 8 and I think you will be pleasantly surprised!</p>
+
+<h1>What is there to like?</h1>
+
+<p>Lots!</p>
+
+<ul>
+<li><p><strong>Boot Time</strong>: The boot up time is amazing! Now, a lot of this can be put down to the new SSD, but I would guess that you will see an improvement on a normal hard drive as well.</p></li>
+<li><p><strong>Start Screen</strong>: Like it or hate it, the Start Screen is here, and I would encourage you to embrace it. Having had a Windows Phone for the last year and a half, I am very used to the live tile updates, and I now see it as a very useful feature. The immediate search for an application by simply typing the name at the start screen is very useful.</p></li>
+<li><p><strong>Integration with online services</strong>: As soon as I installed Windows 8, I immediately switched to a Windows Account, rather than a local account. As soon as I did this, my machine was immediately aware of all on online services, Hotmail, Facebook, etc, and the local applications immediately started using them. I personally really like how all these services are merged within Windows 8, but I can understand that some people may not like this.</p></li>
+<li><p><strong>New Task Manager</strong>: I am not going to say any more about this, just go and take a look. You&rsquo;ll like it! Especially interesting and useful is the &ldquo;Start-up&rdquo; tab.</p></li>
+<li><p><strong>File Copy/Move Dialog</strong>: Same as above, just go and take a look. Some really great improvements here, that the geek in you will love!</p></li>
+<li><p><strong>Windows + X</strong>: If you are struggling with the new interface, and just want to get back to basics, make sure that you take a look at the &ldquo;Windows + X&rdquo; shortcut. This will give you quick access to most of the things that you will need.</p></li>
+</ul>
+
+
+<h1>What do you need to install?</h1>
+
+<p>Once the base Operating System was installed, I immediately put out a question on Twitter asking what I need to get installed:</p>
+
+<p><a href="https://twitter.com/gep13/status/248747605868294144">https://twitter.com/gep13/status/248747605868294144</a></p>
+
+<p>And I have to say I was surprised by some of the comments. Some people immediately said that I had to install things like this:</p>
+
+<p><a href="http://classicshell.sourceforge.net/">http://classicshell.sourceforge.net/</a></p>
+
+<p>An application that makes Windows 8 look and feel and Windows 7. Personally, I am not going to install anything like this, I fully intend to embrace the paradigm that is Windows 8, and give it a try. I have to say that so far, I haven&rsquo;t found anything that I don&rsquo;t like. Granted, there has been a learning curve, but not a steep one, and there are plenty of resources out there to help you get up to speed.</p>
+
+<p>Some of the first applications that I did install were Visual Studio 2012 and the Office 365 Home Premium Preview. More on Office 365 later. Normally, I go through a process of installing all the applications that I &ldquo;think&rdquo; I am going to use. However, this time around I am going to hold off on doing a bulk installation, and only install the packages that I need. On top of that, I am hoping to complete a <a href="http://chocolatey.org/">chocolatey</a> installation package that I can then re-use.</p>
+
+<h1>Installing Office 365 Home Premium Preview</h1>
+
+<p>The latest version of Microsoft Office has been given a completely new branding, and licensing; you are now able to install it onto 5 different computers.</p>
+
+<p>There are some really nice touches in the new Office, and the SkyDrive integration is very good. One immediately noticeable improvement is best seen in PowerPoint. The presentation mode is VERY good, and will come in very useful in my upcoming presentations.</p>
+
+<p>If you are interested in taking a look at the Office 365 Home Premium Preview, you can find it <a href="http://www.microsoft.com/office/preview/en/office-365-home-premium">here</a>.</p>
+
+<p>Below you will see a number of screenshots that show both the installation process for Office 365 Home Premium Preview, as well as the look and feel of each application within the Suite.</p>
+
+<p>I should point out that I did the installation across a lunch hour, using Internet Tethering on my Windows Phone 7. The idea of streaming the necessary functionality as and when required means that the initial installation package is far smaller than previous versions of Office, and installation over a 3G connection is certainly a possibility.</p>
+
+<p>[gallery]</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/does-your-development-rig-support-slat/" itemprop="url">Does Your Development Rig Support SLAT?</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p>Have you checked to make sure that your development rig supports SLAT?  Do you even know what SLAT is?  I didn’t until today, and it looks like I am going to have to upgrade at least one of my machines.</p>
+
+<h1>What is SLAT?</h1>
+
+<p>SLAT is referring to Second Level Address Translation, and it is a:</p>
+
+<blockquote>…form of hardware virtualization that is included in newer version of Intel and AMD Processors, such as Intel’s Core i3, i5 and i7 processors and AMD;s Barcelona processors.</blockquote>
+
+
+<p>For more information on exactly what this means, take a look at this <a href="http://blogs.microsoft.co.il/blogs/talsa/archive/2012/03/15/windows-8-server-hyper-v-will-require-slat-second-level-address-translation.aspx">blog post</a> from Tal Sarid.</p>
+
+<h1>Why do I care?</h1>
+
+<p>The reason that this is going to be a big deal for me, and why I am going to have to buy some new hardware is that the Windows Phone 8 emulator uses Hyper-V, and as a result, I am going to need hardware that supports SLAT if I want to run that emulator.  For more information on this, take a look at this <a href="http://www.wpcentral.com/windows-phone-8-emulator%E2%80%99s-hardware-requirements">wpcentral blog post</a>.</p>
+
+<h1>How can I check whether my hardware supports SLAT?</h1>
+
+<p>Thanks for Mark Russinovich, there is a Sysinternals tool called Coreinfo, which will tell you whether your current hardware can support SLAT.  See Ryan Lowdermilk’s <a href="http://www.ryanlowdermilk.com/2012/09/does-my-computer-support-slat/">blog post here</a> for the exact steps that you need to follow.</p>
+
+<h1>My results</h1>
+
+<p>For my desktop machine, which in fairness is VERY old, SLAT is not supported:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/does-your-development-rig-support-slat/desktop_output/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/09/Desktop_Output.png" alt="SLAT not support on Desktop" /></a></p>
+
+<p>The good news however is that SLAT is supported on my laptop:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/does-your-development-rig-support-slat/laptop_output/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/09/Laptop_Output.png" alt="SLAT is support on Laptop" /></a></p>
+
+<p>NOTE: The important thing that you need to look for (for Intel chips) is the asterisk next to EPT.</p>
+
+<p><strong>UPDATE:</strong> Based on the comment from Andy Westgarth below, if you are running coreinfo.exe on a machine that already has Hyper-V installed, you will get a different message returned.  Be careful to read all the output from this command.  When Hyper-V was installed on my new machine, this is the output that I got:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/does-your-development-rig-support-slat/2012-09-27_2033/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/09/2012-09-27_2033.png" alt="" /></a></p>
+
+<p>Note the important text:</p>
+
+<p><em><strong>&ldquo;Coreinfo must be executed on a system without a hypervisor running for accurate results.&rdquo;</strong></em></p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/caliburnmicro-session-accepted-for-ddd-north/" itemprop="url">Caliburn.Micro Session Accepted for DDD North</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>session submission has been accepted for DDD North</h1>
+
+<p>I am very happy to announce that the <a href="http://caliburnmicro.codeplex.com/">Caliburn.Micro</a> session that I submitted for <a href="http://developerdeveloperdeveloper.com/north2">DDD North</a> has been accepted!  The abstract for this session was:</p>
+
+<h1>Getting Started with Caliburn.Micro and Windows Phone 7</h1>
+
+<blockquote>Getting started with the Windows Phone 7 Development Platform is relatively simple, however, using a Framework like Caliburn.Micro takes away some of the more mundane tasks, and allows you to focus on what you are trying to achieve.  In this session we will start with a blank Windows Phone 7 project, and start to create our first Windows Phone 7 application using features such as:
+
+> 
+> 
+    
+>   * ActionMessages
+> 
+    
+>   * Action Conventions
+> 
+    
+>   * Binding Conventions
+> 
+    
+>   * Navigation Service
+> 
+    
+>   * The Bootstrapper
+> 
+    
+>   * The IPhoneService
+> 
+    
+>   * Tombstoning
+> 
+    
+>   * Lauchers and Choosers
+> 
+    
+>   * The IWindowManager
+> 
+
+</blockquote>
+
+
+<p>This is a new talk for me, and I am very much looking forward to doing it.  I am currently using Caliburn.Micro in the two Windows Phone 7 applications that I am involved with, and I really think that it is a great framework to build on.</p>
+
+<p>Registration for <a href="http://developerdeveloperdeveloper.com/north2">DDD North</a> opens tomorrow, 28th August, at 1pm, so in order to avoid disappointment, make sure that you are signed into the website, ready to click on the registration button.</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/windows-phone-7-updating-the-nokia-lumia-firmware-to-17500805877312220/" itemprop="url">Windows Phone 7 Updating the Nokia Lumia Firmware to 1750.0805.8773.12220</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p>I have been meaning to post this for a while, but with one thing and another, I just haven’t had time.  However, as some of you will know, I have been banging on about this update for a LONG time!  What feels like ages ago now, Nokia finally announced that they were going to bring internet tethering to the Nokia Lumia 800 (a feature that I have been sorely missing since I moved from my beloved HTC HD7 to the Nokia Lumia 800), however, it took over a month to get the update onto my phone.</p>
+
+<p>Anyway, the day finally arrived, and the installation, as always, went very smoothly:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0729.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0729_thumb.png" alt="2012-08-07_0729" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0732.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0732_thumb.png" alt="2012-08-07_0732" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0732_001.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0732_001_thumb.png" alt="2012-08-07_0732_001" /></a></p>
+
+<p>You may or may not see the following screen.  As soon as I got the notification that the update was ready I went ahead and installed it, which meant using the work computer, which I haven’t set up my phone on.  It’s good to know that it can be done in this way though.</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0733.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0733_thumb.png" alt="2012-08-07_0733" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0733_001.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0733_001_thumb.png" alt="2012-08-07_0733_001" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0735.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0735_thumb.png" alt="2012-08-07_0735" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0735_001.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0735_001_thumb.png" alt="2012-08-07_0735_001" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0736.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0736_thumb.png" alt="2012-08-07_0736" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0736_001.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0736_001_thumb.png" alt="2012-08-07_0736_001" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0737.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0737_thumb.png" alt="2012-08-07_0737" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0742.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0742_thumb.png" alt="2012-08-07_0742" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0750.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0750_thumb.png" alt="2012-08-07_0750" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0751.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0751_thumb.png" alt="2012-08-07_0751" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0751_001.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0751_001_thumb.png" alt="2012-08-07_0751_001" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0752.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0752_thumb.png" alt="2012-08-07_0752" /></a></p>
+
+<p>With the update completed, I immediately checked the Settings page, and I am very happy to report that the “Internet Sharing” function is now available on my Nokia Lumia 800.  In fact, I am actually away to publish this blog post from my laptop, which is currently tethered to the phone <img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/wlEmoticon-smile.png" alt="Smile" />.</p>
+
+<p>Other features that came along with this update includes:</p>
+
+<ul>
+<li><p>Flip to silence — Silence incoming calls by turning your phone face down.</p></li>
+<li><p>Fix to prevent the volume of the ringtone from temporarily increasing</p></li>
+<li><p>Download new apps from Marketplace, such as camera extras, including smart group shot and self-timer, Contacts share, and Play To, a DLNA app for showing your content wirelessly.</p></li>
+<li><p>Usability and performance improvements</p></li>
+</ul>
+
+
+<p>This update took the Nokia Lumia 800 handset to the following state:</p>
+
+<ul>
+<li><p>OS Version: 7.10.8773.98</p></li>
+<li><p>Firmware revision number: 1750.0805.8773.12220</p></li>
+<li><p>Hardware revision number: 112.1402.2.3</p></li>
+<li><p>Radio software version: 1.7.50.08</p></li>
+<li><p>Radio hardware version: 8225</p></li>
+<li><p>Bootloader version: 7.41.0.0</p></li>
+<li><p>Chip SOC version: 0.74.2.1</p></li>
+</ul>
+
+
+		
+		
+	</div>
+
+</article>
+
+</div>
+<nav id="pagenavi">
+    
+        <a href="4" class="prev">Prev</a>
+    
+    
+        <a href="6" class="next">Next</a>
+    
+    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
+</nav>
+</div>
+			</div>
+			<footer id="footer" class="inner"><p>
+  Copyright &copy; 2014 - gep13 -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+<p>Theme: <a href="https://github.com/qingwang/octopress-theme-yinyang">YinYang</a></p>
+</footer>
+			<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+
+		</div>
+	</div>
+</body>
+</html>

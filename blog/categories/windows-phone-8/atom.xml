@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Windows Phone 8 | gep13's blog]]></title>
+  <link href="http://www.gep13.co.uk/blog/categories/windows-phone-8/atom.xml" rel="self"/>
+  <link href="http://www.gep13.co.uk/"/>
+  <updated>2014-09-02T21:24:11+01:00</updated>
+  <id>http://www.gep13.co.uk/</id>
+  <author>
+    <name><![CDATA[gep13]]></name>
+    <email><![CDATA[gep13@gep13.co.uk]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[BSOD on Windows 8.1 When Using Internet Connection Sharing on Windows Phone 8]]></title>
+    <link href="http://www.gep13.co.uk/blog/bsod-windows-81-using-internet-connection-sharing-windows-phone-8/"/>
+    <updated>2013-11-07T21:16:50+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/bsod-windows-81-using-internet-connection-sharing-windows-phone-8</id>
+    <content type="html"><![CDATA[<h1>But there is a fix&hellip;</h1>
+
+<p>Following the update of my laptop to Windows 8.1, every time I would tether to my Windows Phone 8 using Internet Connection Sharing, I would get a Blue Screen Of Death (BSOD).</p>
+
+<p>[caption id=&ldquo;attachment_2182&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;584&rdquo;]<a href="http://www.gep13.co.uk/blog/bsod-windows-8.1-using-internet-connection-sharing-windows-phone-8/wp_20131025_07_11_25_pro/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/11/WP_20131025_07_11_25_Pro-1024x576.jpg" alt="BSOD when using ICS 1" /></a> BSOD when using ICS 1[/caption]</p>
+
+<p>[caption id=&ldquo;attachment_2181&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;584&rdquo;]<a href="http://www.gep13.co.uk/blog/bsod-windows-8.1-using-internet-connection-sharing-windows-phone-8/wp_20131025_06_56_38_pro/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/11/WP_20131025_06_56_38_Pro-1024x576.jpg" alt="BSOD when using ICS 2" /></a> BSOD when using ICS 2[/caption]</p>
+
+<p>This wouldn&rsquo;t happen if I was connected to a standard wireless connection, it was only when I was using the wireless hot spot which is made available through Internet Connection Sharing on my Windows Phone 8.  After a bit of googling, I turned up this post:</p>
+
+<p><a href="http://gadgets.itwriting.com/1986-fixing-blue-screen-using-internet-connection-sharing-in-windows-phone-8.html#comment-35511">http://gadgets.itwriting.com/1986-fixing-blue-screen-using-internet-connection-sharing-in-windows-phone-8.html#comment-35511</a></p>
+
+<p>Which seemed to explain exactly what I needed to do, however, for the life of me, I couldn&rsquo;t find the dialogue box in Windows 8.1 that would give me access to the FIPS setting to fix the issue.  I asked the author of the blog post if he could help, and happily he was able to, check the comments of the blog post from that information on that.</p>
+
+<p>However, while I was waiting for his reply, I reached out to my friendly neighborhood IT expert, namely <a href="https://twitter.com/MarkLeHuray">Mark Le Huray</a>, who was able to point me in the direction of a command line way of setting the required parameter:</p>
+
+<p><a href="https://twitter.com/MarkLeHuray/status/393664176012267520">https://twitter.com/MarkLeHuray/status/393664176012267520</a></p>
+
+<p>Here &ldquo;ur wireless name&rdquo; is actually the name of the wireless endpoint, i.e. the SSID for the connection.  This is what is displayed in the Internet Sharing page on your windows phone.</p>
+
+<p>Opening the command prompt, and executing this command was all the is required to get rid of the BSOD:</p>
+
+<p>[caption id=&ldquo;attachment_2183&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;677&rdquo;]<a href="http://www.gep13.co.uk/blog/bsod-windows-8.1-using-internet-connection-sharing-windows-phone-8/2013-11-05_0741/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/11/2013-11-05_0741.png" alt="Fixing BSOD by setting FIPS" /></a> Fixing BSOD by setting FIPS[/caption]</p>
+
+<p>Big thanks to Mark for all his help in getting this sorted, and also Tim who pointed me in the right direction!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Battery Life of the Nokia Lumia 920 Really Is Fantastic...]]></title>
+    <link href="http://www.gep13.co.uk/blog/battery-life-nokia-lumia-920-really-fantastic/"/>
+    <updated>2013-10-28T19:47:00+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/battery-life-nokia-lumia-920-really-fantastic</id>
+    <content type="html"><![CDATA[<h1>&hellip;when you turn off all data connections!</h1>
+
+<h1>tl;dr;</h1>
+
+<p>With all the radios and antennas switched off on my Nokia Lumia 920, the battery has lasted from the 28th October through to today, the 7th November.  A total of 11 days!  This has included some fairly solid use, listening to podcasts, audio books and music, as well as using it as my alarm clock.  This is far more than I thought it would last, very impressed.  See the gallery at the end of the post for pictures of how the battery was discharging.  The spikes are when I was syncing the phone with the desktop to grab some new podcasts.</p>
+
+<h1>Now the full story&hellip;</h1>
+
+<p>I recently did a <a href="http://gep13.me/1gbHdfP">blog post</a> about how I started using my old Nokia Lumia 920 as my alternative to both a TomTom and an iPod.  Apart from a couple synchronisation issues between iTunes and the Windows Phone Desktop Application, I am happy to report that this little experiment has been going really well.  I use the phone pretty much every day, listening to podcasts on the commute to work, and music while in the office, and also taking photos/videos of Alivia (that&rsquo;s our new-born baby daughter :-)).</p>
+
+<p>The one thing that has <em>really </em>stood out for me though is the battery life of the Nokia Lumia 920.  As soon as you turn on flight mode, i.e. disabling all the data connections that the phone has to offer (Bluetooth, wi-fi, mobile, etc), the battery quite literally goes for days!  When using my Nokia Lumia 925 as a <em>phone, </em>I am lucky if I can go a day without needing to charge it again.</p>
+
+<p>Today I charged the 920 for what I think is the first time since I made the switch to using this device as my media device, although I think I must have charged it in between, otherwise it would have been over 2 weeks without a charge, which would be a bit of a stretch I think.</p>
+
+<p>Using the <a href="http://www.windowsphone.com/en-gb/store/app/insider/d9b7989e-1592-4f25-a556-4755c06bf2e9">Insider</a> application, it is currently estimating 6 days and 4 hours before the next charge for the Nokia Lumia 920, and 1 day and 2 hours for the Nokia Lumia 925.  See the screenshots below:</p>
+
+<p>[caption id=&ldquo;attachment_2162&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;180&rdquo;]<a href="http://www.gep13.co.uk/blog/battery-life-nokia-lumia-920-really-fantastic.../wp_ss_20131028_0001/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/10/wp_ss_20131028_0001-180x300.jpg" alt="Insider Application running on Nokia Lumia 925" /></a> Insider Application running on Nokia Lumia 925[/caption]</p>
+
+<p>[caption id=&ldquo;attachment_2163&rdquo; align=&ldquo;alignright&rdquo; width=&ldquo;180&rdquo;]<a href="http://www.gep13.co.uk/blog/battery-life-nokia-lumia-920-really-fantastic.../wp_ss_20131028_0001-2/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/10/wp_ss_20131028_0001-180x300.png" alt="Insider Application running on Nokia Lumia 920" /></a> Insider Application running on Nokia Lumia 920[/caption]</p>
+
+<p>I firmly believe that the Nokia Lumia 925 will need charged tomorrow morning, but I am very curious to see how the Nokia Lumia 920 lasts before needing another charge.</p>
+
+<p>In addition, here is a gallery of how the battery was discharging through the 11 days that it was being used.  Very impressive!</p>
+
+<p>[gallery type=&ldquo;rectangular&rdquo; ids=&ldquo;2173,2171,2174,2175,2176,2178,2177&rdquo;]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Windows Phone 8 GDR2 Update Finally Arrives for My Nokia Lumia 925 on the 3 Network]]></title>
+    <link href="http://www.gep13.co.uk/blog/windows-phone-8-gdr2-update-finally-arrives-nokia-lumia-925-3-network/"/>
+    <updated>2013-10-03T20:54:01+01:00</updated>
+    <id>http://www.gep13.co.uk/blog/windows-phone-8-gdr2-update-finally-arrives-nokia-lumia-925-3-network</id>
+    <content type="html"><![CDATA[<p>I am happy to report that the GDR2 update for my Nokia Lumia 925 has finally arrived.  I say finally because it is almost 1 month after it arrived for my wife&rsquo;s phone!  We are not on the same operator, so this is obviously showing the difference in turning around the updates for the Windows Phone eco-system, and it has to be said that this really is a sad state of affairs!  I really hope that this turn around time for pushing out the updates improves, as getting the latest features for my handset is very important to me.  Almost important enough to consider switching mobile phone providers.</p>
+
+<p>Almost 1 month ago, I convinced my wife that she should upgrade her mobile phone to the Nokia Lumia 925.  To my annoyance, one day after receiving the handset, she was prompted that there was an update available for the phone.  I started the update process, which actually consisted of two back to back updates, and after checking, this update was the much rumored <a href="http://winsupersite.com/windows-phone/complete-guide-windows-phone-8-gdr2">GDR2 update</a>.</p>
+
+<p>Following the update, the various version numbers changed as follows:</p>
+
+<table >
+<tbody >
+<tr >
+
+<td >
+</td>
+
+<td >**Original**
+</td>
+
+<td >**First Update**
+</td>
+
+<td >**Second Update**
+</td>
+</tr>
+<tr >
+
+<td >**OS Version:**
+</td>
+
+<td >8.0.10327.0
+</td>
+
+<td >8.0.10327.0
+</td>
+
+<td >8.0.10328.0
+</td>
+</tr>
+<tr >
+
+<td >**Firmware revision number:**
+</td>
+
+<td >3040.0000.1322.2004
+</td>
+
+<td >3040.0005.1323.3004
+</td>
+
+<td >3047.0000.1326.2006
+</td>
+</tr>
+<tr >
+
+<td >**Hardware revision number:**
+</td>
+
+<td >1.0.0.0
+</td>
+
+<td >1.0.0.0
+</td>
+
+<td >1.0.0.0
+</td>
+</tr>
+<tr >
+
+<td >**Radio software version:**
+</td>
+
+<td >3.2.04018.1
+</td>
+
+<td >3.2.04018.1
+</td>
+
+<td >3.2.04028.1
+</td>
+</tr>
+<tr >
+
+<td >**Chip SOC version:**
+</td>
+
+<td >8960
+</td>
+
+<td >8960
+</td>
+
+<td >8960
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Fast forward 1 month, and after a twitter conversation with the support team at 3, which was a little coincidental (by the way, I am not claiming responsibility for getting the update released :-)), the GDR2 update arrived for my phone:</p>
+
+<p><a href="https://twitter.com/gep13/status/384990097176657922">https://twitter.com/gep13/status/384990097176657922</a></p>
+
+<p>One interesting thing is that although the OS version between the two phones is the same, the firmware version numbers are different.  You can see the comparison table between the original and update on my phone below.  Both the firmware revision number, and the radio software version numbers on my phone are higher than on my wife&rsquo;s phone.</p>
+
+<table >
+<tbody >
+<tr >
+
+<td >
+</td>
+
+<td >**Original**
+</td>
+
+<td >**Update**
+</td>
+</tr>
+<tr >
+
+<td >**OS Version:**
+</td>
+
+<td >8.0.10327.0
+</td>
+
+<td >8.0.10328.0
+</td>
+</tr>
+<tr >
+
+<td >**Firmware revision number:**
+</td>
+
+<td >3040.0000.1322.2003
+</td>
+
+<td >3049.0000.1330.0004
+</td>
+</tr>
+<tr >
+
+<td >**Hardware revision number:**
+</td>
+
+<td >1.0.0.0
+</td>
+
+<td >1.0.0.0
+</td>
+</tr>
+<tr >
+
+<td >**Radio software version:**
+</td>
+
+<td >3.2.04018.1
+</td>
+
+<td >3.2.04033.1
+</td>
+</tr>
+<tr >
+
+<td >**Chip SOC version:**
+</td>
+
+<td >8960
+</td>
+
+<td >8960
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>To summarize, in addition to the huge difference in time between pushing out the updates between the mobile phone providers, it also looks like they are choosing to release different updates.  It would be really interesting to find out why they are doing this.  To me, this seem a little bit troubling.  I know the carriers have a right to decide which updates are released to the handsets that they are in charge of, but to go an entire month after one of your competitors releases the update seems very excessive to me.  Let&rsquo;s hope the release process improves with the forthcoming GDR3 update.</p>
+
+<p>You can see a gallery of the screenshots that I took during the update process below.</p>
+
+<p>[gallery type=&ldquo;rectangular&rdquo; ids=&ldquo;2124,2126,2127,2128,2129,2130,2131,2132&rdquo;]</p>
+]]></content>
+  </entry>
+  
+</feed>

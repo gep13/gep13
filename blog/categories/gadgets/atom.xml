@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Gadgets | gep13's blog]]></title>
+  <link href="http://www.gep13.co.uk/blog/categories/gadgets/atom.xml" rel="self"/>
+  <link href="http://www.gep13.co.uk/"/>
+  <updated>2014-09-02T21:24:11+01:00</updated>
+  <id>http://www.gep13.co.uk/</id>
+  <author>
+    <name><![CDATA[gep13]]></name>
+    <email><![CDATA[gep13@gep13.co.uk]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Upgrading the RAM of My Synology DS1512+]]></title>
+    <link href="http://www.gep13.co.uk/blog/upgrading-the-ram-of-my-synology-ds1512/"/>
+    <updated>2013-04-25T13:11:30+01:00</updated>
+    <id>http://www.gep13.co.uk/blog/upgrading-the-ram-of-my-synology-ds1512</id>
+    <content type="html"><![CDATA[<h1>Increasing my Synology DS1512+ RAM to 3GB</h1>
+
+<p>I have to say, I love my <a href="http://www.synology.com/products/product.php?product_name=DS1512%2B">Synology DS1512+</a>!  Out of the box, it comes with 1GB of RAM, which, if you are solely doing file sharing, is more than enough.  However, over the last couple months, I have started doing more and more with my Synology Server:</p>
+
+<ul>
+<li><p>Hosting Web Sites</p></li>
+<li><p>Running a Plex Media Server</p></li>
+<li><p>Backing up to the Cloud using CrashPlan</p></li>
+</ul>
+
+
+<p>As a result, I have noticed that certain things are taking longer than they &ldquo;should&rdquo;.  I decided that I wanted to increase the amount of RAM that is in the device.  Digging around the <a href="http://forum.synology.com/enu/">Synology Forums</a> it was clear that this is possible (with some people reporting that they were able to get 4GB to be recognised), it is just a case of deciding what RAM to go for.</p>
+
+<p>I opted to go for <a href="http://www.amazon.co.uk/gp/product/B0050X1OQ6/ref=oh_details_o00_s00_i00?ie=UTF8&amp;psc=1">this from Amazon</a>, and I am happy to report that it all worked perfectly!  After installing, the RAM was immediately detected, and the Synology Server is running very smoothly.  Definitely recommend the upgrade to anyone who has not yet done it.  Very cheap to do, with a marked improvement in performance.</p>
+
+<p>[caption id=&ldquo;attachment_2046&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;827&rdquo;]<a href="http://www.gep13.co.uk/blog/upgrading-the-ram-of-my-synology-ds1512/2013-04-24_1815/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/04/2013-04-24_1815.png" alt="Synology RAM Upgrade Complete" /></a> Synology RAM Upgrade Complete[/caption]</p>
+
+<h1>Video Help</h1>
+
+<p>If you are unsure about how to complete the memory upgrade, the below YouTube video should help you out:</p>
+
+<p><a href="http://www.youtube.com/watch?v=99snrldv4rI">http://www.youtube.com/watch?v=99snrldv4rI</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[LEGO Mindstorms 8547 Has Arrived!!]]></title>
+    <link href="http://www.gep13.co.uk/blog/lego-mindstorms-have-arrived/"/>
+    <updated>2011-12-07T21:55:34+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/lego-mindstorms-have-arrived</id>
+    <content type="html"><![CDATA[<p>I am happy to say that I am now the proud owner of a <a href="http://www.amazon.co.uk/gp/product/B001V7RF9U/ref=as_li_ss_tl?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B001V7RF9U">LEGO Mindstorms NXT 2.0 8547</a> set.  I <a href="http://www.gep13.co.uk/blog/?p=428">blogged</a> about this set last month, when I was suggesting that it would make an ideal Christmas present for a geek, however, after getting some Amazon vouchers for my birthday, I decided to go ahead and order it.</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/WP_000268.jpg"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/WP_000268_thumb.jpg" alt="WP_000268" /></a></p>
+
+<p>I haven’t had much of a chance to play with it tonight, had a few other things on the go, but I will definitely be playing with this over the Christmas break, and I am really looking forward to it!</p>
+
+<p>With the help of a <a href="http://www.amazon.co.uk/gp/product/1593272162/ref=as_li_ss_tl?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=1593272162">book</a> that I also got for my birthday (thanks Andy!), one of the first things that I will be building is a Rubik Cube Solver.  I have seen lots of videos of this on YouTube, and I honestly think that it is amazing what you can do.</p>
+
+<p>If you haven’t seen this in action, take a look at the video below:</p>
+
+<p>This particular example is not the quickest or smoothest solver of Rubik Cubes, however, it is built with the LEGO pieces that comes with the set that I have, so for that reason, it is as good a place to start as any!</p>
+
+<p>If you are interested in the unboxing and contents of the 8547 set, you can take a look at the photos below.</p>
+
+<table cellpadding="0" cellspacing="0" style="outline: none; border-style: none; margin: 0px; padding: 0px; width: 400px; border-collapse: collapse;" border="0" >
+<tbody >
+<tr >
+
+<td colspan="2" style="outline: none; border-style: none; margin: 0px; padding: 5px 0px 5px 5px; width: 157px; vertical-align: bottom;" >[ ![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/7796298315EE89A6E.png)](https://ib1thw.blu.livefilestore.com/y1piy4apUjqcrlZZKGsSSLa1irrG4r3T7ABpHRdpFy6JTF3iSlhrClRTH2kIUrOIc8erwzGi9WSYdp-gven3hQCQIP0iwDcZ2uq/WP_000278.jpg?psid=1)
+</td>
+
+<td colspan="3" style="vertical-align: middle; margin: 0px; padding: 5px 5px 5px 0px; outline: none; border-style: none; width: 223px;" >
+
+
+
+
+
+[Lego Mindstorms](https://skydrive.live.com/redir.aspx?cid=6d9c069ab691373a&page=browse&resid=6D9C069AB691373A!1502&type=5&Bsrc=Photomail&Bpub=SDX.Photos)
+
+
+
+
+
+<table cellpadding="0" cellspacing="0" style="margin: 0px; padding: 0px; outline: none; border-style: none; border-collapse: collapse; width: auto;" border="0" >
+<tbody >
+<tr >
+
+<td style="vertical-align: top; outline: none; border-style: none; margin: 0px; padding: 10px 15px 6px 0px;" >[VIEW SLIDE SHOW](https://skydrive.live.com/redir.aspx?cid=6d9c069ab691373a&page=play&resid=6D9C069AB691373A!1502&type=5&Bsrc=Photomail&Bpub=SDX.Photos)
+</td>
+
+<td style="vertical-align: top; outline: none; border-style: none; margin: 0px; padding: 10px 0px 6px 0px;" >[DOWNLOAD ALL](https://skydrive.live.com/redir.aspx?cid=6d9c069ab691373a&page=downloadphotos&resid=6D9C069AB691373A!1502&type=5&Bsrc=Photomail&Bpub=SDX.Photos)
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+</td>
+</tr>
+<tr >
+
+<td style="vertical-align: bottom; outline: none; border-style: none; padding: 0px 5px 5px 5px; margin: 0px; width: 76px; height: 76px;" >[![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/13387132207F6FDA20.png)](https://ib1thw.blu.livefilestore.com/y1p8EvKXEGnEzvDEWPynWScSXiswQdcYVT2iDIHYeQkbAonsvIoB8dVrUOQWEi5_jNdm4YcjbbgyJHZRoS3zlj8iQZrj32Permk/WP_000276.jpg?psid=1)
+</td>
+
+<td style="vertical-align: bottom; outline: none; border-style: none; padding: 0px 5px 5px 0px; margin: 0px; width: 76px; height: 76px;" >[![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/268821919186BAA66.png)](https://ib1thw.blu.livefilestore.com/y1pnYATcm55JxXlcai7XbBORdwP2SlFFZGcvV0Q5TexXBRmWHyVIIXKqNsqFFzRaY7H1l14gHNNE4e_LX1B278uQ3Y1rVaHkJND/WP_000284.jpg?psid=1)
+</td>
+
+<td style="vertical-align: bottom; outline: none; border-style: none; padding: 0px 5px 5px 0px; margin: 0px; width: 76px; height: 76px;" >[![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/3117562554658FD1E.png)](https://ib1thw.blu.livefilestore.com/y1p_2cXIPryxE05Z36Wo5BqWHWgAtKOXft6dgWShvsfz4gBP1eOgcGSwys36yrhvViLEoZoF6RMG9Uf9Cky66LQQfluXoc5nRyF/WP_000281.jpg?psid=1)
+</td>
+
+<td style="vertical-align: bottom; outline: none; border-style: none; padding: 0px 5px 5px 0px; margin: 0px; width: 76px; height: 76px;" >[![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/116746118131677AAB.png)](https://ib1thw.blu.livefilestore.com/y1pJx6zwiBHJMqIU8tNyh2ZKdxpFxXePHkOUuxH_zeEPtozw-1OalKeUeqEWI9jCJeWnWeHVRPmvoAqMlzMF0LcPKWy0du0a3Gz/WP_000273.jpg?psid=1)
+</td>
+
+<td style="vertical-align: bottom; outline: none; border-style: none; padding: 0px 5px 5px 0px; margin: 0px; width: 76px; height: 76px;" >[![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/2166366575F54CD63.png)](https://ib1thw.blu.livefilestore.com/y1pEfcRzPTONt121iI4Cb8cn3VKxYW8fW6aUkppHBKupwkLy0R_EyDmRLUq9rbBhFo4od81DNx29ozIMN8qYrfKsdhI68fgkreJ/WP_000280.jpg?psid=1)
+</td>
+</tr>
+<tr >
+
+<td style="vertical-align: bottom; outline: none; border-style: none; padding: 0px 5px 5px 5px; margin: 0px; width: 76px; height: 76px;" >[![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/69698379278509DA8.png)](https://ib1thw.blu.livefilestore.com/y1pAfF35kuWrTz53FMa2aNAOGRYdGjr-sVPT7OG-2D0HbJ0hzXNG5aC3qeungVNOIcfbTZEHQ7QuVYZTQYhe-gAvCDd8jzaDsac/WP_000274.jpg?psid=1)
+</td>
+
+<td style="vertical-align: bottom; outline: none; border-style: none; padding: 0px 5px 5px 0px; margin: 0px; width: 76px; height: 76px;" >[![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/1669598993263DF061.png)](https://ib1thw.blu.livefilestore.com/y1pj8VQh8D0e7nI7khcBCGt9NwPAcsaD4kjnoQqih4IcBiTMUCE6ugtg9D7-eVOq4cpKFkXVEOkR2oLaOJAMQsc-UVKYPlQCDF2/WP_000271.jpg?psid=1)
+</td>
+
+<td style="vertical-align: bottom; outline: none; border-style: none; padding: 0px 5px 5px 0px; margin: 0px; width: 76px; height: 76px;" >[![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/1327466256114C6DEE.png)](https://ib1thw.blu.livefilestore.com/y1piy4apUjqcrkROr56EnRavJbwrCnJI7wuNUq9N0rBO-3MRzh9ArywIwBh0jKyj60B6059OnehX6iCuy8xYMbU75rFhrAJcct-/WP_000277.jpg?psid=1)
+</td>
+
+<td style="vertical-align: bottom; outline: none; border-style: none; padding: 0px 5px 5px 0px; margin: 0px; width: 76px; height: 76px;" >[![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/686410053F39C0A6.png)](https://ib1thw.blu.livefilestore.com/y1pCDP6Ab8lFUaWqpRn5VNKPTSXP48qICrmhvijliUuEVnWZXgYvBKW6cqNO41rqyLA9n8JW1ixpPDxZJlAcsA9Jmm9mpIQqErw/WP_000270.jpg?psid=1)
+</td>
+
+<td style="vertical-align: bottom; outline: none; border-style: none; padding: 0px 5px 5px 0px; margin: 0px; width: 76px; height: 76px;" >[![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/1077684084583590EB.png)](https://ib1thw.blu.livefilestore.com/y1pkPNpj35euwt3qfxLOkdW_VZzravdQE8CsZAX5OYdZNbMU5uhEy0LL6PQNivveZrW74bKxst1kLqeJcMXxjfCUFJHNQUpTQtQ/WP_000279.jpg?psid=1)
+</td>
+</tr>
+<tr >
+
+<td style="vertical-align: bottom; outline: none; border-style: none; padding: 0px 5px 5px 5px; margin: 0px; width: 76px; height: 76px;" >[![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/2230138430622E3A4.png)](https://ib1thw.blu.livefilestore.com/y1pj8VQh8D0e7lWzVIdPB9YijSyuoS_d3vaohY7DaHmhjvuZsEKZ5-VZ-M79kx4TQH3U_kqHw3LdyLDaBEOL9DIUwZ2K_Snggt7/WP_000272.jpg?psid=1)
+</td>
+
+<td style="vertical-align: bottom; outline: none; border-style: none; padding: 0px 5px 5px 0px; margin: 0px; width: 76px; height: 76px;" >[![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/21864366771316130.png)](https://ib1thw.blu.livefilestore.com/y1paIVcsh4u71JKFByUI7iObsrwdLg_BGOtCRezAsTlqhQ3Fr-VHnfZBovOcYTly8SyBXoCDDif0Ka14qGFSePktmzSXAhHwS6v/WP_000268.jpg?psid=1)
+</td>
+
+<td style="vertical-align: bottom; outline: none; border-style: none; padding: 0px 5px 5px 0px; margin: 0px; width: 76px; height: 76px;" >[![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/6625608491F1EB3E9.png)](https://ib1thw.blu.livefilestore.com/y1p-xuXjINH8HyeDYvu_taUwKVTxEyar2pMmhpXVppNCBrP4_OSt160aBLKR8POBWe-Q0p48z6vuI7WUytoGP51RyZfcBqMDf-e/WP_000269.jpg?psid=1)
+</td>
+
+<td style="vertical-align: bottom; outline: none; border-style: none; padding: 0px 5px 5px 0px; margin: 0px; width: 76px; height: 76px;" >[![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/1713478291381A842E.png)](https://ib1thw.blu.livefilestore.com/y1pmus8Lkin59ISUORO_kAj0-3hyVAEoh2Lc-cGLncg5A4CPLXyYLs-Zj3aD26SM_wi-ACZod4bUe9G1RuKFcF1HNl_ciJpzLHC/WP_000283.jpg?psid=1)
+</td>
+
+<td style="vertical-align: bottom; outline: none; border-style: none; padding: 0px 5px 5px 0px; margin: 0px; width: 76px; height: 76px;" >[![View album](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/1408567586607D6E6.png)](https://ib1thw.blu.livefilestore.com/y1p8EvKXEGnEzsTbfliC6KVC59Ih3AY95KOAwy_QHFHB30Golj87oLCC8tIkVsho_C8vuEl0eZKHpF5Q_OsDCcFjfUktPl46lc_/WP_000275.jpg?psid=1)
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I Have Kindle Envy…]]></title>
+    <link href="http://www.gep13.co.uk/blog/i-have-kindle-envy/"/>
+    <updated>2011-10-12T12:19:13+01:00</updated>
+    <id>http://www.gep13.co.uk/blog/i-have-kindle-envy</id>
+    <content type="html"><![CDATA[<p>Back in February, I bought myself a <a href="http://www.amazon.co.uk/gp/product/B002LVUWFE/ref=as_li_ss_tl?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B002LVUWFE">Kindle</a> and I blogged about it <a href="http://www.gep13.co.uk/blog/?p=93">here</a>. I have been very happy with it, and through some cracking deals at the likes of <a href="http://oreilly.com/">O’Reilly</a> and <a href="http://www.manning.com/">Manning Publications</a> I now have an extensive set of technical books on the Kindle. Now all I need is time to read them all <img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/10/wlEmoticon-smile1.png" alt="Smile" />.</p>
+
+<p>So, what is the problem?</p>
+
+<p><a href="http://www.amazon.co.uk/gp/product/B0051QVF7A/ref=as_li_ss_il?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B0051QVF7A"><img src="http://ws.assoc-amazon.co.uk/widgets/q?_encoding=UTF8&amp;Format=_SL110_&amp;ASIN=B0051QVF7A&amp;MarketPlace=GB&amp;ID=AsinImage&amp;WS=1&amp;tag=www6thprimeco-21&amp;ServiceVersion=20070822" alt="" /></a><img src="http://www.assoc-amazon.co.uk/e/ir?t=www6thprimeco-21&amp;l=as2&amp;o=2&amp;a=B0051QVF7A" alt="" /></p>
+
+<p>Well, a colleague at work has just bought the new shiny <a href="http://www.amazon.co.uk/gp/product/B0051QVF7A/ref=as_li_ss_tl?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B0051QVF7A">Kindle</a>, pictured to the left, and I am jealous <img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/10/wlEmoticon-sadsmile1.png" alt="Sad smile" />. It is a cracking piece of kit. In terms of screen real estate, it is exactly the same as the Kindle that I have, but the lack of the physical keyboard and smaller bevel around the outside, means that it is a much smaller device, and also lighter.</p>
+
+<p>I thought that the lack of physical keyboard would bother me, but realistically, the only time that I use the keyboard is to enter the password to unlock the device, and that is it. Although a little bit of a pain to navigate an on-screen keyboard with the directional pad, it isn’t the end of the world.</p>
+
+<p>So now the next question, do I flog my Kindle on eBay and get a new one? Or do I wait and see when the Kindle Touch will land in the UK? Do I even need touch screen for the Kindle? Questions, Questions Questions!</p>
+
+<p>Anyone want an older model Kindle?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Enough Is Enough! Time to Get Fit!]]></title>
+    <link href="http://www.gep13.co.uk/blog/enough-is-enough-time-to-get-fit/"/>
+    <updated>2011-10-10T17:09:21+01:00</updated>
+    <id>http://www.gep13.co.uk/blog/enough-is-enough-time-to-get-fit</id>
+    <content type="html"><![CDATA[<p>Once upon a time, I used to actually be quite a fit and healthy guy. I did a lot of running, competed in a 10K, and went on a trek along the Great Wall of China. However, recently, all of that seems to have been forgotten and replaced with little or no exercise, and bad eating habits!</p>
+
+<p>Well, all of that has got to change! I am now officially on a diet, and back at the gym.</p>
+
+<p><a href="http://www.amazon.co.uk/gp/product/B000FMQ296/ref=as_li_ss_il?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B000FMQ296"><img src="http://ws.assoc-amazon.co.uk/widgets/q?_encoding=UTF8&amp;Format=_SL110_&amp;ASIN=B000FMQ296&amp;MarketPlace=GB&amp;ID=AsinImage&amp;WS=1&amp;tag=www6thprimeco-21&amp;ServiceVersion=20070822" alt="" /></a></p>
+
+<p><img src="http://www.assoc-amazon.co.uk/e/ir?t=www6thprimeco-21&amp;l=as2&amp;o=2&amp;a=B000FMQ296" alt="" /></p>
+
+<p>This new endeavour wouldn’t be the same unless there was a least some amount of technology involved, so let me present to you the <a href="http://www.amazon.co.uk/gp/product/B000FMQ296/ref=as_li_ss_tl?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B000FMQ296">Garmin Forerunner 305</a>. This little beauty, which is both a Heart Rate Monitor (via a chest strap) and GPS Recorder, is going to help me track how well/badly I am improving.</p>
+
+<p>Quite simply this device “just works”. I have used it twice now, once to go for a hike up <a href="http://connect.garmin.com/activity/119878884#.TpBlRXjlwVE.twitter">Bennachie</a> and the other a simple walk around the <a href="http://connect.garmin.com/activity/120403009#.TpLNirc41VE.facebook">village</a>. And both times it has tracked me perfectly, with one exception when it claimed that my heart rate was 135% of my maximum heart rate, but I think that this was due to the chest strap not being tight enough.</p>
+
+<p>Following these “tests” I will then be using the device to track the workouts that I do at the gym. Mostly this will be on the treadmill doing a Cardio Workout, but I will also be doing some interval training on the bike (not looking forward to that <img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/10/wlEmoticon-sadsmile.png" alt="Sad smile" />).</p>
+
+<p><a href="http://www.amazon.co.uk/gp/product/B000UO61HC/ref=as_li_ss_il?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B000UO61HC"><img src="http://ws.assoc-amazon.co.uk/widgets/q?_encoding=UTF8&amp;Format=_SL110_&amp;ASIN=B000UO61HC&amp;MarketPlace=GB&amp;ID=AsinImage&amp;WS=1&amp;tag=www6thprimeco-21&amp;ServiceVersion=20070822" alt="" /></a><img src="http://www.assoc-amazon.co.uk/e/ir?t=www6thprimeco-21&amp;l=as2&amp;o=2&amp;a=B000UO61HC" alt="" /></p>
+
+<p>One thing that I think I will add is the <a href="http://www.amazon.co.uk/gp/product/B000UO61HC/ref=as_li_ss_tl?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B000UO61HC">Garmin Foot Pod</a> which I can use when I am running indoors, where the GPS is essentially useless.</p>
+
+<p>All in all, I am looking forward to getting back to the same level of fitness that I once had, and as an incentive, I am looking into competing in the <a href="http://www.wildheartsinaction.org/santa_run">Aberdeen Santa Run</a>, I just need to convince some work colleagues/friends that this is a good idea <img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/10/wlEmoticon-smile.png" alt="Smile" /></p>
+
+<p>Before deciding on the <a href="http://www.amazon.co.uk/gp/product/B000FMQ296/ref=as_li_ss_tl?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B000FMQ296">ForeRunner 305</a>, I looked at a number of other devices, including the <a href="http://www.amazon.co.uk/gp/product/B003EGC47Y/ref=as_li_ss_tl?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B003EGC47Y">ForeRunner 110</a> and the <a href="http://www.amazon.co.uk/gp/product/B0025UHKNS/ref=as_li_ss_tl?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B0025UHKNS">ForeRunner 405CX</a>, but I decided that although a little bit “clunkier”, the 305 offered more options in terms of display, so for me, it was the better choice.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[These Things Are Addictive…]]></title>
+    <link href="http://www.gep13.co.uk/blog/these-things-are-addictive/"/>
+    <updated>2011-08-22T20:21:13+01:00</updated>
+    <id>http://www.gep13.co.uk/blog/these-things-are-addictive</id>
+    <content type="html"><![CDATA[<p>I don’t know about you, but I am the kind of person that when I am thinking things through, I have to be “playing” with something.</p>
+
+<p>If I am in front of the whiteboard, this normally ends with me doodling a picture, as I am the kind of person who thinks in pictures. If not in front of the whiteboard, I normally end up twirling a pen in my fingers. I find that this type of thing helps me concentrate, and focus on the problem at end. Although, I am aware that this can be slightly annoying to some of my colleagues, so there are times when make a conscious effort of trying to not do it.</p>
+
+<p><a href="http://www.amazon.co.uk/gp/product/B002F7NTM2/ref=as_li_ss_il?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B002F7NTM2"><img src="http://ws.assoc-amazon.co.uk/widgets/q?_encoding=UTF8&amp;Format=_SL110_&amp;ASIN=B002F7NTM2&amp;MarketPlace=GB&amp;ID=AsinImage&amp;WS=1&amp;tag=www6thprimeco-21&amp;ServiceVersion=20070822" alt="" /></a>A couple years back, as part of a Christmas present, I was given a set of <a href="http://www.amazon.co.uk/gp/product/B002F7NTM2/ref=as_li_ss_tl?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B002F7NTM2">Singing Magnets</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=&amp;l=as2&amp;o=2&amp;a=B002F7NTM2" alt="" />, and these were a great help in focusing the mind. However, I found that these could be quite noisy, and distracting for other people in the office, so I have had to put these away.</p>
+
+<p>Enter the new contender to the “mind focusing” realm….</p>
+
+<p><a href="http://www.amazon.co.uk/gp/product/B004F86J76/ref=as_li_ss_il?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B004F86J76"><img src="http://ws.assoc-amazon.co.uk/widgets/q?_encoding=UTF8&amp;Format=_SL110_&amp;ASIN=B004F86J76&amp;MarketPlace=GB&amp;ID=AsinImage&amp;WS=1&amp;tag=www6thprimeco-21&amp;ServiceVersion=20070822" alt="" /></a>A set of <a href="http://www.amazon.co.uk/gp/product/B004F86J76/ref=as_li_ss_tl?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B004F86J76">Magnetic Neodymium Cube Puzzle Balls</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=&amp;l=as2&amp;o=2&amp;a=B004F86J76" alt="" />. 216 separate magnetic balls that when constructed in the correct way form a perfect 6x6 cube.</p>
+
+<p>I was introduced to these from a colleague at work, who also has a set. My Project Manager can’t understand why, but I find these very useful on a day to day basis, both in terms of focusing the mind, as well as a stress relief mechanism. The 216 balls can also be formed into a string, and as I am thinking about a problem I find myself working these around my hands. In addition, taking a couple minutes away from a problem to form the 6x6 cube helps to de-stress.</p>
+
+<p>If like me to need to be “playing” with something to help you think, I would highly recommend these.</p>
+]]></content>
+  </entry>
+  
+</feed>

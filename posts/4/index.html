@@ -1,0 +1,1558 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>gep13&#8217;s blog</title>
+	<meta name="author" content="gep13">
+
+	
+	<meta name="description" content="How to Install MySQL Workbench What is MySQL Workbench MySQL Workbench provides DBAs and developers an integrated tools environment for: - Database &hellip;">
+	
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/feed" rel="alternate" title="gep13's blog" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://www.gep13.co.uk/posts/4/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- Cookie Consent -->
+<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
+
+<!-- Pure CSS -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><nav id="main-nav"><ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/adnuguk">ADNUGUK</a></li>
+</ul>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		<a class="facebook" href="http://www.facebook.com/gary.e.park" title="Facebook">Facebook</a>
+		
+		
+		<a class="google" href="https://plus.google.com/+GaryEwanPark" rel="author" title="Google+">Google+</a>
+		
+		
+		<a class="twitter" href="http://twitter.com/gep13" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/gep13" title="GitHub">GitHub</a>
+		
+		
+		
+		<a class="linkedin" href="http://www.linkedin.com/in/gep13">LinkedIn</a>
+		
+		
+		
+		<a class="delicious" href="http://delicious.com/gep13" title="Delicious">Delicious</a>
+		
+		
+		
+		<a class="rss" href="/feed" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+<div class="profile-container">
+  <div class="profilepic">
+    <script src="/javascripts/md5.js"></script>
+    <script type="text/javascript">
+$(function(){
+  $('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("gep13@gep13.co.uk") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+});
+    </script>
+  </div>
+  <hgroup>
+  <h1 class="site-title"><a href="/">gep13&#8217;s blog</a></h1>
+  
+  <p class="site-subtitle">Ramblings and Ponderings of a Microsoft Fan Boy&#8230;</p>
+  
+  </hgroup>
+  
+</div>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="article-inner">
+<div itemscope itemtype="http://schema.org/Blog">
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/how-to-install-mysql-workbench/" itemprop="url">How to Install MySQL Workbench</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>What is MySQL Workbench</h1>
+
+<blockquote>MySQL Workbench provides DBAs and developers an integrated tools environment for:
+
+- Database Design & Modeling
+
+- SQL Development (replacing MySQL Query Browser)
+
+- Database Administration (replacing MySQL Administrator)</blockquote>
+
+
+<p>If you want to find out more information about MySQL Workbench, you can find it <a href="http://www.mysql.com/downloads/workbench/">here</a>.</p>
+
+<h1>Installation Steps</h1>
+
+<p><strong>NOTE: </strong>The following installation steps and screenshots were taken from a virtual machine   with Windows Server 2008 R2 Service Pack 1, running in Hyper-V on a Windows 8 Host Machine.</p>
+
+<ol>
+<li><p> <a href="http://gep13.me/S8ZnDT">Install chocolatey nuget</a></p></li>
+<li><p> Open PowerShell as an Administrator</p>
+
+<ol>
+<li><p>Hit the Start button</p></li>
+<li><p>Type &ldquo;PowerShell&rdquo;</p></li>
+<li><p>Right click on the &ldquo;Windows PowerShell&rdquo; icon</p></li>
+<li><p>Click &ldquo;Run as administrator&rdquo;</p></li>
+</ol>
+</li>
+<li><p> Type &ldquo;cinst vcredist2010&rdquo; and press the enter key</p></li>
+<li><p> The installation of the Visual C++ 2010 Redistributable will begin</p></li>
+<li><p> The installation will complete</p></li>
+<li><p> Type &ldquo;cinst mysql.workbench&rdquo;</p></li>
+<li><p> The installation of MySQL Workbench will begin</p></li>
+<li><p> The installation will complete</p></li>
+</ol>
+
+
+<p>You can see screenshots of each of these steps in the galley at the bottom of this blog post.</p>
+
+<h1>Post Installation Checks</h1>
+
+<p>There should be a new application installed on your computer, trying opening it to make sure that everything worked correctly.</p>
+
+<ol>
+<li><p> Hit the Start button</p></li>
+<li><p> Type &ldquo;workbench&rdquo;</p></li>
+<li><p> Click on the &ldquo;MySQL Workbench&rdquo; icon</p></li>
+<li><p> MySQL Workbench should open</p></li>
+</ol>
+
+
+<h1>Installation Screenshots</h1>
+
+<p>[gallery ids=&ldquo;1746,1765,1766,1767,1759,1760,1761&rdquo;]</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/how-to-install-mysql-community-server/" itemprop="url">How to Install MySQL Community Server</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>What is MySQL Community Server?</h1>
+
+<blockquote>MySQL Community Edition is the freely downloadable version of the world&#8217;s most popular open source database. It is available under the GPL license and is supported by a huge and active community of open source developers.</blockquote>
+
+
+<p>If you want to find out more information about MySQL Community Server, you can find it <a href="http://www.mysql.com/products/community/">here</a>.</p>
+
+<h1>Installation Steps</h1>
+
+<p><strong>NOTE: </strong>The following installation steps and screenshots were taken from a virtual machine   with Windows Server 2008 R2 Service Pack 1, running in Hyper-V on a Windows 8 Host Machine.</p>
+
+<ol>
+<li><p> <a href="http://gep13.me/S8ZnDT">Install chocolatey nuget</a></p></li>
+<li><p> Open PowerShell as an Administrator</p>
+
+<ol>
+<li><p>Hit the Start button</p></li>
+<li><p>Type &ldquo;PowerShell&rdquo;</p></li>
+<li><p>Right click on the &ldquo;Windows PowerShell&rdquo; icon</p></li>
+<li><p>Click &ldquo;Run as administrator&rdquo;</p></li>
+</ol>
+</li>
+<li><p> Type &ldquo;cinst mysql&rdquo; and press the &ldquo;Enter&rdquo; key</p></li>
+<li><p> The installation of MySQL Community Server will begin</p></li>
+<li><p> The installation will complete</p></li>
+</ol>
+
+
+<p>You can see screenshots of each of these steps in the galley at the bottom of this blog post.</p>
+
+<h1>Post Installation Checks</h1>
+
+<p>The installation of MySQL Community Server will have added a new Windows Service, you can verify that this is there, and started by doing the following:</p>
+
+<ol>
+<li><p> Hit the Start button</p></li>
+<li><p> Type &ldquo;services.msc&rdquo; and press enter</p></li>
+<li><p> In the window that opens up, scroll until to see MySQL</p></li>
+<li><p> Verify that this service is started.</p></li>
+</ol>
+
+
+<h1>Installation Screenshots</h1>
+
+<p>[gallery ids=&ldquo;1746,1747,1748,1749,1745,1744&rdquo;]</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/how-to-install-chocolatey-nuget/" itemprop="url">How to Install Chocolatey Nuget</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>Time to get chocolatey&hellip;</h1>
+
+<p>If you are not already familiar with <a href="http://chocolatey.org/">chocolatey nuget</a>, let me give you a brief introduction.</p>
+
+<blockquote>&#8220;Chocolatey NuGet is a Machine Package Manager, somewhat like apt-get, but built with Windows in mind.&#8221;</blockquote>
+
+
+<p>What does this mean?  It means that once you have chocolatey nuget installed, you can easily install applications (packages), that are stored in the chocolatey gallery, with a single command.  What&rsquo;s more, if these packages are ever updated, you can update them on your machine using, again, a single command.</p>
+
+<p>If you want to find out more information about chocolatey nuget you can browse the available packages <a href="http://chocolatey.org/packages">here</a>, read the documentation <a href="https://github.com/chocolatey/chocolatey/wiki">here</a>, and ask questions on the forum <a href="https://groups.google.com/forum/?fromgroups#!forum/chocolatey">here</a>.</p>
+
+<h1>Installation Steps</h1>
+
+<p><strong>NOTE: </strong>The following installation steps and screenshots were taken from a virtual machine   with Windows Server 2008 R2 Service Pack 1, running in Hyper-V on a Windows 8 Host Machine.</p>
+
+<ol>
+<li><p> Open a Command Prompt as Administrator</p>
+
+<ol>
+<li><p>Hit the Start button</p></li>
+<li><p>Type &ldquo;cmd&rdquo;</p></li>
+<li><p>Right click on the &ldquo;cmd&rdquo; icon</p></li>
+<li><p>Click &ldquo;Run as administrator&rdquo;</p></li>
+</ol>
+</li>
+<li><p> Enter the following command (you can simply copy/paste this command) and then press the &ldquo;Enter&rdquo; key:</p></li>
+</ol>
+
+
+<blockquote>@powershell -NoProfile -ExecutionPolicy unrestricted -Command &#8220;iex ((new-object net.webclient).DownloadString(&#8216;http://chocolatey.org/install.ps1&#8217;))&#8221; && SET PATH=%PATH%;%systemdrive%\chocolatey\bin</blockquote>
+
+
+<ol>
+<li><p> The installation of chocolatey will begin</p></li>
+<li><p> The installation will complete</p></li>
+</ol>
+
+
+<p>You can see screenshots of each of these steps in the gallery at the bottom of this blog post.</p>
+
+<h1>What has the installation done</h1>
+
+<p>Once the installation is complete you will notice a few immediate changes on your computer.</p>
+
+<ol>
+<li><p> Chocolatey will have added a number of folders/files to the root of your c:\ drive.</p></li>
+<li><p> Chocolatey will have added some environment variables to allow the commands that is provides work</p></li>
+</ol>
+
+
+<h1>Post Installation Checks</h1>
+
+<p>To verify that verify is working correctly:</p>
+
+<ol>
+<li><p> Open PowerShell as an Administrator (not strictly required, but a good habit to get into)</p>
+
+<ol>
+<li><p>Hit the Start button</p></li>
+<li><p>Type &ldquo;PowerShell&rdquo;</p></li>
+<li><p>Right click on the &ldquo;Windows PowerShell&rdquo; icon</p></li>
+<li><p>Click &ldquo;Run as administrator&rdquo;</p></li>
+</ol>
+</li>
+<li><p> Type &ldquo;chocolatey help&rdquo;</p></li>
+<li><p> If everything is working correctly, you should get some output confirming the version of chocolatey nuget installed, as well as some information about it.</p></li>
+</ol>
+
+
+<h1>Installation Screenshots</h1>
+
+<p>[gallery ids=&ldquo;1727,1728,1729,1730,1732,1731,1737,1734&rdquo;]</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/2012-my-year-in-review/" itemprop="url">2012 - My Year in Review</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>2012, what happened?</h1>
+
+<p>In the same way that I did a <a href="http://gep13.me/U9X0O1">review of my year in 2011</a>, I have decided to do the same thing again for 2012.</p>
+
+<h1>What I said I was going to do</h1>
+
+<p>The below is what I &ldquo;said&rdquo; I was going to do in 2012.  I will refer back to this in this post to see whether I actually achieved any of this or not.</p>
+
+<blockquote>Looking forward into 2012, there will mainly be more of the same as above.  Following [the principles](http://www.gep13.co.uk/blog/?p=313) that I took from Mark Rendle’s talk at DDD South West I will be looking to improve myself as a developer, but I also hope to break into doing talks at some of these community events, rather than simply attending them.  This will be a big step for me, but something that I am very much looking forward to.
+
+I will be continuing to blog next year as well, however, I am looking to writing much more technical blog posts.  I have learnt a lot this year from all the talks that I have attended, and I am looking to implement these technologies in a number of pet projects.  I will be blogging the trials and tribulations that I have along the way, which will hopefully help other people.</blockquote>
+
+
+<h1>Getting involved in the Development Community</h1>
+
+<p>2012 saw the <a href="http://aberdeendevelopers.co.uk/">Aberdeen Developers .Net User Group</a> continue growing.  We partnered with Scottish Developers in order to bring a number of big names to Scotland, including <a href="http://gep13.me/Rnkws5">Sebastien Lambla</a>, <a href="http://gep13.me/U9U441">Matt Lacey</a>, and of course who can forget <a href="http://gep13.me/U9VWJU">Scott Hanselman</a>.  This year also saw me become a <a href="http://gep13.me/ZPhQbK">Committee Member of Scottish Developers</a>, and these partnership events at set to continue into 2013.</p>
+
+<p>I attended a number of Developer Events this year, including <a href="http://gep13.me/xYEALH">Windows Azure Bootcamp</a>, <a href="http://gep13.me/U9WP5n">Windows Phone 7 Bootcamp</a>, <a href="http://gep13.me/VhBYfB">DevWeek</a>, <a href="http://gep13.me/Vpe5Ch">DDD South West</a>, and <a href="http://gep13.me/WbMxQx">DDD North</a>.  I very much enjoyed each of these events, and with the exception of DevWeek, each of these events were completely free!  If you are interested in getting involved in some of these events, I would strongly recommend it, they are well worth attending!</p>
+
+<p>Following on from my attendance at <a href="http://gep13.me/Rno3a0">GiveCamp UK</a>, Daniel Elliot (<a href="https://twitter.com/agileguy">@agileguy</a>) continued to support <a href="http://theyoucanhub.org.uk/">TheYouCanHub</a>.  This saw us move their hosting onto a Virtual Private Server, provided by Dan, and also numerous changes to their site.  This support is going to continue into 2013 as time allows.</p>
+
+<h1>From a personal stand point</h1>
+
+<p>I was able to fully break into the speaking circuit, doing talks at both <a href="http://gep13.me/WfOcEW">DDD South West</a> and <a href="http://gep13.me/U9WU94">DDD North</a>.  I was really happy with the feedback that I got from both of these talks, and this has encouraged me to continue doing more talks in 2013.</p>
+
+<p>I went on a <a href="http://gep13.me/RoM9RF">Photography Course</a> that I was given as a birthday present.  I had a really good day out, and although I learned a lot, I realised that I still have a lot to learn!</p>
+
+<p>I enjoyed a really good round of golf at the newly created <a href="http://gep13.me/UFCZks">Trump International Scotland</a>, Donald Trump&rsquo;s new Golf Course.  We got a great day for playing golf, and I even managed to birdie one of the par 5&rsquo;s on the course!</p>
+
+<p>I had to say goodbye to an <a href="http://gep13.me/RoB8Qj">old friend</a> in the form of my beloved Ford Focus, but happily this was replaced with a new Ford Focus.</p>
+
+<p>I had an amazing day out at the <a href="http://gep13.me/Ua1d49">Phoenix Falconry Centre</a>, so much so that I have booked myself on another day out which will be happening in either January or February of this year.  Really looking forward to it!  I will post some photos once I have been on it.</p>
+
+<p>With the help of Paul Stack (<a href="https://twitter.com/stack72">@stack72</a>), a Windows Phone 7 application called TeamCity Metro came into being.  We released <a href="http://www.gep13.co.uk/blog/windows-phone-application/teamcity-metro/teamcitymetro-v1.0.0.0/">Version 1.0.0.0</a>, quickly followed by <a href="http://www.gep13.co.uk/blog/windows-phone-application/teamcity-metro/teamcity-metro-v-1.1.0.0/">Version 1.1.0.0</a>.  There are plans to make this into a Windows Phone 8 application as well, but that will be time dependent.</p>
+
+<p>I am happy to say that my wife was able to put up with me, and we celebrated our second Wedding Anniversary.</p>
+
+<p>I started using <a href="http://gep13.me/WbOKeJ">Windows 8 and Office 2013</a>, and I really like them!  I also treated myself to a Windows Surface RT and also upgraded to the Nokia Lumia 920.</p>
+
+<p>At the very end of 2012, I got involved in exposing a scam on the internet in the form of the <a href="http://gep13.me/Rnmt88">WP Discovery Twitter account</a>.  I am very happy to say that this scam account which was trying to collect people&rsquo;s personal information has now been shut down.</p>
+
+<h1>So, did I do what I said I was going to?</h1>
+
+<p>With the exception of the more technical focused blogging, I think that I have been able to meet the goals that I set out at the start of the year.</p>
+
+<h1>Looking forward to 2013</h1>
+
+<p>Looking forward into 2013, I am aiming to continue doing what I have been doing this year. I hope to continue doing developer talks, and I am looking forward to attending the various DDD events across the UK, and also helping to organise them in my new role with Scottish Developers.  I am looking forward to bringing more technical talks to the people in Aberdeen, with the help of Aberdeen Developers.</p>
+
+<p>Last year, I aimed to start a number of pet projects which would help to develop my technical abilities, however, an important project at work took up a lot of my spare time, and I am hoping to continue/start those pet projects in 2013.</p>
+
+<p>And that, as they say, is that!  I hope you all had a great 2012, and here&rsquo;s to 2013!</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/stats-for-my-blog-in-2012/" itemprop="url">Stats for My Blog in 2012</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>What were the stats?</h1>
+
+<p>Last year around this time, I wrote a blog post about the stats for my blog in 2011, you can see this blog post <a href="http://www.gep13.co.uk/blog/stats-for-my-blog-in-2011/">here</a>.</p>
+
+<p>It is now time to see what the stats were for 2012 and compare these to the previous years stats.</p>
+
+<p>First up, what does Google Analytics have to say about it:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/stats-for-my-blog-in-2012/google_analytics_results/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/Google_Analytics_Results-1024x408.png" alt="Google_Analytics_Results" /></a></p>
+
+<p>Highlights being:</p>
+
+<ul>
+<li><p>7,616 Visits (an increase of 3,134 on last year)</p></li>
+<li><p>6,252 Unique Visitors (an increase of 3,23 on last year)</p></li>
+<li><p>10,485 Pageviews (an increase of 3,284 on last year)</p></li>
+<li><p>1.38 Pages/Visit (a decrease of 0.23 on last year)</p></li>
+<li><p>00:01:42 Avg. Time on Site (a decrease of 00:00:07 on last year)</p></li>
+<li><p>72.87% Bounce Rate (a decrease of 2.59% on last year)</p></li>
+<li><p>80.53% % of New Visits (an increase of 13.66% on last year)</p></li>
+</ul>
+
+
+<p>Overall, I am really happy with these results.  I spent a lot more time working on the blog this year, and I am pleased to see an increase in traffic to the blog.</p>
+
+<p>Thanks again to the amazing <a href="http://wordpress.org/extend/plugins/jetpack/">Jetpack plugin for WordPress</a>, I am able to share some more stats:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/stats-for-my-blog-in-2012/crunchy_numbers_from_jetpack/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/Crunchy_Numbers_from_Jetpack.png" alt="Crunchy_Numbers_from_Jetpack" /></a></p>
+
+<p>My top 5 blog posts were:</p>
+
+<ul>
+<li><p><a href="http://www.gep13.co.uk/blog/scott-hanselman-doing-user-group-tour-of-scotland/">Scott Hanselman doing user group tour of Scotland</a></p></li>
+<li><p><a href="http://www.gep13.co.uk/blog/sebastien-lambla-on-tour/">Sebastien Lambla on tour</a></p></li>
+<li><p><a href="http://www.gep13.co.uk/blog/uk-developer-events-for-2012/">UK Developer Events for 2012</a></p></li>
+<li><p><a href="http://www.gep13.co.uk/blog/use-the-cloud9-online-ide-to-hack-on-wordpress/">Use the Cloud9 Online IDE to hack on WordPress</a></p></li>
+<li><p><a href="http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank/">DDD attendance leaderboard, where do you rank?</a></p></li>
+</ul>
+
+
+<p>In 2012, there were actually 28 posts fewer than in 2011.  However, the busy day increased to 410 views, compared to 279 views in 2011.</p>
+
+<p>The keen-eyed amongst you will notice that 93 (the total number of posts at the end of 2011) plus, the total number of posts of 2012 which was 53, does not equal the total number of posts at the end of 2012 which was 229.  The reason for this is that during 2012, I copied some blog posts from an older incarnation of the gep13 blog, and added them here.</p>
+
+<p>If you are interested in seeing the full report from Jetpack, you can find it <a href="http://jetpack.me/annual-report/23095201/2012/">here</a>.</p>
+
+<h1>Happy New Year</h1>
+
+<p>Finally, just wanted to wish everyone a Happy New Year, and all the best for 2013!</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/what-is-going-on-with-wp-discovery/" itemprop="url">What Is Going on With WP Discovery?</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>WP Discovery - Is it all a scam?</h1>
+
+<h1>tl;dr</h1>
+
+<p>I am happy to wait and see - but I&rsquo;ve seen no evidence to suggest it&rsquo;s <strong>NOT</strong> fake.  It all seems like an attempt to gain a large number of followers, to try to earn money.</p>
+
+<p><strong>Update</strong></p>
+
+<p>The WP Discovery Twitter account has now been closed as a result of legal action between Blockfall and WP Discovery.  This was WP Discovery&rsquo;s last tweet on the subject before their account was closed.</p>
+
+<p><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_ss_20130101_0004/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_ss_20130101_0004.jpg" alt="wp_ss_20130101_0004" /></a></p>
+
+<p>So to me, it looks as though it was all a scam, and to the best of my knowledge, no Nokia Lumia&rsquo;s, or Surfaces, or anything else, was given away by WP Discovery.</p>
+
+<h1>The full story&hellip;</h1>
+
+<p>In case you haven&rsquo;t been following what is going on over on Twitter, there is a growing concern that the Twitter Account for WP Discovery (<a href="https://twitter.com/wp_discovery">@wp_discovery</a>) is a scam.  For the last few days, perhaps as long as a week, they have been tweeting that they have various pieces of technology to give away.  Including things like Windows Surface RT&rsquo;s, Nokia Lumia 920&rsquo;s, and HTC 8x&rsquo;s, as well as other devices.  All you have to do is follow them, and retweet their tweets, and you are in with a chance to win.</p>
+
+<p>This type of competition on Twitter is not new, and I have been involved in several of them.  I even got a free Office 365 t-shirt from one of them.</p>
+
+<p>However, I personally have been starting to think that these giveaways are a little bit too good to be true.  And it is not just me that thinks that this is a scam.  Tom Warren (<a href="https://twitter.com/tomwarren">@tomwarren</a>), Senior Editor at the Verge, tweeted this today:</p>
+
+<p><a href="https://twitter.com/tomwarren/status/285021015434735616">https://twitter.com/tomwarren/status/285021015434735616</a></p>
+
+<p>It was also noted by Phil Jones (<a href="https://twitter.com/philjones88">@philjones88</a>) that the photo of the Surface that are being given away here:</p>
+
+<p><a href="https://twitter.com/wp_discovery/status/284824914849038336">https://twitter.com/wp_discovery/status/284824914849038336</a></p>
+
+<p><strong>NOTE: </strong>This used to link to a full status update from WP Discovery where they were showing two Windows Surface RT&rsquo;s that they were going to be &ldquo;giving away&rdquo;.  This image in question looked like this:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/surfaces_to_give_away/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/Surfaces_to_give_away.png" alt="Surfaces_to_give_away" /></a></p>
+
+<p>is exactly the same as the Surfaces that are being sold in this <a href="http://www.ebay.com/itm/NEW-SEALED-MICROSOFT-SURFACE-32GB-WINDOWS-8-RT-BLACK-TOUCH-COVER-BUNDLE-/121007189503">eBay auction</a>.</p>
+
+<p><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/ebay_auction_for_surfaces/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/Ebay_auction_for_Surfaces.png" alt="Ebay_auction_for_Surfaces" /></a></p>
+
+<p>Now, you could argue that both decided to use the same picture, but surely, if you had a Surface to give away, right in front of you, you would take a picture of the actual devices, right?  WP Discovery later suggested that this is where they had purchased the Surfaces that they were going to be giving away, that is why the pictures were the same.</p>
+
+<p>My suspicions were made even greater when I actually received a DM from WP Discovery.  In the space of 5-10 minutes, I received 3 DM&rsquo;s from them.  They went as follows:</p>
+
+<p>DM Number 1:</p>
+
+<blockquote>Hi. Ready four your DM? :)</blockquote>
+
+
+<p>DM Number 2:</p>
+
+<blockquote>Please reply in 2min. Since our script runs by itself to choose another winner instead. It&#8217;s your Surface man!</blockquote>
+
+
+<p>DM Number 3:</p>
+
+<blockquote>Sorry. You did not respond. We are picking a new one now</blockquote>
+
+
+<p>(NOTE: You will see a screenshot of these DM&rsquo;s below in the gallery)</p>
+
+<p>Now, I don&rsquo;t know about you, but I don&rsquo;t spend every waking minute on Twitter, and notifications from the Windows Phone application that I use takes a while to come through,  so needless to say, I wasn&rsquo;t able to reply within 2 minutes.  I am not sure that anyone would be able to.  Now, you could argue that this was just my bad luck, and good luck to the next guy, but if this were a legitimate competition then surely the DM that I sent back in response would have been answered.  However, it has now been over 6 hours since I DM&#8217;ed them, and I have not had any response from them.</p>
+
+<p>What are your thoughts?  Let me know in the comments below.</p>
+
+<p>I am still tempted to give these guys the benefit of the doubt, but when you see unanswered tweets like this from Scott Hanselman (<a href="https://twitter.com/shanselman">@shanselman</a>)</p>
+
+<p><a href="https://twitter.com/shanselman/status/285080261434175489">https://twitter.com/shanselman/status/285080261434175489</a></p>
+
+<p>you have to wonder what is going on.  If there were just some more visibility about what is going on, and what the &ldquo;rules&rdquo; of the giveaway are, then I think that a lot more people would be willing to believe that this is on the &ldquo;up and up&rdquo;.</p>
+
+<h1>Where to get help</h1>
+
+<p>If you are in a position where you have handed over personal information, and you are worried what will happen to it, there are some places that you can go.  Here are a list of the ones that I know about, and I will update this list as I become aware of others:</p>
+
+<ul>
+<li><p><a href="http://econsumer.gov/">International Consumer Protection and Enforcement Network</a></p></li>
+<li><p><a href="http://www.ic3.gov/default.aspx">Internet Crime Complaint Center (IC3)</a></p></li>
+</ul>
+
+
+<p>And of course, you can also block and mark the WP Discovery account.  This will raise the problem with Twitter themselves, and push them to investigate the problem.</p>
+
+<p>Also, take a look at this <a href="http://www.craigmurphy.com/blog/?p=5586">blog post</a> from Craig Murphy, it has some tips on what to look for if something sounds to good to be true!</p>
+
+<h1>Other Bloggers</h1>
+
+<p>Other people who are covering this story can be found here:</p>
+
+<ul>
+<li><p><a href="http://unleashthephones.com/2012/12/30/editorial-lies-damned-lies-and-the-promise-of-free-gadgets/">Editorial: Lies, Damned Lies, and the Promise of Free Gadgets</a></p></li>
+<li><p><a href="http://landoftechnology.com/2012/rising-awareness-the-great-wp_discovery-giveaway/">Raising Awareness: The Great @wp_discovery Giveaway</a></p></li>
+<li><p><a href="http://stopmalvertising.com/spam-scams/warning-the-great-wp_discovery-giveaway.html">Warning: The Great @wp_discovery Giveaway</a></p></li>
+<li><p><a href="http://www.craigmurphy.com/blog/?p=5586">Free stuff: If it sounds too good to be true&hellip;</a></p></li>
+</ul>
+
+
+<h1>Update 1</h1>
+
+<p>Just read a great article on <a href="http://unleashthephones.com/">Unleash The Phones</a> about why WP Discovery exhibit all the traits of a scam giveaway.  Check it out <a href="http://unleashthephones.com/2012/12/30/editorial-lies-damned-lies-and-the-promise-of-free-gadgets/?utm_source=feedburner&amp;utm_medium=twitter&amp;utm_campaign=Feed%3A+ZomgItsCj+%28UnleashThePhones+-+Mobile+Phone+News%2C+Reviews+and+More%29">here</a>.</p>
+
+<p>Also, remember to check out the comments below for some interesting addendum&#8217;s from the guys at WP Discovery.</p>
+
+<h1>Update 2</h1>
+
+<p>Since writing this blog post, I have been contacted by both WP Discovery, and by <a href="http://areon-development.de/">Areon Development</a>, the company behind the BlockFall game ( a game that WP Discovery seemed to be promoting).  They would like to make it clear that they are in no way connected to WP Discovery, and any promoting of Blockfall done by WP Discovery was done without the knowledge of Areon.  Areon Development have just posted a new blog onto their site, which you can find <a href="http://areon-development.de/?p=183">here</a>.  It reiterates that they are completely independent.</p>
+
+<h1>Update 3</h1>
+
+<p>Seems like last night was a busy night for WP Discovery.  They decided to ask all of their followers to ask them any questions that they might have about the competition.  This led to a number of questions about how it all works, what&rsquo;s involved, etc.  WP Discovery seemed to try to answer all of these questions (including some from me) and their answers didn&rsquo;t do anything to alleviate my concerns.  Some of their responses, and actions, were nothing if not outright rude.  I have begun capturing some screenshots of these conversations, as WP Discovery have a habit of deleting tweets.  If you have any screenshots that you would like to add to this gallery, then feel free to get in touch.</p>
+
+<p>As requested in the comments below, you will see a screenshot of the DM&rsquo;s that I received from WP Discovery.  This was actually quite hard to find.  They no longer exist on the Twitter Website when I log in.  I can only assume that this is a result of WP Discovery blocking me, or something like this.  Lucky, I had them on my phone, which has a local cache of all the items that I have downloaded.</p>
+
+<h1>Update 4</h1>
+
+<p>Looks like a new Twitter account has been created called WP Discovery is Fake, you can find it <a href="https://twitter.com/WPDiscoveryFAKE">here</a>.  For the record, I had nothing to do with setting up this account.</p>
+
+<p><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/2012-12-31_2017/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/2012-12-31_2017.png" alt="2012-12-31_2017" /></a></p>
+
+<h1>Update 5</h1>
+
+<p>Thanks to Jesse Leskinen (<a href="https://twitter.com/jessenic">@jessenic</a>), I have just been given some screenshots to a DM exchange between him and WP Discovery.  This exchange shows Jesse actually winning the prize, but then WP Discovery backing out.  Check out these screenshots in the gallery below.  This is looking more and more like a scam.  Let me know what you think.</p>
+
+<h1>Update 6</h1>
+
+<p>Thanks to Miguel Avila (<a href="https://twitter.com/iMusice">@iMusice</a>) we have another DM conversation where WP Discovery have backed out of giving prizes.  Keep them coming! The more evidence that can be collected the better.</p>
+
+<h1>Update 7</h1>
+
+<p>Looks like there is now another &ldquo;parody&rdquo; account for WP Discovery been created.  This time in the form of George Patel (<a href="https://twitter.com/wp_discovery_pr">@wp_discovery_pr</a>).  The profile image and logo for the account are very similar to those of WP Discovery, but it does clearly say in the profile for the account that it is a parody account.</p>
+
+<p><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/2012-12-31_1450/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/2012-12-31_1450.png" alt="2012-12-31_1450" /></a></p>
+
+<h1>Update 8</h1>
+
+<p>I have just added another screenshot which confirms that WP Discovery were in fact following Jenna Kelly, which is something that they out right denied.  If nothing else, this proves that they are not honest.</p>
+
+<h1>Update 9</h1>
+
+<p>Yet another screenshot added, this time from Jeff Dunn (<a href="https://twitter.com/Jeff_Dunn">@Jeff_Dunn</a>).  More evidence of WP Discovery trying to gather positive ratings and feedback for applications in the Marketplace.</p>
+
+<h1>Update 10</h1>
+
+<p>Seems like another spoof account of WP Discovery has now popped up, this time in the form of WP Discovery (<a href="https://twitter.com/wp_discovery_">@wp_discovery_</a>), notice the extra underscore at the end of the name.  They have clearly identified themselves as a &ldquo;parody&rdquo; account, but just be careful, as looking at their feed, they seem to be taking the &ldquo;mick&rdquo; but some comments are dubious.  I would personally advise that you stay away from this account.  Again, for the record, I had nothing to do with setting up this account.</p>
+
+<p><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/2012-12-31_2007/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/2012-12-31_2007.png" alt="2012-12-31_2007" /></a></p>
+
+<h1>Update 11</h1>
+
+<p>I have added some links that I have seen in both the comments below, and on Twitter to where you can get help if you have inadvertently given out your personal information.  If anyone knows of additional sites to give to people, let me know and I will get them added to the main body of the blog post.</p>
+
+<h1>Update 12</h1>
+
+<p>Looks like more people are becoming aware of this issue.  Kimberly, over at <a href="http://stopmalvertising.com/">StopMalvertising</a> at written an excellent blog post of this topic.  You can find it <a href="http://stopmalvertising.com/spam-scams/warning-the-great-wp_discovery-giveaway.html">here</a>.  I have also added this to the list of bloggers in the main blog post.  I would strongly recommend that you add StopMalvertising to your RSS Feed Reader of choice, lots of interesting information there!</p>
+
+<h1>Update 13</h1>
+
+<p>WP Discovery decided that they should take it upon themselves to warm people about the &ldquo;other&rdquo; fake accounts associated with WP Discovery.  I laughed out loud (lol&#8217;ed for all you cool kids) when I first saw this!</p>
+
+<p><strong>NOTE:</strong> This screenshot was taken on Tuesday 1st January at the time shown in the screenshot, 17:02 GMT.</p>
+
+<p><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/p__7e89/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/P__7E89.jpg" alt="P__7E89" /></a></p>
+
+<h1>Update 14</h1>
+
+<p>Changes seem to be afoot..  Craig Murphy (<a href="https://twitter.com/CAMURPHY">@CAMURPHY</a>) has noticed that WP Discovery are starting to delete all the tweets from their time line.</p>
+
+<p><a href="https://twitter.com/CAMURPHY/status/286234160664813571">https://twitter.com/CAMURPHY/status/286234160664813571</a></p>
+
+<p>As a result, I have had to update the text in the main blog post, as I had some links to tweets that no longer exist.</p>
+
+<h1>Update 15</h1>
+
+<p>After deleting all the tweets from their timeline, WP Discovery then left a single tweet on their timeline.  This Tweet changed after about 30 minutes though.  What is shown below are the two different tweets.</p>
+
+<p><strong>NOTE:</strong> These screenshots were taken on Tuesday 1st January at the time shown in the screenshot, 22:21 and  23:10 GMT respectively</p>
+
+<p><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_ss_20130101_0002/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_ss_20130101_0002.jpg" alt="wp_ss_20130101_0002" /></a><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_ss_20130101_0004/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_ss_20130101_0004.jpg" alt="wp_ss_20130101_0004" /></a>.</p>
+
+<h1>Update 16</h1>
+
+<p>I have created a Twitter List of all the accounts that seemed to be caught up in the WP Discovery Incident.  NOTE: Some of these will be innocent by-standers in what WP Discovery were up to, but I have included all the ones that I was made aware of.  You can find this list <a href="https://twitter.com/gep13/wp-discovery-incident/members">here</a>.  If I have missed anyone, then please get in touch.</p>
+
+<h1>Update 17</h1>
+
+<p>Shortly after the above, Blockfall, the game that WP Discovery seemed to be advertising got in contact to say that they had written a <a href="http://areon-development.de/?p=191">blog post</a> on the subject.  The tweets that they sent out are shown below:</p>
+
+<p><strong>NOTE:</strong> These screenshots were taken on Tuesday 1st January at the time shown in the screenshot, 23:12 GMT.</p>
+
+<p><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_ss_20130101_0006/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_ss_20130101_0006.jpg" alt="wp_ss_20130101_0006" /></a><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_ss_20130101_0005/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_ss_20130101_0005.jpg" alt="wp_ss_20130101_0005" /></a></p>
+
+<p>These tweets linked to the <a href="http://areon-development.de/">Areon Development Website</a>, where they had created a <a href="http://areon-development.de/?p=191">blog post</a> on the topic, indicating that they had been in direct contact with WP Discovery, and had resulted in getting WP Discovery closed down.  In a short space of time, the blog post had changed slightly.  Both versions can be seen below:</p>
+
+<h2>The Original Version</h2>
+
+<p><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_discovery_old/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_discovery_old.jpg" alt="wp_discovery_old" /></a></p>
+
+<h2>The Updated version:</h2>
+
+<p><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_discovery2/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_discovery2.jpg" alt="wp_discovery2" /></a></p>
+
+<h1>Update 18</h1>
+
+<p>Craig Murphy (<a href="https://twitter.com/CAMURPHY">@CAMURPHY</a>) has written an excellent blog post on the subject of WP Discovery, focusing on what has happened, and what you can do to prevent yourself getting caught up in something like this again.  I recommend that you take a look at it.  You can find it <a href="http://www.craigmurphy.com/blog/?p=5586">here</a>.</p>
+
+<h1>Update 19</h1>
+
+<p>People seem to be getting the message.  I am happy to say that the number of followers that WP Discovery have seems to be finally going down.  See the following two screenshots:</p>
+
+<p><strong>NOTE:</strong> These screenshots were taken on Tuesday 1st January at the time shown in the screenshot, 23:25 and  23:37 GMT respectively</p>
+
+<h1><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_ss_20130101_0007/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_ss_20130101_0007.jpg" alt="wp_ss_20130101_0007" /></a><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_ss_20130101_0008/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_ss_20130101_0008.jpg" alt="wp_ss_20130101_0008" /></a></h1>
+
+<h1></h1>
+
+<p>Remember, at one point, WP Discovery had over 10000 followers.  Within the 12 minutes that elapsed in the screenshots above, WP Discovery also stopped following the 40 people that they had been following.</p>
+
+<h1>Update 20</h1>
+
+<p>Blockfall seem to have been very busy, they have posted to a PDF in which they show the communication history between themselves and WP Discovery.  They tweeted the existence of this PDF here:</p>
+
+<p><a href="https://twitter.com/Blockfall/status/286263981256105984">https://twitter.com/Blockfall/status/286263981256105984</a></p>
+
+<p>In case this tweet goes away (Blockfall suggested already that they may delete it to stop spambots, you can see it here:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/2013-01-02_1156/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/2013-01-02_1156.png" alt="2013-01-02_1156" /></a></p>
+
+<p>The linked PDF can be found <a href="http://areon-development.de/press/AREON_LD00131.pdf">here</a>.</p>
+
+<h1>Update 21</h1>
+
+<p>I am VERY happy to announce that the WP Discovery Twitter account has now been closed!</p>
+
+<p><a href="http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/2013-01-02_1133/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/2013-01-02_1133.png" alt="2013-01-02_1133" /></a></p>
+
+<h1>Collection of screenshots of WP Discovery activity</h1>
+
+<p>[gallery ids=&ldquo;1651,1650,1646,1680,1647,1648,1649,1664,1665,1666,1667,1669,1671,1663,1672,1683&rdquo;]</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/blog-is-now-hosted-on-a-new-server/" itemprop="url">Blog Is Now Hosted on a New Server</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p>I hope that everyone has had a great Christmas, and are looking forward to celebrating at New Year.</p>
+
+<p>In the downtime since finishing up work before Christmas, I have been working my way through my to do list, and one of them was to update the WordPress system that hosts this blog.  In doing so, it became clear that there were some &ldquo;issues&rdquo; with the WordPress installation which was hosted with my Web Host.  I tried for some while to get this resolved, and wasn&rsquo;t able to.  In the end, I decided to move the hosting of this WordPress blog to my own Virtual Private Server, that I have through <a href="http://tagadab.com/">Tagadab</a> (thanks again to <a href="http://twitter.com/agileguy">@agileguy</a> for the recommendation!).</p>
+
+<p>This transfer has now been completed, and from what I can see, the blog seems to working correctly.  If you find any issues, then please feel free to get in touch, and I will get them corrected.</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/ddd-north-2-getting-started-with-caliburnmicro/" itemprop="url">DDD North 2 – Getting Started With Caliburn.Micro and Windows Phone 7</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>My Caliburn.Micro Talk at DDD North 2</h1>
+
+<p>On Saturday 13th October 2012, I did a talk entitled &ldquo;Getting Started with Caliburn.Micro and Windows Phone 7&rdquo;. If you attended the session, and are interested in seeing either the slide deck, or the source code for the presentation, you can find this information below. If you did attend, let me say thank you very much, and I very much hope you enjoyed it!</p>
+
+<h1>The Code</h1>
+
+<p>All the demonstrations that I did during the presentation can be found on my GitHub account <a href="https://github.com/gep13/CaliburnMicroDemos">here</a>. I have created wiki pages for each demonstration that talk you through how to complete the demo, you can find them <a href="https://github.com/gep13/CaliburnMicroDemos/wiki">here</a>.</p>
+
+<h1>The Slides</h1>
+
+<p>A full copy of the slides that were used on the day can be found as an attachment to this post, and you can see a preview of them below:</p>
+
+<p>[slideshare id=28938116&amp;doc=gettingstartedwithcaliburn-131205143747-phpapp01]</p>
+
+<h1>Feedback</h1>
+
+<p>Since I am still reasonably new to doing public speaking, I would welcome any additional feedback that anyone has on my talk. If you have any comments about what I did wrong, what I did right, what could be improved upon etc, I would be very grateful to hear them.</p>
+
+<p>[wpdm_file id=4]</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/ddd-attendance-leaderboard-where-do-you-rank/" itemprop="url">DDD Attendance Leaderboard, Where Do You Rank?</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p>On the reverse of the DDD North 2 Speaker and Helper t-shirts, Andy Westgarth (<a href="http://twitter.com/apwestgarth">@apwestgarth</a>) had compiled a list of all the DDD events, starting back on the 15th May 2005.</p>
+
+<p>The complete list is:</p>
+
+<table cellpadding="2" width="400" cellspacing="0" border="0" >
+<tbody >
+<tr >
+
+<td width="200" valign="top" >**Event Name**
+</td>
+
+<td width="200" valign="top" >**Event Date**
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD North 2
+</td>
+
+<td width="200" valign="top" >13th October 2012
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Reading 10
+</td>
+
+<td width="200" valign="top" >1st September 2012
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Sydney 3
+</td>
+
+<td width="200" valign="top" >30th June 2012
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Melbourne 3
+</td>
+
+<td width="200" valign="top" >28th July 2012
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD South West 4
+</td>
+
+<td width="200" valign="top" >26th May 2012
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Brisbane
+</td>
+
+<td width="200" valign="top" >26th November 2011
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DunDDD 2
+</td>
+
+<td width="200" valign="top" >10th November 2011
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD North 1
+</td>
+
+<td width="200" valign="top" >8th October 2011
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Belfast 2
+</td>
+
+<td width="200" valign="top" >1st October 2011
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Adelaide
+</td>
+
+<td width="200" valign="top" >16th July 2011
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Sydney 2
+</td>
+
+<td width="200" valign="top" >2nd July 2011
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD South West 3
+</td>
+
+<td width="200" valign="top" >11th June 2011
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Melbourne 2
+</td>
+
+<td width="200" valign="top" >28th May 2011
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Scotland 4
+</td>
+
+<td width="200" valign="top" >7th May 2011
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Reading 9
+</td>
+
+<td width="200" valign="top" >29th January 2011
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DunDDD 1
+</td>
+
+<td width="200" valign="top" >20th November 2010
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >* Modern .Net Day (DDD 8a)
+</td>
+
+<td width="200" valign="top" >23rd October 2010
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Dublin
+</td>
+
+<td width="200" valign="top" >9th October 2010
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >* Windows Phone 7
+</td>
+
+<td width="200" valign="top" >7th October 2010
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Sydney 1
+</td>
+
+<td width="200" valign="top" >2nd July 2010
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD South West 2
+</td>
+
+<td width="200" valign="top" >5th June 2010
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Melbourne 1
+</td>
+
+<td width="200" valign="top" >15th May 2010
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Scotland 3
+</td>
+
+<td width="200" valign="top" >8th May 2010
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Reading 8
+</td>
+
+<td width="200" valign="top" >30th January 2010
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD South West 1
+</td>
+
+<td width="200" valign="top" >23rd May 2009
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Scotland
+</td>
+
+<td width="200" valign="top" >2nd May 2009
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >* WebDD 2009
+</td>
+
+<td width="200" valign="top" >18th April 2009
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Belfast 1
+</td>
+
+<td width="200" valign="top" >4th April 2009
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Reading 7
+</td>
+
+<td width="200" valign="top" >22nd November 2008
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Scotland 1
+</td>
+
+<td width="200" valign="top" >10th May 2008
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Galway
+</td>
+
+<td width="200" valign="top" >3rd May 2008
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Reading 6
+</td>
+
+<td width="200" valign="top" >24th November 2007
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Reading 5
+</td>
+
+<td width="200" valign="top" >30th June 2007
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >WebDD 2007
+</td>
+
+<td width="200" valign="top" >3rd February 2007
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Reading 4
+</td>
+
+<td width="200" valign="top" >2nd December 2006
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Reading 3
+</td>
+
+<td width="200" valign="top" >3rd June 2006
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Reading 2
+</td>
+
+<td width="200" valign="top" >22nd October 2005
+</td>
+</tr>
+<tr >
+
+<td width="200" valign="top" >DDD Reading 1
+</td>
+
+<td width="200" valign="top" >15th May 2005
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<ul>
+<li>These events were not included in the list when first posted to this site.</li>
+</ul>
+
+
+<p>We got to talking about this before and during the pre-conference dinner, and there was a wide ranging number of actual attendances, to the total number of 34 DDD events.  My own personal attendance count is 6, having really only started in the Developer Community in 2010.  However, on speaking to Chris Alcock (@<a href="https://twitter.com/calcock">calcock</a>) he explained that be had attended an amazing 17 of the DDD events!  This got me thinking about how many other people had attended, hence this blog post.  Let me know how many you have attended and I will get you added to the leader board below.  Who will turn out to be the winner?  Maybe Craig Murphy?  Phil Winstanley?  Dave Sussman? Guy Smith-Ferrier? Who knows!  I will keep you posted when I hear from people.</p>
+
+<p><a href="https://twitter.com/RossDScott">Ross Scott</a>8</p>
+
+<table cellpadding="2" width="362" cellspacing="0" border="0" >
+<tbody >
+<tr >
+
+<td width="199" valign="top" >Name
+</td>
+
+<td width="161" valign="top" >Number of Events attended
+</td>
+</tr>
+<tr >
+
+<td width="220" valign="top" >[Guy Smith-Ferrier](http://twitter.com/guysmithferrier)
+</td>
+
+<td width="169" valign="top" >25
+</td>
+</tr>
+<tr >
+
+<td width="220" valign="top" >[Craig Murphy](http://twitter.com/camurphy)
+</td>
+
+<td width="169" valign="top" >23
+</td>
+</tr>
+<tr >
+
+<td width="220" valign="top" >[Colin Mackay](http://twitter.com/colinmackay)
+</td>
+
+<td width="169" valign="top" >22
+</td>
+</tr>
+<tr >
+
+<td width="220" valign="top" >[Dave Sussman](https://twitter.com/DaveSussman)
+</td>
+
+<td width="169" valign="top" >22
+</td>
+</tr>
+<tr >
+
+<td width="220" valign="top" >[Liam Westley](https://twitter.com/westleyl)
+</td>
+
+<td width="169" valign="top" >18
+</td>
+</tr>
+<tr >
+
+<td width="220" valign="top" >[Andrew Westgarth](http://twitter.com/apwestgarth)
+</td>
+
+<td width="169" valign="top" >17
+</td>
+</tr>
+<tr >
+
+<td width="220" valign="top" >[Chris Alcock](http://twitter.com/calcock)
+</td>
+
+<td width="169" valign="top" >17
+</td>
+</tr>
+<tr >
+
+<td width="220" valign="top" >[Andy Gibson](http://twitter.com/ARGibson)
+</td>
+
+<td width="169" valign="top" >16
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[John McLoughlin](https://twitter.com/Imaji)
+</td>
+
+<td width="172" valign="top" >13
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Nathan Gloyn](https://twitter.com/nathangloyn)
+</td>
+
+<td width="172" valign="top" >13
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Tom Robinson](https://twitter.com/tjrobinson)
+</td>
+
+<td width="172" valign="top" >11
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Paul Stack](https://twitter.com/stack72)
+</td>
+
+<td width="172" valign="top" >9
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Phil Collins](https://twitter.com/fatherfil)
+</td>
+
+<td width="172" valign="top" >9
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Rory Becker](https://twitter.com/RoryBecker)
+</td>
+
+<td width="172" valign="top" >9
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Alastair Smith](https://twitter.com/alastairs)
+</td>
+
+<td width="172" valign="top" >6
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Richard Dalton](https://twitter.com/richardadalton)
+</td>
+
+<td width="172" valign="top" >6
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Joel Hammond-Turner](https://twitter.com/rammesses)
+</td>
+
+<td width="172" valign="top" >8
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Phil Pursglove](https://twitter.com/philpursglove)
+</td>
+
+<td width="172" valign="top" >8
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Adrian Banks](https://twitter.com/adrianbanks)
+</td>
+
+<td width="172" valign="top" >6
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Gary Ewan Park](https://twitter.com/gep13)
+</td>
+
+<td width="172" valign="top" >6
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[James Murphy](https://twitter.com/recumbent)
+</td>
+
+<td width="172" valign="top" >6
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Niall Merrigan](https://twitter.com/nmerrigan)
+</td>
+
+<td width="172" valign="top" >5
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Craig Nicol](https://twitter.com/craignicol)
+</td>
+
+<td width="172" valign="top" >4
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Peter Shaw](https://twitter.com/shawty_ds)
+</td>
+
+<td width="172" valign="top" >3
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Colin B](https://twitter.com/sacs)
+</td>
+
+<td width="172" valign="top" >2
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Gareth Bradley](https://twitter.com/garfbradaz)
+</td>
+
+<td width="172" valign="top" >2
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Hermit Dave](https://twitter.com/hermitdave)
+</td>
+
+<td width="172" valign="top" >2
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Richard Garside](https://twitter.com/_richardg)
+</td>
+
+<td width="172" valign="top" >2
+</td>
+</tr>
+<tr >
+
+<td width="225" valign="top" >[Sebastian Liszka](https://twitter.com/seblis27)
+</td>
+
+<td width="172" valign="top" >2
+</td>
+</tr>
+</tbody>
+</table>
+
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name"><a href="/blog/my-impressions-of-ddd-north-2/" itemprop="url">My Impressions of DDD North 2</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>All in all, a very good conference</h1>
+
+<p>This was my first DDD North that I had attended. I wasn&rsquo;t able to make it last year due to prior commitments, but I really wanted to attend this year based on all the good feedback that I had heard about last year.</p>
+
+<p>In addition, in the same way that I submitted a session for <a href="http://www.gep13.co.uk/blog/feedback-from-stylecop-presentation-at-dddsw/">DDD South West</a>, I also decided to submit some <a href="http://www.gep13.co.uk/blog/sessions-that-i-have-submitted-for-ddd-north-2012/">sessions</a> for DDD North. Luckily my session on Caliburn.Micro was selected for inclusion in the agenda. This was going to be the first time that I had spoken on Caliburn.Micro, and I was really looking forward to giving the session.</p>
+
+<p>Overall, DDD North 2 went very well! I have to say a huge congratulations to the organisers, and helpers, they put on a great conference, and they should be very proud of themselves. I think the only thing that might be viewed in a negative light was the queue at the registration desk, however, this was due in part to everyone seemingly arriving at the same time. Everything else, the sessions, the venue, the food, the prizes, were all very good. Congratulations to everyone involved.</p>
+
+<p>One really nice touch at this year&rsquo;s event was the speaker t-shirts. Printed on the back of the t-shirts is a list of all the DDD events that have happened both in the UK and further afield. I am wondering whether this new tradition is going to continue in future events.  You can see the back of the t-shirt below:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/my-impressions-of-ddd-north-2/wp_000313/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/WP_000313-768x1024.jpg" alt="" /></a></p>
+
+<p>This led to an interesting question about how many DDD Events you had attended, which led me to make this <a href="http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank/">blog post</a>, hopefully we will find who has attended the most DDD Events.</p>
+
+<p>As is always the case, community events such as this are a great opportunity to catch up with people. I am happy to say that I have been able to put a few more faces to twitter handles, and I had a great time chatting to various people at both the pre-conference dinner, as well as the geek dinner after the conference itself.</p>
+
+<p>If you have never attended a DDD event before, then as I have said before, you definitely want to start. They are great events run by the community, for the community!</p>
+
+<h1>First session</h1>
+
+<p>I had planned to ahead the Mike Taulty talk on Windows 8, however, when I got to the speaker room in the morning, I found that I wasn&rsquo;t able to RDP into my Hyper-V VM that I was using for my demos later on in the morning. I then spend half an hour stressing about what I was going to do, until someone suggested that I speak to Liam Westley (<a href="https://twitter.com/westleyl">@westleyl</a>). After a quick SOS on Twitter, Liam came to the rescue and helped me get my VM up and running again. Thanks again for all your help!</p>
+
+<h1>Second session</h1>
+
+<p>Although there were a number of talks that I would have liked to have seen in this second session, notably Guy Smith-Ferrier (<a href="https://twitter.com/guysmithferrier">@GuySmithFerrier</a>) talking on Roslyn Refactorings, I decided my time would be better spent preparing from my own session.</p>
+
+<h1>Third session</h1>
+
+<p><strong>Presenter:</strong> Gary Ewan Park</p>
+
+<p><strong>Topic: </strong>Getting Started with Caliburn.Micro and Windows Phone 7</p>
+
+<blockquote>Getting started with the Windows Phone 7 Development Platform is relatively simple, however, using a Framework like Caliburn.Micro takes away some of the more mundane tasks, and allows you to focus on what you are trying to achieve. In this session we will start with a blank Windows Phone 7 project, and start to create our first Windows Phone 7 application using features such as:
+
+> 
+> <blockquote>
+
+>> 
+>> 
+    
+>>   * ActionMessages
+>> 
+    
+>>   * Action Conventions
+>> 
+    
+>>   * Binding Conventions
+>> 
+    
+>>   * Navigation Service
+>> 
+    
+>>   * The Bootstrapper
+>> 
+    
+>>   * The IPhoneService
+>> 
+    
+>>   * Tombstoning
+>> 
+    
+>>   * Lauchers and Choosers
+>> 
+    
+>>   * The IWindowManager
+>> 
+
+</blockquote>
+> 
+> 
+</blockquote>
+
+
+<p><strong>Thoughts: </strong>Since this was my first time doing this talk, I was a little nervous, so I felt that I got off to a bit of a ropey start, but I would like to think that I pulled it together at the end. I will be interested to take a look at the speaker feedback when it is released. I did end up running slightly over time, which meant that I had to pull one demo from the presentation. However, all of the major topics that make Caliburn.Micro a great framework to use were covered, and I am hoping that the people who attended my session got a lot out of it. I would like to say a big thank you to those who did attend the session. I will be posting the slides from the presentation to this blog in the next couple days, so if you are interested to take a look, you are more than welcome, and I would welcome any feedback.</p>
+
+<h1>Grok Talks</h1>
+
+<p>As has now become custom at DDD events, there were a series of Grok Talks presented during lunch. I was able to catch the majority of <a href="http://twitter.com/hermitdave">Hermit Dave&rsquo;s</a> grok on using Windows 8 for development, but I wasn&rsquo;t able to stick around for any of the other ones. I was hungry, so went to get some food, which was very good J</p>
+
+<h1>Fourth session</h1>
+
+<p><strong>Presenter:</strong> Matt Lacey (<a href="https://twitter.com/mrlacey">@mrlacey</a>)</p>
+
+<p><strong>Topic: </strong>Introducing Windows Phone 8</p>
+
+<blockquote>There&#8217;s a new version of Windows Phone coming. But what does this mean for developers?</blockquote>
+
+
+
+
+<blockquote>What&#8217;s new?</blockquote>
+
+
+
+
+<blockquote>What&#8217;s changed?</blockquote>
+
+
+
+
+<blockquote>How do you upgrade an existing Windows Phone 7.x app?</blockquote>
+
+
+
+
+<blockquote>How do you support WP7.x & WP8 with one codebase?</blockquote>
+
+
+
+
+<blockquote>How do you develop for Windows Phone and Windows 8?</blockquote>
+
+
+
+
+<blockquote>Come to this session for the answers to all these questions and many more! ;)</blockquote>
+
+
+<p><strong>Thoughts:</strong> I have to say that I got a lot out of Matt&rsquo;s session, there was a lot of information contained within his presentation. For instance, I wasn&rsquo;t aware that support for XNA was not going to appear in Windows Phone 8. This instead is going to be replaced with support for native C++ game development. I can see the logic behind this, but I can also see that some people will be annoyed at this. Part of me was really hoping to see some Windows Phone 8 development in action, but speaking to Matt before the session, this was never going to be the case. There are clear NDA&rsquo;s in place around the Windows Phone 8 SDK, and as a result, until this is made public, people can only speculate about what is, and isn&rsquo;t included. I personally think that this is an exciting time, and I am looking forward to getting started developing on WP8 as well as getting my Nokia Lumia 920 J</p>
+
+<h1>Fifth session</h1>
+
+<p><strong>Presenter:</strong> Joel Hammond-Turner (<a href="https://twitter.com/rammesses">@rammesses</a>)</p>
+
+<p><strong>Topic:</strong> Using your Nuget for Fun and Profit (Redux)</p>
+
+<blockquote>The explosive take-up of NuGet clearly demonstrates just how valuable a packaging system for .Net can be.</blockquote>
+
+
+
+
+<blockquote>This session is a refined and improved repeat of that run at DDDSW - it will look the issues surrounding creating NuGet packages for use within your own organisation rather than for general consumption, and will look at the options for hosting a NuGet server both on-site and in the cloud.</blockquote>
+
+
+
+
+<blockquote>It will also demonstrate the NuGet.PackageNPublish tooling released by Landmark at DDDSW4 which makes creating packages to contain your libraries as easy as File->New Project.</blockquote>
+
+
+<p><strong>Thoughts:</strong> I have been using both Nuget and Chocolatey a lot lately, so I was really looking forward to hearing how other people are using it. To date, I have been creating the .nuspec files manually, but it was very interesting to see how the <a href="https://github.com/JoelHT-Landmark/NuGet-PackageNPublish">Package&#8217;N&#8217;Publish</a> framework could be used. I really think that this has some useful applications, and combining it with TeamCity could have some very powerful use cases. I will definitely be taking a look at this soon, to see how it can be incorporated.</p>
+
+<h1>Geek Dinner</h1>
+
+<p>I think it is safe to say that everyone had a great time at the Geek Dinner.  On the table that I was sitting at Niall Merrigan (<a href="https://twitter.com/nmerrigan">@nmerrigan</a>) made a point of enforcing the rule that all mobile phones had to be placed in the centre of the table, and only to be answered if believed to be an emergency.  This was a great way of breaking the ice on the table, and led to some really interesting discussions.  If you haven&rsquo;t tried this before, then the next time you are out at a meal suggest it!</p>
+
+<h1>Other Bloggers</h1>
+
+<p>If you are interested to hear what other people had to say about the event you can take a look at the following links (I will try to update this section as I become aware of other posts, if I have missed anyone, feel free to give me a shout).</p>
+
+<ul>
+<li><p><a href="http://johnnosnose.blogspot.co.uk/2012/10/much-chin-stroking-at-ddd-north.html">Much chin stroking at ddd north</a> by <a href="https://plus.google.com/116370908952132256617/posts">Johnno Nolan</a></p></li>
+<li><p><a href="http://idisposable.co.uk/2012/10/dddnorth-2-write-up-october-2012-bradford/">#dddnorth 2 write up – october 2012 – Bradford</a> By <a href="https://twitter.com/terry_brown">Terry Brown</a></p></li>
+<li><p><a href="http://eventuallyconsistent.net/2012/10/14/dddnorth-2-roundup/">DDDNorth 2 Roundup</a> by <a href="https://twitter.com/Steve_Bate">Steve Bate</a></p></li>
+<li><p><a href="http://www.scottlogic.co.uk/2012/10/dispatches-from-dddnorth-2/">Dispatches from DDDNorth2</a> by <a href="https://twitter.com/samhogy">Sam Hogarth</a></p></li>
+<li><p><a href="http://tellthemuserstories.wordpress.com/2012/10/15/developer-developer-developer-north/">Developer Developer Developer North</a> by <a href="https://twitter.com/dchetwynd">Daley Chetwynd</a></p></li>
+<li><p><a href="http://blog.cwa.me.uk/2012/10/15/the-morning-brew-1210/">The Morning Brew #1210</a> by <a href="https://twitter.com/calcock">Chris Alcock</a></p></li>
+<li><p><a href="http://thecogworks.co.uk/blog/posts/2012/october/dddnorth2-quick-review/">DDDNorth2 - quick review</a> by <a href="https://twitter.com/ismailmayat">Ismail Mayat</a></p></li>
+</ul>
+
+
+<h1>Source Code, Slides and Resources</h1>
+
+<p>If you are looking for the source code and slides for some of the presentations, have a look here.  I will try to keep this up to date as I find out about more of them</p>
+
+<ul>
+<li><p><a href="https://twitter.com/gep13">Gary Ewan Park</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=975">Getting Started with Caliburn.Micro and Windows Phone 7</a> - <a href="https://github.com/gep13/CaliburnMicroDemos">Code</a> - <a href="http://www.gep13.co.uk/blog/ddd-north-2-getting-started-with-caliburn.micro/">Slides</a></p></li>
+<li><p><a href="https://twitter.com/nathangloyn">Nathan Gloyn</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1028">Selenium a UI testing paradigm</a> - <a href="https://github.com/NathanGloyn/Selenium-UI-Testing">Code</a> - <a href="http://www.slideshare.net/Nathangl/selenium-ui-paradigm-ddd-north-2">Slides</a></p></li>
+<li><p><a href="https://twitter.com/guysmithferrier">Guy Smith-Ferrier</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=963">Riting Rosyln Refactorings: Harnessing The Compiler As A Service</a> - <a href="http://www.guysmithferrier.com/page/Resources.aspx">Slides and Code</a></p></li>
+<li><p><a href="https://twitter.com/shawty_ds">Peter Shaw</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=951">So Just What is Spatial SQL</a> - <a href="http://www.slideshare.net/shawty_ds/what-is-spatial-sql">Slides</a></p></li>
+<li><p><a href="https://twitter.com/garyshort">Gary Short</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1045">Raspberry Pi Deep Dive</a> - <a href="http://rocksolid.gibraltarsoftware.com/vistadb/raspberry-pi-at-dddnorth">Slides</a></p></li>
+<li><p><a href="http://twitter.com/westleyl">Liam Westley</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=947">Async C# 5.0 - patterns for real world use</a> - <a href="http://geekswithblogs.net/twickers/archive/2012/10/14/dddnorth2-bradford-13th-october-2012---async-patterns-presentation-and.aspx">Slides and Code</a></p></li>
+<li><p><a href="https://twitter.com/nmerrigan">Niall Merrigan</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=986">Defensive Programming 101 V2</a> - <a href="http://www.certsandprogs.com/2012/10/ddd-north-2-resources.html">Resources</a></p></li>
+<li><p><a href="https://twitter.com/mrlacey">Matt Lacey</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1047">Introducing Windows Phone 8</a> - <a href="http://blog.mrlacey.co.uk/2012/10/preparing-for-windows-phone-8-slides.html">Slides</a></p></li>
+<li><p><a href="https://twitter.com/rammesses">Joel Hammond-Turner</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1038">Using your Nuget for Fun &amp; Proift (Redux)</a> - <a href="https://github.com/JoelHT-Landmark/NuGet-PackageNPublish/tree/master/Documentation">Slides</a> - <a href="http://www.youtube.com/watch?v=R6e4kV5dfIQ">Resources</a></p></li>
+<li><p><a href="https://twitter.com/_richardg">Richard Garside</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=962">The business of side projects</a> - <a href="http://nogginbox.co.uk/blog/side-project-startup-reading-list">Reading List</a></p></li>
+</ul>
+
+
+<h1>Photos</h1>
+
+<p>A number of people were taking photos on the day of the event and I will try to capture as many links as I can to various Flickr albums etc.</p>
+
+<ul>
+<li><p><a href="http://www.flickr.com/photos/55078960@N05/sets/72157631769689503/">DDD North 2</a> by <a href="https://twitter.com/anthonysteele">Anthony Steele</a></p></li>
+<li><p><a href="http://www.flickr.com/photos/craigmurphy/sets/72157631769547147/">DDD North 2 - 13/10/2012</a> by <a href="https://twitter.com/camurphy">Craig Murphy</a></p></li>
+<li><p><a href="http://www.flickr.com/photos/colinangusmackay/sets/72157631765310260/">DDD North 2</a> by <a href="https://twitter.com/colinmackay">Colin Mackay</a></p></li>
+<li><p><a href="https://t.co/xo0UxAGO">SkyDrive Album</a> by <a href="https://twitter.com/hermitdave">Hermit Dave</a></p></li>
+<li><p><a href="http://www.facebook.com/media/set/?set=a.10151115177983026.451777.211894228025&amp;type=1">Gibraltar Software at DDDNorth 2012</a> by <a href="http://www.gibraltarsoftware.com/">Gibraltar Software</a></p></li>
+<li><p><a href="http://www.flickr.com/photos/18885387@N00/sets/72157631774460566/">DDD North 2</a> by <a href="https://twitter.com/shawty_ds">Peter Shaw</a></p></li>
+<li><p><a href="http://www.flickr.com/search/?q=dddnorth&amp;f=hp">Anything tagged with dddnorth on flickr</a></p></li>
+</ul>
+
+
+<h1>Sponsors and organisers</h1>
+
+<p>As always, a huge thank you has to go out to both the <a href="http://developerdeveloperdeveloper.com/north2/">sponsors</a> and the organisers to DDD North. It is quite simple, without both free community events like DDD North simply wouldn&rsquo;t be able to happen. Thank you!</p>
+
+<h1>DDD North 3 in 2013</h1>
+
+<p>Andy Westgarth, the organiser of DDD North has already confirmed the date for the next DDD North. This will be held on the 12th October 2013. This time around it will be back on the North East. His plan is to alternate between the North East and the North West in order to ensure that more people can get involved in the community. If you want to catch all the news about what is happening with DDD North make sure to follow them on <a href="http://twitter.com/dddnorth">twitter</a>.</p>
+
+		
+		
+	</div>
+
+</article>
+
+</div>
+<nav id="pagenavi">
+    
+        <a href="3" class="prev">Prev</a>
+    
+    
+        <a href="5" class="next">Next</a>
+    
+    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
+</nav>
+</div>
+			</div>
+			<footer id="footer" class="inner"><p>
+  Copyright &copy; 2014 - gep13 -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+<p>Theme: <a href="https://github.com/qingwang/octopress-theme-yinyang">YinYang</a></p>
+</footer>
+			<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+
+		</div>
+	</div>
+</body>
+</html>

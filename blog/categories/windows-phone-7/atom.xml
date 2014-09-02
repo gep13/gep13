@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Windows Phone 7 | gep13's blog]]></title>
+  <link href="http://www.gep13.co.uk/blog/categories/windows-phone-7/atom.xml" rel="self"/>
+  <link href="http://www.gep13.co.uk/"/>
+  <updated>2014-09-02T21:24:11+01:00</updated>
+  <id>http://www.gep13.co.uk/</id>
+  <author>
+    <name><![CDATA[gep13]]></name>
+    <email><![CDATA[gep13@gep13.co.uk]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[An Interesting Windows Phone 7 Build Error]]></title>
+    <link href="http://www.gep13.co.uk/blog/an-interesting-windows-phone-7-build-error/"/>
+    <updated>2012-10-12T12:00:29+01:00</updated>
+    <id>http://www.gep13.co.uk/blog/an-interesting-windows-phone-7-build-error</id>
+    <content type="html"><![CDATA[<p>While creating the sample demos for my Windows Phone 7 presentation at DDDNorth, I ran into an interesting error:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1484"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/2012-10-09_1936.png" alt="" /></a></p>
+
+<blockquote>“Manifest validation failed: AppManifestInvalidAuthor”</blockquote>
+
+
+<p>To put it into perspective, this was a brand new Windows Phone 7 application, fresh out of the box, with no changes made by me.  I had decided to build the project (as I periodically do) just to make sure that everything was fine before continuing, and I was welcomed with the above.</p>
+
+<p>Based on the description, I had a look in the WMAppManifest file, but I couldn&#8217;t find anything obviously wrong:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1483"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/2012-10-09_1937.png" alt="" /></a></p>
+
+<p>A quick Google later, and I had stumbled upon this <a href="http://digitaltransfusion.net/2010/09/21/wp7-manifest-validation-fails/">blog post</a> by <a href="http://twitter.com/ryanplemons">@ryanplemons</a> which answered the question.  Turns out there is a limit on the number of characters that you can have in the Publisher, Author and Title attributes of the App node:</p>
+
+<ul>
+<li><p>Publisher = 50 Characters</p></li>
+<li><p>Author = 50 Characters</p></li>
+<li><p>Title = 80 Characters</p></li>
+</ul>
+
+
+<p>The naming convention that I had adopted for the Demo Applications that I was creating was pushing me over this limit for this application.  A quick change to these attributes and the build error was gone.</p>
+
+<p>In all the Windows Phone 7 applications that I have created to date, this was the first time that I had seen this error.  Hopefully this will help someone in the same situation, thanks Ryan!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Windows Phone 7 Updating the Nokia Lumia Firmware to 1750.0805.8773.12220]]></title>
+    <link href="http://www.gep13.co.uk/blog/windows-phone-7-updating-the-nokia-lumia-firmware-to-17500805877312220/"/>
+    <updated>2012-08-24T08:07:31+01:00</updated>
+    <id>http://www.gep13.co.uk/blog/windows-phone-7-updating-the-nokia-lumia-firmware-to-17500805877312220</id>
+    <content type="html"><![CDATA[<p>I have been meaning to post this for a while, but with one thing and another, I just haven’t had time.  However, as some of you will know, I have been banging on about this update for a LONG time!  What feels like ages ago now, Nokia finally announced that they were going to bring internet tethering to the Nokia Lumia 800 (a feature that I have been sorely missing since I moved from my beloved HTC HD7 to the Nokia Lumia 800), however, it took over a month to get the update onto my phone.</p>
+
+<p>Anyway, the day finally arrived, and the installation, as always, went very smoothly:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0729.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0729_thumb.png" alt="2012-08-07_0729" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0732.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0732_thumb.png" alt="2012-08-07_0732" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0732_001.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0732_001_thumb.png" alt="2012-08-07_0732_001" /></a></p>
+
+<p>You may or may not see the following screen.  As soon as I got the notification that the update was ready I went ahead and installed it, which meant using the work computer, which I haven’t set up my phone on.  It’s good to know that it can be done in this way though.</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0733.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0733_thumb.png" alt="2012-08-07_0733" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0733_001.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0733_001_thumb.png" alt="2012-08-07_0733_001" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0735.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0735_thumb.png" alt="2012-08-07_0735" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0735_001.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0735_001_thumb.png" alt="2012-08-07_0735_001" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0736.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0736_thumb.png" alt="2012-08-07_0736" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0736_001.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0736_001_thumb.png" alt="2012-08-07_0736_001" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0737.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0737_thumb.png" alt="2012-08-07_0737" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0742.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0742_thumb.png" alt="2012-08-07_0742" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0750.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0750_thumb.png" alt="2012-08-07_0750" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0751.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0751_thumb.png" alt="2012-08-07_0751" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0751_001.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0751_001_thumb.png" alt="2012-08-07_0751_001" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0752.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0752_thumb.png" alt="2012-08-07_0752" /></a></p>
+
+<p>With the update completed, I immediately checked the Settings page, and I am very happy to report that the “Internet Sharing” function is now available on my Nokia Lumia 800.  In fact, I am actually away to publish this blog post from my laptop, which is currently tethered to the phone <img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/wlEmoticon-smile.png" alt="Smile" />.</p>
+
+<p>Other features that came along with this update includes:</p>
+
+<ul>
+<li><p>Flip to silence — Silence incoming calls by turning your phone face down.</p></li>
+<li><p>Fix to prevent the volume of the ringtone from temporarily increasing</p></li>
+<li><p>Download new apps from Marketplace, such as camera extras, including smart group shot and self-timer, Contacts share, and Play To, a DLNA app for showing your content wirelessly.</p></li>
+<li><p>Usability and performance improvements</p></li>
+</ul>
+
+
+<p>This update took the Nokia Lumia 800 handset to the following state:</p>
+
+<ul>
+<li><p>OS Version: 7.10.8773.98</p></li>
+<li><p>Firmware revision number: 1750.0805.8773.12220</p></li>
+<li><p>Hardware revision number: 112.1402.2.3</p></li>
+<li><p>Radio software version: 1.7.50.08</p></li>
+<li><p>Radio hardware version: 8225</p></li>
+<li><p>Bootloader version: 7.41.0.0</p></li>
+<li><p>Chip SOC version: 0.74.2.1</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Windows Phone 7 Updating the Nokia Lumia 800 to 7.10.8773.98]]></title>
+    <link href="http://www.gep13.co.uk/blog/windows-phone-7-updating-the-nokia-lumia-800-to-710877398/"/>
+    <updated>2012-08-24T08:05:22+01:00</updated>
+    <id>http://www.gep13.co.uk/blog/windows-phone-7-updating-the-nokia-lumia-800-to-710877398</id>
+    <content type="html"><![CDATA[<p>Now that the dust has settled with the latest round of updates for my Nokia Lumia 800, I thought that it was time to blog about the update experience.  This is in line with my previous posts on the subject, and it is more a record for myself, than for anything else.</p>
+
+<p>There was a lot of discussion about this set of updates, especially following the announcements regarding Windows Phone 8, and the fact that there was no upgrade path from a Windows Phone 7 device, and what if anything, we were going to be getting from this update.  A lot of people thought that this update would include the new Windows Phone “Start Screen”, but this isn’t the case.</p>
+
+<p>This update is the so-called “Tango” update.  There wasn’t a lot to shout about within this update, but it does have a couple of interesting new additions.  In order to complete the update, there were actually two back to back updates applied to the Windows Phone.</p>
+
+<p>In the same way as all of my Windows Phone updates to date, the installation/backup procedure worked perfectly, and the screenshots from the experience can be seen below.<a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2129.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2129_thumb.png" alt="2012-07-23_2129" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2130.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2130_thumb.png" alt="2012-07-23_2130" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2131.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2131_thumb.png" alt="2012-07-23_2131" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2147.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2147_thumb.png" alt="2012-07-23_2147" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2147_001.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2147_001_thumb.png" alt="2012-07-23_2147_001" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2158.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2158_thumb.png" alt="2012-07-23_2158" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2211.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2211_thumb.png" alt="2012-07-23_2211" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2211_001.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2211_001_thumb.png" alt="2012-07-23_2211_001" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2211_002.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2211_002_thumb.png" alt="2012-07-23_2211_002" /></a></p>
+
+<p>On completing this update, I straight away went to the Settings screen to see if the Internet Sharing function was available, however, it still wasn’t!  I immediately started googling, and talking to people on Twitter, only to find out that there was actually another update (on top of the two that I had just applied).  This final update was a vendor specific update (in my case Nokia), that would enable this feature.  At this point, this update wasn’t available, so I still had to wait patiently.</p>
+
+<p>For more information about what was included in this update, you can take a look at the <a href="http://www.microsoft.com/windowsphone/en-us/howto/wp7/basics/update-history.aspx">Windows Phone update history</a> page.</p>
+
+<p>This update took the Nokia Lumia 800 handset to the following state:</p>
+
+<ul>
+<li><p>OS Version: 7.10.8773.98</p></li>
+<li><p>Firmware revision number: 1600.2487.8107.12070</p></li>
+<li><p>Hardware revision number: 112.1402.2.3</p></li>
+<li><p>Radio software version: 1.6.00.24</p></li>
+<li><p>Radio hardware version: 8225</p></li>
+<li><p>Bootloader version: 7.35.0.0</p></li>
+<li><p>Chip SOC version: 0.74.2.1</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Windows Phone 7 Updating the Nokia Lumia Firmware to 1600.2487.8107.12070]]></title>
+    <link href="http://www.gep13.co.uk/blog/windows-phone-7-updating-the-nokia-lumia-firmware-to-16002487810712070/"/>
+    <updated>2012-03-30T14:08:13+01:00</updated>
+    <id>http://www.gep13.co.uk/blog/windows-phone-7-updating-the-nokia-lumia-firmware-to-16002487810712070</id>
+    <content type="html"><![CDATA[<p>This morning I found another notification to indicate that there was an update for my Windows Phone 7, Nokia Lumia 800 Handset.  Given the <a href="http://www.gep13.co.uk/blog/nokia-lumia-800-to-get-tethering-support-soon/">recent announcement</a>, I hurriedly set about getting the update installed.</p>
+
+<p>In the style of my previous Windows Phone 7 update posts, here are some of the screenshots that I took along the update process:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/03/2012-03-30_0801.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/03/2012-03-30_0801_thumb.png" alt="Update for Windows Phone 7 Available" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/03/2012-03-30_0806.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/03/2012-03-30_0806_thumb.png" alt="Update Your Phone in Zune" /></a></p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/03/2012-03-30_0824.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/03/2012-03-30_0824_thumb.png" alt="Update of Windows Phone 7 Complete" /></a></p>
+
+<p>As soon as the update was completed, and the Windows Phone 7 handset had rebooted, I straight away went into the Settings menu where I was sure that I was going to find the <a href="http://www.gep13.co.uk/blog/update-7-10-7710-68-for-windows-phone-7-wp7/">Internet Sharing</a> option, but unfortunately, it is still not there!</p>
+
+<p>On doing some searching, I turned up this <a href="http://discussions.europe.nokia.com/t5/Nokia-with-Windows-Phone/Heads-up-on-Lumia-800-update-1600-2487-8107-12070/td-p/1361057">Nokia Support Discussion</a> which explains that this update does:</p>
+
+<blockquote>
+
+> 
+> 
+    
+>   * brings significant improvements in battery performance, especially in 3G talk time as well as in predictive usage time, standby time, WiFi browsing time and music playback time.
+> 
+    
+>   * Improved bass in audio performance
+> 
+    
+>   * The back, start, and search keys are lit according to screen brightness settings
+> 
+    
+>   * Fix to prevent rebooting in certain network conditions
+> 
+    
+>   * Fix for call hang up issues in certain markets
+> 
+
+</blockquote>
+
+
+<p>These things are all great, and I had actually noticed the rebooting of the phone when starting up initially, so I am glad that this is fixed, however, I still REALLY want to be able to tether my laptop to my Windows Phone 7.</p>
+
+<p>Hopefully the next update from Nokia for the Windows Phone 7 will include this functionality, and further, I hope that my current mobile operator supports this function (which I have been told that they do).</p>
+
+<p>For those interested in version numbers etc, this update took my Windows Phone 7 from:</p>
+
+<p>Firmware Revision Number: <strong>1600.2483.8106.11500 </strong>to <strong>1600.2487.8107.12070</strong></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nokia Lumia 800 to Get Tethering Support, “soon”]]></title>
+    <link href="http://www.gep13.co.uk/blog/nokia-lumia-800-to-get-tethering-support-soon/"/>
+    <updated>2012-03-24T13:49:59+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/nokia-lumia-800-to-get-tethering-support-soon</id>
+    <content type="html"><![CDATA[<p>I have just found out that the much-needed internet tethering feature for my Nokia Lumia 800 is coming, it just hasn’t been announced when it will be arriving.  The only hint that we get is via an online <a href="http://nokiaconnects.com/2012/03/13/nokia-lumia-900-your-questions-answered/">Q&amp;A blog post on the Nokia Connects site</a>, which states:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/03/image.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/03/image_thumb.png" alt="Nokia Lumia 800 to get tethering support" /></a></p>
+
+<p>This really is great news, and although it has not been confirmed when this update will be shipped, the confirmation that this feature is actually coming to the Nokia Lumia 800 is in itself huge news.</p>
+
+<p>I have recently moved mobile phone operator specifically for the reason that I wanted an unlimited data contract, and the fact that the Nokia Lumia 800 couldn’t tether is a real pain as it means I have to switch SIM between my HTC HD7 which does have the feature.  I personally can’t wait for this update to be released!</p>
+]]></content>
+  </entry>
+  
+</feed>

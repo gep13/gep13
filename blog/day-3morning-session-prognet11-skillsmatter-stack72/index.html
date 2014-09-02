@@ -1,0 +1,218 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Day 3–Morning Session #prognet11 @skillsmatter @jonskeet - gep13&#8217;s blog</title>
+	<meta name="author" content="gep13">
+
+	
+	<meta name="description" content="Day 3–Morning Session #prognet11 @skillsmatter @jonskeet First up on this last day of the Progressive .Net Tutorials was Jon Skeet (@jonskeet) and &hellip;">
+	
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/feed" rel="alternate" title="gep13's blog" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://www.gep13.co.uk/blog/day-3morning-session-prognet11-skillsmatter-stack72/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- Cookie Consent -->
+<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
+
+<!-- Pure CSS -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><nav id="main-nav"><ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/adnuguk">ADNUGUK</a></li>
+</ul>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		<a class="facebook" href="http://www.facebook.com/gary.e.park" title="Facebook">Facebook</a>
+		
+		
+		<a class="google" href="https://plus.google.com/+GaryEwanPark" rel="author" title="Google+">Google+</a>
+		
+		
+		<a class="twitter" href="http://twitter.com/gep13" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/gep13" title="GitHub">GitHub</a>
+		
+		
+		
+		<a class="linkedin" href="http://www.linkedin.com/in/gep13">LinkedIn</a>
+		
+		
+		
+		<a class="delicious" href="http://delicious.com/gep13" title="Delicious">Delicious</a>
+		
+		
+		
+		<a class="rss" href="/feed" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+<div class="profile-container">
+  <div class="profilepic">
+    <script src="/javascripts/md5.js"></script>
+    <script type="text/javascript">
+$(function(){
+  $('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("gep13@gep13.co.uk") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+});
+    </script>
+  </div>
+  <hgroup>
+  <h1 class="site-title"><a href="/">gep13&#8217;s blog</a></h1>
+  
+  <p class="site-subtitle">Ramblings and Ponderings of a Microsoft Fan Boy&#8230;</p>
+  
+  </hgroup>
+  
+</div>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="article-inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+	<h1 class="title" itemprop="name">Day 3–Morning Session #prognet11 @skillsmatter @jonskeet</h1>
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+  <div class="post-date"><time datetime="2011-09-07T13:48:46+01:00" data-updated="true" itemprop="datePublished"></time></div>
+	<div class="entry-content" itemprop="articleBody"><p>First up on this last day of the Progressive .Net Tutorials was Jon Skeet (<a href="http://twitter.com/#!/jonskeet">@jonskeet</a>) and his “<a href="http://skillsmatter.com/podcast/ajax-ria/async-methods-in-c-sharp-5-2389">Async Methods in C# 5</a>” talk.</p>
+
+<p>Like Paul Stacks talk yesterday, this was a very well attended talk, and rightly so.  I had never seen a Jon Skeet presentation before but I have heard him on various pod casts and videos, but he is a great presenter who has a natural talent at explaining complicated scenarios in a easy to understand way.</p>
+
+<p>Jon started out with some very impressive slides (a example of which can be seen <a href="http://msmvps.com/blogs/jon_skeet/archive/2011/05/08/eduasync-part-1-introduction.aspx">here</a>) and explained the “asynchronous” techniques that have been used to date in earlier versions of the framework:</p>
+
+<ul>
+<li><p>BeginFoo</p>
+
+<ul>
+<li><p>Callback</p>
+
+<ul>
+<li>EndFoo</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>OnSuccess</p></li>
+<li><p>OnError</p>
+
+<ul>
+<li>Go!</li>
+</ul>
+</li>
+</ul>
+
+
+<p>And then began explaining what awaits (do you like my pun? <img src="http://www.gep13.co.uk/blog/wp-content/uploads/184b90d28369_BB7D/wlEmoticon-smile.png" alt="Smile" />) us in C# 5.</p>
+
+<p>I have to say that the usage of the async and await keywords is very appealing, and it is reasonably easy to see how it could be applied in a code base.</p>
+
+<p>Following this, Jon then went onto discuss his Eduasync sample code which, rather than using the Microsoft Visual Studio Async CTP, re-writes the implementation.  Although it was interesting to see how all the pieces fit together, Jon did make clear that it is unlikely that you would ever need to write any code like this, but rather it was just “fun” to do.</p>
+
+<p>At the end of the talk I can honestly say that my head hurts!  I went into this talk having never played with the Parallel Extension in .Net 4.0 and having read hardly anything C# 5 Async, and although I got “some” of the concepts, I would still have a lot to learn.  This is really something that I would need to place with in anger in order to concrete my understandings.  The first port of call will be to go back and read Jon’s series to blog posts <a href="http://msmvps.com/blogs/jon_skeet/archive/tags/Eduasync/default.aspx">here</a>.</p>
+
+<p><strong>Quotes:</strong></p>
+
+<p>“I’m just an enthusiastic amateur C# Developer” – Jon Skeet</p>
+
+<p>“goto’s are considered awesome” – Jon Skeet</p>
+
+<p><strong>Break out discussions:</strong></p>
+
+<p><a href="http://mikehadlow.blogspot.com/2011/01/monads-in-c1-introduction.html">http://mikehadlow.blogspot.com/2011/01/monads-in-c1-introduction.html</a></p>
+
+<p><a href="http://vimeo.com/21705972">http://vimeo.com/21705972</a></p>
+
+<p><strong>Code used during the talk:</strong></p>
+
+<p><a href="http://www.yoda.arachsys.com/democode.zip">http://www.yoda.arachsys.com/democode.zip</a></p>
+
+<p><a href="http://code.google.com/p/eduasync/">http://code.google.com/p/eduasync/</a></p>
+</div>
+
+</article>
+
+	<div class="share">
+	<div class="share_icon_group addthis_toolbox addthis_default_style addthis_32x32_style">
+	
+  <a class="share_icon addthis_button_preferred_1"></a>
+	
+	
+	<a class="share_icon addthis_button_preferred_2" fb:like:layout="button_count"></a>
+	
+	
+	<a class="share_icon addthis_button_preferred_4"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid="></script>
+</div>
+
+
+</div>
+			</div>
+			<footer id="footer" class="inner"><p>
+  Copyright &copy; 2014 - gep13 -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+<p>Theme: <a href="https://github.com/qingwang/octopress-theme-yinyang">YinYang</a></p>
+</footer>
+			<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+
+		</div>
+	</div>
+</body>
+</html>

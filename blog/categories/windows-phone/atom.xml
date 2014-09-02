@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Windows Phone | gep13's blog]]></title>
+  <link href="http://www.gep13.co.uk/blog/categories/windows-phone/atom.xml" rel="self"/>
+  <link href="http://www.gep13.co.uk/"/>
+  <updated>2014-09-02T21:24:11+01:00</updated>
+  <id>http://www.gep13.co.uk/</id>
+  <author>
+    <name><![CDATA[gep13]]></name>
+    <email><![CDATA[gep13@gep13.co.uk]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Battery Life of the Nokia Lumia 920 Really Is Fantastic...]]></title>
+    <link href="http://www.gep13.co.uk/blog/battery-life-nokia-lumia-920-really-fantastic/"/>
+    <updated>2013-10-28T19:47:00+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/battery-life-nokia-lumia-920-really-fantastic</id>
+    <content type="html"><![CDATA[<h1>&hellip;when you turn off all data connections!</h1>
+
+<h1>tl;dr;</h1>
+
+<p>With all the radios and antennas switched off on my Nokia Lumia 920, the battery has lasted from the 28th October through to today, the 7th November.  A total of 11 days!  This has included some fairly solid use, listening to podcasts, audio books and music, as well as using it as my alarm clock.  This is far more than I thought it would last, very impressed.  See the gallery at the end of the post for pictures of how the battery was discharging.  The spikes are when I was syncing the phone with the desktop to grab some new podcasts.</p>
+
+<h1>Now the full story&hellip;</h1>
+
+<p>I recently did a <a href="http://gep13.me/1gbHdfP">blog post</a> about how I started using my old Nokia Lumia 920 as my alternative to both a TomTom and an iPod.  Apart from a couple synchronisation issues between iTunes and the Windows Phone Desktop Application, I am happy to report that this little experiment has been going really well.  I use the phone pretty much every day, listening to podcasts on the commute to work, and music while in the office, and also taking photos/videos of Alivia (that&rsquo;s our new-born baby daughter :-)).</p>
+
+<p>The one thing that has <em>really </em>stood out for me though is the battery life of the Nokia Lumia 920.  As soon as you turn on flight mode, i.e. disabling all the data connections that the phone has to offer (Bluetooth, wi-fi, mobile, etc), the battery quite literally goes for days!  When using my Nokia Lumia 925 as a <em>phone, </em>I am lucky if I can go a day without needing to charge it again.</p>
+
+<p>Today I charged the 920 for what I think is the first time since I made the switch to using this device as my media device, although I think I must have charged it in between, otherwise it would have been over 2 weeks without a charge, which would be a bit of a stretch I think.</p>
+
+<p>Using the <a href="http://www.windowsphone.com/en-gb/store/app/insider/d9b7989e-1592-4f25-a556-4755c06bf2e9">Insider</a> application, it is currently estimating 6 days and 4 hours before the next charge for the Nokia Lumia 920, and 1 day and 2 hours for the Nokia Lumia 925.  See the screenshots below:</p>
+
+<p>[caption id=&ldquo;attachment_2162&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;180&rdquo;]<a href="http://www.gep13.co.uk/blog/battery-life-nokia-lumia-920-really-fantastic.../wp_ss_20131028_0001/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/10/wp_ss_20131028_0001-180x300.jpg" alt="Insider Application running on Nokia Lumia 925" /></a> Insider Application running on Nokia Lumia 925[/caption]</p>
+
+<p>[caption id=&ldquo;attachment_2163&rdquo; align=&ldquo;alignright&rdquo; width=&ldquo;180&rdquo;]<a href="http://www.gep13.co.uk/blog/battery-life-nokia-lumia-920-really-fantastic.../wp_ss_20131028_0001-2/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/10/wp_ss_20131028_0001-180x300.png" alt="Insider Application running on Nokia Lumia 920" /></a> Insider Application running on Nokia Lumia 920[/caption]</p>
+
+<p>I firmly believe that the Nokia Lumia 925 will need charged tomorrow morning, but I am very curious to see how the Nokia Lumia 920 lasts before needing another charge.</p>
+
+<p>In addition, here is a gallery of how the battery was discharging through the 11 days that it was being used.  Very impressive!</p>
+
+<p>[gallery type=&ldquo;rectangular&rdquo; ids=&ldquo;2173,2171,2174,2175,2176,2178,2177&rdquo;]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Started Using My Nokia Lumia 920 as an iPod and TomTom Replacement]]></title>
+    <link href="http://www.gep13.co.uk/blog/started-using-nokia-lumia-920-ipod-tomtom-replacement/"/>
+    <updated>2013-10-13T12:22:29+01:00</updated>
+    <id>http://www.gep13.co.uk/blog/started-using-nokia-lumia-920-ipod-tomtom-replacement</id>
+    <content type="html"><![CDATA[<h1>And I can&rsquo;t see myself looking back!</h1>
+
+<p>I am now using my spare Nokia Lumia 920 as a replacement for both my failing Classic iPod, and my TomTom.  I have always liked to keep music and GPS devices separate from my phone, as using these types of services is a big drain on battery.  Now though, I am using two phone devices to service all of these needs.  No more need to carry around 3 separate devices!</p>
+
+<h1>Here&rsquo;s the story&hellip;</h1>
+
+<p>I recently upgraded my mobile phone to the Nokia Lumia 925, and I love it!  I upgraded from the Nokia Lumia 920, but there were a couple of things happening with the 920 which made me want to move away from it.  The first of which was that a single pixel, all the way down the screen, is stuck on a single colour.  This started happening after the warranty ran out on it, so there was nothing I could do aside from an expensive repair.  I opted to reset the device in order to send it to something like Mazuma mobile to get some money for it, however, the reset didn&rsquo;t go well and it got stuck on the spinning gears.  Doh!</p>
+
+<p>For the last few months, the 920 has been nothing more than a paper weight on my desk, but after a Twitter conversation the other day, I was pointed at the following <a href="http://mobileworld.appamundi.com/blogs/petevickers/archive/2013/09/13/what-do-i-do-if-my-lumia-shows-spinning-gears-and-won-t-restart.aspx">blog post</a> from <a href="https://twitter.com/petevick">Pete Vickers</a>.  Now, don&rsquo;t get me wrong, I was skeptical.  The key combination sounded like something from a Street Fighter Special Move, but I gave it a shot.  After 3 attempts, the 920 rebooted, and after a period of time, I was booted into the main screen. Result!</p>
+
+<p>I then went ahead and grabbed the latest update for the phone, taking the phone up to the GDR 2 release, and then went ahead and installed all the necessary applications, including the following:</p>
+
+<ul>
+<li><p><a href="http://www.windowsphone.com/en-gb/store/app/here-drive/31bbc68c-503e-4561-8d85-a294d54df06f">HERE Drive+</a> - Navigation application (uses the HERE Maps application)</p></li>
+<li><p><a href="http://www.windowsphone.com/en-gb/store/app/here-maps/efa4b4a7-7499-46ce-aa95-3e4ab3b39313">HERE Maps </a>-  Mapping application that allows for downloading maps using a WiFi Connection, and then using locally on device</p></li>
+<li><p><a href="http://www.windowsphone.com/en-gb/store/app/here-transit/adfdad16-b54a-4ec3-b11e-66bd691be4e6">HERE Transit</a> - Provides routes between two selected places</p></li>
+<li><p><a href="http://www.windowsphone.com/en-gb/store/app/nokia-music/f5874252-1f04-4c3f-a335-4fa3b7b85329">Nokia Music</a> - free music streaming application (also plays local music files)</p></li>
+<li><p>Nokia Pro Cam - quite simply amazing!</p></li>
+<li><p>Nokia Smart Cam - great camera application</p></li>
+</ul>
+
+
+<p>With these applications in place, and my music and podcasts synced to the phone and required maps downloaded, I have a perfectly functioning iPod and TomTom replacement, taking the number of devices that I need to carry around from 2, to 3.</p>
+
+<p>Although I was in a unique position where I had a spare Nokia Lumia 920 to serve this purpose, there is nothing to stop you doing something similar using one of the many cheap, lower end devices, that are coming onto the market.</p>
+
+<h1>Amazing deal at Tesco on the Nokia Lumia 510</h1>
+
+<p>Last night while shopping at Tesco, I saw the following deal:</p>
+
+<p>[caption id=&ldquo;attachment_2146&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;1632&rdquo;]<a href="http://www.gep13.co.uk/blog/started-using-nokia-lumia-920-ipod-tomtom-replacement/wp_20131012_18_47_32_pro/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/10/WP_20131012_18_47_32_Pro.jpg" alt="Nokia Lumia 510 only £80" /></a> Nokia Lumia 510 only £80[/caption]</p>
+
+<p>This is quite simply amazing!  When you put it together with the services that you get from both Microsoft and Nokia, this little device makes for a compelling choice.  It is not hard to understand why these lower end Lumia&rsquo;s are the fastest selling devices at the moment.  They are very affordable, and offer the end-user a lot of options.</p>
+
+<p>When you compare the above to something like the iPod, starting at £199, it would seem an obvious choice.  The functionality and available applications is comparable.  The Nokia Lumia 510 only has 4GB of hard drive space compared to the 16GB of the iPod, but if you don&rsquo;t need a lot of storage space, or are happy to use the free 7GB of cloud storage, or stream data from the free Nokia Music service, then this is not really a problem.  You could also look to something like the Nokia Lumia 520, which has an option for an expandable micro SD card up to 64GB.</p>
+
+<h1>The setup of the Nokia Lumia 920</h1>
+
+<p>The start screen of my Nokia Lumia 920 now looks like the following:</p>
+
+<p>[caption id=&ldquo;attachment_2147&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;768&rdquo;]<a href="http://www.gep13.co.uk/blog/started-using-nokia-lumia-920-ipod-tomtom-replacement/wp_ss_20131013_0001/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/10/wp_ss_20131013_0001.jpg" alt="Nokia Lumia 920 Start Screen" /></a> Nokia Lumia 920 Start Screen[/caption]</p>
+
+<p>As you can see, all the &ldquo;normal&rdquo; tiles, such as messaging, phone, email, etc, have all been removed, leaving only the tiles for the essential applications, such as navigation and music.  Since all the required maps for the navigation application that Nokia provide can be downloaded ahead of time using the phone&rsquo;s wireless connection, there is no need for a network connection while using it.  In fact, I have actually went as far as to enable the phones flight mode, and will only enable the wireless connection when required.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Update to Interesting Windows Phone Build Error]]></title>
+    <link href="http://www.gep13.co.uk/blog/update-to-interesting-windows-phone-build-error/"/>
+    <updated>2013-01-15T09:00:56+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/update-to-interesting-windows-phone-build-error</id>
+    <content type="html"><![CDATA[<h1>Windows Phone 8 handling of WPAppmanifest.xml has changed in Visual Studio 2012</h1>
+
+<p>Last year, I <a href="http://gep13.me/VoDIGy">blogged about an interesting build error</a> that I had noticed in a Windows Phone 7 application that I was creating.  This error circled around a problem that occurred when you had a very long name in the author property within the WMAppManifest.xml file.  The error that was reported in the Error Window was fairly cryptic:</p>
+
+<blockquote>“Manifest validation failed: AppManifestInvalidAuthor”</blockquote>
+
+
+<p>But after a bit of googling, I was able to find out what the problem was.  In all honesty, it was a very rare error, and it came down to a naming convention that I was using for a set of sample applications that I was creating, however, it was still slightly annoying!</p>
+
+<h1>Things are better in Visual Studio 2012</h1>
+
+<p>I am happy to report, that things have improved, a lot, in this area within Visual Studio 2012.  Firstly, you don&rsquo;t have to edit the WMAppManifest.xml file by hand.  Visual Studio 2012 now includes a designer that sits on top of this XML file, as shown here:</p>
+
+<p>[gallery type=&ldquo;rectangular&rdquo; ids=&ldquo;1867,1868,1869,1870&rdquo;]</p>
+
+<p>This editor exists for both Windows Phone 7.1 and Windows Phone 8.0 applications.  You can of course continue to edit the XML directly (if you are that way inclined):</p>
+
+<p>[caption id=&ldquo;attachment_1871&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;1142&rdquo;]<a href="http://www.gep13.co.uk/blog/wp-content/uploads/2013/01/edit_WMAppManifest_File_Directly.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/01/edit_WMAppManifest_File_Directly.png" alt="Edit WMAppManifest.xml directly" /></a> Edit WMAppManifest.xml directly[/caption]</p>
+
+<p>But doing so means that you lose the ability to get immediate feedback on the state of your WMAppManifest.xml file, as shown here:</p>
+
+<p>[caption id=&ldquo;attachment_1872&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;904&rdquo;]<a href="http://www.gep13.co.uk/blog/wp-content/uploads/2013/01/WMAppManifest_Editor_Error.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/01/WMAppManifest_Editor_Error.png" alt="WMAppManifest Editor showing error" /></a> WMAppManifest Editor showing error[/caption]</p>
+
+<p>This is a really great addition to Visual Studio, and another example of how Microsoft are ensuring that the end to end development experience is getting much better.  I first noticed this type of editor on top of XML files in Visual Studio 2010 when doing SharePoint development, and this is another very welcome addition!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Audible? Well, Yes, but Barely...]]></title>
+    <link href="http://www.gep13.co.uk/blog/audible-well-yes-but-barely/"/>
+    <updated>2013-01-14T21:11:20+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/audible-well-yes-but-barely</id>
+    <content type="html"><![CDATA[<h1>I really like the Audible service, but&hellip;</h1>
+
+<p>About two months ago, I started using the <a href="http://www.audible.co.uk/">Audible Audio Book service from Amazon</a>.  I first heard about it while listening to the <a href="http://twit.tv/ww">Windows Weekly</a> podcast.  I was intrigued by the ability to &ldquo;read&rdquo; a book while driving, out walking, doing the dishes, etc, so I thought I would take up the offer to try the service for free.</p>
+
+<p>Put simply, the service is very good.  They have an amazing selection of audio books, and the production of the books is very good!</p>
+
+<p>However, that isn&rsquo;t the whole story.  A service like this is only as good as the applications for it.  As most of you will know, I have a Nokia Lumia 920 (which runs Windows Phone 8 operating system) and unfortunately, the application experience is far more satisfactory!</p>
+
+<h1>How I use the application</h1>
+
+<p>During my half hour commute to work, I normally listen to the radio, however, once i started using Audible, I thought that this would be an ideal time to &ldquo;read&rdquo; a book.  My Ford Focus includes the ability to use a Bluetooth connection with a phone to make and receive calls, and also to transfer Bluetooth Audio.  It also comes with a USB connection into the glove compartment, however, using Bluetooth Audio is just easier.</p>
+
+<h1>The Problems</h1>
+
+<p>I have noticed the following problems with the Windows Phone 8 Audible application:</p>
+
+<ul>
+<li><p>If the application is running while an incoming phone call comes in, the application doesn&rsquo;t start the audio again.</p></li>
+<li><p>If th</p></li>
+<li><p>e application is running while an incoming text message comes in, the application doesn&rsquo;t start the audio again.</p></li>
+<li><p>I also noticed a crash of the application when I received a &ldquo;mention&rdquo; notification from the Rowi Twitter Application.  This may have been coincidental, however, I thought that it was worth mentioning</p></li>
+<li><p>When trying to start the audio again from a saved bookmark, it either doesn&rsquo;t start at all (have to switch the phone off and on</p></li>
+</ul>
+
+
+<p>All of these problems were noted when reading the first book that I purchased, the Steve Jobs Biography.  Towards the end of the book, I started listening simply through the speaker on the phone, which turned out to be a much better experience, but still not perfect.  However, things have taken a turn for the worse.  I purchased my second book, The Hobbit, Part 1, and every time I try to open the book, the application simply crashes.  I have tried rebooting the phone, re-downloading the application, all to no avail!</p>
+
+<h1>Contacting Support</h1>
+
+<p>I decided that it would be a good idea to get in touch with the Audible Support Team, as I wondered if some of the above were known issues, that could be corrected.  I sent them an email, and went into a fair bit of detail, and also offered to provide more information if required, however, the response was slightly disappointing:</p>
+
+<blockquote>Based on the issues you are experiencing it seems that the current installation of the app on your device is corrupted in this case you will need to remove the app and do newly installation:
+
+To uninstall the application from a Windows Phone, attempt the following:
+
+1. Tap on the Start, then flick the screen left
+2. Locate the icon for the Audible for Windows Application
+3. Tap and hold on the icon until the option to uninstall appears, then tap on it.
+4. When prompted to confirm the removal of the application, tap on Yes to complete the uninstall
+
+One the app is removed please restart the device and reinstall it.</blockquote>
+
+
+<p>I really didn&rsquo;t expect this to make any difference, and I was right.  I went ahead and carried out the above, but the problems still persisted.</p>
+
+<p>I also sent a bug report through regarding the crashing of the application I try to open The Hobbit book, and in almost a week, I have had no response from the support team :-(</p>
+
+<h1>What next?</h1>
+
+<p>At this rate, as much as it pains me to do it as I really like the service, if this immediate problem of the constantly crashing application is not resolved, I feel I am going to have to cancel my subscription to Audible.</p>
+
+<p>Has anyone else seen any problems like this?</p>
+
+<p>Is this the Audible application at fault?  Or is it the bluetooth problems that I have heard about on Twitter?  Any help in this matter would be greatly appreciated!</p>
+]]></content>
+  </entry>
+  
+</feed>

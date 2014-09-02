@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Chocolatey Series | gep13's blog]]></title>
+  <link href="http://www.gep13.co.uk/blog/categories/chocolatey-series/atom.xml" rel="self"/>
+  <link href="http://www.gep13.co.uk/"/>
+  <updated>2014-09-02T21:24:11+01:00</updated>
+  <id>http://www.gep13.co.uk/</id>
+  <author>
+    <name><![CDATA[gep13]]></name>
+    <email><![CDATA[gep13@gep13.co.uk]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to Upgrade TeamCity]]></title>
+    <link href="http://www.gep13.co.uk/blog/how-to-upgrade-teamcity/"/>
+    <updated>2013-02-07T22:13:51+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/how-to-upgrade-teamcity</id>
+    <content type="html"><![CDATA[<h1>It&rsquo;s a snap!</h1>
+
+<p>If you have decided to <a href="http://gep13.me/VAeRiX">install your own instance of TeamCity</a>, then it is your responsibility to ensure that it is kept up to date.  <a href="http://www.jetbrains.com/">JetBrains</a> have a fairly aggressive <a href="http://confluence.jetbrains.com/display/TW/Previous+Releases+Downloads">release cadence</a>, with updates coming out every couple of months.  This is great, as you get a host of new features and bug fixes on a regular basis.</p>
+
+<p>When performing an upgrade, the most important thing to do is to back up the database and configuration settings.  Luckily, this is a built-in process within the administration section of TeamCity.</p>
+
+<p>This blog post steps through the full upgrade process.</p>
+
+<h1>Installation Steps</h1>
+
+<p><strong>NOTE: </strong>The following installation steps and screenshots were taken from a virtual machine   with Windows Server 2008 R2 Service Pack 1, running in Hyper-V on a Windows 8 Host Machine.</p>
+
+<p>These instructions are specific to version 7.1.3 of TeamCity, however, later versions will likely follow very similar steps.  In addition, these installation instructions will install both the TeamCity Server and Build Agent onto the same machine.  Ideally, you would want to have a separate Build Agent Machine.</p>
+
+<p>You can see screenshots of each of these steps in the galley at the bottom of this blog post.</p>
+
+<ol>
+<li><p> Assumption is that you already have <a href="http://gep13.me/VAeRiX">TeamCity</a> installed (otherwise, why would you be looking to upgrade it :-)</p></li>
+<li><p> Assumption is that you have already <a href="http://www.jetbrains.com/teamcity/download/index.html">downloaded the new version of TeamCity</a>, in this case 7.1.4.</p></li>
+<li><p> Log into TeamCity using an account that has Administrator privileges</p></li>
+<li><p> Click on the Backup link near the bottom left hand corner</p></li>
+<li><p> When the Run Backup Tab opens, click on &ldquo;Start Backup&rdquo;</p></li>
+<li><p> The backup should complete successfully</p></li>
+<li><p> Double Click the installation *.exe which was downloaded in Step 2 above</p></li>
+<li><p> At the first step in the installation wizard simply click Next</p></li>
+<li><p> Read the License Agreement and assuming you are happy with it, click “I Agree”</p></li>
+<li><p>. In the “Choose Install Location” window, assuming you are happy with the default installation folder, simply click Next, otherwise change it first</p></li>
+<li><p>. In order to install the latest version of TeamCity, you have to first uninstall the current version.  Click &ldquo;Next&rdquo;</p></li>
+<li><p>. On this screen simply click Next once the current installation has been located</p></li>
+<li><p>. Typically, since you are doing an upgrade, you want to keep both the build configuration and working directory, but the log files can be removed.  Click Uninstall</p></li>
+<li><p>. The un-installation will continue</p></li>
+<li><p>. After a short period, the un-installation will complete</p></li>
+<li><p>. In the “Choose Components” window choose the components that you want to install.  As already mentioned, we will be installing both the Server and Build Agent on one server.  Click Next</p></li>
+<li><p>. In the “Specify server configuration directory” window assuming you are happy with the default location click Next, otherwise change it first</p></li>
+<li><p>. The main portion of the installation will start now</p></li>
+<li><p>. The “Configure Build Agent Properties” window will then open, giving you the opportunity to add/edit build agent properties.  For now, you can leave this as the default.  If needed, this can be changed later.  Click Save.</p></li>
+<li><p>. Simply click OK on the “TeamCity Build Agent Properties” pop-up</p></li>
+<li><p>. In the “Select Service Account for Server” window decide what user account you want to run the TeamCity Server, I chose to use the SYSTEM account.  Click Next</p></li>
+<li><p>. In the “Select Service Account for Agent” window decide what user account you want to run the TeamCity Build Agent, I chose to use the SYSTEM account.  Click Next</p></li>
+<li><p>. In the “Services” window, choose to start both the Server and Build Agent Services, and click Next</p></li>
+<li><p>. In the final screen, ensure that the option to open TeamCity Website after exit is checked and click Finish.</p></li>
+<li><p>. A web page will open saying “TeamCity is starting”</p></li>
+<li><p>. The login screen will then be presented</p></li>
+<li><p>. On logging in, you will see the latest version number displayed</p></li>
+</ol>
+
+
+<h1>Installation Screenshots</h1>
+
+<p>[gallery ids=&ldquo;1921,1922,1923,1924,1925,1926,1927,1928,1929,1930,1931,1932,1933,1934,1935,1936,1937,1938,1939,1940,1941,1942,1943,1944&rdquo;]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to Configure TeamCity NuGet Server]]></title>
+    <link href="http://www.gep13.co.uk/blog/how-to-configure-teamcity-nuget-server/"/>
+    <updated>2013-02-05T20:00:45+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/how-to-configure-teamcity-nuget-server</id>
+    <content type="html"><![CDATA[<h1>What is TeamCity NuGet Server?</h1>
+
+<p>Within TeamCity, it is possible to integrate the NuGet Package Manager, which then allows you to:</p>
+
+<blockquote>
+
+> 
+> 
+    
+>   * Install and update packages: [NuGet Installer](http://confluence.jetbrains.com/display/TCD7/NuGet+Installer) build runner;
+> 
+    
+>   * Pack packages: [NuGet Pack](http://confluence.jetbrains.com/display/TCD7/NuGet+Pack) build runner;
+> 
+    
+>   * Publish packages to a feed of your choice: [NuGet Publish](http://confluence.jetbrains.com/display/TCD7/NuGet+Publish) build runner. Alternatively you can use TeamCity as NuGet server.
+> 
+
+</blockquote>
+
+
+<p>If you want to find out more information about the TeamCity NuGet Server, you can find it <a href="http://confluence.jetbrains.com/display/TCD7/NuGet">here</a></p>
+
+<p>The following blog post walks through the steps to set up the TeamCity Nuget Server.</p>
+
+<h1>Installation Steps</h1>
+
+<p><strong>NOTE: </strong>The following configuration steps and screenshots were taken from a virtual machine with Windows Server 2008 R2 Service Pack 1, running Hyper-V on a Windows 8 Host Machine.</p>
+
+<p>These instructions are specific to version 7.1.3 of TeamCity, however, later version will likely follow very similar steps.</p>
+
+<p>You can see screenshots of each of these steps in the gallery at the bottom of this blog post.</p>
+
+<ol>
+<li><p> Assumption is that you already have <a href="http://gep13.me/VAeRiX">TeamCity</a> installed</p></li>
+<li><p> Log into your TeamCity instance</p></li>
+<li><p> Click on the Administration link at the top right hand corner</p></li>
+<li><p> Click on NuGet Settings down the left hand side</p></li>
+<li><p> By default, the NuGet Server will be disabled, so simply click on Enable to start it up</p></li>
+<li><p> By default, public access to the NuGet Server is not enabled, as the Guest User access will not be set up.  However, this can be done within Global Settings.  Assuming that you are wanting to easily gain access to the Feed that TeamCity provides, enabling this public access is recommended.  This is what we will do in the next few steps.</p></li>
+<li><p> Click on Global Settings</p></li>
+<li><p> Make sure that the &ldquo;Allow to login as a guest user&rdquo; checkbox is checked</p></li>
+<li><p> Go back to NuGet Settings, and you should now see that the Public Feed URL is enabled, and a URL to the feed to provided</p></li>
+<li><p>. Click on the &ldquo;NuGet Commandline&rdquo; tab.  In here you can actually have multiple versions of the NuGet.exe installed, ready for use within different Build Configurations.  Click on &ldquo;Add NuGet&rdquo;.</p></li>
+<li><p>. Select the version that you want to install, and click Add.</p></li>
+<li><p>. And that&rsquo;s that!</p></li>
+</ol>
+
+
+<h1>Installation Screenshots</h1>
+
+<p>[gallery ids=&ldquo;1900,1901,1902,1903,1904,1905,1906,1907,1908,1909,1910&rdquo;]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to Install TeamCity]]></title>
+    <link href="http://www.gep13.co.uk/blog/how-to-install-teamcity/"/>
+    <updated>2013-01-04T17:42:57+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/how-to-install-teamcity</id>
+    <content type="html"><![CDATA[<h1>What is TeamCity?</h1>
+
+<p>Just in case you didn&rsquo;t know&hellip;</p>
+
+<blockquote>TeamCity is a user-friendly continuous integration (CI) server for professional developers and build engineers, like ourselves. It is trivial to setup and absolutely free for small teams.</blockquote>
+
+
+<p>If you want to find out more information about TeamCity, you can find it <a href="http://www.jetbrains.com/teamcity/index.html">here</a>.</p>
+
+<p>The following blog post walks through the steps to get TeamCity installed., however, at the end of this blog post there will still be other items that need to be configured, but these issues will be the topics of other blog posts.</p>
+
+<p>Although out of the box TeamCity uses an internal database based on the HSQLDB database engine, if you are planning on using a TeamCity instance for Production purposes, it is <a href="http://confluence.jetbrains.net/display/TCD7/Setting+up+an+External+Database">strongly recommended</a> that you set up an external database connection for it to use.  To that end, this blog post uses a MySQL Database as the external connection for TeamCity.</p>
+
+<h1>Installation Steps</h1>
+
+<p><strong>NOTE: </strong>The following installation steps and screenshots were taken from a virtual machine   with Windows Server 2008 R2 Service Pack 1, running in Hyper-V on a Windows 8 Host Machine.</p>
+
+<p>These instructions are specific to version 7.1.3 of TeamCity, however, later versions will likely follow very similar steps.  In addition, these installation instructions will install both the TeamCity Server and Build Agent onto the same machine.  Ideally, you would want to have a separate Build Agent Machine.</p>
+
+<p>You can see screenshots of each of these steps in the galley at the bottom of this blog post.</p>
+
+<ol>
+<li><p> Assumption is that you already have <a href="http://gep13.me/S91bws">MySQL Community Server</a> installed</p></li>
+<li><p> Assumption is that you already have <a href="http://gep13.me/WiiHcN">MySQL Workbench</a> installed</p></li>
+<li><p> Assumption is that you already have configured a <a href="http://gep13.me/Z3jaBI">Profile Instance, with a database and user</a> that can be used by the TeamCity Server</p></li>
+<li><p> Download the <a href="http://www.jetbrains.com/teamcity/download/index.html">latest version of TeamCity from the JetBrains website</a> then double-click the .exe and click Run</p></li>
+<li><p> At the first step in the installation wizard simply click Next</p></li>
+<li><p> Read the License Agreement and assuming you are happy with it, click &ldquo;I Agree&rdquo;</p></li>
+<li><p> In the &ldquo;Choose Install Location&rdquo; window, assuming you are happy with the default installation folder, simply click Next, otherwise change it first</p></li>
+<li><p> In the &ldquo;Choose Components&rdquo; window choose the components that you want to install.  As already mentioned, we will be installing both the Server and Build Agent on one server.  Click Next</p></li>
+<li><p> In the &ldquo;Specify server configuration directory&rdquo; window assuming you are happy with the default location click Next, other change it first</p></li>
+<li><p>. The main portion of the installation will start now</p></li>
+<li><p>. In the &ldquo;Installation Complete&rdquo; windows, specify the port that you want TeamCity to run under.  I have other services running on this server, so I have chosen to use port 8080.  Choose something that won&rsquo;t conflict, and then click Next</p></li>
+<li><p>. The &ldquo;Configure Build Agent Properties&rdquo; window will then open, giving you the opportunity to add/edit build agent properties.  For now, you can leave this as the default.  If needed, this can be changed later.  Click Save.</p></li>
+<li><p>. Simply click OK on the &ldquo;TeamCity Build Agent Properties&rdquo; pop-up</p></li>
+<li><p>. In the &ldquo;Select Service Account for Server&rdquo; window decide what user account you want to run the TeamCity Server, I chose to use the SYSTEM account.  Click Next</p></li>
+<li><p>. In the &ldquo;Select Service Account for Agent&rdquo; window decide what user account you want to run the TeamCity Build Agent, I chose to use the SYSTEM account.  Click Next</p></li>
+<li><p>. In the &ldquo;Services&rdquo; window, choose to start both the Server and Build Agent Services, and click Next</p></li>
+<li><p>. In the final screen, ensure that the option to open TeamCity Website after exit is checked and click Finish.</p></li>
+<li><p>. You will then be taken to the default start screen, which as mentioned will create the internal database that TeamCity would normally use by default.  Go ahead and click Proceed, we will then begin editing the configuration to use a MySQL Server Database.</p></li>
+<li><p>. A web page will open saying &ldquo;TeamCity is starting&rdquo;</p></li>
+<li><p>. Once this page reloads, and show the license agreement page, open windows explorer and navigate to the configuration directory, the default is C:\ProgramData\JetBrains\TeamCity</p></li>
+<li><p>. Open the services snap-in and stop both the TeamCity Build Agent and TeamCity Server services</p>
+
+<ol>
+<li><p>Hit the Start button</p></li>
+<li><p>Type &ldquo;services.msc&rdquo; and press Enter</p></li>
+<li><p>Find each named service and click stop</p></li>
+</ol>
+</li>
+<li><p>. Back to Windows Explorer, navigate into the configuration folder.  Find the database.mysql.properties.dist file.  Copy and paste this file, and rename the newly created file as database.properties (NOTE: This name is very important.  Compare to the screenshot below to ensure it is correct.</p></li>
+<li><p>. Open the database.properties file and notice the section that you have to update</p></li>
+<li><p>. Make the necessary changes and save the file (NOTE: I have added an extra configuration line to use UTF-8 character encoding, which if you followed the <a href="http://gep13.me/Z3jaBI">Profile Instance, with a database and user</a> is what your database will use</p></li>
+<li><p>. Open an internet browser and download the latest JDBC driver for MySQL.  The main download site can be found <a href="http://dev.mysql.com/downloads/connector/j/">here</a>.</p></li>
+<li><p>. Browse to where you downloaded the driver and extract the contents of the download.  Find the .jar file and copy this into the lib folder within the TeamCity configuration directory.  Typically C:\ProgramData\JetBrains\TeamCity\lib\jdbc</p></li>
+<li><p>. Open the services snap-in and start both the TeamCity Server, and TeamCity Build Agent services</p>
+
+<ol>
+<li><p>Hit the Start button</p></li>
+<li><p>Type &ldquo;services.msc&rdquo; and press Enter</p></li>
+<li><p>Find each named service and click start</p></li>
+</ol>
+</li>
+<li><p>. Open an internet browser and open the TeamCity home page.  As per these installation instructions, that would be <a href="http://localhost:8080,">http://localhost:8080,</a> but the port may be different depending on what you selected.  You will get a warning about the Database being empty.  That is to be expected, as we have only just set this up, and it doesn&rsquo;t contain anything</p></li>
+<li><p>. Click the link entitled &ldquo;I&rsquo;m a server administrator, show me the details&rdquo;.  We need to locate the authentication token, before TeamCity will let us continue with the setup.  To do this, we have to open the log file for the TeamCity instance</p></li>
+<li><p>. Open windows explorer, and navigate to the TeamCity installation folder, typically this is C:\TeamCity and find the logs folder, and in that folder, the teamcity-server.log.  Open this file.</p></li>
+<li><p>. Scroll to the end of this log file, and the last line in the log file should contain the authentication token.  Copy this token to your clipboard</p></li>
+<li><p>. Go back to the internet browser, and paste the token and click Confirm.  This will take you to the &ldquo;TeamCity Database Creation&rdquo; window.  Confirm that the details are correct, and click Proceed</p></li>
+<li><p>. TeamCity will then create the database and finish configuration setup</p></li>
+<li><p>. If you are interested, you can open MySQL Workbench and look at all the tables that have just been created</p></li>
+<li><p>. Back in the internet browser, you should be presented with the TeamCity license agreement again.  Read through this, and when happy click the &ldquo;Accept license agreement&rdquo; check box, and then click Continue</p></li>
+<li><p>. Enter the details for an administrator account that you will use to administer this TeamCity instance and click Create Account</p></li>
+<li><p>. Job done!</p></li>
+</ol>
+
+
+<p>You can see screenshots of each of these steps in the galley at the bottom of this blog post.</p>
+
+<p>There are still steps remaining in terms of setting up projects, build configurations, and other TeamCity settings, but these will be topics for other blog posts.</p>
+
+<h1>Installation Screenshots</h1>
+
+<p>[gallery ids=&ldquo;1804,1805,1806,1807,1808,1809,1810,1811,1812,1813,1814,1815,1816,1817,1818,1819,1820,1821,1822,1823,1824,1825,1826,1827,1828,1829,1830,1831,1832,1833,1834,1835,1836,1837&rdquo;]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to Create a MySQL Server Instance Profile and Database]]></title>
+    <link href="http://www.gep13.co.uk/blog/how-to-create-a-mysql-server-instance-profile-and-database/"/>
+    <updated>2013-01-04T15:56:09+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/how-to-create-a-mysql-server-instance-profile-and-database</id>
+    <content type="html"><![CDATA[<h1>Creating a MySQL Server Instance Profile with a Database and User</h1>
+
+<p>Assuming that you have a MySQL Server installation on your machine, it is normally necessary to configure both a Server Instance Profile, and at least one database to be used within that Instance Profile.  The following steps walk through the necessary steps to do this, using an example of creating a Database that could be used for a TeamCity installation.  Some of the steps are specific to this end goal, however, the steps should be generic enough that they can be tailored to your needs.</p>
+
+<h1>Configuration Steps</h1>
+
+<p><strong>NOTE: </strong>The following installation steps and screenshots were taken from a virtual machine   with Windows Server 2008 R2 Service Pack 1, running in Hyper-V on a Windows 8 Host Machine.</p>
+
+<ol>
+<li><p> Assumption is that you already have <a href="http://gep13.me/S91bws">MySQL Community Server</a> installed</p></li>
+<li><p> Assumption is that you already have <a href="http://gep13.me/WiiHcN">MySQL Workbench</a> installed</p></li>
+<li><p> Open MySQL Workbench</p></li>
+<li><p> Click on the &ldquo;New Server Instance&rdquo; link</p></li>
+<li><p> In the &ldquo;Specify Host Machine&rdquo; Window leave as default and click Next</p></li>
+<li><p> In the &ldquo;Database Connection&rdquo; Window leave as default and click Next</p></li>
+<li><p> On the &ldquo;Test DB Connection&rdquo; Window ensure that all tested passed and click Next</p></li>
+<li><p> Before the next step, we need a Configuration File that MySQL Server can use to instantiate the Server Instance.  The default MySQL Server installation comes with pre-configured configuration files, located at C:\Program Files\MySQL\MySQL Server 5.5 (where 5.5. is the version number of MySQL Server you have installed)</p></li>
+<li><p> Copy the sample Configuration File that you want to have (I chose my-small) to another location on your hard drive.  For simplicity I chose the root of the C:\ drive, and I renamed the file to my.ini.</p></li>
+<li><p>. In the &ldquo;Windows Management&rdquo; window browse to the location that you copied the configuration file and select it. Press Next.</p></li>
+<li><p>. In the &ldquo;Test Settings&rdquo; window ensure that all test passed and click Next</p></li>
+<li><p>. Click &ldquo;Continue&rdquo; when the &ldquo;Review Settings&rdquo; pop-up appears</p></li>
+<li><p>. In the &ldquo;Complete Setup&rdquo; window click Finish</p></li>
+<li><p>. Once back at the home page of MySQL Workbench, double-click on the instance that you have just created</p></li>
+<li><p>. In the Admin tab, select &ldquo;Users and Privileges&rdquo; and click &ldquo;Add Account&rdquo;</p></li>
+<li><p>. Enter the details for the user that you want to create, in this case I have chosen &ldquo;teamcity&rdquo; as the username and entered a password for this user.  Once completed, click Apply.</p></li>
+<li><p>. Go back to the home page of MySQL Workbench by clicking the Home tab</p></li>
+<li><p>. Double click onto the localhost connection</p></li>
+<li><p>. Click the Create Schema button, and provide a name for the schema, I have chosen teamcity, and then click Apply</p></li>
+<li><p>. On the &ldquo;Review SQL Script&rdquo; window click Apply</p></li>
+<li><p>. On the &ldquo;Apply SQL Script&rdquo; window click Finish</p></li>
+<li><p>. The <a href="http://confluence.jetbrains.net/display/TCD7/Configuring+UTF8+Character+Set+for+MySQL">recommended Collation and Charset for using TeamCity</a> (the application that is going to be using this database is utf8 - utf8_bin, if you require this, select this in the drop down list and click Apply</p></li>
+<li><p>. On the &ldquo;Review SQL Script&rdquo; window click Apply</p></li>
+<li><p>. On the &ldquo;Apply SQL Script&rdquo; window click Finish</p></li>
+<li><p>. Return to the Admin screen by clicking on that tab</p></li>
+<li><p>. Select &ldquo;Users and Privileges&rdquo; and click on the &ldquo;Schema Privileges&rdquo; tab and select the User that you want to create a permission for, and then click Add Entry</p></li>
+<li><p>. In the &ldquo;New Schema Privilege Definition&rdquo; window select which hosts you want this user to be able to access the schema from (I have chosen to limit this to localhost, which is the most secure.  Also, map the user to the schema that you want them to access.  Again in this case, I have chosen the teamcity schema, so there is a mapping between the teamcity user and schema.  Once completed, click OK</p></li>
+<li><p>. Once back at the main window, click &ldquo;Select &#8220;ALL&rdquo; to give this user all database permissions (you may want to only select certain options, depending on what you require).  Once you are happy, click &ldquo;Save Changes&rdquo;</p></li>
+</ol>
+
+
+<p>You can see screenshots of each of these steps in the galley at the bottom of this blog post.</p>
+
+<h1>Configuration Screenshots</h1>
+
+<p>[gallery ids=&ldquo;1772,1773,1774,1775,1776,1777,1778,1779,1780,1781,1782,1783,1784,1785,1786,1787,1788,1789,1790,1791,1792,1793,1794,1795,1796,1797&rdquo;]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to Install MySQL Workbench]]></title>
+    <link href="http://www.gep13.co.uk/blog/how-to-install-mysql-workbench/"/>
+    <updated>2013-01-04T14:43:07+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/how-to-install-mysql-workbench</id>
+    <content type="html"><![CDATA[<h1>What is MySQL Workbench</h1>
+
+<blockquote>MySQL Workbench provides DBAs and developers an integrated tools environment for:
+
+- Database Design & Modeling
+
+- SQL Development (replacing MySQL Query Browser)
+
+- Database Administration (replacing MySQL Administrator)</blockquote>
+
+
+<p>If you want to find out more information about MySQL Workbench, you can find it <a href="http://www.mysql.com/downloads/workbench/">here</a>.</p>
+
+<h1>Installation Steps</h1>
+
+<p><strong>NOTE: </strong>The following installation steps and screenshots were taken from a virtual machine   with Windows Server 2008 R2 Service Pack 1, running in Hyper-V on a Windows 8 Host Machine.</p>
+
+<ol>
+<li><p> <a href="http://gep13.me/S8ZnDT">Install chocolatey nuget</a></p></li>
+<li><p> Open PowerShell as an Administrator</p>
+
+<ol>
+<li><p>Hit the Start button</p></li>
+<li><p>Type &ldquo;PowerShell&rdquo;</p></li>
+<li><p>Right click on the &ldquo;Windows PowerShell&rdquo; icon</p></li>
+<li><p>Click &ldquo;Run as administrator&rdquo;</p></li>
+</ol>
+</li>
+<li><p> Type &ldquo;cinst vcredist2010&rdquo; and press the enter key</p></li>
+<li><p> The installation of the Visual C++ 2010 Redistributable will begin</p></li>
+<li><p> The installation will complete</p></li>
+<li><p> Type &ldquo;cinst mysql.workbench&rdquo;</p></li>
+<li><p> The installation of MySQL Workbench will begin</p></li>
+<li><p> The installation will complete</p></li>
+</ol>
+
+
+<p>You can see screenshots of each of these steps in the galley at the bottom of this blog post.</p>
+
+<h1>Post Installation Checks</h1>
+
+<p>There should be a new application installed on your computer, trying opening it to make sure that everything worked correctly.</p>
+
+<ol>
+<li><p> Hit the Start button</p></li>
+<li><p> Type &ldquo;workbench&rdquo;</p></li>
+<li><p> Click on the &ldquo;MySQL Workbench&rdquo; icon</p></li>
+<li><p> MySQL Workbench should open</p></li>
+</ol>
+
+
+<h1>Installation Screenshots</h1>
+
+<p>[gallery ids=&ldquo;1746,1765,1766,1767,1759,1760,1761&rdquo;]</p>
+]]></content>
+  </entry>
+  
+</feed>

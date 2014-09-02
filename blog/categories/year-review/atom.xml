@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Year Review | gep13's blog]]></title>
+  <link href="http://www.gep13.co.uk/blog/categories/year-review/atom.xml" rel="self"/>
+  <link href="http://www.gep13.co.uk/"/>
+  <updated>2014-09-02T21:24:11+01:00</updated>
+  <id>http://www.gep13.co.uk/</id>
+  <author>
+    <name><![CDATA[gep13]]></name>
+    <email><![CDATA[gep13@gep13.co.uk]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[2012 - My Year in Review]]></title>
+    <link href="http://www.gep13.co.uk/blog/2012-my-year-in-review/"/>
+    <updated>2013-01-03T16:46:25+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/2012-my-year-in-review</id>
+    <content type="html"><![CDATA[<h1>2012, what happened?</h1>
+
+<p>In the same way that I did a <a href="http://gep13.me/U9X0O1">review of my year in 2011</a>, I have decided to do the same thing again for 2012.</p>
+
+<h1>What I said I was going to do</h1>
+
+<p>The below is what I &ldquo;said&rdquo; I was going to do in 2012.  I will refer back to this in this post to see whether I actually achieved any of this or not.</p>
+
+<blockquote>Looking forward into 2012, there will mainly be more of the same as above.  Following [the principles](http://www.gep13.co.uk/blog/?p=313) that I took from Mark Rendle’s talk at DDD South West I will be looking to improve myself as a developer, but I also hope to break into doing talks at some of these community events, rather than simply attending them.  This will be a big step for me, but something that I am very much looking forward to.
+
+I will be continuing to blog next year as well, however, I am looking to writing much more technical blog posts.  I have learnt a lot this year from all the talks that I have attended, and I am looking to implement these technologies in a number of pet projects.  I will be blogging the trials and tribulations that I have along the way, which will hopefully help other people.</blockquote>
+
+
+<h1>Getting involved in the Development Community</h1>
+
+<p>2012 saw the <a href="http://aberdeendevelopers.co.uk/">Aberdeen Developers .Net User Group</a> continue growing.  We partnered with Scottish Developers in order to bring a number of big names to Scotland, including <a href="http://gep13.me/Rnkws5">Sebastien Lambla</a>, <a href="http://gep13.me/U9U441">Matt Lacey</a>, and of course who can forget <a href="http://gep13.me/U9VWJU">Scott Hanselman</a>.  This year also saw me become a <a href="http://gep13.me/ZPhQbK">Committee Member of Scottish Developers</a>, and these partnership events at set to continue into 2013.</p>
+
+<p>I attended a number of Developer Events this year, including <a href="http://gep13.me/xYEALH">Windows Azure Bootcamp</a>, <a href="http://gep13.me/U9WP5n">Windows Phone 7 Bootcamp</a>, <a href="http://gep13.me/VhBYfB">DevWeek</a>, <a href="http://gep13.me/Vpe5Ch">DDD South West</a>, and <a href="http://gep13.me/WbMxQx">DDD North</a>.  I very much enjoyed each of these events, and with the exception of DevWeek, each of these events were completely free!  If you are interested in getting involved in some of these events, I would strongly recommend it, they are well worth attending!</p>
+
+<p>Following on from my attendance at <a href="http://gep13.me/Rno3a0">GiveCamp UK</a>, Daniel Elliot (<a href="https://twitter.com/agileguy">@agileguy</a>) continued to support <a href="http://theyoucanhub.org.uk/">TheYouCanHub</a>.  This saw us move their hosting onto a Virtual Private Server, provided by Dan, and also numerous changes to their site.  This support is going to continue into 2013 as time allows.</p>
+
+<h1>From a personal stand point</h1>
+
+<p>I was able to fully break into the speaking circuit, doing talks at both <a href="http://gep13.me/WfOcEW">DDD South West</a> and <a href="http://gep13.me/U9WU94">DDD North</a>.  I was really happy with the feedback that I got from both of these talks, and this has encouraged me to continue doing more talks in 2013.</p>
+
+<p>I went on a <a href="http://gep13.me/RoM9RF">Photography Course</a> that I was given as a birthday present.  I had a really good day out, and although I learned a lot, I realised that I still have a lot to learn!</p>
+
+<p>I enjoyed a really good round of golf at the newly created <a href="http://gep13.me/UFCZks">Trump International Scotland</a>, Donald Trump&rsquo;s new Golf Course.  We got a great day for playing golf, and I even managed to birdie one of the par 5&rsquo;s on the course!</p>
+
+<p>I had to say goodbye to an <a href="http://gep13.me/RoB8Qj">old friend</a> in the form of my beloved Ford Focus, but happily this was replaced with a new Ford Focus.</p>
+
+<p>I had an amazing day out at the <a href="http://gep13.me/Ua1d49">Phoenix Falconry Centre</a>, so much so that I have booked myself on another day out which will be happening in either January or February of this year.  Really looking forward to it!  I will post some photos once I have been on it.</p>
+
+<p>With the help of Paul Stack (<a href="https://twitter.com/stack72">@stack72</a>), a Windows Phone 7 application called TeamCity Metro came into being.  We released <a href="http://www.gep13.co.uk/blog/windows-phone-application/teamcity-metro/teamcitymetro-v1.0.0.0/">Version 1.0.0.0</a>, quickly followed by <a href="http://www.gep13.co.uk/blog/windows-phone-application/teamcity-metro/teamcity-metro-v-1.1.0.0/">Version 1.1.0.0</a>.  There are plans to make this into a Windows Phone 8 application as well, but that will be time dependent.</p>
+
+<p>I am happy to say that my wife was able to put up with me, and we celebrated our second Wedding Anniversary.</p>
+
+<p>I started using <a href="http://gep13.me/WbOKeJ">Windows 8 and Office 2013</a>, and I really like them!  I also treated myself to a Windows Surface RT and also upgraded to the Nokia Lumia 920.</p>
+
+<p>At the very end of 2012, I got involved in exposing a scam on the internet in the form of the <a href="http://gep13.me/Rnmt88">WP Discovery Twitter account</a>.  I am very happy to say that this scam account which was trying to collect people&rsquo;s personal information has now been shut down.</p>
+
+<h1>So, did I do what I said I was going to?</h1>
+
+<p>With the exception of the more technical focused blogging, I think that I have been able to meet the goals that I set out at the start of the year.</p>
+
+<h1>Looking forward to 2013</h1>
+
+<p>Looking forward into 2013, I am aiming to continue doing what I have been doing this year. I hope to continue doing developer talks, and I am looking forward to attending the various DDD events across the UK, and also helping to organise them in my new role with Scottish Developers.  I am looking forward to bringing more technical talks to the people in Aberdeen, with the help of Aberdeen Developers.</p>
+
+<p>Last year, I aimed to start a number of pet projects which would help to develop my technical abilities, however, an important project at work took up a lot of my spare time, and I am hoping to continue/start those pet projects in 2013.</p>
+
+<p>And that, as they say, is that!  I hope you all had a great 2012, and here&rsquo;s to 2013!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2011 – My Year in Review]]></title>
+    <link href="http://www.gep13.co.uk/blog/2011-my-year-in-review/"/>
+    <updated>2011-12-30T14:46:50+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/2011-my-year-in-review</id>
+    <content type="html"><![CDATA[<p>It seems like everyone is doing a retrospective blog post about 2011, so I thought that I would jump on the bandwagon.</p>
+
+<p>Here goes…</p>
+
+<p>2011 has been a very busy year for me, both from a work/community and personal standpoint.  What follows is a brief recap of what I have been involved in this year, and also a look ahead at what I hope to be doing in 2012.</p>
+
+<h2>Getting Involved in the Development Community</h2>
+
+<p>Getting involved in the development community was one of my main aims for 2011, and I like to think that I have achieved this.</p>
+
+<p>The <a href="http://aberdeendevelopers.co.uk/">Aberdeen Developers .Net User Group</a> is going from strength to strength, both in terms of the number of registered members, as well as attendance.  With the help of our amazing vendor sponsors, we are able to offer the <a href="http://www.gep13.co.uk/blog/?p=107">following prizes</a> at each ADNUGUK meeting, and I am hopeful that this will continue into the New Year.  I am already looking to 2012 to get events planned and booked, and I am in a position where the next three events are in the planning stages, and although I can’t say too much yet, there is a HUGE event in the making for our 2 year anniversary in July.  More details will follow on this when I have some more pieces confirmed.</p>
+
+<p>I went out of my way to attend numerous Community Events this year.  Looking at my <a href="http://tweetstats.com/graphs/gep13#tcloud">hashtag cloud</a> from Twitter, it is pretty clear where I went:</p>
+
+<p><a href="http://tweetstats.com/graphs/gep13#tcloud"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/image8.png" alt="image" /></a></p>
+
+<p>This year I attended, <a href="http://www.gep13.co.uk/blog/?p=28">DDD9</a>, <a href="http://www.gep13.co.uk/blog/?p=210">DDD Scotland</a>, <a href="http://www.gep13.co.uk/blog/?p=278">DDD South West</a>, <a href="http://www.gep13.co.uk/blog/?p=377">The Progressive .Net Tutorials</a>, <a href="http://www.gep13.co.uk/blog/?p=416">GiveCamp UK</a>, and <a href="http://www.gep13.co.uk/blog/?p=436">DunDDD</a>!  These were all great events, and if I was forced to choose one above all others, it would have to be GiveCamp UK.  The sense of satisfaction that everyone in attendance got from helping out at GiveCamp was amazing, and I would strongly encourage anyone to attend should it happen again in 2012.</p>
+
+<p>Attending events like this is a great way to develop yourself as well as get to know other developers.  As a direct result of these events you can see from this graph the type of characters I have ended up talking to on Twitter throughout 2011:</p>
+
+<p><a href="http://tweetstats.com/graphs/gep13#tcloud"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/image9.png" alt="image" /></a></p>
+
+<p>All of the above mentioned people have helped me in 2011, in one way or another, and for this I am very grateful!  Twitter really is a great way to get involved with fellow developers, and it is a wonderful source of information.  If you are a developer, and you are not on Twitter, you should be!</p>
+
+<p>As some of you may know, I am a Moderator of the ASP.Net Forum over at <a href="http://www.vbforums.com/index.php">VBForums</a> (and no, before Paul Stack or Barry Mooring say anything, this isn’t just a forum for Visual Basic), however this year saw me getting a <a href="http://www.gep13.co.uk/blog/?p=80">promotion to Super Moderator</a>.  As a result, I now have administration rights to all the forums, and am able to help out with moderating and moving threads around, and generally keeping the community there in check.</p>
+
+<p>This year saw me review a couple of articles for the <a href="http://www.developerfusion.com/">developerFusion</a> website, something which I found to be very interesting, and which I hope to continue into 2012.</p>
+
+<h2>From a Personal Stand Point</h2>
+
+<p>I had the pleasure of entering my first <a href="http://www.gep13.co.uk/blog/?p=30">photography contest</a>, and although I didn’t win anything, it was a lot of fun.  The photos that did win were very <a href="http://www.gep13.co.uk/blog/?p=94">worthy winners</a>!  I like to “think” that I know how to take photos, but I really don’t.  However, I got a great birthday present this year which was a half day photography lesson, which I am really looking forward to in February next year, and I hope to pick up a few tips.</p>
+
+<p>I did my first “proper” <a href="http://www.gep13.co.uk/blog/?p=193">User Group presentation</a>.  Going into next year, I am hoping to extend this to some of the larger User Group Events, however, I will have to do a lot of prep work for this, and also extend the areas that I am able to talk on, all of which will take a lot of time and effort, but the rewards should more than make up for this!</p>
+
+<p>I went on an amazing <a href="http://www.gep13.co.uk/blog/?p=290">4x4 driving experience</a>, which I would thoroughly recommend to anyone!</p>
+
+<p>I installed far too many <a href="http://www.gep13.co.uk/blog/?p=3">Visual Studio Extensions</a>!  Thankfully, <a href="http://www.gep13.co.uk/blog/?p=307">ExtensionSync</a> makes it very easy to maintain this across your different computers.</p>
+
+<p>I set up the ability to <a href="http://www.gep13.co.uk/blog/?p=337">stream High Definition media to our upstairs television</a>.  This ended up being a lot more work than I thought it was going to be, but I am happy to say that the end result works really well!</p>
+
+<p>My inner child was awoken with the purchase of <a href="http://www.gep13.co.uk/blog/?p=495">LEGO Mindstorms</a>.  If you are looking for the ultimate geek toy, look no further, it is truly amazing!</p>
+
+<p>My wife and I celebrated our first Wedding Anniversary!  If she can continue to put up with me, this will hopefully be the first of many happy years together.</p>
+
+<h2>Looking forward to 2012</h2>
+
+<p>Looking forward into 2012, there will mainly be more of the same as above.  Following <a href="http://www.gep13.co.uk/blog/?p=313">the principles</a> that I took from Mark Rendle’s talk at DDD South West I will be looking to improve myself as a developer, but I also hope to break into doing talks at some of these community events, rather than simply attending them.  This will be a big step for me, but something that I am very much looking forward to.</p>
+
+<p>I will be continuing to blog next year as well, however, I am looking to writing much more technical blog posts.  I have learnt a lot this year from all the talks that I have attended, and I am looking to implement these technologies in a number of pet projects.  I will be blogging the trials and tribulations that I have along the way, which will hopefully help other people.</p>
+
+<p>And that, as they say, is that!  I hope you all had a great 2011, and here’s to 2012!</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: General Development | gep13's blog]]></title>
+  <link href="http://www.gep13.co.uk/blog/categories/general-development/atom.xml" rel="self"/>
+  <link href="http://www.gep13.co.uk/"/>
+  <updated>2014-09-02T21:24:11+01:00</updated>
+  <id>http://www.gep13.co.uk/</id>
+  <author>
+    <name><![CDATA[gep13]]></name>
+    <email><![CDATA[gep13@gep13.co.uk]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Building the Caliburn.Micro Source Code]]></title>
+    <link href="http://www.gep13.co.uk/blog/building-the-caliburnmicro-source-code/"/>
+    <updated>2012-10-10T18:30:57+01:00</updated>
+    <id>http://www.gep13.co.uk/blog/building-the-caliburnmicro-source-code</id>
+    <content type="html"><![CDATA[<h1>Caliburn.Micro Nuget Package doesn’t work</h1>
+
+<p>At the time of writing this blog post, the <a href="http://nuget.org/packages/Caliburn.Micro">Caliburn.Micro Nuget package</a> (Version 1.3.1) doesn’t install correctly.  It adds the necessary references to the Caliburn.Micro assemblies, but it doesn’t add the additional installation files to the project, namely the AppBootstrapper.cs and MainPageViewModel.cs.</p>
+
+<p>Thankfully, this is a known issue with the Caliburn.Micro package (it is listed <a href="http://caliburnmicro.codeplex.com/workitem/237">here</a>) and is actually as a result in the way the Nuget itself <a href="http://nuget.codeplex.com/workitem/2396">changed</a>.  Now, this problem has actually already been fixed in the latest Caliburn.Micro source code (which you can find <a href="http://caliburnmicro.codeplex.com/SourceControl/changeset/view/62cf1765f4ba">here</a>) but due to some remaining WinRT issues, the 1.3.2 version of Caliburn.Micro has not been released yet.</p>
+
+<p>So, what can you do if you want to get a working Nuget package?  The answer is to build the source code yourself.  Now, this may seem a little scary, but it really isn&#8217;t  and the following steps will work you through what you need to do.</p>
+
+<h1>To Clone or to download</h1>
+
+<p>The first decision that you will need to make is whether you want to Clone the Caliburn.Micro source control locally to your machine, or whether you just want to download the source code.  Due to the fact that I am lazy, the steps outlined here are going to talk you through the downloading route, but if you are interested in cloning the repository take a look at this article <a href="http://codeplex.codeplex.com/wikipage?title=Using%20TortoiseHG%20with%20CodePlex&amp;referringTitle=Source%20control%20clients&amp;ProjectName=codeplex">here</a>.</p>
+
+<h1>Let’s get started</h1>
+
+<p>So, first thing’s first, go ahead and download the latest Caliburn.Micro source code:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1466"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Download.png" alt="" /></a></p>
+
+<p>Once the zip file has downloaded:</p>
+
+<ol>
+<li><p> Go to the folder where you saved it</p></li>
+<li><p> Right click on the zip file and select properties</p></li>
+<li><p> Click the Unblock button</p></li>
+<li><p> Click on Apply, then click OK</p></li>
+<li><p> Right click on the zip file again and select Extract All, and walk through the extraction wizard</p></li>
+</ol>
+
+
+<p>Once that is complete, take a look at the contents of the folder.  In the root of the folder, you should see a “src” folder, which contains three Visual Studio solution files, namely:</p>
+
+<ul>
+<li><p>Caliburn.Micro.PackageBuilder.sln</p></li>
+<li><p>Caliburn.Micro.sln</p></li>
+<li><p>Caliburn.Micro.WinRT.sln</p></li>
+</ul>
+
+
+<p>In order to open the second solution file, you will need to have the Silverlight Tools and Windows Phone 7 SDK installed.</p>
+
+<p>In order to open the last solution file, you are going to need to have Visual Studio 2012 along with .Net Framework 4.5 installed.  If you don’t, and you try to open this solution in Visual Studio 2010, you will be greeted with the following:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1465"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_.WinRT_not_opening.png" alt="" /></a></p>
+
+<h1>Building the solutions</h1>
+
+<p>Depending on what frameworks you are targeting, i.e. Silverlight, Windows Phone 7, WinRT, open the correct solution file, and switch to doing a “Release” build.  Build the solution, and ensure that there are no errors.  The act of building the solution actually only creates the output assemblies, it doesn&#8217;t generate the Nuget package.  To be clear, at this point, you can build either solution, or both.  The Nuget package created works on whatever it can find, and will place only the output assemblies that it can located in the resulting Nuget package.</p>
+
+<h1>Creating the Nuget package</h1>
+
+<p>Go back to the root folder of the zip file, and find the “nuget” folder.  In here, you will find a PowerShell file called “create-packages.ps1”.</p>
+
+<p>Do the following:</p>
+
+<ol>
+<li><p> Open PowerShell as an Administrator</p></li>
+<li><p> Run the command <em><strong>Get-ExecutionPolicy</strong></em></p></li>
+<li><p> If this returns a value of “Restricted” then you are going to need to change this, otherwise the PowerShell script to create the Nuget package will not run.  The command that you will need to run is <strong><em>Set-ExecutionPolicy RemoteSigned</em></strong></p></li>
+<li><p> Browse to the folder where the above .ps1 file is located</p></li>
+<li><p> Run the following command <strong><em>.\create-package.ps1</em></strong></p></li>
+<li><p> This will generate two Nuget packages, one called “Caliburn.Micro.1.3.2.nupkg” and “Caliburn.Micro.Start.1.3.2.nupkg”</p></li>
+<li><p> Finally, if your previous execution policy for PowerShell was restricted, be sure to put this back.  To do this, run the command <strong><em>Set-ExecutionPolicy Restricted</em></strong></p></li>
+</ol>
+
+
+<h1>Why are there two Nuget packages?</h1>
+
+<p>In version 1.3.1 of Caliburn.Micro, it was assumed that everyone who was using the Nuget package wanted the additional files that it included.  This wasn&#8217;t always the case (as some people roll their own AppBootstrapper, etc) and as a result, they would have to delete the unwanted files.  To work around this, the Caliburn.Micro assemblies are stored in the “Caliburn.Micro.1.3.2.nupkg” package, and the additional installation files are stored in “Caliburn.Micro.Start.1.3.2.nupkg”.  To complete the story, the “.Start” package takes a dependency on the main “Caliburn.Micro” package.  This way, a user has a choice of what they want to use; very clever!</p>
+
+<h1>use a local Nuget repository</h1>
+
+<p>Now that you have these Nuget packages, what do you do with them?  What I do is I create a folder on my C:\ drive, typically c:\nugetpackages and I put the Nuget packages in there.  Then, within Visual Studio select Tools | Library Package Manager | Package Manager Settings.  In the windows that opens up, select “Package Sources”, click the green &ldquo;add&rdquo; button, and enter “Local Nuget” as the Name, and “C:\nugetpackages” as the source, and click the “Update” button:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1467"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Local_Nuget_Package_Source.png" alt="" /></a></p>
+
+<p>With this in place, then either through the Package Manager Console you can use the “Local Nuget” source and install the package:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1469"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Package_Manager_Console_Install.png" alt="" /></a></p>
+
+<p>Or, through the “Mange Nuget Packages” dialog you can again select “Local Nuget” and select the package that you want to install:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1468"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Manage_Nuget_Packages.png" alt="" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I Did Not Know That #Fiddler Could Do This…]]></title>
+    <link href="http://www.gep13.co.uk/blog/i-did-not-know-that-fiddler-could-do-this/"/>
+    <updated>2011-07-07T12:59:09+01:00</updated>
+    <id>http://www.gep13.co.uk/blog/i-did-not-know-that-fiddler-could-do-this</id>
+    <content type="html"><![CDATA[<p>One of the most essential tools for working on web development is Fiddler:</p>
+
+<p><a href="http://www.fiddler2.com/fiddler2/">http://www.fiddler2.com/fiddler2/</a></p>
+
+<p>For those who don’t know:</p>
+
+<blockquote>  
+> 
+>    
+> 
+> Fiddler is a Web Debugging Proxy which logs all HTTP(S) traffic between your computer and the Internet. Fiddler allows you to inspect all HTTP(S) traffic, set breakpoints, and &#8220;fiddle&#8221; with incoming or outgoing data. Fiddler includes a powerful event-based scripting subsystem, and can be extended using any .NET language.
+> 
+>    
+> 
+> </blockquote>
+
+
+<p>This tool has helped me out in a number of situations, and it is actually one of the first things that I <a href="http://www.gep13.co.uk/blog/?p=198">install on my machine</a> if I ever need to rebuild it.</p>
+
+<p>The other day when using Fiddler I was blown away by a feature that I had not seen before. Namely, the ability to filter HTTP traffic coming from a single process. The concept is by no means a new one, but it is the way in which Fiddler does it that I thought was very clever.</p>
+
+<p><strong><em>The Steps</em></strong></p>
+
+<ol>
+<li><p> Open your web browser ready for inspecting traffic</p></li>
+<li><p> Open Fiddler</p></li>
+<li><p> Find the “Process Filter” toolbar item in the main toolbar</p></li>
+</ol>
+
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image_thumb.png" alt="image" /></a></p>
+
+<ol>
+<li> Hover your mouse hover this and you will see the following tooltip which pretty much explains it all. Click your mouse on the “Process Filter” button and the text will change to say “pick target…” and the icon will change to be a cross hair.</li>
+</ol>
+
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image1.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image_thumb1.png" alt="image" /></a></p>
+
+<ol>
+<li><p> With the left mouse button still held down, move the mouse to the window (process) that you want to filter the HTTP target from. In this case, it is the web browser that you opened in step 1, but it could equally be any other application that is communicating over HTTP.</p></li>
+<li><p> The “Process Filter” button will change again to show the process id that it is filtering HTTP traffic from</p></li>
+</ol>
+
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image2.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image_thumb2.png" alt="image" /></a></p>
+
+<ol>
+<li> Once you are finished, simply left click the “Process Filter” toolbar item again and the filter will be removed.</li>
+</ol>
+
+
+<p>In my case, if I open Fiddler on my non development machine I have HTTP traffic coming from Windows Live Mesh, Outlook, OneNote, BookMark synchronisation, etc. Trying to figure out what is going on with one “thing” can be difficult, this filtering ability makes it very easy, and as I mentioned I think the way in which you select the process to filter on is VERY clever.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Software Development Packages]]></title>
+    <link href="http://www.gep13.co.uk/blog/software-development-packages/"/>
+    <updated>2011-04-20T21:36:13+01:00</updated>
+    <id>http://www.gep13.co.uk/blog/software-development-packages</id>
+    <content type="html"><![CDATA[<p>I have been giving a lot of thought about the development software packages that I use on a daily basis (both at work and at home), and which ones, if any, I should change out. For example, I have been hearing a lot of good things about TeamCity (for the purposes of Continuous Integration) and CodeRush/ReSharper as IDE Productivity Tools.</p>
+
+<p>As a result, I am looking to get some opinions from some fellow developers about what they are using.</p>
+
+<p>What I currently use is the following:</p>
+
+<ul>
+<li><p>Development Environment – Visual Studio 2010</p></li>
+<li><p>Source Control – TFS</p></li>
+<li><p>Continuous Integration – TFS</p></li>
+<li><p>Work Item Management – TFS</p></li>
+<li><p>Unit Testing – MSTest</p></li>
+<li><p>Integration Testing – Nothing at the minute <img src="http://www.gep13.co.uk/blog/wp-content/uploads/517cd9ae4196_12CEC/wlEmoticon-sadsmile.png" alt="Sad smile" /></p></li>
+<li><p>IDE Productivity Tools – StyleCop, Code Analysis</p></li>
+<li><p>Various Visual Studio 2010 <a href="http://www.gep13.co.uk/blog/?p=3">Extensions</a></p></li>
+</ul>
+
+
+<p>So basically, what I am hoping for is feedback on what you use, either at home or at work, and what you like about the packages that you use. Am I missing anything critical? Are there any software packages for development purposes that you are using, that you now simply couldn’t live without?</p>
+
+<p>All opinions are welcome!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Where Did the Assemblies From My Global Assembly Cache (GAC) Go?]]></title>
+    <link href="http://www.gep13.co.uk/blog/where-did-the-assemblies-from-my-global-assembly-cache-gac-go/"/>
+    <updated>2010-11-24T20:32:00+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/where-did-the-assemblies-from-my-global-assembly-cache-gac-go</id>
+    <content type="html"><![CDATA[<p>I have recently been working on a SharePoint Web Part, and while trying to retract the solution from SharePoint, I got an error message, shown here:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/5e76c325-aa54-4408-9fe5-ca32dc405398.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/5e76c325-aa54-4408-9fe5-ca32dc405398_thumb.png" alt="5e76c325-aa54-4408-9fe5-ca32dc405398" /></a></p>
+
+<p>Now, in all honesty, I didn’t think much of this error, because when I checked the files associated with each of the features for the solution they were all gone, and when I tried to open the home page of my SharePoint server, it worked, and everything looked to be ok. However, an additional step after retracting the solution was to remove a couple files from the GAC (yes, I know I need to alter my WSP project to do this for me, but…), on opening the GAC, I was greeted with this:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/ee75f8ab-79d9-4c07-b512-09fab0b6cdc0.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/ee75f8ab-79d9-4c07-b512-09fab0b6cdc0_thumb.png" alt="ee75f8ab-79d9-4c07-b512-09fab0b6cdc0" /></a></p>
+
+<p>Where have all my assemblies gone?!? My machine is still running, and there haven’t been any error messages pop up, so I know the files in the GAC must be there, but for whatever reason, they are not being displayed. So, what do you do in situations like this? I don’t know about you, but I always turn to the person next to me to make sure that they are seeing the same thing as me. So I did, I pulled over one of my colleagues, and asked him to look at my GAC and ask if he had seen this before. However, when I did this, and I opened the GAC again, all the files were there!! So I took some stick about being an idiot, and I went on with my day.</p>
+
+<p>Later on though, the same thing happened. I pulled my colleague over again, and proved that I wasn’t dreaming. He agreed that he was seeing the same thing as I was (no need to call the men in white coats yet), but didn’t have a clue what was going on.</p>
+
+<p>So, what do you do when all other avenues have been exhausted? That’s right, you Google it. I found various references to the problem, but nothing concrete, until I found this:</p>
+
+<p><a href="http://kwizcom.blogspot.com/2009/01/global-assembly-cache-gac-folder.html">http://kwizcom.blogspot.com/2009/01/global-assembly-cache-gac-folder.html</a></p>
+
+<p>My initial reaction was, no, that can’t be right. But to my surprise, disabling the “Indexing Service” does appear to have done the trick. I have had the retraction error a few more times since I disabled the service (I really need to look into why that is happening), and each time the GAC has remained in tact.</p>
+
+<p>No idea what was causing this to happen, but seems like this is the solution.</p>
+]]></content>
+  </entry>
+  
+</feed>

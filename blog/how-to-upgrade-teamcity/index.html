@@ -1,0 +1,215 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>How to upgrade TeamCity - gep13&#8217;s blog</title>
+	<meta name="author" content="gep13">
+
+	
+	<meta name="description" content="How to Upgrade TeamCity It&rsquo;s a snap! If you have decided to install your own instance of TeamCity, then it is your responsibility to ensure &hellip;">
+	
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/feed" rel="alternate" title="gep13's blog" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://www.gep13.co.uk/blog/how-to-upgrade-teamcity/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- Cookie Consent -->
+<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
+
+<!-- Pure CSS -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><nav id="main-nav"><ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/adnuguk">ADNUGUK</a></li>
+</ul>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		<a class="facebook" href="http://www.facebook.com/gary.e.park" title="Facebook">Facebook</a>
+		
+		
+		<a class="google" href="https://plus.google.com/+GaryEwanPark" rel="author" title="Google+">Google+</a>
+		
+		
+		<a class="twitter" href="http://twitter.com/gep13" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/gep13" title="GitHub">GitHub</a>
+		
+		
+		
+		<a class="linkedin" href="http://www.linkedin.com/in/gep13">LinkedIn</a>
+		
+		
+		
+		<a class="delicious" href="http://delicious.com/gep13" title="Delicious">Delicious</a>
+		
+		
+		
+		<a class="rss" href="/feed" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+<div class="profile-container">
+  <div class="profilepic">
+    <script src="/javascripts/md5.js"></script>
+    <script type="text/javascript">
+$(function(){
+  $('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("gep13@gep13.co.uk") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+});
+    </script>
+  </div>
+  <hgroup>
+  <h1 class="site-title"><a href="/">gep13&#8217;s blog</a></h1>
+  
+  <p class="site-subtitle">Ramblings and Ponderings of a Microsoft Fan Boy&#8230;</p>
+  
+  </hgroup>
+  
+</div>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="article-inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+	<h1 class="title" itemprop="name">How to Upgrade TeamCity</h1>
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+  <div class="post-date"><time datetime="2013-02-07T22:13:51+00:00" data-updated="true" itemprop="datePublished"></time></div>
+	<div class="entry-content" itemprop="articleBody"><h1>It&rsquo;s a snap!</h1>
+
+<p>If you have decided to <a href="http://gep13.me/VAeRiX">install your own instance of TeamCity</a>, then it is your responsibility to ensure that it is kept up to date.  <a href="http://www.jetbrains.com/">JetBrains</a> have a fairly aggressive <a href="http://confluence.jetbrains.com/display/TW/Previous+Releases+Downloads">release cadence</a>, with updates coming out every couple of months.  This is great, as you get a host of new features and bug fixes on a regular basis.</p>
+
+<p>When performing an upgrade, the most important thing to do is to back up the database and configuration settings.  Luckily, this is a built-in process within the administration section of TeamCity.</p>
+
+<p>This blog post steps through the full upgrade process.</p>
+
+<h1>Installation Steps</h1>
+
+<p><strong>NOTE: </strong>The following installation steps and screenshots were taken from a virtual machine   with Windows Server 2008 R2 Service Pack 1, running in Hyper-V on a Windows 8 Host Machine.</p>
+
+<p>These instructions are specific to version 7.1.3 of TeamCity, however, later versions will likely follow very similar steps.  In addition, these installation instructions will install both the TeamCity Server and Build Agent onto the same machine.  Ideally, you would want to have a separate Build Agent Machine.</p>
+
+<p>You can see screenshots of each of these steps in the galley at the bottom of this blog post.</p>
+
+<ol>
+<li><p> Assumption is that you already have <a href="http://gep13.me/VAeRiX">TeamCity</a> installed (otherwise, why would you be looking to upgrade it :-)</p></li>
+<li><p> Assumption is that you have already <a href="http://www.jetbrains.com/teamcity/download/index.html">downloaded the new version of TeamCity</a>, in this case 7.1.4.</p></li>
+<li><p> Log into TeamCity using an account that has Administrator privileges</p></li>
+<li><p> Click on the Backup link near the bottom left hand corner</p></li>
+<li><p> When the Run Backup Tab opens, click on &ldquo;Start Backup&rdquo;</p></li>
+<li><p> The backup should complete successfully</p></li>
+<li><p> Double Click the installation *.exe which was downloaded in Step 2 above</p></li>
+<li><p> At the first step in the installation wizard simply click Next</p></li>
+<li><p> Read the License Agreement and assuming you are happy with it, click “I Agree”</p></li>
+<li><p>. In the “Choose Install Location” window, assuming you are happy with the default installation folder, simply click Next, otherwise change it first</p></li>
+<li><p>. In order to install the latest version of TeamCity, you have to first uninstall the current version.  Click &ldquo;Next&rdquo;</p></li>
+<li><p>. On this screen simply click Next once the current installation has been located</p></li>
+<li><p>. Typically, since you are doing an upgrade, you want to keep both the build configuration and working directory, but the log files can be removed.  Click Uninstall</p></li>
+<li><p>. The un-installation will continue</p></li>
+<li><p>. After a short period, the un-installation will complete</p></li>
+<li><p>. In the “Choose Components” window choose the components that you want to install.  As already mentioned, we will be installing both the Server and Build Agent on one server.  Click Next</p></li>
+<li><p>. In the “Specify server configuration directory” window assuming you are happy with the default location click Next, otherwise change it first</p></li>
+<li><p>. The main portion of the installation will start now</p></li>
+<li><p>. The “Configure Build Agent Properties” window will then open, giving you the opportunity to add/edit build agent properties.  For now, you can leave this as the default.  If needed, this can be changed later.  Click Save.</p></li>
+<li><p>. Simply click OK on the “TeamCity Build Agent Properties” pop-up</p></li>
+<li><p>. In the “Select Service Account for Server” window decide what user account you want to run the TeamCity Server, I chose to use the SYSTEM account.  Click Next</p></li>
+<li><p>. In the “Select Service Account for Agent” window decide what user account you want to run the TeamCity Build Agent, I chose to use the SYSTEM account.  Click Next</p></li>
+<li><p>. In the “Services” window, choose to start both the Server and Build Agent Services, and click Next</p></li>
+<li><p>. In the final screen, ensure that the option to open TeamCity Website after exit is checked and click Finish.</p></li>
+<li><p>. A web page will open saying “TeamCity is starting”</p></li>
+<li><p>. The login screen will then be presented</p></li>
+<li><p>. On logging in, you will see the latest version number displayed</p></li>
+</ol>
+
+
+<h1>Installation Screenshots</h1>
+
+<p>[gallery ids=&ldquo;1921,1922,1923,1924,1925,1926,1927,1928,1929,1930,1931,1932,1933,1934,1935,1936,1937,1938,1939,1940,1941,1942,1943,1944&rdquo;]</p>
+</div>
+
+</article>
+
+	<div class="share">
+	<div class="share_icon_group addthis_toolbox addthis_default_style addthis_32x32_style">
+	
+  <a class="share_icon addthis_button_preferred_1"></a>
+	
+	
+	<a class="share_icon addthis_button_preferred_2" fb:like:layout="button_count"></a>
+	
+	
+	<a class="share_icon addthis_button_preferred_4"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid="></script>
+</div>
+
+
+</div>
+			</div>
+			<footer id="footer" class="inner"><p>
+  Copyright &copy; 2014 - gep13 -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+<p>Theme: <a href="https://github.com/qingwang/octopress-theme-yinyang">YinYang</a></p>
+</footer>
+			<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+
+		</div>
+	</div>
+</body>
+</html>

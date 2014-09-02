@@ -1,0 +1,228 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Use the Cloud9 online IDE to hack on WordPress - gep13&#8217;s blog</title>
+	<meta name="author" content="gep13">
+
+	
+	<meta name="description" content="Use the Cloud9 Online IDE to Hack on WordPress As some of you may know, I have been hacking on this WordPress blog site recently.  The decision to & &hellip;">
+	
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/feed" rel="alternate" title="gep13's blog" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://www.gep13.co.uk/blog/use-the-cloud9-online-ide-to-hack-on-wordpress/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- Cookie Consent -->
+<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
+
+<!-- Pure CSS -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><nav id="main-nav"><ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/adnuguk">ADNUGUK</a></li>
+</ul>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		<a class="facebook" href="http://www.facebook.com/gary.e.park" title="Facebook">Facebook</a>
+		
+		
+		<a class="google" href="https://plus.google.com/+GaryEwanPark" rel="author" title="Google+">Google+</a>
+		
+		
+		<a class="twitter" href="http://twitter.com/gep13" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/gep13" title="GitHub">GitHub</a>
+		
+		
+		
+		<a class="linkedin" href="http://www.linkedin.com/in/gep13">LinkedIn</a>
+		
+		
+		
+		<a class="delicious" href="http://delicious.com/gep13" title="Delicious">Delicious</a>
+		
+		
+		
+		<a class="rss" href="/feed" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+<div class="profile-container">
+  <div class="profilepic">
+    <script src="/javascripts/md5.js"></script>
+    <script type="text/javascript">
+$(function(){
+  $('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("gep13@gep13.co.uk") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+});
+    </script>
+  </div>
+  <hgroup>
+  <h1 class="site-title"><a href="/">gep13&#8217;s blog</a></h1>
+  
+  <p class="site-subtitle">Ramblings and Ponderings of a Microsoft Fan Boy&#8230;</p>
+  
+  </hgroup>
+  
+</div>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="article-inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+	<h1 class="title" itemprop="name">Use the Cloud9 Online IDE to Hack on WordPress</h1>
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+  <div class="post-date"><time datetime="2012-01-31T20:37:23+00:00" data-updated="true" itemprop="datePublished"></time></div>
+	<div class="entry-content" itemprop="articleBody"><p>As some of you may know, I have been <em>hacking</em> on this WordPress blog site recently.  The decision to &ldquo;improve&rdquo; this site has really come from the realisation that WordPress is actually very good at what it does, and I am going to <a href="http://www.gep13.co.uk/blog/continue-using-wordpress-or-not/">continue using it for the foreseeable future</a>.  With that in mind, there were a few things that were annoying me about the site, so I started digging around the innards of WordPress to figure out what could be changed, and more importantly, how to do it.  To start with, this was done using the always useful FTP application, <a href="http://filezilla-project.org/">FileZilla</a>.  I would download a .php file locally, make some changes to it, and then upload it again.  This cycle repeated for a few iterations, until I realised that there <em>must</em> be a better way to do this!</p>
+
+<h1>Using the WordPress Editor</h1>
+
+<p>Now, WordPress comes with its own built-in file editor, which gives you the ability to edit individual files.  This can be pretty much any file within WordPress, be it, plugins, themes, script files, etc.  However, the editor itself is very basic, and I quickly became annoyed at using it:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/WordPress_Editor.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/WordPress_Editor_thumb.png" alt="WordPress_Editor" /></a></p>
+
+<h1>Using an Online IDE</h1>
+
+<p>Then I remembered about a conversation had with Phil Leggetter (<a href="https://twitter.com/#!/leggetter">@leggetter</a>) and Daniel Elliot (<a href="https://twitter.com/#!/agileguy">@agileguy</a>) while I was at <a href="http://www.gep13.co.uk/blog/my-impressions-of-givecampuk/">GiveCamp UK</a> last year, and the idea of using an online IDE to do the work started to become more appealing.  This would mean that I could &ldquo;hack&rdquo; on the files directly from within the browser, but still get the added benefits, such as syntax highlighting.  A quick search, and it turns out that there are lots of online IDE&rsquo;s out there.  Here are some of the ones that I tried out:</p>
+
+<ul>
+<li><p><a href="http://coderun.com/ide/">coderun</a></p></li>
+<li><p><a href="http://shiftedit.net/">ShiftEdit</a></p></li>
+<li><p><a href="https://codeanywhere.net/">codeanywhere</a></p></li>
+<li><p><a href="http://c9.io/">Cloud9 IDE</a></p></li>
+</ul>
+
+
+<p>The requirements for what I wanted were quite simple:</p>
+
+<ol>
+<li><p> Be free (yes, I am a cheap skate, but for now, what I need to use it for doesn&rsquo;t warrant paying for the service)</p></li>
+<li><p> Allow editing of files on a FTP Server</p></li>
+<li><p> Syntax Highlighting</p></li>
+<li><p> Allow private projects</p></li>
+</ol>
+
+
+<p>Due to requirement 1 <a href="http://coderun.com/ide/">coderun</a> was not able to be used.  Don&rsquo;t get me wrong, this is a GREAT application, and if I was looking to code full-blown ASP.Net applications in the cloud, this would definitely be one of the go to applications.  That left three applications to whittle down.</p>
+
+<p>Although it claims to be able to do it, I couldn&rsquo;t get <a href="https://codeanywhere.net/">codeanywhere</a> to connect to my FTP Server (and this wasn&rsquo;t for want of trying) so I gave up on using that.  That left <a href="http://shiftedit.net/">ShiftEdit</a> and <a href="http://c9.io/">Cloud9 IDE</a>.</p>
+
+<p>I played with both of these, on and off, while I was doing my hacking, and I have to say that they are both very good.  Both are free (depending on what you want to do with them), and I found it hard to choose between them.  After a good bit of consideration, I have decided to continue using <a href="http://c9.io/">Cloud9 IDE</a>.  This was for a couple of reasons:</p>
+
+<ol>
+<li><p> Although <a href="http://shiftedit.net/">ShiftEdit</a> is free (for what I wanted to do) it didn&rsquo;t offer SSL access, which was a bit of a downer</p></li>
+<li><p> <a href="http://c9.io/">Cloud9 IDE</a> seems to be under far more active development, with exciting recent announcements about <a href="http://cloud9ide.posterous.com/windows-azure-on-cloud9">Azure integration</a></p></li>
+</ol>
+
+
+<p>One thing I should note about <a href="http://c9.io/">Cloud9 IDE</a>, is that in order to secure access to your projects you normally need to purchase the premium subscription, i.e:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Create_New_Project.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Create_New_Project_thumb.png" alt="Create_New_Project" /></a></p>
+
+<p>However, when it comes to FTP projects, it is only you that gets access:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Create_New_Project_-_FTP.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Create_New_Project_-_FTP_thumb.png" alt="Create_New_Project_-_FTP" /></a></p>
+
+<p>Now, I have to admit that other people getting access to my FTP Server was something that I was worried about, and I wanted to test to make sure that it wasn&rsquo;t publicly accessible.  To test this I sent a DM on Twitter to Phil Leggetter and asked him to try to get in, and this is what he was met with:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/denied-access.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/denied-access_thumb.png" alt="denied access" /></a></p>
+
+<p>However, what is interesting, is that you &ldquo;can&rdquo; grant access to users through the <a href="http://c9.io/">Cloud9 IDE</a> dashboard, once they request access, which is a really nice touch:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Cloud9_Dashboard.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Cloud9_Dashboard_thumb.png" alt="Cloud9_Dashboard" /></a></p>
+
+<p>Sorry Phil, I denied your request to join the project :).</p>
+
+<p>All in all, this is a VERY polished application, and I would highly recommend checking it out.  The GitHub and BitBucket integration is seamless, and <em>just</em> works!  Make sure you check it out.</p>
+
+<p>If you are interested in checking out the result of my <em>hacking </em>I have uploaded my changes to my GitHub site <a href="https://github.com/gep13/NowReadingReloaded13">here</a>.</p>
+</div>
+
+</article>
+
+	<div class="share">
+	<div class="share_icon_group addthis_toolbox addthis_default_style addthis_32x32_style">
+	
+  <a class="share_icon addthis_button_preferred_1"></a>
+	
+	
+	<a class="share_icon addthis_button_preferred_2" fb:like:layout="button_count"></a>
+	
+	
+	<a class="share_icon addthis_button_preferred_4"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid="></script>
+</div>
+
+
+</div>
+			</div>
+			<footer id="footer" class="inner"><p>
+  Copyright &copy; 2014 - gep13 -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+<p>Theme: <a href="https://github.com/qingwang/octopress-theme-yinyang">YinYang</a></p>
+</footer>
+			<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+
+		</div>
+	</div>
+</body>
+</html>
