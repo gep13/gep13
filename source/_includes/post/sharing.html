@@ -1,11 +1,15 @@
-<div class="sharing">
-  {% if site.twitter_tweet_button %}
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="{{ site.url }}{{ page.url }}" data-via="{{ site.twitter_user }}" data-counturl="{{ site.url }}{{ page.url }}" >Tweet</a>
-  {% endif %}
-  {% if site.google_plus_one %}
-  <div class="g-plusone" data-size="{{ site.google_plus_one_size }}"></div>
-  {% endif %}
-  {% if site.facebook_like %}
-    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
-  {% endif %}
+<div class="share">
+	<div class="share_icon_group addthis_toolbox addthis_default_style addthis_32x32_style">
+	{% if site.twitter_tweet_button %}
+  <a class="share_icon addthis_button_preferred_1"></a>
+	{% endif %}
+	{% if site.facebook_like %}
+	<a class="share_icon addthis_button_preferred_2" fb:like:layout="button_count"></a>
+	{% endif %}
+	{% if site.google_plus_one %}
+	<a class="share_icon addthis_button_preferred_3" g:plusone:size="{{ site.google_plus_one_size }}"></a>
+	{% endif %}
+	<a class="share_icon addthis_button_preferred_4"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.addthis_profile_id }}"></script>
 </div>
