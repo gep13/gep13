@@ -106,3 +106,48 @@ linkedin_user: gep13
 
 # addthis
 addthis_profile_id: ra-54075e8542beba4d
+
+# ----------------------- #
+#   prose.io settings     #
+# ----------------------- #
+prose:
+  rooturl: "source"
+  site: "http://www.gep13.co.uk"
+  media: "source/assets/posts"
+  metadata:
+    "source/_posts":
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "author"
+        field:
+          element: "hidden"
+          value: "gep13"		  
+      - name: "title"
+        field:
+          element: "text"
+          value: "Title"
+      - name: "comments"
+        field:
+          label: "Allow comments"
+          element: "checkbox"
+          value: true
+      - name: "sharing"
+        field:
+          label: "Allow sharing"
+          element: "checkbox"
+          value: true		  
+      - name: "categories"
+        field:
+          element: "text"
+          value: ""
+      - name: "tags"
+        field:
+          element: "text"
+          value: ""		  
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: true
