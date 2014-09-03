@@ -33,6 +33,7 @@ When I was given some Amazon vouchers as part of my leaving present, I thought t
 
 I have since had this delivered, and I am in fact using it to write this blog post. What are my thoughts so far I hear you ask? Well, let me tell you…
 
+<!--more-->
 
 ## The Keyboard
 
