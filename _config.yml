@@ -140,12 +140,12 @@ prose:
           value: true		  
       - name: "categories"
         field:
-		  label: "Categories"
+          label: "Categories"
           element: "textarea"
           value: ""
       - name: "tags"
         field:
-		  label: "Tags"
+          label: "Tags"
           element: "textarea"
           value: ""		  
       - name: "published"
