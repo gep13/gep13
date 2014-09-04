@@ -3,12 +3,6 @@
   
   
   <url>
-    <loc>http://www.gep13.co.uk/blog/test-blog-post/</loc>
-    <lastmod>2014-09-04T00:00:00+00:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>http://www.gep13.co.uk/blog/old-new-sculpt-ergonomic/</loc>
     <lastmod>2014-06-07T20:21:53+00:00</lastmod>
     <priority>0.8</priority>
@@ -1715,35 +1709,35 @@
   
   <url>
     <loc>http://www.gep13.co.uk/blog/archives/</loc>
-    <lastmod>2014-09-04T21:05:10+00:00</lastmod>
+    <lastmod>2014-09-04T21:14:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://www.gep13.co.uk/</loc>
-    <lastmod>2014-09-04T21:05:10+00:00</lastmod>
+    <lastmod>2014-09-04T21:14:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://www.gep13.co.uk/contact/</loc>
-    <lastmod>2014-09-04T21:05:10+00:00</lastmod>
+    <lastmod>2014-09-04T21:14:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://www.gep13.co.uk/about/</loc>
-    <lastmod>2014-09-04T21:05:10+00:00</lastmod>
+    <lastmod>2014-09-04T21:14:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://www.gep13.co.uk/adnuguk/</loc>
-    <lastmod>2014-09-04T21:05:10+00:00</lastmod>
+    <lastmod>2014-09-04T21:14:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

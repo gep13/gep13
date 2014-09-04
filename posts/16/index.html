@@ -7,7 +7,7 @@
 	<meta name="author" content="gep13">
 
 	
-	<meta name="description" content="May 14th, 2011 windows phone 7 Comments Using a WP7 to Automate My House… Ok, that is clearly a little bit of an exaggeration, I haven’t automated &hellip;">
+	<meta name="description" content="May 13th, 2011 general pc Comments VMWare Workstation Troubles… At work, I use Windows 7 as the base operating system for my Desktop machine. It is &hellip;">
 	
 
 	<!-- http://t.co/dKP3o1e -->
@@ -128,72 +128,6 @@ $(function(){
 			<div class="mid-col-container">
 				<div id="content" class="article-inner">
 <div itemscope itemtype="http://schema.org/Blog">
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
- 	<div class="meta"> 
- 		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-05-14T20:07:00+00:00" data-updated="true" itemprop="datePublished">May 14th, 2011</time></div> 
- 		<div class="tags">
-
-
-	<a class='category' href='/blog/categories/windows-phone-7/'>windows phone 7</a>
-
-
-</div> 
- 		 
- 			<span class="comments"><a href="/blog/using-a-wp7-to-automate-my-house/#disqus_thread">Comments</a></span> 
- 		 
- 	</div> 
-
-	<h1 class="title" itemprop="name"><a href="/blog/using-a-wp7-to-automate-my-house/" itemprop="url">Using a WP7 to Automate My House…</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<p>Ok, that is clearly a little bit of an exaggeration, I haven’t automated my whole house, but I have automated a very small portion of it. What am I talking about? And why am I writing a blog about it? Read on, and all will be revealed :)</p>
-
-<p>Last weekend while I was at <a href="http://www.gep13.co.uk/blog/?p=210">DDD Scotland</a> I got talking to <a href="http://twitter.com/#!/richardadalton">@richardadalton</a> and during an enthralling conversation about the Commodore 64 (I really think I want to fire up my old C64, but I am worried about whether it would blow up cause it’s so old. I could always get myself one of <a href="http://www.commodoreusa.net/CUSA_C64.aspx">these</a> though), I got a phone call from my wife asking if I would “switch of the internet”, to which I responded with, “sure, no problem”, and I promptly did so.</p>
-
-<p>Now bear in mind, I was 150 miles away at the time. How did I do this? Using my Windows Phone 7 of course!</p>
-
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image3.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb3.png" alt="image" /></a></p>
-
-<p>I should clarify that in my house, switching off the internet actually translates as switching off the wireless antenna of our ADSL Router. The need to do this stems from the fact that we use a wireless TV sender to take the Sky Television signal from the Sky+ box downstairs to the television upstairs, and when the wireless antenna in the ADSL router is on, we get interference on the upstairs television.</p>
-
-<p>Now, as I can hear <a href="http://twitter.com/#!/barryoconnor">@barryoconnor</a> saying, “why not just get Sky Multi-Room?” The reason is two fold. 1) We don’t watch enough TV upstairs to warrant another feed, and more importantly 2) I am cheap <img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/wlEmoticon-smile1.png" alt="Smile" /></p>
-
-<p>To start with, the solution to this problem was to simply kill the power to the wireless router. However, this was bad for a couple reasons. Firstly, it isn’t great for the device itself, just having the power pulled from it. And secondly, switching off the power stopped all inbound traffic, which given that I run a couple services from a server in my house, isn’t ideal. Also, the five minutes it takes to switch on another computer, to log into the router to switch it off is just too much like hard work!</p>
-
-<p>NOTE: I tried every combination of wireless channel on both the router and the wireless sender, and none of them stopped the interference.</p>
-
-<p>Jump forward a couple months, and a new solution presented itself in the form of a Windows Phone 7 application, which you can see a screen shot of above. This is a VERY simple application, and I certainly won’t be winning any prizes for design, but it serves it’s purpose. So, what does it do?</p>
-
-<p>The router that I own, like many others, has a built in web server, that allows the administration of the device using a web interface. By logging into this web interface, and cracking open <a href="http://www.fiddler2.com/fiddler2/">Fiddler</a>, I was able to figure out the necessary HTTP Post data in order to enable and disable the wireless antenna of the device. With this information, I was then able to create an <a href="http://msdn.microsoft.com/en-us/library/system.net.httpwebrequest.aspx">HttpWebRequest</a> in code with the required settings to actually enable/disable the wireless router from the button click on the Windows Phone 7. Below the buttons is a WebBrowser control which is used to simply show the response that is received from the request, as due to timeouts and other interwebs going ons, the first request doesn’t always work.</p>
-
-<p>A recent refactoring of the project included creating a Web Service to do the actual work of talking to the Router, and all my Phone application has to do is call the Web Service methods.</p>
-
-<p>An earlier Windows Mobile 6.5 version of this application went as far as to intercept incoming text messages with a known format from another phone to enable/disable the wireless antenna, but the Windows Phone 7 API does not expose the ability to intercept text messages (hopefully this will be available in later versions of the OS).</p>
-
-<p>There are a couple extensions that I would like to add to this application, such as finding out the current state of the wireless router, i.e. enabled/disabled, but as yet, I haven’t had time to get round to it. One day…</p>
-
-<p>For a slightly shorter explanation of how all this works, have a look <a href="http://www.tweetdeck.com/twitter/richardadalton/~PAHAI">here</a>.</p>
-
-<p>If anyone out there wants some more information on this insanely over complicated set up, feel free to get in touch.</p>
-
-		
-		
-	</div>
-
-</article>
 
 
     <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
@@ -936,6 +870,58 @@ $(function(){
 
 
 <p>Is there anything obviously missing from the above?  I would be very interested to find out what other applications people are using, especially from a development stand point.</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+ 	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-03-27T16:41:18+00:00" data-updated="true" itemprop="datePublished">Mar 27th, 2011</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/adnug/'>adnug</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="/blog/my-first-stylecop-presentation/#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+
+	<h1 class="title" itemprop="name"><a href="/blog/my-first-stylecop-presentation/" itemprop="url">My First StyleCop Presentation</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p>On the 24th March 2011, I gave what I am considering to be my first “proper” community presentation at the <a href="http://www.aberdeendevelopers.co.uk/Home.aspx">Aberdeen Developers .Net User Group</a> (<a href="http://twitter.com/#search?q=%23ADNUG">#ADNUG</a>). When the user group first started, I also did a presentation entitled <a href="http://www.aberdeendevelopers.co.uk/Meetings/Visual-Studio-2010---An-Introduction.aspx">“Visual Studio 2010 – An Introduction”</a>, but I regarded this as a demonstration of Visual Studio 2010, and the great tooling support that had been added to this release, rather than a full talk on a subject.</p>
+
+<p>Enter <a href="http://www.aberdeendevelopers.co.uk/Meetings/StyleCop-Barriers-To-Entry.aspx">“StyleCop – Breaking down the barriers to entry”</a>.</p>
+
+<p>I have been a long time advocate of StyleCop, and I was responsible for helping set this up within the development team that I am currently working in. In addition, I have been “toying” with the idea of getting into doing community speaking, and StyleCop seemed like a good entry point for this.</p>
+
+<p>This talk was very much inspired by the excellent <a href="http://developerdeveloperdeveloper.com/ddd9/ViewSession.aspx?SessionID=525">talk</a> that I saw by <a href="http://guysmithferrier.com/">Guy Smith-Ferrier</a> when I was at DDD9 in January. However, I tried to take it a little bit further and explain the real world hurdles that stands in the way of a development team implementing StyleCop in their applications, drawing on the problems that I had personally faced in implementing StyleCop in my team.</p>
+
+<p>On the night, I am happy to say that I think the talk went down really well, although there were a couple fumbles as I tried to remember the order that my slides were in, and the demo where I tried to debug a custom StyleCop rule using two instances of Visual Studio didn’t want to work <img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/wlEmoticon-sadsmile.png" alt="Sad smile" />. If you attended the talk, I would be very interested to hear any feedback that you have, good and bad. This is the only way in which I can get better.</p>
+
+<p>I am also happy to say that this was the first night where I was able to give away lots of <a href="http://www.gep13.co.uk/blog/?p=107">swag</a> to the User Group members, and this will continue for the foreseeable future, with hopefully more prizes being added as we go.</p>
+
+<p>A big thanks has to go to Emma for the lend of her hat for drawing the names for the prizes! I am going to have to sort out a proper way of doing this for the next meeting (but just in case, if you could bring your hat again, that would be great!!). If anyone has any novel ideas about how we can auction off these prizes, then feel free to let me know.</p>
+
+<p>The slides from my presentation can be found <a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/StyleCop-Breaking-down-the-barriers-to-entry.pdf">here</a>, and the demo code that I used can be found <a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/StyleCop-Breaking-down-the-barriers-to-entry-Demos.zip">here</a>. If you have any questions, then please feel free to <a href="http://www.gep13.co.uk/blog/?page_id=38">get in touch</a>!</p>
 
 		
 		
