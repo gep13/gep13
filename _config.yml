@@ -140,14 +140,16 @@ prose:
           value: true		  
       - name: "categories"
         field:
-          label: "Categories"
-          element: "textarea"
-          value: ""
+          element: "multiselect"
+          label: "Add Categories"
+          placeholder: "Choose Categories"
+          alterable: true		  
       - name: "tags"
         field:
-          label: "Tags"
-          element: "textarea"
-          value: ""		  
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          alterable: true		  
       - name: "published"
         field:
           label: "Published"
