@@ -35,7 +35,5 @@ build_script:
   - cmd: git checkout master
   - cmd: cd ..
   - cmd: rake gen_deploy
-
-#---------------------------------#
-#         notifications           #
-#---------------------------------#
+  
+test: off
