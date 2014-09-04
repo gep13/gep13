@@ -4,7 +4,7 @@
   <title><![CDATA[Category: General Development | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/general-development/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2014-09-03T21:53:41+01:00</updated>
+  <updated>2014-09-04T06:38:41+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Building the Caliburn.Micro Source Code]]></title>
     <link href="http://www.gep13.co.uk/blog/building-the-caliburnmicro-source-code/"/>
-    <updated>2012-10-10T18:30:57+01:00</updated>
+    <updated>2012-10-10T17:30:57+00:00</updated>
     <id>http://www.gep13.co.uk/blog/building-the-caliburnmicro-source-code</id>
     <content type="html"><![CDATA[<h1>Caliburn.Micro Nuget Package doesn’t work</h1>
 
@@ -106,7 +106,7 @@
   <entry>
     <title type="html"><![CDATA[I Did Not Know That #Fiddler Could Do This…]]></title>
     <link href="http://www.gep13.co.uk/blog/i-did-not-know-that-fiddler-could-do-this/"/>
-    <updated>2011-07-07T12:59:09+01:00</updated>
+    <updated>2011-07-07T11:59:09+00:00</updated>
     <id>http://www.gep13.co.uk/blog/i-did-not-know-that-fiddler-could-do-this</id>
     <content type="html"><![CDATA[<p>One of the most essential tools for working on web development is Fiddler:</p>
 
@@ -167,7 +167,7 @@
   <entry>
     <title type="html"><![CDATA[Software Development Packages]]></title>
     <link href="http://www.gep13.co.uk/blog/software-development-packages/"/>
-    <updated>2011-04-20T21:36:13+01:00</updated>
+    <updated>2011-04-20T20:36:13+00:00</updated>
     <id>http://www.gep13.co.uk/blog/software-development-packages</id>
     <content type="html"><![CDATA[<p>I have been giving a lot of thought about the development software packages that I use on a daily basis (both at work and at home), and which ones, if any, I should change out. For example, I have been hearing a lot of good things about TeamCity (for the purposes of Continuous Integration) and CodeRush/ReSharper as IDE Productivity Tools.</p>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Office 365 | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/office-365/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2014-09-03T21:53:41+01:00</updated>
+  <updated>2014-09-04T06:38:41+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -86,7 +86,7 @@
   <entry>
     <title type="html"><![CDATA[Can’t Access #Office365 From Office Hub on #WP7]]></title>
     <link href="http://www.gep13.co.uk/blog/cant-access-office365-from-office-hub-on-wp7/"/>
-    <updated>2011-08-20T17:09:09+01:00</updated>
+    <updated>2011-08-20T16:09:09+00:00</updated>
     <id>http://www.gep13.co.uk/blog/cant-access-office365-from-office-hub-on-wp7</id>
     <content type="html"><![CDATA[<p>As some of you may know, I have been using the <a href="http://www.gep13.co.uk/blog/?p=260">Office365</a> for some time now. I use it both for my personal email accounts, as well as the email accounts for the <a href="http://www.aberdeendevelopers.co.uk/">Aberdeen Developers .Net User Group</a>. Personally, I think it is a great product, however, I have recently found out something rather <em><strong>annoying</strong></em> (that was the polite version of the word I wanted to use).</p>
 
@@ -137,7 +137,7 @@
   <entry>
     <title type="html"><![CDATA[Can .Net User Groups Get @Office365 for Free?]]></title>
     <link href="http://www.gep13.co.uk/blog/can-net-user-groups-get-office365-for-free/"/>
-    <updated>2011-06-29T07:40:37+01:00</updated>
+    <updated>2011-06-29T06:40:37+00:00</updated>
     <id>http://www.gep13.co.uk/blog/can-net-user-groups-get-office365-for-free</id>
     <content type="html"><![CDATA[<p>For a few months now I have been using the Office365 Beta to run the email accounts for the <a href="http://www.aberdeendevelopers.co.uk/">Aberdeen Developers .Net User Group</a> and I am happy to say that it has been working really well, and in all honesty, it “just” works.</p>
 
@@ -164,7 +164,7 @@
   <entry>
     <title type="html"><![CDATA[Configure DNS Settings for Office 365]]></title>
     <link href="http://www.gep13.co.uk/blog/configure-dns-settings-for-office-365/"/>
-    <updated>2011-05-15T12:36:00+01:00</updated>
+    <updated>2011-05-15T11:36:00+00:00</updated>
     <id>http://www.gep13.co.uk/blog/configure-dns-settings-for-office-365</id>
     <content type="html"><![CDATA[<p>For the last few weeks I have been trying to sort of my installation of the <a href="http://www.microsoft.com/en-us/office365/online-software.aspx">Office 365 Beta</a>. I am not a business, but the Beta is open to individuals as well as corporate people. There are several reasons that I wanted to play with it:</p>
 

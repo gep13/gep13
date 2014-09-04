@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Adnug | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/adnug/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2014-09-03T21:53:41+01:00</updated>
+  <updated>2014-09-04T06:38:41+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Secrets of a .Net Ninja Talk at #ADNUGUK by @KodefuGuru]]></title>
     <link href="http://www.gep13.co.uk/blog/secrets-of-a-net-ninja-talk-at-adnuguk-by-kodefuguru/"/>
-    <updated>2011-07-08T07:46:56+01:00</updated>
+    <updated>2011-07-08T06:46:56+00:00</updated>
     <id>http://www.gep13.co.uk/blog/secrets-of-a-net-ninja-talk-at-adnuguk-by-kodefuguru</id>
     <content type="html"><![CDATA[<p>On Thursday 7th July, the Aberdeen Developers .Net User Group was lucky enough to welcome <a href="http://www.kodefuguru.com/">Chris Eargle</a> (<a href="http://twitter.com/kodefuguru">@KodefuGuru</a>), a Telerik Developer Evangelist from Columbia, South Carolina, to do a talk entitled “<a href="http://aberdeendevelopers.co.uk/Meetings/Secrets-of-a--Net-Ninja.aspx">Secrets of a .Net Ninja</a>”.</p>
 
@@ -50,7 +50,7 @@ There was a lot of content in this presentation, and there was certainly a lot o
   <entry>
     <title type="html"><![CDATA[Free TypeMock Isolator Webinar]]></title>
     <link href="http://www.gep13.co.uk/blog/free-typemock-isolator-webinar/"/>
-    <updated>2011-06-22T19:59:58+01:00</updated>
+    <updated>2011-06-22T18:59:58+00:00</updated>
     <id>http://www.gep13.co.uk/blog/free-typemock-isolator-webinar</id>
     <content type="html"><![CDATA[<p>In case you haven’t seen it, TypeMock are running a free Webinar entitled:</p>
 
@@ -75,7 +75,7 @@ There was a lot of content in this presentation, and there was certainly a lot o
   <entry>
     <title type="html"><![CDATA[Follow Up From ADNUGUK Refactoring Meeting]]></title>
     <link href="http://www.gep13.co.uk/blog/follow-up-from-adnuguk-refactoring-meeting/"/>
-    <updated>2011-06-02T21:25:31+01:00</updated>
+    <updated>2011-06-02T20:25:31+00:00</updated>
     <id>http://www.gep13.co.uk/blog/follow-up-from-adnuguk-refactoring-meeting</id>
     <content type="html"><![CDATA[<p>On Thursday 26th May, the Aberdeen Developers .Net User Group was fortunate enough to welcome <a href="http://garyshort.org/">Gary Short</a> (<a href="http://twitter.com/garyshort">@garyshort</a>) of <a href="http://www.devexpress.com/">DevExpress</a> to do a talk entitled “<a href="http://aberdeendevelopers.co.uk/Meetings/Refactoring-%E2%80%93-Everything-you-Wanted-to-Know-but-we.aspx">Refactoring – Everything you wanted to know but were afraid to ask</a>”.</p>
 
@@ -108,7 +108,7 @@ There was a lot of content in this presentation, and there was certainly a lot o
   <entry>
     <title type="html"><![CDATA[My First StyleCop Presentation]]></title>
     <link href="http://www.gep13.co.uk/blog/my-first-stylecop-presentation/"/>
-    <updated>2011-03-27T17:41:18+01:00</updated>
+    <updated>2011-03-27T16:41:18+00:00</updated>
     <id>http://www.gep13.co.uk/blog/my-first-stylecop-presentation</id>
     <content type="html"><![CDATA[<p>On the 24th March 2011, I gave what I am considering to be my first “proper” community presentation at the <a href="http://www.aberdeendevelopers.co.uk/Home.aspx">Aberdeen Developers .Net User Group</a> (<a href="http://twitter.com/#search?q=%23ADNUG">#ADNUG</a>). When the user group first started, I also did a presentation entitled <a href="http://www.aberdeendevelopers.co.uk/Meetings/Visual-Studio-2010---An-Introduction.aspx">“Visual Studio 2010 – An Introduction”</a>, but I regarded this as a demonstration of Visual Studio 2010, and the great tooling support that had been added to this release, rather than a full talk on a subject.</p>
 
