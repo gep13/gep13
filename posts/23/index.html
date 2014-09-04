@@ -7,7 +7,7 @@
 	<meta name="author" content="gep13">
 
 	
-	<meta name="description" content="Jul 18th, 2010 Comments Essential Visual Studio Addin - PowerCommands This blog post is one of a series of blogs on Visual Studio Addins that I use &hellip;">
+	<meta name="description" content="Jul 18th, 2010 Comments Essential Visual Studio Addin - Ghostdoc This blog post is one of a series of blogs on Visual Studio Addins that I use.  To &hellip;">
 	
 
 	<!-- http://t.co/dKP3o1e -->
@@ -128,6 +128,90 @@ $(function(){
 			<div class="mid-col-container">
 				<div id="content" class="article-inner">
 <div itemscope itemtype="http://schema.org/Blog">
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+ 	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-07-18T16:49:00+00:00" data-updated="true" itemprop="datePublished">Jul 18th, 2010</time></div> 
+ 		<div class="tags">
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="/blog/essential-visual-studio-addin-ghostdoc/#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+
+	<h1 class="title" itemprop="name"><a href="/blog/essential-visual-studio-addin-ghostdoc/" itemprop="url">Essential Visual Studio Addin - Ghostdoc</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<hr />
+
+<p>This blog post is one of a series of blogs on Visual Studio Addins that I use.  To go back to the series index page, click <a href="http://www.gep13.co.uk/blog/?p=146">here</a>.</p>
+
+<hr />
+
+<p>If you use few Visual Studio Addin’s, this should definitely be one of them:</p>
+
+<p><a href="http://submain.com/products/ghostdoc.aspx">http://submain.com/products/ghostdoc.aspx</a></p>
+
+<p>To get straight to the point, not mention people “like” commenting their code, but everyone knows that it should be done.  Using a few basics of the English language, this little addin can take something like the following:</p>
+
+<p>[code lang=&ldquo;csharp&rdquo; collapse=&ldquo;true&rdquo; toolbar=&ldquo;true&rdquo;]
+public partial class Form1 : Form
+{
+  public bool IsEnabled { get; set; }</p>
+
+<p>  public Form1()
+  {
+    InitializeComponent();
+  }
+}
+[/code]</p>
+
+<p>And turn it into the following:</p>
+
+<p>[code lang=&ldquo;csharp&rdquo; collapse=&ldquo;true&rdquo; toolbar=&ldquo;true&rdquo;]
+/// <summary>
+///
+/// </summary>
+public partial class Form1 : Form
+{
+  /// <summary>
+  /// Gets or sets a value indicating whether this instance is enabled.
+  /// </summary>
+  /// <value>
+  ///     <c>true</c> if this instance is enabled; otherwise, <c>false</c>.
+  /// </value>
+  public bool IsEnabled { get; set; }</p>
+
+<p>  /// <summary>
+  /// Initializes a new instance of the <see cref="Form1"/> class.
+  /// </summary>
+  public Form1()
+  {
+    InitializeComponent();
+  }
+}
+[/code]</p>
+
+<p>I have noted that it works very well at pulling through comments on base types which you are inheriting from.</p>
+
+		
+		
+	</div>
+
+</article>
 
 
     <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
@@ -527,58 +611,6 @@ $(function(){
 <p>And you can follow the Aberdeen Developers .Net User Group here:</p>
 
 <p><a href="http://twitter.com/adnuguk">http://twitter.com/adnuguk</a></p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
- 	<div class="meta"> 
- 		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-06-26T16:05:00+00:00" data-updated="true" itemprop="datePublished">Jun 26th, 2010</time></div> 
- 		<div class="tags">
-
-</div> 
- 		 
- 			<span class="comments"><a href="/blog/using-windows-live-writer/#disqus_thread">Comments</a></span> 
- 		 
- 	</div> 
-
-	<h1 class="title" itemprop="name"><a href="/blog/using-windows-live-writer/" itemprop="url">Using Windows Live Writer</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<p>I have just discovered the Windows Live Writer package which is distributed as one of the Windows Live Essentials packages, along with:</p>
-
-<ul>
-<li><p>Photo Gallery</p></li>
-<li><p>Movie Maker</p></li>
-<li><p>Mail</p></li>
-<li><p>Messenger</p></li>
-<li><p>Family Safety</p></li>
-<li><p>Toolbar</p></li>
-</ul>
-
-
-<p>You can find more information about it <a href="http://explore.live.com/windows-live-writer">here</a> and Windows Live Essentials <a href="http://explore.live.com/windows-live-essentials?os=other">here</a>.</p>
-
-<p>So far, I have been very impressed with it, and am using it both on this blog, which uses a customized Community Server blog engine, and at work which has a SharePoint blog, both on which work great.</p>
-
-<p>Live Writer downloads the theme associated with your blog post, including colour, widths, fonts etc, so you get a real time look of how your blog will look before you post it.</p>
-
-<p>There are a number of Plug-in’s that you can use with Live Writer, far too many to talk about here, but so far I am using a Code Highligther Plug-in which automatically converts C# or VB.net code into HTML and a Twitter Plug-in, which automatically creates a tweet when I create a blog post.</p>
 
 		
 		

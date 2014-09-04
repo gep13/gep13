@@ -7,7 +7,7 @@
 	<meta name="author" content="gep13">
 
 	
-	<meta name="description" content="Jan 4th, 2013 chocolatey series Comments How to Install MySQL Workbench What is MySQL Workbench MySQL Workbench provides DBAs and developers an &hellip;">
+	<meta name="description" content="Jan 4th, 2013 chocolatey series Comments How to Create a MySQL Server Instance Profile and Database Creating a MySQL Server Instance Profile with a &hellip;">
 	
 
 	<!-- http://t.co/dKP3o1e -->
@@ -128,6 +128,88 @@ $(function(){
 			<div class="mid-col-container">
 				<div id="content" class="article-inner">
 <div itemscope itemtype="http://schema.org/Blog">
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+ 	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-04T15:56:09+00:00" data-updated="true" itemprop="datePublished">Jan 4th, 2013</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/chocolatey-series/'>chocolatey series</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="/blog/how-to-create-a-mysql-server-instance-profile-and-database/#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+
+	<h1 class="title" itemprop="name"><a href="/blog/how-to-create-a-mysql-server-instance-profile-and-database/" itemprop="url">How to Create a MySQL Server Instance Profile and Database</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>Creating a MySQL Server Instance Profile with a Database and User</h1>
+
+<p>Assuming that you have a MySQL Server installation on your machine, it is normally necessary to configure both a Server Instance Profile, and at least one database to be used within that Instance Profile.  The following steps walk through the necessary steps to do this, using an example of creating a Database that could be used for a TeamCity installation.  Some of the steps are specific to this end goal, however, the steps should be generic enough that they can be tailored to your needs.</p>
+
+<h1>Configuration Steps</h1>
+
+<p><strong>NOTE: </strong>The following installation steps and screenshots were taken from a virtual machine   with Windows Server 2008 R2 Service Pack 1, running in Hyper-V on a Windows 8 Host Machine.</p>
+
+<ol>
+<li><p> Assumption is that you already have <a href="http://gep13.me/S91bws">MySQL Community Server</a> installed</p></li>
+<li><p> Assumption is that you already have <a href="http://gep13.me/WiiHcN">MySQL Workbench</a> installed</p></li>
+<li><p> Open MySQL Workbench</p></li>
+<li><p> Click on the &ldquo;New Server Instance&rdquo; link</p></li>
+<li><p> In the &ldquo;Specify Host Machine&rdquo; Window leave as default and click Next</p></li>
+<li><p> In the &ldquo;Database Connection&rdquo; Window leave as default and click Next</p></li>
+<li><p> On the &ldquo;Test DB Connection&rdquo; Window ensure that all tested passed and click Next</p></li>
+<li><p> Before the next step, we need a Configuration File that MySQL Server can use to instantiate the Server Instance.  The default MySQL Server installation comes with pre-configured configuration files, located at C:\Program Files\MySQL\MySQL Server 5.5 (where 5.5. is the version number of MySQL Server you have installed)</p></li>
+<li><p> Copy the sample Configuration File that you want to have (I chose my-small) to another location on your hard drive.  For simplicity I chose the root of the C:\ drive, and I renamed the file to my.ini.</p></li>
+<li><p>. In the &ldquo;Windows Management&rdquo; window browse to the location that you copied the configuration file and select it. Press Next.</p></li>
+<li><p>. In the &ldquo;Test Settings&rdquo; window ensure that all test passed and click Next</p></li>
+<li><p>. Click &ldquo;Continue&rdquo; when the &ldquo;Review Settings&rdquo; pop-up appears</p></li>
+<li><p>. In the &ldquo;Complete Setup&rdquo; window click Finish</p></li>
+<li><p>. Once back at the home page of MySQL Workbench, double-click on the instance that you have just created</p></li>
+<li><p>. In the Admin tab, select &ldquo;Users and Privileges&rdquo; and click &ldquo;Add Account&rdquo;</p></li>
+<li><p>. Enter the details for the user that you want to create, in this case I have chosen &ldquo;teamcity&rdquo; as the username and entered a password for this user.  Once completed, click Apply.</p></li>
+<li><p>. Go back to the home page of MySQL Workbench by clicking the Home tab</p></li>
+<li><p>. Double click onto the localhost connection</p></li>
+<li><p>. Click the Create Schema button, and provide a name for the schema, I have chosen teamcity, and then click Apply</p></li>
+<li><p>. On the &ldquo;Review SQL Script&rdquo; window click Apply</p></li>
+<li><p>. On the &ldquo;Apply SQL Script&rdquo; window click Finish</p></li>
+<li><p>. The <a href="http://confluence.jetbrains.net/display/TCD7/Configuring+UTF8+Character+Set+for+MySQL">recommended Collation and Charset for using TeamCity</a> (the application that is going to be using this database is utf8 - utf8_bin, if you require this, select this in the drop down list and click Apply</p></li>
+<li><p>. On the &ldquo;Review SQL Script&rdquo; window click Apply</p></li>
+<li><p>. On the &ldquo;Apply SQL Script&rdquo; window click Finish</p></li>
+<li><p>. Return to the Admin screen by clicking on that tab</p></li>
+<li><p>. Select &ldquo;Users and Privileges&rdquo; and click on the &ldquo;Schema Privileges&rdquo; tab and select the User that you want to create a permission for, and then click Add Entry</p></li>
+<li><p>. In the &ldquo;New Schema Privilege Definition&rdquo; window select which hosts you want this user to be able to access the schema from (I have chosen to limit this to localhost, which is the most secure.  Also, map the user to the schema that you want them to access.  Again in this case, I have chosen the teamcity schema, so there is a mapping between the teamcity user and schema.  Once completed, click OK</p></li>
+<li><p>. Once back at the main window, click &ldquo;Select &#8220;ALL&rdquo; to give this user all database permissions (you may want to only select certain options, depending on what you require).  Once you are happy, click &ldquo;Save Changes&rdquo;</p></li>
+</ol>
+
+
+<p>You can see screenshots of each of these steps in the galley at the bottom of this blog post.</p>
+
+<h1>Configuration Screenshots</h1>
+
+<p>[gallery ids=&ldquo;1772,1773,1774,1775,1776,1777,1778,1779,1780,1781,1782,1783,1784,1785,1786,1787,1788,1789,1790,1791,1792,1793,1794,1795,1796,1797&rdquo;]</p>
+
+		
+		
+	</div>
+
+</article>
 
 
     <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
@@ -1561,239 +1643,6 @@ I will be continuing to blog next year as well, however, I am looking to writing
 </tbody>
 </table>
 
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
- 	<div class="meta"> 
- 		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-10-14T09:15:20+00:00" data-updated="true" itemprop="datePublished">Oct 14th, 2012</time></div> 
- 		<div class="tags">
-
-</div> 
- 		 
- 			<span class="comments"><a href="/blog/my-impressions-of-ddd-north-2/#disqus_thread">Comments</a></span> 
- 		 
- 	</div> 
-
-	<h1 class="title" itemprop="name"><a href="/blog/my-impressions-of-ddd-north-2/" itemprop="url">My Impressions of DDD North 2</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<h1>All in all, a very good conference</h1>
-
-<p>This was my first DDD North that I had attended. I wasn&rsquo;t able to make it last year due to prior commitments, but I really wanted to attend this year based on all the good feedback that I had heard about last year.</p>
-
-<p>In addition, in the same way that I submitted a session for <a href="http://www.gep13.co.uk/blog/feedback-from-stylecop-presentation-at-dddsw/">DDD South West</a>, I also decided to submit some <a href="http://www.gep13.co.uk/blog/sessions-that-i-have-submitted-for-ddd-north-2012/">sessions</a> for DDD North. Luckily my session on Caliburn.Micro was selected for inclusion in the agenda. This was going to be the first time that I had spoken on Caliburn.Micro, and I was really looking forward to giving the session.</p>
-
-<p>Overall, DDD North 2 went very well! I have to say a huge congratulations to the organisers, and helpers, they put on a great conference, and they should be very proud of themselves. I think the only thing that might be viewed in a negative light was the queue at the registration desk, however, this was due in part to everyone seemingly arriving at the same time. Everything else, the sessions, the venue, the food, the prizes, were all very good. Congratulations to everyone involved.</p>
-
-<p>One really nice touch at this year&rsquo;s event was the speaker t-shirts. Printed on the back of the t-shirts is a list of all the DDD events that have happened both in the UK and further afield. I am wondering whether this new tradition is going to continue in future events.  You can see the back of the t-shirt below:</p>
-
-<p><a href="http://www.gep13.co.uk/blog/my-impressions-of-ddd-north-2/wp_000313/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/WP_000313-768x1024.jpg" alt="" /></a></p>
-
-<p>This led to an interesting question about how many DDD Events you had attended, which led me to make this <a href="http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank/">blog post</a>, hopefully we will find who has attended the most DDD Events.</p>
-
-<p>As is always the case, community events such as this are a great opportunity to catch up with people. I am happy to say that I have been able to put a few more faces to twitter handles, and I had a great time chatting to various people at both the pre-conference dinner, as well as the geek dinner after the conference itself.</p>
-
-<p>If you have never attended a DDD event before, then as I have said before, you definitely want to start. They are great events run by the community, for the community!</p>
-
-<h1>First session</h1>
-
-<p>I had planned to ahead the Mike Taulty talk on Windows 8, however, when I got to the speaker room in the morning, I found that I wasn&rsquo;t able to RDP into my Hyper-V VM that I was using for my demos later on in the morning. I then spend half an hour stressing about what I was going to do, until someone suggested that I speak to Liam Westley (<a href="https://twitter.com/westleyl">@westleyl</a>). After a quick SOS on Twitter, Liam came to the rescue and helped me get my VM up and running again. Thanks again for all your help!</p>
-
-<h1>Second session</h1>
-
-<p>Although there were a number of talks that I would have liked to have seen in this second session, notably Guy Smith-Ferrier (<a href="https://twitter.com/guysmithferrier">@GuySmithFerrier</a>) talking on Roslyn Refactorings, I decided my time would be better spent preparing from my own session.</p>
-
-<h1>Third session</h1>
-
-<p><strong>Presenter:</strong> Gary Ewan Park</p>
-
-<p><strong>Topic: </strong>Getting Started with Caliburn.Micro and Windows Phone 7</p>
-
-<blockquote>Getting started with the Windows Phone 7 Development Platform is relatively simple, however, using a Framework like Caliburn.Micro takes away some of the more mundane tasks, and allows you to focus on what you are trying to achieve. In this session we will start with a blank Windows Phone 7 project, and start to create our first Windows Phone 7 application using features such as:
-
-> 
-> <blockquote>
-
->> 
->> 
-    
->>   * ActionMessages
->> 
-    
->>   * Action Conventions
->> 
-    
->>   * Binding Conventions
->> 
-    
->>   * Navigation Service
->> 
-    
->>   * The Bootstrapper
->> 
-    
->>   * The IPhoneService
->> 
-    
->>   * Tombstoning
->> 
-    
->>   * Lauchers and Choosers
->> 
-    
->>   * The IWindowManager
->> 
-
-</blockquote>
-> 
-> 
-</blockquote>
-
-
-<p><strong>Thoughts: </strong>Since this was my first time doing this talk, I was a little nervous, so I felt that I got off to a bit of a ropey start, but I would like to think that I pulled it together at the end. I will be interested to take a look at the speaker feedback when it is released. I did end up running slightly over time, which meant that I had to pull one demo from the presentation. However, all of the major topics that make Caliburn.Micro a great framework to use were covered, and I am hoping that the people who attended my session got a lot out of it. I would like to say a big thank you to those who did attend the session. I will be posting the slides from the presentation to this blog in the next couple days, so if you are interested to take a look, you are more than welcome, and I would welcome any feedback.</p>
-
-<h1>Grok Talks</h1>
-
-<p>As has now become custom at DDD events, there were a series of Grok Talks presented during lunch. I was able to catch the majority of <a href="http://twitter.com/hermitdave">Hermit Dave&rsquo;s</a> grok on using Windows 8 for development, but I wasn&rsquo;t able to stick around for any of the other ones. I was hungry, so went to get some food, which was very good J</p>
-
-<h1>Fourth session</h1>
-
-<p><strong>Presenter:</strong> Matt Lacey (<a href="https://twitter.com/mrlacey">@mrlacey</a>)</p>
-
-<p><strong>Topic: </strong>Introducing Windows Phone 8</p>
-
-<blockquote>There&#8217;s a new version of Windows Phone coming. But what does this mean for developers?</blockquote>
-
-
-
-
-<blockquote>What&#8217;s new?</blockquote>
-
-
-
-
-<blockquote>What&#8217;s changed?</blockquote>
-
-
-
-
-<blockquote>How do you upgrade an existing Windows Phone 7.x app?</blockquote>
-
-
-
-
-<blockquote>How do you support WP7.x & WP8 with one codebase?</blockquote>
-
-
-
-
-<blockquote>How do you develop for Windows Phone and Windows 8?</blockquote>
-
-
-
-
-<blockquote>Come to this session for the answers to all these questions and many more! ;)</blockquote>
-
-
-<p><strong>Thoughts:</strong> I have to say that I got a lot out of Matt&rsquo;s session, there was a lot of information contained within his presentation. For instance, I wasn&rsquo;t aware that support for XNA was not going to appear in Windows Phone 8. This instead is going to be replaced with support for native C++ game development. I can see the logic behind this, but I can also see that some people will be annoyed at this. Part of me was really hoping to see some Windows Phone 8 development in action, but speaking to Matt before the session, this was never going to be the case. There are clear NDA&rsquo;s in place around the Windows Phone 8 SDK, and as a result, until this is made public, people can only speculate about what is, and isn&rsquo;t included. I personally think that this is an exciting time, and I am looking forward to getting started developing on WP8 as well as getting my Nokia Lumia 920 J</p>
-
-<h1>Fifth session</h1>
-
-<p><strong>Presenter:</strong> Joel Hammond-Turner (<a href="https://twitter.com/rammesses">@rammesses</a>)</p>
-
-<p><strong>Topic:</strong> Using your Nuget for Fun and Profit (Redux)</p>
-
-<blockquote>The explosive take-up of NuGet clearly demonstrates just how valuable a packaging system for .Net can be.</blockquote>
-
-
-
-
-<blockquote>This session is a refined and improved repeat of that run at DDDSW - it will look the issues surrounding creating NuGet packages for use within your own organisation rather than for general consumption, and will look at the options for hosting a NuGet server both on-site and in the cloud.</blockquote>
-
-
-
-
-<blockquote>It will also demonstrate the NuGet.PackageNPublish tooling released by Landmark at DDDSW4 which makes creating packages to contain your libraries as easy as File->New Project.</blockquote>
-
-
-<p><strong>Thoughts:</strong> I have been using both Nuget and Chocolatey a lot lately, so I was really looking forward to hearing how other people are using it. To date, I have been creating the .nuspec files manually, but it was very interesting to see how the <a href="https://github.com/JoelHT-Landmark/NuGet-PackageNPublish">Package&#8217;N&#8217;Publish</a> framework could be used. I really think that this has some useful applications, and combining it with TeamCity could have some very powerful use cases. I will definitely be taking a look at this soon, to see how it can be incorporated.</p>
-
-<h1>Geek Dinner</h1>
-
-<p>I think it is safe to say that everyone had a great time at the Geek Dinner.  On the table that I was sitting at Niall Merrigan (<a href="https://twitter.com/nmerrigan">@nmerrigan</a>) made a point of enforcing the rule that all mobile phones had to be placed in the centre of the table, and only to be answered if believed to be an emergency.  This was a great way of breaking the ice on the table, and led to some really interesting discussions.  If you haven&rsquo;t tried this before, then the next time you are out at a meal suggest it!</p>
-
-<h1>Other Bloggers</h1>
-
-<p>If you are interested to hear what other people had to say about the event you can take a look at the following links (I will try to update this section as I become aware of other posts, if I have missed anyone, feel free to give me a shout).</p>
-
-<ul>
-<li><p><a href="http://johnnosnose.blogspot.co.uk/2012/10/much-chin-stroking-at-ddd-north.html">Much chin stroking at ddd north</a> by <a href="https://plus.google.com/116370908952132256617/posts">Johnno Nolan</a></p></li>
-<li><p><a href="http://idisposable.co.uk/2012/10/dddnorth-2-write-up-october-2012-bradford/">#dddnorth 2 write up – october 2012 – Bradford</a> By <a href="https://twitter.com/terry_brown">Terry Brown</a></p></li>
-<li><p><a href="http://eventuallyconsistent.net/2012/10/14/dddnorth-2-roundup/">DDDNorth 2 Roundup</a> by <a href="https://twitter.com/Steve_Bate">Steve Bate</a></p></li>
-<li><p><a href="http://www.scottlogic.co.uk/2012/10/dispatches-from-dddnorth-2/">Dispatches from DDDNorth2</a> by <a href="https://twitter.com/samhogy">Sam Hogarth</a></p></li>
-<li><p><a href="http://tellthemuserstories.wordpress.com/2012/10/15/developer-developer-developer-north/">Developer Developer Developer North</a> by <a href="https://twitter.com/dchetwynd">Daley Chetwynd</a></p></li>
-<li><p><a href="http://blog.cwa.me.uk/2012/10/15/the-morning-brew-1210/">The Morning Brew #1210</a> by <a href="https://twitter.com/calcock">Chris Alcock</a></p></li>
-<li><p><a href="http://thecogworks.co.uk/blog/posts/2012/october/dddnorth2-quick-review/">DDDNorth2 - quick review</a> by <a href="https://twitter.com/ismailmayat">Ismail Mayat</a></p></li>
-</ul>
-
-
-<h1>Source Code, Slides and Resources</h1>
-
-<p>If you are looking for the source code and slides for some of the presentations, have a look here.  I will try to keep this up to date as I find out about more of them</p>
-
-<ul>
-<li><p><a href="https://twitter.com/gep13">Gary Ewan Park</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=975">Getting Started with Caliburn.Micro and Windows Phone 7</a> - <a href="https://github.com/gep13/CaliburnMicroDemos">Code</a> - <a href="http://www.gep13.co.uk/blog/ddd-north-2-getting-started-with-caliburn.micro/">Slides</a></p></li>
-<li><p><a href="https://twitter.com/nathangloyn">Nathan Gloyn</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1028">Selenium a UI testing paradigm</a> - <a href="https://github.com/NathanGloyn/Selenium-UI-Testing">Code</a> - <a href="http://www.slideshare.net/Nathangl/selenium-ui-paradigm-ddd-north-2">Slides</a></p></li>
-<li><p><a href="https://twitter.com/guysmithferrier">Guy Smith-Ferrier</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=963">Riting Rosyln Refactorings: Harnessing The Compiler As A Service</a> - <a href="http://www.guysmithferrier.com/page/Resources.aspx">Slides and Code</a></p></li>
-<li><p><a href="https://twitter.com/shawty_ds">Peter Shaw</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=951">So Just What is Spatial SQL</a> - <a href="http://www.slideshare.net/shawty_ds/what-is-spatial-sql">Slides</a></p></li>
-<li><p><a href="https://twitter.com/garyshort">Gary Short</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1045">Raspberry Pi Deep Dive</a> - <a href="http://rocksolid.gibraltarsoftware.com/vistadb/raspberry-pi-at-dddnorth">Slides</a></p></li>
-<li><p><a href="http://twitter.com/westleyl">Liam Westley</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=947">Async C# 5.0 - patterns for real world use</a> - <a href="http://geekswithblogs.net/twickers/archive/2012/10/14/dddnorth2-bradford-13th-october-2012---async-patterns-presentation-and.aspx">Slides and Code</a></p></li>
-<li><p><a href="https://twitter.com/nmerrigan">Niall Merrigan</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=986">Defensive Programming 101 V2</a> - <a href="http://www.certsandprogs.com/2012/10/ddd-north-2-resources.html">Resources</a></p></li>
-<li><p><a href="https://twitter.com/mrlacey">Matt Lacey</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1047">Introducing Windows Phone 8</a> - <a href="http://blog.mrlacey.co.uk/2012/10/preparing-for-windows-phone-8-slides.html">Slides</a></p></li>
-<li><p><a href="https://twitter.com/rammesses">Joel Hammond-Turner</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1038">Using your Nuget for Fun &amp; Proift (Redux)</a> - <a href="https://github.com/JoelHT-Landmark/NuGet-PackageNPublish/tree/master/Documentation">Slides</a> - <a href="http://www.youtube.com/watch?v=R6e4kV5dfIQ">Resources</a></p></li>
-<li><p><a href="https://twitter.com/_richardg">Richard Garside</a> - <a href="http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=962">The business of side projects</a> - <a href="http://nogginbox.co.uk/blog/side-project-startup-reading-list">Reading List</a></p></li>
-</ul>
-
-
-<h1>Photos</h1>
-
-<p>A number of people were taking photos on the day of the event and I will try to capture as many links as I can to various Flickr albums etc.</p>
-
-<ul>
-<li><p><a href="http://www.flickr.com/photos/55078960@N05/sets/72157631769689503/">DDD North 2</a> by <a href="https://twitter.com/anthonysteele">Anthony Steele</a></p></li>
-<li><p><a href="http://www.flickr.com/photos/craigmurphy/sets/72157631769547147/">DDD North 2 - 13/10/2012</a> by <a href="https://twitter.com/camurphy">Craig Murphy</a></p></li>
-<li><p><a href="http://www.flickr.com/photos/colinangusmackay/sets/72157631765310260/">DDD North 2</a> by <a href="https://twitter.com/colinmackay">Colin Mackay</a></p></li>
-<li><p><a href="https://t.co/xo0UxAGO">SkyDrive Album</a> by <a href="https://twitter.com/hermitdave">Hermit Dave</a></p></li>
-<li><p><a href="http://www.facebook.com/media/set/?set=a.10151115177983026.451777.211894228025&amp;type=1">Gibraltar Software at DDDNorth 2012</a> by <a href="http://www.gibraltarsoftware.com/">Gibraltar Software</a></p></li>
-<li><p><a href="http://www.flickr.com/photos/18885387@N00/sets/72157631774460566/">DDD North 2</a> by <a href="https://twitter.com/shawty_ds">Peter Shaw</a></p></li>
-<li><p><a href="http://www.flickr.com/search/?q=dddnorth&amp;f=hp">Anything tagged with dddnorth on flickr</a></p></li>
-</ul>
-
-
-<h1>Sponsors and organisers</h1>
-
-<p>As always, a huge thank you has to go out to both the <a href="http://developerdeveloperdeveloper.com/north2/">sponsors</a> and the organisers to DDD North. It is quite simple, without both free community events like DDD North simply wouldn&rsquo;t be able to happen. Thank you!</p>
-
-<h1>DDD North 3 in 2013</h1>
-
-<p>Andy Westgarth, the organiser of DDD North has already confirmed the date for the next DDD North. This will be held on the 12th October 2013. This time around it will be back on the North East. His plan is to alternate between the North East and the North West in order to ensure that more people can get involved in the community. If you want to catch all the news about what is happening with DDD North make sure to follow them on <a href="http://twitter.com/dddnorth">twitter</a>.</p>
 
 		
 		
