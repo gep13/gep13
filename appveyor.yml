@@ -1,0 +1,12 @@
+environment:
+  GithubUsername: gep13
+  GithubPassword:
+    secure: XSuLygmr83zEpWcXIXMXGocN0QbooLud1eIMA3mQWKkT9LAU4TyrijLBcJIo7bD7
+  
+before_build:
+  - cmd: bundle install
+  - cmd: if not exist _deploy (git clone https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git _deploy)
+  - cmd: cd _deploy
+  - cmd: git checkout master
+  - cmd: cd ..
+  - cmd: rake gen_deploy
