@@ -11,7 +11,7 @@ published: true
 
 Formed in June 2010, the Aberdeen Developers .Net User Group (ADNUGUK) is a non-profit user group which aims to benefit software developers in and around the Aberdeen area.
 
-![ADNUGUK Logo](/source/adnuguk/adnug_home_thumb.gif)
+![ADNUGUK Logo](/adnuguk/adnug_home_thumb.gif)
 
 Primarily, we aim to offer in person events which deal with the various aspects of .Net Development. The topics for these meetings are decided by the User Group Committee, however, if there is a particular area that you would like to see an event on, then please feel free to [get in touch with us](http://www.aberdeendevelopers.co.uk/contact/).
 
