@@ -9,4 +9,6 @@ before_build:
   - cmd: cd _deploy
   - cmd: git checkout master
   - cmd: cd ..
+  - cmd: git config user.email "gep13@gep13.co.uk"
+  - cmd: git config user.name "Gary Ewan Park"
   - cmd: rake gen_deploy
