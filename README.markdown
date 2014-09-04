@@ -1,3 +1,6 @@
+## AppVeyor Build Status
+[![Build Status](https://ci.appveyor.com/api/projects/status/github/gep13/gep13.github.io)](https://ci.appveyor.com/project/GaryEwanPark/gep13-github-io)
+
 ## What is Octopress?
 
 Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
