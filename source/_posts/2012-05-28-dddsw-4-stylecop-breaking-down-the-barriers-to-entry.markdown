@@ -33,7 +33,7 @@ The demonstrations that I did during the presentation, with the exception of the
 
 A full copy of the slides that were used on the day can be found as an attachment to this post, and you can see a preview of them below:
 
-[slideshare id=28937854&doc=stylecopbreakingdownthebarrierstoentry-131205142915-phpapp01]
+{% slideshare 28937854 %}
 
 Feedback
 

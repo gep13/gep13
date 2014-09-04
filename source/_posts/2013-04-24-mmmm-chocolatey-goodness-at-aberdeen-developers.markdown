@@ -32,7 +32,7 @@ As explained on the night, there was very little "code" used within this present
 
 A full copy of the slides that were used on the day can be found attached to this post, and you can see a preview of them below:
 
-[slideshare id=28937731&doc=mmmmchocolateygoodness-131205142359-phpapp02]
+{% slideshare 28937731 %}
 
 
 # Feedback

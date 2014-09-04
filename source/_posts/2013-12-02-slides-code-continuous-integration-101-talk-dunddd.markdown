@@ -39,7 +39,7 @@ Overall, I was quite happy with how the talk went, and it seems to go down quite
 
 If you are interested in seeing the slides from the talk, you can find them displayed below, and also available as a download link on this post.
 
-[slideshare id=28819037&doc=continuousintegration101-131202154042-phpapp02]
+{% slideshare 28819037 %}
 
 If you want to check out what little code was used during the presentation, you can find it [here](http://gep13.me/CIDemos).
 

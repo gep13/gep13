@@ -33,7 +33,7 @@ All the demonstrations that I did during the presentation can be found on my Git
 
 A full copy of the slides that were used on the day can be found as an attachment to this post, and you can see a preview of them below:
 
-[slideshare id=28938116&doc=gettingstartedwithcaliburn-131205143747-phpapp01]
+{% slideshare 28938116 %}
 
 
 # Feedback
