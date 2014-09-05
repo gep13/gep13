@@ -25,27 +25,40 @@ The slightly different technique that I have used, and the reason for this post,
 
 In Jake's [blog post](http://jake.ginnivan.net/blog/2014/06/10/low-friction-octopress-github-pages-setup/), he shows how you can use [TeamCity](http://www.jetbrains.com/teamcity/) to listen for changes in the ```source``` branch of your Octopress Git Repository, generate the static html, and then push to the ```master``` branch of the same repository.  This is incredibly simple to do with TeamCity, but it obviously needs an available instance of TeamCity.  Unfortunately, this is not something that I have access to for personal (i.e. outside of work) projects.  As a result, I had to look elsewhere for a solution.  And for me, the solution was [AppVeyor](http://www.appveyor.com/).
 
-After a [small hiccup](http://help.appveyor.com/discussions/questions/491-use-appveyor-to-deploy-changes-to-octopress-blog) with setting up AppVeyor (which, by the way was resolved VERY quickly!), setting up AppVeyor to generate and deploy an Octopress site is very simple!
+After a [small hiccup](http://help.appveyor.com/discussions/questions/491-use-appveyor-to-deploy-changes-to-octopress-blog) with setting up AppVeyor (which, by the way was resolved VERY quickly!), configuring AppVeyor to generate and deploy an Octopress site is very simple!
 
 ## Setting up continuous deployment from AppVeyor
 1. If you don't already have one, [create an account](https://ci.appveyor.com/signup/free) with AppVeyor (which is completely free, assuming your repository is public), and authenticate with either GitHub, BitBucket, Visual Studio Online, or Kiln, depending on where your blog source code is going to be hosted.  Since I am using GitHub Pages, I will be referring to that for the rest of this post.
 2. Click New Project
-![Click New Project](/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/NewProject.png)
+
+    ![Click New Project](/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/NewProject.png)
+
 3. Select your blog source code repository, in my case gep13.github.io, and AppVeyor will set about provisioning a new Project, ready to accept build steps and configuration
 4. At this point, you could start using the AppVeyor User Interface to setup the build, and this is what I started with.  However, I quickly realised that I would need to start using the [appveyor.yml](http://www.appveyor.com/docs/appveyor-yml) file.  This was due to the fact that I wanted to be able to pass in a secure variables to the build process, namely my GitHub password, and this is not possible through the User Interface.
 5. In the same way that Jake did, I have setup my GitHub repository to use the source branch as the default.  This can be done through the settings page of your repository in GitHub
-![Set source branch as default in GitHub](/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/DefaultSourceBranch.png)
+
+    ![Set source branch as default in GitHub](/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/DefaultSourceBranch.png)
+    
 6. Create an appveyor.yml file in the root of the source branch of your repository.  You can see mine [here](https://github.com/gep13/gep13.github.io/blob/source/appveyor.yml).
 7. There are four important things in this file.  Firstly, the init section.  In order to push changes back to GitHub, you need to let the newly created Virtual Machine that AppVeyor is running for you know the git credentials that you want to use.  This can be done using the standard ```git config --global``` command.
-{% gist 9f74a718d98bece9486e Init.yml %}
+
+    {% gist 9f74a718d98bece9486e Init.yml %}
+    
 8. The next important section is environment.  This is where you can specify 1 or more vaiables that you want to have available during your build steps.  If required, you can use the [encrypt data tool](https://ci.appveyor.com/tools/encrypt) within AppVeyor to encrypt sensitive information.  This is exactly what I did with my GitHub password.
-{% gist 9f74a718d98bece9486e Environment.yml %}
+
+    {% gist 9f74a718d98bece9486e Environment.yml %}
+    
 9. Next up, we need to specify the actual operations that we want to perform.  These have been lifted exactly out of Jakes configuration.  The especically important thing to notice here is the ```%GithubUsername%``` and ```%GithubPassword%``` variables.  They refer to the environment variables that were configured above. **NOTE:**  As I found out, the ```gen_deploy``` rake task does both a generate and a deploy.
-{% gist 9f74a718d98bece9486e BuildSteps.yml %}
+
+    {% gist 9f74a718d98bece9486e BuildSteps.yml %}
+    
 10. The final things that I needed to do was to specify that I didn't want to run any tests after the main build steps were completed.  This can be done using:
-{% gist 9f74a718d98bece9486e Test.yml %}
+
+    {% gist 9f74a718d98bece9486e Test.yml %}
+    
 11. With the above file checked into your repository, AppVeyor will set about doing the build.  The output of which should hopefully look something like this (the full output can be seen [here](https://ci.appveyor.com/project/GaryEwanPark/gep13-github-io/build/1.0.22))
-![Successful AppVeyor Build](/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/SuccessfulBuild.png)
+
+    ![Successful AppVeyor Build](/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/SuccessfulBuild.png)
 
 And that, as they say, is that!
 
