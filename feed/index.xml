@@ -4,7 +4,7 @@
   <title><![CDATA[gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2014-09-05T12:21:06+00:00</updated>
+  <updated>2014-09-05T13:06:24+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -31,68 +31,51 @@
 
 <p>In Jake&rsquo;s <a href="http://jake.ginnivan.net/blog/2014/06/10/low-friction-octopress-github-pages-setup/">blog post</a>, he shows how you can use <a href="http://www.jetbrains.com/teamcity/">TeamCity</a> to listen for changes in the <code>source</code> branch of your Octopress Git Repository, generate the static html, and then push to the <code>master</code> branch of the same repository.  This is incredibly simple to do with TeamCity, but it obviously needs an available instance of TeamCity.  Unfortunately, this is not something that I have access to for personal (i.e. outside of work) projects.  As a result, I had to look elsewhere for a solution.  And for me, the solution was <a href="http://www.appveyor.com/">AppVeyor</a>.</p>
 
-<p>After a <a href="http://help.appveyor.com/discussions/questions/491-use-appveyor-to-deploy-changes-to-octopress-blog">small hiccup</a> with setting up AppVeyor (which, by the way was resolved VERY quickly!), setting up AppVeyor to generate and deploy an Octopress site is very simple!</p>
+<p>After a <a href="http://help.appveyor.com/discussions/questions/491-use-appveyor-to-deploy-changes-to-octopress-blog">small hiccup</a> with setting up AppVeyor (which, by the way was resolved VERY quickly!), configuring AppVeyor to generate and deploy an Octopress site is very simple!</p>
 
 <h2>Setting up continuous deployment from AppVeyor</h2>
 
 <ol>
 <li>If you don&rsquo;t already have one, <a href="https://ci.appveyor.com/signup/free">create an account</a> with AppVeyor (which is completely free, assuming your repository is public), and authenticate with either GitHub, BitBucket, Visual Studio Online, or Kiln, depending on where your blog source code is going to be hosted.  Since I am using GitHub Pages, I will be referring to that for the rest of this post.</li>
-<li>Click New Project
-<img src="http://www.gep13.co.uk/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/NewProject.png" alt="Click New Project" /></li>
-<li>Select your blog source code repository, in my case gep13.github.io, and AppVeyor will set about provisioning a new Project, ready to accept build steps and configuration</li>
+<li><p>Click New Project</p>
+
+<p> <img src="http://www.gep13.co.uk/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/NewProject.png" alt="Click New Project" /></p></li>
+<li><p>Select your blog source code repository, in my case gep13.github.io, and AppVeyor will set about provisioning a new Project, ready to accept build steps and configuration</p></li>
 <li>At this point, you could start using the AppVeyor User Interface to setup the build, and this is what I started with.  However, I quickly realised that I would need to start using the <a href="http://www.appveyor.com/docs/appveyor-yml">appveyor.yml</a> file.  This was due to the fact that I wanted to be able to pass in a secure variables to the build process, namely my GitHub password, and this is not possible through the User Interface.</li>
-<li>In the same way that Jake did, I have setup my GitHub repository to use the source branch as the default.  This can be done through the settings page of your repository in GitHub
-<img src="http://www.gep13.co.uk/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/DefaultSourceBranch.png" alt="Set source branch as default in GitHub" /></li>
-<li>Create an appveyor.yml file in the root of the source branch of your repository.  You can see mine <a href="https://github.com/gep13/gep13.github.io/blob/source/appveyor.yml">here</a>.</li>
-<li>There are four important things in this file.  Firstly, the init section.  In order to push changes back to GitHub, you need to let the newly created Virtual Machine that AppVeyor is running for you know the git credentials that you want to use.  This can be done using the standard <code>git config --global</code> command.</li>
-</ol>
+<li><p>In the same way that Jake did, I have setup my GitHub repository to use the source branch as the default.  This can be done through the settings page of your repository in GitHub</p>
 
+<p> <img src="http://www.gep13.co.uk/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/DefaultSourceBranch.png" alt="Set source branch as default in GitHub" /></p></li>
+<li><p>Create an appveyor.yml file in the root of the source branch of your repository.  You can see mine <a href="https://github.com/gep13/gep13.github.io/blob/source/appveyor.yml">here</a>.</p></li>
+<li><p>There are four important things in this file.  Firstly, the init section.  In order to push changes back to GitHub, you need to let the newly created Virtual Machine that AppVeyor is running for you know the git credentials that you want to use.  This can be done using the standard <code>git config --global</code> command.</p>
 
-<div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=Init.yml'></script>
-<noscript><pre><code>init:
-  - git config --global user.email &quot;&lt;Your Email Address&gt;&quot;
-  - git config --global user.name &quot;&lt;Your User Name&gt;&quot;</code></pre></noscript></div>
+<p> <div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=Init.yml'></script>
+<noscript><pre><code>init:</p></li>
+<li>git config &ndash;global user.email &quot;&lt;Your Email Address&gt;&quot;</li>
+<li><p>git config &ndash;global user.name &quot;&lt;Your User Name&gt;&quot;</code></pre></noscript></div></p></li>
+<li><p>The next important section is environment.  This is where you can specify 1 or more vaiables that you want to have available during your build steps.  If required, you can use the <a href="https://ci.appveyor.com/tools/encrypt">encrypt data tool</a> within AppVeyor to encrypt sensitive information.  This is exactly what I did with my GitHub password.</p>
 
-
-<ol>
-<li>The next important section is environment.  This is where you can specify 1 or more vaiables that you want to have available during your build steps.  If required, you can use the <a href="https://ci.appveyor.com/tools/encrypt">encrypt data tool</a> within AppVeyor to encrypt sensitive information.  This is exactly what I did with my GitHub password.</li>
-</ol>
-
-
-<div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=Environment.yml'></script>
+<p> <div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=Environment.yml'></script>
 <noscript><pre><code>environment:
-  GithubUsername: gep13
-  GithubPassword:
-    secure: XSuLygmr83zEpWcXIXMXGocN0QbooLud1eIMA3mQWKkT9LAU4TyrijLBcJIo7bD7</code></pre></noscript></div>
+GithubUsername: gep13
+GithubPassword:
+ secure: XSuLygmr83zEpWcXIXMXGocN0QbooLud1eIMA3mQWKkT9LAU4TyrijLBcJIo7bD7</code></pre></noscript></div></p></li>
+<li><p>Next up, we need to specify the actual operations that we want to perform.  These have been lifted exactly out of Jakes configuration.  The especically important thing to notice here is the <code>%GithubUsername%</code> and <code>%GithubPassword%</code> variables.  They refer to the environment variables that were configured above. <strong>NOTE:</strong>  As I found out, the <code>gen_deploy</code> rake task does both a generate and a deploy.</p>
 
+<p> <div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=BuildSteps.yml'></script>
+<noscript><pre><code>build_script:</p></li>
+<li>cmd: bundle install</li>
+<li>cmd: if not exist <em>deploy (git clone <a href="https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git">https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git</a> </em>deploy)</li>
+<li>cmd: cd _deploy</li>
+<li>cmd: git checkout master</li>
+<li>cmd: cd ..</li>
+<li><p>cmd: rake gen_deploy</code></pre></noscript></div></p></li>
+<li><p>The final things that I needed to do was to specify that I didn&rsquo;t want to run any tests after the main build steps were completed.  This can be done using:</p>
 
-<ol>
-<li>Next up, we need to specify the actual operations that we want to perform.  These have been lifted exactly out of Jakes configuration.  The especically important thing to notice here is the <code>%GithubUsername%</code> and <code>%GithubPassword%</code> variables.  They refer to the environment variables that were configured above. <strong>NOTE:</strong>  As I found out, the <code>gen_deploy</code> rake task does both a generate and a deploy.</li>
-</ol>
+<p><div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=Test.yml'></script>
+<noscript><pre><code>test: off</code></pre></noscript></div></p></li>
+<li><p>With the above file checked into your repository, AppVeyor will set about doing the build.  The output of which should hopefully look something like this (the full output can be seen <a href="https://ci.appveyor.com/project/GaryEwanPark/gep13-github-io/build/1.0.22">here</a>)</p>
 
-
-<div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=BuildSteps.yml'></script>
-<noscript><pre><code>build_script:
-  - cmd: bundle install
-  - cmd: if not exist _deploy (git clone https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git _deploy)
-  - cmd: cd _deploy
-  - cmd: git checkout master
-  - cmd: cd ..
-  - cmd: rake gen_deploy</code></pre></noscript></div>
-
-
-<ol>
-<li>The final things that I needed to do was to specify that I didn&rsquo;t want to run any tests after the main build steps were completed.  This can be done using:</li>
-</ol>
-
-
-<div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=Test.yml'></script>
-<noscript><pre><code>test: off</code></pre></noscript></div>
-
-
-<ol>
-<li>With the above file checked into your repository, AppVeyor will set about doing the build.  The output of which should hopefully look something like this (the full output can be seen <a href="https://ci.appveyor.com/project/GaryEwanPark/gep13-github-io/build/1.0.22">here</a>)
-<img src="http://www.gep13.co.uk/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/SuccessfulBuild.png" alt="Successful AppVeyor Build" /></li>
+<p><img src="http://www.gep13.co.uk/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/SuccessfulBuild.png" alt="Successful AppVeyor Build" /></p></li>
 </ol>
 
 
