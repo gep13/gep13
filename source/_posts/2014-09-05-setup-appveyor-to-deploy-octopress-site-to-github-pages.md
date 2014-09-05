@@ -1,7 +1,7 @@
 ---
 author: gep13
 layout: post
-published: false
+published: true
 title: Setup AppVeyor to deploy Octopress site to GitHub Pages
 comments: true
 sharing: true
