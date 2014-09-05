@@ -7,7 +7,8 @@ title: gep13's blog
 subtitle: Ramblings and Ponderings of a Microsoft Fan Boy...
 author: gep13
 simple_search: https://www.google.com/search
-description:
+description: "Website of Gary Ewan Park, also known as gep13, a self declared Microsoft Fan Boy, husband, dad, and geek."
+keywords: "gep13, blog, Microsoft, Fan Boy, Ramblings, Pondering, Gary Ewan Park
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -128,6 +129,14 @@ prose:
         field:
           element: "text"
           value: "Title"
+      - name: "keywords"
+        field:
+          element: "text"
+          value: "Keywords"		
+      - name: "description"
+        field:
+          element: "text"
+          value: "Description"				  
       - name: "comments"
         field:
           label: "Allow comments"
