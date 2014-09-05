@@ -11,7 +11,7 @@ tags:
   - Octopress
   - AppVeyor
   - Github Pages
-keywords: "Octopress, AppVeyor, Jekyll, Continuous Deployment
+keywords: "Octopress, AppVeyor, Jekyll, Continuous Deployment, GitHub Pages"
 description: "Step by step guide on how to set-up AppVeyor to continually push changes to Octopress Source Code to GitHub Pages"
 ---
 
