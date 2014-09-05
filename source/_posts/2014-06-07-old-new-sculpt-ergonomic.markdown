@@ -8,7 +8,6 @@ title: Out with the old, in with the new - Microsoft Sculpt Ergonomic
 wordpress_id: 2219
 categories:
 - General PC
-- gep13 blog
 tags:
 - Ergonomic
 - Keyboard
