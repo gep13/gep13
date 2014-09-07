@@ -23,7 +23,13 @@ environment:
   GithubPassword:
     secure: XSuLygmr83zEpWcXIXMXGocN0QbooLud1eIMA3mQWKkT9LAU4TyrijLBcJIo7bD7
   
-
+#---------------------------------#
+#       install steps             #
+#---------------------------------#
+install:
+  - cmd: iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+  - cmd: choco install imagemagick.app -PackageParameters InstallDevelopmentHeaders=true
+  
 #---------------------------------#
 #       build configuration       #
 #---------------------------------#
