@@ -15,6 +15,6 @@ tags:
 
 Moved into the apartment that Matrikon are providing for me while I am in Calgary. Woo Hoo!! It is really nice. There was nothing wrong with the Sandman Hotel, but looking forward to being able to get all my stuff unpacked!! You can see some photos of my apartment here:
 
-[nggallery id=1]
+{{ 'gallery_1' | image_list }}
 
 I will probably add some more photos to this album over time.
