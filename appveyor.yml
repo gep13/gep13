@@ -19,6 +19,9 @@ clone_folder: C:\projects\gep13-github-io
 
 # environment variables
 environment:
+  FLICKR_API_KEY: 9d1103bc0e467306fc1057bec04deff1
+  FLICKR_API_SECRET:
+    secure: 4KG1DGSiopfF3pwYpmZUo/6s3+x341m8wegmIBxCHBQ=
   GithubUsername: gep13
   GithubPassword:
     secure: XSuLygmr83zEpWcXIXMXGocN0QbooLud1eIMA3mQWKkT9LAU4TyrijLBcJIo7bD7
