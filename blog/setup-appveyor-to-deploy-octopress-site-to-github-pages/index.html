@@ -1,0 +1,297 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Setup AppVeyor to deploy Octopress site to GitHub Pages - gep13&#8217;s blog</title>
+	<meta name="author" content="gep13">
+
+	
+	<meta name="description" content="Step by step guide on how to set-up AppVeyor to continually push changes to Octopress Source Code to GitHub Pages" />
+
+	
+	<meta name="keywords" content="Octopress, AppVeyor, Jekyll, Continuous Deployment, GitHub Pages" />
+
+	<!-- http://t.co/dKP3o1e -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/feed" rel="alternate" title="gep13's blog" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
+<script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>
+<script type="text/javascript">
+	// <![CDATA[
+		cc.initialise({
+			cookies: {
+				social: {
+					title: 'Disqus et al.',
+					description: 'Used for comments. You\'ll nee'+
+							'd to log in to Disqus to leave'+
+							' comments.'
+				},
+				analytics: {
+					title: 'Analytics',
+					description: 'Anonymously measure your use o'+
+							'f this website to improve your'+
+							' experience.'
+				}
+			},
+			settings: {
+				bannerPosition: "bottom",
+				disableallsites: true
+			}
+		});
+	// ]]>
+</script>
+<!-- End Cookie Consent plugin -->
+
+<!-- Pure CSS -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><nav id="main-nav"><ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/adnuguk">ADNUGUK</a></li>
+</ul>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		<a class="facebook" href="http://www.facebook.com/gary.e.park" title="Facebook">Facebook</a>
+		
+		
+		<a class="google" href="https://plus.google.com/+GaryEwanPark" rel="author" title="Google+">Google+</a>
+		
+		
+		<a class="twitter" href="http://twitter.com/gep13" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/gep13" title="GitHub">GitHub</a>
+		
+		
+		
+		<a class="linkedin" href="http://www.linkedin.com/in/gep13">LinkedIn</a>
+		
+		
+		
+		<a class="delicious" href="http://delicious.com/gep13" title="Delicious">Delicious</a>
+		
+		
+		
+		<a class="rss" href="/feed" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+<div class="profile-container">
+  <div class="profilepic">
+    <script src="/javascripts/md5.js"></script>
+    <script type="text/javascript">
+$(function(){
+  $('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("gep13@gep13.co.uk") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+});
+    </script>
+  </div>
+  <hgroup>
+  <h1 class="site-title"><a href="/">gep13&#8217;s blog</a></h1>
+  
+  <p class="site-subtitle">Ramblings and Ponderings of a Microsoft Fan Boy&#8230;</p>
+  
+  </hgroup>
+  
+</div>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="article-inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+   	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-05T00:00:00+00:00" data-updated="true" itemprop="datePublished">Sep 5th, 2014</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/octopress/'>octopress</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+	
+	<h1 class="title" itemprop="name">Setup AppVeyor to Deploy Octopress Site to GitHub Pages</h1>
+	<div class="entry-content" itemprop="articleBody"><h2>History of this blog</h2>
+
+<p>This blog has now been through a number of iterations.  It started out as a custom built blog application in ASP.NET, then it moved to BlogEngine.net for a very short period.  It then made an appearance as a WordPress Blog, and now, in it&rsquo;s current incarnation, it is using Octopress hosted on GitHub Pages.  This way of hosting my blog was very much inspired by the work of <a href="http://hadihariri.com/2013/12/24/migrating-from-wordpress-to-jekyll/">Hadi</a> and <a href="http://jake.ginnivan.net/blog/2014/06/10/low-friction-octopress-github-pages-setup/">Jake</a> in setting up their blogs, so thanks go to them for their help!  Hadi pointed me in the right direction in terms of migrating initially from Wordpress, and Jake showed how it was possible to deploy automagically to GitHub Pages.</p>
+
+<p>The slightly different technique that I have used, and the reason for this post, is that I have used <a href="http://www.appveyor.com/">AppVeyor</a> to do the deployment of the generated static HTML to GitHub.  What follows are the steps to make this happen.</p>
+
+<!--more-->
+
+
+<h2>I love TeamCity, but&hellip;</h2>
+
+<p>In Jake&rsquo;s <a href="http://jake.ginnivan.net/blog/2014/06/10/low-friction-octopress-github-pages-setup/">blog post</a>, he shows how you can use <a href="http://www.jetbrains.com/teamcity/">TeamCity</a> to listen for changes in the <code>source</code> branch of your Octopress Git Repository, generate the static html, and then push to the <code>master</code> branch of the same repository.  This is incredibly simple to do with TeamCity, but it obviously needs an available instance of TeamCity.  Unfortunately, this is not something that I have access to for personal (i.e. outside of work) projects.  As a result, I had to look elsewhere for a solution.  And for me, the solution was <a href="http://www.appveyor.com/">AppVeyor</a>.</p>
+
+<p>After a <a href="http://help.appveyor.com/discussions/questions/491-use-appveyor-to-deploy-changes-to-octopress-blog">small hiccup</a> with setting up AppVeyor (which, by the way was resolved VERY quickly!), configuring AppVeyor to generate and deploy an Octopress site is very simple!</p>
+
+<h2>Setting up continuous deployment from AppVeyor</h2>
+
+<ol>
+<li>If you don&rsquo;t already have one, <a href="https://ci.appveyor.com/signup/free">create an account</a> with AppVeyor (which is completely free, assuming your repository is public), and authenticate with either GitHub, BitBucket, Visual Studio Online, or Kiln, depending on where your blog source code is going to be hosted.  Since I am using GitHub Pages, I will be referring to that for the rest of this post.</li>
+<li><p>Click New Project</p>
+
+<p> <img src="/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/NewProject.png" alt="Click New Project" /></p></li>
+<li><p>Select your blog source code repository, in my case gep13.github.io, and AppVeyor will set about provisioning a new Project, ready to accept build steps and configuration</p></li>
+<li>At this point, you could start using the AppVeyor User Interface to setup the build, and this is what I started with.  However, I quickly realised that I would need to start using the <a href="http://www.appveyor.com/docs/appveyor-yml">appveyor.yml</a> file.  This was due to the fact that I wanted to be able to pass in a secure variables to the build process, namely my GitHub password, and this is not possible through the User Interface.</li>
+<li><p>In the same way that Jake did, I have setup my GitHub repository to use the source branch as the default.  This can be done through the settings page of your repository in GitHub</p>
+
+<p> <img src="/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/DefaultSourceBranch.png" alt="Set source branch as default in GitHub" /></p></li>
+<li><p>Create an appveyor.yml file in the root of the source branch of your repository.  You can see mine <a href="https://github.com/gep13/gep13.github.io/blob/source/appveyor.yml">here</a>.</p></li>
+<li><p>There are four important things in this file.  Firstly, the init section.  In order to push changes back to GitHub, you need to let the newly created Virtual Machine that AppVeyor is running for you know the git credentials that you want to use.  This can be done using the standard <code>git config --global</code> command.</p>
+
+<p> <div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=Init.yml'></script>
+<noscript><pre><code>init:</p></li>
+<li>git config &ndash;global user.email &quot;&lt;Your Email Address&gt;&quot;</li>
+<li><p>git config &ndash;global user.name &quot;&lt;Your User Name&gt;&quot;</code></pre></noscript></div></p></li>
+<li><p>The next important section is environment.  This is where you can specify 1 or more vaiables that you want to have available during your build steps.  If required, you can use the <a href="https://ci.appveyor.com/tools/encrypt">encrypt data tool</a> within AppVeyor to encrypt sensitive information.  This is exactly what I did with my GitHub password.</p>
+
+<p> <div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=Environment.yml'></script>
+<noscript><pre><code>environment:
+GithubUsername: gep13
+GithubPassword:
+ secure: XSuLygmr83zEpWcXIXMXGocN0QbooLud1eIMA3mQWKkT9LAU4TyrijLBcJIo7bD7</code></pre></noscript></div></p></li>
+<li><p>Next up, we need to specify the actual operations that we want to perform.  These have been lifted exactly out of Jakes configuration.  The especically important thing to notice here is the <code>%GithubUsername%</code> and <code>%GithubPassword%</code> variables.  They refer to the environment variables that were configured above. <strong>NOTE:</strong>  As I found out, the <code>gen_deploy</code> rake task does both a generate and a deploy.</p>
+
+<p> <div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=BuildSteps.yml'></script>
+<noscript><pre><code>build_script:</p></li>
+<li>cmd: bundle install</li>
+<li>cmd: if not exist <em>deploy (git clone <a href="https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git">https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git</a> </em>deploy)</li>
+<li>cmd: cd _deploy</li>
+<li>cmd: git checkout master</li>
+<li>cmd: cd ..</li>
+<li><p>cmd: rake gen_deploy</code></pre></noscript></div></p></li>
+<li><p>The final things that I needed to do was to specify that I didn&rsquo;t want to run any tests after the main build steps were completed.  This can be done using:</p>
+
+<p><div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=Test.yml'></script>
+<noscript><pre><code>test: off</code></pre></noscript></div></p></li>
+<li><p>With the above file checked into your repository, AppVeyor will set about doing the build.  The output of which should hopefully look something like this (the full output can be seen <a href="https://ci.appveyor.com/project/GaryEwanPark/gep13-github-io/build/1.0.22">here</a>)</p>
+
+<p><img src="/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/SuccessfulBuild.png" alt="Successful AppVeyor Build" /></p></li>
+</ol>
+
+
+<p>And that, as they say, is that!</p>
+
+<p>Now, everytime you make a change in the <code>source</code> branch of your Octopress Repository, AppVeyor will collect all the changes, execute the build steps, and deploy your latest changes to the <code>master</code> branch, ready for viewing on your site.</p>
+</div>
+
+</article>
+
+	<div class="share">
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<div class="addthis_sharing_toolbox"></div>
+
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/plain" class="cc-onconsent-social" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54075e8542beba4d"></script>
+</div>
+
+
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+			</div>
+			<footer id="footer" class="inner"><p>
+  Copyright &copy; 2014 - gep13 -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+<p>Theme: <a href="https://github.com/qingwang/octopress-theme-yinyang">YinYang</a></p>
+</footer>
+			<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/plain" class="cc-onconsent-social">
+      var disqus_shortname = 'gep13';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages/';
+        var disqus_url = 'http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+	<script type="text/plain" class="cc-onconsent-analytics">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-20926037-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,305 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>How to install chocolatey nuget - gep13&#8217;s blog</title>
+	<meta name="author" content="gep13">
+
+	
+	<meta name="description" content="Website of Gary Ewan Park, also known as gep13, a self declared Microsoft Fan Boy, husband, dad, and geek." />
+
+	
+	<meta name="keywords" content="gep13, blog, Microsoft, Fan Boy, Ramblings, Pondering, Gary Ewan Park" />
+
+	<!-- http://t.co/dKP3o1e -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/feed" rel="alternate" title="gep13's blog" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://www.gep13.co.uk/blog/how-to-install-chocolatey-nuget/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
+<script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>
+<script type="text/javascript">
+	// <![CDATA[
+		cc.initialise({
+			cookies: {
+				social: {
+					title: 'Disqus et al.',
+					description: 'Used for comments. You\'ll nee'+
+							'd to log in to Disqus to leave'+
+							' comments.'
+				},
+				analytics: {
+					title: 'Analytics',
+					description: 'Anonymously measure your use o'+
+							'f this website to improve your'+
+							' experience.'
+				}
+			},
+			settings: {
+				bannerPosition: "bottom",
+				disableallsites: true
+			}
+		});
+	// ]]>
+</script>
+<!-- End Cookie Consent plugin -->
+
+<!-- Pure CSS -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><nav id="main-nav"><ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/adnuguk">ADNUGUK</a></li>
+</ul>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		<a class="facebook" href="http://www.facebook.com/gary.e.park" title="Facebook">Facebook</a>
+		
+		
+		<a class="google" href="https://plus.google.com/+GaryEwanPark" rel="author" title="Google+">Google+</a>
+		
+		
+		<a class="twitter" href="http://twitter.com/gep13" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/gep13" title="GitHub">GitHub</a>
+		
+		
+		
+		<a class="linkedin" href="http://www.linkedin.com/in/gep13">LinkedIn</a>
+		
+		
+		
+		<a class="delicious" href="http://delicious.com/gep13" title="Delicious">Delicious</a>
+		
+		
+		
+		<a class="rss" href="/feed" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+<div class="profile-container">
+  <div class="profilepic">
+    <script src="/javascripts/md5.js"></script>
+    <script type="text/javascript">
+$(function(){
+  $('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("gep13@gep13.co.uk") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+});
+    </script>
+  </div>
+  <hgroup>
+  <h1 class="site-title"><a href="/">gep13&#8217;s blog</a></h1>
+  
+  <p class="site-subtitle">Ramblings and Ponderings of a Microsoft Fan Boy&#8230;</p>
+  
+  </hgroup>
+  
+</div>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="article-inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+   	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-04T13:40:37+00:00" data-updated="true" itemprop="datePublished">Jan 4th, 2013</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/chocolatey-series/'>chocolatey series</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+	
+	<h1 class="title" itemprop="name">How to Install Chocolatey Nuget</h1>
+	<div class="entry-content" itemprop="articleBody"><h1>Time to get chocolatey&hellip;</h1>
+
+<p>If you are not already familiar with <a href="http://chocolatey.org/">chocolatey nuget</a>, let me give you a brief introduction.</p>
+
+<blockquote>&#8220;Chocolatey NuGet is a Machine Package Manager, somewhat like apt-get, but built with Windows in mind.&#8221;</blockquote>
+
+
+<p>What does this mean?  It means that once you have chocolatey nuget installed, you can easily install applications (packages), that are stored in the chocolatey gallery, with a single command.  What&rsquo;s more, if these packages are ever updated, you can update them on your machine using, again, a single command.</p>
+
+<p>If you want to find out more information about chocolatey nuget you can browse the available packages <a href="http://chocolatey.org/packages">here</a>, read the documentation <a href="https://github.com/chocolatey/chocolatey/wiki">here</a>, and ask questions on the forum <a href="https://groups.google.com/forum/?fromgroups#!forum/chocolatey">here</a>.</p>
+
+<h1>Installation Steps</h1>
+
+<p><strong>NOTE: </strong>The following installation steps and screenshots were taken from a virtual machine   with Windows Server 2008 R2 Service Pack 1, running in Hyper-V on a Windows 8 Host Machine.</p>
+
+<ol>
+<li><p> Open a Command Prompt as Administrator</p>
+
+<ol>
+<li><p>Hit the Start button</p></li>
+<li><p>Type &ldquo;cmd&rdquo;</p></li>
+<li><p>Right click on the &ldquo;cmd&rdquo; icon</p></li>
+<li><p>Click &ldquo;Run as administrator&rdquo;</p></li>
+</ol>
+</li>
+<li><p> Enter the following command (you can simply copy/paste this command) and then press the &ldquo;Enter&rdquo; key:</p></li>
+</ol>
+
+
+<blockquote>@powershell -NoProfile -ExecutionPolicy unrestricted -Command &#8220;iex ((new-object net.webclient).DownloadString(&#8216;http://chocolatey.org/install.ps1&#8217;))&#8221; && SET PATH=%PATH%;%systemdrive%\chocolatey\bin</blockquote>
+
+
+<ol>
+<li><p> The installation of chocolatey will begin</p></li>
+<li><p> The installation will complete</p></li>
+</ol>
+
+
+<p>You can see screenshots of each of these steps in the gallery at the bottom of this blog post.</p>
+
+<h1>What has the installation done</h1>
+
+<p>Once the installation is complete you will notice a few immediate changes on your computer.</p>
+
+<ol>
+<li><p> Chocolatey will have added a number of folders/files to the root of your c:\ drive.</p></li>
+<li><p> Chocolatey will have added some environment variables to allow the commands that is provides work</p></li>
+</ol>
+
+
+<h1>Post Installation Checks</h1>
+
+<p>To verify that verify is working correctly:</p>
+
+<ol>
+<li><p> Open PowerShell as an Administrator (not strictly required, but a good habit to get into)</p>
+
+<ol>
+<li><p>Hit the Start button</p></li>
+<li><p>Type &ldquo;PowerShell&rdquo;</p></li>
+<li><p>Right click on the &ldquo;Windows PowerShell&rdquo; icon</p></li>
+<li><p>Click &ldquo;Run as administrator&rdquo;</p></li>
+</ol>
+</li>
+<li><p> Type &ldquo;chocolatey help&rdquo;</p></li>
+<li><p> If everything is working correctly, you should get some output confirming the version of chocolatey nuget installed, as well as some information about it.</p></li>
+</ol>
+
+
+<h1>Installation Screenshots</h1>
+
+<p>[gallery ids=&ldquo;1727,1728,1729,1730,1732,1731,1737,1734&rdquo;]</p>
+</div>
+
+</article>
+
+	<div class="share">
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<div class="addthis_sharing_toolbox"></div>
+
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/plain" class="cc-onconsent-social" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54075e8542beba4d"></script>
+</div>
+
+
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+			</div>
+			<footer id="footer" class="inner"><p>
+  Copyright &copy; 2014 - gep13 -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+<p>Theme: <a href="https://github.com/qingwang/octopress-theme-yinyang">YinYang</a></p>
+</footer>
+			<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/plain" class="cc-onconsent-social">
+      var disqus_shortname = 'gep13';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-install-chocolatey-nuget/';
+        var disqus_url = 'http://www.gep13.co.uk/blog/how-to-install-chocolatey-nuget/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+	<script type="text/plain" class="cc-onconsent-analytics">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-20926037-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+
+		</div>
+	</div>
+</body>
+</html>

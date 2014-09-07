@@ -1,0 +1,252 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Where did the assemblies from my Global Assembly Cache (GAC) go? - gep13&#8217;s blog</title>
+	<meta name="author" content="gep13">
+
+	
+	<meta name="description" content="Website of Gary Ewan Park, also known as gep13, a self declared Microsoft Fan Boy, husband, dad, and geek." />
+
+	
+	<meta name="keywords" content="gep13, blog, Microsoft, Fan Boy, Ramblings, Pondering, Gary Ewan Park" />
+
+	<!-- http://t.co/dKP3o1e -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/feed" rel="alternate" title="gep13's blog" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://www.gep13.co.uk/blog/where-did-the-assemblies-from-my-global-assembly-cache-gac-go/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
+<script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>
+<script type="text/javascript">
+	// <![CDATA[
+		cc.initialise({
+			cookies: {
+				social: {
+					title: 'Disqus et al.',
+					description: 'Used for comments. You\'ll nee'+
+							'd to log in to Disqus to leave'+
+							' comments.'
+				},
+				analytics: {
+					title: 'Analytics',
+					description: 'Anonymously measure your use o'+
+							'f this website to improve your'+
+							' experience.'
+				}
+			},
+			settings: {
+				bannerPosition: "bottom",
+				disableallsites: true
+			}
+		});
+	// ]]>
+</script>
+<!-- End Cookie Consent plugin -->
+
+<!-- Pure CSS -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><nav id="main-nav"><ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/adnuguk">ADNUGUK</a></li>
+</ul>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		<a class="facebook" href="http://www.facebook.com/gary.e.park" title="Facebook">Facebook</a>
+		
+		
+		<a class="google" href="https://plus.google.com/+GaryEwanPark" rel="author" title="Google+">Google+</a>
+		
+		
+		<a class="twitter" href="http://twitter.com/gep13" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/gep13" title="GitHub">GitHub</a>
+		
+		
+		
+		<a class="linkedin" href="http://www.linkedin.com/in/gep13">LinkedIn</a>
+		
+		
+		
+		<a class="delicious" href="http://delicious.com/gep13" title="Delicious">Delicious</a>
+		
+		
+		
+		<a class="rss" href="/feed" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+<div class="profile-container">
+  <div class="profilepic">
+    <script src="/javascripts/md5.js"></script>
+    <script type="text/javascript">
+$(function(){
+  $('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("gep13@gep13.co.uk") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+});
+    </script>
+  </div>
+  <hgroup>
+  <h1 class="site-title"><a href="/">gep13&#8217;s blog</a></h1>
+  
+  <p class="site-subtitle">Ramblings and Ponderings of a Microsoft Fan Boy&#8230;</p>
+  
+  </hgroup>
+  
+</div>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="article-inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+   	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-11-24T20:32:00+00:00" data-updated="true" itemprop="datePublished">Nov 24th, 2010</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/general-development/'>general development</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+	
+	<h1 class="title" itemprop="name">Where Did the Assemblies From My Global Assembly Cache (GAC) Go?</h1>
+	<div class="entry-content" itemprop="articleBody"><p>I have recently been working on a SharePoint Web Part, and while trying to retract the solution from SharePoint, I got an error message, shown here:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/5e76c325-aa54-4408-9fe5-ca32dc405398.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/5e76c325-aa54-4408-9fe5-ca32dc405398_thumb.png" alt="5e76c325-aa54-4408-9fe5-ca32dc405398" /></a></p>
+
+<p>Now, in all honesty, I didn’t think much of this error, because when I checked the files associated with each of the features for the solution they were all gone, and when I tried to open the home page of my SharePoint server, it worked, and everything looked to be ok. However, an additional step after retracting the solution was to remove a couple files from the GAC (yes, I know I need to alter my WSP project to do this for me, but…), on opening the GAC, I was greeted with this:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/ee75f8ab-79d9-4c07-b512-09fab0b6cdc0.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/ee75f8ab-79d9-4c07-b512-09fab0b6cdc0_thumb.png" alt="ee75f8ab-79d9-4c07-b512-09fab0b6cdc0" /></a></p>
+
+<p>Where have all my assemblies gone?!? My machine is still running, and there haven’t been any error messages pop up, so I know the files in the GAC must be there, but for whatever reason, they are not being displayed. So, what do you do in situations like this? I don’t know about you, but I always turn to the person next to me to make sure that they are seeing the same thing as me. So I did, I pulled over one of my colleagues, and asked him to look at my GAC and ask if he had seen this before. However, when I did this, and I opened the GAC again, all the files were there!! So I took some stick about being an idiot, and I went on with my day.</p>
+
+<p>Later on though, the same thing happened. I pulled my colleague over again, and proved that I wasn’t dreaming. He agreed that he was seeing the same thing as I was (no need to call the men in white coats yet), but didn’t have a clue what was going on.</p>
+
+<p>So, what do you do when all other avenues have been exhausted? That’s right, you Google it. I found various references to the problem, but nothing concrete, until I found this:</p>
+
+<p><a href="http://kwizcom.blogspot.com/2009/01/global-assembly-cache-gac-folder.html">http://kwizcom.blogspot.com/2009/01/global-assembly-cache-gac-folder.html</a></p>
+
+<p>My initial reaction was, no, that can’t be right. But to my surprise, disabling the “Indexing Service” does appear to have done the trick. I have had the retraction error a few more times since I disabled the service (I really need to look into why that is happening), and each time the GAC has remained in tact.</p>
+
+<p>No idea what was causing this to happen, but seems like this is the solution.</p>
+</div>
+
+</article>
+
+	<div class="share">
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<div class="addthis_sharing_toolbox"></div>
+
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/plain" class="cc-onconsent-social" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54075e8542beba4d"></script>
+</div>
+
+
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+			</div>
+			<footer id="footer" class="inner"><p>
+  Copyright &copy; 2014 - gep13 -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+<p>Theme: <a href="https://github.com/qingwang/octopress-theme-yinyang">YinYang</a></p>
+</footer>
+			<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/plain" class="cc-onconsent-social">
+      var disqus_shortname = 'gep13';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://www.gep13.co.uk/blog/where-did-the-assemblies-from-my-global-assembly-cache-gac-go/';
+        var disqus_url = 'http://www.gep13.co.uk/blog/where-did-the-assemblies-from-my-global-assembly-cache-gac-go/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+	<script type="text/plain" class="cc-onconsent-analytics">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-20926037-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+
+		</div>
+	</div>
+</body>
+</html>
