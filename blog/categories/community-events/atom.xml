@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Community Events | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/community-events/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2014-09-05T19:07:23+00:00</updated>
+  <updated>2014-09-07T18:51:14+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -37,7 +37,7 @@ In this session we will look at how you can incrementally work your way to fully
 
 <p>If you are interested in seeing the slides from the talk, you can find them displayed below, and also available as a download link on this post.</p>
 
-<p><iframe src="http://www.slideshare.net/slideshow/embed_code/28819037 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe> </p>
+<p>{% slideshare 28819037 %}</p>
 
 <p>If you want to check out what little code was used during the presentation, you can find it <a href="http://gep13.me/CIDemos">here</a>.</p>
 
