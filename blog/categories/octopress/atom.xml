@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2014-09-08T06:36:51+00:00</updated>
+  <updated>2014-09-08T12:21:17+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -12,6 +12,78 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Using a Basic Gallery Plugin on Octopress Site]]></title>
+    <link href="http://www.gep13.co.uk/blog/using-a-basic-gallery-plugin-on-octopress-site/"/>
+    <updated>2014-09-08T00:00:00+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/using-a-basic-gallery-plugin-on-octopress-site</id>
+    <content type="html"><![CDATA[<h2>I have a lot of photos, but where to put them?</h2>
+
+<p>Over the years, I have collected a number of photos from various trips that I have been on, and I share them in various places, i.e. Facebook, Twitter, Flickr, etc.  However, from time to time, I want to include them easily into blog posts as well.  This is something that &ldquo;should&rdquo; be easy, but my experience over the last few days is that it isn&rsquo;t as simple as it should be.  This is especially useful when doing a tutorial blog post, and you want to capture a number of screenshots and show them in order in a gallery.</p>
+
+<p>Having finally figured out how to get it working, I thought I would list the steps here for anyone else that might be running into the same problem.</p>
+
+<!--more-->
+
+
+<h2>What do I want?</h2>
+
+<p>The requirements that I am looking for break down as follows:
+- once setup, I should be able to upload one or more images into a gallery folder and they should automatically added to associated blog post
+- thumbnail images should be automatically generated for photos uploaded into gallery folder
+- when clicked, thumbnail images should open a popup with a larger image
+- images in the same gallery should allow browsing left and right when an image is in popup window
+- should work in a range of devices, desktop, tablet, phone
+- should work as part of my AppVeyor build</p>
+
+<p>After hunting around, and trying various different options, I finally settled on using this <a href="https://github.com/yortz/octopress_gallery">plugin</a>.  From it&rsquo;s description, it should have been easy to get set up and running, but unforunately, it took a bit of head scratching.</p>
+
+<p>In the description for the plugin there is no mention of the dependency on an application called <code>ImageMagick</code>.  Now, in hindsight, it is clear that this will be required, but when I was reading through the simple steps of setting this up, it never occured to me.  So first up, let&rsquo;s get <code>ImageMagick</code> installed.  If you are using <a href="http://chocolatey.org/">Chocolatey</a> then this is as simple as:</p>
+
+<p><code>choco install imagemagick.tool</code></p>
+
+<p>With that installed, step through the remaining instructions on the plugin page.</p>
+
+<p>In addition to those steps, I also decided to add support for <a href="http://fancybox.net/">Fancybox</a> to make the experience a little nicer.  This involved the following:</p>
+
+<ol>
+<li>Make a slight modification to the <code>gallery_tag.rb</code> to work with Fancybox.  This basically involved adding a class definition to teh anchor tag, and also changing the rel attribute to be the gallery name, so that Fancybox groups the images in the gallery together.  The final version of the change can be seen <a href="https://github.com/gep13/gep13.github.io/commit/8f597cd922ffc3556481e7148990bcaa675dcceb#diff-dc86fc94e212fa637e5f2689a8379e1fR10">here</a>.</li>
+<li>Download <a href="http://fancyapps.com/fancybox/#license">Fancybox</a></li>
+<li>Unblock/extract the zip file</li>
+<li>Add the contents of the source folder to <code>source\fancybox</code> as I have done <a href="https://github.com/gep13/gep13.github.io/tree/source/source/fancybox">here</a></li>
+<li><p>Make the following additions to your <code>source\_includes\custom\head.html</code> file</p>
+
+<p> {% gist 92f1e589d8f6e56eb2fe head.yml %}</p></li>
+<li><p>Create your gallery folder, and add the necessary changes to your config.yml file.  You can see the sample changes that I made <a href="https://github.com/gep13/gep13.github.io/commit/8f597cd922ffc3556481e7148990bcaa675dcceb">here</a>.</p></li>
+<li>Add the gallery tag to your blog post.  In my case, this was <code>{{ 'gallery_1' | image_list }}</code></li>
+<li>Then do a <code>rake generate</code></li>
+<li>Assuming everything has worked, do a <code>rake preview</code> and view your hard work</li>
+</ol>
+
+
+<h2>Issue when doing rake generate</h2>
+
+<p>When I first tried to do the above, the issue that I ran into looked like this:</p>
+
+<blockquote><p>C:/projects/gep13-github-io/public/images/galleries/gallery_1/thumbs/6.jpg
+149jekyll 2.3.0 | Error:  No such file or directory - identify -ping C:/Users/appveyor/AppData/Local/Temp/mini_magick20140907-3000-6k90ct.jpg</p></blockquote>
+
+<p>This translates as, you don&rsquo;t have <code>ImageMagick</code> installed, go and get it.  I tried a few different installations, and ran into other issues with having the right developer DLL&rsquo;s and includes.  The upshot was, I couldn&rsquo;t find a solution to using the installed version of <code>ImageMagick</code>.  If however, I used the portable version, it works fine.  Go figure!</p>
+
+<h2>Setting up AppVeyor</h2>
+
+<p>So, the final piece of the puzzle, at least for me, was to get the same process working on AppVeyor, so that as part of the build process the thumbnails etc are generated.  Turns out again, thanks to AppVeyor extensibilty system, this is remarkably easy.  In fact, the changes that I need to make are exactly what I did on my own machine, i.e. install <code>ImageMagick</code> using Chocolatey.  Now, unlike my machine, the AppVeyor build machines don&rsquo;t have Chocolatey already installed, so we need to get it onto them.  This can be done using the <code>install</code> steps, as documented <a href="http://www.appveyor.com/docs/appveyor-yml">here</a>.</p>
+
+<p>The final result was the following:</p>
+
+<p> {% gist 9f74a718d98bece9486e Install.yml %}</p>
+
+<p>Two simple steps.  The first to install Chocolatey, and the second to install <code>ImageMagick</code> portable edition.  This will now happen each time my AppVeyor build runs, and it will generate the thumbnails for each of my galleries.</p>
+
+<p>Job done!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Setup AppVeyor to Deploy Octopress Site to GitHub Pages]]></title>
@@ -48,35 +120,16 @@
 <li><p>Create an appveyor.yml file in the root of the source branch of your repository.  You can see mine <a href="https://github.com/gep13/gep13.github.io/blob/source/appveyor.yml">here</a>.</p></li>
 <li><p>There are four important things in this file.  Firstly, the init section.  In order to push changes back to GitHub, you need to let the newly created Virtual Machine that AppVeyor is running for you know the git credentials that you want to use.  This can be done using the standard <code>git config --global</code> command.</p>
 
-<p> <div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=Init.yml'></script>
-<noscript><pre><code>init:
-  - git config --global user.email &quot;&lt;Your Email Address&gt;&quot;
-  - git config --global user.name &quot;&lt;Your User Name&gt;&quot;</code></pre></noscript></div>
-</p></li>
+<p> {% gist 9f74a718d98bece9486e Init.yml %}</p></li>
 <li><p>The next important section is environment.  This is where you can specify 1 or more vaiables that you want to have available during your build steps.  If required, you can use the <a href="https://ci.appveyor.com/tools/encrypt">encrypt data tool</a> within AppVeyor to encrypt sensitive information.  This is exactly what I did with my GitHub password.</p>
 
-<p> <div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=Environment.yml'></script>
-<noscript><pre><code>environment:
-  GithubUsername: gep13
-  GithubPassword:
-    secure: XSuLygmr83zEpWcXIXMXGocN0QbooLud1eIMA3mQWKkT9LAU4TyrijLBcJIo7bD7</code></pre></noscript></div>
-</p></li>
+<p> {% gist 9f74a718d98bece9486e Environment.yml %}</p></li>
 <li><p>Next up, we need to specify the actual operations that we want to perform.  These have been lifted exactly out of Jakes configuration.  The especically important thing to notice here is the <code>%GithubUsername%</code> and <code>%GithubPassword%</code> variables.  They refer to the environment variables that were configured above. <strong>NOTE:</strong>  As I found out, the <code>gen_deploy</code> rake task does both a generate and a deploy.</p>
 
-<p> <div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=BuildSteps.yml'></script>
-<noscript><pre><code>build_script:
-  - cmd: bundle install
-  - cmd: if not exist _deploy (git clone https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git _deploy)
-  - cmd: cd _deploy
-  - cmd: git checkout master
-  - cmd: cd ..
-  - cmd: rake gen_deploy</code></pre></noscript></div>
-</p></li>
+<p> {% gist 9f74a718d98bece9486e BuildSteps.yml %}</p></li>
 <li><p>The final things that I needed to do was to specify that I didn&rsquo;t want to run any tests after the main build steps were completed.  This can be done using:</p>
 
-<p><div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=Test.yml'></script>
-<noscript><pre><code>test: off</code></pre></noscript></div>
-</p></li>
+<p>{% gist 9f74a718d98bece9486e Test.yml %}</p></li>
 <li><p>With the above file checked into your repository, AppVeyor will set about doing the build.  The output of which should hopefully look something like this (the full output can be seen <a href="https://ci.appveyor.com/project/GaryEwanPark/gep13-github-io/build/1.0.22">here</a>)</p>
 
 <p><img src="/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/SuccessfulBuild.png" alt="Successful AppVeyor Build" /></p></li>
