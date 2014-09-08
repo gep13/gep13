@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Adnuguk | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/adnuguk/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2014-09-08T12:21:17+00:00</updated>
+  <updated>2014-09-08T12:39:20+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -88,7 +88,7 @@
 
 <p>A full copy of the slides that were used on the day can be found attached to this post, and you can see a preview of them below:</p>
 
-<p>{% slideshare 28937731 %}</p>
+<p><iframe src="http://www.slideshare.net/slideshow/embed_code/28937731 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe> </p>
 
 <h1>Feedback</h1>
 
