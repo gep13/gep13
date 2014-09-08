@@ -52,7 +52,7 @@ In addition to those steps, I also decided to add support for [Fancybox](http://
 4. Add the contents of the source folder to ```source\fancybox``` as I have done [here](https://github.com/gep13/gep13.github.io/tree/source/source/fancybox)
 5. Make the following additions to your ```source\_includes\custom\head.html``` file
 
-    {% gist 92f1e589d8f6e56eb2fe head.yml %}
+    {% gist 92f1e589d8f6e56eb2fe head.html %}
 
 6. Create your gallery folder, and add the necessary changes to your config.yml file.  You can see the sample changes that I made [here](https://github.com/gep13/gep13.github.io/commit/8f597cd922ffc3556481e7148990bcaa675dcceb).
 7. Add the gallery tag to your blog post.  In my case, this was ```{{ 'gallery_1' | image_list }}```
