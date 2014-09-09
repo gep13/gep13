@@ -54,20 +54,20 @@ In addition to those steps, I also decided to add support for [Fancybox](http://
 5. Make the following additions to your ```source\_includes\custom\head.html``` file
     
     {% codeblock lang:javascript %}
-    <script src="ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-    jQuery.noConflict(); // ender.js conflicts with jQuery
-    </script>
-    
-    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" />
-    <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-    
-    <script language="Javascript" type="text/javascript">
-    // ender.js gobbles jQuery's ready event: Use ender.js $ instead
-    $(document).ready(function() {
-        jQuery(".fancybox").fancybox();
-    });
-    </script>
+<script src="ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery.noConflict(); // ender.js conflicts with jQuery
+</script>
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" />
+<script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+<script language="Javascript" type="text/javascript">
+// ender.js gobbles jQuery's ready event: Use ender.js $ instead
+$(document).ready(function() {
+    jQuery(".fancybox").fancybox();
+});
+</script>
     {% endcodeblock %}
 
 6. Create your gallery folder, and add the necessary changes to your config.yml file.  You can see the sample changes that I made [here](https://github.com/gep13/gep13.github.io/commit/8f597cd922ffc3556481e7148990bcaa675dcceb).
