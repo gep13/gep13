@@ -39,6 +39,7 @@ build_script:
   - cmd: cd _deploy
   - cmd: git checkout master
   - cmd: cd ..
-  - cmd: rake gen_deploy
+  - cmd: rake generate
+  - cmd: rake deploy
   
 test: off
