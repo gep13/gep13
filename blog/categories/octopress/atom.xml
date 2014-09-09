@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2014-09-08T12:39:20+00:00</updated>
+  <updated>2014-09-09T12:03:48+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -20,7 +20,7 @@
     <id>http://www.gep13.co.uk/blog/using-a-basic-gallery-plugin-on-octopress-site</id>
     <content type="html"><![CDATA[<h2>I have a lot of photos, but where to put them?</h2>
 
-<p>Over the years, I have collected a number of photos from various trips that I have been on, and I share them in various places, i.e. Facebook, Twitter, Flickr, etc.  However, from time to time, I want to include them easily into blog posts as well.  This is something that &ldquo;should&rdquo; be easy, but my experience over the last few days is that it isn&rsquo;t as simple as it should be.  This is especially useful when doing a tutorial blog post, and you want to capture a number of screenshots and show them in order in a gallery.</p>
+<p>Over the years, I have collected a number of photos from various trips that I have been on, and I share them in various places, i.e. Facebook, Twitter, Flickr, etc.  However, from time to time, I want to include them easily into blog posts as well.  This is something that &ldquo;should&rdquo; be easy, but my experience over the last few days is that it isn&rsquo;t as simple as it should be.  This is especially useful when doing a tutorial blog post, and you want to capture a number of screen-shots and show them in order in a gallery.</p>
 
 <p>Having finally figured out how to get it working, I thought I would list the steps here for anyone else that might be running into the same problem.</p>
 
@@ -29,17 +29,21 @@
 
 <h2>What do I want?</h2>
 
-<p>The requirements that I am looking for break down as follows:
-- once setup, I should be able to upload one or more images into a gallery folder and they should automatically added to associated blog post
-- thumbnail images should be automatically generated for photos uploaded into gallery folder
-- when clicked, thumbnail images should open a popup with a larger image
-- images in the same gallery should allow browsing left and right when an image is in popup window
-- should work in a range of devices, desktop, tablet, phone
-- should work as part of my AppVeyor build</p>
+<p>The requirements that I am looking for break down as follows:</p>
 
-<p>After hunting around, and trying various different options, I finally settled on using this <a href="https://github.com/yortz/octopress_gallery">plugin</a>.  From it&rsquo;s description, it should have been easy to get set up and running, but unforunately, it took a bit of head scratching.</p>
+<ul>
+<li>once set-up, I should be able to upload one or more images into a gallery folder and they should automatically added to associated blog post</li>
+<li>thumbnail images should be automatically generated for photos uploaded into gallery folder</li>
+<li>when clicked, thumbnail images should open a pop-up with a larger image</li>
+<li>images in the same gallery should allow browsing left and right when an image is in popup window</li>
+<li>should work in a range of devices, desktop, tablet, phone</li>
+<li>should work as part of my AppVeyor build</li>
+</ul>
 
-<p>In the description for the plugin there is no mention of the dependency on an application called <code>ImageMagick</code>.  Now, in hindsight, it is clear that this will be required, but when I was reading through the simple steps of setting this up, it never occured to me.  So first up, let&rsquo;s get <code>ImageMagick</code> installed.  If you are using <a href="http://chocolatey.org/">Chocolatey</a> then this is as simple as:</p>
+
+<p>After hunting around, and trying various different options, I finally settled on using this <a href="https://github.com/yortz/octopress_gallery">plugin</a>.  From it&rsquo;s description, it should have been easy to get set up and running, but unfortunately, it took a bit of head scratching.</p>
+
+<p>In the description for the plugin there is no mention of the dependency on an application called <code>ImageMagick</code>.  Now, in hindsight, it is clear that this will be required, but when I was reading through the simple steps of setting this up, it never occurred to me.  So first up, let&rsquo;s get <code>ImageMagick</code> installed.  If you are using <a href="http://chocolatey.org/">Chocolatey</a> then this is as simple as:</p>
 
 <p><code>choco install imagemagick.tool</code></p>
 
@@ -54,30 +58,68 @@
 <li>Add the contents of the source folder to <code>source\fancybox</code> as I have done <a href="https://github.com/gep13/gep13.github.io/tree/source/source/fancybox">here</a></li>
 <li><p>Make the following additions to your <code>source\_includes\custom\head.html</code> file</p>
 
-<p> <div><script src='https://gist.github.com/92f1e589d8f6e56eb2fe.js?file=head.html'></script>
-<noscript><pre><code>&lt;!-- Load jQuery --&gt;
-&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-    jQuery.noConflict(); // ender.js conflicts with jQuery
-&lt;/script&gt;
- 
-&lt;!-- Load FancyBox --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/fancybox/jquery.fancybox.css&quot; /&gt;
-&lt;script src=&quot;/fancybox/jquery.fancybox.pack.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
- 
-&lt;!-- Custom Scripts --&gt;
-&lt;script language=&quot;Javascript&quot; type=&quot;text/javascript&quot;&gt;
-    // ender.js gobbles jQuery's ready event: Use ender.js $ instead
-    $(document).ready(function() {
-        jQuery(&quot;.fancybox&quot;).fancybox();
-    });
-&lt;/script&gt;</code></pre></noscript></div>
-</p></li>
-<li><p>Create your gallery folder, and add the necessary changes to your config.yml file.  You can see the sample changes that I made <a href="https://github.com/gep13/gep13.github.io/commit/8f597cd922ffc3556481e7148990bcaa675dcceb">here</a>.</p></li>
-<li>Add the gallery tag to your blog post.  In my case, this was <code><a class="fancybox" href="/images/galleries/gallery_1/6.jpg" rel="gallery_1" title="6"><img src="/images/galleries/gallery_1/thumbs/6.jpg" /></a>
-<a class="fancybox" href="/images/galleries/gallery_1/7.jpg" rel="gallery_1" title="7"><img src="/images/galleries/gallery_1/thumbs/7.jpg" /></a>
-<a class="fancybox" href="/images/galleries/gallery_1/8.jpg" rel="gallery_1" title="8"><img src="/images/galleries/gallery_1/thumbs/8.jpg" /></a>
-<a class="fancybox" href="/images/galleries/gallery_1/9.jpg" rel="gallery_1" title="9"><img src="/images/galleries/gallery_1/thumbs/9.jpg" /></a></code></li>
+<p> <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="o">&lt;</span><span class="err">/p&gt;&lt;/li&gt;</span>
+</span><span class='line'><span class="o">&lt;</span><span class="err">/ol&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&quot;ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js&quot;</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span><span class="o">&gt;</span>
+</span><span class='line'><span class="nx">jQuery</span><span class="p">.</span><span class="nx">noConflict</span><span class="p">();</span> <span class="c1">// ender.js conflicts with jQuery</span>
+</span><span class='line'><span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;&lt;</span><span class="nx">link</span> <span class="nx">rel</span><span class="o">=</span><span class="s2">&quot;stylesheet&quot;</span> <span class="nx">href</span><span class="o">=</span><span class="s2">&quot;http://www.gep13.co.uk/fancybox/jquery.fancybox.css&quot;</span> <span class="o">/&gt;&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&quot;http://www.gep13.co.uk/fancybox/jquery.fancybox.pack.js&quot;</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">language</span><span class="o">=</span><span class="s2">&quot;Javascript&quot;</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span><span class="o">&gt;</span>
+</span><span class='line'><span class="c1">// ender.js gobbles jQuery&#39;s ready event: Use ender.js $ instead</span>
+</span><span class='line'><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">jQuery</span><span class="p">(</span><span class="s2">&quot;.fancybox&quot;</span><span class="p">).</span><span class="nx">fancybox</span><span class="p">();</span>
+</span><span class='line'><span class="p">});</span>
+</span><span class='line'><span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">pre</span><span class="o">&gt;&lt;</span><span class="nx">code</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+</code></pre>
+
+<ol>
+<li>Create your gallery folder, and add the necessary changes to your config.yml file.  You can see the sample changes that I made <a href="https://github.com/gep13/gep13.github.io/commit/8f597cd922ffc3556481e7148990bcaa675dcceb">here</a>.</li>
+<li>Add the gallery tag to your blog post.  In my case, this was <code>{{ 'gallery_1' | image_list }}</code></li>
 <li>Then do a <code>rake generate</code></li>
 <li>Assuming everything has worked, do a <code>rake preview</code> and view your hard work</li>
 </ol>
@@ -98,11 +140,13 @@
 
 <p>The final result was the following:</p>
 
-<p> <div><script src='https://gist.github.com/9f74a718d98bece9486e.js?file=Install.yml'></script>
-<noscript><pre><code>install:
-  - ps: iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
-  - ps: choco install imagemagick.tool</code></pre></noscript></div>
-</p>
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">install</span><span class="p-Indicator">:</span>
+</span><span class='line'>  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">ps</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">iex ((new-object net.webclient).DownloadString(&amp;lsquo;&lt;a href=&quot;https://chocolatey.org/install.ps1&quot;&gt;https://chocolatey.org/install.ps1&lt;/a&gt;&amp;rsquo;))</span>
+</span><span class='line'>  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">ps</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">choco install imagemagick.tool</span>
+</span></code></pre></td></tr></table></div></figure></p>
 
 <p>Two simple steps.  The first to install Chocolatey, and the second to install <code>ImageMagick</code> portable edition.  This will now happen each time my AppVeyor build runs, and it will generate the thumbnails for each of my galleries.</p>
 
