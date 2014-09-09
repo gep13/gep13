@@ -6,6 +6,7 @@ date: 2014-09-02 21:05
 comments: false
 sharing: false
 footer: true
+style: http://yui.yahooapis.com/pure/0.5.0/pure-min.css
 ---
 
 <script type="text/javascript">

@@ -31,8 +31,9 @@
 </script>
 <!-- End Cookie Consent plugin -->
 
-<!-- Pure CSS -->
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+{% if page.style %}
+<link rel="stylesheet" href="{{page.style}}">
+{% endif %}
 
 <!-- Load jQuery -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
