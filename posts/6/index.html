@@ -163,6 +163,81 @@ $(function(){
   
 
 
+<time datetime="2012-09-14T15:41:14+00:00" data-updated="true" itemprop="datePublished">Sep 14th, 2012</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/general-pc/'>general pc</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="/blog/does-your-development-rig-support-slat/#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+
+	<h1 class="title" itemprop="name"><a href="/blog/does-your-development-rig-support-slat/" itemprop="url">Does Your Development Rig Support SLAT?</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p>Have you checked to make sure that your development rig supports SLAT?  Do you even know what SLAT is?  I didn’t until today, and it looks like I am going to have to upgrade at least one of my machines.</p>
+
+<h1>What is SLAT?</h1>
+
+<p>SLAT is referring to Second Level Address Translation, and it is a:</p>
+
+<blockquote>…form of hardware virtualization that is included in newer version of Intel and AMD Processors, such as Intel’s Core i3, i5 and i7 processors and AMD;s Barcelona processors.</blockquote>
+
+
+<p>For more information on exactly what this means, take a look at this <a href="http://blogs.microsoft.co.il/blogs/talsa/archive/2012/03/15/windows-8-server-hyper-v-will-require-slat-second-level-address-translation.aspx">blog post</a> from Tal Sarid.</p>
+
+<h1>Why do I care?</h1>
+
+<p>The reason that this is going to be a big deal for me, and why I am going to have to buy some new hardware is that the Windows Phone 8 emulator uses Hyper-V, and as a result, I am going to need hardware that supports SLAT if I want to run that emulator.  For more information on this, take a look at this <a href="http://www.wpcentral.com/windows-phone-8-emulator%E2%80%99s-hardware-requirements">wpcentral blog post</a>.</p>
+
+<h1>How can I check whether my hardware supports SLAT?</h1>
+
+<p>Thanks for Mark Russinovich, there is a Sysinternals tool called Coreinfo, which will tell you whether your current hardware can support SLAT.  See Ryan Lowdermilk’s <a href="http://www.ryanlowdermilk.com/2012/09/does-my-computer-support-slat/">blog post here</a> for the exact steps that you need to follow.</p>
+
+<h1>My results</h1>
+
+<p>For my desktop machine, which in fairness is VERY old, SLAT is not supported:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/does-your-development-rig-support-slat/desktop_output/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/09/Desktop_Output.png" alt="SLAT not support on Desktop" /></a></p>
+
+<p>The good news however is that SLAT is supported on my laptop:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/does-your-development-rig-support-slat/laptop_output/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/09/Laptop_Output.png" alt="SLAT is support on Laptop" /></a></p>
+
+<p>NOTE: The important thing that you need to look for (for Intel chips) is the asterisk next to EPT.</p>
+
+<p><strong>UPDATE:</strong> Based on the comment from Andy Westgarth below, if you are running coreinfo.exe on a machine that already has Hyper-V installed, you will get a different message returned.  Be careful to read all the output from this command.  When Hyper-V was installed on my new machine, this is the output that I got:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/does-your-development-rig-support-slat/2012-09-27_2033/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/09/2012-09-27_2033.png" alt="" /></a></p>
+
+<p>Note the important text:</p>
+
+<p><em><strong>&ldquo;Coreinfo must be executed on a system without a hypervisor running for accurate results.&rdquo;</strong></em></p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+ 	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
 <time datetime="2012-08-27T07:07:01+00:00" data-updated="true" itemprop="datePublished">Aug 27th, 2012</time></div> 
  		<div class="tags">
 
@@ -1176,65 +1251,6 @@ Once we&#8217;ve talked about the principle in theory we&#8217;ll look to how we
 <h1>dddsw 5 in 2013</h1>
 
 <p>The day after the event, I jokingly asked Guy Smith-Ferrier if he had already set a date for the next DDDSW, and as expected he said no.  Him and the rest of the organisers are going to take a well deserved break, however, I would definitely recommend that you keep an eye out for the next event, and if you can make it along, you won’t regret it.  I will certainly be in attendance if nothing else gets in the way!  One of the best ways to here about the event would be to follow <a href="https://twitter.com/#!/dddsouthwest">@dddsouthwest</a> on twitter.</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
- 	<div class="meta"> 
- 		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-05-28T19:24:59+00:00" data-updated="true" itemprop="datePublished">May 28th, 2012</time></div> 
- 		<div class="tags">
-
-
-	<a class='category' href='/blog/categories/conferences/'>conferences</a>
-
-
-</div> 
- 		 
- 			<span class="comments"><a href="/blog/dddsw-4-stylecop-breaking-down-the-barriers-to-entry/#disqus_thread">Comments</a></span> 
- 		 
- 	</div> 
-
-	<h1 class="title" itemprop="name"><a href="/blog/dddsw-4-stylecop-breaking-down-the-barriers-to-entry/" itemprop="url">DDDSW 4 - StyleCop: Breaking Down the Barriers to Entry</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<h1>My StyleCop Talk at DDDSW 4</h1>
-
-<p>On Saturday 26th May 2012, I did my first ever DDD talk, entitled “StyleCop: Breaking down the barriers to entry”.  If you attended the session, and are interested in seeing either the slide deck, or the source code for the presentation, you can find the information below.  If you did attend, let me just say thank you very much, and I very much hope you enjoyed it!</p>
-
-<h1>The Code</h1>
-
-<p>The demonstrations that I did during the presentation, with the exception of the “real world” example, can be found on my GitHub account <a href="http://gep13.me/StyleCopDemos">here</a>.  In Demo 5b, the source code for StyleCop Contrib was a copy of the code which you can find <a href="http://stylecopcontrib.codeplex.com/">here</a>, and it was duplicated solely for demonstration purposes.</p>
-
-<h1>The Slides</h1>
-
-<p>A full copy of the slides that were used on the day can be found as an attachment to this post, and you can see a preview of them below:</p>
-
-<iframe src="http://www.slideshare.net/slideshow/embed_code/28937854 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe>
-
-
-<p></p>
-
-<p>Feedback</p>
-
-<p>Since this was my first talk at an event the size of DDDSW, I am very anxious to get some feedback about what I did wrong, what I did right, what could be improved upon etc, so if you were at my session, and have any comments, I would be very grateful to hear them.</p>
-
-<p>[wpdm_file id=3]</p>
 
 		
 		

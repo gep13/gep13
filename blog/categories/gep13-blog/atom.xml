@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Gep13 Blog | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/gep13-blog/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2014-09-12T06:21:03+00:00</updated>
+  <updated>2014-09-13T19:43:37+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Our Daughter Is 1 Year Old Today!]]></title>
+    <link href="http://www.gep13.co.uk/blog/our-daughter-is-1-year-old-today/"/>
+    <updated>2014-09-13T00:00:00+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/our-daughter-is-1-year-old-today</id>
+    <content type="html"><![CDATA[<h2>Is it really 1 year?</h2>
+
+<p>As amazing as it sounds, our daughter is 1 year old today!</p>
+
+<!--more-->
+
+
+<p>I was always told that time would start passing quickly as soon as you had your first child, but I honestly didn&rsquo;t expect that it would be this fast!</p>
+
+<p>Today is Alivia&rsquo;s 1st Birthday!  I can remember being in the hospital holding for the first time as if it were yesterday!</p>
+
+<p>So much as happened since Alivia came into our lives, but I wouldn&rsquo;t change anything, I love being a dad!</p>
+
+<p>She has:</p>
+
+<ul>
+<li>learned to walk (well almost)</li>
+<li>learned to swim</li>
+<li>learned to say &ldquo;dad&rdquo;</li>
+<li>learned to sign &ldquo;mum&rdquo;</li>
+<li>learned to clap</li>
+<li>learned to sleep through the night</li>
+<li>learned to blow raspberries</li>
+<li>and so much more!</li>
+</ul>
+
+
+<p>Looking forward to teaching her so many new things in the next year!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Stats for My Blog in 2012]]></title>
@@ -144,25 +180,6 @@
 <p>This is very small change, but it helps to keep everything “tidy”, and again, it was very simple to setup and configure.</p>
 
 <p>If you actually subscribe to my blog, there should be nothing for you to do, everything should continue to work as it did before. The redirect to the FeedBurner proxy happens with the help of the WordPress plugin I am using. If you have any problems, and for some reason the RSS Feed is no longer working, then I would be interested to hear from you so that I can figure out what is going on. Thanks!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WordPress 3.3.1 Released]]></title>
-    <link href="http://www.gep13.co.uk/blog/wordpress-3-3-1-released/"/>
-    <updated>2012-01-04T07:00:10+00:00</updated>
-    <id>http://www.gep13.co.uk/blog/wordpress-3-3-1-released</id>
-    <content type="html"><![CDATA[<p>Having logged into my Blog this morning, I was informed that a new release of WordPress was available; Version 3.3.1.</p>
-
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/2012-01-04_0644.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/2012-01-04_0644_thumb.png" alt="2012-01-04_0644" /></a></p>
-
-<p>Upon checking what was included in this <a href="http://wordpress.org/news/2012/01/wordpress-3-3-1/">release</a>, it was clear that this was something that I should get installed pretty much straight away, and this is exactly what I did.</p>
-
-<p>With the Database and Files backed up, I hit the Update button, and once again I am happy to say that everything “just worked”. It is good to see that the WordPress Developers are adding a “bit of fun” into the update process:</p>
-
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/2012-01-04_0652.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/2012-01-04_0652_thumb.png" alt="2012-01-04_0652" /></a></p>
-
-<p>Since this update addresses a Cross-Site Scripting Vulnerability, I would highly recommend that everyone using WordPress update their sites immediately.</p>
 ]]></content>
   </entry>
   

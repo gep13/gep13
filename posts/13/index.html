@@ -163,6 +163,113 @@ $(function(){
   
 
 
+<time datetime="2011-09-06T19:50:06+00:00" data-updated="true" itemprop="datePublished">Sep 6th, 2011</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/conferences/'>conferences</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="/blog/day-2-afternoon-session-prognet11-skillsmatter-stack72/#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+
+	<h1 class="title" itemprop="name"><a href="/blog/day-2-afternoon-session-prognet11-skillsmatter-stack72/" itemprop="url">Day 2 – Afternoon Session #prognet11 @skillsmatter @stack72</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p>In the afternoon it was the turn of Paul Stack (<a href="http://twitter.com/#!/stack72">@stack72</a>) and his “<a href="http://skillsmatter.com/podcast/open-source-dot-net/ci-to-cd">Continuous Integration to Continuous Delivery</a>”</p>
+
+<p>I was expecting a lot from this session, and I am happy to say that I was not disappointed!</p>
+
+<p>I have seen Paul’s Continuous Integration talk before, and I was very curious to see how you would transition from Continuous Integration to Continuous Delivery/Continuous Deployment.</p>
+
+<p>Paul went on to explain that the core practices of Continuous Delivery break down as follows:</p>
+
+<ul>
+<li><p>Continuous Integration</p></li>
+<li><p>Configuration Management</p>
+
+<ul>
+<li><p>Dependencies</p></li>
+<li><p>Documentation</p></li>
+<li><p>Environment</p></li>
+<li><p>App Configurations</p></li>
+<li><p>Data</p></li>
+</ul>
+</li>
+<li><p>Tests</p>
+
+<ul>
+<li><p>Unit</p></li>
+<li><p>Integration</p></li>
+<li><p>Functional/Acceptance</p></li>
+<li><p>Performance/Load</p></li>
+<li><p>Penetration</p></li>
+</ul>
+</li>
+</ul>
+
+
+<p>Now, getting all these things in place is no small task, and it is only something that can be achieved over a period of time, it is not going to happen over night. However, once you have it in place, you can build and deploy (as Paul showed) your web application to a web server in a matter of seconds. When you sit and think about this, this is actually very impressive!  When I saw this in action, something suddenly clicked with me. It was the separation of the build and test build configuration and the deploy build configuration. What this meant is that you can have your Continuous Integration build running which prepares the package ready for deployment (which can run every time you check in some code) and another build configuration which is responsible for doing the actual deployment. Clever!  Paul then when on to discuss what turned into a very hot topic, namely Feature Switching. Paul contends that the strategy of using Feature Branching ultimately leads to a number of time consuming merging of the source code (perhaps not as hard when using Distributed Source Control) which could be avoided with the use of toggling features on and off when required. Having thought about it, and listened to the discussion that came from it, it is hard to argue. For more information on the subject, have a look at Martin Fowlers blog post <a href="http://martinfowler.com/bliki/FeatureToggle.html">here</a>.</p>
+
+<p>Again, another great session, and I am very much looking forward to tomorrow.</p>
+
+<p><strong>Recommended Reading:</strong></p>
+
+<ul>
+<li><p><a href="http://www.amazon.co.uk/gp/product/0321336380/ref=as_li_ss_tl?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0321336380">Continuous Integration: Improving Software Quality and Reducing Risk</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=&amp;l=as2&amp;o=2&amp;a=0321336380" alt="" /></p></li>
+<li><p><a href="http://www.amazon.co.uk/gp/product/1935182552/ref=as_li_ss_tl?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=1935182552">Continuous Integration in .NET</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=&amp;l=as2&amp;o=2&amp;a=1935182552" alt="" /></p></li>
+<li><p><a href="http://www.amazon.co.uk/gp/product/0321601912/ref=as_li_ss_tl?ie=UTF8&amp;tag=www6thprimeco-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0321601912">Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=&amp;l=as2&amp;o=2&amp;a=0321601912" alt="" /></p></li>
+</ul>
+
+
+<p><strong>Recommended Tools/Software:</strong></p>
+
+<ul>
+<li><p><a href="http://www.jetbrains.com/teamcity/">TeamCity</a></p></li>
+<li><p><a href="http://www.mavitunasecurity.com/netsparker/">NetSparker</a></p></li>
+<li><p><a href="http://git-scm.com/">Git</a></p></li>
+<li><p><a href="http://mercurial.selenic.com/">Mercurial</a></p></li>
+<li><p><a href="http://www.openwrap.org/">OpenWrap</a></p></li>
+<li><p><a href="http://nuget.codeplex.com/">NuGet</a>`</p></li>
+<li><p><a href="http://www.nunit.org/">NUnit</a></p></li>
+<li><p><a href="http://nsubstitute.github.com/">NSubstitute</a></p></li>
+<li><p><a href="http://storyq.codeplex.com/">StoryQ</a></p></li>
+<li><p><a href="http://specflow.org/">specflow</a></p></li>
+<li><p><a href="http://www.opscode.com/chef/">Chef</a></p></li>
+<li><p><a href="http://puppetlabs.com/">puppet</a></p></li>
+<li><p><a href="http://www.red-gate.com/products/oracle-development/schema-compare-for-oracle/?utm_source=google&amp;utm_medium=cpc&amp;utm_content=unmet_need&amp;utm_campaign=oracle&amp;gclid=CMrhhb6siasCFYELfAodHyhl2g">Schema Compare</a></p></li>
+<li><p><a href="http://www.red-gate.com/products/sql-development/sql-source-control/">SQL Source Control</a></p></li>
+<li><p><a href="http://www.hyperic.com/">Hyperic</a></p></li>
+<li><p><a href="http://www.zabbix.com/">Zabbix</a></p></li>
+<li><p><a href="http://www.pingdom.com/">pingdom</a></p></li>
+</ul>
+
+
+<p>Wow, that was a long list <img src="http://www.gep13.co.uk/blog/wp-content/uploads/c1445c668739_11C64/wlEmoticon-smile.png" alt="Smile" /></p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+ 	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
 <time datetime="2011-09-06T13:05:56+00:00" data-updated="true" itemprop="datePublished">Sep 6th, 2011</time></div> 
  		<div class="tags">
 
@@ -810,64 +917,6 @@ And how these can be used to ensure that the code base is constructed property.<
 <p>Result!</p>
 
 <p>Thoughts?</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
- 	<div class="meta"> 
- 		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-08-12T11:42:57+00:00" data-updated="true" itemprop="datePublished">Aug 12th, 2011</time></div> 
- 		<div class="tags">
-
-
-	<a class='category' href='/blog/categories/gadgets/'>gadgets</a>
-
-
-</div> 
- 		 
- 			<span class="comments"><a href="/blog/my-netbook-upgrade-completed/#disqus_thread">Comments</a></span> 
- 		 
- 	</div> 
-
-	<h1 class="title" itemprop="name"><a href="/blog/my-netbook-upgrade-completed/" itemprop="url">My NetBook Upgrade – Completed</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<p>In yesterdays <a href="http://www.gep13.co.uk/blog/?p=330">blog post</a> I mentioned how I was having some problems getting my shiny new 2 GB RAM for my ASUS 1015 PX working. I am happy to report that I now have it working!</p>
-
-<p>Following a number of useful comments on the blog post, I set about trying a couple of things.</p>
-
-<p>Firstly, I downloaded and installed <a href="http://www.cpuid.com/softwares/cpu-z.html">CPU-Z</a>, a freeware application that gathers information on some of the main devices on a system. This confirmed for sure that Windows 7 Starter was only seeing 1 GB of RAM.</p>
-
-<p>The next plan of attack was to go into BIOS to make sure that there wasn’t something in there that had to be changed. But then came the inevitable question, which button gets you into BIOS? Is it F2? Is it Del? Is it Insert? After about 5 minutes of various different keyboard mashing and reboots, I was still unable to get into BIOS. A quick Google confirmed that there was no secret ASUS keyboard shortcut to get into BIOS, but I still couldn’t get into.</p>
-
-<p>In a hopeless attempt, I decided to turn off the “Fast Boot” option (the option that allows me to choose between booting into Windows as normal or a Linux Distro). When I did this and rebooted the machine, the standard screen that says hit F2 to go into BIOS returned, hurrah!!</p>
-
-<p>Once in there I still couldn’t see any options to change anything to do with Memory <img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/wlEmoticon-sadsmile1.png" alt="Sad smile" /></p>
-
-<p>Just as I was away to come out and try something else, I noticed on the main screen that the reported amount of RAM on the System was 2 GB! Weird!</p>
-
-<p>So I decided to head back into Windows, on the off chance that simply going into BIOS (or turning the “Fast Boot” option off) had resulted in the full 2 GB of RAM was now being reported, and guess what…</p>
-
-<p>It is!!!</p>
-
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/2_GB_RAM_Installed.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/2_GB_RAM_Installed_thumb.png" alt="2_GB_RAM_Installed" /></a></p>
-
-<p>Now, part of me is curious as to what is going on here, so if anyone knows, I would be very interested to know, another part of me is just glad that it is working, and that I don’t have to go through the hassle of trying to return the RAM.</p>
 
 		
 		

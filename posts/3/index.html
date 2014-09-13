@@ -163,6 +163,130 @@ $(function(){
   
 
 
+<time datetime="2013-03-08T20:09:44+00:00" data-updated="true" itemprop="datePublished">Mar 8th, 2013</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/conferences/'>conferences</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="/blog/review-of-day-5-of-devweek-2013/#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+
+	<h1 class="title" itemprop="name"><a href="/blog/review-of-day-5-of-devweek-2013/" itemprop="url">Review of Day 5 of DevWeek 2013</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>Today was the last day of DevWeek</h1>
+
+<p>Well, it has been a long, but enjoyable, week at DevWeek, and today was the last day.  Today was another full day workshop, and I decided to attend the Continuous Delivery Workshop with Neal Ford.</p>
+
+<p>People who have been following this series of posts will know that I have been rather lucky, winning both a Surface RT and a Telerik DevCraft Complete License.  There were no prizes won today, but you will all be happy to know that I have purchased a Euro Millions lottery ticket.  I will keep you posted on whether I win anything :-)</p>
+
+<p>Review of the other days of DevWeek can be seen here:</p>
+
+<ul>
+<li><p><a href="http://gep13.me/W0AJEP">Day 1 - Pre-Conference Workshop</a></p></li>
+<li><p><a href="http://gep13.me/YuOPy2">Day 2 - Conference Sessions</a></p></li>
+<li><p><a href="http://gep13.me/ZqTHU1">Day 3 - Conference Sessions</a></p></li>
+<li><p><a href="http://gep13.me/13I4BKv">Day 4 - Conference Sessions</a></p></li>
+<li><p><a href="http://gep13.me/Y0Gj7A">Day 5 - Post-Conference Workshop</a> (this post)</p></li>
+</ul>
+
+
+<h1>Post-Conference Workshop at DevWeek</h1>
+
+<p><strong>Presenter: </strong>Neal Ford (you can find his blog <a href="http://nealford.com/">here</a>, and his twitter <a href="https://twitter.com/neal4d">here</a>)</p>
+
+<p><strong>Topic: </strong>Continuous Delivery Workshop</p>
+
+<blockquote>Getting software released to users is often a painful, risky, and time-consuming process. This workshop sets out the principles and technical practices that enable rapid, incremental delivery of high quality, valuable new functionality to users.
+Through automation of the build, deployment, and testing process, and improved collaboration between developers, testers and operations, delivery teams can get changes released in a matter of hours – sometimes even minutes – no matter what the size of a project or the complexity of its code base.
+The workshop materials are derived from the best-selling book ‘Continuous Delivery’, and were created in collaboration with the authors and other of my ThoughtWorks colleagues.</blockquote>
+
+
+<h1>Thoughts</h1>
+
+<p>Overall, I have to say that this was a very well structured and executed presentation.  Neal obviously understands this area very well, and was able to field a number of questions from the audience.  There was loads of active conversation from the audience, which made it even more interesting.  Lots of conversation regarding real-life situations, and experiences.</p>
+
+<p>The one thing that I thought was missing from the Workshop was some demos.  There was lots of description of the deployment pipeline, and using puppet to automate the configuration of a server, but I think what really would have cemented these ideas was an example.  Even if this was a simple website application being packaged, and deployed onto even a single server, at the click of a button.  This would have made for a very cool end demonstration to summarize the whole discussion.</p>
+
+<h1>Takeaways</h1>
+
+<p>There really was loads to think about in this talk.  Some of the stand out questions, takeaways were as follows:</p>
+
+<ul>
+<li><p>How often do you release to users?</p>
+
+<ul>
+<li>Correct answer of course is that you should be ready to release to users whenever they require it.  Software should always be in a deployable state.</li>
+</ul>
+</li>
+<li><p>How long would it take your organisation to deploy a change that involves just one line of code?</p></li>
+<li><p>Thinking about the above, can you do this in a repeatable fashion, that doesn&rsquo;t involve crazy amounts of over time?</p></li>
+<li><p>Make sure there is a clear delineation between Unit Tests and Functional Tests, and run these as separate parts of your delivery pipeline</p></li>
+<li><p>Features Toggles gives you an alternative to creating many Feature Branches, avoiding the problem of merging</p></li>
+<li><p>Going Live should be just another deployment that you are already practiced at internally</p></li>
+<li><p>You should strive of Continuous Integration of your Databases as well as code</p></li>
+<li><p>Look to make use of Puppet and Chef to configure development and staging environments, and store the configuration within your source control</p></li>
+<li><p>When implementing Continuous Delivery, first gather metrics of current state of deployment, i.e. lead times and cycle times, and then compare after implementing Continuous Delivery</p></li>
+</ul>
+
+
+<h1>Quotes</h1>
+
+<ul>
+<li><p>&ldquo;Melt down silly architectural barriers between different areas of the organisation&rdquo;</p></li>
+<li><p>&ldquo;If it hurts&hellip; Do it more often!&rdquo;</p></li>
+<li><p>&ldquo;Bring the pain forward&rdquo;</p></li>
+<li><p>&ldquo;Rational ClearCase i the most hostile pice of software towards Agile Development&rdquo;</p></li>
+<li><p>&ldquo;Git is one of my favourite tools&rdquo;</p></li>
+<li><p>&ldquo;Avoid life in the knitted Castle&rdquo;</p></li>
+<li><p>&ldquo;The biggest PITA around software updates is data migration and schema changes&rdquo;</p></li>
+</ul>
+
+
+<h1>Book Recommendations</h1>
+
+<ul>
+<li><p><a href="http://www.amazon.co.uk/Continuous-Integration-Improving-Software-Signature/dp/0321336380/ref=sr_1_1?ie=UTF8&amp;qid=1362768478&amp;sr=8-1">Continuous Integration: Improving Software Quality and Reducing Risk</a> - Paul M. Duvall, Steve Matyas and Andrew Glover</p></li>
+<li><p><a href="http://www.amazon.co.uk/gp/product/0321601912/ref=s9_simh_gw_p14_d0_i3?pf_rd_m=A3P5ROKL5A1OLE&amp;pf_rd_s=center-2&amp;pf_rd_r=00E47JENTWKEBCSS5F0X&amp;pf_rd_t=101&amp;pf_rd_p=358549767&amp;pf_rd_i=468294">Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation</a> - Jaz Humble, David Farley</p></li>
+<li><p><a href="http://www.amazon.co.uk/Succeeding-Agile-Development-Addison-Wesley-Signature/dp/0321579364/ref=sr_1_1?ie=UTF8&amp;qid=1362768511&amp;sr=8-1">Succeeding with Agile: Software Development Using Scrum</a> - Mike Cohn</p></li>
+<li><p><a href="http://www.amazon.co.uk/Specification-Example-Successful-Deliver-Software/dp/1617290084/ref=sr_1_1?ie=UTF8&amp;qid=1362768530&amp;sr=8-1">Specification by Example: How Successful Teams Deliver the Right Software</a> - Gojko Adzic</p></li>
+<li><p><a href="http://www.amazon.co.uk/Growing-Object-Oriented-Software-Guided-Tests/dp/B006V349VQ/ref=sr_1_1?ie=UTF8&amp;qid=1362768546&amp;sr=8-1">Growing Object-Oriented Software, Guided by Tests</a> - Steve Freeman and Nat Pryce</p></li>
+<li><p><a href="http://www.amazon.co.uk/Refactoring-Databases-Evolutionary-Addison-Wesley-Signature/dp/0321774515/ref=sr_1_1?ie=UTF8&amp;qid=1362768559&amp;sr=8-1">Refactoring Databases: Evolutionary Database Design</a> - Scott J. Ambler and Pramod J. Sadalage</p></li>
+<li><p><a href="http://www.amazon.co.uk/Release-It-Production-Ready-Pragmatic-Programmers/dp/0978739213/ref=sr_1_1?ie=UTF8&amp;qid=1362768566&amp;sr=8-1">Release It!: Design and Deploy Production-Ready Software</a> - Michael T. Nygard</p></li>
+</ul>
+
+
+<h1>Overall Thoughts</h1>
+
+<p>As I have said in my other posts, I have had a really good time at DevWeek, and I am happy to say that I have learnt a lot this week.  Hoping to be able to take back a lot of what I have learnt and start applying them at work.</p>
+
+<p>Huge congratulations to the organisers of DevWeek, they did a great job, and a huge thanks to all the staff of the Barbican and the helpers at DevWeek!</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+ 	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
 <time datetime="2013-03-07T19:32:42+00:00" data-updated="true" itemprop="datePublished">Mar 7th, 2013</time></div> 
  		<div class="tags">
 
@@ -1197,54 +1321,6 @@ One the app is removed please restart the device and reinstall it.</blockquote>
 <p>Has anyone else seen any problems like this?</p>
 
 <p>Is this the Audible application at fault?  Or is it the bluetooth problems that I have heard about on Twitter?  Any help in this matter would be greatly appreciated!</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
- 	<div class="meta"> 
- 		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-01-14T08:15:48+00:00" data-updated="true" itemprop="datePublished">Jan 14th, 2013</time></div> 
- 		<div class="tags">
-
-
-	<a class='category' href='/blog/categories/general-pc/'>general pc</a>
-
-
-</div> 
- 		 
- 			<span class="comments"><a href="/blog/synaptics-device-driver-for-dell-studio-1558-trackpad/#disqus_thread">Comments</a></span> 
- 		 
- 	</div> 
-
-	<h1 class="title" itemprop="name"><a href="/blog/synaptics-device-driver-for-dell-studio-1558-trackpad/" itemprop="url">Synaptics Device Driver for Dell Studio 1558 Trackpad</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<h1>New Synaptics Driver means Windows 8 Gestures now work on my Dell Studio 1558</h1>
-
-<p>Out of the box, installing Windows 8 onto my Dell Studio 1558 meant that the Windows 8 Gestures for my Trackpad (i.e. pinch to zoom, two finger vertical scroll, and two finger horizontal scroll) didn&rsquo;t work.  Dell offered an updated trackpad driver, but this didn&rsquo;t seem to work.</p>
-
-<p>In all honesty, I didn&rsquo;t really miss not having it, as typically I use a portable USB Wireless mouse when out and about.  However, after watching Scott Hanselman&rsquo;s (<a href="https://twitter.com/shanselman">@shanselman</a>) <a href="http://www.hanselman.com/blog/TheMissingWindows8InstructionalVideo.aspx">25 minute introduction video to Windows 8</a>, I decided that it was time to try to get this working!</p>
-
-<p>After a bit of searching, I turned up this <a href="http://www.synaptics.com/resources/drivers">page</a>, which seemed to be exactly what I needed.  I was holding out too much hope, as I had tried a previous version of the Synaptics Driver, and it also hadn&rsquo;t worked.  To my surprise, and delight, I am happy to say that it is now working!</p>
-
-<p>If you are not familiar with the gestures that I am referring to be sure to check out Paul Thurrott&rsquo;s (<a href="http://twitter.com/thurrott">@thurrott</a>) blog post <a href="http://winsupersite.com/windows-8/windows-8-tip-use-trackpad-multi-touch-gestures">here</a>, as it has all the details.</p>
-
-<p>I can see me using these gestures more and more when using my laptop, and only cracking out the mouse when doing more intense stuff on the laptop.</p>
 
 		
 		
