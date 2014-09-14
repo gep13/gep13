@@ -60,22 +60,16 @@
 
 
 
-<!-- Load jQuery -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="/ad-gallery/jquery.ad-gallery.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/ad-gallery/jquery.ad-gallery.js?rand=302"></script>
 <script type="text/javascript">
-    jQuery.noConflict(); // ender.js conflicts with jQuery
-</script>
- 
-<!-- Load FancyBox -->
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" />
-<script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
- 
-<!-- Custom Scripts -->
-<script language="Javascript" type="text/javascript">
-    // ender.js gobbles jQuery's ready event: Use ender.js $ instead
-    $(document).ready(function() {
-        jQuery(".fancybox").fancybox();
-    });
+$(function() {
+  var galleries = $('.ad-gallery').adGallery({
+    loader_image: '/ad-gallery/loader.gif',
+    width: 640,
+  });
+})
 </script>
 </head>
 
@@ -174,14 +168,44 @@ $(function(){
  	</div> 
 	
 	<h1 class="title" itemprop="name">Moved Into My Apartment</h1>
-	<div class="entry-content" itemprop="articleBody"><p>Moved into the apartment that Matrikon are providing for me while I am in Calgary. Woo Hoo!! It is really nice. There was nothing wrong with the Sandman Hotel, but looking forward to being able to get all my stuff unpacked!! You can see some photos of my apartment here:</p>
+	<div class="entry-content" itemprop="articleBody"><p>Moved into the apartment that Matrikon are providing for me while I am in Calgary. Woo Hoo!!</p>
 
-<p><a class="fancybox" href="/images/galleries/gallery_1/6.jpg" rel="gallery_1" title="6"><img src="/images/galleries/gallery_1/thumbs/6.jpg" /></a>
-<a class="fancybox" href="/images/galleries/gallery_1/7.jpg" rel="gallery_1" title="7"><img src="/images/galleries/gallery_1/thumbs/7.jpg" /></a>
-<a class="fancybox" href="/images/galleries/gallery_1/8.jpg" rel="gallery_1" title="8"><img src="/images/galleries/gallery_1/thumbs/8.jpg" /></a>
-<a class="fancybox" href="/images/galleries/gallery_1/9.jpg" rel="gallery_1" title="9"><img src="/images/galleries/gallery_1/thumbs/9.jpg" /></a></p>
+<!--more-->
 
-<p>I will probably add some more photos to this album over time.</p>
+
+<p>It is really nice! There was nothing wrong with the Sandman Hotel, but looking forward to being able to get all my stuff unpacked!! You can see some photos of my apartment here:</p>
+
+<div id="gallery-72157647153716760" class="ad-gallery">
+  <div class="ad-image-wrapper"></div>
+  <div class="ad-controls"></div>
+  <div class="ad-nav">
+    <div class="ad-thumbs">
+      <ul class="ad-thumb-list">
+      <li>
+        <a id="photo-72157647153716760-0" href="https://farm4.staticflickr.com/3910/15224586141_0c4e107855_z.jpg">
+          <img src="https://farm4.staticflickr.com/3910/15224586141_0c4e107855_s.jpg" longdesc="https://farm4.staticflickr.com/3910/15224586141_3a2136be2d_o.jpg" class="image-0" />
+        </a>
+      </li>
+      <li>
+        <a id="photo-72157647153716760-1" href="https://farm4.staticflickr.com/3896/15227677705_f9d80e5d5a_z.jpg">
+          <img src="https://farm4.staticflickr.com/3896/15227677705_f9d80e5d5a_s.jpg" longdesc="https://farm4.staticflickr.com/3896/15227677705_a6f022d700_o.jpg" class="image-1" />
+        </a>
+      </li>
+      <li>
+        <a id="photo-72157647153716760-2" href="https://farm4.staticflickr.com/3870/15041103657_106d465249_z.jpg">
+          <img src="https://farm4.staticflickr.com/3870/15041103657_106d465249_s.jpg" longdesc="https://farm4.staticflickr.com/3870/15041103657_1bfbea138e_o.jpg" class="image-2" />
+        </a>
+      </li>
+      <li>
+        <a id="photo-72157647153716760-3" href="https://farm6.staticflickr.com/5556/15040992710_80448c60b7_z.jpg">
+          <img src="https://farm6.staticflickr.com/5556/15040992710_80448c60b7_s.jpg" longdesc="https://farm6.staticflickr.com/5556/15040992710_539ce94509_o.jpg" class="image-3" />
+        </a>
+      </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 </div>
 
 </article>
