@@ -1,0 +1,21 @@
+---
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Wider angle shot of Apartment Block
+  urlThumb: https://farm4.staticflickr.com/3910/15224586141_0c4e107855_s.jpg
+  urlEmbeded: https://farm4.staticflickr.com/3910/15224586141_0c4e107855_z.jpg
+  urlOpened: https://farm4.staticflickr.com/3910/15224586141_3a2136be2d_o.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Yip, that's my balcony
+  urlThumb: https://farm4.staticflickr.com/3896/15227677705_f9d80e5d5a_s.jpg
+  urlEmbeded: https://farm4.staticflickr.com/3896/15227677705_f9d80e5d5a_z.jpg
+  urlOpened: https://farm4.staticflickr.com/3896/15227677705_a6f022d700_o.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Wide angle shot of Apartment Block
+  urlThumb: https://farm4.staticflickr.com/3870/15041103657_106d465249_s.jpg
+  urlEmbeded: https://farm4.staticflickr.com/3870/15041103657_106d465249_z.jpg
+  urlOpened: https://farm4.staticflickr.com/3870/15041103657_1bfbea138e_o.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: 1828 The Rosebery
+  urlThumb: https://farm6.staticflickr.com/5556/15040992710_80448c60b7_s.jpg
+  urlEmbeded: https://farm6.staticflickr.com/5556/15040992710_80448c60b7_z.jpg
+  urlOpened: https://farm6.staticflickr.com/5556/15040992710_539ce94509_o.jpg

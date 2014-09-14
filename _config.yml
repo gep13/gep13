@@ -165,15 +165,5 @@ prose:
           element: "checkbox"
           value: true
 
-mini_magick:
-  gallery_1_thumbnail:
-    source: images/galleries/gallery_1
-    destination: images/galleries/gallery_1/thumbs
-    commands:
-      - thumbnail: "140x140^"
-      - crop: "140x140-0x0"
-  gallery_1_medium:
-    source: images/galleries/gallery_1
-    destination: images/galleries/gallery_1/medium
-    commands:
-      - resize: "600x400"
+flickr:
+  cache_dir:       "./_cache/flickr"
