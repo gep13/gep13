@@ -24,7 +24,7 @@ Earlier today, Rob Reynolds ([@ferventcoder](https://twitter.com/ferventcoder)) 
 move forward from the Chocolatey experiment to the Chocolatey experience!
 {% endblockquote %}
 
-This really is an exciting time for Chocolatey, and general application management on Windows.  You can find all the details that you will need to get started, including information about the rewards that you can back on the Kickstarter page (did I mention that one of them actually including actual chocolate?)  End on [over](https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum) to check them out!
+This really is an exciting time for Chocolatey, and general application management on Windows.  You can find all the details that you will need to get started, including information about the rewards that you can back on the Kickstarter page (did I mention that one of them actually including actual chocolate?).  Head on [over](https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum) to check them out!
 
 ## Chocolatey Kickstarter Release Video
 Here is the release video which explains some of the aims of the Chocolatey Kickstarter:
