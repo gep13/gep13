@@ -158,6 +158,56 @@ $(function(){
   
 
 
+<time datetime="2010-07-20T16:11:00+00:00" data-updated="true" itemprop="datePublished">Jul 20th, 2010</time></div> 
+ 		<div class="tags">
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="/blog/the-userselectionmode-attribute-is-not-allowed/#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+
+	<h1 class="title" itemprop="name"><a href="/blog/the-userselectionmode-attribute-is-not-allowed/" itemprop="url">The UserSelectionMode Attribute Is Not Allowed</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p>Yesterday, when trying to deploy a SharePoint Solution onto a server, I was created with an interesting error message:</p>
+
+<p>“The &lsquo;UserSelectionMode&rsquo; attribute is not allowed.”</p>
+
+<p>Now, bear in mind, I had just installed this solution onto my own internal server, and it had gone off without a hitch, so something very strange was going on.</p>
+
+<p>Did some digging, and sure enough, within one of the Features being installed, was installing a set of Site Columns, and one of the fields of that column was using the UserSelectionMode attribute (described <a href="http://msdn.microsoft.com/en-us/library/ms437580.aspx">here</a>). Very strange, me thinks!!</p>
+
+<p>Some more googling (or in my case binging) turned up the following MSDN support article:</p>
+
+<p><a href="http://support.microsoft.com/kb/934613">http://support.microsoft.com/kb/934613</a></p>
+
+<p>Wow, that sounds exactly like the error that I am currently seeing, but that HotFix was released in 2007, surely that is installed on the server. Long story short, turns out that it wasn’t!</p>
+
+<p>On checking the server, Service Pack 2 for Microsoft Windows SharePoint Services was not installed, which as described <a href="http://support.microsoft.com/kb/953338">here</a> rolls up all the updates (including the HotFix that was required) up to February 2009.</p>
+
+<p><strong>Note to self: </strong>Always check that the server you are installing onto has everything that is required before scratching your head for 2 hours wondering why your package isn’t installing.</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+ 	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
 <time datetime="2010-07-18T16:51:00+00:00" data-updated="true" itemprop="datePublished">Jul 18th, 2010</time></div> 
  		<div class="tags">
 
@@ -607,44 +657,6 @@ public partial class Form1 : Form
 <p>At the same time as we got Aiden, Lynn&rsquo;s sister also got a Kitten.  He is called Dexter, and he is Aiden&rsquo;s brother.  You can see photos of you below:</p>
 
 <p>[nggallery id=33]</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
- 	<div class="meta"> 
- 		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-06-28T16:08:00+00:00" data-updated="true" itemprop="datePublished">Jun 28th, 2010</time></div> 
- 		<div class="tags">
-
-</div> 
- 		 
- 			<span class="comments"><a href="/blog/tweetdeck-is-it-evil/#disqus_thread">Comments</a></span> 
- 		 
- 	</div> 
-
-	<h1 class="title" itemprop="name"><a href="/blog/tweetdeck-is-it-evil/" itemprop="url">TweetDeck… Is It Evil?</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<p>Since setting up my personal Twitter account and an account for Aberdeen Developers, I have been playing with an application called TweetDeck, available <a href="http://www.tweetdeck.com/beta/">here</a>.</p>
-
-<p>I have set it up so that it has both these Twitter accounts, as well as my Facebook and LinkedIn accounts. There is also the option of adding a Foursqaure account, a Google Buzz account and a MySpace account, none of which I have. But now the question, do I need one….</p>
-
-<p>Has social networking got to the point that there are now just too many separate accounts in order to be useful, and what’s needed is a third party application, such as TweetDeck, which by the way I had to set up an account for, in order to stitch them altogether?</p>
 
 		
 		

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Chocolatey | gep13's blog]]></title>
+  <link href="http://www.gep13.co.uk/blog/categories/chocolatey/atom.xml" rel="self"/>
+  <link href="http://www.gep13.co.uk/"/>
+  <updated>2014-10-15T19:11:29+00:00</updated>
+  <id>http://www.gep13.co.uk/</id>
+  <author>
+    <name><![CDATA[gep13]]></name>
+    <email><![CDATA[gep13@gep13.co.uk]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Chocolatey Kickstarter Is Now Live]]></title>
+    <link href="http://www.gep13.co.uk/blog/chocolatey-kickstarter-is-now-live/"/>
+    <updated>2014-10-15T00:00:00+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/chocolatey-kickstarter-is-now-live</id>
+    <content type="html"><![CDATA[<h2>tl;dr</h2>
+
+<p>Click <a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum">here</a> and back the brand new Chocolatey Kickstarter!</p>
+
+<h2>Some more information</h2>
+
+<p>Earlier today, Rob Reynolds (<a href="https://twitter.com/ferventcoder">@ferventcoder</a>) pushed the button on a new Kickstarter, aimed at raising funds to:</p>
+
+<p><blockquote><p>move forward from the Chocolatey experiment to the Chocolatey experience!</p><footer><strong>Rob Reynolds <a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum">https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum</a> Chocolatey Kickstarter</strong></footer></blockquote></p>
+
+<p>This really is an exciting time for Chocolatey, and general application management on Windows.  You can find all the details that you will need to get started, including information about the rewards that you can back on the Kickstarter page (did I mention that one of them actually including actual chocolate?)  End on <a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum">over</a> to check them out!</p>
+
+<h2>Chocolatey Kickstarter Release Video</h2>
+
+<p>Here is the release video which explains some of the aims of the Chocolatey Kickstarter:</p>
+
+<div class="video-container">
+    <iframe width="480" height="360" src="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum/widget/video.html" frameborder="0" scrolling="no"> </iframe>
+</div>
+
+
+<h2>New Chocolatey Features Video</h2>
+
+<p>Check out the following video which shows some of the soon to be released new features in the C# rewrite of Chocolatey:</p>
+
+<div class="video-container">
+    <iframe width="480" height="360" src="//www.youtube.com/embed/sm_U53sxt2c" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+<h2>Get in quick!</h2>
+
+<p>At the time of writing, there is almost 40 people already signed up to the Kickstarter, so be sure to get in quick so you don&rsquo;t miss out of the exciting oppurtunity to help Chocolatey grow into <strong>the</strong> application package manager for Windows.</p>
+]]></content>
+  </entry>
+  
+</feed>
