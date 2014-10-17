@@ -20,6 +20,7 @@ tags:
 
 Really nice keyboard, and would definitely recommend!
 
+<!--more-->
 
 # Getting started with my new Sculpt Keyboard
 
