@@ -44,19 +44,40 @@ After a [small hiccup](http://help.appveyor.com/discussions/questions/491-use-ap
 6. Create an appveyor.yml file in the root of the source branch of your repository.  You can see mine [here](https://github.com/gep13/gep13.github.io/blob/source/appveyor.yml).
 7. There are four important things in this file.  Firstly, the init section.  In order to push changes back to GitHub, you need to let the newly created Virtual Machine that AppVeyor is running for you know the git credentials that you want to use.  This can be done using the standard ```git config --global``` command.
 
-    {% gist 9f74a718d98bece9486e Init.yml %}
+    {% codeblock lang:yaml %}
+init:
+- git config --global user.email "<Your Email Address>"
+- git config --global user.name "<Your User Name>"
+    {% endcodeblock %}
     
 8. The next important section is environment.  This is where you can specify 1 or more vaiables that you want to have available during your build steps.  If required, you can use the [encrypt data tool](https://ci.appveyor.com/tools/encrypt) within AppVeyor to encrypt sensitive information.  This is exactly what I did with my GitHub password.
 
-    {% gist 9f74a718d98bece9486e Environment.yml %}
+    {% codeblock lang:yaml %}
+environment:
+GithubUsername: gep13
+GithubPassword:
+  secure: XSuLygmr83zEpWcXIXMXGocN0QbooLud1eIMA3mQWKkT9LAU4TyrijLBcJIo7bD7
+    {% endcodeblock %}
+    
     
 9. Next up, we need to specify the actual operations that we want to perform.  These have been lifted exactly out of Jakes configuration.  The especically important thing to notice here is the ```%GithubUsername%``` and ```%GithubPassword%``` variables.  They refer to the environment variables that were configured above. **NOTE:**  As I found out, the ```gen_deploy``` rake task does both a generate and a deploy.
 
-    {% gist 9f74a718d98bece9486e BuildSteps.yml %}
+    {% codeblock lang:yaml %}
+build_script:
+  - cmd: bundle install
+  - cmd: if not exist _deploy (git clone https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git _deploy)
+  - cmd: cd _deploy
+  - cmd: git checkout master
+  - cmd: cd ..
+  - cmd: rake gen_deploy    
+    {% endcodeblock %}
+    
     
 10. The final things that I needed to do was to specify that I didn't want to run any tests after the main build steps were completed.  This can be done using:
 
-    {% gist 9f74a718d98bece9486e Test.yml %}
+    {% codeblock lang:yaml %}
+test: off
+    {% endcodeblock %}
     
 11. With the above file checked into your repository, AppVeyor will set about doing the build.  The output of which should hopefully look something like this (the full output can be seen [here](https://ci.appveyor.com/project/GaryEwanPark/gep13-github-io/build/1.0.22))
 
