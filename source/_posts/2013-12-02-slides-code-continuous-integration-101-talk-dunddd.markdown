@@ -30,6 +30,7 @@ On Saturday 23rd November 2013, I presented a talk entitled "Continuous Integrat
 
 In this session we will look at how you can incrementally work your way to fully implementing Continuous Integration into your development process. This talk will focus on using TeamCity as the Continuous Integration Server and psake build engine.</blockquote>
 
+<!--more-->
 
 Overall, I was quite happy with how the talk went, and it seems to go down quite well.  There was a fair bit of interaction with the audience, with several questions, which I hope that I was able to answer.  If there are any follow-up questions, then please feel free to get in touch, and I will do my best to respond.
 
