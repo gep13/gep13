@@ -38,10 +38,8 @@ Overall, I was quite happy with how the talk went, and it seems to go down quite
 # slides and code
 
 
-If you are interested in seeing the slides from the talk, you can find them displayed below, and also available as a download link on this post.
+If you are interested in seeing the slides from the talk, you can find them displayed below, and also available for download [here](/assets/posts/2013-12-02-slides-code-continuous-integration-101-talk-dunddd/Continuous Integration 101.pdf).
 
 {% slideshare 28819037 %}
 
 If you want to check out what little code was used during the presentation, you can find it [here](http://gep13.me/CIDemos).
-
-[wpdm_file id=2]
