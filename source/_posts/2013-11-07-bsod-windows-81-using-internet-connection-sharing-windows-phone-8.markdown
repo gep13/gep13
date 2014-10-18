@@ -18,8 +18,9 @@ tags:
 
 # But there is a fix...
 
-
 Following the update of my laptop to Windows 8.1, every time I would tether to my Windows Phone 8 using Internet Connection Sharing, I would get a Blue Screen Of Death (BSOD).
+
+<!--more-->
 
 ![BSOD when using ICS 1](/assets/posts/2013-11-07-bsod-windows-81-using-internet-connection-sharing-windows-phone-8/WP_20131025_07_11_25_Pro-1024x576.jpg)
 
