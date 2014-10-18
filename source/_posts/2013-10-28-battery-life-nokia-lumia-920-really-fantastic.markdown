@@ -25,6 +25,7 @@ tags:
 
 With all the radios and antennas switched off on my Nokia Lumia 920, the battery has lasted from the 28th October through to today, the 7th November.  A total of 11 days!  This has included some fairly solid use, listening to podcasts, audio books and music, as well as using it as my alarm clock.  This is far more than I thought it would last, very impressed.  See the gallery at the end of the post for pictures of how the battery was discharging.  The spikes are when I was syncing the phone with the desktop to grab some new podcasts.
 
+<!--more-->
 
 # Now the full story...
 
