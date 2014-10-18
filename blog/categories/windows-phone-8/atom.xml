@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Windows Phone 8 | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/windows-phone-8/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2014-10-17T19:37:04+00:00</updated>
+  <updated>2014-10-18T09:46:52+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -22,9 +22,12 @@
 
 <p>Following the update of my laptop to Windows 8.1, every time I would tether to my Windows Phone 8 using Internet Connection Sharing, I would get a Blue Screen Of Death (BSOD).</p>
 
-<p>[caption id=&ldquo;attachment_2182&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;584&rdquo;]<a href="http://www.gep13.co.uk/blog/bsod-windows-8.1-using-internet-connection-sharing-windows-phone-8/wp_20131025_07_11_25_pro/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/11/WP_20131025_07_11_25_Pro-1024x576.jpg" alt="BSOD when using ICS 1" /></a> BSOD when using ICS 1[/caption]</p>
+<!--more-->
 
-<p>[caption id=&ldquo;attachment_2181&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;584&rdquo;]<a href="http://www.gep13.co.uk/blog/bsod-windows-8.1-using-internet-connection-sharing-windows-phone-8/wp_20131025_06_56_38_pro/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/11/WP_20131025_06_56_38_Pro-1024x576.jpg" alt="BSOD when using ICS 2" /></a> BSOD when using ICS 2[/caption]</p>
+
+<p><img src="/assets/posts/2013-11-07-bsod-windows-81-using-internet-connection-sharing-windows-phone-8/WP_20131025_07_11_25_Pro-1024x576.jpg" alt="BSOD when using ICS 1" /></p>
+
+<p><img src="/assets/posts/2013-11-07-bsod-windows-81-using-internet-connection-sharing-windows-phone-8/WP_20131025_06_56_38_Pro-1024x576.jpg" alt="BSOD when using ICS 2" /></p>
 
 <p>This wouldn&rsquo;t happen if I was connected to a standard wireless connection, it was only when I was using the wireless hot spot which is made available through Internet Connection Sharing on my Windows Phone 8.  After a bit of googling, I turned up this post:</p>
 
@@ -34,13 +37,13 @@
 
 <p>However, while I was waiting for his reply, I reached out to my friendly neighborhood IT expert, namely <a href="https://twitter.com/MarkLeHuray">Mark Le Huray</a>, who was able to point me in the direction of a command line way of setting the required parameter:</p>
 
-<p><a href="https://twitter.com/MarkLeHuray/status/393664176012267520">https://twitter.com/MarkLeHuray/status/393664176012267520</a></p>
+<p><a href="https://twitter.com/MarkLeHuray/status/393664176012267520"><img src="/assets/posts/2013-11-07-bsod-windows-81-using-internet-connection-sharing-windows-phone-8/Twitter_Help.png" alt="Twitter Help from Mark Le Huray" /></a></p>
 
 <p>Here &ldquo;ur wireless name&rdquo; is actually the name of the wireless endpoint, i.e. the SSID for the connection.  This is what is displayed in the Internet Sharing page on your windows phone.</p>
 
 <p>Opening the command prompt, and executing this command was all the is required to get rid of the BSOD:</p>
 
-<p>[caption id=&ldquo;attachment_2183&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;677&rdquo;]<a href="http://www.gep13.co.uk/blog/bsod-windows-8.1-using-internet-connection-sharing-windows-phone-8/2013-11-05_0741/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/11/2013-11-05_0741.png" alt="Fixing BSOD by setting FIPS" /></a> Fixing BSOD by setting FIPS[/caption]</p>
+<p><img src="/assets/posts/2013-11-07-bsod-windows-81-using-internet-connection-sharing-windows-phone-8/2013-11-05_0741.png" alt="Fixing BSOD by setting FIPS" /></p>
 
 <p>Big thanks to Mark for all his help in getting this sorted, and also Tim who pointed me in the right direction!</p>
 ]]></content>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Conferences | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/conferences/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2014-10-17T19:37:04+00:00</updated>
+  <updated>2014-10-18T09:46:52+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -31,17 +31,20 @@
 In this session we will look at how you can incrementally work your way to fully implementing Continuous Integration into your development process. This talk will focus on using TeamCity as the Continuous Integration Server and psake build engine.</blockquote>
 
 
+
+
+<!--more-->
+
+
 <p>Overall, I was quite happy with how the talk went, and it seems to go down quite well.  There was a fair bit of interaction with the audience, with several questions, which I hope that I was able to answer.  If there are any follow-up questions, then please feel free to get in touch, and I will do my best to respond.</p>
 
 <h1>slides and code</h1>
 
-<p>If you are interested in seeing the slides from the talk, you can find them displayed below, and also available as a download link on this post.</p>
+<p>If you are interested in seeing the slides from the talk, you can find them displayed below, and also available for download <a href="/assets/posts/2013-12-02-slides-code-continuous-integration-101-talk-dunddd/Continuous%20Integration%20101.pdf">here</a>.</p>
 
 <p><iframe src="http://www.slideshare.net/slideshow/embed_code/28819037 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe> </p>
 
 <p>If you want to check out what little code was used during the presentation, you can find it <a href="http://gep13.me/CIDemos">here</a>.</p>
-
-<p>[wpdm_file id=2]</p>
 ]]></content>
   </entry>
   
