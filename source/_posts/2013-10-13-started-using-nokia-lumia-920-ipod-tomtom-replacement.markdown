@@ -17,12 +17,11 @@ tags:
 
 # And I can't see myself looking back!
 
-
 I am now using my spare Nokia Lumia 920 as a replacement for both my failing Classic iPod, and my TomTom.  I have always liked to keep music and GPS devices separate from my phone, as using these types of services is a big drain on battery.  Now though, I am using two phone devices to service all of these needs.  No more need to carry around 3 separate devices!
 
+<!--more-->
 
 # Here's the story...
-
 
 I recently upgraded my mobile phone to the Nokia Lumia 925, and I love it!  I upgraded from the Nokia Lumia 920, but there were a couple of things happening with the 920 which made me want to move away from it.  The first of which was that a single pixel, all the way down the screen, is stuck on a single colour.  This started happening after the warranty ran out on it, so there was nothing I could do aside from an expensive repair.  I opted to reset the device in order to send it to something like Mazuma mobile to get some money for it, however, the reset didn't go well and it got stuck on the spinning gears.  Doh!
 
@@ -30,26 +29,17 @@ For the last few months, the 920 has been nothing more than a paper weight on my
 
 I then went ahead and grabbed the latest update for the phone, taking the phone up to the GDR 2 release, and then went ahead and installed all the necessary applications, including the following:
 
-
-
-	
   * [HERE Drive+](http://www.windowsphone.com/en-gb/store/app/here-drive/31bbc68c-503e-4561-8d85-a294d54df06f) - Navigation application (uses the HERE Maps application)
 
-	
   * [HERE Maps ](http://www.windowsphone.com/en-gb/store/app/here-maps/efa4b4a7-7499-46ce-aa95-3e4ab3b39313)-  Mapping application that allows for downloading maps using a WiFi Connection, and then using locally on device
 
-	
   * [HERE Transit](http://www.windowsphone.com/en-gb/store/app/here-transit/adfdad16-b54a-4ec3-b11e-66bd691be4e6) - Provides routes between two selected places
 
-	
   * [Nokia Music](http://www.windowsphone.com/en-gb/store/app/nokia-music/f5874252-1f04-4c3f-a335-4fa3b7b85329) - free music streaming application (also plays local music files)
 
-	
   * Nokia Pro Cam - quite simply amazing!
 
-	
   * Nokia Smart Cam - great camera application
-
 
 With these applications in place, and my music and podcasts synced to the phone and required maps downloaded, I have a perfectly functioning iPod and TomTom replacement, taking the number of devices that I need to carry around from 2, to 3.
 
@@ -57,7 +47,6 @@ Although I was in a unique position where I had a spare Nokia Lumia 920 to serve
 
 
 # Amazing deal at Tesco on the Nokia Lumia 510
-
 
 Last night while shopping at Tesco, I saw the following deal:
 
@@ -69,7 +58,6 @@ When you compare the above to something like the iPod, starting at £199, it wou
 
 
 # The setup of the Nokia Lumia 920
-
 
 The start screen of my Nokia Lumia 920 now looks like the following:
 
