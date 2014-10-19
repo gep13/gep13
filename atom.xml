@@ -4,7 +4,7 @@
   <title><![CDATA[gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2014-10-19T10:23:08+00:00</updated>
+  <updated>2014-10-19T10:30:27+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -491,6 +491,9 @@ In this session we will look at how you can incrementally work your way to fully
     <content type="html"><![CDATA[<h1>Grab your ticket for DunDDD quickly so you don&rsquo;t miss out!</h1>
 
 <p>The call for speakers at the Scottish Community Event (organised by the <a href="http://scottishdevelopers.com/">Scottish Developers</a>) known as <a href="http://dun.dddscotland.co.uk/speaker">DunDDD </a>has now closed and the registration has opened.</p>
+
+<!--more-->
+
 
 <h1>DunDDD is now in its third year</h1>
 
