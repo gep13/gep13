@@ -167,6 +167,60 @@ $(function(){
   
 
 
+<time datetime="2011-07-15T06:42:31+00:00" data-updated="true" itemprop="datePublished">Jul 15th, 2011</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/visual-studio-2010/'>visual studio 2010</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="/blog/a-modification-to-my-use-of-extensionsync/#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+
+	<h1 class="title" itemprop="name"><a href="/blog/a-modification-to-my-use-of-extensionsync/" itemprop="url">A Modification to My Use of #ExtensionSync</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p>In an earlier <a href="http://www.gep13.co.uk/blog/?p=189">blog post</a> I mentioned how I am now using a very clever Visual Studio 2010 extension called <a href="http://visualstudiogallery.msdn.microsoft.com/dbaf0ac9-fb7b-4fb3-b34d-ea2269276d3c">ExtensionSync</a> (a complete list of all the Visual Studio 2010 extensions that I am currently using can be found <a href="http://www.gep13.co.uk/blog/?p=3">here</a>).</p>
+
+<p>In that blog post I explained that I am using a mapped drive in order in “share” the ExtensionSync settings file between different developers in the team. Initially, this worked well, but there were a few problems with this, and this was actually noted by the author of the tool in a Twitter conversation.</p>
+
+<p>Basically, when you make a change, i.e. you add another extension, it saves the changes to the shared settings file it will work great until another developer who perhaps already had Visual Studio 2010 open, closes his Visual Studio. When this happens, his current extensions will be persisted to the shared ExtensionSync settings file, removing the extension that you just added. Not good!</p>
+
+<p>After giving it some thought, it occurred to me that this file was actually living in the wrong place. This file should really be treated as an <em>artefact</em> of the project, and as such, should live in our source control repository.</p>
+
+<p>The way our source control is configured, we have a folder called SharedSource. In here we keep things like, code analysis dictionaries, shared strong key files, shared code snippets, etc, so this seemed like a perfect place to put the ExtensionSync settings file.</p>
+
+<p>With that checked in, it was a quick change to the ExtensionSync settings to point it at the new settings file location and everything was set up.</p>
+
+<p>The benefit of using this approach is that unless “checked out” the settings file is read only, so that even if it wanted to, ExtensionSync can’t make changes to the file (I was worried that this would cause ExtensionSync to complain, but so far I haven’t seen this).</p>
+
+<p>It also has the benefit of applying some process to making changes to the extensions that are used. A developer now have to go through the process of checking out the settings file, installing the extension, and then checking back in. This formality means that a little more thought is given to the addition of an extension, and should prevent ad-hoc extensions appearing that are of little or no use.</p>
+
+<p>It strikes me as well that there is a logical extension (no pun intended) to this approach. For instance, depending on the project that you are working on, you may want/need different extensions installed. If you are working on a SharePoint development project then you would want all the SharePoint helper extensions installed. However, there is absolutely no need have these installed if you are working on an ASP.Net MVC project. As a result, you might have an ExtensionSync settings file per project, which you could switch to as and when required. If this could be made to do this automatically based on the currently loaded project this would be great, but I don’t know what sort of overhead this would involve in terms of installing/uninstalling extensions. Perhaps a feature request though…</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+ 	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
 <time datetime="2011-07-09T13:23:26+00:00" data-updated="true" itemprop="datePublished">Jul 9th, 2011</time></div> 
  		<div class="tags">
 
@@ -896,81 +950,6 @@ There was a lot of content in this presentation, and there was certainly a lot o
 <p>Just tried opening and closing the application but I get the same thing. Looks like I will have to revert to using the Twitter web site for now, but I will try MetroTwit again later.</p>
 
 <p>Could this be a sign that the eagerly awaited Nest is making some changes, or is it more likely that new IT changes that came in over the weekend now prevent me from using Twitter at work <img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/wlEmoticon-sadsmile.png" alt="Sad smile" /></p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
- 	<div class="meta"> 
- 		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-06-05T20:10:16+00:00" data-updated="true" itemprop="datePublished">Jun 5th, 2011</time></div> 
- 		<div class="tags">
-
-
-	<a class='category' href='/blog/categories/conferences/'>conferences</a>
-
-
-</div> 
- 		 
- 			<span class="comments"><a href="/blog/almost-time-for-dddsw/#disqus_thread">Comments</a></span> 
- 		 
- 	</div> 
-
-	<h1 class="title" itemprop="name"><a href="/blog/almost-time-for-dddsw/" itemprop="url">Almost Time for #DDDSW…</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<p>There are now only 5 sleeps until I start my travel down to <a href="http://www.dddsouthwest.com/">DDD South West</a>!!</p>
-
-<p><strong><em>Looking forward to the day</em></strong></p>
-
-<p>I debated for a long time as to whether I was actually going to attend this event, but in the end I decided that there were just too many good <a href="http://www.dddsouthwest.com/Agenda/tabid/55/Default.aspx">sessions</a> to pass up on. As is always the case though, there are just too many to pick from, and a number of the ones that I was hoping to see are on at the same time, so I might try to catch them in the Repeat Track. The Repeat Track is not something that I have seen at the other DDD events, and I am very curious to see how it works out.</p>
-
-<p><strong><em>Getting there</em></strong></p>
-
-<p>Rather naively, I thought that getting to Bristol was as easy as getting to London, and I left the organisation of the hotel and travel to the last minute (two weeks ago). When I came to try to book travel I was shocked by how much a flight was going to cost. It was going to cost something like £350-400 to get from Aberdeen to Bristol, and Train’s were not much better. As good as the sessions were, travel costs of that much was a bit steep and I started to wonder whether I was going to be able to make it at all.</p>
-
-<p>Then I spoke to Craig (<a href="http://twitter.com/#!/camurphy">@camurphy</a>) and Colin (<a href="http://twitter.com/#!/colinmackay">@ColinMackay</a>) and found out that they were planning on driving down, so I asked if I could grab a lift, and luckily for me, they said that I could. As the driver, Craig did mention that he would have to:</p>
-
-<blockquote>  
-> 
->    
-> 
-> adopt a RyanAir baggage policy
-> 
->    
-> 
-> </blockquote>
-
-
-<p>Sorted! So, now all I have to do is travel down to meet Craig for the first leg of the journey to DDD South West.</p>
-
-<p><strong><em>Windows Phone 7 Application</em></strong></p>
-
-<p>In case you haven’t seen it, there is a Windows Phone 7 application for DDD South West (you can find it in the Marketplace by searching for “DDD SW 2011”.</p>
-
-<p>The original version of this application simply listed any tweets on twitter that included the #dddsw hash tag, however, a recent update to the application now includes the agenda for the day. Screenshots below:</p>
-
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/DSCF5118.jpg"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/DSCF5118_thumb.jpg" alt="DSCF5118" /></a><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/DSCF5117.jpg"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/DSCF5117_thumb.jpg" alt="DSCF5117" /></a></p>
-
-<p>I for one will be making extensive use of this application when I am trying to decide which sessions I want to go to.</p>
-
-<p><strong><em>Helping out</em></strong></p>
-
-<p>I have also volunteered to help out at this years DDD South West. I don’t know what exactly this will mean on the day, but I am sure that Guy Smith-Ferrier (<a href="http://twitter.com/#!/GuySmithFerrier">@GuySmithFerrier</a>) will keep me right.</p>
 
 		
 		
