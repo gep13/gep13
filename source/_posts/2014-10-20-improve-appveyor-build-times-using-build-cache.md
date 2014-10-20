@@ -3,10 +3,16 @@ author: gep13
 layout: post
 published: true
 title: Improve AppVeyor build times using build cache
-keywords: Keywords
-description: Description
+keywords: "AppVeyor, Build Cache, gems, Octopress"
+description: Find out how to improve AppVeyor build times by making use of the build cache
 comments: true
 sharing: true
+categories: 
+  - AppVeyor
+tags: 
+  - AppVeyor
+  - Octopress
+  - build cache
 ---
 
 ## Take minutes off overall build time...
