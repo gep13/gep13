@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Appveyor | gep13's blog]]></title>
+  <link href="http://www.gep13.co.uk/blog/categories/appveyor/atom.xml" rel="self"/>
+  <link href="http://www.gep13.co.uk/"/>
+  <updated>2014-10-20T12:20:39+00:00</updated>
+  <id>http://www.gep13.co.uk/</id>
+  <author>
+    <name><![CDATA[gep13]]></name>
+    <email><![CDATA[gep13@gep13.co.uk]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Improve AppVeyor Build Times Using Build Cache]]></title>
+    <link href="http://www.gep13.co.uk/blog/improve-appveyor-build-times-using-build-cache/"/>
+    <updated>2014-10-20T00:00:00+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/improve-appveyor-build-times-using-build-cache</id>
+    <content type="html"><![CDATA[<h2>Take minutes off overall build time&hellip;</h2>
+
+<p>By making use of the <a href="http://www.appveyor.com/docs/build-cache">build cache</a> within <a href="http://www.appveyor.com/">AppVeyor</a>.  For both this blog, and also the <a href="http://www.aberdeendevelopers.co.uk/">Aberdeen Developers .Net User Group</a> blog, I was able to reduce the overall build time by over 3 minutes.  Find out how.</p>
+
+<!--more-->
+
+
+<p>In a recent <a href="http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages/">blog post</a>, I described how I was able to use AppVeyor to generate and then deploy an Octopress site to GitHub Pages.  The process is very simple to setup, the only slight downside is the time that it takes to generate the site itself, which can take over 7 minutes.</p>
+
+<p>In the grand scheme of things, this isn&rsquo;t a long time, but if you are pushing a quick change, and want to see whether it worked before moving onto something else, these 7 minutes can seem like an entirity.  Looking at the build log, it was clear that the thing that was taking the longest was this command:</p>
+
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'>  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">cmd</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">bundle install</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p>The reason that this is required is due to the fact that each time a build on AppVeyor runs, it is using a brand new instance of the <a href="http://www.appveyor.com/docs/installed-software">Build Worker Image</a>.  This is both good and bad.  It means that you are always starting from a known point.  However, it also means that anything you installed to get your build to work, is no longer there the next time the build runs.</p>
+
+<p>In my case, there are almost 50 rubygems that need to be installed in order for Octopress to work correctly.  This means that these gems have to be downloaded from the internet, installed and verified, and then used in the build process.</p>
+
+<p>Thankfully, AppVeyor has the concept of using a build cache.  This basically means that, once setup, AppVeyor will first extract all the cached files back onto the Build Worker Image, and then start the build proper.  As a result, when I run:</p>
+
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'>  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">cmd</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">bundle install</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p>The gems are already installed, and no longer need to be downloaded and installed.  Then, at the end of the build, the folders of interest are then re-cached, ready for extraction when the next build kicks off.</p>
+
+<p><strong>NOTE:</strong> There is a limit of 100MB applied to the build cache.  If you are trying to cache more files than this, you will have to get in contact with AppVeyor support to see if there is anything that can be done to increase this number.</p>
+
+<h2>Enough already, show me the configuration</h2>
+
+<p>Setting this up is as simple as this:</p>
+
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">cache</span><span class="p-Indicator">:</span>
+</span><span class='line'>  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">C:\Ruby193\lib\ruby\gems\1.9.1</span>
+</span><span class='line'>  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">C:\Ruby193\bin</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p>I originally started out trying to cache only the <code>gems</code> folder, however, with the help of Feodor Fitsner over at the <a href="http://help.appveyor.com/discussions/questions/585-what-setup-for-build-cache-is-require-for-bundle-install">AppVeyor Support</a> pages it became apparent that I would also need to include the <code>bin</code> folder, as during the installation of gems a number of them put their bash or CMD scripts into this folder so that they can make the tooling work correctly from the command line.</p>
+
+<p>And there you have it!  With the build cache configured, I was able to reduce the build time for this blog from <code>5 min  37</code> to <code>2 min 28 sec</code>.  Not a bad effort!</p>
+
+<p>This same approach can be used for other artefacts of a build process, for instance, restoring nuget packages.</p>
+]]></content>
+  </entry>
+  
+</feed>
