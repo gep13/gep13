@@ -21,11 +21,10 @@ I wanted to let you know about an upcoming event in Aberdeen that I have been he
 
 [http://northernlightsconf.co.uk/](http://northernlightsconf.co.uk/)
 
+<!--more-->
+
 The event is in its third year, and this year the theme is tools.  Both the tools that we use, and the tools we build.  There is a wide range of speakers available, including:
 
-
-
-	
   * [Hadi Hariri](http://northernlightsconf.co.uk/speakers/2013/09/23/hadi-hariri.html)
 
 	
@@ -59,7 +58,6 @@ If you know anyone else who would be interested in attending this event, I would
 
 This event is lovingly sponsored by:
 
-	
   * University of Aberdeen -  [http://www.abdn.ac.uk/](http://www.abdn.ac.uk)
 
 	
