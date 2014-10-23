@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2014-10-22T16:56:33+00:00</updated>
+  <updated>2014-10-23T20:48:23+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -58,68 +58,39 @@
 <li>Add the contents of the source folder to <code>source\fancybox</code> as I have done <a href="https://github.com/gep13/gep13.github.io/tree/source/source/fancybox">here</a></li>
 <li><p>Make the following additions to your <code>source\_includes\custom\head.html</code> file</p>
 
-<p> <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="o">&lt;</span><span class="err">/p&gt;&lt;/li&gt;</span>
-</span><span class='line'><span class="o">&lt;</span><span class="err">/ol&gt;</span>
-</span><span class='line'>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&quot;ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js&quot;</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
-</span><span class='line'>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span><span class="o">&gt;</span>
-</span><span class='line'><span class="nx">jQuery</span><span class="p">.</span><span class="nx">noConflict</span><span class="p">();</span> <span class="c1">// ender.js conflicts with jQuery</span>
-</span><span class='line'><span class="o">&lt;</span><span class="err">/script&gt;</span>
-</span><span class='line'>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;&lt;</span><span class="nx">link</span> <span class="nx">rel</span><span class="o">=</span><span class="s2">&quot;stylesheet&quot;</span> <span class="nx">href</span><span class="o">=</span><span class="s2">&quot;http://www.gep13.co.uk/fancybox/jquery.fancybox.css&quot;</span> <span class="o">/&gt;&lt;</span><span class="err">/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&quot;http://www.gep13.co.uk/fancybox/jquery.fancybox.pack.js&quot;</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
-</span><span class='line'>
-</span><span class='line'>
-</span><span class='line'>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">language</span><span class="o">=</span><span class="s2">&quot;Javascript&quot;</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span><span class="o">&gt;</span>
-</span><span class='line'><span class="c1">// ender.js gobbles jQuery&#39;s ready event: Use ender.js $ instead</span>
-</span><span class='line'><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>    <span class="nx">jQuery</span><span class="p">(</span><span class="s2">&quot;.fancybox&quot;</span><span class="p">).</span><span class="nx">fancybox</span><span class="p">();</span>
-</span><span class='line'><span class="p">});</span>
-</span><span class='line'><span class="o">&lt;</span><span class="err">/script&gt;</span>
-</span><span class='line'>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">pre</span><span class="o">&gt;&lt;</span><span class="nx">code</span><span class="o">&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
+<p> {% codeblock lang:javascript %}</p></li>
+</ol>
+
+
+<script src="ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+jQuery.noConflict(); // ender.js conflicts with jQuery
+</script>
+
+
+<p><link rel="stylesheet" href="http://www.gep13.co.uk/fancybox/jquery.fancybox.css" /></p>
+
+<script src="http://www.gep13.co.uk/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+
+
+<script language="Javascript" type="text/javascript">
+// ender.js gobbles jQuery's ready event: Use ender.js $ instead
+$(document).ready(function() {
+    jQuery(".fancybox").fancybox();
+});
+</script>
+
+
+<pre><code>{% endcodeblock %}
 </code></pre>
 
 <ol>
 <li>Create your gallery folder, and add the necessary changes to your config.yml file.  You can see the sample changes that I made <a href="https://github.com/gep13/gep13.github.io/commit/8f597cd922ffc3556481e7148990bcaa675dcceb">here</a>.</li>
-<li>Add the gallery tag to your blog post.  In my case, this was <code>{{ 'gallery_1' | image_list }}</code></li>
+<li>Add the gallery tag to your blog post.  In my case, this was <code>{% raw %}{{ 'gallery_1' | image_list }}{% endraw %}</code></li>
 <li>Then do a <code>rake generate</code></li>
 <li>Assuming everything has worked, do a <code>rake preview</code> and view your hard work</li>
 </ol>
@@ -140,13 +111,11 @@
 
 <p>The final result was the following:</p>
 
-<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">install</span><span class="p-Indicator">:</span>
-</span><span class='line'>  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">ps</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">iex ((new-object net.webclient).DownloadString(&amp;lsquo;&lt;a href=&quot;https://chocolatey.org/install.ps1&quot;&gt;https://chocolatey.org/install.ps1&lt;/a&gt;&amp;rsquo;))</span>
-</span><span class='line'>  <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">ps</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">choco install imagemagick.tool</span>
-</span></code></pre></td></tr></table></div></figure></p>
+<p>{% codeblock lang:yaml %}
+install:
+  - ps: iex ((new-object net.webclient).DownloadString(&lsquo;<a href="https://chocolatey.org/install.ps1">https://chocolatey.org/install.ps1</a>&rsquo;))
+  - ps: choco install imagemagick.tool
+{% endcodeblock %}</p>
 
 <p>Two simple steps.  The first to install Chocolatey, and the second to install <code>ImageMagick</code> portable edition.  This will now happen each time my AppVeyor build runs, and it will generate the thumbnails for each of my galleries.</p>
 
@@ -189,50 +158,35 @@
 <li><p>Create an appveyor.yml file in the root of the source branch of your repository.  You can see mine <a href="https://github.com/gep13/gep13.github.io/blob/source/appveyor.yml">here</a>.</p></li>
 <li><p>There are four important things in this file.  Firstly, the init section.  In order to push changes back to GitHub, you need to let the newly created Virtual Machine that AppVeyor is running for you know the git credentials that you want to use.  This can be done using the standard <code>git config --global</code> command.</p>
 
-<p> <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">init:&lt;/p&gt;&lt;/li&gt;</span>
-</span><span class='line'><span class="l-Scalar-Plain">&lt;li&gt;git config &amp;ndash;global user.email &amp;ldquo;&lt;Your Email Address&gt;&amp;rdquo;&lt;/li&gt;</span>
-</span><span class='line'><span class="l-Scalar-Plain">&lt;li&gt;&lt;p&gt;git config &amp;ndash;global user.name &amp;ldquo;&lt;Your User Name&gt;&amp;rdquo;</span>
-</span><span class='line'>
-</span></code></pre></td></tr></table></div></figure></p></li>
+<p> {% codeblock lang:yaml %}
+init:</p></li>
+<li>git config &ndash;global user.email &ldquo;<Your Email Address>&rdquo;</li>
+<li><p>git config &ndash;global user.name &ldquo;<Your User Name>&rdquo;
+  {% endcodeblock %}</p></li>
 <li><p>The next important section is environment.  This is where you can specify 1 or more vaiables that you want to have available during your build steps.  If required, you can use the <a href="https://ci.appveyor.com/tools/encrypt">encrypt data tool</a> within AppVeyor to encrypt sensitive information.  This is exactly what I did with my GitHub password.</p>
 
-<p> <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">environment</span><span class="p-Indicator">:</span>
-</span><span class='line'><span class="l-Scalar-Plain">GithubUsername</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">gep13</span>
-</span><span class='line'><span class="l-Scalar-Plain">GithubPassword</span><span class="p-Indicator">:</span>
-</span><span class='line'><span class="l-Scalar-Plain">secure</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">XSuLygmr83zEpWcXIXMXGocN0QbooLud1eIMA3mQWKkT9LAU4TyrijLBcJIo7bD7</span>
-</span><span class='line'>
-</span></code></pre></td></tr></table></div></figure></p></li>
+<p> {% codeblock lang:yaml %}
+environment:
+GithubUsername: gep13
+GithubPassword:
+secure: XSuLygmr83zEpWcXIXMXGocN0QbooLud1eIMA3mQWKkT9LAU4TyrijLBcJIo7bD7
+ {% endcodeblock %}</p></li>
 <li><p>Next up, we need to specify the actual operations that we want to perform.  These have been lifted exactly out of Jakes configuration.  The especically important thing to notice here is the <code>%GithubUsername%</code> and <code>%GithubPassword%</code> variables.  They refer to the environment variables that were configured above. <strong>NOTE:</strong>  As I found out, the <code>gen_deploy</code> rake task does both a generate and a deploy.</p>
 
-<p> <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">build_script:&lt;/p&gt;&lt;/li&gt;</span>
-</span><span class='line'><span class="l-Scalar-Plain">&lt;li&gt;cmd</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">bundle install&lt;/li&gt;</span>
-</span><span class='line'><span class="l-Scalar-Plain">&lt;li&gt;cmd</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">if not exist &lt;em&gt;deploy (git clone &lt;a href=&quot;https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git&quot;&gt;https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git&lt;/a&gt; &lt;/em&gt;deploy)&lt;/li&gt;</span>
-</span><span class='line'><span class="l-Scalar-Plain">&lt;li&gt;cmd</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">cd _deploy&lt;/li&gt;</span>
-</span><span class='line'><span class="l-Scalar-Plain">&lt;li&gt;cmd</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">git checkout master&lt;/li&gt;</span>
-</span><span class='line'><span class="l-Scalar-Plain">&lt;li&gt;cmd</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">cd ..&lt;/li&gt;</span>
-</span><span class='line'><span class="l-Scalar-Plain">&lt;li&gt;&lt;p&gt;cmd</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">rake gen_deploy  &lt;br/&gt;</span>
-</span></code></pre></td></tr></table></div></figure></p></li>
+<p> {% codeblock lang:yaml %}
+build_script:</p></li>
+<li>cmd: bundle install</li>
+<li>cmd: if not exist <em>deploy (git clone <a href="https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git">https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git</a> </em>deploy)</li>
+<li>cmd: cd _deploy</li>
+<li>cmd: git checkout master</li>
+<li>cmd: cd ..</li>
+<li><p>cmd: rake gen_deploy  <br/>
+{% endcodeblock %}</p></li>
 <li><p>The final things that I needed to do was to specify that I didn&rsquo;t want to run any tests after the main build steps were completed.  This can be done using:</p>
 
-<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">test</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">off</span>
-</span></code></pre></td></tr></table></div></figure></p></li>
+<p>{% codeblock lang:yaml %}
+test: off
+{% endcodeblock %}</p></li>
 <li><p>With the above file checked into your repository, AppVeyor will set about doing the build.  The output of which should hopefully look something like this (the full output can be seen <a href="https://ci.appveyor.com/project/GaryEwanPark/gep13-github-io/build/1.0.22">here</a>)</p>
 
 <p><img src="/assets/posts/2014-09-05-setup-appveyor-to-deploy-octopress-site-to-github-pages/SuccessfulBuild.png" alt="Successful AppVeyor Build" /></p></li>
