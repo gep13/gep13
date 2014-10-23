@@ -1,0 +1,337 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>How to install TeamCity - gep13&#8217;s blog</title>
+	<meta name="author" content="gep13">
+
+	
+	<meta name="description" content="Website of Gary Ewan Park, also known as gep13, a self declared Microsoft Fan Boy, husband, dad, and geek." />
+
+	
+	<meta name="keywords" content="gep13, blog, Microsoft, Fan Boy, Ramblings, Pondering, Gary Ewan Park" />
+
+	<!-- http://t.co/dKP3o1e -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/feed" rel="alternate" title="gep13's blog" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://www.gep13.co.uk/blog/how-to-install-teamcity/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<!-- meta tags for twitter card -->
+
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:site" content="gep13">
+    <meta property="twitter:url" content="http://www.gep13.co.uk/blog/how-to-install-teamcity/">
+    <meta property="twitter:title" content="How to install TeamCity">
+    <meta property="twitter:description" content="Website of Gary Ewan Park, also known as gep13, a self declared Microsoft Fan Boy, husband, dad, and geek.">
+
+
+<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
+<script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>
+<script type="text/javascript">
+	// <![CDATA[
+		cc.initialise({
+			cookies: {
+				social: {
+					title: 'Disqus et al.',
+					description: 'Used for comments. You\'ll nee'+
+							'd to log in to Disqus to leave'+
+							' comments.'
+				},
+				analytics: {
+					title: 'Analytics',
+					description: 'Anonymously measure your use o'+
+							'f this website to improve your'+
+							' experience.'
+				}
+			},
+			settings: {
+				bannerPosition: "bottom",
+				disableallsites: true
+			}
+		});
+	// ]]>
+</script>
+<!-- End Cookie Consent plugin -->
+
+
+
+<link rel="stylesheet" href="/ad-gallery/jquery.ad-gallery.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/ad-gallery/jquery.ad-gallery.js?rand=302"></script>
+<script type="text/javascript">
+$(function() {
+  var galleries = $('.ad-gallery').adGallery({
+    loader_image: '/ad-gallery/loader.gif',
+    width: 640,
+  });
+})
+</script>
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><nav id="main-nav"><ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/adnuguk">ADNUGUK</a></li>
+</ul>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		<a class="facebook" href="http://www.facebook.com/gary.e.park" title="Facebook">Facebook</a>
+		
+		
+		<a class="google" href="https://plus.google.com/+GaryEwanPark" rel="author" title="Google+">Google+</a>
+		
+		
+		<a class="twitter" href="http://twitter.com/gep13" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/gep13" title="GitHub">GitHub</a>
+		
+		
+		
+		<a class="linkedin" href="http://www.linkedin.com/in/gep13">LinkedIn</a>
+		
+		
+		
+		<a class="delicious" href="http://delicious.com/gep13" title="Delicious">Delicious</a>
+		
+		
+		
+		<a class="rss" href="/feed" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+<div class="profile-container">
+  <div class="profilepic">
+    <script src="/javascripts/md5.js"></script>
+    <script type="text/javascript">
+$(function(){
+  $('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("gep13@gep13.co.uk") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+});
+    </script>
+  </div>
+  <hgroup>
+  <h1 class="site-title"><a href="/">gep13&#8217;s blog</a></h1>
+  
+  <p class="site-subtitle">Ramblings and Ponderings of a Microsoft Fan Boy&#8230;</p>
+  
+  </hgroup>
+  
+</div>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="article-inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+   	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-04T17:42:57+00:00" data-updated="true" itemprop="datePublished">Jan 4th, 2013</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/chocolatey-series/'>chocolatey series</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+	
+	<h1 class="title" itemprop="name">How to Install TeamCity</h1>
+	<div class="entry-content" itemprop="articleBody"><h1>What is TeamCity?</h1>
+
+<p>Just in case you didn&rsquo;t know&hellip;</p>
+
+<blockquote>TeamCity is a user-friendly continuous integration (CI) server for professional developers and build engineers, like ourselves. It is trivial to setup and absolutely free for small teams.</blockquote>
+
+
+<p>If you want to find out more information about TeamCity, you can find it <a href="http://www.jetbrains.com/teamcity/index.html">here</a>.</p>
+
+<p>The following blog post walks through the steps to get TeamCity installed., however, at the end of this blog post there will still be other items that need to be configured, but these issues will be the topics of other blog posts.</p>
+
+<p>Although out of the box TeamCity uses an internal database based on the HSQLDB database engine, if you are planning on using a TeamCity instance for Production purposes, it is <a href="http://confluence.jetbrains.net/display/TCD7/Setting+up+an+External+Database">strongly recommended</a> that you set up an external database connection for it to use.  To that end, this blog post uses a MySQL Database as the external connection for TeamCity.</p>
+
+<h1>Installation Steps</h1>
+
+<p><strong>NOTE: </strong>The following installation steps and screenshots were taken from a virtual machine   with Windows Server 2008 R2 Service Pack 1, running in Hyper-V on a Windows 8 Host Machine.</p>
+
+<p>These instructions are specific to version 7.1.3 of TeamCity, however, later versions will likely follow very similar steps.  In addition, these installation instructions will install both the TeamCity Server and Build Agent onto the same machine.  Ideally, you would want to have a separate Build Agent Machine.</p>
+
+<p>You can see screenshots of each of these steps in the galley at the bottom of this blog post.</p>
+
+<ol>
+<li><p> Assumption is that you already have <a href="http://gep13.me/S91bws">MySQL Community Server</a> installed</p></li>
+<li><p> Assumption is that you already have <a href="http://gep13.me/WiiHcN">MySQL Workbench</a> installed</p></li>
+<li><p> Assumption is that you already have configured a <a href="http://gep13.me/Z3jaBI">Profile Instance, with a database and user</a> that can be used by the TeamCity Server</p></li>
+<li><p> Download the <a href="http://www.jetbrains.com/teamcity/download/index.html">latest version of TeamCity from the JetBrains website</a> then double-click the .exe and click Run</p></li>
+<li><p> At the first step in the installation wizard simply click Next</p></li>
+<li><p> Read the License Agreement and assuming you are happy with it, click &ldquo;I Agree&rdquo;</p></li>
+<li><p> In the &ldquo;Choose Install Location&rdquo; window, assuming you are happy with the default installation folder, simply click Next, otherwise change it first</p></li>
+<li><p> In the &ldquo;Choose Components&rdquo; window choose the components that you want to install.  As already mentioned, we will be installing both the Server and Build Agent on one server.  Click Next</p></li>
+<li><p> In the &ldquo;Specify server configuration directory&rdquo; window assuming you are happy with the default location click Next, other change it first</p></li>
+<li><p>. The main portion of the installation will start now</p></li>
+<li><p>. In the &ldquo;Installation Complete&rdquo; windows, specify the port that you want TeamCity to run under.  I have other services running on this server, so I have chosen to use port 8080.  Choose something that won&rsquo;t conflict, and then click Next</p></li>
+<li><p>. The &ldquo;Configure Build Agent Properties&rdquo; window will then open, giving you the opportunity to add/edit build agent properties.  For now, you can leave this as the default.  If needed, this can be changed later.  Click Save.</p></li>
+<li><p>. Simply click OK on the &ldquo;TeamCity Build Agent Properties&rdquo; pop-up</p></li>
+<li><p>. In the &ldquo;Select Service Account for Server&rdquo; window decide what user account you want to run the TeamCity Server, I chose to use the SYSTEM account.  Click Next</p></li>
+<li><p>. In the &ldquo;Select Service Account for Agent&rdquo; window decide what user account you want to run the TeamCity Build Agent, I chose to use the SYSTEM account.  Click Next</p></li>
+<li><p>. In the &ldquo;Services&rdquo; window, choose to start both the Server and Build Agent Services, and click Next</p></li>
+<li><p>. In the final screen, ensure that the option to open TeamCity Website after exit is checked and click Finish.</p></li>
+<li><p>. You will then be taken to the default start screen, which as mentioned will create the internal database that TeamCity would normally use by default.  Go ahead and click Proceed, we will then begin editing the configuration to use a MySQL Server Database.</p></li>
+<li><p>. A web page will open saying &ldquo;TeamCity is starting&rdquo;</p></li>
+<li><p>. Once this page reloads, and show the license agreement page, open windows explorer and navigate to the configuration directory, the default is C:\ProgramData\JetBrains\TeamCity</p></li>
+<li><p>. Open the services snap-in and stop both the TeamCity Build Agent and TeamCity Server services</p>
+
+<ol>
+<li><p>Hit the Start button</p></li>
+<li><p>Type &ldquo;services.msc&rdquo; and press Enter</p></li>
+<li><p>Find each named service and click stop</p></li>
+</ol>
+</li>
+<li><p>. Back to Windows Explorer, navigate into the configuration folder.  Find the database.mysql.properties.dist file.  Copy and paste this file, and rename the newly created file as database.properties (NOTE: This name is very important.  Compare to the screenshot below to ensure it is correct.</p></li>
+<li><p>. Open the database.properties file and notice the section that you have to update</p></li>
+<li><p>. Make the necessary changes and save the file (NOTE: I have added an extra configuration line to use UTF-8 character encoding, which if you followed the <a href="http://gep13.me/Z3jaBI">Profile Instance, with a database and user</a> is what your database will use</p></li>
+<li><p>. Open an internet browser and download the latest JDBC driver for MySQL.  The main download site can be found <a href="http://dev.mysql.com/downloads/connector/j/">here</a>.</p></li>
+<li><p>. Browse to where you downloaded the driver and extract the contents of the download.  Find the .jar file and copy this into the lib folder within the TeamCity configuration directory.  Typically C:\ProgramData\JetBrains\TeamCity\lib\jdbc</p></li>
+<li><p>. Open the services snap-in and start both the TeamCity Server, and TeamCity Build Agent services</p>
+
+<ol>
+<li><p>Hit the Start button</p></li>
+<li><p>Type &ldquo;services.msc&rdquo; and press Enter</p></li>
+<li><p>Find each named service and click start</p></li>
+</ol>
+</li>
+<li><p>. Open an internet browser and open the TeamCity home page.  As per these installation instructions, that would be <a href="http://localhost:8080,">http://localhost:8080,</a> but the port may be different depending on what you selected.  You will get a warning about the Database being empty.  That is to be expected, as we have only just set this up, and it doesn&rsquo;t contain anything</p></li>
+<li><p>. Click the link entitled &ldquo;I&rsquo;m a server administrator, show me the details&rdquo;.  We need to locate the authentication token, before TeamCity will let us continue with the setup.  To do this, we have to open the log file for the TeamCity instance</p></li>
+<li><p>. Open windows explorer, and navigate to the TeamCity installation folder, typically this is C:\TeamCity and find the logs folder, and in that folder, the teamcity-server.log.  Open this file.</p></li>
+<li><p>. Scroll to the end of this log file, and the last line in the log file should contain the authentication token.  Copy this token to your clipboard</p></li>
+<li><p>. Go back to the internet browser, and paste the token and click Confirm.  This will take you to the &ldquo;TeamCity Database Creation&rdquo; window.  Confirm that the details are correct, and click Proceed</p></li>
+<li><p>. TeamCity will then create the database and finish configuration setup</p></li>
+<li><p>. If you are interested, you can open MySQL Workbench and look at all the tables that have just been created</p></li>
+<li><p>. Back in the internet browser, you should be presented with the TeamCity license agreement again.  Read through this, and when happy click the &ldquo;Accept license agreement&rdquo; check box, and then click Continue</p></li>
+<li><p>. Enter the details for an administrator account that you will use to administer this TeamCity instance and click Create Account</p></li>
+<li><p>. Job done!</p></li>
+</ol>
+
+
+<p>You can see screenshots of each of these steps in the galley at the bottom of this blog post.</p>
+
+<p>There are still steps remaining in terms of setting up projects, build configurations, and other TeamCity settings, but these will be topics for other blog posts.</p>
+
+<h1>Installation Screenshots</h1>
+
+<p>[gallery ids=&ldquo;1804,1805,1806,1807,1808,1809,1810,1811,1812,1813,1814,1815,1816,1817,1818,1819,1820,1821,1822,1823,1824,1825,1826,1827,1828,1829,1830,1831,1832,1833,1834,1835,1836,1837&rdquo;]</p>
+</div>
+
+</article>
+
+	<div class="share">
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<div class="addthis_sharing_toolbox"></div>
+
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/plain" class="cc-onconsent-social" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54075e8542beba4d"></script>
+</div>
+
+
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+			</div>
+			<footer id="footer" class="inner"><p>
+  Copyright &copy; 2014 - gep13 -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+<p>Theme: <a href="https://github.com/qingwang/octopress-theme-yinyang">YinYang</a></p>
+</footer>
+			<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/plain" class="cc-onconsent-social">
+      var disqus_shortname = 'gep13';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-install-teamcity/';
+        var disqus_url = 'http://www.gep13.co.uk/blog/how-to-install-teamcity/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+	<script type="text/plain" class="cc-onconsent-analytics">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-20926037-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+
+		</div>
+	</div>
+</body>
+</html>
