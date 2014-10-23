@@ -40,7 +40,3 @@ Using the [Insider](http://www.windowsphone.com/en-gb/store/app/insider/d9b7989e
 I firmly believe that the Nokia Lumia 925 will need charged tomorrow morning, but I am very curious to see how the Nokia Lumia 920 lasts before needing another charge.
 
 In addition, here is a gallery of how the battery was discharging through the 11 days that it was being used.  Very impressive!
-
-{% flickr_photoset 72157648525335240 %}
-
-
