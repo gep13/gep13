@@ -167,6 +167,78 @@ $(function(){
   
 
 
+<time datetime="2011-12-12T12:37:28+00:00" data-updated="true" itemprop="datePublished">Dec 12th, 2011</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/office-365/'>office 365</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="/blog/microsoft-lync-2010-for-windows-phone-wont-connect-to-office-365/#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+
+	<h1 class="title" itemprop="name"><a href="/blog/microsoft-lync-2010-for-windows-phone-wont-connect-to-office-365/" itemprop="url">Microsoft Lync 2010 for Windows Phone – Won’t Connect to Office 365</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/clip_image002.jpg"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/clip_image002_thumb.jpg" alt="clip_image002" /></a></p>
+
+<p>This morning, thanks to the medium of Twitter I found out that the Lync 2010 Client for Windows Phone had been released. A quick search on the Marketplace, and the application was downloading onto my Phone.</p>
+
+<p>I immediately went and typed in the credentials for my Office 365 account expecting that it would just work, however, it came back with an error saying that it was “Unable to Sign In” and that I should check my sign in details, and server etc.</p>
+
+<p>The first thing I checked was that Lync was still connecting fine from my desktop application, and it was. The second thing I tried was to manually type in the server name (or what I thought was the server name) into the necessary places, however, this didn’t work either.</p>
+
+<p>After a bit of googling/binging, I found this:</p>
+
+<p><a href="http://community.office365.com/en-us/w/lync/1040.aspx">http://community.office365.com/en-us/w/lync/1040.aspx</a></p>
+
+<p>Which suggested that I needed to add another CNAME record to my DNS configuration in order for the Windows Phone application to work correctly. However, as per this <a href="http://www.gep13.co.uk/blog/?p=260">blog post</a> I believed that I had already setup the required DNS Settings. Time to investigate…</p>
+
+<p><strong><em>NOTE: What follows is only required is your are managing your own DNS entries for your Office 365 Domain.</em></strong></p>
+
+<p>After logging into my Office 365 account, I selected:</p>
+
+<ul>
+<li><p>Home</p></li>
+<li><p>Admin</p></li>
+<li><p>Management | Domains</p></li>
+<li><p>Selected the domain of interest, and then click “Manage DNS”</p></li>
+</ul>
+
+
+<p>And sure enough, the required DNS Records for Office 365 had changed since I last looked at it:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/clip_image0024.jpg"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/clip_image0024_thumb.jpg" alt="clip_image002[4]" /></a></p>
+
+<p>There is a new CNAME entry for lyncdiscover.gep13.co.uk. And actually, the requirement for the second SRV record has been removed, replaced with another CNAME record.</p>
+
+<p>I then set about making the required changes with my domain registrar, and after the required propagation time, I am happy to report that I am now able to connect my Windows Phone running Lync 2010 to my Office 365 account.</p>
+
+<p>It would be nice to know if there were notifications about the changes to the DNS requirements for Office 365. If anyone knows where I can get these, I would be very interested to hear about it!</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+ 	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
 <time datetime="2011-12-11T12:34:32+00:00" data-updated="true" itemprop="datePublished">Dec 11th, 2011</time></div> 
  		<div class="tags">
 
@@ -991,50 +1063,6 @@ During the talk, Andy also asked another question, “<em>What does a developer 
 <p>If you are at all interested in Mountain Biking, I would highly recommend that you check it out!</p>
 
 <p><a href="http://www.mtbtrails.info/Default.aspx"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/11/image_thumb.png" alt="image" /></a></p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
- 	<div class="meta"> 
- 		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-11-16T19:22:35+00:00" data-updated="true" itemprop="datePublished">Nov 16th, 2011</time></div> 
- 		<div class="tags">
-
-
-	<a class='category' href='/blog/categories/community-events/'>community events</a>
-
-
-</div> 
- 		 
- 			<span class="comments"><a href="/blog/almost-time-for-dunddd/#disqus_thread">Comments</a></span> 
- 		 
- 	</div> 
-
-	<h1 class="title" itemprop="name"><a href="/blog/almost-time-for-dunddd/" itemprop="url">Almost Time for #DunDDD</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<p><img src="http://www.craigmurphy.com/blog/wp-content/uploads/2011/11/ddds-logo-banner.gif" alt="" />It doesn’t seem that long ago since the last DDD Events in October, but it is now time for another one! This time it is <a href="http://dundee.dddscotland.co.uk/">DunDDD</a>, a DDD event in Dundee, Scotland.</p>
-
-<p>After the success of the <a href="http://www.gep13.co.uk/blog/?p=99">NoSQL Autumn Conference</a> that was held in Dundee last year, <a href="http://scottishdevelopers.com/">Scottish Developers</a> have teamed up with them to bring you a 15 session event spread over 3 tracks is to be held on the 19th November 2011. One of the tracks is solely dedicated to NoSQL. Have a look at the <a href="http://dundee.dddscotland.co.uk/lineup">session</a> information and <a href="http://dundee.dddscotland.co.uk/lineup/agenda">agenda</a>, for full information about what will be happening on the day.</p>
-
-<p>Best of all, as with all the DDD Events, DunDDD is completely free, so there is really no excuse not to attend. If you are interested in attending DunDDD make sure you visit the website to register to ensure that you will get a space.</p>
-
-<p>More information about this can be found on Craig Murphy’s Blog <a href="http://www.craigmurphy.com/blog/?p=2131">here</a>.</p>
 
 		
 		

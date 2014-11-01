@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Community Events | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/community-events/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2014-10-23T21:02:05+00:00</updated>
+  <updated>2014-11-01T21:06:38+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Registration for DunDDD 2014 Is Now Open]]></title>
+    <link href="http://www.gep13.co.uk/blog/registration-for-dunddd-2014-is-now-open/"/>
+    <updated>2014-11-01T00:00:00+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/registration-for-dunddd-2014-is-now-open</id>
+    <content type="html"><![CDATA[<h1>Grab your ticket for DunDDD quickly so you don&rsquo;t miss out!</h1>
+
+<p>The call for speakers at the Scottish Community Event (organised by the <a href="http://scottishdevelopers.com/">Scottish Developers</a>) known as <a href="http://dun.dddscotland.co.uk/speaker">DunDDD </a>has now closed and the registration has opened.</p>
+
+<!--more-->
+
+
+<h1>DunDDD is now in its fourth year</h1>
+
+<p>This will be the 4th DunDDD, built on the popular foundation of the Developer! Developer! Developer! conference series which has spread to all corners of the UK and the international arena.  DDD conferences are community-run days where passionate and enthusiastic people come together to learn, share ideas, and to network within the many hubs of the development community. Best of all DDD events are <strong>free</strong> to everyone!</p>
+
+<p>This year DunDDD will be featuring an entire track dedicated to the <strong>Not Only SQL</strong> movement and <strong>Big Data</strong>.</p>
+
+<p>Go and grab your <a href="http://dun.dddscotland.co.uk/registration">ticket now</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Slides and Code From Continuous Integration 101 Talk at DunDDD]]></title>
@@ -146,91 +168,6 @@ In this session we will look at how you can incrementally work your way to fully
 <p>This is a new talk for me, and I am very much looking forward to doing it.  I am currently using Caliburn.Micro in the two Windows Phone 7 applications that I am involved with, and I really think that it is a great framework to build on.</p>
 
 <p>Registration for <a href="http://developerdeveloperdeveloper.com/north2">DDD North</a> opens tomorrow, 28th August, at 1pm, so in order to avoid disappointment, make sure that you are signed into the website, ready to click on the registration button.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Sessions That I Have Submitted for DDD North 2012]]></title>
-    <link href="http://www.gep13.co.uk/blog/sessions-that-i-have-submitted-for-ddd-north-2012/"/>
-    <updated>2012-08-18T16:13:45+00:00</updated>
-    <id>http://www.gep13.co.uk/blog/sessions-that-i-have-submitted-for-ddd-north-2012</id>
-    <content type="html"><![CDATA[<p>Hot on the heels of <a href="http://www.gep13.co.uk/blog/my-impressions-of-dddsw-4/">DDD South West</a>, it is now almost time for <a href="http://developerdeveloperdeveloper.com/north2/Default.aspx">DDD North</a>.  All of the proposed sessions have been submitted, and it is now time for the community to vote for which sessions they would like to see.</p>
-
-<p>This year I committed myself to start speaking at community events, and this started with my <a href="http://www.gep13.co.uk/blog/dddsw-4-stylecop-breaking-down-the-barriers-to-entry/">StyleCop presentation</a> at DDD South West, and this will hopefully continue at DDD North.  I have submitted 3 sessions, the details of which can be seen below, and I am hoping that one of them will be selected.</p>
-
-<p>Of course, if this doesn’t happen, I am still planning on attending DDD North as it looks like there is an awesome line up of speakers and everything that I heard about the inaugural event last year is that this isn’t to be missed!</p>
-
-<p><em><strong>NOTE:</strong> There is of course still </em><a href="http://developerdeveloperdeveloper.com/ddd10/"><em>DDD10</em></a><em> in September, but, unfortunately, I am not able to attend this year, gutted!  From what I understand, the tickets for this event are now all booked up, but if you are still looking to attend, make sure that you get yourself onto the waiting list.</em></p>
-
-<p>If you are interested in attending DDD North, you can find out all the information about it <a href="http://developerdeveloperdeveloper.com/north2/Default.aspx">here</a>, and you can vote for the sessions that you would like to see <a href="http://developerdeveloperdeveloper.com/north2/Users/VoteForSessions.aspx">here</a>.  Voting for the proposed sessions for DDD North closes on the 24th August, so if you are looking to attend, be sure to vote for the sessions that you would like to see (hopefully one of mine).  Registration for the event opens on the 28th August 2012.  In order to avoid disappointment, make sure that you are logged into the site on the morning that the registration opens so that you can get your ticket.</p>
-
-<p>Here are my session submissions….</p>
-
-<h1>Getting started with Caliburn.Micro and Windows Phone 7</h1>
-
-<blockquote>Getting started with the Windows Phone 7 Development Platform is relatively simple, however, using a Framework like Caliburn.Micro takes away some of the more mundane tasks, and allows you to focus on what you are trying to achieve.  In this session we will start with a blank Windows Phone 7 project, and start to create our first Windows Phone 7 application using features such as:
-
-> 
-> 
-    
->   * ActionMessages
-> 
-    
->   * Action Conventions
-> 
-    
->   * Binding Conventions
-> 
-    
->   * Navigation Service
-> 
-    
->   * The Bootstrapper
-> 
-    
->   * The IPhoneService
-> 
-    
->   * Tombstoning
-> 
-    
->   * Lauchers and Choosers
-> 
-    
->   * The IWindowManager
-> 
-
-</blockquote>
-
-
-<h1>StyleCop – Breaking down the barriers to entry</h1>
-
-<blockquote>Starting with a brief introduction to what StyleCop is, and what it can be used for, we will then apply StyleCop directly to a real world application.  Then we will investigate:
-
-> 
-> 
-    
->   * What breaks?
-> 
-    
->   * What doesn’t work?
-> 
-    
->   * What techniques we can use to correct StyleCop warnings/errors, and ignore them completely?
-> 
-    
->   * What tools can be used to speed up refactoring for StyleCop warnings/errors?
-> 
-
-</blockquote>
-
-
-<h1>Nuget – What on earth is it?</h1>
-
-<blockquote>You have probably heard in passing about this mystical thing call Nuget, but what actually is it?  In this talk we will breakdown exactly what Nuget is, and who you can integrate it into your Source Control, as well as how to create and consume your own Nuget packages.</blockquote>
-
-
-<p>If you are interested in attending DDD North, you can find out all the information about it <a href="http://developerdeveloperdeveloper.com/north2/Default.aspx">here</a>, and you can vote for the sessions that you would like to see <a href="http://developerdeveloperdeveloper.com/north2/Users/VoteForSessions.aspx">here</a>.</p>
 ]]></content>
   </entry>
   
