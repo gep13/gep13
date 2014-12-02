@@ -35,6 +35,10 @@ environment:
 #       build configuration       #
 #---------------------------------#
 
+install:
+  - appveyor DownloadFile http://curl.haxx.se/ca/cacert.pem
+  - SET SSL_CERT_FILE=%APPVEYOR_BUILD_FOLDER%\cacert.pem
+  
 build_script:
   - cmd: bundle install
   - cmd: set SSL_CERT_FILE=%CD%\flickr.pem
