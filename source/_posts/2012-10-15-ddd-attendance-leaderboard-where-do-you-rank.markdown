@@ -28,6 +28,9 @@ The complete list is:
 
 **Event Name** | **Event Date**
 --- | ---
+DDD Brisbane 4 | 6th December 2014
+DDD Brisbane 3 | 7th December 2013
+DDD Brisbane 2 | 1st December 2012
 DDD North 2 | 13th October 2012
 DDD Reading 10 | 1st September 2012
 DDD Sydney 3 | 30th June 2012
