@@ -71,8 +71,8 @@ We got to talking about this before and during the pre-conference dinner, and th
 
 **Name** | **Number of events attended**
 --- | ---
+[Craig Murphy](http://twitter.com/camurphy) | 26
 [Guy Smith-Ferrier](http://twitter.com/guysmithferrier) | 25
-[Craig Murphy](http://twitter.com/camurphy) | 23
 [Colin Mackay](http://twitter.com/colinmackay) | 22
 [Dave Sussman](https://twitter.com/DaveSussman) | 22
 [Liam Westley](https://twitter.com/westleyl) | 18
@@ -82,6 +82,7 @@ We got to talking about this before and during the pre-conference dinner, and th
 [John McLoughlin](https://twitter.com/Imaji) | 13
 [Nathan Gloyn](https://twitter.com/nathangloyn) | 13
 [Tom Robinson](https://twitter.com/tjrobinson) | 11
+[James Murphy](https://twitter.com/recumbent) | 9
 [Paul Stack](https://twitter.com/stack72) | 9
 [Phil Collins](https://twitter.com/fatherfil) | 9
 [Rory Becker](https://twitter.com/RoryBecker) | 9
@@ -92,7 +93,6 @@ We got to talking about this before and during the pre-conference dinner, and th
 [Richard Dalton](https://twitter.com/richardadalton) | 6
 [Adrian Banks](https://twitter.com/adrianbanks) | 6
 [Gary Ewan Park](https://twitter.com/gep13) | 6
-[James Murphy](https://twitter.com/recumbent) | 6
 [Niall Merrigan](https://twitter.com/nmerrigan) | 5
 [Craig Nicol](https://twitter.com/craignicol) | 4
 [Peter Shaw](https://twitter.com/shawty_ds) | 4
