@@ -33,8 +33,8 @@ The complete list is:
 DDD Brisbane 4 | 6th December 2014
 DunDDD 4 | 29th November 2014
 DDD North 4 | 18th October 2014
-DDD South West 5 | 17th May 2014
 DDD East Anglia 2014 | 13th September 2014
+DDD South West 5 | 17th May 2014
 DDD Brisbane 3 | 7th December 2013
 DunDDD 3 | 23rd November 2013
 DDD North 3 | 12th October 2013
@@ -43,8 +43,8 @@ DDD Brisbane 2 | 1st December 2012
 DunDDD 2 | 17th November 2012
 DDD North 2 | 13th October 2012
 DDD Reading 10 | 1st September 2012
-DDD Sydney 3 | 30th June 2012
 DDD Melbourne 3 | 28th July 2012
+DDD Sydney 3 | 30th June 2012
 DDD South West 4 | 26th May 2012
 DDD Brisbane | 26th November 2011
 DunDDD 1 | 19th November 2011
