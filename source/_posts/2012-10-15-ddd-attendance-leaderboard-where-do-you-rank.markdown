@@ -33,6 +33,7 @@ The complete list is:
 DDD Brisbane 4 | 6th December 2014
 DunDDD 4 | 29th November 2014
 DDD North 4 | 18th October 2014
+DDD South West 5 | 17th May 2014
 DDD East Anglia 2014 | 13th September 2014
 DDD Brisbane 3 | 7th December 2013
 DunDDD 3 | 23rd November 2013
