@@ -14,7 +14,9 @@ tags:
 - DunDDD
 ---
 
-![](http://www.craigmurphy.com/blog/wp-content/uploads/2011/11/ddds-logo-banner.gif)It doesn’t seem that long ago since the last DDD Events in October, but it is now time for another one! This time it is [DunDDD](http://dundee.dddscotland.co.uk/), a DDD event in Dundee, Scotland.
+![](http://www.craigmurphy.com/blog/wp-content/uploads/2011/11/ddds-logo-banner.gif)
+
+It doesn’t seem that long ago since the last DDD Events in October, but it is now time for another one! This time it is [DunDDD](http://dundee.dddscotland.co.uk/), a DDD event in Dundee, Scotland.
 
 After the success of the [NoSQL Autumn Conference](http://www.gep13.co.uk/blog/nosql-autumn-conference-2010dundee/) that was held in Dundee last year, [Scottish Developers](http://scottishdevelopers.com/) have teamed up with them to bring you a 15 session event spread over 3 tracks is to be held on the 19th November 2011. One of the tracks is solely dedicated to NoSQL. Have a look at the [session](http://dundee.dddscotland.co.uk/lineup) information and [agenda](http://dundee.dddscotland.co.uk/lineup/agenda), for full information about what will be happening on the day.
 
