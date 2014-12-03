@@ -96,11 +96,11 @@ We got to talking about this before and during the pre-conference dinner, and th
 [Nathan Gloyn](https://twitter.com/nathangloyn) | 13
 [Phil Pursglove](https://twitter.com/philpursglove) | 11
 [Tom Robinson](https://twitter.com/tjrobinson) | 11
+[Ross Scott](https://twitter.com/RossDScott) | 10
 [James Murphy](https://twitter.com/recumbent) | 9
 [Paul Stack](https://twitter.com/stack72) | 9
 [Phil Collins](https://twitter.com/fatherfil) | 9
 [Rory Becker](https://twitter.com/RoryBecker) | 9
-[Ross Scott](https://twitter.com/RossDScott) | 8 
 [Joel Hammond-Turner](https://twitter.com/rammesses) | 8
 [Alastair Smith](https://twitter.com/alastairs) | 6
 [Richard Dalton](https://twitter.com/richardadalton) | 6
