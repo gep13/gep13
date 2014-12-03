@@ -29,17 +29,20 @@ The complete list is:
 **Event Name** | **Event Date**
 --- | ---
 DDD Brisbane 4 | 6th December 2014
+DunDDD 4 | 29th November 2014
 DDD North 4 | 18th October 2014
 DDD Brisbane 3 | 7th December 2013
+DunDDD 3 | 23rd November 2013
 DDD North 3 | 12th October 2013
 DDD Brisbane 2 | 1st December 2012
+DunDDD 2 | 17th November 2012
 DDD North 2 | 13th October 2012
 DDD Reading 10 | 1st September 2012
 DDD Sydney 3 | 30th June 2012
 DDD Melbourne 3 | 28th July 2012
 DDD South West 4 | 26th May 2012
 DDD Brisbane | 26th November 2011
-DunDDD 2 | 10th November 2011
+DunDDD 1 | 19th November 2011
 DDD North 1 | 8th October 2011
 DDD Belfast 2 | 1st October 2011
 DDD Adelaide | 16th July 2011
@@ -48,7 +51,7 @@ DDD South West 3 | 11th June 2011
 DDD Melbourne 2 | 28th May 2011
 DDD Scotland 4 | 7th May 2011
 DDD Reading 9 | 29th January 2011
-DunDDD 1 | 20th November 2010
+NooSQL Autumn Conference | 20th November 2010
 Modern .Net Day (DDD 8a) | 23rd October 2010
 DDD Dublin | 9th October 2010
 Windows Phone 7 | 7th October 2010
