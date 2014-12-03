@@ -29,7 +29,9 @@ The complete list is:
 **Event Name** | **Event Date**
 --- | ---
 DDD Brisbane 4 | 6th December 2014
+DDD North 4 | 18th October 2014
 DDD Brisbane 3 | 7th December 2013
+DDD North 3 | 12th October 2013
 DDD Brisbane 2 | 1st December 2012
 DDD North 2 | 13th October 2012
 DDD Reading 10 | 1st September 2012
@@ -78,8 +80,8 @@ We got to talking about this before and during the pre-conference dinner, and th
 [Guy Smith-Ferrier](http://twitter.com/guysmithferrier) | 25
 [Colin Mackay](http://twitter.com/colinmackay) | 22
 [Dave Sussman](https://twitter.com/DaveSussman) | 22
+[Andrew Westgarth](http://twitter.com/apwestgarth) | 21
 [Liam Westley](https://twitter.com/westleyl) | 18
-[Andrew Westgarth](http://twitter.com/apwestgarth) | 17
 [Chris Alcock](http://twitter.com/calcock) | 17
 [Andy Gibson](http://twitter.com/ARGibson) | 16
 [John McLoughlin](https://twitter.com/Imaji) | 13
