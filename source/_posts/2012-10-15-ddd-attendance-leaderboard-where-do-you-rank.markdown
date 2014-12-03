@@ -51,7 +51,7 @@ DDD South West 3 | 11th June 2011
 DDD Melbourne 2 | 28th May 2011
 DDD Scotland 4 | 7th May 2011
 DDD Reading 9 | 29th January 2011
-NooSQL Autumn Conference | 20th November 2010
+NoSQL Autumn Conference | 20th November 2010
 Modern .Net Day (DDD 8a) | 23rd October 2010
 DDD Dublin | 9th October 2010
 Windows Phone 7 | 7th October 2010
