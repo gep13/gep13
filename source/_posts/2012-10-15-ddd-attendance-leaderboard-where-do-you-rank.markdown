@@ -20,6 +20,8 @@ tags:
 - DDDSW
 - DDDSydney
 - DunDDD
+- DDDEastAnglia
+
 ---
 
 On the reverse of the DDD North 2 Speaker and Helper t-shirts, Andy Westgarth ([@apwestgarth](http://twitter.com/apwestgarth)) had compiled a list of all the DDD events, starting back on the 15th May 2005.
@@ -31,9 +33,11 @@ The complete list is:
 DDD Brisbane 4 | 6th December 2014
 DunDDD 4 | 29th November 2014
 DDD North 4 | 18th October 2014
+DDD East Anglia 2014 | 13th September 2014
 DDD Brisbane 3 | 7th December 2013
 DunDDD 3 | 23rd November 2013
 DDD North 3 | 12th October 2013
+DDD East Anglia 2013 | 29th June 2013
 DDD Brisbane 2 | 1st December 2012
 DunDDD 2 | 17th November 2012
 DDD North 2 | 13th October 2012
