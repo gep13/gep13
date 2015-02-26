@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Office 365 | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/office-365/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2015-01-01T18:02:19+00:00</updated>
+  <updated>2015-02-26T19:41:24+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -26,9 +26,9 @@
 <p>To me, it seemed like a simple enough question, however, at the time, it seemed that there was no simple answer.  Once the Office 365 Beta that I was using for managing the <a href="http://www.aberdeendevelopers.co.uk/">Aberdeen Developers .Net User Group</a> email expired, I transitioned to using a paid P1 plan.  This was for a number of reasons:</p>
 
 <ol>
-<li><p> The Office 365 Service is very good!  It does exactly what it says on the tin, and I had already done the hard work of setting up the domain, and getting it all working.</p></li>
-<li><p> As I mentioned in my earlier blog post, it is not a huge amount of money for the service, so I was happy to pay for it.  The only slight problem being that other members of the User Group simply use email aliases, rather than having a full-blown mailbox, as we couldn’t warrant paying for an account for everyone.</p></li>
-<li><p> There was still no confirmation on whether we could, or could not get it for free.</p></li>
+<li><p>The Office 365 Service is very good!  It does exactly what it says on the tin, and I had already done the hard work of setting up the domain, and getting it all working.</p></li>
+<li><p>As I mentioned in my earlier blog post, it is not a huge amount of money for the service, so I was happy to pay for it.  The only slight problem being that other members of the User Group simply use email aliases, rather than having a full-blown mailbox, as we couldn’t warrant paying for an account for everyone.</p></li>
+<li><p>There was still no confirmation on whether we could, or could not get it for free.</p></li>
 </ol>
 
 
@@ -219,14 +219,14 @@
 <p>I fell back on trying to use nslookup to get the information that I needed, and I was finally able to figure out how to do this.</p>
 
 <ol>
-<li><p> Start | run</p></li>
-<li><p> Type cmd then press enter</p></li>
-<li><p> Type nslookup and then press enter</p></li>
-<li><p> Type set type=srv and then press enter</p></li>
-<li><p> Type <em>sip.</em>tls.<your domain name here> and press enter</p></li>
-<li><p> You will then get the record back</p></li>
-<li><p> Type <em>sipfederationtls.</em>tcp.<your domain name here> and press enter</p></li>
-<li><p> You will then get your record back</p></li>
+<li><p>Start | run</p></li>
+<li><p>Type cmd then press enter</p></li>
+<li><p>Type nslookup and then press enter</p></li>
+<li><p>Type set type=srv and then press enter</p></li>
+<li><p>Type <em>sip.</em>tls.<your domain name here> and press enter</p></li>
+<li><p>You will then get the record back</p></li>
+<li><p>Type <em>sipfederationtls.</em>tcp.<your domain name here> and press enter</p></li>
+<li><p>You will then get your record back</p></li>
 </ol>
 
 

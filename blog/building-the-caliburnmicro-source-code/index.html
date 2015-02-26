@@ -199,11 +199,11 @@ $(function(){
 <p>Once the zip file has downloaded:</p>
 
 <ol>
-<li><p> Go to the folder where you saved it</p></li>
-<li><p> Right click on the zip file and select properties</p></li>
-<li><p> Click the Unblock button</p></li>
-<li><p> Click on Apply, then click OK</p></li>
-<li><p> Right click on the zip file again and select Extract All, and walk through the extraction wizard</p></li>
+<li><p>Go to the folder where you saved it</p></li>
+<li><p>Right click on the zip file and select properties</p></li>
+<li><p>Click the Unblock button</p></li>
+<li><p>Click on Apply, then click OK</p></li>
+<li><p>Right click on the zip file again and select Extract All, and walk through the extraction wizard</p></li>
 </ol>
 
 
@@ -233,13 +233,13 @@ $(function(){
 <p>Do the following:</p>
 
 <ol>
-<li><p> Open PowerShell as an Administrator</p></li>
-<li><p> Run the command <em><strong>Get-ExecutionPolicy</strong></em></p></li>
-<li><p> If this returns a value of “Restricted” then you are going to need to change this, otherwise the PowerShell script to create the Nuget package will not run.  The command that you will need to run is <strong><em>Set-ExecutionPolicy RemoteSigned</em></strong></p></li>
-<li><p> Browse to the folder where the above .ps1 file is located</p></li>
-<li><p> Run the following command <strong><em>.\create-package.ps1</em></strong></p></li>
-<li><p> This will generate two Nuget packages, one called “Caliburn.Micro.1.3.2.nupkg” and “Caliburn.Micro.Start.1.3.2.nupkg”</p></li>
-<li><p> Finally, if your previous execution policy for PowerShell was restricted, be sure to put this back.  To do this, run the command <strong><em>Set-ExecutionPolicy Restricted</em></strong></p></li>
+<li><p>Open PowerShell as an Administrator</p></li>
+<li><p>Run the command <em><strong>Get-ExecutionPolicy</strong></em></p></li>
+<li><p>If this returns a value of “Restricted” then you are going to need to change this, otherwise the PowerShell script to create the Nuget package will not run.  The command that you will need to run is <strong><em>Set-ExecutionPolicy RemoteSigned</em></strong></p></li>
+<li><p>Browse to the folder where the above .ps1 file is located</p></li>
+<li><p>Run the following command <strong><em>.\create-package.ps1</em></strong></p></li>
+<li><p>This will generate two Nuget packages, one called “Caliburn.Micro.1.3.2.nupkg” and “Caliburn.Micro.Start.1.3.2.nupkg”</p></li>
+<li><p>Finally, if your previous execution policy for PowerShell was restricted, be sure to put this back.  To do this, run the command <strong><em>Set-ExecutionPolicy Restricted</em></strong></p></li>
 </ol>
 
 
