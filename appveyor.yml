@@ -40,6 +40,7 @@ install:
   - SET SSL_CERT_FILE=%APPVEYOR_BUILD_FOLDER%\cacert.pem
   
 build_script:
+  - cmd: gem install bundler
   - cmd: bundle install
   - cmd: set SSL_CERT_FILE=%CD%\flickr.pem
   - cmd: if not exist _deploy (git clone https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git _deploy)
