@@ -30,10 +30,16 @@ The complete list is:
 
 **Event Name** | **Event Date**
 --- | ---
+DDD North 5 | 24th October 2015
+DDD East Anglia 2015 | 26th September 2015
+DDD Perth | 29th August 2015
+DDD Melbourne 5 | 8th August 2015
+DDD South West 6 | 25th April 2015
 DDD Brisbane 4 | 6th December 2014
 DunDDD 4 | 29th November 2014
 DDD North 4 | 18th October 2014
 DDD East Anglia 2014 | 13th September 2014
+DDD Melbourne 4 | 19th July 2014
 DDD South West 5 | 17th May 2014
 DDD Brisbane 3 | 7th December 2013
 DunDDD 3 | 23rd November 2013
@@ -46,7 +52,7 @@ DDD Reading 10 | 1st September 2012
 DDD Melbourne 3 | 28th July 2012
 DDD Sydney 3 | 30th June 2012
 DDD South West 4 | 26th May 2012
-DDD Brisbane | 26th November 2011
+DDD Brisbane 1 | 26th November 2011
 DunDDD 1 | 19th November 2011
 DDD North 1 | 8th October 2011
 DDD Belfast 2 | 1st October 2011
@@ -66,7 +72,7 @@ DDD Melbourne 1 | 15th May 2010
 DDD Scotland 3 | 8th May 2010
 DDD Reading 8 | 30th January 2010
 DDD South West 1 | 23rd May 2009
-DDD Scotland | 2nd May 2009
+DDD Scotland 2 | 2nd May 2009
 WebDD 2009 | 18th April 2009
 DDD Belfast 1 | 4th April 2009
 DDD Reading 7 | 22nd November 2008
