@@ -92,7 +92,7 @@ We got to talking about this before and during the pre-conference dinner, and th
 --- | ---
 [Craig Murphy](http://twitter.com/camurphy) | 26
 [Guy Smith-Ferrier](http://twitter.com/guysmithferrier) | 25
-[Colin Mackay](http://twitter.com/colinmackay) | 22
+[Colin Mackay](http://twitter.com/colinmackay) | 27
 [Dave Sussman](https://twitter.com/DaveSussman) | 22
 [Andrew Westgarth](http://twitter.com/apwestgarth) | 21
 [Nathan Gloyn](https://twitter.com/nathangloyn) | 19
