@@ -95,11 +95,11 @@ We got to talking about this before and during the pre-conference dinner, and th
 [Colin Mackay](http://twitter.com/colinmackay) | 22
 [Dave Sussman](https://twitter.com/DaveSussman) | 22
 [Andrew Westgarth](http://twitter.com/apwestgarth) | 21
+[Nathan Gloyn](https://twitter.com/nathangloyn) | 19
 [Liam Westley](https://twitter.com/westleyl) | 18
 [Chris Alcock](http://twitter.com/calcock) | 17
 [Andy Gibson](http://twitter.com/ARGibson) | 16
 [John McLoughlin](https://twitter.com/Imaji) | 13
-[Nathan Gloyn](https://twitter.com/nathangloyn) | 13
 [Adrian Banks](https://twitter.com/adrianbanks) | 11
 [Phil Pursglove](https://twitter.com/philpursglove) | 11
 [Tom Robinson](https://twitter.com/tjrobinson) | 11
