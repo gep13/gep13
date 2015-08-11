@@ -100,6 +100,7 @@ We got to talking about this before and during the pre-conference dinner, and th
 [Andy Gibson](http://twitter.com/ARGibson) | 16
 [John McLoughlin](https://twitter.com/Imaji) | 13
 [Nathan Gloyn](https://twitter.com/nathangloyn) | 13
+[Adrian Banks](https://twitter.com/adrianbanks) | 11
 [Phil Pursglove](https://twitter.com/philpursglove) | 11
 [Tom Robinson](https://twitter.com/tjrobinson) | 11
 [Ross Scott](https://twitter.com/RossDScott) | 10
@@ -110,7 +111,6 @@ We got to talking about this before and during the pre-conference dinner, and th
 [Joel Hammond-Turner](https://twitter.com/rammesses) | 8
 [Alastair Smith](https://twitter.com/alastairs) | 6
 [Richard Dalton](https://twitter.com/richardadalton) | 6
-[Adrian Banks](https://twitter.com/adrianbanks) | 6
 [Gary Ewan Park](https://twitter.com/gep13) | 6
 [Niall Merrigan](https://twitter.com/nmerrigan) | 5
 [Craig Nicol](https://twitter.com/craignicol) | 4
