@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Conferences | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/conferences/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2015-09-24T12:15:50+00:00</updated>
+  <updated>2015-09-24T12:23:49+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Slides From Talk at ScotSoft2015]]></title>
     <link href="http://www.gep13.co.uk/blog/slides-from-talk-at-scotsoft2015/"/>
-    <updated>2015-09-24T00:00:00+00:00</updated>
+    <updated>2015-09-24T13:20:13+00:00</updated>
     <id>http://www.gep13.co.uk/blog/slides-from-talk-at-scotsoft2015</id>
     <content type="html"><![CDATA[<h2>Semantic Versioning with GitVersion</h2>
 
