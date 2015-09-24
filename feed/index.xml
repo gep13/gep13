@@ -4,7 +4,7 @@
   <title><![CDATA[gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2015-08-11T12:32:35+00:00</updated>
+  <updated>2015-09-24T12:15:50+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -12,6 +12,44 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Slides from Talk at ScotSoft2015]]></title>
+    <link href="http://www.gep13.co.uk/blog/slides-from-talk-at-scotsoft2015/"/>
+    <updated>2015-09-24T00:00:00+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/slides-from-talk-at-scotsoft2015</id>
+    <content type="html"><![CDATA[<h2>Semantic Versioning with GitVersion</h2>
+
+<p>On Thursday 17th September 2015, I presented a talk entitled &ldquo;Semantic Versioning with GitVersion&rdquo; at the first Developer Forum as part of the <a href="http://www.scotlandis.com/scotsoft2015/">ScotlandIS ScotSoft2015</a> event.  The abstract for the talk was as follows:</p>
+
+<blockquote>
+Have you ever needed to control the version number of your application?  If so, you will know that this isn&#8217;t something that you &#8220;get for free&#8221;.  It&#8217;s hard!
+
+You may have tried to use some form of auto incrementing number from your Continuous Integration Server, or store a text file in source control and update it each time the build happens.  Both of these approaches will work, but they don&#8217;t account for more complicated scenarios where you are working on multiple releases at the same time, or you want to use multiple Continuous Integration Servers.
+
+In this session, we will look at how we can improve the versioning of your application using a combination of branching strategies (either Gitflow or Githubflow) and an open source tool called GitVersion.  
+
+GitVersion is a tool which allows you to easy generate the Semantic Version number for your application, based on the current state of your code base in it&#8217;s Git Repository.
+</blockquote>
+
+
+
+
+<!--more-->
+
+
+<p>I thoroughly enjoyed doing this presentation, and there were quite a few questions after the talk was finished, so I feel that people were able to get something from it.  If there are any follow-up questions, then please feel free to get in touch, and I will do my best to respond.</p>
+
+<h2>Slides</h2>
+
+<p>If you are interested in seeing teh slide from the talk, you can find them displayed below, or you can find the full version on SlideShare <a href="http://www.slideshare.net/gep13/semantic-versioning-with-gitversion">here</a>.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/53150160 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe>
+
+
+<p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Registration for DunDDD 2014 is now open]]></title>
@@ -1033,36 +1071,6 @@ In this session we will look at how you can incrementally work your way to fully
 <p>If you are interested in finding out more about Loupe Desktop, and how it can be used, be sure to check out Gary Short&rsquo;s (<a href="https://twitter.com/garyshort">@garyshort</a>) introductory video below:</p>
 
 <p><a href="http://www.youtube.com/watch?v=ALhL6_pQd3A">http://www.youtube.com/watch?v=ALhL6_pQd3A</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Upgrading the RAM of my Synology DS1512+]]></title>
-    <link href="http://www.gep13.co.uk/blog/upgrading-the-ram-of-my-synology-ds1512/"/>
-    <updated>2013-04-25T12:11:30+00:00</updated>
-    <id>http://www.gep13.co.uk/blog/upgrading-the-ram-of-my-synology-ds1512</id>
-    <content type="html"><![CDATA[<h1>Increasing my Synology DS1512+ RAM to 3GB</h1>
-
-<p>I have to say, I love my <a href="http://www.synology.com/products/product.php?product_name=DS1512%2B">Synology DS1512+</a>!  Out of the box, it comes with 1GB of RAM, which, if you are solely doing file sharing, is more than enough.  However, over the last couple months, I have started doing more and more with my Synology Server:</p>
-
-<ul>
-<li><p>Hosting Web Sites</p></li>
-<li><p>Running a Plex Media Server</p></li>
-<li><p>Backing up to the Cloud using CrashPlan</p></li>
-</ul>
-
-
-<p>As a result, I have noticed that certain things are taking longer than they &ldquo;should&rdquo;.  I decided that I wanted to increase the amount of RAM that is in the device.  Digging around the <a href="http://forum.synology.com/enu/">Synology Forums</a> it was clear that this is possible (with some people reporting that they were able to get 4GB to be recognised), it is just a case of deciding what RAM to go for.</p>
-
-<p>I opted to go for <a href="http://www.amazon.co.uk/gp/product/B0050X1OQ6/ref=oh_details_o00_s00_i00?ie=UTF8&amp;psc=1">this from Amazon</a>, and I am happy to report that it all worked perfectly!  After installing, the RAM was immediately detected, and the Synology Server is running very smoothly.  Definitely recommend the upgrade to anyone who has not yet done it.  Very cheap to do, with a marked improvement in performance.</p>
-
-<p>[caption id=&ldquo;attachment_2046&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;827&rdquo;]<a href="http://www.gep13.co.uk/blog/upgrading-the-ram-of-my-synology-ds1512/2013-04-24_1815/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/04/2013-04-24_1815.png" alt="Synology RAM Upgrade Complete" /></a> Synology RAM Upgrade Complete[/caption]</p>
-
-<h1>Video Help</h1>
-
-<p>If you are unsure about how to complete the memory upgrade, the below YouTube video should help you out:</p>
-
-<p><a href="http://www.youtube.com/watch?v=99snrldv4rI">http://www.youtube.com/watch?v=99snrldv4rI</a></p>
 ]]></content>
   </entry>
   

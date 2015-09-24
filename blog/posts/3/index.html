@@ -167,6 +167,65 @@ $(function(){
   
 
 
+<time datetime="2013-04-25T12:11:30+00:00" data-updated="true" itemprop="datePublished">Apr 25th, 2013</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/gadgets/'>gadgets</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="/blog/upgrading-the-ram-of-my-synology-ds1512/#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+
+	<h1 class="title" itemprop="name"><a href="/blog/upgrading-the-ram-of-my-synology-ds1512/" itemprop="url">Upgrading the RAM of My Synology DS1512+</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>Increasing my Synology DS1512+ RAM to 3GB</h1>
+
+<p>I have to say, I love my <a href="http://www.synology.com/products/product.php?product_name=DS1512%2B">Synology DS1512+</a>!  Out of the box, it comes with 1GB of RAM, which, if you are solely doing file sharing, is more than enough.  However, over the last couple months, I have started doing more and more with my Synology Server:</p>
+
+<ul>
+<li><p>Hosting Web Sites</p></li>
+<li><p>Running a Plex Media Server</p></li>
+<li><p>Backing up to the Cloud using CrashPlan</p></li>
+</ul>
+
+
+<p>As a result, I have noticed that certain things are taking longer than they &ldquo;should&rdquo;.  I decided that I wanted to increase the amount of RAM that is in the device.  Digging around the <a href="http://forum.synology.com/enu/">Synology Forums</a> it was clear that this is possible (with some people reporting that they were able to get 4GB to be recognised), it is just a case of deciding what RAM to go for.</p>
+
+<p>I opted to go for <a href="http://www.amazon.co.uk/gp/product/B0050X1OQ6/ref=oh_details_o00_s00_i00?ie=UTF8&amp;psc=1">this from Amazon</a>, and I am happy to report that it all worked perfectly!  After installing, the RAM was immediately detected, and the Synology Server is running very smoothly.  Definitely recommend the upgrade to anyone who has not yet done it.  Very cheap to do, with a marked improvement in performance.</p>
+
+<p>[caption id=&ldquo;attachment_2046&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;827&rdquo;]<a href="http://www.gep13.co.uk/blog/upgrading-the-ram-of-my-synology-ds1512/2013-04-24_1815/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/04/2013-04-24_1815.png" alt="Synology RAM Upgrade Complete" /></a> Synology RAM Upgrade Complete[/caption]</p>
+
+<h1>Video Help</h1>
+
+<p>If you are unsure about how to complete the memory upgrade, the below YouTube video should help you out:</p>
+
+<p><a href="http://www.youtube.com/watch?v=99snrldv4rI">http://www.youtube.com/watch?v=99snrldv4rI</a></p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+ 	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
 <time datetime="2013-04-24T11:00:45+00:00" data-updated="true" itemprop="datePublished">Apr 24th, 2013</time></div> 
  		<div class="tags">
 
@@ -1337,95 +1396,6 @@ Overall we’ll aim to provide a comprehensive overview of what’s new in Share
 <h1>Installation Screenshots</h1>
 
 <p>[gallery ids=&ldquo;1921,1922,1923,1924,1925,1926,1927,1928,1929,1930,1931,1932,1933,1934,1935,1936,1937,1938,1939,1940,1941,1942,1943,1944&rdquo;]</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
- 	<div class="meta"> 
- 		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-02-05T20:00:45+00:00" data-updated="true" itemprop="datePublished">Feb 5th, 2013</time></div> 
- 		<div class="tags">
-
-
-	<a class='category' href='/blog/categories/chocolatey-series/'>chocolatey series</a>
-
-
-</div> 
- 		 
- 			<span class="comments"><a href="/blog/how-to-configure-teamcity-nuget-server/#disqus_thread">Comments</a></span> 
- 		 
- 	</div> 
-
-	<h1 class="title" itemprop="name"><a href="/blog/how-to-configure-teamcity-nuget-server/" itemprop="url">How to Configure TeamCity NuGet Server</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<h1>What is TeamCity NuGet Server?</h1>
-
-<p>Within TeamCity, it is possible to integrate the NuGet Package Manager, which then allows you to:</p>
-
-<blockquote>
-
-> 
-> 
-    
->   * Install and update packages: [NuGet Installer](http://confluence.jetbrains.com/display/TCD7/NuGet+Installer) build runner;
-> 
-    
->   * Pack packages: [NuGet Pack](http://confluence.jetbrains.com/display/TCD7/NuGet+Pack) build runner;
-> 
-    
->   * Publish packages to a feed of your choice: [NuGet Publish](http://confluence.jetbrains.com/display/TCD7/NuGet+Publish) build runner. Alternatively you can use TeamCity as NuGet server.
-> 
-
-</blockquote>
-
-
-<p>If you want to find out more information about the TeamCity NuGet Server, you can find it <a href="http://confluence.jetbrains.com/display/TCD7/NuGet">here</a></p>
-
-<p>The following blog post walks through the steps to set up the TeamCity Nuget Server.</p>
-
-<h1>Installation Steps</h1>
-
-<p><strong>NOTE: </strong>The following configuration steps and screenshots were taken from a virtual machine with Windows Server 2008 R2 Service Pack 1, running Hyper-V on a Windows 8 Host Machine.</p>
-
-<p>These instructions are specific to version 7.1.3 of TeamCity, however, later version will likely follow very similar steps.</p>
-
-<p>You can see screenshots of each of these steps in the gallery at the bottom of this blog post.</p>
-
-<ol>
-<li><p>Assumption is that you already have <a href="http://gep13.me/VAeRiX">TeamCity</a> installed</p></li>
-<li><p>Log into your TeamCity instance</p></li>
-<li><p>Click on the Administration link at the top right hand corner</p></li>
-<li><p>Click on NuGet Settings down the left hand side</p></li>
-<li><p>By default, the NuGet Server will be disabled, so simply click on Enable to start it up</p></li>
-<li><p>By default, public access to the NuGet Server is not enabled, as the Guest User access will not be set up.  However, this can be done within Global Settings.  Assuming that you are wanting to easily gain access to the Feed that TeamCity provides, enabling this public access is recommended.  This is what we will do in the next few steps.</p></li>
-<li><p>Click on Global Settings</p></li>
-<li><p>Make sure that the &ldquo;Allow to login as a guest user&rdquo; checkbox is checked</p></li>
-<li><p>Go back to NuGet Settings, and you should now see that the Public Feed URL is enabled, and a URL to the feed to provided</p></li>
-<li><p>Click on the &ldquo;NuGet Commandline&rdquo; tab.  In here you can actually have multiple versions of the NuGet.exe installed, ready for use within different Build Configurations.  Click on &ldquo;Add NuGet&rdquo;.</p></li>
-<li><p>Select the version that you want to install, and click Add.</p></li>
-<li><p>And that&rsquo;s that!</p></li>
-</ol>
-
-
-<h1>Installation Screenshots</h1>
-
-<p>[gallery ids=&ldquo;1900,1901,1902,1903,1904,1905,1906,1907,1908,1909,1910&rdquo;]</p>
 
 		
 		

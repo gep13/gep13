@@ -167,6 +167,125 @@ $(function(){
   
 
 
+<time datetime="2012-10-10T17:30:57+00:00" data-updated="true" itemprop="datePublished">Oct 10th, 2012</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/general-development/'>general development</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="/blog/building-the-caliburnmicro-source-code/#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+
+	<h1 class="title" itemprop="name"><a href="/blog/building-the-caliburnmicro-source-code/" itemprop="url">Building the Caliburn.Micro Source Code</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>Caliburn.Micro Nuget Package doesn’t work</h1>
+
+<p>At the time of writing this blog post, the <a href="http://nuget.org/packages/Caliburn.Micro">Caliburn.Micro Nuget package</a> (Version 1.3.1) doesn’t install correctly.  It adds the necessary references to the Caliburn.Micro assemblies, but it doesn’t add the additional installation files to the project, namely the AppBootstrapper.cs and MainPageViewModel.cs.</p>
+
+<p>Thankfully, this is a known issue with the Caliburn.Micro package (it is listed <a href="http://caliburnmicro.codeplex.com/workitem/237">here</a>) and is actually as a result in the way the Nuget itself <a href="http://nuget.codeplex.com/workitem/2396">changed</a>.  Now, this problem has actually already been fixed in the latest Caliburn.Micro source code (which you can find <a href="http://caliburnmicro.codeplex.com/SourceControl/changeset/view/62cf1765f4ba">here</a>) but due to some remaining WinRT issues, the 1.3.2 version of Caliburn.Micro has not been released yet.</p>
+
+<p>So, what can you do if you want to get a working Nuget package?  The answer is to build the source code yourself.  Now, this may seem a little scary, but it really isn&#8217;t  and the following steps will work you through what you need to do.</p>
+
+<h1>To Clone or to download</h1>
+
+<p>The first decision that you will need to make is whether you want to Clone the Caliburn.Micro source control locally to your machine, or whether you just want to download the source code.  Due to the fact that I am lazy, the steps outlined here are going to talk you through the downloading route, but if you are interested in cloning the repository take a look at this article <a href="http://codeplex.codeplex.com/wikipage?title=Using%20TortoiseHG%20with%20CodePlex&amp;referringTitle=Source%20control%20clients&amp;ProjectName=codeplex">here</a>.</p>
+
+<h1>Let’s get started</h1>
+
+<p>So, first thing’s first, go ahead and download the latest Caliburn.Micro source code:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1466"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Download.png" alt="" /></a></p>
+
+<p>Once the zip file has downloaded:</p>
+
+<ol>
+<li><p>Go to the folder where you saved it</p></li>
+<li><p>Right click on the zip file and select properties</p></li>
+<li><p>Click the Unblock button</p></li>
+<li><p>Click on Apply, then click OK</p></li>
+<li><p>Right click on the zip file again and select Extract All, and walk through the extraction wizard</p></li>
+</ol>
+
+
+<p>Once that is complete, take a look at the contents of the folder.  In the root of the folder, you should see a “src” folder, which contains three Visual Studio solution files, namely:</p>
+
+<ul>
+<li><p>Caliburn.Micro.PackageBuilder.sln</p></li>
+<li><p>Caliburn.Micro.sln</p></li>
+<li><p>Caliburn.Micro.WinRT.sln</p></li>
+</ul>
+
+
+<p>In order to open the second solution file, you will need to have the Silverlight Tools and Windows Phone 7 SDK installed.</p>
+
+<p>In order to open the last solution file, you are going to need to have Visual Studio 2012 along with .Net Framework 4.5 installed.  If you don’t, and you try to open this solution in Visual Studio 2010, you will be greeted with the following:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1465"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_.WinRT_not_opening.png" alt="" /></a></p>
+
+<h1>Building the solutions</h1>
+
+<p>Depending on what frameworks you are targeting, i.e. Silverlight, Windows Phone 7, WinRT, open the correct solution file, and switch to doing a “Release” build.  Build the solution, and ensure that there are no errors.  The act of building the solution actually only creates the output assemblies, it doesn&#8217;t generate the Nuget package.  To be clear, at this point, you can build either solution, or both.  The Nuget package created works on whatever it can find, and will place only the output assemblies that it can located in the resulting Nuget package.</p>
+
+<h1>Creating the Nuget package</h1>
+
+<p>Go back to the root folder of the zip file, and find the “nuget” folder.  In here, you will find a PowerShell file called “create-packages.ps1”.</p>
+
+<p>Do the following:</p>
+
+<ol>
+<li><p>Open PowerShell as an Administrator</p></li>
+<li><p>Run the command <em><strong>Get-ExecutionPolicy</strong></em></p></li>
+<li><p>If this returns a value of “Restricted” then you are going to need to change this, otherwise the PowerShell script to create the Nuget package will not run.  The command that you will need to run is <strong><em>Set-ExecutionPolicy RemoteSigned</em></strong></p></li>
+<li><p>Browse to the folder where the above .ps1 file is located</p></li>
+<li><p>Run the following command <strong><em>.\create-package.ps1</em></strong></p></li>
+<li><p>This will generate two Nuget packages, one called “Caliburn.Micro.1.3.2.nupkg” and “Caliburn.Micro.Start.1.3.2.nupkg”</p></li>
+<li><p>Finally, if your previous execution policy for PowerShell was restricted, be sure to put this back.  To do this, run the command <strong><em>Set-ExecutionPolicy Restricted</em></strong></p></li>
+</ol>
+
+
+<h1>Why are there two Nuget packages?</h1>
+
+<p>In version 1.3.1 of Caliburn.Micro, it was assumed that everyone who was using the Nuget package wanted the additional files that it included.  This wasn&#8217;t always the case (as some people roll their own AppBootstrapper, etc) and as a result, they would have to delete the unwanted files.  To work around this, the Caliburn.Micro assemblies are stored in the “Caliburn.Micro.1.3.2.nupkg” package, and the additional installation files are stored in “Caliburn.Micro.Start.1.3.2.nupkg”.  To complete the story, the “.Start” package takes a dependency on the main “Caliburn.Micro” package.  This way, a user has a choice of what they want to use; very clever!</p>
+
+<h1>use a local Nuget repository</h1>
+
+<p>Now that you have these Nuget packages, what do you do with them?  What I do is I create a folder on my C:\ drive, typically c:\nugetpackages and I put the Nuget packages in there.  Then, within Visual Studio select Tools | Library Package Manager | Package Manager Settings.  In the windows that opens up, select “Package Sources”, click the green &ldquo;add&rdquo; button, and enter “Local Nuget” as the Name, and “C:\nugetpackages” as the source, and click the “Update” button:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1467"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Local_Nuget_Package_Source.png" alt="" /></a></p>
+
+<p>With this in place, then either through the Package Manager Console you can use the “Local Nuget” source and install the package:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1469"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Package_Manager_Console_Install.png" alt="" /></a></p>
+
+<p>Or, through the “Mange Nuget Packages” dialog you can again select “Local Nuget” and select the package that you want to install:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1468"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Manage_Nuget_Packages.png" alt="" /></a></p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+ 	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
 <time datetime="2012-10-10T17:00:19+00:00" data-updated="true" itemprop="datePublished">Oct 10th, 2012</time></div> 
  		<div class="tags">
 
@@ -840,52 +959,6 @@ $(function(){
 
 
 <p>If you are interested in attending DDD North, you can find out all the information about it <a href="http://developerdeveloperdeveloper.com/north2/Default.aspx">here</a>, and you can vote for the sessions that you would like to see <a href="http://developerdeveloperdeveloper.com/north2/Users/VoteForSessions.aspx">here</a>.</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
- 	<div class="meta"> 
- 		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-15T06:50:53+00:00" data-updated="true" itemprop="datePublished">Aug 15th, 2012</time></div> 
- 		<div class="tags">
-
-
-	<a class='category' href='/blog/categories/day-to-day/'>day to day</a>
-
-
-</div> 
- 		 
- 			<span class="comments"><a href="/blog/scottish-developers-have-a-new-committee-member-me/#disqus_thread">Comments</a></span> 
- 		 
- 	</div> 
-
-	<h1 class="title" itemprop="name"><a href="/blog/scottish-developers-have-a-new-committee-member-me/" itemprop="url">Scottish Developers Have a New Committee Member… Me!</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<p>I am happy to announce that I am now a fully signed up member of the <a href="http://scottishdevelopers.com/">Scottish Developers User Group</a>.  Over the last year, I have been working more and more with the guys at Scottish Developers (Andy Gibson – <a href="http://twitter.com/argibson">@ARGibson</a>, Craig Murphy – <a href="http://twitter.com/camurphy">@CAMURPHY</a>, and Colin Mackay – <a href="http://twitter.com/camurphy">@ColinMackay</a>) in order to bring speakers to Scottish User Groups, and I was thrilled when I was invited to become a committee member!</p>
-
-<p>Working directly with Scottish Developers has meant that we have been able to bring people like Scott Hanselman – <a href="http://twitter.com/shanselman">@shanselman</a>, Matt Lacey – <a href="http://twitter.com/mrlacey">@mrlacey</a>, Sebastien Lambla – <a href="http://twitter.com/serialseb">@serialseb</a>, Gill Cleeren – <a href="http://twitter.com/gillcleeren">@gillcleeren</a>, and Mark Rendle – <a href="http://twitter.com/markrendle">@markrendle</a> to Scotland, to do User Group presentations.  This typically means doing a tour of Glasgow, Edinburgh, Aberdeen and Dundee.  These events seem to have gone down really well, and this is definitely something that we are looking to continue.  It is much easier to get speakers to commit to a series of events in Scotland, rather than a single event, as it makes the trip more worthwhile.  If there is anyone in particular that you are interested in seeing in Scotland, feel free to get in touch, and we will see what we can do.</p>
-
-<p>In addition to the regular monthly events, I will also be getting involved in helping with the setup and running of the Annual Events, such as DDD Scotland, and DunDDD, as well as the general day-to-day running of the User Group.  This doesn’t mean that I will be neglecting the <a href="http://aberdeendevelopers.co.uk/">Aberdeen Developers .Net User Group</a>.  This will continue to exist in it’s own right, and host regular monthly events.</p>
-
-<p>I attended my first Scottish Developers Annual General Meeting on the 7th July 2012, where I was formally introduced as a committee members.  You can see photos from the day below.</p>
-
-<p>[gallery orderby=&ldquo;title&rdquo;]</p>
 
 		
 		

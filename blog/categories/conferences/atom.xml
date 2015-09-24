@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Conferences | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/conferences/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2015-08-11T12:32:35+00:00</updated>
+  <updated>2015-09-24T12:15:50+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Slides From Talk at ScotSoft2015]]></title>
+    <link href="http://www.gep13.co.uk/blog/slides-from-talk-at-scotsoft2015/"/>
+    <updated>2015-09-24T00:00:00+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/slides-from-talk-at-scotsoft2015</id>
+    <content type="html"><![CDATA[<h2>Semantic Versioning with GitVersion</h2>
+
+<p>On Thursday 17th September 2015, I presented a talk entitled &ldquo;Semantic Versioning with GitVersion&rdquo; at the first Developer Forum as part of the <a href="http://www.scotlandis.com/scotsoft2015/">ScotlandIS ScotSoft2015</a> event.  The abstract for the talk was as follows:</p>
+
+<blockquote>
+Have you ever needed to control the version number of your application?  If so, you will know that this isn&#8217;t something that you &#8220;get for free&#8221;.  It&#8217;s hard!
+
+You may have tried to use some form of auto incrementing number from your Continuous Integration Server, or store a text file in source control and update it each time the build happens.  Both of these approaches will work, but they don&#8217;t account for more complicated scenarios where you are working on multiple releases at the same time, or you want to use multiple Continuous Integration Servers.
+
+In this session, we will look at how we can improve the versioning of your application using a combination of branching strategies (either Gitflow or Githubflow) and an open source tool called GitVersion.  
+
+GitVersion is a tool which allows you to easy generate the Semantic Version number for your application, based on the current state of your code base in it&#8217;s Git Repository.
+</blockquote>
+
+
+
+
+<!--more-->
+
+
+<p>I thoroughly enjoyed doing this presentation, and there were quite a few questions after the talk was finished, so I feel that people were able to get something from it.  If there are any follow-up questions, then please feel free to get in touch, and I will do my best to respond.</p>
+
+<h2>Slides</h2>
+
+<p>If you are interested in seeing teh slide from the talk, you can find them displayed below, or you can find the full version on SlideShare <a href="http://www.slideshare.net/gep13/semantic-versioning-with-gitversion">here</a>.</p>
+
+<p><iframe src="http://www.slideshare.net/slideshow/embed_code/53150160 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe> </p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Registration for DunDDD 2014 Is Now Open]]></title>
@@ -138,175 +173,6 @@ In this session we will look at how you can incrementally work your way to fully
 <li><p>Codify - <a href="http://www.codify.ltd.uk">http://www.codify.ltd.uk</a></p></li>
 <li><p>Arnold Clark - <a href="http://www.arnoldclark.com">http://www.arnoldclark.com</a></p></li>
 <li><p>AAA - <a href="http://www.aaajobs.co.uk">http://aaajobs.co.uk</a></p></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Review of DevOpsDays London 2013]]></title>
-    <link href="http://www.gep13.co.uk/blog/review-of-devopsdays-london-2013/"/>
-    <updated>2013-03-16T22:06:24+00:00</updated>
-    <id>http://www.gep13.co.uk/blog/review-of-devopsdays-london-2013</id>
-    <content type="html"><![CDATA[<h1>DevOpsDays has now finished, but had a great time&hellip;</h1>
-
-<p>In a change to the normal Developer Conferences that I attend, I have just finished up at the <a href="http://devopsdays.org/">DevOpsDays </a>London Conference.  More and more I have hearing about how you can better improve the deployment of applications and software by closely combining both the Developer and Operations teams.  This is a relatively new idea to me, and I was very interested to hear, from people who have done this, what can be achieved!</p>
-
-<p>This was a very &ldquo;different&rdquo; conference to what I have attended in the past, but in this case, &ldquo;different&rdquo; is a good thing!  The format was similar, in the sense that there were prepared session on each morning from various speakers, but each afternoon was given over to Open Spaces (more on this below).  I had never been to an Open Space session before, and I was very intrigued.  Turns out they are a GREAT way to learn!  In addition, just before lunch time, there were a series of Ingite talks (again, more on these below).</p>
-
-<p>Overall, I got a lot from this conference.  After two days of hearing what can be done in terms of Configuration Management, Automated Deployments, Team Collaboration, my mind is buzzing with how some of these principles can be taken back to the office.  As to how many we will be able to implement, that is another question, but the fact that I now know that some of them exist, is half the battle!</p>
-
-<p>What follows are some rough notes taken across the duration of the two days.</p>
-
-<h1>Prepared Sessions</h1>
-
-<p>In total, across the two days, there were seven prepared sessions.  Details on these can be seen below:</p>
-
-<ul>
-<li><p>Niek Bartholomeus</p>
-
-<ul>
-<li><p><em>&ldquo;DevOps for Dinosaurs&rdquo;</em></p></li>
-<li><p>This was a really great introduction to what DevOps is, and what it is trying to achieve.  The talk centered around the work that Niek had done in a company that he worked at to bring DevOps processed into being.  It was really great to hear the experiences from someone who had been through the process.</p></li>
-<li><p><a href="https://speakerdeck.com/niekbartho/devops-for-dinosaurs">Slides</a></p></li>
-</ul>
-</li>
-<li><p>John Clapham</p>
-
-<ul>
-<li><p><em>&ldquo;Checking DevOps Vital Signs&rdquo;</em></p></li>
-<li><p>In this talk, John explained how in applying DevOps to his organisation, they attempted to garner some metrics so that they could accurately &ldquo;measure&rdquo; how it was helping.  This is a big stumbling block for DevOps.  i.e. how do you prove that the system is working, and actually providing value.  They chose to do this by measuring several vital signs (Cycle Time, Shared Purpose, Motivation, Collaboration, Effectiveness).  The first is reasonably simple to measure, but the others not so much.  They opted to collect this information in the form of a questionnaire.</p></li>
-</ul>
-</li>
-<li><p>David Mytton</p>
-
-<ul>
-<li><p><em>&ldquo;StartOps: Growing an Ops Team from 1 founder&rdquo;</em></p></li>
-<li><p>Again, another interesting session, where David explained the decisions that he had taken in establishing his business.  He was in a position where he had to be pragmatic in adopting the tools and processes that he did.  As the company grew, he was able to adopt different tools and services, to ensure that the company was heading in the right direction.</p></li>
-<li><p>Slides will appear <a href="http://blog.serverdensity.com/">here</a></p></li>
-<li><p>Some interesting posts <a href="http://www.serverdensity.com/devopsdays/">here</a></p></li>
-</ul>
-</li>
-<li><p>Deri Jones</p>
-
-<ul>
-<li><em>&ldquo;Adding Business Metrics&rdquo;</em></li>
-</ul>
-</li>
-<li><p>Thomas Falkenberg and Nils Probson</p>
-
-<ul>
-<li><p><em>&ldquo;DevOps and the traditional Enterprise IT&rdquo;</em></p></li>
-<li><p>A very open, and honest, discussion of how the team at Payback had slowly, over the period of two years, implemented a culture of DevOps.  They found that they are now in a position where Dev and Ops teams have common goals.  However, this can only be achieved by:</p>
-
-<ul>
-<li><p>Working together</p></li>
-<li><p>One step at a time</p></li>
-<li><p>Change takes time and patience</p></li>
-</ul>
-</li>
-<li><p>An important takeaway from this talk &ldquo;The term DevOps helped form a common language, a mantra.  i.e. if the business has a problem, then the company, both the Dev and Ops, need to work together to fix the issue</p></li>
-</ul>
-</li>
-<li><p>Sam Eaton</p>
-
-<ul>
-<li><p><em>&ldquo;DevOps and the hell of a Thousand Different Platforms&rdquo;</em></p></li>
-<li><p>This was an amazing talk!  Sam is clearly enthusiastic about this topic, and this flowed through in his talk.  I later found out that this was his first public talk, which certainly didn&rsquo;t show!  He had some very interesting ideas, the best of which was the &ldquo;FailCake&rdquo;.  Basically, in collaborating between Dev and Ops, it is &ldquo;ok&rdquo; to make mistakes, but these have to be discussed immediately within the team, without associating blame.  They best way they have found to do this is by bringing cake to the meetings!</p></li>
-</ul>
-</li>
-<li><p>Gene Kim</p>
-
-<ul>
-<li><p>&ldquo;How can we better sell DevOps&rdquo;</p></li>
-<li><p>This was a VERY inspiring session.  Gene Kim, an author of the hugely popular &ldquo;The Phoenix Project&rdquo; book, explained how to best sell DevOps within the enterprise.  I would highly encourage you to take a look at the slides linked below as they explain, in detail, the barriers that exist Dev and Ops team, and how they are perceived from either side.</p></li>
-<li><p><a href="http://www.slideshare.net/realgenekim/how-can-we-better-sell-devops/">Slides</a></p></li>
-</ul>
-</li>
-</ul>
-
-
-<h1>Open Spaces</h1>
-
-<p>For me, this was the stand out part of the conference.  I had never been to an Open Space before this conference, but I will definitely be looking to attend others.  I am also going to suggest that this is something that we should be looking to include within DDD events.</p>
-
-<p>The format is reasonably simple.  Anyone can suggest a topic to be discussed in an Open Space.  This can be asking for an answer to a question.  Providing a demonstration of a piece of software, or technology.  Pretty much anything.</p>
-
-<p>With the sessions proposed, these are then organised &ldquo;roughly&rdquo; into order, and people &ldquo;vote&rdquo; with their feet, and go to the sessions that interest them.  This then takes the form of an open discussion, where anyone is free to talk, ask questions, and provide input.</p>
-
-<p>We were told that Open Spaces follow three main principles:</p>
-
-<pre><code>* Whenever it starts is the right time
-
-
-* Whatever happens is the only thing that could have
-
-
-* It's over when it's over
-</code></pre>
-
-<p>All I can say is&hellip;</p>
-
-<p>Amazing!  I got so much out of these sessions.  So many snippets of information, and suggestions.</p>
-
-<h1>Ignites</h1>
-
-<p>Before attending DevOpsDays, I hadn&rsquo;t heard of Ignites.  Turns out this form of talks (which were held on both days just before lunch time) are similar to the 20 x 20 talks that I have seen at DDD events.  Basically, there are a set number of slides, each of which are timed to automatically transition to the next slide.  The speaker has to keep up with each transition, as they can&rsquo;t go back to a previous slide.  Topics here ranged from a custom-built tool for automatic deployments to being conscious of the server farms that you are using and their carbon footprint.</p>
-
-<p>Well done to everyone who was brave enough to do one of these Ignites, I still think the format is very difficult, and I wouldn&rsquo;t like to do one myself.</p>
-
-<p>Some of the slides that I am aware of from these Ignites can be found here:</p>
-
-<ul>
-<li><a href="http://www.slideshare.net/jedi4ever/what-ifconfigmgtwasdesignedbygamers">What If Config Management - Patrick Debois</a></li>
-</ul>
-
-
-<h1>Recommendations</h1>
-
-<p>During the various sessions, and Open Spaces, there were a number of recommendations made.  These included blogs, podcasts, books, etc.  I have captured the ones that I could below.  If I have missed anything, or if there are any that you would like to add, please feel free to get in touch.</p>
-
-<h1>Newsletters</h1>
-
-<ul>
-<li><a href="http://devopsweekly.com/">DevOps Weekly</a></li>
-</ul>
-
-
-<h1>IRC Channels and Application Recommendations</h1>
-
-<ul>
-<li><p>&ldquo;<a href="https://twitter.com/search?q=%23infra&amp;src=hash">##<strong>infra</strong></a>-talk&rdquo; - DevOps IRC Channel</p></li>
-<li><p><a href="http://www.irssi.org/">irssi</a> - Windows IRC Client</p></li>
-<li><p><a href="https://www.irccloud.com/">IRCCloud</a> - Web Based IRC Client</p></li>
-</ul>
-
-
-<h1>Book Recommendations</h1>
-
-<ul>
-<li><p><a href="http://www.amazon.co.uk/The-Phoenix-Project-Business-ebook/dp/B00AZRBLHO/ref=sr_1_1?s=digital-text&amp;ie=UTF8&amp;qid=1363461035&amp;sr=1-1">The Phoenix Project</a></p>
-
-<ul>
-<li>You can get a free 170 page excerpt <a href="http://www.instantcustomer.com/go/83330">here</a></li>
-</ul>
-</li>
-<li><p><a href="http://www.amazon.co.uk/DevOps-Developers-Michael-xfc-ttermann/dp/1430245697/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1363460874&amp;sr=1-1">DevOps for Developers</a></p></li>
-<li><p><a href="http://www.amazon.co.uk/Getting-Real-Smarter-Successful-Application/dp/0578012812/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1363460890&amp;sr=1-1">Getting Real</a></p></li>
-<li><p><a href="http://www.amazon.co.uk/ReWork-Change-Work-Forever-ebook/dp/B003ELY7PG/ref=dp_kinw_strp_1">ReWork</a></p></li>
-<li><p><a href="http://www.amazon.co.uk/Toyota-Way-Management-Principles-Manufacturer/dp/0071392319/ref=sr_1_4?s=books&amp;ie=UTF8&amp;qid=1363460947&amp;sr=1-4">The Toyota Way</a></p></li>
-<li><p><a href="http://www.realgenekim.me/devops-cookbook/">DevOps Cookbook</a> (Not released yet)</p></li>
-<li><p><a href="http://www.amazon.co.uk/Goal-Eliyahu-M-Goldratt/dp/0884270610/ref=sr_1_2?s=books&amp;ie=UTF8&amp;qid=1363461279&amp;sr=1-2">The Goal</a></p></li>
-<li><p><a href="http://www.amazon.co.uk/Agile-Coaching-Rachel-Davies/dp/1934356433/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1363461310&amp;sr=1-1">Agile Coaching</a></p></li>
-</ul>
-
-
-<h1>Podcast Recommendations</h1>
-
-<ul>
-<li><p><a href="http://devopscafe.org/">DevOps Cafe</a></p></li>
-<li><p><a href="http://foodfightshow.org/">Food Fight</a></p></li>
-<li><p><a href="http://theshipshow.com/">The Ship Show</a></p></li>
 </ul>
 
 ]]></content>
