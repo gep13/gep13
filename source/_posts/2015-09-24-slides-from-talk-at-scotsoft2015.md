@@ -1,5 +1,8 @@
 ---
 author: gep13
+date: 2015-09-24 13:20:13+00:00
+layout: post
+slug: slides-from-talk-at-scotsoft2015
 keywords: "GitVersion, SemVer"
 description: Slides from Talk at ScotSoft2015
 comments: true
