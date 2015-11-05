@@ -100,7 +100,7 @@ We got to talking about this before and during the pre-conference dinner, and th
 [Chris Alcock](http://twitter.com/calcock) | 17
 [Andy Gibson](http://twitter.com/ARGibson) | 16
 [John McLoughlin](https://twitter.com/Imaji) | 13
-[Adrian Banks](https://twitter.com/adrianbanks) | 11
+[Adrian Banks](https://twitter.com/adrianbanks) | 12
 [Phil Pursglove](https://twitter.com/philpursglove) | 11
 [Tom Robinson](https://twitter.com/tjrobinson) | 11
 [Ross Scott](https://twitter.com/RossDScott) | 10
