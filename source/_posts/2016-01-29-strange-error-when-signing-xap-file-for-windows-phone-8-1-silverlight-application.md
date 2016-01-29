@@ -55,11 +55,11 @@ What followed over the next two days were various trial/error approaches to get 
 Eventually, after digging around in various log files, we stumbled across this error message:
 
 > Done Adding Additional Store
-Number of files successfully Signed: 0
-Number of warnings: 0
-Number of errors: 1
+> Number of files successfully Signed: 0
+> Number of warnings: 0
+> Number of errors: 1
 
-Which was found when the build script was executing the MDILXAPCompile step that is described [here](https://msdn.microsoft.com/en-us/library/windows/apps/dn168929(v=vs.105).aspx).
+Which was found when the build script was executing the MDILXAPCompile step that is described [here](http://gep13.me/20xBO6z).
 
 After extracting the actual command that was being run by the tool at this point in time, and directly running it, we got some more information returned which wasn't captured in the log:
 
