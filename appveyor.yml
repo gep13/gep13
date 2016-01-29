@@ -21,7 +21,7 @@ clone_folder: C:\projects\gep13-github-io
 environment:
   GithubUsername: gep13
   GithubPassword:
-    secure: XSuLygmr83zEpWcXIXMXGocN0QbooLud1eIMA3mQWKkT9LAU4TyrijLBcJIo7bD7
+    secure: 8nkd45DMSjFqay9ejGL2Eww79jHZW93WsTbBB2qbLmnsYKbtWTukpcrhzOkg7Rou
   FLICKR_API_KEY:
     secure: 2XneCxLArk7iXtNvI5owP5KWrIeP8ijiPMLmz91sYcQ=
   FLICKR_SHARED_SECRET:
