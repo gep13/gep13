@@ -1,0 +1,317 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Strange Error When Signing XAP File for Windows Phone 8.1. Silverlight Application - gep13&#8217;s blog</title>
+	<meta name="author" content="gep13">
+
+	
+	<meta name="description" content="Strange error when using SignTool to sign XAP file ready for deployment" />
+
+	
+	<meta name="keywords" content="Silverlight, Windows Phone, SignTool, " />
+
+	<!-- http://t.co/dKP3o1e -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/feed" rel="alternate" title="gep13's blog" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://www.gep13.co.uk/blog/strange-error-when-signing-xap-file-for-windows-phone-8-1-silverlight-application/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<!-- meta tags for twitter card -->
+
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:site" content="gep13">
+    <meta property="twitter:url" content="http://www.gep13.co.uk/blog/strange-error-when-signing-xap-file-for-windows-phone-8-1-silverlight-application/">
+    <meta property="twitter:title" content="Strange Error When Signing XAP File for Windows Phone 8.1. Silverlight Application">
+    <meta property="twitter:description" content="Strange error when using SignTool to sign XAP file ready for deployment">
+
+
+<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
+<script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>
+<script type="text/javascript">
+	// <![CDATA[
+		cc.initialise({
+			cookies: {
+				social: {
+					title: 'Disqus et al.',
+					description: 'Used for comments. You\'ll nee'+
+							'd to log in to Disqus to leave'+
+							' comments.'
+				},
+				analytics: {
+					title: 'Analytics',
+					description: 'Anonymously measure your use o'+
+							'f this website to improve your'+
+							' experience.'
+				}
+			},
+			settings: {
+				bannerPosition: "bottom",
+				disableallsites: true
+			}
+		});
+	// ]]>
+</script>
+<!-- End Cookie Consent plugin -->
+
+
+
+<link rel="stylesheet" href="/ad-gallery/jquery.ad-gallery.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/ad-gallery/jquery.ad-gallery.js?rand=302"></script>
+<script type="text/javascript">
+$(function() {
+  var galleries = $('.ad-gallery').adGallery({
+    loader_image: '/ad-gallery/loader.gif',
+    width: 640,
+  });
+})
+</script>
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><nav id="main-nav"><ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/adnuguk">ADNUGUK</a></li>
+</ul>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		<a class="facebook" href="http://www.facebook.com/gary.e.park" title="Facebook">Facebook</a>
+		
+		
+		<a class="google" href="https://plus.google.com/+GaryEwanPark" rel="author" title="Google+">Google+</a>
+		
+		
+		<a class="twitter" href="http://twitter.com/gep13" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/gep13" title="GitHub">GitHub</a>
+		
+		
+		
+		<a class="linkedin" href="http://www.linkedin.com/in/gep13">LinkedIn</a>
+		
+		
+		
+		<a class="delicious" href="http://delicious.com/gep13" title="Delicious">Delicious</a>
+		
+		
+		
+		<a class="rss" href="/feed" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+<div class="profile-container">
+  <div class="profilepic">
+    <script src="/javascripts/md5.js"></script>
+    <script type="text/javascript">
+$(function(){
+  $('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("gep13@gep13.co.uk") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+});
+    </script>
+  </div>
+  <hgroup>
+  <h1 class="site-title"><a href="/">gep13&#8217;s blog</a></h1>
+  
+  <p class="site-subtitle">Ramblings and Ponderings of a Microsoft Fan Boy&#8230;</p>
+  
+  </hgroup>
+  
+</div>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="article-inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+   	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-01-29T14:28:13+00:00" data-updated="true" itemprop="datePublished">Jan 29th, 2016</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/mustremember/'>mustremember</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+	
+	<h1 class="title" itemprop="name">Strange Error When Signing XAP File for Windows Phone 8.1. Silverlight Application</h1>
+	<div class="entry-content" itemprop="articleBody"><h2>SignTool Error: This file format cannot be signed because it is not recognized.</h2>
+
+<p>For the best part of the last two days, I have been staring at various incarnations of error messages from the SignTool executable, most notably the one above.  What follows are some notes on what I was doing, and why, in the hope that if I run into this again, I will have a chance at remembering what to do.</p>
+
+<h2>TL/DR</h2>
+
+<p>If you are seeing this error, check what version of Silverlight you have installed on your machine.  If you have this:</p>
+
+<p><img src="/source/assets/posts/SilverlightVersionOne.png" alt="Silverlight Version 5.1.20513.0" /></p>
+
+<p>i.e. Silverlight version 5.1.20513.0, then this could very well be causing your issue.  Install the latest version, at the time of writing this was 5.1.41212.0, and try signing the XAP file again.  This worked for me, but I have no idea why.  Huge shout out to <a href="http://stackoverflow.com/users/4550683/potricos">potricos</a> on this <a href="http://stackoverflow.com/a/28433317/671491">StackOverflow</a> post where this suggestion was mentioned.  I honestly didn&rsquo;t see how this would ever solve the problem, but I thought I would give it a try, and I am glad I did!</p>
+
+<!--more-->
+
+
+<h2>So, what was I doing?</h2>
+
+<p>I have been working on a Windows Phone 8.1 Silverlight application, and development and deployment had been working without any problems whatsoever.  As these things have a tendency to do, the development work stopped on the project, waiting for testing with the client.  Some time passed, and eventually the application was tested, and as a result of that testing, some minor issues were identified.</p>
+
+<p>So, I cracked open Visual Studio, made the necessary changes, checked in the code, updated the release notes, tagged the repository. generated the XAP file, and handed this over for testing.</p>
+
+<p>Job done I hear you say?</p>
+
+<p>Well, no!</p>
+
+<p>When we tried to deploy the XAP file onto the Windows Phone (using an Enterprise Certificate) it simply wouldn&rsquo;t install.  There were no errors, no exceptions, no dialogues, no nothing.  When we went back and re-installed the old version of the application is worked fine.  So this told me that the Enterprise Certificate was good, and I wasn&rsquo;t running into any issues with certificate expiration.  So what did that leave?</p>
+
+<p>What followed over the next two days were various trial/error approaches to get to the root cause.</p>
+
+<ul>
+<li>Found another machine from colleague where the generation of the XAP file did result in a successful deployment</li>
+<li>Created a Virtual Machine to try to mimic the functionality on the colleague machine</li>
+<li>Breaking apart the build process trying to isolate what could be causing problems</li>
+<li>Extracting the XAP files and doing comparisons between the working and non working versions to try to identify differences</li>
+<li>Lots and lots of googling</li>
+<li>Lots and lots of head scratching</li>
+</ul>
+
+
+<p>Eventually, after digging around in various log files, we stumbled across this error message:</p>
+
+<blockquote><p>Done Adding Additional Store
+Number of files successfully Signed: 0
+Number of warnings: 0
+Number of errors: 1</p></blockquote>
+
+<p>Which was found when the build script was executing the MDILXAPCompile step that is described <a href="https://msdn.microsoft.com/en-us/library/windows/apps/dn168929(v=vs.105">here</a>.aspx).</p>
+
+<p>After extracting the actual command that was being run by the tool at this point in time, and directly running it, we got some more information returned which wasn&rsquo;t captured in the log:</p>
+
+<p><img src="/source/assets/posts/SignToolOutput.png" alt="Verbose Output from SignTool" /></p>
+
+<p>Once this was discovered, and some more hunting around, we were led to this <a href="http://stackoverflow.com/a/28433317/671491">StackOverflow</a> post, which was initially disregarded as not being relevant.  However, on checking, the laptop on which the build/deployment was working had a later version of Silverlight compared to the machines that it wasn&rsquo;t working on.</p>
+
+<p>After installing the latest version, which took the Silverlight version to 5.1.41212.0:</p>
+
+<p><img src="/source/assets/posts/SilverlightVersionTwo.png" alt="Silverlight Version 5.1.41212.0" /></p>
+
+<p>The build/deployment then proceeded to work!</p>
+
+<p>I still am no wiser on &ldquo;why&rdquo; this is now working, but I am happy that it is.  I could understand there being a difference if I had updated the Silverlight SDK, but seeing a difference after installing the Silverlight Runtime, doesn&rsquo;t really make any sense to me.</p>
+
+<p>If anyone can shed any light on what is going on here, I would love to hear from you.</p>
+</div>
+
+</article>
+
+	<div class="share">
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<div class="addthis_sharing_toolbox"></div>
+
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/plain" class="cc-onconsent-social" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54075e8542beba4d"></script>
+</div>
+
+
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+			</div>
+			<footer id="footer" class="inner"><p>
+  Copyright &copy; 2016 - gep13 -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+<p>Theme: <a href="https://github.com/qingwang/octopress-theme-yinyang">YinYang</a></p>
+</footer>
+			<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/plain" class="cc-onconsent-social">
+      var disqus_shortname = 'gep13';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://www.gep13.co.uk/blog/strange-error-when-signing-xap-file-for-windows-phone-8-1-silverlight-application/';
+        var disqus_url = 'http://www.gep13.co.uk/blog/strange-error-when-signing-xap-file-for-windows-phone-8-1-silverlight-application/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+	<script type="text/plain" class="cc-onconsent-analytics">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-20926037-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+
+		</div>
+	</div>
+</body>
+</html>

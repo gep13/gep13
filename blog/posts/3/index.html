@@ -167,6 +167,54 @@ $(function(){
   
 
 
+<time datetime="2013-04-26T21:39:02+00:00" data-updated="true" itemprop="datePublished">Apr 26th, 2013</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/software/'>software</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="/blog/loupe-desktop-is-now-free/#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+
+	<h1 class="title" itemprop="name"><a href="/blog/loupe-desktop-is-now-free/" itemprop="url">Loupe Desktop Is Now Free</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h1>&hellip;that&rsquo;s right, Loupe Desktop is now free!</h1>
+
+<p>In case you hadn&rsquo;t heard, the <a href="http://www.gibraltarsoftware.com/">Gibraltar Software</a> product <a href="http://www.gibraltarsoftware.com/See/Default.aspx">Loupe Desktop</a> is now being released completely free!  For more information about the reasons behind this decision, make sure to check out the blog post <a href="http://rocksolid.gibraltarsoftware.com/announcements/our-best-log-viewer-is-now-free">here</a>.  This announcement comes not long after the recent release of Loupe Desktop 3.5.  You can find out about all the new features <a href="http://rocksolid.gibraltarsoftware.com/loupe/new-loupe-desktop-features-in-loupe-3-5">here</a>.</p>
+
+<p>As yet, I haven&rsquo;t had a proper chance to play with Loupe, but it is most certainly on my list of things to check out, and with it now being free, it is even more appealing!</p>
+
+<h1>Getting Started with ASP.Net and Loupe Desktop</h1>
+
+<p>If you are interested in finding out more about Loupe Desktop, and how it can be used, be sure to check out Gary Short&rsquo;s (<a href="https://twitter.com/garyshort">@garyshort</a>) introductory video below:</p>
+
+<p><a href="http://www.youtube.com/watch?v=ALhL6_pQd3A">http://www.youtube.com/watch?v=ALhL6_pQd3A</a></p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+ 	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
 <time datetime="2013-04-25T12:11:30+00:00" data-updated="true" itemprop="datePublished">Apr 25th, 2013</time></div> 
  		<div class="tags">
 
@@ -1309,93 +1357,6 @@ Overall we’ll aim to provide a comprehensive overview of what’s new in Share
 <li><p><a href="http://www.amazon.co.uk/SharePoint-2013-Planet-Apps-ebook/dp/B009NOIGSM/ref=sr_1_13?s=digital-text&amp;ie=UTF8&amp;qid=1362433600&amp;sr=1-13">SharePoint 2013 - Planet of the Apps</a> - Sahil Malik</p></li>
 </ul>
 
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
- 	<div class="meta"> 
- 		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-02-07T22:13:51+00:00" data-updated="true" itemprop="datePublished">Feb 7th, 2013</time></div> 
- 		<div class="tags">
-
-
-	<a class='category' href='/blog/categories/chocolatey-series/'>chocolatey series</a>
-
-
-</div> 
- 		 
- 			<span class="comments"><a href="/blog/how-to-upgrade-teamcity/#disqus_thread">Comments</a></span> 
- 		 
- 	</div> 
-
-	<h1 class="title" itemprop="name"><a href="/blog/how-to-upgrade-teamcity/" itemprop="url">How to Upgrade TeamCity</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<h1>It&rsquo;s a snap!</h1>
-
-<p>If you have decided to <a href="http://gep13.me/VAeRiX">install your own instance of TeamCity</a>, then it is your responsibility to ensure that it is kept up to date.  <a href="http://www.jetbrains.com/">JetBrains</a> have a fairly aggressive <a href="http://confluence.jetbrains.com/display/TW/Previous+Releases+Downloads">release cadence</a>, with updates coming out every couple of months.  This is great, as you get a host of new features and bug fixes on a regular basis.</p>
-
-<p>When performing an upgrade, the most important thing to do is to back up the database and configuration settings.  Luckily, this is a built-in process within the administration section of TeamCity.</p>
-
-<p>This blog post steps through the full upgrade process.</p>
-
-<h1>Installation Steps</h1>
-
-<p><strong>NOTE: </strong>The following installation steps and screenshots were taken from a virtual machine   with Windows Server 2008 R2 Service Pack 1, running in Hyper-V on a Windows 8 Host Machine.</p>
-
-<p>These instructions are specific to version 7.1.3 of TeamCity, however, later versions will likely follow very similar steps.  In addition, these installation instructions will install both the TeamCity Server and Build Agent onto the same machine.  Ideally, you would want to have a separate Build Agent Machine.</p>
-
-<p>You can see screenshots of each of these steps in the galley at the bottom of this blog post.</p>
-
-<ol>
-<li><p>Assumption is that you already have <a href="http://gep13.me/VAeRiX">TeamCity</a> installed (otherwise, why would you be looking to upgrade it :-)</p></li>
-<li><p>Assumption is that you have already <a href="http://www.jetbrains.com/teamcity/download/index.html">downloaded the new version of TeamCity</a>, in this case 7.1.4.</p></li>
-<li><p>Log into TeamCity using an account that has Administrator privileges</p></li>
-<li><p>Click on the Backup link near the bottom left hand corner</p></li>
-<li><p>When the Run Backup Tab opens, click on &ldquo;Start Backup&rdquo;</p></li>
-<li><p>The backup should complete successfully</p></li>
-<li><p>Double Click the installation *.exe which was downloaded in Step 2 above</p></li>
-<li><p>At the first step in the installation wizard simply click Next</p></li>
-<li><p>Read the License Agreement and assuming you are happy with it, click “I Agree”</p></li>
-<li><p>In the “Choose Install Location” window, assuming you are happy with the default installation folder, simply click Next, otherwise change it first</p></li>
-<li><p>In order to install the latest version of TeamCity, you have to first uninstall the current version.  Click &ldquo;Next&rdquo;</p></li>
-<li><p>On this screen simply click Next once the current installation has been located</p></li>
-<li><p>Typically, since you are doing an upgrade, you want to keep both the build configuration and working directory, but the log files can be removed.  Click Uninstall</p></li>
-<li><p>The un-installation will continue</p></li>
-<li><p>After a short period, the un-installation will complete</p></li>
-<li><p>In the “Choose Components” window choose the components that you want to install.  As already mentioned, we will be installing both the Server and Build Agent on one server.  Click Next</p></li>
-<li><p>In the “Specify server configuration directory” window assuming you are happy with the default location click Next, otherwise change it first</p></li>
-<li><p>The main portion of the installation will start now</p></li>
-<li><p>The “Configure Build Agent Properties” window will then open, giving you the opportunity to add/edit build agent properties.  For now, you can leave this as the default.  If needed, this can be changed later.  Click Save.</p></li>
-<li><p>Simply click OK on the “TeamCity Build Agent Properties” pop-up</p></li>
-<li><p>In the “Select Service Account for Server” window decide what user account you want to run the TeamCity Server, I chose to use the SYSTEM account.  Click Next</p></li>
-<li><p>In the “Select Service Account for Agent” window decide what user account you want to run the TeamCity Build Agent, I chose to use the SYSTEM account.  Click Next</p></li>
-<li><p>In the “Services” window, choose to start both the Server and Build Agent Services, and click Next</p></li>
-<li><p>In the final screen, ensure that the option to open TeamCity Website after exit is checked and click Finish.</p></li>
-<li><p>A web page will open saying “TeamCity is starting”</p></li>
-<li><p>The login screen will then be presented</p></li>
-<li><p>On logging in, you will see the latest version number displayed</p></li>
-</ol>
-
-
-<h1>Installation Screenshots</h1>
-
-<p>[gallery ids=&ldquo;1921,1922,1923,1924,1925,1926,1927,1928,1929,1930,1931,1932,1933,1934,1935,1936,1937,1938,1939,1940,1941,1942,1943,1944&rdquo;]</p>
 
 		
 		
