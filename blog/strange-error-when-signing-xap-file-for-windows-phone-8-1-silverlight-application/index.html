@@ -186,7 +186,7 @@ $(function(){
 
 <p>If you are seeing this error, check what version of Silverlight you have installed on your machine.  If you have this:</p>
 
-<p><img src="/source/assets/posts/SilverlightVersionOne.png" alt="Silverlight Version 5.1.20513.0" /></p>
+<p><img src="/assets/posts/SilverlightVersionOne.png" alt="Silverlight Version 5.1.20513.0" /></p>
 
 <p>i.e. Silverlight version 5.1.20513.0, then this could very well be causing your issue.  Install the latest version, at the time of writing this was 5.1.41212.0, and try signing the XAP file again.  This worked for me, but I have no idea why.  Huge shout out to <a href="http://stackoverflow.com/users/4550683/potricos">potricos</a> on this <a href="http://stackoverflow.com/a/28433317/671491">StackOverflow</a> post where this suggestion was mentioned.  I honestly didn&rsquo;t see how this would ever solve the problem, but I thought I would give it a try, and I am glad I did!</p>
 
@@ -228,13 +228,13 @@ Number of errors: 1</p></blockquote>
 
 <p>After extracting the actual command that was being run by the tool at this point in time, and directly running it, we got some more information returned which wasn&rsquo;t captured in the log:</p>
 
-<p><img src="/source/assets/posts/SignToolOutput.png" alt="Verbose Output from SignTool" /></p>
+<p><img src="/assets/posts/SignToolOutput.png" alt="Verbose Output from SignTool" /></p>
 
 <p>Once this was discovered, and some more hunting around, we were led to this <a href="http://stackoverflow.com/a/28433317/671491">StackOverflow</a> post, which was initially disregarded as not being relevant.  However, on checking, the laptop on which the build/deployment was working had a later version of Silverlight compared to the machines that it wasn&rsquo;t working on.</p>
 
 <p>After installing the latest version, which took the Silverlight version to 5.1.41212.0:</p>
 
-<p><img src="/source/assets/posts/SilverlightVersionTwo.png" alt="Silverlight Version 5.1.41212.0" /></p>
+<p><img src="/assets/posts/SilverlightVersionTwo.png" alt="Silverlight Version 5.1.41212.0" /></p>
 
 <p>The build/deployment then proceeded to work!</p>
 
