@@ -13,6 +13,7 @@ version: 1.0.{build}
 init:
   - git config --global user.email "gep13@gep13.co.uk"
   - git config --global user.name "Gary Ewan Park"
+  - git config --global credential.helper store
 
 # clone directory
 clone_folder: C:\projects\gep13-github-io
@@ -40,10 +41,11 @@ install:
   - SET SSL_CERT_FILE=%APPVEYOR_BUILD_FOLDER%\cacert.pem
   
 build_script:
+  - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:GithubPassword):x-oauth-basic@github.com`n"
   - cmd: gem install bundler
   - cmd: bundle install
   - cmd: set SSL_CERT_FILE=%CD%\flickr.pem
-  - cmd: if not exist _deploy (git clone https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git _deploy)
+  - cmd: if not exist _deploy (git clone https://github.com/%GithubUsername%/%GithubUsername%.github.io.git _deploy)
   - cmd: cd _deploy
   - cmd: git checkout master
   - cmd: cd ..
