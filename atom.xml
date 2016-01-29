@@ -4,7 +4,7 @@
   <title><![CDATA[gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2016-01-29T14:41:06+00:00</updated>
+  <updated>2016-01-29T14:49:12+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -64,7 +64,7 @@ Number of files successfully Signed: 0
 Number of warnings: 0
 Number of errors: 1</p></blockquote>
 
-<p>Which was found when the build script was executing the MDILXAPCompile step that is described <a href="https://msdn.microsoft.com/en-us/library/windows/apps/dn168929(v=vs.105">here</a>.aspx).</p>
+<p>Which was found when the build script was executing the MDILXAPCompile step that is described <a href="http://gep13.me/20xBO6z">here</a>.</p>
 
 <p>After extracting the actual command that was being run by the tool at this point in time, and directly running it, we got some more information returned which wasn&rsquo;t captured in the log:</p>
 
