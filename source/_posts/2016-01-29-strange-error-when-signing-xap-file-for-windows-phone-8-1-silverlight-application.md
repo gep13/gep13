@@ -25,7 +25,7 @@ For the best part of the last two days, I have been staring at various incarnati
 
 If you are seeing this error, check what version of Silverlight you have installed on your machine.  If you have this:
 
-![Silverlight Version 5.1.20513.0]({{site.baseurl}}/source/assets/posts/SilverlightVersionOne.png)
+![Silverlight Version 5.1.20513.0](/assets/posts/SilverlightVersionOne.png)
 
 i.e. Silverlight version 5.1.20513.0, then this could very well be causing your issue.  Install the latest version, at the time of writing this was 5.1.41212.0, and try signing the XAP file again.  This worked for me, but I have no idea why.  Huge shout out to [potricos](http://stackoverflow.com/users/4550683/potricos) on this [StackOverflow](http://stackoverflow.com/a/28433317/671491) post where this suggestion was mentioned.  I honestly didn't see how this would ever solve the problem, but I thought I would give it a try, and I am glad I did!
 
@@ -63,13 +63,13 @@ Which was found when the build script was executing the MDILXAPCompile step that
 
 After extracting the actual command that was being run by the tool at this point in time, and directly running it, we got some more information returned which wasn't captured in the log:
 
-![Verbose Output from SignTool]({{site.baseurl}}/source/assets/posts/SignToolOutput.png)
+![Verbose Output from SignTool](/assets/posts/SignToolOutput.png)
 
 Once this was discovered, and some more hunting around, we were led to this [StackOverflow](http://stackoverflow.com/a/28433317/671491) post, which was initially disregarded as not being relevant.  However, on checking, the laptop on which the build/deployment was working had a later version of Silverlight compared to the machines that it wasn't working on.
 
 After installing the latest version, which took the Silverlight version to 5.1.41212.0:
 
-![Silverlight Version 5.1.41212.0]({{site.baseurl}}/source/assets/posts/SilverlightVersionTwo.png)
+![Silverlight Version 5.1.41212.0](/assets/posts/SilverlightVersionTwo.png)
 
 The build/deployment then proceeded to work!
 
