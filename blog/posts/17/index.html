@@ -167,6 +167,78 @@ $(function(){
   
 
 
+<time datetime="2011-05-09T06:17:55+00:00" data-updated="true" itemprop="datePublished">May 9th, 2011</time></div> 
+ 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/visual-studio-2010/'>visual studio 2010</a>
+
+
+</div> 
+ 		 
+ 			<span class="comments"><a href="/blog/visual-studio-2010-crashes-when-i-open-build-details-page/#disqus_thread">Comments</a></span> 
+ 		 
+ 	</div> 
+
+	<h1 class="title" itemprop="name"><a href="/blog/visual-studio-2010-crashes-when-i-open-build-details-page/" itemprop="url">Visual Studio 2010 Crashes When I Open Build Details Page</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p>For that last few weeks I have noticed that every time I try to open a build details screen from my Team Foundation Server within Visual Studio 2010 I was greeted with this:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb.png" alt="image" /></a></p>
+
+<p><em>NOTE: By build details screen I mean the TFS build details screen which you can get to via Team Explorer | Builds | View Builds and then double click on an available completed build</em></p>
+
+<p>The details of the event didn’t really provide much insight into what might be going on:</p>
+
+<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image1.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb1.png" alt="image" /></a></p>
+
+<pre><code>[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb2.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image2.png)  
+</code></pre>
+
+<p>But due to the fact that I am in the process of transitioning the code base from Visual Studio 2008 to Visual Studio 2010 there really wasn’t much of a push to get this working, as I could simply jump back to my 2008 VM and check what I needed.</p>
+
+<p>The other day though I found myself with a couple minutes, so I thought that I would look into getting the problem fixed. A quick Bing turned up the following:</p>
+
+<p><a href="http://connect.microsoft.com/VisualStudio/Downloads/DownloadDetails.aspx?DownloadID=34824">http://connect.microsoft.com/VisualStudio/Downloads/DownloadDetails.aspx?DownloadID=34824</a></p>
+
+<p>The description of the error:</p>
+
+<blockquote>  
+> 
+> Visual Studio 2010 SP1 crashes or shows the following error when attempting to view a build report on a TFS 2008 server:
+> 
+>    
+> 
+> &#8220;TF50316: The following name is not valid. Verify that the name does not exceed the maximum character limit, only contains valid characters, and is not a reserved name&#8221;
+> 
+> </blockquote>
+
+
+<p>Seemed to fit my problem exactly. I had installed Service Pack 1 for Visual Studio 2010 recently, and I don’t recall the build details screen working since then, and we are still using TFS 2008, so I thought I would give it a try, nothing to lose.</p>
+
+<p>Thankfully, once this fix was installed, the build details page started working again.</p>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+ 	<div class="meta"> 
+ 		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
 <time datetime="2011-05-08T15:32:56+00:00" data-updated="true" itemprop="datePublished">May 8th, 2011</time></div> 
  		<div class="tags">
 
@@ -865,103 +937,6 @@ $(function(){
 <p>So, with this in mind, I set up a mapped drive on a common server that each Virtual Machine will be able to hit, and I configured ExtensionSync to use this mapped drive, and again “it just worked!”.</p>
 
 <p>A big thanks to Latish for creating this Extension, and to Paul for the ideas!!</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
- 	<div class="meta"> 
- 		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-03-15T20:45:25+00:00" data-updated="true" itemprop="datePublished">Mar 15th, 2011</time></div> 
- 		<div class="tags">
-
-</div> 
- 		 
- 			<span class="comments"><a href="/blog/visual-studio-2010-compare-and-merge-tool-configuration/#disqus_thread">Comments</a></span> 
- 		 
- 	</div> 
-
-	<h1 class="title" itemprop="name"><a href="/blog/visual-studio-2010-compare-and-merge-tool-configuration/" itemprop="url">Visual Studio 2010 Compare and Merge Tool Configuration</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<p>Out of the box, Visual Studio offers up the ability to compare and merge files. This ability is invaluable when you are trying to check something in, and there have been changes since you last checked in and you need to merge the changes, or you want to look at the differences in a file between check ins.</p>
-
-<p>However, it has been my experience that the built in tools are just not that great, and there are better tools out there. My tools of choice are <a href="http://kdiff3.sourceforge.net/">kdiff</a> and <a href="http://winmerge.org/">winmerge</a>.</p>
-
-<p>The good news is that with a few simple steps, these tools can be added into the Visual Studio configuration so that the built in operations of comparing and merging use these tools, rather than the built in ones.</p>
-
-<p><strong>Note: I am assuming that you are using Visual Studio 2010 and Visual Studio Team Foundation Server as your Source Control Provider and Windows 7 64 Bit Edition. If you are using anything other than this, the screenshots and the paths to executables may be different.</strong></p>
-
-<p>Follow these steps to configure this:</p>
-
-<ul>
-<li><p>Install WinMerge</p></li>
-<li><p>Install KDIff3</p></li>
-<li><p>Open Visual Studio 2010</p></li>
-<li><p>Select Tools | Options and in the tree, select “Source Control”</p></li>
-<li><p>Change the &ldquo;Current source control plug-in&rdquo; DropDownList to be &ldquo;Visual Studio Team Foundation Server&rdquo;</p></li>
-</ul>
-
-
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image1.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image_thumb1.png" alt="image" /></a></p>
-
-<ul>
-<li><p>Select &ldquo;Visual Studio Team Foundation Server&rdquo; in the tree under &ldquo;Source Control&rdquo;</p></li>
-<li><p>Click the &ldquo;Configure User Tools…&rdquo; button</p></li>
-</ul>
-
-
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image2.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image_thumb2.png" alt="image" /></a></p>
-
-<ul>
-<li>Click the &ldquo;Add&hellip;&rdquo; button</li>
-</ul>
-
-
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image3.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image_thumb3.png" alt="image" /></a></p>
-
-<ul>
-<li><p>For the &ldquo;Extension&rdquo; put &ldquo;.*&rdquo; (without the quotes)</p></li>
-<li><p>For the &ldquo;Operation&rdquo; put &ldquo;Compare&rdquo;</p></li>
-<li><p>For the &ldquo;Command&rdquo; put &ldquo;C:\Program Files (x86)\WinMerge\WinMergeU.exe&rdquo; (without the quotes)</p></li>
-<li><p>For the &ldquo;Arguments&rdquo; put &ldquo;/ub /dl %6 /dr %7 %1 %2&rdquo; (without the quotes)</p></li>
-<li><p>Hit &ldquo;OK&rdquo;</p></li>
-</ul>
-
-
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image4.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image_thumb4.png" alt="image" /></a></p>
-
-<ul>
-<li><p>Click the &ldquo;Add&hellip;&rdquo; button</p></li>
-<li><p>For the &ldquo;Extension&rdquo; put &ldquo;.*&rdquo; (without the quotes)</p></li>
-<li><p>For the &ldquo;Operation&rdquo; put &ldquo;Merge&rdquo;</p></li>
-<li><p>For the &ldquo;Command&rdquo; put “C:\Program Files (x86)\KDiff3\kdiff3.exe&#8221; (without the quotes)</p></li>
-<li><p>For the &ldquo;Arguments&rdquo; put &ldquo;%3 &ndash;fname %8 %2 &ndash;fname %7 %1 &ndash;fname %6 -o %4&rdquo; (without the quotes)</p></li>
-<li><p>Hit &ldquo;OK&rdquo;</p></li>
-</ul>
-
-
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image5.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image_thumb5.png" alt="image" /></a></p>
-
-<ul>
-<li><p>Hit &ldquo;OK&rdquo;</p></li>
-<li><p>Hit &ldquo;OK&rdquo;</p></li>
-</ul>
-
 
 		
 		

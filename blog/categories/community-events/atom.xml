@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Community Events | gep13's blog]]></title>
   <link href="http://www.gep13.co.uk/blog/categories/community-events/atom.xml" rel="self"/>
   <link href="http://www.gep13.co.uk/"/>
-  <updated>2016-01-29T14:49:12+00:00</updated>
+  <updated>2016-01-30T16:34:03+00:00</updated>
   <id>http://www.gep13.co.uk/</id>
   <author>
     <name><![CDATA[gep13]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[DDD Scotland 2016 Call for Speakers Is Now Open]]></title>
+    <link href="http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open/"/>
+    <updated>2016-01-30T00:00:00+00:00</updated>
+    <id>http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open</id>
+    <content type="html"><![CDATA[<h1>Call For Speakers</h1>
+
+<p>The Call For Speakers for DDD Scotland is now fully open.  If you have a topic that you would like to speak on, then now is your opportunity to register the talk for consideration.</p>
+
+<p>For those of you who are not familiar with the format of DDD events, it goes a little something like this&hellip;</p>
+
+<ul>
+<li>Potential Speakers submit their sessions for consideration</li>
+<li>Community Voting is then opened, and the Community decides on which talks they want to see</li>
+<li>The speakers with the sessions with the most votes are then contacted, and the sessions are then scheduled</li>
+</ul>
+
+
+<p>If you haven&rsquo;t been to a DDD event before, I thoroughly recommend to give one a try.  They really are great fun!</p>
+
+<p>If you want more information about the event you can find information on the <a href="http://ddd.scot">website</a> or reach out on <a href="https://twitter.com/dddscot">Twitter</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Registration for DunDDD 2014 Is Now Open]]></title>
@@ -116,58 +140,6 @@ In this session we will look at how you can incrementally work your way to fully
 <h1>Sponsors</h1>
 
 <p>If there are any companies out there who would like to help sponsor the event, in order to provide food and refreshments, then any help would be gratefully received.  Feel free to get in touch either through me, or by tweeting <a href="https://twitter.com/scottishdevs">@scottishdevs</a>, or emailing <a href="mailto://support@scottishdevelopers.com">support@scottishdevelopers.com</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Caliburn.Micro Session Accepted for DDD North]]></title>
-    <link href="http://www.gep13.co.uk/blog/caliburnmicro-session-accepted-for-ddd-north/"/>
-    <updated>2012-08-27T07:07:01+00:00</updated>
-    <id>http://www.gep13.co.uk/blog/caliburnmicro-session-accepted-for-ddd-north</id>
-    <content type="html"><![CDATA[<h1>session submission has been accepted for DDD North</h1>
-
-<p>I am very happy to announce that the <a href="http://caliburnmicro.codeplex.com/">Caliburn.Micro</a> session that I submitted for <a href="http://developerdeveloperdeveloper.com/north2">DDD North</a> has been accepted!  The abstract for this session was:</p>
-
-<h1>Getting Started with Caliburn.Micro and Windows Phone 7</h1>
-
-<blockquote>Getting started with the Windows Phone 7 Development Platform is relatively simple, however, using a Framework like Caliburn.Micro takes away some of the more mundane tasks, and allows you to focus on what you are trying to achieve.  In this session we will start with a blank Windows Phone 7 project, and start to create our first Windows Phone 7 application using features such as:
-
-> 
-> 
-    
->   * ActionMessages
-> 
-    
->   * Action Conventions
-> 
-    
->   * Binding Conventions
-> 
-    
->   * Navigation Service
-> 
-    
->   * The Bootstrapper
-> 
-    
->   * The IPhoneService
-> 
-    
->   * Tombstoning
-> 
-    
->   * Lauchers and Choosers
-> 
-    
->   * The IWindowManager
-> 
-
-</blockquote>
-
-
-<p>This is a new talk for me, and I am very much looking forward to doing it.  I am currently using Caliburn.Micro in the two Windows Phone 7 applications that I am involved with, and I really think that it is a great framework to build on.</p>
-
-<p>Registration for <a href="http://developerdeveloperdeveloper.com/north2">DDD North</a> opens tomorrow, 28th August, at 1pm, so in order to avoid disappointment, make sure that you are signed into the website, ready to click on the registration button.</p>
 ]]></content>
   </entry>
   
