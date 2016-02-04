@@ -30,6 +30,7 @@ The complete list is:
 
 **Event Name** | **Event Date**
 --- | ---
+DDD Scotland 2016 | 14th May 2016
 DDD North 5 | 24th October 2015
 DDD East Anglia 2015 | 26th September 2015
 DDD Perth | 29th August 2015
@@ -90,15 +91,15 @@ We got to talking about this before and during the pre-conference dinner, and th
 
 **Name** | **Number of events attended**
 --- | ---
-[Colin Mackay](http://twitter.com/colinmackay) | 27
+[Colin Mackay](http://twitter.com/colinmackay) | 29
 [Craig Murphy](http://twitter.com/camurphy) | 26
 [Guy Smith-Ferrier](http://twitter.com/guysmithferrier) | 25
 [Dave Sussman](https://twitter.com/DaveSussman) | 22
 [Andrew Westgarth](http://twitter.com/apwestgarth) | 21
 [Nathan Gloyn](https://twitter.com/nathangloyn) | 19
 [Liam Westley](https://twitter.com/westleyl) | 18
+[Andy Gibson](http://twitter.com/ARGibson) | 18
 [Chris Alcock](http://twitter.com/calcock) | 17
-[Andy Gibson](http://twitter.com/ARGibson) | 16
 [John McLoughlin](https://twitter.com/Imaji) | 13
 [Adrian Banks](https://twitter.com/adrianbanks) | 12
 [Phil Pursglove](https://twitter.com/philpursglove) | 11
