@@ -30,6 +30,7 @@ The complete list is:
 
 **Event Name** | **Event Date**
 --- | ---
+DDD Sydney 4 | 28th May 2016
 DDD Scotland 2016 | 14th May 2016
 DDD North 5 | 24th October 2015
 DDD East Anglia 2015 | 26th September 2015
