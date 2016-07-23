@@ -30,6 +30,7 @@ The complete list is:
 
 **Event Name** | **Event Date**
 --- | ---
+DDD North 6 | 1st October 2016
 DDD Reading 11 | 3rd September 2016
 DDD Perth 2 | 27th August 2016
 DDD Melbourne 6 | 13th August 2016
