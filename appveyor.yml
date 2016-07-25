@@ -31,7 +31,13 @@ environment:
     secure: obdKLDvCO2Vszsv65fIDLg6YE6/QKbsAHU38Zz5jgQOnfen1MXuknnnqEB0y0XwB
   FLICKR_ACCESS_SECRET:
     secure: 4KG1DGSiopfF3pwYpmZUo/6s3+x341m8wegmIBxCHBQ=
-   
+
+# Branches to build
+  branches:
+  # Whitelist
+    only:
+      - source
+ 
 #---------------------------------#
 #       build configuration       #
 #---------------------------------#
