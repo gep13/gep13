@@ -33,10 +33,10 @@ environment:
     secure: 4KG1DGSiopfF3pwYpmZUo/6s3+x341m8wegmIBxCHBQ=
 
 # Branches to build
-  branches:
+branches:
   # Whitelist
-    only:
-      - source
+  only:
+    - source
  
 #---------------------------------#
 #       build configuration       #
