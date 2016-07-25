@@ -30,11 +30,15 @@ The complete list is:
 
 **Event Name** | **Event Date**
 --- | ---
+DDD North 6 | 1st October 2016
+DDD Reading 11 | 3rd September 2016
+DDD Perth 2 | 27th August 2016
+DDD Melbourne 6 | 13th August 2016
 DDD Sydney 4 | 28th May 2016
 DDD Scotland 2016 | 14th May 2016
 DDD North 5 | 24th October 2015
 DDD East Anglia 2015 | 26th September 2015
-DDD Perth | 29th August 2015
+DDD Perth 1 | 29th August 2015
 DDD Melbourne 5 | 8th August 2015
 DDD South West 6 | 25th April 2015
 DDD Brisbane 4 | 6th December 2014
