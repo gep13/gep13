@@ -1,0 +1,608 @@
+
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+        <title>Gary Ewan Park - DDD attendance leaderboard, where do you rank?</title>
+        <meta name="description" content="Ramblings and Ponderings of a Microsoft Fan Boy..." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+
+        <link type="application/rss+xml" rel="alternate" title="Gary Ewan Park" href="/feed.rss" />
+        <link type="application/atom+xml" rel="alternate" title="Gary Ewan Park" href="/feed.atom" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/css/prettify.css" rel="stylesheet">
+        <link href="/assets/css/github.css" rel="stylesheet">
+        <link href="/assets/css/clean-blog.css" rel="stylesheet" />
+        <link href="/assets/css/master.css" rel="stylesheet" />
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+
+        <meta name="application-name" content="Gary Ewan Park" />
+        <meta name="msapplication-tooltip" content="Gary Ewan Park" />
+        <meta name="msapplication-starturl" content="/" />
+
+        <meta property="og:title" content="Gary Ewan Park - DDD attendance leaderboard, where do you rank?" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank" />
+        <!-- TODO: More social graph meta tags -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
+        <script src="/assets/js/prettify.js"></script>
+        <script src="/assets/js/clean-blog.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="/assets/js/trianglify.min.js"></script>
+        <script src="/assets/js/Please-compressed.js"></script>
+                
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        </head>
+        <body onload="prettyPrint()">
+                
+                <!-- Navigation -->
+                <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+                        <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header page-scroll">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="/">Gary Ewan Park</a>
+                                </div>
+                        
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="navbar-collapse">
+                                        <ul class="nav navbar-nav navbar-right">
+                                                <li><a href="/about">About</a></li>
+<li><a href="/projects">Projects</a></li>
+<li><a href="/talks">Talks</a></li>
+<li><a href="/posts">Archive</a></li>
+<li><a href="/contact">Contact</a></li>
+<li><a href="/tags">Tags</a></li> 
+                                        </ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container -->
+                </nav>
+                
+                <!-- Page Header -->
+                <header class="intro-header" id="intro-header">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-md-12">
+
+    
+<div class="post-heading">
+    <h1>DDD attendance leaderboard, where do you rank?</h1>
+    <div class="meta">        
+Published on 15 October 2012<br>    </div>
+        <div class="tags">
+                    <a role="button" href="/tags/ddd" class="btn btn-default btn-xs">DDD</a>
+                    <a role="button" href="/tags/dddadelaide" class="btn btn-default btn-xs">DDDAdelaide</a>
+                    <a role="button" href="/tags/dddbelfast" class="btn btn-default btn-xs">DDDBelfast</a>
+                    <a role="button" href="/tags/dddbrisbane" class="btn btn-default btn-xs">DDDBrisbane</a>
+                    <a role="button" href="/tags/dddeastanglia" class="btn btn-default btn-xs">DDDEastAnglia</a>
+                    <a role="button" href="/tags/dddgalway" class="btn btn-default btn-xs">DDDGalway</a>
+                    <a role="button" href="/tags/dddmelbourne" class="btn btn-default btn-xs">DDDMelbourne</a>
+                    <a role="button" href="/tags/dddnorth" class="btn btn-default btn-xs">DDDNorth</a>
+                    <a role="button" href="/tags/dddscot" class="btn btn-default btn-xs">DDDSCOT</a>
+                    <a role="button" href="/tags/dddsw" class="btn btn-default btn-xs">DDDSW</a>
+                    <a role="button" href="/tags/dddsydney" class="btn btn-default btn-xs">DDDSydney</a>
+                    <a role="button" href="/tags/dunddd" class="btn btn-default btn-xs">DunDDD</a>
+        </div>     
+</div>
+                                        </div>
+                                </div>
+                        </div>
+                </header>
+                
+                <!-- Main Content -->
+                <div class="container">
+                        <div class="row">
+                                <div id="content" class="col-md-12">
+                                        
+
+<p>On the reverse of the DDD North 2 Speaker and Helper t-shirts, Andy Westgarth (<a href="http://twitter.com/apwestgarth">&#64;apwestgarth</a>) had compiled a list of all the DDD events, starting back on the 15th May 2005.</p>
+<p>The complete list is:</p>
+<table class="table">
+<thead>
+<tr>
+<th><strong>Event Name</strong></th>
+<th><strong>Event Date</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DDD North 6</td>
+<td>1st October 2016</td>
+</tr>
+<tr>
+<td>DDD Reading 11</td>
+<td>3rd September 2016</td>
+</tr>
+<tr>
+<td>DDD Perth 2</td>
+<td>27th August 2016</td>
+</tr>
+<tr>
+<td>DDD Melbourne 6</td>
+<td>13th August 2016</td>
+</tr>
+<tr>
+<td>DDD Sydney 4</td>
+<td>28th May 2016</td>
+</tr>
+<tr>
+<td>DDD Scotland 2016</td>
+<td>14th May 2016</td>
+</tr>
+<tr>
+<td>DDD North 5</td>
+<td>24th October 2015</td>
+</tr>
+<tr>
+<td>DDD East Anglia 2015</td>
+<td>26th September 2015</td>
+</tr>
+<tr>
+<td>DDD Perth 1</td>
+<td>29th August 2015</td>
+</tr>
+<tr>
+<td>DDD Melbourne 5</td>
+<td>8th August 2015</td>
+</tr>
+<tr>
+<td>DDD South West 6</td>
+<td>25th April 2015</td>
+</tr>
+<tr>
+<td>DDD Brisbane 4</td>
+<td>6th December 2014</td>
+</tr>
+<tr>
+<td>DunDDD 4</td>
+<td>29th November 2014</td>
+</tr>
+<tr>
+<td>DDD North 4</td>
+<td>18th October 2014</td>
+</tr>
+<tr>
+<td>DDD East Anglia 2014</td>
+<td>13th September 2014</td>
+</tr>
+<tr>
+<td>DDD Melbourne 4</td>
+<td>19th July 2014</td>
+</tr>
+<tr>
+<td>DDD South West 5</td>
+<td>17th May 2014</td>
+</tr>
+<tr>
+<td>DDD Brisbane 3</td>
+<td>7th December 2013</td>
+</tr>
+<tr>
+<td>DunDDD 3</td>
+<td>23rd November 2013</td>
+</tr>
+<tr>
+<td>DDD North 3</td>
+<td>12th October 2013</td>
+</tr>
+<tr>
+<td>DDD East Anglia 2013</td>
+<td>29th June 2013</td>
+</tr>
+<tr>
+<td>DDD Brisbane 2</td>
+<td>1st December 2012</td>
+</tr>
+<tr>
+<td>DunDDD 2</td>
+<td>17th November 2012</td>
+</tr>
+<tr>
+<td>DDD North 2</td>
+<td>13th October 2012</td>
+</tr>
+<tr>
+<td>DDD Reading 10</td>
+<td>1st September 2012</td>
+</tr>
+<tr>
+<td>DDD Melbourne 3</td>
+<td>28th July 2012</td>
+</tr>
+<tr>
+<td>DDD Sydney 3</td>
+<td>30th June 2012</td>
+</tr>
+<tr>
+<td>DDD South West 4</td>
+<td>26th May 2012</td>
+</tr>
+<tr>
+<td>DDD Brisbane 1</td>
+<td>26th November 2011</td>
+</tr>
+<tr>
+<td>DunDDD 1</td>
+<td>19th November 2011</td>
+</tr>
+<tr>
+<td>DDD North 1</td>
+<td>8th October 2011</td>
+</tr>
+<tr>
+<td>DDD Belfast 2</td>
+<td>1st October 2011</td>
+</tr>
+<tr>
+<td>DDD Adelaide</td>
+<td>16th July 2011</td>
+</tr>
+<tr>
+<td>DDD Sydney 2</td>
+<td>2nd July 2011</td>
+</tr>
+<tr>
+<td>DDD South West 3</td>
+<td>11th June 2011</td>
+</tr>
+<tr>
+<td>DDD Melbourne 2</td>
+<td>28th May 2011</td>
+</tr>
+<tr>
+<td>DDD Scotland 4</td>
+<td>7th May 2011</td>
+</tr>
+<tr>
+<td>DDD Reading 9</td>
+<td>29th January 2011</td>
+</tr>
+<tr>
+<td>NoSQL Autumn Conference</td>
+<td>20th November 2010</td>
+</tr>
+<tr>
+<td>Modern .Net Day (DDD 8a)</td>
+<td>23rd October 2010</td>
+</tr>
+<tr>
+<td>DDD Dublin</td>
+<td>9th October 2010</td>
+</tr>
+<tr>
+<td>Windows Phone 7</td>
+<td>7th October 2010</td>
+</tr>
+<tr>
+<td>DDD Sydney 1</td>
+<td>2nd July 2010</td>
+</tr>
+<tr>
+<td>DDD South West 2</td>
+<td>5th June 2010</td>
+</tr>
+<tr>
+<td>DDD Melbourne 1</td>
+<td>15th May 2010</td>
+</tr>
+<tr>
+<td>DDD Scotland 3</td>
+<td>8th May 2010</td>
+</tr>
+<tr>
+<td>DDD Reading 8</td>
+<td>30th January 2010</td>
+</tr>
+<tr>
+<td>DDD South West 1</td>
+<td>23rd May 2009</td>
+</tr>
+<tr>
+<td>DDD Scotland 2</td>
+<td>2nd May 2009</td>
+</tr>
+<tr>
+<td>WebDD 2009</td>
+<td>18th April 2009</td>
+</tr>
+<tr>
+<td>DDD Belfast 1</td>
+<td>4th April 2009</td>
+</tr>
+<tr>
+<td>DDD Reading 7</td>
+<td>22nd November 2008</td>
+</tr>
+<tr>
+<td>DDD Scotland 1</td>
+<td>10th May 2008</td>
+</tr>
+<tr>
+<td>DDD Galway</td>
+<td>3rd May 2008</td>
+</tr>
+<tr>
+<td>DDD Reading 6</td>
+<td>24th November 2007</td>
+</tr>
+<tr>
+<td>DDD Reading 5</td>
+<td>30th June 2007</td>
+</tr>
+<tr>
+<td>WebDD 2007</td>
+<td>3rd February 2007</td>
+</tr>
+<tr>
+<td>DDD Reading 4</td>
+<td>2nd December 2006</td>
+</tr>
+<tr>
+<td>DDD Reading 3</td>
+<td>3rd June 2006</td>
+</tr>
+<tr>
+<td>DDD Reading 2</td>
+<td>22nd October 2005</td>
+</tr>
+<tr>
+<td>DDD Reading 1</td>
+<td>15th May 2005</td>
+</tr>
+</tbody>
+</table>
+<p>We got to talking about this before and during the pre-conference dinner, and there was a wide ranging number of actual attendances, to the total number of 34 DDD events.  My own personal attendance count is 6, having really only started in the Developer Community in 2010.  However, on speaking to Chris Alcock (&#64;<a href="https://twitter.com/calcock">calcock</a>) he explained that be had attended an amazing 17 of the DDD events!  This got me thinking about how many other people had attended, hence this blog post.  Let me know how many you have attended and I will get you added to the leader board below.  Who will turn out to be the winner?  Maybe Craig Murphy?  Phil Winstanley?  Dave Sussman? Guy Smith-Ferrier? Who knows!  I will keep you posted when I hear from people.</p>
+<table class="table">
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Number of events attended</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://twitter.com/colinmackay">Colin Mackay</a></td>
+<td>29</td>
+</tr>
+<tr>
+<td><a href="http://twitter.com/camurphy">Craig Murphy</a></td>
+<td>26</td>
+</tr>
+<tr>
+<td><a href="http://twitter.com/guysmithferrier">Guy Smith-Ferrier</a></td>
+<td>25</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/nathangloyn">Nathan Gloyn</a></td>
+<td>23</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/DaveSussman">Dave Sussman</a></td>
+<td>22</td>
+</tr>
+<tr>
+<td><a href="http://twitter.com/apwestgarth">Andrew Westgarth</a></td>
+<td>21</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/westleyl">Liam Westley</a></td>
+<td>18</td>
+</tr>
+<tr>
+<td><a href="http://twitter.com/ARGibson">Andy Gibson</a></td>
+<td>18</td>
+</tr>
+<tr>
+<td><a href="http://twitter.com/calcock">Chris Alcock</a></td>
+<td>17</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/Imaji">John McLoughlin</a></td>
+<td>13</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/adrianbanks">Adrian Banks</a></td>
+<td>12</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/philpursglove">Phil Pursglove</a></td>
+<td>11</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/tjrobinson">Tom Robinson</a></td>
+<td>11</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/RossDScott">Ross Scott</a></td>
+<td>10</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/recumbent">James Murphy</a></td>
+<td>9</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/stack72">Paul Stack</a></td>
+<td>9</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/fatherfil">Phil Collins</a></td>
+<td>9</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/RoryBecker">Rory Becker</a></td>
+<td>9</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/rammesses">Joel Hammond-Turner</a></td>
+<td>8</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/alastairs">Alastair Smith</a></td>
+<td>6</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/richardadalton">Richard Dalton</a></td>
+<td>6</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/gep13">Gary Ewan Park</a></td>
+<td>6</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/nmerrigan">Niall Merrigan</a></td>
+<td>5</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/craignicol">Craig Nicol</a></td>
+<td>4</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/shawty_ds">Peter Shaw</a></td>
+<td>4</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/sacs">Colin B</a></td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/garfbradaz">Gareth Bradley</a></td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/hermitdave">Hermit Dave</a></td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/_richardg">Richard Garside</a></td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/seblis27">Sebastian Liszka</a></td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank' + 'S/';
+    var disqus_title = 'DDD attendance leaderboard, where do you rank?';
+    var disqus_url = 'http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                                </div>
+                        </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Footer -->
+                <footer>
+                        <div class="container">
+        <div class="row">
+                <div class="col-md-12">
+                <ul class="list-inline text-center">
+                        <li>
+                        <a href="https://twitter.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="https://github.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                </ul>
+                <p class="copyright text-muted">
+                        Copyright © 2016 by Gary Ewan Park. The opinions expressed herein are my own and do not represent those of my employer or any other third-party views in any way. This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
+                        <br />
+                        <a href="/feed.rss"><i class="fa fa-rss"></i> RSS Feed</a> | <a href="/feed.atom"><i class="fa fa-rss"></i> Atom Feed</a>
+                        <br />
+                        <a href="https://github.com/gep13/gep13.github.io"><i class="fa fa-github"></i> This Site on GitHub</a> | <strong><a href="http://wyam.io">Generated by Wyam</a></strong>
+                </p>
+                </div>
+        </div>
+</div>
+                </footer> 
+
+                <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+
+    // Google Analytics
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-20926037-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+                        <script type="text/javascript">                
+                                // Header background                        
+                                var colors = Please.make_color({
+                                        colors_returned: 3,
+                                        saturation: .6
+                                });
+                                var t = new Trianglify({
+                                        x_gradient: colors,
+                                        y_gradient: ["#FFFFFF"]
+                                });
+                                var header = document.getElementById("intro-header");
+                                var pattern = t.generate(header.clientWidth, header.clientHeight);
+                                header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
+                        </script>
+        </body>
+</html>
+

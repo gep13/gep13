@@ -1,0 +1,777 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+	<channel>
+		<title>Gary Ewan Park</title>
+		<link>http://www.gep13.co.uk/</link>
+		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+		<copyright>2016</copyright>
+		<pubDate>Mon, 12 Dec 2016 12:04:14 GMT</pubDate>
+		<lastBuildDate>Mon, 12 Dec 2016 12:04:14 GMT</lastBuildDate>
+		<item>
+			<title>DDD Scotland 2016 Call For Speakers Is Now Open</title>
+			<link>http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open</link>
+			<description>&lt;p&gt;The Call For Speakers for DDD Scotland is now fully open.  If you have a topic that you would like to speak on, then now is your opportunity to register the talk for consideration.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open</guid>
+			<pubDate>Sat, 30 Jan 2016 00:00:00 GMT</pubDate>
+			<content:encoded>
+                                        
+
+&lt;h1 id="call-for-speakers"&gt;Call For Speakers&lt;/h1&gt;
+&lt;p&gt;The Call For Speakers for DDD Scotland is now fully open.  If you have a topic that you would like to speak on, then now is your opportunity to register the talk for consideration.&lt;/p&gt;
+&lt;p&gt;For those of you who are not familiar with the format of DDD events, it goes a little something like this...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Potential Speakers submit their sessions for consideration&lt;/li&gt;
+&lt;li&gt;Community Voting is then opened, and the Community decides on which talks they want to see&lt;/li&gt;
+&lt;li&gt;The speakers with the sessions with the most votes are then contacted, and the sessions are then scheduled&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you haven't been to a DDD event before, I thoroughly recommend to give one a try.  They really are great fun!&lt;/p&gt;
+&lt;p&gt;If you want more information about the event you can find information on the &lt;a href="http://ddd.scot"&gt;website&lt;/a&gt; or reach out on &lt;a href="https://twitter.com/dddscot"&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open' + 'S/';
+    var disqus_title = 'DDD Scotland 2016 Call For Speakers Is Now Open';
+    var disqus_url = 'http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content:encoded>
+		</item>
+		<item>
+			<title>Strange Error When Signing XAP File for Windows Phone 8.1. Silverlight Application</title>
+			<link>http://www.gep13.co.uk/blog/strange-error-when-signing-xap-file-for-windows-phone-8-1-silverlight-application</link>
+			<description>&lt;p&gt;For the best part of the last two days, I have been staring at various incarnations of error messages from the SignTool executable, most notably the one above.  What follows are some notes on what I was doing, and why, in the hope that if I run into this again, I will have a chance at remembering what to do.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/strange-error-when-signing-xap-file-for-windows-phone-8-1-silverlight-application</guid>
+			<pubDate>Fri, 29 Jan 2016 00:00:00 GMT</pubDate>
+			<content:encoded>
+                                        
+
+&lt;h2 id="signtool-error-this-file-format-cannot-be-signed-because-it-is-not-recognized"&gt;SignTool Error: This file format cannot be signed because it is not recognized.&lt;/h2&gt;
+&lt;p&gt;For the best part of the last two days, I have been staring at various incarnations of error messages from the SignTool executable, most notably the one above.  What follows are some notes on what I was doing, and why, in the hope that if I run into this again, I will have a chance at remembering what to do.&lt;/p&gt;
+&lt;h2 id="tldr"&gt;TL/DR&lt;/h2&gt;
+&lt;p&gt;If you are seeing this error, check what version of Silverlight you have installed on your machine.  If you have this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/SilverlightVersionOne.png" class="img-fluid" alt="Silverlight Version 5.1.20513.0"&gt;&lt;/p&gt;
+&lt;p&gt;i.e. Silverlight version 5.1.20513.0, then this could very well be causing your issue.  Install the latest version, at the time of writing this was 5.1.41212.0, and try signing the XAP file again.  This worked for me, but I have no idea why.  Huge shout out to &lt;a href="http://stackoverflow.com/users/4550683/potricos"&gt;potricos&lt;/a&gt; on this &lt;a href="http://stackoverflow.com/a/28433317/671491"&gt;StackOverflow&lt;/a&gt; post where this suggestion was mentioned.  I honestly didn't see how this would ever solve the problem, but I thought I would give it a try, and I am glad I did!&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h2 id="so-what-was-i-doing"&gt;So, what was I doing?&lt;/h2&gt;
+&lt;p&gt;I have been working on a Windows Phone 8.1 Silverlight application, and development and deployment had been working without any problems whatsoever.  As these things have a tendency to do, the development work stopped on the project, waiting for testing with the client.  Some time passed, and eventually the application was tested, and as a result of that testing, some minor issues were identified.&lt;/p&gt;
+&lt;p&gt;So, I cracked open Visual Studio, made the necessary changes, checked in the code, updated the release notes, tagged the repository. generated the XAP file, and handed this over for testing.&lt;/p&gt;
+&lt;p&gt;Job done I hear you say?&lt;/p&gt;
+&lt;p&gt;Well, no!&lt;/p&gt;
+&lt;p&gt;When we tried to deploy the XAP file onto the Windows Phone (using an Enterprise Certificate) it simply wouldn't install.  There were no errors, no exceptions, no dialogues, no nothing.  When we went back and re-installed the old version of the application is worked fine.  So this told me that the Enterprise Certificate was good, and I wasn't running into any issues with certificate expiration.  So what did that leave?&lt;/p&gt;
+&lt;p&gt;What followed over the next two days were various trial/error approaches to get to the root cause.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Found another machine from colleague where the generation of the XAP file did result in a successful deployment&lt;/li&gt;
+&lt;li&gt;Created a Virtual Machine to try to mimic the functionality on the colleague machine&lt;/li&gt;
+&lt;li&gt;Breaking apart the build process trying to isolate what could be causing problems&lt;/li&gt;
+&lt;li&gt;Extracting the XAP files and doing comparisons between the working and non working versions to try to identify differences&lt;/li&gt;
+&lt;li&gt;Lots and lots of googling&lt;/li&gt;
+&lt;li&gt;Lots and lots of head scratching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Eventually, after digging around in various log files, we stumbled across this error message:&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;Done Adding Additional Store
+Number of files successfully Signed: 0
+Number of warnings: 0
+Number of errors: 1&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Which was found when the build script was executing the MDILXAPCompile step that is described &lt;a href="http://gep13.me/20xBO6z"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After extracting the actual command that was being run by the tool at this point in time, and directly running it, we got some more information returned which wasn't captured in the log:&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/SignToolOutput.png" class="img-fluid" alt="Verbose Output from SignTool"&gt;&lt;/p&gt;
+&lt;p&gt;Once this was discovered, and some more hunting around, we were led to this &lt;a href="http://stackoverflow.com/a/28433317/671491"&gt;StackOverflow&lt;/a&gt; post, which was initially disregarded as not being relevant.  However, on checking, the laptop on which the build/deployment was working had a later version of Silverlight compared to the machines that it wasn't working on.&lt;/p&gt;
+&lt;p&gt;After installing the latest version, which took the Silverlight version to 5.1.41212.0:&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/SilverlightVersionTwo.png" class="img-fluid" alt="Silverlight Version 5.1.41212.0"&gt;&lt;/p&gt;
+&lt;p&gt;The build/deployment then proceeded to work!&lt;/p&gt;
+&lt;p&gt;I still am no wiser on "why" this is now working, but I am happy that it is.  I could understand there being a difference if I had updated the Silverlight SDK, but seeing a difference after installing the Silverlight Runtime, doesn't really make any sense to me.&lt;/p&gt;
+&lt;p&gt;If anyone can shed any light on what is going on here, I would love to hear from you.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/strange-error-when-signing-xap-file-for-windows-phone-8-1-silverlight-application' + 'S/';
+    var disqus_title = 'Strange Error When Signing XAP File for Windows Phone 8.1. Silverlight Application';
+    var disqus_url = 'http://www.gep13.co.uk/blog/strange-error-when-signing-xap-file-for-windows-phone-8-1-silverlight-application' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content:encoded>
+		</item>
+		<item>
+			<title>Slides from Talk at ScotSoft2015</title>
+			<link>http://www.gep13.co.uk/blog/slides-from-talk-at-scotsoft2015</link>
+			<description>&lt;p&gt;On Thursday 17th September 2015, I presented a talk entitled "Semantic Versioning with GitVersion" at the first Developer Forum as part of the &lt;a href="http://www.scotlandis.com/scotsoft2015/"&gt;ScotlandIS ScotSoft2015&lt;/a&gt; event.  The abstract for the talk was as follows:&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/slides-from-talk-at-scotsoft2015</guid>
+			<pubDate>Thu, 24 Sep 2015 00:00:00 GMT</pubDate>
+			<content:encoded>
+                                        
+
+&lt;h2 id="semantic-versioning-with-gitversion"&gt;Semantic Versioning with GitVersion&lt;/h2&gt;
+&lt;p&gt;On Thursday 17th September 2015, I presented a talk entitled "Semantic Versioning with GitVersion" at the first Developer Forum as part of the &lt;a href="http://www.scotlandis.com/scotsoft2015/"&gt;ScotlandIS ScotSoft2015&lt;/a&gt; event.  The abstract for the talk was as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+Have you ever needed to control the version number of your application?  If so, you will know that this isn't something that you "get for free".  It's hard!
+&lt;p&gt;You may have tried to use some form of auto incrementing number from your Continuous Integration Server, or store a text file in source control and update it each time the build happens.  Both of these approaches will work, but they don't account for more complicated scenarios where you are working on multiple releases at the same time, or you want to use multiple Continuous Integration Servers.&lt;/p&gt;
+&lt;p&gt;In this session, we will look at how we can improve the versioning of your application using a combination of branching strategies (either Gitflow or Githubflow) and an open source tool called GitVersion.&lt;/p&gt;
+&lt;p&gt;GitVersion is a tool which allows you to easy generate the Semantic Version number for your application, based on the current state of your code base in it's Git Repository.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!--more--&gt;
+&lt;p&gt;I thoroughly enjoyed doing this presentation, and there were quite a few questions after the talk was finished, so I feel that people were able to get something from it.  If there are any follow-up questions, then please feel free to get in touch, and I will do my best to respond.&lt;/p&gt;
+&lt;h2 id="slides"&gt;Slides&lt;/h2&gt;
+&lt;p&gt;If you are interested in seeing the slide from the talk, you can find them displayed below, or you can find the full version on SlideShare &lt;a href="http://www.slideshare.net/gep13/semantic-versioning-with-gitversion"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/HzZm8AmIJpZ0Sf" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt;&lt;/div&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/slides-from-talk-at-scotsoft2015' + 'S/';
+    var disqus_title = 'Slides from Talk at ScotSoft2015';
+    var disqus_url = 'http://www.gep13.co.uk/blog/slides-from-talk-at-scotsoft2015' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content:encoded>
+		</item>
+		<item>
+			<title>Registration for DunDDD 2014 is now open</title>
+			<link>http://www.gep13.co.uk/blog/registration-for-dunddd-2014-is-now-open</link>
+			<description>&lt;p&gt;The call for speakers at the Scottish Community Event (organised by the &lt;a href="http://scottishdevelopers.com/"&gt;Scottish Developers&lt;/a&gt;) known as &lt;a href="http://dun.dddscotland.co.uk/speaker"&gt;DunDDD &lt;/a&gt;has now closed and the registration has opened.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/registration-for-dunddd-2014-is-now-open</guid>
+			<pubDate>Sat, 01 Nov 2014 00:00:00 GMT</pubDate>
+			<content:encoded>
+                                        
+
+&lt;h1 id="grab-your-ticket-for-dunddd-quickly-so-you-dont-miss-out"&gt;Grab your ticket for DunDDD quickly so you don't miss out!&lt;/h1&gt;
+&lt;p&gt;The call for speakers at the Scottish Community Event (organised by the &lt;a href="http://scottishdevelopers.com/"&gt;Scottish Developers&lt;/a&gt;) known as &lt;a href="http://dun.dddscotland.co.uk/speaker"&gt;DunDDD &lt;/a&gt;has now closed and the registration has opened.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h1 id="dunddd-is-now-in-its-fourth-year"&gt;DunDDD is now in its fourth year&lt;/h1&gt;
+&lt;p&gt;This will be the 4th DunDDD, built on the popular foundation of the Developer! Developer! Developer! conference series which has spread to all corners of the UK and the international arena. &amp;nbsp;DDD conferences are community-run days where passionate and enthusiastic people come together to learn, share ideas, and to network within the many hubs of the development community. Best of all DDD events are &lt;strong&gt;free&lt;/strong&gt; to everyone!&lt;/p&gt;
+&lt;p&gt;This year DunDDD will be featuring an entire track dedicated to the &lt;strong&gt;Not Only SQL&lt;/strong&gt; movement and &lt;strong&gt;Big Data&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Go and grab your &lt;a href="http://dun.dddscotland.co.uk/registration"&gt;ticket now&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/registration-for-dunddd-2014-is-now-open' + 'S/';
+    var disqus_title = 'Registration for DunDDD 2014 is now open';
+    var disqus_url = 'http://www.gep13.co.uk/blog/registration-for-dunddd-2014-is-now-open' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content:encoded>
+		</item>
+		<item>
+			<title>Improve AppVeyor build times using build cache</title>
+			<link>http://www.gep13.co.uk/blog/improve-appveyor-build-times-using-build-cache</link>
+			<description>&lt;p&gt;By making use of the &lt;a href="http://www.appveyor.com/docs/build-cache"&gt;build cache&lt;/a&gt; within &lt;a href="http://www.appveyor.com/"&gt;AppVeyor&lt;/a&gt;.  For both this blog, and also the &lt;a href="http://www.aberdeendevelopers.co.uk/"&gt;Aberdeen Developers .Net User Group&lt;/a&gt; blog, I was able to reduce the overall build time by over 3 minutes.  Find out how.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/improve-appveyor-build-times-using-build-cache</guid>
+			<pubDate>Mon, 20 Oct 2014 00:00:00 GMT</pubDate>
+			<content:encoded>
+                                        
+
+&lt;h2 id="take-minutes-off-overall-build-time"&gt;Take minutes off overall build time...&lt;/h2&gt;
+&lt;p&gt;By making use of the &lt;a href="http://www.appveyor.com/docs/build-cache"&gt;build cache&lt;/a&gt; within &lt;a href="http://www.appveyor.com/"&gt;AppVeyor&lt;/a&gt;.  For both this blog, and also the &lt;a href="http://www.aberdeendevelopers.co.uk/"&gt;Aberdeen Developers .Net User Group&lt;/a&gt; blog, I was able to reduce the overall build time by over 3 minutes.  Find out how.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;In a recent &lt;a href="http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages/"&gt;blog post&lt;/a&gt;, I described how I was able to use AppVeyor to generate and then deploy an Octopress site to GitHub Pages.  The process is very simple to setup, the only slight downside is the time that it takes to generate the site itself, which can take over 7 minutes.&lt;/p&gt;
+&lt;p&gt;In the grand scheme of things, this isn't a long time, but if you are pushing a quick change, and want to see whether it worked before moving onto something else, these 7 minutes can seem like an entirity.  Looking at the build log, it was clear that the thing that was taking the longest was this command:&lt;/p&gt;
+&lt;p&gt;{% codeblock lang:yaml %}&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;cmd: bundle install
+{% endcodeblock %}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The reason that this is required is due to the fact that each time a build on AppVeyor runs, it is using a brand new instance of the &lt;a href="http://www.appveyor.com/docs/installed-software"&gt;Build Worker Image&lt;/a&gt;.  This is both good and bad.  It means that you are always starting from a known point.  However, it also means that anything you installed to get your build to work, is no longer there the next time the build runs.&lt;/p&gt;
+&lt;p&gt;In my case, there are almost 50 rubygems that need to be installed in order for Octopress to work correctly.  This means that these gems have to be downloaded from the internet, installed and verified, and then used in the build process.&lt;/p&gt;
+&lt;p&gt;Thankfully, AppVeyor has the concept of using a build cache.  This basically means that, once setup, AppVeyor will first extract all the cached files back onto the Build Worker Image, and then start the build proper.  As a result, when I run:&lt;/p&gt;
+&lt;p&gt;{% codeblock lang:yaml %}&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;cmd: bundle install
+{% endcodeblock %}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The gems are already installed, and no longer need to be downloaded and installed.  Then, at the end of the build, the folders of interest are then re-cached, ready for extraction when the next build kicks off.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; There is a limit of 100MB applied to the build cache.  If you are trying to cache more files than this, you will have to get in contact with AppVeyor support to see if there is anything that can be done to increase this number.&lt;/p&gt;
+&lt;h2 id="enough-already-show-me-the-configuration"&gt;Enough already, show me the configuration&lt;/h2&gt;
+&lt;p&gt;Setting this up is as simple as this:&lt;/p&gt;
+&lt;p&gt;{% codeblock lang:yaml %}
+cache:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;C:\Ruby193\lib\ruby\gems\1.9.1&lt;/li&gt;
+&lt;li&gt;C:\Ruby193\bin
+{% endcodeblock %}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I originally started out trying to cache only the &lt;code&gt;gems&lt;/code&gt; folder, however, with the help of Feodor Fitsner over at the &lt;a href="http://help.appveyor.com/discussions/questions/585-what-setup-for-build-cache-is-require-for-bundle-install"&gt;AppVeyor Support&lt;/a&gt; pages it became apparent that I would also need to include the &lt;code&gt;bin&lt;/code&gt; folder, as during the installation of gems a number of them put their bash or CMD scripts into this folder so that they can make the tooling work correctly from the command line.&lt;/p&gt;
+&lt;p&gt;And there you have it!  With the build cache configured, I was able to reduce the build time for this blog from &lt;code&gt;5 min 37&lt;/code&gt; to &lt;code&gt;2 min 28 sec&lt;/code&gt;.  Not a bad effort!&lt;/p&gt;
+&lt;p&gt;This same approach can be used for other artefacts of a build process, for instance, restoring nuget packages.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/improve-appveyor-build-times-using-build-cache' + 'S/';
+    var disqus_title = 'Improve AppVeyor build times using build cache';
+    var disqus_url = 'http://www.gep13.co.uk/blog/improve-appveyor-build-times-using-build-cache' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content:encoded>
+		</item>
+		<item>
+			<title>Chocolatey Kickstarter is now live</title>
+			<link>http://www.gep13.co.uk/blog/chocolatey-kickstarter-is-now-live</link>
+			<description>&lt;p&gt;Click &lt;a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum"&gt;here&lt;/a&gt; and back the brand new Chocolatey Kickstarter!&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/chocolatey-kickstarter-is-now-live</guid>
+			<pubDate>Wed, 15 Oct 2014 00:00:00 GMT</pubDate>
+			<content:encoded>
+                                        
+
+&lt;h2 id="tldr"&gt;tl;dr&lt;/h2&gt;
+&lt;p&gt;Click &lt;a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum"&gt;here&lt;/a&gt; and back the brand new Chocolatey Kickstarter!&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h2 id="some-more-information"&gt;Some more information&lt;/h2&gt;
+&lt;p&gt;Earlier today, Rob Reynolds (&lt;a href="https://twitter.com/ferventcoder"&gt;@ferventcoder&lt;/a&gt;) pushed the button on a new Kickstarter, aimed at raising funds to:&lt;/p&gt;
+&lt;p&gt;{% blockquote Rob Reynolds https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum Chocolatey Kickstarter %}
+move forward from the Chocolatey experiment to the Chocolatey experience!
+{% endblockquote %}&lt;/p&gt;
+&lt;p&gt;This really is an exciting time for Chocolatey, and general application management on Windows.  You can find all the details that you will need to get started, including information about the rewards that you can back on the Kickstarter page (did I mention that one of them actually including actual chocolate?).  Head on &lt;a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum"&gt;over&lt;/a&gt; to check them out!&lt;/p&gt;
+&lt;h2 id="chocolatey-kickstarter-release-video"&gt;Chocolatey Kickstarter Release Video&lt;/h2&gt;
+&lt;p&gt;Here is the release video which explains some of the aims of the Chocolatey Kickstarter:&lt;/p&gt;
+&lt;div class="video-container"&gt;
+    &lt;iframe width="480" height="360" src="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum/widget/video.html" frameborder="0" scrolling="no"&gt; &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id="new-chocolatey-features-video"&gt;New Chocolatey Features Video&lt;/h2&gt;
+&lt;p&gt;Check out the following video which shows some of the soon to be released new features in the C# rewrite of Chocolatey:&lt;/p&gt;
+&lt;div class="video-container"&gt;
+    &lt;iframe width="480" height="360" src="//www.youtube.com/embed/sm_U53sxt2c" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id="get-in-quick"&gt;Get in quick!&lt;/h2&gt;
+&lt;p&gt;At the time of writing, there is almost 40 people already signed up to the Kickstarter, so be sure to get in quick so you don't miss out of the exciting oppurtunity to help Chocolatey grow into &lt;strong&gt;the&lt;/strong&gt; application package manager for Windows.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/chocolatey-kickstarter-is-now-live' + 'S/';
+    var disqus_title = 'Chocolatey Kickstarter is now live';
+    var disqus_url = 'http://www.gep13.co.uk/blog/chocolatey-kickstarter-is-now-live' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content:encoded>
+		</item>
+		<item>
+			<title>Our Daughter is 1 Year Old Today!</title>
+			<link>http://www.gep13.co.uk/blog/our-daughter-is-1-year-old-today</link>
+			<description>&lt;p&gt;As amazing as it sounds, our daughter is 1 year old today!&lt;/p&gt;</description>
+			<enclosure url="http://www.gep13.co.uk/images/birthday_collection" length="0" type="image" />
+			<guid>http://www.gep13.co.uk/blog/our-daughter-is-1-year-old-today</guid>
+			<pubDate>Sat, 13 Sep 2014 00:00:00 GMT</pubDate>
+			<content:encoded>
+                                        
+
+&lt;h2 id="is-it-really-1-year"&gt;Is it really 1 year?&lt;/h2&gt;
+&lt;p&gt;As amazing as it sounds, our daughter is 1 year old today!&lt;/p&gt;
+&lt;p&gt;I was always told that time would start passing quickly as soon as you had your first child, but I honestly didn't expect that it would be this fast!&lt;/p&gt;
+&lt;p&gt;Today is Alivia's 1st Birthday!  I can remember being in the hospital holding for the first time as if it were yesterday!&lt;/p&gt;
+&lt;p&gt;So much as happened since Alivia came into our lives, but I wouldn't change anything, I love being a dad!&lt;/p&gt;
+&lt;p&gt;She has:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;learned to walk (well almost)&lt;/li&gt;
+&lt;li&gt;learned to swim&lt;/li&gt;
+&lt;li&gt;learned to say "dad"&lt;/li&gt;
+&lt;li&gt;learned to sign "mum"&lt;/li&gt;
+&lt;li&gt;learned to clap&lt;/li&gt;
+&lt;li&gt;learned to sleep through the night&lt;/li&gt;
+&lt;li&gt;learned to blow raspberries&lt;/li&gt;
+&lt;li&gt;and so much more!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Looking forward to teaching her so many new things in the next year!&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/our-daughter-is-1-year-old-today' + 'S/';
+    var disqus_title = 'Our Daughter is 1 Year Old Today!';
+    var disqus_url = 'http://www.gep13.co.uk/blog/our-daughter-is-1-year-old-today' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content:encoded>
+		</item>
+		<item>
+			<title>DDD attendance leaderboard, where do you rank?</title>
+			<link>http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank</link>
+			<description>&lt;p&gt;On the reverse of the DDD North 2 Speaker and Helper t-shirts, Andy Westgarth (&lt;a href="http://twitter.com/apwestgarth"&gt;@apwestgarth&lt;/a&gt;) had compiled a list of all the DDD events, starting back on the 15th May 2005.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank</guid>
+			<pubDate>Mon, 15 Oct 2012 00:00:00 GMT</pubDate>
+			<content:encoded>
+                                        
+
+&lt;p&gt;On the reverse of the DDD North 2 Speaker and Helper t-shirts, Andy Westgarth (&lt;a href="http://twitter.com/apwestgarth"&gt;@apwestgarth&lt;/a&gt;) had compiled a list of all the DDD events, starting back on the 15th May 2005.&lt;/p&gt;
+&lt;p&gt;The complete list is:&lt;/p&gt;
+&lt;table class="table"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Event Name&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Event Date&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD North 6&lt;/td&gt;
+&lt;td&gt;1st October 2016&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Reading 11&lt;/td&gt;
+&lt;td&gt;3rd September 2016&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Perth 2&lt;/td&gt;
+&lt;td&gt;27th August 2016&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Melbourne 6&lt;/td&gt;
+&lt;td&gt;13th August 2016&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Sydney 4&lt;/td&gt;
+&lt;td&gt;28th May 2016&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Scotland 2016&lt;/td&gt;
+&lt;td&gt;14th May 2016&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD North 5&lt;/td&gt;
+&lt;td&gt;24th October 2015&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD East Anglia 2015&lt;/td&gt;
+&lt;td&gt;26th September 2015&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Perth 1&lt;/td&gt;
+&lt;td&gt;29th August 2015&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Melbourne 5&lt;/td&gt;
+&lt;td&gt;8th August 2015&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD South West 6&lt;/td&gt;
+&lt;td&gt;25th April 2015&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Brisbane 4&lt;/td&gt;
+&lt;td&gt;6th December 2014&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DunDDD 4&lt;/td&gt;
+&lt;td&gt;29th November 2014&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD North 4&lt;/td&gt;
+&lt;td&gt;18th October 2014&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD East Anglia 2014&lt;/td&gt;
+&lt;td&gt;13th September 2014&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Melbourne 4&lt;/td&gt;
+&lt;td&gt;19th July 2014&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD South West 5&lt;/td&gt;
+&lt;td&gt;17th May 2014&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Brisbane 3&lt;/td&gt;
+&lt;td&gt;7th December 2013&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DunDDD 3&lt;/td&gt;
+&lt;td&gt;23rd November 2013&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD North 3&lt;/td&gt;
+&lt;td&gt;12th October 2013&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD East Anglia 2013&lt;/td&gt;
+&lt;td&gt;29th June 2013&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Brisbane 2&lt;/td&gt;
+&lt;td&gt;1st December 2012&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DunDDD 2&lt;/td&gt;
+&lt;td&gt;17th November 2012&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD North 2&lt;/td&gt;
+&lt;td&gt;13th October 2012&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Reading 10&lt;/td&gt;
+&lt;td&gt;1st September 2012&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Melbourne 3&lt;/td&gt;
+&lt;td&gt;28th July 2012&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Sydney 3&lt;/td&gt;
+&lt;td&gt;30th June 2012&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD South West 4&lt;/td&gt;
+&lt;td&gt;26th May 2012&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Brisbane 1&lt;/td&gt;
+&lt;td&gt;26th November 2011&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DunDDD 1&lt;/td&gt;
+&lt;td&gt;19th November 2011&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD North 1&lt;/td&gt;
+&lt;td&gt;8th October 2011&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Belfast 2&lt;/td&gt;
+&lt;td&gt;1st October 2011&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Adelaide&lt;/td&gt;
+&lt;td&gt;16th July 2011&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Sydney 2&lt;/td&gt;
+&lt;td&gt;2nd July 2011&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD South West 3&lt;/td&gt;
+&lt;td&gt;11th June 2011&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Melbourne 2&lt;/td&gt;
+&lt;td&gt;28th May 2011&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Scotland 4&lt;/td&gt;
+&lt;td&gt;7th May 2011&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Reading 9&lt;/td&gt;
+&lt;td&gt;29th January 2011&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NoSQL Autumn Conference&lt;/td&gt;
+&lt;td&gt;20th November 2010&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Modern .Net Day (DDD 8a)&lt;/td&gt;
+&lt;td&gt;23rd October 2010&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Dublin&lt;/td&gt;
+&lt;td&gt;9th October 2010&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Windows Phone 7&lt;/td&gt;
+&lt;td&gt;7th October 2010&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Sydney 1&lt;/td&gt;
+&lt;td&gt;2nd July 2010&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD South West 2&lt;/td&gt;
+&lt;td&gt;5th June 2010&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Melbourne 1&lt;/td&gt;
+&lt;td&gt;15th May 2010&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Scotland 3&lt;/td&gt;
+&lt;td&gt;8th May 2010&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Reading 8&lt;/td&gt;
+&lt;td&gt;30th January 2010&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD South West 1&lt;/td&gt;
+&lt;td&gt;23rd May 2009&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Scotland 2&lt;/td&gt;
+&lt;td&gt;2nd May 2009&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;WebDD 2009&lt;/td&gt;
+&lt;td&gt;18th April 2009&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Belfast 1&lt;/td&gt;
+&lt;td&gt;4th April 2009&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Reading 7&lt;/td&gt;
+&lt;td&gt;22nd November 2008&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Scotland 1&lt;/td&gt;
+&lt;td&gt;10th May 2008&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Galway&lt;/td&gt;
+&lt;td&gt;3rd May 2008&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Reading 6&lt;/td&gt;
+&lt;td&gt;24th November 2007&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Reading 5&lt;/td&gt;
+&lt;td&gt;30th June 2007&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;WebDD 2007&lt;/td&gt;
+&lt;td&gt;3rd February 2007&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Reading 4&lt;/td&gt;
+&lt;td&gt;2nd December 2006&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Reading 3&lt;/td&gt;
+&lt;td&gt;3rd June 2006&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Reading 2&lt;/td&gt;
+&lt;td&gt;22nd October 2005&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DDD Reading 1&lt;/td&gt;
+&lt;td&gt;15th May 2005&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;We got to talking about this before and during the pre-conference dinner, and there was a wide ranging number of actual attendances, to the total number of 34 DDD events.&amp;nbsp; My own personal attendance count is 6, having really only started in the Developer Community in 2010.&amp;nbsp; However, on speaking to Chris Alcock (@&lt;a href="https://twitter.com/calcock"&gt;calcock&lt;/a&gt;) he explained that be had attended an amazing 17 of the DDD events!&amp;nbsp; This got me thinking about how many other people had attended, hence this blog post.&amp;nbsp; Let me know how many you have attended and I will get you added to the leader board below.&amp;nbsp; Who will turn out to be the winner?&amp;nbsp; Maybe Craig Murphy?&amp;nbsp; Phil Winstanley?&amp;nbsp; Dave Sussman? Guy Smith-Ferrier? Who knows!&amp;nbsp; I will keep you posted when I hear from people.&lt;/p&gt;
+&lt;table class="table"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Name&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Number of events attended&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://twitter.com/colinmackay"&gt;Colin Mackay&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://twitter.com/camurphy"&gt;Craig Murphy&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://twitter.com/guysmithferrier"&gt;Guy Smith-Ferrier&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/nathangloyn"&gt;Nathan Gloyn&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/DaveSussman"&gt;Dave Sussman&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://twitter.com/apwestgarth"&gt;Andrew Westgarth&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/westleyl"&gt;Liam Westley&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://twitter.com/ARGibson"&gt;Andy Gibson&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://twitter.com/calcock"&gt;Chris Alcock&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/Imaji"&gt;John McLoughlin&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/adrianbanks"&gt;Adrian Banks&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/philpursglove"&gt;Phil Pursglove&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/tjrobinson"&gt;Tom Robinson&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/RossDScott"&gt;Ross Scott&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/recumbent"&gt;James Murphy&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/stack72"&gt;Paul Stack&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/fatherfil"&gt;Phil Collins&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/RoryBecker"&gt;Rory Becker&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/rammesses"&gt;Joel Hammond-Turner&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/alastairs"&gt;Alastair Smith&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/richardadalton"&gt;Richard Dalton&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/gep13"&gt;Gary Ewan Park&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/nmerrigan"&gt;Niall Merrigan&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/craignicol"&gt;Craig Nicol&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/shawty_ds"&gt;Peter Shaw&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/sacs"&gt;Colin B&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/garfbradaz"&gt;Gareth Bradley&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/hermitdave"&gt;Hermit Dave&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/_richardg"&gt;Richard Garside&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://twitter.com/seblis27"&gt;Sebastian Liszka&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank' + 'S/';
+    var disqus_title = 'DDD attendance leaderboard, where do you rank?';
+    var disqus_url = 'http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content:encoded>
+		</item>
+	</channel>
+</rss>
