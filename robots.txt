@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://www.gep13.co.uk/sitemap.xml 

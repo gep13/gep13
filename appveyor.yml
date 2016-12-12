@@ -1,0 +1,31 @@
+branches:
+  only:
+    - master
+    
+environment:
+  access_token:
+    secure: 8nkd45DMSjFqay9ejGL2Eww79jHZW93WsTbBB2qbLmnsYKbtWTukpcrhzOkg7Rou
+
+install:
+  - mkdir ..\Wyam
+  - mkdir ..\Output
+
+build_script:
+  - ps: .\build.ps1 -Target "AppVeyor"
+
+on_success:
+  - rm -rf tools
+  # Switch branches to gh-pages, clean the folder, copy everything in from the Wyam output, and commit/push
+  # See http://www.appveyor.com/docs/how-to/git-push for more info
+  - git config --global credential.helper store
+  - git config --global user.email "gep13@gep13.co.uk"
+  - git config --global user.name "Gary Ewan Park"
+  - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
+  - git checkout gh-pages
+  - git rm -rf .
+  - xcopy ..\Output . /E
+  - echo www.gep13.co.uk > CNAME
+  - git remote set-url origin https://github.com/gep13/gep13.github.io.git
+  - git add -A
+  - git commit -a -m "Commit from AppVeyor"
+  - git push
