@@ -39,3 +39,14 @@ Pipelines[BlogPipelines.Pages].Add(
         new WriteFiles(".html")
             .OnlyMetadata()
 );
+
+Pipelines.Add("Feed2",
+    Documents(BlogPipelines.Posts),
+    GenerateFeeds().WithAtomPath(_ => "/feed/index.xml"),
+    WriteFiles()
+);
+Pipelines.Add("Feed3",
+    Documents(BlogPipelines.Posts),
+    GenerateFeeds().WithAtomPath(_ => "/atom.xml"),
+    WriteFiles()
+);
