@@ -113,7 +113,7 @@ Published on 29 January 2016<br>    </div>
 <p>For the best part of the last two days, I have been staring at various incarnations of error messages from the SignTool executable, most notably the one above.  What follows are some notes on what I was doing, and why, in the hope that if I run into this again, I will have a chance at remembering what to do.</p>
 <h2 id="tldr">TL/DR</h2>
 <p>If you are seeing this error, check what version of Silverlight you have installed on your machine.  If you have this:</p>
-<p><img src="/images/SilverlightVersionOne.png" class="img-fluid" alt="Silverlight Version 5.1.20513.0" /></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13wpstorage/2016/1/29/SilverlightVersionOne.png" class="img-fluid" alt="Silverlight Version 5.1.20513.0" /></p>
 <p>i.e. Silverlight version 5.1.20513.0, then this could very well be causing your issue.  Install the latest version, at the time of writing this was 5.1.41212.0, and try signing the XAP file again.  This worked for me, but I have no idea why.  Huge shout out to <a href="http://stackoverflow.com/users/4550683/potricos">potricos</a> on this <a href="http://stackoverflow.com/a/28433317/671491">StackOverflow</a> post where this suggestion was mentioned.  I honestly didn't see how this would ever solve the problem, but I thought I would give it a try, and I am glad I did!</p>
 <!--more-->
 <h2 id="so-what-was-i-doing">So, what was I doing?</h2>
@@ -132,18 +132,17 @@ Published on 29 January 2016<br>    </div>
 <li>Lots and lots of head scratching</li>
 </ul>
 <p>Eventually, after digging around in various log files, we stumbled across this error message:</p>
-<blockquote class="blockquote">
-<p>Done Adding Additional Store
+<pre><code class="language-sh">Done Adding Additional Store
 Number of files successfully Signed: 0
 Number of warnings: 0
-Number of errors: 1</p>
-</blockquote>
+Number of errors: 1
+</code></pre>
 <p>Which was found when the build script was executing the MDILXAPCompile step that is described <a href="http://gep13.me/20xBO6z">here</a>.</p>
 <p>After extracting the actual command that was being run by the tool at this point in time, and directly running it, we got some more information returned which wasn't captured in the log:</p>
-<p><img src="/images/SignToolOutput.png" class="img-fluid" alt="Verbose Output from SignTool" /></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13wpstorage/2016/1/29/SignToolOutput.png" class="img-fluid" alt="Verbose Output from SignTool" /></p>
 <p>Once this was discovered, and some more hunting around, we were led to this <a href="http://stackoverflow.com/a/28433317/671491">StackOverflow</a> post, which was initially disregarded as not being relevant.  However, on checking, the laptop on which the build/deployment was working had a later version of Silverlight compared to the machines that it wasn't working on.</p>
 <p>After installing the latest version, which took the Silverlight version to 5.1.41212.0:</p>
-<p><img src="/images/SilverlightVersionTwo.png" class="img-fluid" alt="Silverlight Version 5.1.41212.0" /></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13wpstorage/2016/1/29/SilverlightVersionTwo.png" class="img-fluid" alt="Silverlight Version 5.1.41212.0" /></p>
 <p>The build/deployment then proceeded to work!</p>
 <p>I still am no wiser on &quot;why&quot; this is now working, but I am happy that it is.  I could understand there being a difference if I had updated the Silverlight SDK, but seeing a difference after installing the Silverlight Runtime, doesn't really make any sense to me.</p>
 <p>If anyone can shed any light on what is going on here, I would love to hear from you.</p>
