@@ -1,14 +1,6 @@
----
-author: gep13
-comments: true
-date: 2008-04-27 18:35:00+00:00
-layout: post
-slug: arrived-in-calgary
-title: Arrived in Calgary
-wordpress_id: 667
-categories:
-- Trips Abroad
-tags:
+Title:  Arrived in Calgary
+Published: 27/04/2008
+Tags:
 - Arrival
 - Calgary
 ---
