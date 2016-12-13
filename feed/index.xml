@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2016</rights>
-	<updated>2016-12-13T20:15:55Z</updated>
+	<updated>2016-12-13T21:54:35Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open" />
@@ -770,6 +770,40 @@ move forward from the Chocolatey experiment to the Chocolatey experience!
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
                                 </content>
 		<summary>&lt;p&gt;On the reverse of the DDD North 2 Speaker and Helper t-shirts, Andy Westgarth (&lt;a href="http://twitter.com/apwestgarth"&gt;@apwestgarth&lt;/a&gt;) had compiled a list of all the DDD events, starting back on the 15th May 2005.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/irn-bru-in-calgary" />
+		<id>http://www.gep13.co.uk/blog/irn-bru-in-calgary</id>
+		<title>Irn Bru in Calgary</title>
+		<updated>2008-06-08T00:00:00Z</updated>
+		<content>
+                                        
+
+&lt;p&gt;I didn't think I was going to find any Irn Bru while I was in Calgary, but guess what...&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2008/6/8/IrnBru.jpg" class="img-fluid" alt="IrnBru"&gt;&lt;/p&gt;
+&lt;p&gt;...I did!!&lt;/p&gt;
+&lt;p&gt;When I was at the Cinema last weekend to see the new Indiana Jones Movie, I saw the "A Taste of Britain" store. It was closed, but through the window I could see some Irn Bru. I went back there this Friday just past after work and I bought some.&amp;nbsp; It was £1.60 for a bottle, but it was well worth it!!!&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/irn-bru-in-calgary' + 'S/';
+    var disqus_title = 'Irn Bru in Calgary';
+    var disqus_url = 'http://www.gep13.co.uk/blog/irn-bru-in-calgary' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content>
+		<summary>&lt;p&gt;I didn't think I was going to find any Irn Bru while I was in Calgary, but guess what...&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/calgary-zoo" />
