@@ -1,14 +1,6 @@
----
-author: gep13
-comments: true
-date: 2008-06-12 18:13:00+00:00
-layout: post
-slug: bull-riding-at-the-saddledome
-title: Bull Riding at the SaddleDome
-wordpress_id: 662
-categories:
-- Trips Abroad
-tags:
+Title: Bull Riding at the SaddleDome
+Published: 12/6/2008
+Tags:
 - Bull Riding
 - Calgary
 ---
@@ -17,7 +9,9 @@ As part of the Global Petroleum Show which is going on in Calgary this week, the
 
 To say that these guys are nuts would be a little bit of an understatement in my opinion!!! And as for the Bull Fighters (the guys who distract the Bull once the Bull Rider falls off so that the Bull doesn't go for him, those guys at just not right in the head!!!) You can see some of the photos that I took while at the show here:
 
-[nggallery id=6]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157677829861025&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>
 
 Some of them aren't very good because I was told that I wasn't allowed to use my camera, so i just used the camera on my phone, but then I saw other people using cameras that were better than mine, so I took mine out my bag and took a few shots. Hope you like them!!
 

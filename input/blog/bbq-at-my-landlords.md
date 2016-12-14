@@ -1,14 +1,6 @@
----
-author: gep13
-comments: true
-date: 2008-06-21 02:45:00+00:00
-layout: post
-slug: bbq-at-my-landlords
-title: BBQ at my Landlords
-wordpress_id: 680
-categories:
-- Trips Abroad
-tags:
+Title: BBQ at my Landlords
+Published: 21/6/2008
+Tags:
 - BBQ
 - Calgary
 - Landlords
