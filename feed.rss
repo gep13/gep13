@@ -5,8 +5,8 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2016</copyright>
-		<pubDate>Wed, 14 Dec 2016 14:05:15 GMT</pubDate>
-		<lastBuildDate>Wed, 14 Dec 2016 14:05:15 GMT</lastBuildDate>
+		<pubDate>Wed, 14 Dec 2016 14:33:47 GMT</pubDate>
+		<lastBuildDate>Wed, 14 Dec 2016 14:33:47 GMT</lastBuildDate>
 		<item>
 			<title>DDD Scotland 2016 Call For Speakers Is Now Open</title>
 			<link>http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open</link>
@@ -343,6 +343,247 @@ move forward from the Chocolatey experiment to the Chocolatey experience!
     var disqus_identifier = 'http://www.gep13.co.uk/blog/our-daughter-is-1-year-old-today' + 'S/';
     var disqus_title = 'Our Daughter is 1 Year Old Today!';
     var disqus_url = 'http://www.gep13.co.uk/blog/our-daughter-is-1-year-old-today' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content:encoded>
+		</item>
+		<item>
+			<title>Using a basic gallery plugin on Octopress Site</title>
+			<link>http://www.gep13.co.uk/blog/using-a-basic-gallery-plugin-on-octopress-site</link>
+			<description>&lt;p&gt;Over the years, I have collected a number of photos from various trips that I have been on, and I share them in various places, i.e. Facebook, Twitter, Flickr, etc.  However, from time to time, I want to include them easily into blog posts as well.  This is something that "should" be easy, but my experience over the last few days is that it isn't as simple as it should be.  This is especially useful when doing a tutorial blog post, and you want to capture a number of screen-shots and show them in order in a gallery.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/using-a-basic-gallery-plugin-on-octopress-site</guid>
+			<pubDate>Mon, 08 Sep 2014 00:00:00 GMT</pubDate>
+			<content:encoded>
+                                        
+
+&lt;h2 id="i-have-a-lot-of-photos-but-where-to-put-them"&gt;I have a lot of photos, but where to put them?&lt;/h2&gt;
+&lt;p&gt;Over the years, I have collected a number of photos from various trips that I have been on, and I share them in various places, i.e. Facebook, Twitter, Flickr, etc.  However, from time to time, I want to include them easily into blog posts as well.  This is something that "should" be easy, but my experience over the last few days is that it isn't as simple as it should be.  This is especially useful when doing a tutorial blog post, and you want to capture a number of screen-shots and show them in order in a gallery.&lt;/p&gt;
+&lt;p&gt;Having finally figured out how to get it working, I thought I would list the steps here for anyone else that might be running into the same problem.&lt;/p&gt;
+&lt;h2 id="what-do-i-want"&gt;What do I want?&lt;/h2&gt;
+&lt;p&gt;The requirements that I am looking for break down as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;once set-up, I should be able to upload one or more images into a gallery folder and they should automatically added to associated blog post&lt;/li&gt;
+&lt;li&gt;thumbnail images should be automatically generated for photos uploaded into gallery folder&lt;/li&gt;
+&lt;li&gt;when clicked, thumbnail images should open a pop-up with a larger image&lt;/li&gt;
+&lt;li&gt;images in the same gallery should allow browsing left and right when an image is in popup window&lt;/li&gt;
+&lt;li&gt;should work in a range of devices, desktop, tablet, phone&lt;/li&gt;
+&lt;li&gt;should work as part of my AppVeyor build&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After hunting around, and trying various different options, I finally settled on using this &lt;a href="https://github.com/yortz/octopress_gallery"&gt;plugin&lt;/a&gt;.  From it's description, it should have been easy to get set up and running, but unfortunately, it took a bit of head scratching.&lt;/p&gt;
+&lt;p&gt;In the description for the plugin there is no mention of the dependency on an application called &lt;code&gt;ImageMagick&lt;/code&gt;.  Now, in hindsight, it is clear that this will be required, but when I was reading through the simple steps of setting this up, it never occurred to me.  So first up, let's get &lt;code&gt;ImageMagick&lt;/code&gt; installed.  If you are using &lt;a href="http://chocolatey.org/"&gt;Chocolatey&lt;/a&gt; then this is as simple as:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;choco install imagemagick.tool&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;With that installed, step through the remaining instructions on the plugin page.&lt;/p&gt;
+&lt;p&gt;In addition to those steps, I also decided to add support for &lt;a href="http://fancybox.net/"&gt;Fancybox&lt;/a&gt; to make the experience a little nicer.  This involved the following:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make a slight modification to the &lt;code&gt;gallery_tag.rb&lt;/code&gt; to work with Fancybox.  This basically involved adding a class definition to teh anchor tag, and also changing the rel attribute to be the gallery name, so that Fancybox groups the images in the gallery together.  The final version of the change can be seen &lt;a href="https://github.com/gep13/gep13.github.io/commit/8f597cd922ffc3556481e7148990bcaa675dcceb#diff-dc86fc94e212fa637e5f2689a8379e1fR10"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Download &lt;a href="http://fancyapps.com/fancybox/#license"&gt;Fancybox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Unblock/extract the zip file&lt;/li&gt;
+&lt;li&gt;Add the contents of the source folder to &lt;code&gt;source\fancybox&lt;/code&gt; as I have done &lt;a href="https://github.com/gep13/gep13.github.io/tree/source/source/fancybox"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Make the following additions to your &lt;code&gt;source\_includes\custom\head.html&lt;/code&gt; file&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class="language-javascript"&gt;    &amp;lt;script src="ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script type="text/javascript"&amp;gt;
+    jQuery.noConflict(); // ender.js conflicts with jQuery
+    &amp;lt;/script&amp;gt;
+
+    &amp;lt;link rel="stylesheet" href="/fancybox/jquery.fancybox.css" /&amp;gt;
+    &amp;lt;script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+    &amp;lt;script language="Javascript" type="text/javascript"&amp;gt;
+    // ender.js gobbles jQuery's ready event: Use ender.js $ instead
+    $(document).ready(function() {
+        jQuery(".fancybox").fancybox();
+    });
+    &amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;Create your gallery folder, and add the necessary changes to your config.yml file.  You can see the sample changes that I made &lt;a href="https://github.com/gep13/gep13.github.io/commit/8f597cd922ffc3556481e7148990bcaa675dcceb"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Add the gallery tag to your blog post.  In my case, this was &lt;code&gt;{% raw %}{{ 'gallery_1' | image_list }}{% endraw %}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Then do a &lt;code&gt;rake generate&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Assuming everything has worked, do a &lt;code&gt;rake preview&lt;/code&gt; and view your hard work&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="issue-when-doing-rake-generate"&gt;Issue when doing rake generate&lt;/h2&gt;
+&lt;p&gt;When I first tried to do the above, the issue that I ran into looked like this:&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;C:/projects/gep13-github-io/public/images/galleries/gallery_1/thumbs/6.jpg
+149jekyll 2.3.0 | Error:  No such file or directory - identify -ping C:/Users/appveyor/AppData/Local/Temp/mini_magick20140907-3000-6k90ct.jpg&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This translates as, you don't have &lt;code&gt;ImageMagick&lt;/code&gt; installed, go and get it.  I tried a few different installations, and ran into other issues with having the right developer DLL's and includes.  The upshot was, I couldn't find a solution to using the installed version of &lt;code&gt;ImageMagick&lt;/code&gt;.  If however, I used the portable version, it works fine.  Go figure!&lt;/p&gt;
+&lt;h2 id="setting-up-appveyor"&gt;Setting up AppVeyor&lt;/h2&gt;
+&lt;p&gt;So, the final piece of the puzzle, at least for me, was to get the same process working on AppVeyor, so that as part of the build process the thumbnails etc are generated.  Turns out again, thanks to AppVeyor extensibilty system, this is remarkably easy.  In fact, the changes that I need to make are exactly what I did on my own machine, i.e. install &lt;code&gt;ImageMagick&lt;/code&gt; using Chocolatey.  Now, unlike my machine, the AppVeyor build machines don't have Chocolatey already installed, so we need to get it onto them.  This can be done using the &lt;code&gt;install&lt;/code&gt; steps, as documented &lt;a href="http://www.appveyor.com/docs/appveyor-yml"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The final result was the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-yaml"&gt;install:
+  - ps: iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+  - ps: choco install imagemagick.tool
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Two simple steps.  The first to install Chocolatey, and the second to install &lt;code&gt;ImageMagick&lt;/code&gt; portable edition.  This will now happen each time my AppVeyor build runs, and it will generate the thumbnails for each of my galleries.&lt;/p&gt;
+&lt;p&gt;Job done!&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/using-a-basic-gallery-plugin-on-octopress-site' + 'S/';
+    var disqus_title = 'Using a basic gallery plugin on Octopress Site';
+    var disqus_url = 'http://www.gep13.co.uk/blog/using-a-basic-gallery-plugin-on-octopress-site' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content:encoded>
+		</item>
+		<item>
+			<title>Setup AppVeyor to deploy Octopress site to GitHub Pages</title>
+			<link>http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages</link>
+			<description>&lt;p&gt;This blog has now been through a number of iterations.  It started out as a custom built blog application in ASP.NET, then it moved to BlogEngine.net for a very short period.  It then made an appearance as a WordPress Blog, and now, in it's current incarnation, it is using Octopress hosted on GitHub Pages.  This way of hosting my blog was very much inspired by the work of &lt;a href="http://hadihariri.com/2013/12/24/migrating-from-wordpress-to-jekyll/"&gt;Hadi&lt;/a&gt; and &lt;a href="http://jake.ginnivan.net/blog/2014/06/10/low-friction-octopress-github-pages-setup/"&gt;Jake&lt;/a&gt; in setting up their blogs, so thanks go to them for their help!  Hadi pointed me in the right direction in terms of migrating initially from Wordpress, and Jake showed how it was possible to deploy automagically to GitHub Pages.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages</guid>
+			<pubDate>Fri, 05 Sep 2014 00:00:00 GMT</pubDate>
+			<content:encoded>
+                                        
+
+&lt;h2 id="history-of-this-blog"&gt;History of this blog&lt;/h2&gt;
+&lt;p&gt;This blog has now been through a number of iterations.  It started out as a custom built blog application in ASP.NET, then it moved to BlogEngine.net for a very short period.  It then made an appearance as a WordPress Blog, and now, in it's current incarnation, it is using Octopress hosted on GitHub Pages.  This way of hosting my blog was very much inspired by the work of &lt;a href="http://hadihariri.com/2013/12/24/migrating-from-wordpress-to-jekyll/"&gt;Hadi&lt;/a&gt; and &lt;a href="http://jake.ginnivan.net/blog/2014/06/10/low-friction-octopress-github-pages-setup/"&gt;Jake&lt;/a&gt; in setting up their blogs, so thanks go to them for their help!  Hadi pointed me in the right direction in terms of migrating initially from Wordpress, and Jake showed how it was possible to deploy automagically to GitHub Pages.&lt;/p&gt;
+&lt;p&gt;The slightly different technique that I have used, and the reason for this post, is that I have used &lt;a href="http://www.appveyor.com/"&gt;AppVeyor&lt;/a&gt; to do the deployment of the generated static HTML to GitHub.  What follows are the steps to make this happen.&lt;/p&gt;
+&lt;h2 id="i-love-teamcity-but"&gt;I love TeamCity, but...&lt;/h2&gt;
+&lt;p&gt;In Jake's &lt;a href="http://jake.ginnivan.net/blog/2014/06/10/low-friction-octopress-github-pages-setup/"&gt;blog post&lt;/a&gt;, he shows how you can use &lt;a href="http://www.jetbrains.com/teamcity/"&gt;TeamCity&lt;/a&gt; to listen for changes in the &lt;code&gt;source&lt;/code&gt; branch of your Octopress Git Repository, generate the static html, and then push to the &lt;code&gt;master&lt;/code&gt; branch of the same repository.  This is incredibly simple to do with TeamCity, but it obviously needs an available instance of TeamCity.  Unfortunately, this is not something that I have access to for personal (i.e. outside of work) projects.  As a result, I had to look elsewhere for a solution.  And for me, the solution was &lt;a href="http://www.appveyor.com/"&gt;AppVeyor&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After a &lt;a href="http://help.appveyor.com/discussions/questions/491-use-appveyor-to-deploy-changes-to-octopress-blog"&gt;small hiccup&lt;/a&gt; with setting up AppVeyor (which, by the way was resolved VERY quickly!), configuring AppVeyor to generate and deploy an Octopress site is very simple!&lt;/p&gt;
+&lt;h2 id="setting-up-continuous-deployment-from-appveyor"&gt;Setting up continuous deployment from AppVeyor&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;If you don't already have one, &lt;a href="https://ci.appveyor.com/signup/free"&gt;create an account&lt;/a&gt; with AppVeyor (which is completely free, assuming your repository is public), and authenticate with either GitHub, BitBucket, Visual Studio Online, or Kiln, depending on where your blog source code is going to be hosted.  Since I am using GitHub Pages, I will be referring to that for the rest of this post.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Click New Project&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2014/6/7/NewProject.png" class="img-fluid" alt="Click New Project"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Select your blog source code repository, in my case gep13.github.io, and AppVeyor will set about provisioning a new Project, ready to accept build steps and configuration&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;At this point, you could start using the AppVeyor User Interface to setup the build, and this is what I started with.  However, I quickly realised that I would need to start using the &lt;a href="http://www.appveyor.com/docs/appveyor-yml"&gt;appveyor.yml&lt;/a&gt; file.  This was due to the fact that I wanted to be able to pass in a secure variables to the build process, namely my GitHub password, and this is not possible through the User Interface.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the same way that Jake did, I have setup my GitHub repository to use the source branch as the default.  This can be done through the settings page of your repository in GitHub&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2014/6/7/DefaultSourceBranch.png" class="img-fluid" alt="Set source branch as default in GitHub"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create an appveyor.yml file in the root of the source branch of your repository.  You can see mine &lt;a href="https://github.com/gep13/gep13.github.io/blob/source/appveyor.yml"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There are four important things in this file.  Firstly, the init section.  In order to push changes back to GitHub, you need to let the newly created Virtual Machine that AppVeyor is running for you know the git credentials that you want to use.  This can be done using the standard &lt;code&gt;git config --global&lt;/code&gt; command.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class="language-yaml"&gt;init:
+- git config --global user.email "&amp;lt;Your Email Address&amp;gt;"
+- git config --global user.name "&amp;lt;Your User Name&amp;gt;"
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;The next important section is environment.  This is where you can specify 1 or more vaiables that you want to have available during your build steps.  If required, you can use the &lt;a href="https://ci.appveyor.com/tools/encrypt"&gt;encrypt data tool&lt;/a&gt; within AppVeyor to encrypt sensitive information.  This is exactly what I did with my GitHub password.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class="language-yaml"&gt;environment:
+GithubUsername: gep13
+GithubPassword:
+  secure: XSuLygmr83zEpWcXIXMXGocN0QbooLud1eIMA3mQWKkT9LAU4TyrijLBcJIo7bD7
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;Next up, we need to specify the actual operations that we want to perform.  These have been lifted exactly out of Jakes configuration.  The especically important thing to notice here is the &lt;code&gt;%GithubUsername%&lt;/code&gt; and &lt;code&gt;%GithubPassword%&lt;/code&gt; variables.  They refer to the environment variables that were configured above. &lt;strong&gt;NOTE:&lt;/strong&gt;  As I found out, the &lt;code&gt;gen_deploy&lt;/code&gt; rake task does both a generate and a deploy.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class="language-yaml"&gt;build_script:
+  - cmd: bundle install
+  - cmd: if not exist _deploy (git clone https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git _deploy)
+  - cmd: cd _deploy
+  - cmd: git checkout master
+  - cmd: cd ..
+  - cmd: rake gen_deploy
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start="0"&gt;
+&lt;li&gt;The final things that I needed to do was to specify that I didn't want to run any tests after the main build steps were completed.  This can be done using:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class="language-yaml"&gt;test: off
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;With the above file checked into your repository, AppVeyor will set about doing the build.  The output of which should hopefully look something like this (the full output can be seen &lt;a href="https://ci.appveyor.com/project/GaryEwanPark/gep13-github-io/build/1.0.22"&gt;here&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2014/6/7/SuccessfulBuild.png" class="img-fluid" alt="Successful AppVeyor Build"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And that, as they say, is that!&lt;/p&gt;
+&lt;p&gt;Now, everytime you make a change in the &lt;code&gt;source&lt;/code&gt; branch of your Octopress Repository, AppVeyor will collect all the changes, execute the build steps, and deploy your latest changes to the &lt;code&gt;master&lt;/code&gt; branch, ready for viewing on your site.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages' + 'S/';
+    var disqus_title = 'Setup AppVeyor to deploy Octopress site to GitHub Pages';
+    var disqus_url = 'http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content:encoded>
+		</item>
+		<item>
+			<title>Out with the old, in with the new - Microsoft Sculpt Ergonomic</title>
+			<link>http://www.gep13.co.uk/blog/old-new-sculpt-ergonomic</link>
+			<description>&lt;p&gt;Really nice keyboard, and would definitely recommend!&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/old-new-sculpt-ergonomic</guid>
+			<pubDate>Sat, 07 Jun 2014 00:00:00 GMT</pubDate>
+			<content:encoded>
+                                        
+
+&lt;h1 id="tldr"&gt;tl;dr&lt;/h1&gt;
+&lt;p&gt;Really nice keyboard, and would definitely recommend!&lt;/p&gt;
+&lt;h1 id="getting-started-with-my-new-sculpt-keyboard"&gt;Getting started with my new Sculpt Keyboard&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Full Disclaimer:&lt;/strong&gt; I have only been using this keyboard for about&amp;nbsp;2 hours. The opinions shared here may change over time, and if they do, I will update the blog post to reflect this.&lt;/p&gt;
+&lt;p&gt;For over five years now, I have been the proud owner of the Microsoft Natural Ergonomic Keyboard 4000. I liked this keyboard so much that I actually bought two of them. One for the office, and one for home. However, as with most things, there comes a time when items need to be replaced. For me, with this particular keyboard, this was mainly due to the fact that on my work version, the “y” key had become flaky. Every so often, even though it was definitely being pushed, it simply wouldn’t work. The "solution" was to hit the key really hard, and it would eventually work. When I decided to leave my old job, I also decided it was time to replace the keyboard, and have a new one for my new job. New beginnings and all that…&lt;/p&gt;
+&lt;p&gt;When I was given some Amazon vouchers as part of my leaving present, I thought that this would be the perfect opportunity to get the new keyboard, and so I bought &lt;a href="http://www.microsoft.com/hardware/en-gb/p/sculpt-ergonomic-desktop/L5V-00006"&gt;this&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have since had this delivered, and I am in fact using it to write this blog post. What are my thoughts so far I hear you ask? Well, let me tell you…&lt;/p&gt;
+&lt;h2 id="the-keyboard"&gt;The Keyboard&lt;/h2&gt;
+&lt;p&gt;I really like it! It is much smaller than the 4000, but this is mainly due to the keys that it doesn’t have, i.e. the NumPad. You can see the Sculpt Keyboard sitting on top of the 4000 in the picture below:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2014/6/7/WP_20140607_19_36_45_Pro-1024x576.jpg" class="img-fluid" alt="Sculpt sitting on top of 4000"&gt;&lt;/p&gt;
+&lt;p&gt;The keyboard itself feels very solid, which is good. Access to the battery compartment is via a magnetised cover (all the devices, keyboard, mouse and Number Pad, all share this feature), which makes inserting/changing the batteries very simple. The keys feel much less mechanical than the 4000, which was a common complaint of that device, and they don’t take as much movement of the fingers to depress the keys. It actually feels more like typing on a laptop keyboard, but with the benefit of the split keyboard layout&lt;/p&gt;
+&lt;p&gt;With the aid of a toggle switch, each function key can be used as a shortcut for Windows 8 functions, such as Search, Share, Settings, etc. This isn’t something that I think I will be making use of. I will keep it in Function Key mode, and simply use keyboard shortcuts like "Windows+C" to get to the required functionality.&lt;/p&gt;
+&lt;p&gt;Initially, the split space bar seemed a little to me, however, having used it, this makes sense. I typically hit the space bar with my right thumb, and I am finding it much easier to press, as you are not having to depress a much larger key.&lt;/p&gt;
+&lt;h2 id="the-mouse"&gt;The Mouse&lt;/h2&gt;
+&lt;p&gt;When I took the mouse out of the box, my immediate reaction was, euch! What is that bulbous, monstrosity!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2014/6/7/WP_20140607_19_35_44_Pro-1024x576.jpg" class="img-fluid" alt="Microsoft Sculpt Mouse"&gt;&lt;/p&gt;
+&lt;p&gt;However, having used it for a while, I am actually getting used to it, and I think I will like it. The addition of the Windows key, to take you to the Start Screen is a nice touch, and the back button (which I have come to rely on with my mice) is a very welcome addition.&lt;/p&gt;
+&lt;h2 id="the-number-pad"&gt;The Number Pad&lt;/h2&gt;
+&lt;p&gt;What can I say, it’s a Number Pad.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2014/6/7/WP_20140607_19_35_56_Pro-576x1024.jpg" class="img-fluid" alt="Microsoft Sculpt Number Pad"&gt;&lt;/p&gt;
+&lt;p&gt;It does exactly what it says on the tin. While using the trio of devices, I have found myself looking for the Number Pad directly to the right of the keyboard (when entering an IP address, for instance) and it hasn’t been there. I think that will take a minute to get used to, but on the whole, the Number Pad is not a common input mechanism for me, so I don’t think I will mind having to move further to find it when required.&lt;/p&gt;
+&lt;h2 id="the-transceiver"&gt;The Transceiver&lt;/h2&gt;
+&lt;p&gt;This to me seems quite big, I would have expected it to be smaller, similar to that of my Fitbit or Garmin connector, shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2014/6/7/WP_20140607_19_37_52_Pro-1024x576.jpg" class="img-fluid" alt="Sculpt Transceiver compared to Garmin one"&gt;&lt;/p&gt;
+&lt;p&gt;The only thing I can think is that it needs to be larger due to the fact that it is a single transceiver for all three devices. When not required, or being transported, there is a slot in the inside of the mouse for storing it. Again, this is a magnetized slot, so immediately when stored, it feels secure.&lt;/p&gt;
+&lt;p&gt;One word of warning though:&lt;/p&gt;
+&lt;p&gt;https://twitter.com/ijonas/status/463983735365697536&lt;/p&gt;
+&lt;h2 id="the-setup"&gt;The setup&lt;/h2&gt;
+&lt;p&gt;This really was a snap! Took everything out of the box, removed the battery savings strips, plugged in the transceiver, small driver install, and everything worked. I am running Windows 8.1.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/old-new-sculpt-ergonomic' + 'S/';
+    var disqus_title = 'Out with the old, in with the new - Microsoft Sculpt Ergonomic';
+    var disqus_url = 'http://www.gep13.co.uk/blog/old-new-sculpt-ergonomic' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -1083,116 +1324,6 @@ move forward from the Chocolatey experiment to the Chocolatey experience!
     var disqus_identifier = 'http://www.gep13.co.uk/blog/the-feeling-concert' + 'S/';
     var disqus_title = 'The Feeling Concert';
     var disqus_url = 'http://www.gep13.co.uk/blog/the-feeling-concert' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
-                                </content:encoded>
-		</item>
-		<item>
-			<title>Print Screen Utility</title>
-			<link>http://www.gep13.co.uk/blog/print-screen-utility</link>
-			<description>&lt;p&gt;I was introduced to the following utility by a colleague at work:&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/print-screen-utility</guid>
-			<pubDate>Sun, 09 Nov 2008 00:00:00 GMT</pubDate>
-			<content:encoded>
-                                        
-
-&lt;p&gt;I was introduced to the following utility by a colleague at work:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.fiastarta.com/PrtScr/"&gt;www.fiastarta.com/PrtScr/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;It is a very useful utility, that is very unobtrusive, and I can see me using it on a daily basis.&lt;/p&gt;
-&lt;p&gt;It basically takes over when you press the “Print Screen” key on your keyboard, and allows you to perform additional activities, such as:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;crop only a selected rectangle&lt;/li&gt;
-&lt;li&gt;crop only a selected area by drawing a “lasso” around the desired area&lt;/li&gt;
-&lt;li&gt;draw lines onto the selected area, i.e. an arrow, or some text&lt;/li&gt;
-&lt;li&gt;drag the highlighted area into other applications, such as Skype, MSN etc&lt;/li&gt;
-&lt;li&gt;open the image directly in your default image application&lt;/li&gt;
-&lt;li&gt;direct the image directly to an email or your clipboard&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Overall, it is very, very clever!!! And I highly recommend it.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/print-screen-utility' + 'S/';
-    var disqus_title = 'Print Screen Utility';
-    var disqus_url = 'http://www.gep13.co.uk/blog/print-screen-utility' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
-                                </content:encoded>
-		</item>
-		<item>
-			<title>Glasgow City Chambers</title>
-			<link>http://www.gep13.co.uk/blog/glasgow-city-chambers</link>
-			<description>&lt;p&gt;Whilst waiting to try to get into the tour of the Glasgow City Chambers (which ended up not happening, only runs on week days) I took some photos with my new phone. I was quite surprised by the quality of some of the photos. I have added them below,so feel free to have a look.&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/glasgow-city-chambers</guid>
-			<pubDate>Sat, 08 Nov 2008 00:00:00 GMT</pubDate>
-			<content:encoded>
-                                        
-
-&lt;p&gt;Whilst waiting to try to get into the tour of the Glasgow City Chambers (which ended up not happening, only runs on week days) I took some photos with my new phone. I was quite surprised by the quality of some of the photos. I have added them below,so feel free to have a look.&lt;/p&gt;
-&lt;div id="flickrembed"&gt;&lt;/div&gt;&lt;small style="display: block; text-align: center; margin: 0 auto;"&gt;Powered by &lt;a href="https://flickrembed.com"&gt;flickr embed&lt;/a&gt;.&lt;/small&gt;
-&lt;script src="https://flickrembed.com/embed_v2.js.php?source=flickr&amp;amp;layout=responsive&amp;amp;input=72157673881074804&amp;amp;sort=0&amp;amp;by=album&amp;amp;theme=default&amp;amp;scale=fit&amp;amp;skin=default&amp;amp;id=5850544461b40"&gt;&lt;/script&gt;
-&lt;p&gt;While I was there, there was a marching band that led a procession for placing a poppy wreath at the base of the statue. That was interesting to watch.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/glasgow-city-chambers' + 'S/';
-    var disqus_title = 'Glasgow City Chambers';
-    var disqus_url = 'http://www.gep13.co.uk/blog/glasgow-city-chambers' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
-                                </content:encoded>
-		</item>
-		<item>
-			<title>Quantum of Solace</title>
-			<link>http://www.gep13.co.uk/blog/quantum-of-solace</link>
-			<description>&lt;p&gt;Went to see the new Bond Film, &lt;a href="http://www.imdb.com/title/tt0830515/"&gt;Quantum of Solace&lt;/a&gt;, this morning. I was down in Glasgow with Lynn, and after not being able to go on the Tour that I wanted to, decided to go to the cinema instead. And I am glad that I did!! I really enjoyed the film!!&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/quantum-of-solace</guid>
-			<pubDate>Sat, 08 Nov 2008 00:00:00 GMT</pubDate>
-			<content:encoded>
-                                        
-
-&lt;p&gt;Went to see the new Bond Film, &lt;a href="http://www.imdb.com/title/tt0830515/"&gt;Quantum of Solace&lt;/a&gt;, this morning. I was down in Glasgow with Lynn, and after not being able to go on the Tour that I wanted to, decided to go to the cinema instead. And I am glad that I did!! I really enjoyed the film!!&lt;/p&gt;
-&lt;p&gt;The action sequences, and the fight scenes were amazing. I did think that the film jumped around a little bit, but apart from that, a very good film.&lt;/p&gt;
-&lt;p&gt;I am having to rethink the order of my “Best James Bond of All Time”. Daniel Craig has still got a lot to prove, but he is working his way up the list.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/quantum-of-solace' + 'S/';
-    var disqus_title = 'Quantum of Solace';
-    var disqus_url = 'http://www.gep13.co.uk/blog/quantum-of-solace' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
