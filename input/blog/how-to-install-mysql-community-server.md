@@ -21,10 +21,10 @@ If you want to find out more information about MySQL Community Server, you can f
 1. [Install chocolatey nuget](http://gep13.me/S8ZnDT)
 1. Open PowerShell as an Administrator
 1. Hit the Start button
-1. Type "PowerShell"
-1. Right click on the "Windows PowerShell" icon
+1. Type `PowerShell`
+1. Right click on the `Windows PowerShell` icon
 1. Click "Run as administrator"
-1. Type "cinst mysql" and press the "Enter" key
+1. Type `choco install mysql` and press the `Enter` key
 1. The installation of MySQL Community Server will begin
 1. The installation will complete
 
@@ -35,7 +35,7 @@ You can see screenshots of each of these steps in the galley at the bottom of th
 The installation of MySQL Community Server will have added a new Windows Service, you can verify that this is there, and started by doing the following:
 
 1. Hit the Start button
-1. Type "services.msc" and press enter
+1. Type `services.msc` and press enter
 1. In the window that opens up, scroll until to see MySQL
 1. Verify that this service is started.
 
