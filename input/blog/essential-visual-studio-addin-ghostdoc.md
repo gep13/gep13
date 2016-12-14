@@ -6,7 +6,7 @@ Tags:
 - Visual Studio 2008
 ---
 
-This blog post is one of a series of blogs on Visual Studio Addins that I use.  To go back to the series index page, click [here](http://www.gep13.co.uk/essential-visual-studio-2008-addin-series).
+This blog post is one of a series of blogs on Visual Studio Addins that I use.  To go back to the series index page, click [here](http://www.gep13.co.uk/blog/essential-visual-studio-2008-addin-series).
 
 # GhostDoc
 

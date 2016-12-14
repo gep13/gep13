@@ -9,7 +9,7 @@ Yesterday I got a very strange parcel delivered to me at work. I had no idea wha
 
 ![Gary the Coconut](https://gep13wpstorage.blob.core.windows.net/gep13/2008/7/12/1249.jpg)
 
-For those of you who don't know the story of **Gary the Coconut**, please see this [post](http://www.gep13.co.uk/the-story-of-gary-the-coconut).
+For those of you who don't know the story of **Gary the Coconut**, please see this [post](http://www.gep13.co.uk/blog/the-story-of-gary-the-coconut).
 
 You can see photos of **Gary the Coconut's** previous adventures below:
 
