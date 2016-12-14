@@ -1,21 +1,12 @@
----
-author: gep13
-layout: post
-published: true
-title: Using a basic gallery plugin on Octopress Site
-keywords: "octopress, jeykll, gallery, imagemagick, mini-magick, appveyor"
-description: Step by step guide on how to get basic image gallery working in Octopress site and building in appveyor
-comments: true
-sharing: true
-tags: 
+Title: Using a basic gallery plugin on Octopress Site
+Published: 8/9/2014
+Tags: 
   - octopress
   - jekyll
   - gallery
   - imagemagick
   - "mini-magick"
   - appveyor
-categories: 
-  - octopress
 ---
 
 ## I have a lot of photos, but where to put them?
@@ -23,8 +14,6 @@ categories:
 Over the years, I have collected a number of photos from various trips that I have been on, and I share them in various places, i.e. Facebook, Twitter, Flickr, etc.  However, from time to time, I want to include them easily into blog posts as well.  This is something that "should" be easy, but my experience over the last few days is that it isn't as simple as it should be.  This is especially useful when doing a tutorial blog post, and you want to capture a number of screen-shots and show them in order in a gallery.
 
 Having finally figured out how to get it working, I thought I would list the steps here for anyone else that might be running into the same problem.
-
-<!--more-->
 
 ## What do I want?
 
@@ -48,32 +37,32 @@ With that installed, step through the remaining instructions on the plugin page.
 In addition to those steps, I also decided to add support for [Fancybox](http://fancybox.net/) to make the experience a little nicer.  This involved the following:
 
 1. Make a slight modification to the ```gallery_tag.rb``` to work with Fancybox.  This basically involved adding a class definition to teh anchor tag, and also changing the rel attribute to be the gallery name, so that Fancybox groups the images in the gallery together.  The final version of the change can be seen [here](https://github.com/gep13/gep13.github.io/commit/8f597cd922ffc3556481e7148990bcaa675dcceb#diff-dc86fc94e212fa637e5f2689a8379e1fR10).
-2. Download [Fancybox](http://fancyapps.com/fancybox/#license)
-3. Unblock/extract the zip file
-4. Add the contents of the source folder to ```source\fancybox``` as I have done [here](https://github.com/gep13/gep13.github.io/tree/source/source/fancybox)
-5. Make the following additions to your ```source\_includes\custom\head.html``` file
-    
-    {% codeblock lang:javascript %}
-<script src="ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-jQuery.noConflict(); // ender.js conflicts with jQuery
-</script>
+1. Download [Fancybox](http://fancyapps.com/fancybox/#license)
+1. Unblock/extract the zip file
+1. Add the contents of the source folder to ```source\fancybox``` as I have done [here](https://github.com/gep13/gep13.github.io/tree/source/source/fancybox)
+1. Make the following additions to your ```source\_includes\custom\head.html``` file
 
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" />
-<script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+```javascript
+    <script src="ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    jQuery.noConflict(); // ender.js conflicts with jQuery
+    </script>
 
-<script language="Javascript" type="text/javascript">
-// ender.js gobbles jQuery's ready event: Use ender.js $ instead
-$(document).ready(function() {
-    jQuery(".fancybox").fancybox();
-});
-</script>
-    {% endcodeblock %}
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" />
+    <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
 
-6. Create your gallery folder, and add the necessary changes to your config.yml file.  You can see the sample changes that I made [here](https://github.com/gep13/gep13.github.io/commit/8f597cd922ffc3556481e7148990bcaa675dcceb).
-7. Add the gallery tag to your blog post.  In my case, this was ```{% raw %}{{ 'gallery_1' | image_list }}{% endraw %}```
-8. Then do a ```rake generate```
-9. Assuming everything has worked, do a ```rake preview``` and view your hard work
+    <script language="Javascript" type="text/javascript">
+    // ender.js gobbles jQuery's ready event: Use ender.js $ instead
+    $(document).ready(function() {
+        jQuery(".fancybox").fancybox();
+    });
+    </script>
+```
+
+1. Create your gallery folder, and add the necessary changes to your config.yml file.  You can see the sample changes that I made [here](https://github.com/gep13/gep13.github.io/commit/8f597cd922ffc3556481e7148990bcaa675dcceb).
+1. Add the gallery tag to your blog post.  In my case, this was ```{% raw %}{{ 'gallery_1' | image_list }}{% endraw %}```
+1. Then do a ```rake generate```
+2. Assuming everything has worked, do a ```rake preview``` and view your hard work
 
 ## Issue when doing rake generate
 
@@ -90,11 +79,11 @@ So, the final piece of the puzzle, at least for me, was to get the same process 
 
 The final result was the following:
 
-{% codeblock lang:yaml %}
+```yaml
 install:
   - ps: iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
   - ps: choco install imagemagick.tool
-{% endcodeblock %}
+```
 
 Two simple steps.  The first to install Chocolatey, and the second to install ```ImageMagick``` portable edition.  This will now happen each time my AppVeyor build runs, and it will generate the thumbnails for each of my galleries.
 
