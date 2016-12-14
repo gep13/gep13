@@ -5,8 +5,8 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2016</copyright>
-		<pubDate>Wed, 14 Dec 2016 22:49:28 GMT</pubDate>
-		<lastBuildDate>Wed, 14 Dec 2016 22:49:28 GMT</lastBuildDate>
+		<pubDate>Wed, 14 Dec 2016 22:55:18 GMT</pubDate>
+		<lastBuildDate>Wed, 14 Dec 2016 22:55:18 GMT</lastBuildDate>
 		<item>
 			<title>DDD Scotland 2016 Call For Speakers Is Now Open</title>
 			<link>http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open</link>
@@ -62,7 +62,6 @@
 &lt;p&gt;If you are seeing this error, check what version of Silverlight you have installed on your machine.  If you have this:&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2016/1/29/SilverlightVersionOne.png" class="img-fluid" alt="Silverlight Version 5.1.20513.0"&gt;&lt;/p&gt;
 &lt;p&gt;i.e. Silverlight version 5.1.20513.0, then this could very well be causing your issue.  Install the latest version, at the time of writing this was 5.1.41212.0, and try signing the XAP file again.  This worked for me, but I have no idea why.  Huge shout out to &lt;a href="http://stackoverflow.com/users/4550683/potricos"&gt;potricos&lt;/a&gt; on this &lt;a href="http://stackoverflow.com/a/28433317/671491"&gt;StackOverflow&lt;/a&gt; post where this suggestion was mentioned.  I honestly didn't see how this would ever solve the problem, but I thought I would give it a try, and I am glad I did!&lt;/p&gt;
-&lt;!--more--&gt;
 &lt;h2 id="so-what-was-i-doing"&gt;So, what was I doing?&lt;/h2&gt;
 &lt;p&gt;I have been working on a Windows Phone 8.1 Silverlight application, and development and deployment had been working without any problems whatsoever.  As these things have a tendency to do, the development work stopped on the project, waiting for testing with the client.  Some time passed, and eventually the application was tested, and as a result of that testing, some minor issues were identified.&lt;/p&gt;
 &lt;p&gt;So, I cracked open Visual Studio, made the necessary changes, checked in the code, updated the release notes, tagged the repository. generated the XAP file, and handed this over for testing.&lt;/p&gt;
@@ -125,13 +124,12 @@ Number of errors: 1
 
 &lt;h2 id="semantic-versioning-with-gitversion"&gt;Semantic Versioning with GitVersion&lt;/h2&gt;
 &lt;p&gt;On Thursday 17th September 2015, I presented a talk entitled "Semantic Versioning with GitVersion" at the first Developer Forum as part of the &lt;a href="http://www.scotlandis.com/scotsoft2015/"&gt;ScotlandIS ScotSoft2015&lt;/a&gt; event.  The abstract for the talk was as follows:&lt;/p&gt;
-&lt;blockquote&gt;
-Have you ever needed to control the version number of your application?  If so, you will know that this isn't something that you "get for free".  It's hard!
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;Have you ever needed to control the version number of your application?  If so, you will know that this isn't something that you "get for free".  It's hard!&lt;/p&gt;
 &lt;p&gt;You may have tried to use some form of auto incrementing number from your Continuous Integration Server, or store a text file in source control and update it each time the build happens.  Both of these approaches will work, but they don't account for more complicated scenarios where you are working on multiple releases at the same time, or you want to use multiple Continuous Integration Servers.&lt;/p&gt;
 &lt;p&gt;In this session, we will look at how we can improve the versioning of your application using a combination of branching strategies (either Gitflow or Githubflow) and an open source tool called GitVersion.&lt;/p&gt;
 &lt;p&gt;GitVersion is a tool which allows you to easy generate the Semantic Version number for your application, based on the current state of your code base in it's Git Repository.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;!--more--&gt;
 &lt;p&gt;I thoroughly enjoyed doing this presentation, and there were quite a few questions after the talk was finished, so I feel that people were able to get something from it.  If there are any follow-up questions, then please feel free to get in touch, and I will do my best to respond.&lt;/p&gt;
 &lt;h2 id="slides"&gt;Slides&lt;/h2&gt;
 &lt;p&gt;If you are interested in seeing the slide from the talk, you can find them displayed below, or you can find the full version on SlideShare &lt;a href="http://www.slideshare.net/gep13/semantic-versioning-with-gitversion"&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -168,7 +166,6 @@ Have you ever needed to control the version number of your application?  If so, 
 
 &lt;h1 id="grab-your-ticket-for-dunddd-quickly-so-you-dont-miss-out"&gt;Grab your ticket for DunDDD quickly so you don't miss out!&lt;/h1&gt;
 &lt;p&gt;The call for speakers at the Scottish Community Event (organised by the &lt;a href="http://scottishdevelopers.com/"&gt;Scottish Developers&lt;/a&gt;) known as &lt;a href="http://dun.dddscotland.co.uk/speaker"&gt;DunDDD &lt;/a&gt;has now closed and the registration has opened.&lt;/p&gt;
-&lt;!--more--&gt;
 &lt;h1 id="dunddd-is-now-in-its-fourth-year"&gt;DunDDD is now in its fourth year&lt;/h1&gt;
 &lt;p&gt;This will be the 4th DunDDD, built on the popular foundation of the Developer! Developer! Developer! conference series which has spread to all corners of the UK and the international arena. &amp;nbsp;DDD conferences are community-run days where passionate and enthusiastic people come together to learn, share ideas, and to network within the many hubs of the development community. Best of all DDD events are &lt;strong&gt;free&lt;/strong&gt; to everyone!&lt;/p&gt;
 &lt;p&gt;This year DunDDD will be featuring an entire track dedicated to the &lt;strong&gt;Not Only SQL&lt;/strong&gt; movement and &lt;strong&gt;Big Data&lt;/strong&gt;.&lt;/p&gt;
@@ -257,7 +254,6 @@ Have you ever needed to control the version number of your application?  If so, 
 
 &lt;h2 id="tldr"&gt;tl;dr&lt;/h2&gt;
 &lt;p&gt;Click &lt;a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum"&gt;here&lt;/a&gt; and back the brand new Chocolatey Kickstarter!&lt;/p&gt;
-&lt;!--more--&gt;
 &lt;h2 id="some-more-information"&gt;Some more information&lt;/h2&gt;
 &lt;p&gt;Earlier today, Rob Reynolds (&lt;a href="https://twitter.com/ferventcoder"&gt;@ferventcoder&lt;/a&gt;) pushed the button on a new Kickstarter, aimed at raising funds to:&lt;/p&gt;
 &lt;p&gt;{% blockquote Rob Reynolds https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum Chocolatey Kickstarter %}
