@@ -19,8 +19,6 @@ If you are seeing this error, check what version of Silverlight you have install
 
 i.e. Silverlight version 5.1.20513.0, then this could very well be causing your issue.  Install the latest version, at the time of writing this was 5.1.41212.0, and try signing the XAP file again.  This worked for me, but I have no idea why.  Huge shout out to [potricos](http://stackoverflow.com/users/4550683/potricos) on this [StackOverflow](http://stackoverflow.com/a/28433317/671491) post where this suggestion was mentioned.  I honestly didn't see how this would ever solve the problem, but I thought I would give it a try, and I am glad I did!
 
-<!--more-->
-
 ## So, what was I doing?
 
 I have been working on a Windows Phone 8.1 Silverlight application, and development and deployment had been working without any problems whatsoever.  As these things have a tendency to do, the development work stopped on the project, waiting for testing with the client.  Some time passed, and eventually the application was tested, and as a result of that testing, some minor issues were identified.
