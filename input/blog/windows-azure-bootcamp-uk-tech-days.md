@@ -72,7 +72,7 @@ Chris Hay, Brian Prince
 
 # Looking ahead…
 
-So, what happens next?  Now that I have had this introduction to Windows Azure, what am I going to do with it.  The short answer is, I am not sure ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/wlEmoticon-smile.png).  I am very interested in looking into the VM Role within Windows Azure, and how I could make use of that, and having just set up my WordPress Blog to use the Amazon S3 system as a CDN, I think I am going to look into using Azure Storage for it instead.  I will post back if I end up using this.
+So, what happens next?  Now that I have had this introduction to Windows Azure, what am I going to do with it.  The short answer is, I am not sure.  I am very interested in looking into the VM Role within Windows Azure, and how I could make use of that, and having just set up my WordPress Blog to use the Amazon S3 system as a CDN, I think I am going to look into using Azure Storage for it instead.  I will post back if I end up using this.
 
 # Other Blog Posts...
 

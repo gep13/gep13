@@ -12,7 +12,7 @@ A big congratulations has to go to everyone at Skills Matter! Thank you!
 
 The thing that I really liked about the Progressive .Net Tutorials is the extended time of the sessions. Each session ran for almost 4 hours. This meant that you had plenty of time to digest the content of the presentation, and if required, to ask questions. In the case of the final session on the 3rd day, you were actually given time to try out the products that were being presented. This was great as it meant you got some time to “play” and if you had any questions, you could ask the experts in the room.
 
-The other thing that I was amazed at was the speed at which Skills Matter were able to turn around the videos of the sessions. Before the end of the day, the video for the morning session was available to watch on their site. Truly amazing!! Now what I need to do is find some time to watch the videos for the sessions that I was not able to attend ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/35aceb50ed2b_AF56/wlEmoticon-smile.png).
+The other thing that I was amazed at was the speed at which Skills Matter were able to turn around the videos of the sessions. Before the end of the day, the video for the morning session was available to watch on their site. Truly amazing!! Now what I need to do is find some time to watch the videos for the sessions that I was not able to attend.
 
 For a round up of each of the sessions that I attended you can take a look at the following links:
 

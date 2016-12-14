@@ -22,7 +22,7 @@ Firstly, I have had a lot of interest from speakers who would like to do talks a
 
 Secondly, I think that a more regular meeting cycle keeps up the level of interest. Based on the show of hands by the attendees on the night, as well as speaking to some other Group Leaders, a regular monthly slot seems to make a lot of sense. If for some reason it doesn’t work for this User Group, then we can easily switch back.
 
-Now, having just spoken about a regular monthly slot, (aiming for the 3rd Thursday of every month), I am going to have to break that rule for the first month. ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/wlEmoticon-smile.png)
+Now, having just spoken about a regular monthly slot, (aiming for the 3rd Thursday of every month), I am going to have to break that rule for the first month.
 
 I was planning on starting this month, June, but the first speaker was not able to make it, and as a result, we are now going to have two meetings in July.
 

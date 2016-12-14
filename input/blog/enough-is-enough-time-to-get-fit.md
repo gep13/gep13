@@ -18,7 +18,7 @@ This new endeavour wouldn’t be the same unless there was a least some amount o
 
 Quite simply this device “just works”. I have used it twice now, once to go for a hike up [Bennachie](http://connect.garmin.com/activity/119878884#.TpBlRXjlwVE.twitter) and the other a simple walk around the [village](http://connect.garmin.com/activity/120403009#.TpLNirc41VE.facebook). And both times it has tracked me perfectly, with one exception when it claimed that my heart rate was 135% of my maximum heart rate, but I think that this was due to the chest strap not being tight enough.
 
-Following these “tests” I will then be using the device to track the workouts that I do at the gym. Mostly this will be on the treadmill doing a Cardio Workout, but I will also be doing some interval training on the bike (not looking forward to that ![Sad smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/10/wlEmoticon-sadsmile.png)).
+Following these “tests” I will then be using the device to track the workouts that I do at the gym. Mostly this will be on the treadmill doing a Cardio Workout, but I will also be doing some interval training on the bike (not looking forward to that!).
 
 [![](http://ws.assoc-amazon.co.uk/widgets/q?_encoding=UTF8&Format=_SL110_&ASIN=B000UO61HC&MarketPlace=GB&ID=AsinImage&WS=1&tag=www6thprimeco-21&ServiceVersion=20070822)](http://www.amazon.co.uk/gp/product/B000UO61HC/ref=as_li_ss_il?ie=UTF8&tag=www6thprimeco-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=B000UO61HC)![](http://www.assoc-amazon.co.uk/e/ir?t=www6thprimeco-21&l=as2&o=2&a=B000UO61HC)   
 

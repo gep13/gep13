@@ -11,7 +11,7 @@ Tags:
 
 A few months back I [blogged](http://www.gep13.co.uk/blog/?p=251) about how I was using a custom application on my Windows Phone 7 to control the wireless antenna in my ADSL router.  This was required because if the antenna was on while we were trying to watch Sky television upstairs via a wireless media sender, we would get interference on the screen upstairs.
 
-I am happy to report that my custom Windows Phone 7 application can now be retired, as I now have a new, more complicated system ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/wlEmoticon-smile.png).  Well, only slightly more complicated.  Bear with me while I try to explain it.
+I am happy to report that my custom Windows Phone 7 application can now be retired, as I now have a new, more complicated system.  Well, only slightly more complicated.  Bear with me while I try to explain it.
 
 While we were getting the house decorated a couple months back I took the opportunity to run some Ethernet cable between a cupboard in our living room downstairs, upstairs to both the master bedroom, and the spare room (which is essentially the office).  I would have preferred that this Ethernet cable were CAT-6, however, the contractor that I hired only had CAT-5e (and it needed to be done that day as the decorator was then going to fill up the holes), more on this later.
 

@@ -14,7 +14,7 @@ Why the debate? Well, let me tell you…
 
 We have recently tried and failed to implement an Agile approach in a project, so I am fairly sure that we will not be using an Agile approach for the foreseeable future. Coupled with the fact that I have seen an earlier Kanban talk from Nathan, initially I was leaning towards Mark and Steven’s session. In addition, in a recent blog [post](http://www.gep13.co.uk/blog/?p=313) I talked about how is was striving to becoming a better developer and in order to do this I feel I need to learn more languages and frameworks, and the Nancy and Simple.Data talk seemed to fit that bill perfectly.
 
-In the end, I opted to attend the Nancy and Simple.Data talk (sorry Nathan ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/beed2e344009_119E0/wlEmoticon-smile.png)) 
+In the end, I opted to attend the Nancy and Simple.Data talk (sorry Nathan!) 
 
 This session was split straight down the middle. The first half was devoted to an introduction to both Nancy and Simple.Data, and the second half was handed over to the delegates to create a sample “To Do” application. This format worked really well. It gave me the opportunity to directly apply what we had been told about, with the benefit of having Mark and Steven in the room, if there were any questions.
 

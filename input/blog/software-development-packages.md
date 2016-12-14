@@ -17,7 +17,7 @@ What I currently use is the following:
 - Continuous Integration – TFS
 - Work Item Management – TFS
 - Unit Testing – MSTest
-- Integration Testing – Nothing at the minute ![Sad smile](http://www.gep13.co.uk/blog/wp-content/uploads/517cd9ae4196_12CEC/wlEmoticon-sadsmile.png)
+- Integration Testing – Nothing at the minute
 - IDE Productivity Tools – StyleCop, Code Analysis
 - Various Visual Studio 2010 [Extensions](http://www.gep13.co.uk/blog/?p=3)
  

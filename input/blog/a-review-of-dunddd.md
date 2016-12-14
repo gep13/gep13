@@ -129,7 +129,7 @@ For me, a couple of take away points were:
 
 ## Lunch and Grok Talks
 
-Hmmm…. Pizza!! This was kindly donated by NCR (one of the sponsors of DunDDD).  Although the agenda mentioned that there would be some Grok Talks, I ended up in a conversation with [@CAMURPHY](https://twitter.com/#!/camurphy), [@ARGibson](https://twitter.com/#!/argibson), [@leggetter](https://twitter.com/#!/leggetter) and [@craignicol](https://twitter.com/#!/craignicol), so I couldn’t actually tell you if there were any Grok Talks.  It was a very interesting conversation though ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/11/wlEmoticon-smile.png)
+Hmmm…. Pizza!! This was kindly donated by NCR (one of the sponsors of DunDDD).  Although the agenda mentioned that there would be some Grok Talks, I ended up in a conversation with [@CAMURPHY](https://twitter.com/#!/camurphy), [@ARGibson](https://twitter.com/#!/argibson), [@leggetter](https://twitter.com/#!/leggetter) and [@craignicol](https://twitter.com/#!/craignicol), so I couldn’t actually tell you if there were any Grok Talks.  It was a very interesting conversation though!
 
 ## Session 4
 
@@ -163,7 +163,7 @@ For me, some of the take away points were as follows:
   - It was easy
 - Instead, make it clear that you have helped the person and here are the reasons why, but also don't rub it in their face. Be concrete about what effort was expended, and verbalise that a favour was done.
 
-P.S. Sorry for messing up the timing queues at the end of your session Rob, don’t know what happened there.  All I can say was it had been a long day! ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/11/wlEmoticon-smile.png)
+P.S. Sorry for messing up the timing queues at the end of your session Rob, don’t know what happened there.  All I can say was it had been a long day!
 
 **Book Recommendations:**
 

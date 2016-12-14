@@ -20,7 +20,7 @@ So, what was the result?
 
 **It was an AMAZING event! **
 
-Sorry for shouting ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/01/wlEmoticon-smile.png)
+Sorry for shouting.
 
 I have to give a lot of respect to the organisers, they put on a phenomenal event.  I can’t imagine how much work they had to do in terms of organisers speakers, etc.  Congratulations!!  I have to say a big thank you also to Microsoft for providing the venue and the catering.
 

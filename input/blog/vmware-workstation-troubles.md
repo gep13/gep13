@@ -21,7 +21,7 @@ Followed by this:
 
 [![image](http://www.gep13.co.uk/blog/wp-content/uploads/VMWare-Workstation-troubles_11F5D/image_thumb_3.png)](http://www.gep13.co.uk/blog/wp-content/uploads/VMWare-Workstation-troubles_11F5D/image_3.png)
 
-This actually crashed the VMWare Workstation hosted VM, and resulted in some corruption of one of me VM’s ![Sad smile](http://www.gep13.co.uk/blog/wp-content/uploads/VMWare-Workstation-troubles_11F5D/wlEmoticon-sadsmile.png)
+This actually crashed the VMWare Workstation hosted VM, and resulted in some corruption of one of me VM’s.
 
 Initially, I resigned myself to only having one virtualisation software running at once, as I couldn’t find an immediate solution to the problem.
 

@@ -66,7 +66,7 @@ However, after giving it some thought, it does appear to make some sense. I gues
 
 The session wrapped up with Dylan demonstrating his WebGloss Nuget package. Here he showed how you could create the base styles, master pages, JavaScript etc for a site, package it up into a Nuget package, and then apply this to a blank ASP.Net MVC application. If required, you could then override things that were specific to the new application.
 
-I have to say I really like this approach, and I will be keeping a look out for the final release of WebGloss once Dylan makes it available. HINT: If you could let me know when it is available I would be very grateful ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/Day-1Afternoon-Session-prognet11-skillsm_FF94/wlEmoticon-smile.png)
+I have to say I really like this approach, and I will be keeping a look out for the final release of WebGloss once Dylan makes it available. HINT: If you could let me know when it is available I would be very grateful.
 
 In summary, a great session that I would highly recommend you watching back on the Skills Matter site.
 

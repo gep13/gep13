@@ -44,7 +44,7 @@ You may or may not see the following screen.  As soon as I got the notification
 
 [![2012-08-07_0752](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0752_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0752.png)
 
-With the update completed, I immediately checked the Settings page, and I am very happy to report that the “Internet Sharing” function is now available on my Nokia Lumia 800.  In fact, I am actually away to publish this blog post from my laptop, which is currently tethered to the phone ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/wlEmoticon-smile.png).
+With the update completed, I immediately checked the Settings page, and I am very happy to report that the “Internet Sharing” function is now available on my Nokia Lumia 800.  In fact, I am actually away to publish this blog post from my laptop, which is currently tethered to the phone.
 
 Other features that came along with this update includes:
 

@@ -12,4 +12,4 @@ I have just found out about a very appealing deal from [Apress](https://www.apre
 
 [http://www.apress.com/events/sxsw/sxsw_031212.html](http://www.apress.com/events/sxsw/sxsw_031212.html)
 
-And is open until the 19th March 2012.  I have already taken advantage of this deal ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2012/03/wlEmoticon-smile.png).
+And is open until the 19th March 2012.  I have already taken advantage of this deal.

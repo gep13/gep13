@@ -13,7 +13,7 @@ On Thursday 7th July, the Aberdeen Developers .Net User Group was lucky enough t
 
 Due to the format of this presentation, primarily focused around code demonstrations, there was only an introductory set of slides, so I have not posted them here.
 
-However, all of the code (and much, much more) that Chris talked through on the night is available at his CodePlex Project which you can find [here](http://kodefu.codeplex.com/). I am in the process of downloading the latest version as I type ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/wlEmoticon-smile.png).
+However, all of the code (and much, much more) that Chris talked through on the night is available at his CodePlex Project which you can find [here](http://kodefu.codeplex.com/). I am in the process of downloading the latest version as I type.
 
 There was no messing around in this talk, we jumped straight into talking about:
   
