@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2016</rights>
-	<updated>2016-12-14T16:58:06Z</updated>
+	<updated>2016-12-14T19:57:00Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open" />
@@ -586,409 +586,384 @@ GithubPassword:
 		<summary>&lt;p&gt;Really nice keyboard, and would definitely recommend!&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank" />
-		<id>http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank</id>
-		<title>DDD attendance leaderboard, where do you rank?</title>
-		<updated>2012-10-15T00:00:00Z</updated>
+		<link href="http://www.gep13.co.uk/blog/slides-code-continuous-integration-101-talk-dunddd" />
+		<id>http://www.gep13.co.uk/blog/slides-code-continuous-integration-101-talk-dunddd</id>
+		<title>Slides and code from Continuous Integration 101 talk at DunDDD</title>
+		<updated>2013-12-02T00:00:00Z</updated>
 		<content>
                                         
 
-&lt;p&gt;On the reverse of the DDD North 2 Speaker and Helper t-shirts, Andy Westgarth (&lt;a href="http://twitter.com/apwestgarth"&gt;@apwestgarth&lt;/a&gt;) had compiled a list of all the DDD events, starting back on the 15th May 2005.&lt;/p&gt;
-&lt;p&gt;The complete list is:&lt;/p&gt;
-&lt;table class="table"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;Event Name&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Event Date&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD North 6&lt;/td&gt;
-&lt;td&gt;1st October 2016&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Reading 11&lt;/td&gt;
-&lt;td&gt;3rd September 2016&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Perth 2&lt;/td&gt;
-&lt;td&gt;27th August 2016&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Melbourne 6&lt;/td&gt;
-&lt;td&gt;13th August 2016&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Sydney 4&lt;/td&gt;
-&lt;td&gt;28th May 2016&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Scotland 2016&lt;/td&gt;
-&lt;td&gt;14th May 2016&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD North 5&lt;/td&gt;
-&lt;td&gt;24th October 2015&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD East Anglia 2015&lt;/td&gt;
-&lt;td&gt;26th September 2015&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Perth 1&lt;/td&gt;
-&lt;td&gt;29th August 2015&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Melbourne 5&lt;/td&gt;
-&lt;td&gt;8th August 2015&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD South West 6&lt;/td&gt;
-&lt;td&gt;25th April 2015&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Brisbane 4&lt;/td&gt;
-&lt;td&gt;6th December 2014&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DunDDD 4&lt;/td&gt;
-&lt;td&gt;29th November 2014&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD North 4&lt;/td&gt;
-&lt;td&gt;18th October 2014&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD East Anglia 2014&lt;/td&gt;
-&lt;td&gt;13th September 2014&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Melbourne 4&lt;/td&gt;
-&lt;td&gt;19th July 2014&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD South West 5&lt;/td&gt;
-&lt;td&gt;17th May 2014&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Brisbane 3&lt;/td&gt;
-&lt;td&gt;7th December 2013&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DunDDD 3&lt;/td&gt;
-&lt;td&gt;23rd November 2013&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD North 3&lt;/td&gt;
-&lt;td&gt;12th October 2013&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD East Anglia 2013&lt;/td&gt;
-&lt;td&gt;29th June 2013&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Brisbane 2&lt;/td&gt;
-&lt;td&gt;1st December 2012&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DunDDD 2&lt;/td&gt;
-&lt;td&gt;17th November 2012&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD North 2&lt;/td&gt;
-&lt;td&gt;13th October 2012&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Reading 10&lt;/td&gt;
-&lt;td&gt;1st September 2012&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Melbourne 3&lt;/td&gt;
-&lt;td&gt;28th July 2012&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Sydney 3&lt;/td&gt;
-&lt;td&gt;30th June 2012&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD South West 4&lt;/td&gt;
-&lt;td&gt;26th May 2012&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Brisbane 1&lt;/td&gt;
-&lt;td&gt;26th November 2011&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DunDDD 1&lt;/td&gt;
-&lt;td&gt;19th November 2011&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD North 1&lt;/td&gt;
-&lt;td&gt;8th October 2011&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Belfast 2&lt;/td&gt;
-&lt;td&gt;1st October 2011&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Adelaide&lt;/td&gt;
-&lt;td&gt;16th July 2011&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Sydney 2&lt;/td&gt;
-&lt;td&gt;2nd July 2011&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD South West 3&lt;/td&gt;
-&lt;td&gt;11th June 2011&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Melbourne 2&lt;/td&gt;
-&lt;td&gt;28th May 2011&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Scotland 4&lt;/td&gt;
-&lt;td&gt;7th May 2011&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Reading 9&lt;/td&gt;
-&lt;td&gt;29th January 2011&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;NoSQL Autumn Conference&lt;/td&gt;
-&lt;td&gt;20th November 2010&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Modern .Net Day (DDD 8a)&lt;/td&gt;
-&lt;td&gt;23rd October 2010&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Dublin&lt;/td&gt;
-&lt;td&gt;9th October 2010&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Windows Phone 7&lt;/td&gt;
-&lt;td&gt;7th October 2010&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Sydney 1&lt;/td&gt;
-&lt;td&gt;2nd July 2010&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD South West 2&lt;/td&gt;
-&lt;td&gt;5th June 2010&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Melbourne 1&lt;/td&gt;
-&lt;td&gt;15th May 2010&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Scotland 3&lt;/td&gt;
-&lt;td&gt;8th May 2010&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Reading 8&lt;/td&gt;
-&lt;td&gt;30th January 2010&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD South West 1&lt;/td&gt;
-&lt;td&gt;23rd May 2009&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Scotland 2&lt;/td&gt;
-&lt;td&gt;2nd May 2009&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;WebDD 2009&lt;/td&gt;
-&lt;td&gt;18th April 2009&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Belfast 1&lt;/td&gt;
-&lt;td&gt;4th April 2009&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Reading 7&lt;/td&gt;
-&lt;td&gt;22nd November 2008&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Scotland 1&lt;/td&gt;
-&lt;td&gt;10th May 2008&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Galway&lt;/td&gt;
-&lt;td&gt;3rd May 2008&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Reading 6&lt;/td&gt;
-&lt;td&gt;24th November 2007&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Reading 5&lt;/td&gt;
-&lt;td&gt;30th June 2007&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;WebDD 2007&lt;/td&gt;
-&lt;td&gt;3rd February 2007&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Reading 4&lt;/td&gt;
-&lt;td&gt;2nd December 2006&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Reading 3&lt;/td&gt;
-&lt;td&gt;3rd June 2006&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Reading 2&lt;/td&gt;
-&lt;td&gt;22nd October 2005&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DDD Reading 1&lt;/td&gt;
-&lt;td&gt;15th May 2005&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+&lt;h1 id="continuous-integration-101"&gt;Continuous Integration 101&lt;/h1&gt;
+&lt;p&gt;On Saturday 23rd November 2013, I presented a talk entitled "Continuous Integration 101" at the &lt;a href="http://dun.dddscotland.com/"&gt;DunDDD Conference in Dundee&lt;/a&gt;. &amp;nbsp;The abstract for the talk was as follows:&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;It is well understood that "Continuous Integration" is a development best practice, however, it is also something that is not often implemented within development teams. Typical reasons include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It is difficult to set up&lt;/li&gt;
+&lt;li&gt;It is difficult to maintain&lt;/li&gt;
+&lt;li&gt;It takes too long&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this session we will look at how you can incrementally work your way to fully implementing Continuous Integration into your development process. This talk will focus on using TeamCity as the Continuous Integration Server and psake build engine.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Overall, I was quite happy with how the talk went, and it seems to go down quite well. &amp;nbsp;There was a fair bit of interaction with the audience, with several questions, which I hope that I was able to answer. &amp;nbsp;If there are any follow-up questions, then please feel free to get in touch, and I will do my best to respond.&lt;/p&gt;
+&lt;h1 id="slides-and-code"&gt;slides and code&lt;/h1&gt;
+&lt;p&gt;If you are interested in seeing the slides from the talk, you can find them displayed below, and also available for download [here](/assets/posts/2013-12-02-slides-code-continuous-integration-101-talk-dunddd/Continuous Integration 101.pdf).&lt;/p&gt;
+&lt;p&gt;{% slideshare 28819037 %}&lt;/p&gt;
+&lt;p&gt;If you want to check out what little code was used during the presentation, you can find it &lt;a href="http://gep13.me/CIDemos"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/slides-code-continuous-integration-101-talk-dunddd' + 'S/';
+    var disqus_title = 'Slides and code from Continuous Integration 101 talk at DunDDD';
+    var disqus_url = 'http://www.gep13.co.uk/blog/slides-code-continuous-integration-101-talk-dunddd' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content>
+		<summary>&lt;p&gt;On Saturday 23rd November 2013, I presented a talk entitled "Continuous Integration 101" at the &lt;a href="http://dun.dddscotland.com/"&gt;DunDDD Conference in Dundee&lt;/a&gt;. &amp;nbsp;The abstract for the talk was as follows:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/bsod-windows-81-using-internet-connection-sharing-windows-phone-8" />
+		<id>http://www.gep13.co.uk/blog/bsod-windows-81-using-internet-connection-sharing-windows-phone-8</id>
+		<title>BSOD on Windows 8.1 when using Internet Connection Sharing on Windows Phone 8</title>
+		<updated>2013-11-07T00:00:00Z</updated>
+		<content>
+                                        
+
+&lt;h1 id="but-there-is-a-fix"&gt;But there is a fix...&lt;/h1&gt;
+&lt;p&gt;Following the update of my laptop to Windows 8.1, every time I would tether to my Windows Phone 8 using Internet Connection Sharing, I would get a Blue Screen Of Death (BSOD).&lt;/p&gt;
+&lt;p&gt;&lt;img src="/assets/posts/2013-11-07-bsod-windows-81-using-internet-connection-sharing-windows-phone-8/WP_20131025_07_11_25_Pro-1024x576.jpg" class="img-fluid" alt="BSOD when using ICS 1"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/assets/posts/2013-11-07-bsod-windows-81-using-internet-connection-sharing-windows-phone-8/WP_20131025_06_56_38_Pro-1024x576.jpg" class="img-fluid" alt="BSOD when using ICS 2"&gt;&lt;/p&gt;
+&lt;p&gt;This wouldn't happen if I was connected to a standard wireless connection, it was only when I was using the wireless hot spot which is made available through Internet Connection Sharing on my Windows Phone 8. &amp;nbsp;After a bit of googling, I turned up this post:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://gadgets.itwriting.com/1986-fixing-blue-screen-using-internet-connection-sharing-in-windows-phone-8.html#comment-35511"&gt;http://gadgets.itwriting.com/1986-fixing-blue-screen-using-internet-connection-sharing-in-windows-phone-8.html#comment-35511&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Which seemed to explain exactly what I needed to do, however, for the life of me, I couldn't find the dialogue box in Windows 8.1 that would give me access to the FIPS setting to fix the issue. &amp;nbsp;I asked the author of the blog post if he could help, and happily he was able to, check the comments of the blog post from that information on that.&lt;/p&gt;
+&lt;p&gt;However, while I was waiting for his reply, I reached out to my friendly neighborhood IT expert, namely &lt;a href="https://twitter.com/MarkLeHuray"&gt;Mark Le Huray&lt;/a&gt;, who was able to point me in the direction of a command line way of setting the required parameter:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/MarkLeHuray/status/393664176012267520"&gt;&lt;img src="/assets/posts/2013-11-07-bsod-windows-81-using-internet-connection-sharing-windows-phone-8/Twitter_Help.png" class="img-fluid" alt="Twitter Help from Mark Le Huray"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here "ur wireless name" is actually the name of the wireless endpoint, i.e. the SSID for the connection. &amp;nbsp;This is what is displayed in the Internet Sharing page on your windows phone.&lt;/p&gt;
+&lt;p&gt;Opening the command prompt, and executing this command was all the is required to get rid of the BSOD:&lt;/p&gt;
+&lt;p&gt;&lt;img src="/assets/posts/2013-11-07-bsod-windows-81-using-internet-connection-sharing-windows-phone-8/2013-11-05_0741.png" class="img-fluid" alt="Fixing BSOD by setting FIPS"&gt;&lt;/p&gt;
+&lt;p&gt;Big thanks to Mark for all his help in getting this sorted, and also Tim who pointed me in the right direction!&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/bsod-windows-81-using-internet-connection-sharing-windows-phone-8' + 'S/';
+    var disqus_title = 'BSOD on Windows 8.1 when using Internet Connection Sharing on Windows Phone 8';
+    var disqus_url = 'http://www.gep13.co.uk/blog/bsod-windows-81-using-internet-connection-sharing-windows-phone-8' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content>
+		<summary>&lt;p&gt;Following the update of my laptop to Windows 8.1, every time I would tether to my Windows Phone 8 using Internet Connection Sharing, I would get a Blue Screen Of Death (BSOD).&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/battery-life-nokia-lumia-920-really-fantastic" />
+		<id>http://www.gep13.co.uk/blog/battery-life-nokia-lumia-920-really-fantastic</id>
+		<title>The battery life of the Nokia Lumia 920 really is fantastic...</title>
+		<updated>2013-10-28T00:00:00Z</updated>
+		<content>
+                                        
+
+&lt;h1 id="when-you-turn-off-all-data-connections"&gt;...when you turn off all data connections!&lt;/h1&gt;
+&lt;h1 id="tldr"&gt;tl;dr;&lt;/h1&gt;
+&lt;p&gt;With all the radios and antennas switched off on my Nokia Lumia 920, the battery has lasted from the 28th October through to today, the 7th November. &amp;nbsp;A total of 11 days! &amp;nbsp;This has included some fairly solid use, listening to podcasts, audio books and music, as well as using it as my alarm clock.  This is far more than I thought it would last, very impressed. &amp;nbsp;See the gallery at the end of the post for pictures of how the battery was discharging. &amp;nbsp;The spikes are when I was syncing the phone with the desktop to grab some new podcasts.&lt;/p&gt;
+&lt;h1 id="now-the-full-story"&gt;Now the full story...&lt;/h1&gt;
+&lt;p&gt;I recently did a &lt;a href="http://gep13.me/1gbHdfP"&gt;blog post&lt;/a&gt; about how I started using my old Nokia Lumia 920 as my alternative to both a TomTom and an iPod. &amp;nbsp;Apart from a couple synchronisation issues between iTunes and the Windows Phone Desktop Application, I am happy to report that this little experiment has been going really well. &amp;nbsp;I use the phone pretty much every day, listening to podcasts on the commute to work, and music while in the office, and also taking photos/videos of Alivia (that's our new-born baby daughter :-)).&lt;/p&gt;
+&lt;p&gt;The one thing that has _really&amp;nbsp;_stood out for me though is the battery life of the Nokia Lumia 920. &amp;nbsp;As soon as you turn on flight mode, i.e. disabling all the data connections that the phone has to offer (Bluetooth, wi-fi, mobile, etc), the battery quite literally goes for days! &amp;nbsp;When using my Nokia Lumia 925 as a _phone,&amp;nbsp;_I am lucky if I can go a day without needing to charge it again.&lt;/p&gt;
+&lt;p&gt;Today I charged the 920 for what I think is the first time since I made the switch to using this device as my media device, although I think I must have charged it in between, otherwise it would have been over 2 weeks without a charge, which would be a bit of a stretch I think.&lt;/p&gt;
+&lt;p&gt;Using the &lt;a href="http://www.windowsphone.com/en-gb/store/app/insider/d9b7989e-1592-4f25-a556-4755c06bf2e9"&gt;Insider&lt;/a&gt;&amp;nbsp;application, it is currently estimating 6 days and 4 hours before the next charge for the Nokia Lumia 920, and 1 day and 2 hours for the Nokia Lumia 925. &amp;nbsp;See the screenshots below:&lt;/p&gt;
+&lt;p&gt;&lt;img src="assets/posts/2013-10-28-battery-life-nokia-lumia-920-really-fantastic/wp_ss_20131028_0001-180x300.jpg" class="img-fluid" alt="Insider Application running on Nokia Lumia 925"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="assets/posts/2013-10-28-battery-life-nokia-lumia-920-really-fantastic/wp_ss_20131028_0001-180x300.png" class="img-fluid" alt="Insider Application running on Nokia Lumia 920"&gt;&lt;/p&gt;
+&lt;p&gt;I firmly believe that the Nokia Lumia 925 will need charged tomorrow morning, but I am very curious to see how the Nokia Lumia 920 lasts before needing another charge.&lt;/p&gt;
+&lt;p&gt;In addition, here is a gallery of how the battery was discharging through the 11 days that it was being used. &amp;nbsp;Very impressive!&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/battery-life-nokia-lumia-920-really-fantastic' + 'S/';
+    var disqus_title = 'The battery life of the Nokia Lumia 920 really is fantastic...';
+    var disqus_url = 'http://www.gep13.co.uk/blog/battery-life-nokia-lumia-920-really-fantastic' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content>
+		<summary>&lt;p&gt;With all the radios and antennas switched off on my Nokia Lumia 920, the battery has lasted from the 28th October through to today, the 7th November. &amp;nbsp;A total of 11 days! &amp;nbsp;This has included some fairly solid use, listening to podcasts, audio books and music, as well as using it as my alarm clock.  This is far more than I thought it would last, very impressed. &amp;nbsp;See the gallery at the end of the post for pictures of how the battery was discharging. &amp;nbsp;The spikes are when I was syncing the phone with the desktop to grab some new podcasts.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/registration-dunddd-2013-now-open" />
+		<id>http://www.gep13.co.uk/blog/registration-dunddd-2013-now-open</id>
+		<title>Registration for DunDDD 2013 is now open</title>
+		<updated>2013-10-14T00:00:00Z</updated>
+		<content>
+                                        
+
+&lt;h1 id="grab-your-ticket-for-dunddd-quickly-so-you-dont-miss-out"&gt;Grab your ticket for DunDDD quickly so you don't miss out!&lt;/h1&gt;
+&lt;p&gt;The call for speakers at the Scottish Community Event (organised by the &lt;a href="http://scottishdevelopers.com/"&gt;Scottish Developers&lt;/a&gt;) known as &lt;a href="http://dun.dddscotland.co.uk/speaker"&gt;DunDDD &lt;/a&gt;has now closed and the registration has opened.&lt;/p&gt;
+&lt;h1 id="dunddd-is-now-in-its-third-year"&gt;DunDDD is now in its third year&lt;/h1&gt;
+&lt;p&gt;This will be the 3rd DunDDD, built on the popular foundation of the Developer! Developer! Developer! conference series which has spread to all corners of the UK and the international arena. &amp;nbsp;DDD conferences are community-run days where passionate and enthusiastic people come together to learn, share ideas, and to network within the many hubs of the development community. Best of all DDD events are &lt;strong&gt;free&lt;/strong&gt; to everyone!&lt;/p&gt;
+&lt;p&gt;This year DunDDD will be featuring an entire track dedicated to Data Science.&lt;/p&gt;
+&lt;p&gt;Go and grab your &lt;a href="http://dun.dddscotland.co.uk/registration"&gt;ticket now&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/registration-dunddd-2013-now-open' + 'S/';
+    var disqus_title = 'Registration for DunDDD 2013 is now open';
+    var disqus_url = 'http://www.gep13.co.uk/blog/registration-dunddd-2013-now-open' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content>
+		<summary>&lt;p&gt;The call for speakers at the Scottish Community Event (organised by the &lt;a href="http://scottishdevelopers.com/"&gt;Scottish Developers&lt;/a&gt;) known as &lt;a href="http://dun.dddscotland.co.uk/speaker"&gt;DunDDD &lt;/a&gt;has now closed and the registration has opened.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/started-using-nokia-lumia-920-ipod-tomtom-replacement" />
+		<id>http://www.gep13.co.uk/blog/started-using-nokia-lumia-920-ipod-tomtom-replacement</id>
+		<title>Started using my Nokia Lumia 920 as an iPod and TomTom replacement</title>
+		<updated>2013-10-13T00:00:00Z</updated>
+		<content>
+                                        
+
+&lt;h1 id="and-i-cant-see-myself-looking-back"&gt;And I can't see myself looking back!&lt;/h1&gt;
+&lt;p&gt;I am now using my spare Nokia Lumia 920 as a replacement for both my failing Classic iPod, and my TomTom. &amp;nbsp;I have always liked to keep music and GPS devices separate from my phone, as using these types of services is a big drain on battery. &amp;nbsp;Now though, I am using two phone devices to service all of these needs. &amp;nbsp;No more need to carry around 3 separate devices!&lt;/p&gt;
+&lt;h1 id="heres-the-story"&gt;Here's the story...&lt;/h1&gt;
+&lt;p&gt;I recently upgraded my mobile phone to the Nokia Lumia 925, and I love it! &amp;nbsp;I upgraded from the Nokia Lumia 920, but there were a couple of things happening with the 920 which made me want to move away from it. &amp;nbsp;The first of which was that a single pixel, all the way down the screen, is stuck on a single colour. &amp;nbsp;This started happening after the warranty ran out on it, so there was nothing I could do aside from an expensive repair. &amp;nbsp;I opted to reset the device in order to send it to something like Mazuma mobile to get some money for it, however, the reset didn't go well and it got stuck on the spinning gears. &amp;nbsp;Doh!&lt;/p&gt;
+&lt;p&gt;For the last few months, the 920 has been nothing more than a paper weight on my desk, but after a Twitter conversation the other day, I was pointed at the following &lt;a href="http://mobileworld.appamundi.com/blogs/petevickers/archive/2013/09/13/what-do-i-do-if-my-lumia-shows-spinning-gears-and-won-t-restart.aspx"&gt;blog post&lt;/a&gt; from &lt;a href="https://twitter.com/petevick"&gt;Pete Vickers&lt;/a&gt;. &amp;nbsp;Now, don't get me wrong, I was skeptical. &amp;nbsp;The key combination sounded like something from a Street Fighter Special Move, but I gave it a shot. &amp;nbsp;After 3 attempts, the 920 rebooted, and after a period of time, I was booted into the main screen. Result!&lt;/p&gt;
+&lt;p&gt;I then went ahead and grabbed the latest update for the phone, taking the phone up to the GDR 2 release, and then went ahead and installed all the necessary applications, including the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.windowsphone.com/en-gb/store/app/here-drive/31bbc68c-503e-4561-8d85-a294d54df06f"&gt;HERE Drive+&lt;/a&gt; - Navigation application (uses the HERE Maps application)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.windowsphone.com/en-gb/store/app/here-maps/efa4b4a7-7499-46ce-aa95-3e4ab3b39313"&gt;HERE Maps&lt;/a&gt; -&amp;nbsp;Mapping application that allows for downloading maps using a WiFi Connection, and then using locally on device&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.windowsphone.com/en-gb/store/app/here-transit/adfdad16-b54a-4ec3-b11e-66bd691be4e6"&gt;HERE Transit&lt;/a&gt; - Provides routes between two selected places&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.windowsphone.com/en-gb/store/app/nokia-music/f5874252-1f04-4c3f-a335-4fa3b7b85329"&gt;Nokia Music&lt;/a&gt; - free music streaming application (also plays local music files)&lt;/li&gt;
+&lt;li&gt;Nokia Pro Cam - quite simply amazing!&lt;/li&gt;
+&lt;li&gt;Nokia Smart Cam - great camera application&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With these applications in place, and my music and podcasts synced to the phone and required maps downloaded, I have a perfectly functioning iPod and TomTom replacement, taking the number of devices that I need to carry around from 2, to 3.&lt;/p&gt;
+&lt;p&gt;Although I was in a unique position where I had a spare Nokia Lumia 920 to serve this purpose, there is nothing to stop you doing something similar using one of the many cheap, lower end devices, that are coming onto the market.&lt;/p&gt;
+&lt;h1 id="amazing-deal-at-tesco-on-the-nokia-lumia-510"&gt;Amazing deal at Tesco on the Nokia Lumia 510&lt;/h1&gt;
+&lt;p&gt;Last night while shopping at Tesco, I saw the following deal:&lt;/p&gt;
+&lt;p&gt;[caption id="attachment_2146" align="alignnone" width="1632"]&lt;a href="http://www.gep13.co.uk/blog/started-using-nokia-lumia-920-ipod-tomtom-replacement/wp_20131012_18_47_32_pro/"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/10/WP_20131012_18_47_32_Pro.jpg" class="img-fluid" alt="Nokia Lumia 510 only £80"&gt;&lt;/a&gt; Nokia Lumia 510 only £80[/caption]&lt;/p&gt;
+&lt;p&gt;This is quite simply amazing! &amp;nbsp;When you put it together with the services that you get from both Microsoft and Nokia, this little device makes for a compelling choice. &amp;nbsp;It is not hard to understand why these lower end Lumia's are the fastest selling devices at the moment. &amp;nbsp;They are very affordable, and offer the end-user a lot of options.&lt;/p&gt;
+&lt;p&gt;When you compare the above to something like the iPod, starting at £199, it would seem an obvious choice. &amp;nbsp;The functionality and available applications is comparable. &amp;nbsp;The Nokia Lumia 510 only has 4GB of hard drive space compared to the 16GB of the iPod, but if you don't need a lot of storage space,or are happy to use the free 7GB of cloud storage, or stream data from the free Nokia Music service, then this is not really a problem. &amp;nbsp;You could also look to something like the Nokia Lumia 520, which has an option for an expandable micro SD card up to 64GB.&lt;/p&gt;
+&lt;h1 id="the-setup-of-the-nokia-lumia-920"&gt;The setup of the Nokia Lumia 920&lt;/h1&gt;
+&lt;p&gt;The start screen of my Nokia Lumia 920 now looks like the following:&lt;/p&gt;
+&lt;p&gt;[caption id="attachment_2147" align="alignnone" width="768"]&lt;a href="http://www.gep13.co.uk/blog/started-using-nokia-lumia-920-ipod-tomtom-replacement/wp_ss_20131013_0001/"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/10/wp_ss_20131013_0001.jpg" class="img-fluid" alt="Nokia Lumia 920 Start Screen"&gt;&lt;/a&gt; Nokia Lumia 920 Start Screen[/caption]&lt;/p&gt;
+&lt;p&gt;As you can see, all the "normal" tiles, such as messaging, phone, email, etc, have all been removed, leaving only the tiles for the essential applications, such as navigation and music. &amp;nbsp;Since all the required maps for the navigation application that Nokia provide can be downloaded ahead of time using the phone's wireless connection, there is no need for a network connection while using it. &amp;nbsp;In fact, I have actually went as far as to enable the phones flight mode, and will only enable the wireless connection when required.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/started-using-nokia-lumia-920-ipod-tomtom-replacement' + 'S/';
+    var disqus_title = 'Started using my Nokia Lumia 920 as an iPod and TomTom replacement';
+    var disqus_url = 'http://www.gep13.co.uk/blog/started-using-nokia-lumia-920-ipod-tomtom-replacement' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content>
+		<summary>&lt;p&gt;I am now using my spare Nokia Lumia 920 as a replacement for both my failing Classic iPod, and my TomTom. &amp;nbsp;I have always liked to keep music and GPS devices separate from my phone, as using these types of services is a big drain on battery. &amp;nbsp;Now though, I am using two phone devices to service all of these needs. &amp;nbsp;No more need to carry around 3 separate devices!&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/northern-lights-2013-conference" />
+		<id>http://www.gep13.co.uk/blog/northern-lights-2013-conference</id>
+		<title>Northern Lights 2013 Conference</title>
+		<updated>2013-10-05T00:00:00Z</updated>
+		<content>
+                                        
+
+&lt;h1 id="get-your-tickets-now"&gt;Get your tickets now!&lt;/h1&gt;
+&lt;p&gt;I wanted to let you know about an upcoming event in Aberdeen that I have been helping to arrange. It is taking place on Friday 18th October 2013. &amp;nbsp;The event in question is the Northern Lights 2013 Conference.&amp;nbsp; The website for the conference can be found here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://northernlightsconf.co.uk/"&gt;http://northernlightsconf.co.uk/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The event is in its third year, and this year the theme is tools.&amp;nbsp; Both the tools that we use, and the tools we build.&amp;nbsp; There is a wide range of speakers available, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://northernlightsconf.co.uk/speakers/2013/09/23/hadi-hariri.html"&gt;Hadi Hariri&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://northernlightsconf.co.uk/speakers/2013/09/23/kendall-miller.html"&gt;Kendall Miller&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://northernlightsconf.co.uk/speakers/2013/09/24/sarah-drummond.html"&gt;Sarah Drummond&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://northernlightsconf.co.uk/speakers/2013/09/23/kate-stone.html"&gt;Kate Stone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://northernlightsconf.co.uk/speakers/2013/10/02/maria-gutierrez.html"&gt;Maria Gutierrez&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://northernlightsconf.co.uk/speakers/2013/09/23/niall-merrigan.html"&gt;Niall Merrigan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://northernlightsconf.co.uk/speakers/2013/09/23/glenn-henriksen.html"&gt;Glenn Hendrickson&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Who are offering up an exciting line up of talks.&lt;/p&gt;
+&lt;p&gt;In addition, there will be two open spaces at the conference, where attendees will have an opportunity to suggest a topic for an interactive conversation with other attendees and speakers.&amp;nbsp; If you haven’t been to an open space before, they are fantastic.&amp;nbsp; It is a perfect opportunity to interact with other like mind people about a topic that you are interested in.&amp;nbsp; The best way to get something out of this is to suggest a topic that you are especially interested in, and hopefully other people will get involved as well.&lt;/p&gt;
+&lt;p&gt;Tickets are £15 for the day, which includes coffee and lunch for regular attendees, and Students tickets to the talks are free, plus you can buy a lunch ticket for £5.&lt;/p&gt;
+&lt;p&gt;We hope to see you there.&amp;nbsp; If you have any questions about the event, then please don’t hesitate to get in touch with me.&lt;/p&gt;
+&lt;p&gt;If you know anyone else who would be interested in attending this event, I would really appreciate it if you could forward on this email.&lt;/p&gt;
+&lt;p&gt;This event is lovingly sponsored by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;University of Aberdeen - &amp;nbsp;&lt;a href="http://www.abdn.ac.uk"&gt;http://www.abdn.ac.uk/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Neo -&amp;nbsp;&lt;a href="http://www.neo.com"&gt;http://www.neo.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fifth Ring -&amp;nbsp;&lt;a href="http://www.fifthring.com"&gt;http://www.fifthring.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Codify - &lt;a href="http://www.codify.ltd.uk"&gt;http://www.codify.ltd.uk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Arnold Clark -&amp;nbsp;&lt;a href="http://www.arnoldclark.com"&gt;http://www.arnoldclark.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;AAA -&amp;nbsp;&lt;a href="http://www.aaajobs.co.uk"&gt;http://aaajobs.co.uk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/northern-lights-2013-conference' + 'S/';
+    var disqus_title = 'Northern Lights 2013 Conference';
+    var disqus_url = 'http://www.gep13.co.uk/blog/northern-lights-2013-conference' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content>
+		<summary>&lt;p&gt;I wanted to let you know about an upcoming event in Aberdeen that I have been helping to arrange. It is taking place on Friday 18th October 2013. &amp;nbsp;The event in question is the Northern Lights 2013 Conference.&amp;nbsp; The website for the conference can be found here:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/windows-phone-8-gdr2-update-finally-arrives-nokia-lumia-925-3-network" />
+		<id>http://www.gep13.co.uk/blog/windows-phone-8-gdr2-update-finally-arrives-nokia-lumia-925-3-network</id>
+		<title>Windows Phone 8 GDR2 Update finally arrives for my Nokia Lumia 925 on the 3 network</title>
+		<updated>2013-10-03T00:00:00Z</updated>
+		<content>
+                                        
+
+&lt;p&gt;I am happy to report that the GDR2 update for my Nokia Lumia 925 has finally arrived. &amp;nbsp;I say finally because it is almost 1 month after it arrived for my wife's phone! &amp;nbsp;We are not on the same operator, so this is obviously showing the difference in turning around the updates for the Windows Phone eco-system, and it has to be said that this really is a sad state of affairs! &amp;nbsp;I really hope that this turn around time for pushing out the updates improves, as getting the latest features for my handset is very important to me. &amp;nbsp;Almost important enough to consider switching mobile phone providers.&lt;/p&gt;
+&lt;p&gt;Almost 1 month ago, I convinced my wife that she should upgrade her mobile phone to the Nokia Lumia 925. &amp;nbsp;To my annoyance, one day after receiving the handset, she was prompted that there was an update available for the phone. &amp;nbsp;I started the update process, which actually consisted of two back to back updates, and after checking, this update was the much rumored &lt;a href="http://winsupersite.com/windows-phone/complete-guide-windows-phone-8-gdr2"&gt;GDR2 update&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Following the update, the various version numbers changed as follows:&lt;/p&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;**Original**&lt;/td&gt;
+      &lt;td&gt;**First Update**&lt;/td&gt;
+      &lt;td&gt;**Second Update**&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;**OS Version:**&lt;/td&gt;
+      &lt;td&gt;8.0.10327.0&lt;/td&gt;
+      &lt;td&gt;8.0.10327.0&lt;/td&gt;
+      &lt;td&gt;8.0.10328.0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;**Firmware revision number:**&lt;/td&gt;
+      &lt;td&gt;3040.0000.1322.2004&lt;/td&gt;
+      &lt;td&gt;3040.0005.1323.3004&lt;/td&gt;
+      &lt;td&gt;3047.0000.1326.2006&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;**Hardware revision number:**&lt;/td&gt;
+      &lt;td&gt;1.0.0.0&lt;/td&gt;
+      &lt;td&gt;1.0.0.0&lt;/td&gt;
+      &lt;td&gt;1.0.0.0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;**Radio software version:**&lt;/td&gt;
+      &lt;td&gt;3.2.04018.1&lt;/td&gt;
+      &lt;td&gt;3.2.04018.1&lt;/td&gt;
+      &lt;td&gt;3.2.04028.1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;**Chip SOC version:**&lt;/td&gt;
+      &lt;td&gt;8960&lt;/td&gt;
+      &lt;td&gt;8960&lt;/td&gt;
+      &lt;td&gt;8960&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;We got to talking about this before and during the pre-conference dinner, and there was a wide ranging number of actual attendances, to the total number of 34 DDD events.&amp;nbsp; My own personal attendance count is 6, having really only started in the Developer Community in 2010.&amp;nbsp; However, on speaking to Chris Alcock (@&lt;a href="https://twitter.com/calcock"&gt;calcock&lt;/a&gt;) he explained that be had attended an amazing 17 of the DDD events!&amp;nbsp; This got me thinking about how many other people had attended, hence this blog post.&amp;nbsp; Let me know how many you have attended and I will get you added to the leader board below.&amp;nbsp; Who will turn out to be the winner?&amp;nbsp; Maybe Craig Murphy?&amp;nbsp; Phil Winstanley?&amp;nbsp; Dave Sussman? Guy Smith-Ferrier? Who knows!&amp;nbsp; I will keep you posted when I hear from people.&lt;/p&gt;
-&lt;table class="table"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;Name&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Number of events attended&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="http://twitter.com/colinmackay"&gt;Colin Mackay&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;29&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="http://twitter.com/camurphy"&gt;Craig Murphy&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;26&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="http://twitter.com/guysmithferrier"&gt;Guy Smith-Ferrier&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;25&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/nathangloyn"&gt;Nathan Gloyn&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;23&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/DaveSussman"&gt;Dave Sussman&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;22&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="http://twitter.com/apwestgarth"&gt;Andrew Westgarth&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;21&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/westleyl"&gt;Liam Westley&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;18&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="http://twitter.com/ARGibson"&gt;Andy Gibson&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;18&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="http://twitter.com/calcock"&gt;Chris Alcock&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;17&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/Imaji"&gt;John McLoughlin&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;13&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/adrianbanks"&gt;Adrian Banks&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/philpursglove"&gt;Phil Pursglove&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;11&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/tjrobinson"&gt;Tom Robinson&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;11&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/RossDScott"&gt;Ross Scott&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;10&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/recumbent"&gt;James Murphy&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/stack72"&gt;Paul Stack&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/fatherfil"&gt;Phil Collins&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/RoryBecker"&gt;Rory Becker&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/rammesses"&gt;Joel Hammond-Turner&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/alastairs"&gt;Alastair Smith&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/richardadalton"&gt;Richard Dalton&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/gep13"&gt;Gary Ewan Park&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/nmerrigan"&gt;Niall Merrigan&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/craignicol"&gt;Craig Nicol&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/shawty_ds"&gt;Peter Shaw&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/sacs"&gt;Colin B&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/garfbradaz"&gt;Gareth Bradley&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/hermitdave"&gt;Hermit Dave&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/_richardg"&gt;Richard Garside&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="https://twitter.com/seblis27"&gt;Sebastian Liszka&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+&lt;p&gt;Fast forward 1 month, and after a twitter conversation with the support team at 3, which was a little coincidental (by the way, I am not claiming responsibility for getting the update released :-)), the GDR2 update arrived for my phone:&lt;/p&gt;
+&lt;p&gt;https://twitter.com/gep13/status/384990097176657922&lt;/p&gt;
+&lt;p&gt;One interesting thing is that although the OS version between the two phones is the same, the firmware version numbers are different. &amp;nbsp;You can see the comparison table between the original and update on my phone below. &amp;nbsp;Both the firmware revision number, and the radio software version numbers on my phone are higher than on my wife's phone.&lt;/p&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;**Original**&lt;/td&gt;
+      &lt;td&gt;**Update**&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;**OS Version:**&lt;/td&gt;
+      &lt;td&gt;8.0.10327.0&lt;/td&gt;
+      &lt;td&gt;8.0.10328.0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;**Firmware revision number:**&lt;/td&gt;
+      &lt;td&gt;3040.0000.1322.2003&lt;/td&gt;
+      &lt;td&gt;3049.0000.1330.0004&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;**Hardware revision number:**&lt;/td&gt;
+      &lt;td&gt;1.0.0.0&lt;/td&gt;
+      &lt;td&gt;1.0.0.0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;**Radio software version:**&lt;/td&gt;
+      &lt;td&gt;3.2.04018.1&lt;/td&gt;
+      &lt;td&gt;3.2.04033.1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;**Chip SOC version:**&lt;/td&gt;
+      &lt;td&gt;8960&lt;/td&gt;
+      &lt;td&gt;8960&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;To summarize, in addition to the huge difference in time between pushing out the updates between the mobile phone providers, it also looks like they are choosing to release different updates. &amp;nbsp;It would be really interesting to find out why they are doing this. &amp;nbsp;To me, this seem a little bit troubling. &amp;nbsp;I know the carriers have a right to decide which updates are released to the handsets that they are in charge of, but to go an entire month after one of your competitors releases the update seems very excessive to me. &amp;nbsp;Let's hope the release process improves with the forthcoming GDR3 update.&lt;/p&gt;
+&lt;p&gt;You can see a gallery of the screenshots that I took during the update process below.&lt;/p&gt;
+&lt;p&gt;[gallery type="rectangular" ids="2124,2126,2127,2128,2129,2130,2131,2132"]&lt;/p&gt;
 
 
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;
 &lt;script type="text/javascript"&gt;
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank' + 'S/';
-    var disqus_title = 'DDD attendance leaderboard, where do you rank?';
-    var disqus_url = 'http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank' + '/';
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/windows-phone-8-gdr2-update-finally-arrives-nokia-lumia-925-3-network' + 'S/';
+    var disqus_title = 'Windows Phone 8 GDR2 Update finally arrives for my Nokia Lumia 925 on the 3 network';
+    var disqus_url = 'http://www.gep13.co.uk/blog/windows-phone-8-gdr2-update-finally-arrives-nokia-lumia-925-3-network' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -1000,28 +975,37 @@ GithubPassword:
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
                                 </content>
-		<summary>&lt;p&gt;On the reverse of the DDD North 2 Speaker and Helper t-shirts, Andy Westgarth (&lt;a href="http://twitter.com/apwestgarth"&gt;@apwestgarth&lt;/a&gt;) had compiled a list of all the DDD events, starting back on the 15th May 2005.&lt;/p&gt;</summary>
+		<summary>&lt;p&gt;I am happy to report that the GDR2 update for my Nokia Lumia 925 has finally arrived. &amp;nbsp;I say finally because it is almost 1 month after it arrived for my wife's phone! &amp;nbsp;We are not on the same operator, so this is obviously showing the difference in turning around the updates for the Windows Phone eco-system, and it has to be said that this really is a sad state of affairs! &amp;nbsp;I really hope that this turn around time for pushing out the updates improves, as getting the latest features for my handset is very important to me. &amp;nbsp;Almost important enough to consider switching mobile phone providers.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/vbforums-moderator" />
-		<id>http://www.gep13.co.uk/blog/vbforums-moderator</id>
-		<title>VBForums Moderator</title>
-		<updated>2010-12-09T00:00:00Z</updated>
+		<link href="http://www.gep13.co.uk/blog/jon-skeet-scotland-tour" />
+		<id>http://www.gep13.co.uk/blog/jon-skeet-scotland-tour</id>
+		<title>Jon Skeet Scotland Tour</title>
+		<updated>2013-06-07T00:00:00Z</updated>
 		<content>
                                         
 
-&lt;p&gt;As some of you may know, I have been hanging out at &lt;a href="http://www.vbforums.com/"&gt;VB Forums&lt;/a&gt; for a while now, mainly posting in the ASP.Net Forum, and trying to help out where I can. I have been a standard member there since 2004, but I have now become a Moderator on the Forums.&lt;/p&gt;
-&lt;p&gt;I feel very privileged to hold this role, as VB Forums is a thriving community of developers, all across the .Net technologies, as well as other languages and platforms.&lt;/p&gt;
-&lt;p&gt;I can find me &lt;a href="http://www.vbforums.com/member.php?u=53106"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="jon-skeet-taking-a-quick-break-from-stack-overflow"&gt;Jon Skeet - Taking a quick break from Stack Overflow&lt;/h1&gt;
+&lt;p&gt;It is with great pleasure that I can announce that I have been able to confirm Jon Skeet, &lt;a href="http://stackoverflow.com/users/22656/jon-skeet"&gt;legendary contributor to Stack Overflow&lt;/a&gt;, and author of &lt;a href="http://www.manning.com/skeet3/"&gt;C# in Depth&lt;/a&gt;, to do User Group Presentations in Glasgow, Aberdeen and Edinburgh.&lt;/p&gt;
+&lt;p&gt;I have to say a big thank you to Jon for taking the time out of his busy schedule to come up to Scotland to do these talks, it really is very much appreciated! &amp;nbsp;Jon will be talking to two topics, "Semantics Matter" and "Abusing C#". &amp;nbsp;The Abusing C# talk will be repeated in both Aberdeen and Edinburgh, so if you can't make it to one, you have the option to attend the other.&lt;/p&gt;
+&lt;p&gt;You can find out more information about Jon Skeet on his site &lt;a href="http://msmvps.com/blogs/jon_skeet/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="glasgow-event"&gt;Glasgow Event&lt;/h1&gt;
+&lt;p&gt;With the help of&amp;nbsp;&lt;a href="http://www.scottishdevelopers.com/"&gt;Scottish Developers&lt;/a&gt;, this meeting, entitled "Semantics Matter", will be taking place on Wednesday 7th August 2013, in the Mercure Hotel, starting at 7 o'clock in the evening. &amp;nbsp;For full details of the event, and to register, check out the Eventbrite page&amp;nbsp;&lt;a href="http://jonskeet-glasgow.eventbrite.com/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="aberdeen-event"&gt;Aberdeen Event&lt;/h1&gt;
+&lt;p&gt;This meeting, entitled "Abusing C#", will be taking place on Thursday 8th August 2013, at the RGU St Andrews Street building at 6 o'clock in the evening. &amp;nbsp;For full details of the event, and to register, check out the Eventbrite page&amp;nbsp;&lt;a href="http://adnuguk-aug2013.eventbrite.com/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="edinburgh-event"&gt;Edinburgh Event&lt;/h1&gt;
+&lt;p&gt;Once again, with the help of &lt;a href="http://www.scottishdevelopers.com/"&gt;Scottish Developers&lt;/a&gt;, this meeting, entitled "Abusing C#", will be taking place on Friday 9th August, For full details of the event, and to register, check out the Eventbrite page &lt;a href="http://jonskeet-edinburgh-2013.eventbrite.co.uk/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="questions"&gt;Questions&lt;/h1&gt;
+&lt;p&gt;If you have any questions about either of these events, please don't hesitate to get in touch!&lt;/p&gt;
 
 
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;
 &lt;script type="text/javascript"&gt;
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/vbforums-moderator' + 'S/';
-    var disqus_title = 'VBForums Moderator';
-    var disqus_url = 'http://www.gep13.co.uk/blog/vbforums-moderator' + '/';
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/jon-skeet-scotland-tour' + 'S/';
+    var disqus_title = 'Jon Skeet Scotland Tour';
+    var disqus_url = 'http://www.gep13.co.uk/blog/jon-skeet-scotland-tour' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -1033,35 +1017,35 @@ GithubPassword:
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
                                 </content>
-		<summary>&lt;p&gt;As some of you may know, I have been hanging out at &lt;a href="http://www.vbforums.com/"&gt;VB Forums&lt;/a&gt; for a while now, mainly posting in the ASP.Net Forum, and trying to help out where I can. I have been a standard member there since 2004, but I have now become a Moderator on the Forums.&lt;/p&gt;</summary>
+		<summary>&lt;p&gt;It is with great pleasure that I can announce that I have been able to confirm Jon Skeet, &lt;a href="http://stackoverflow.com/users/22656/jon-skeet"&gt;legendary contributor to Stack Overflow&lt;/a&gt;, and author of &lt;a href="http://www.manning.com/skeet3/"&gt;C# in Depth&lt;/a&gt;, to do User Group Presentations in Glasgow, Aberdeen and Edinburgh.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/where-did-the-assemblies-from-my-global-assembly-cache-gac-go" />
-		<id>http://www.gep13.co.uk/blog/where-did-the-assemblies-from-my-global-assembly-cache-gac-go</id>
-		<title>Where did the assemblies from my Global Assembly Cache (GAC) go?</title>
-		<updated>2010-11-24T00:00:00Z</updated>
+		<link href="http://www.gep13.co.uk/blog/bill-wager-scotland-tour" />
+		<id>http://www.gep13.co.uk/blog/bill-wager-scotland-tour</id>
+		<title>Bill Wagner Scotland Tour</title>
+		<updated>2013-06-06T00:00:00Z</updated>
 		<content>
                                         
 
-&lt;p&gt;I have recently been working on a SharePoint Web Part, and while trying to retract the solution from SharePoint, I got an error message, shown here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/5e76c325-aa54-4408-9fe5-ca32dc405398.png"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/5e76c325-aa54-4408-9fe5-ca32dc405398_thumb.png" class="img-fluid" alt="5e76c325-aa54-4408-9fe5-ca32dc405398"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Now, in all honesty, I didn’t think much of this error, because when I checked the files associated with each of the features for the solution they were all gone, and when I tried to open the home page of my SharePoint server, it worked, and everything looked to be ok. However, an additional step after retracting the solution was to remove a couple files from the GAC (yes, I know I need to alter my WSP project to do this for me, but…), on opening the GAC, I was greeted with this:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/ee75f8ab-79d9-4c07-b512-09fab0b6cdc0.png"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/ee75f8ab-79d9-4c07-b512-09fab0b6cdc0_thumb.png" class="img-fluid" alt="ee75f8ab-79d9-4c07-b512-09fab0b6cdc0"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Where have all my assemblies gone?!? My machine is still running, and there haven’t been any error messages pop up, so I know the files in the GAC must be there, but for whatever reason, they are not being displayed. So, what do you do in situations like this? I don’t know about you, but I always turn to the person next to me to make sure that they are seeing the same thing as me. So I did, I pulled over one of my colleagues, and asked him to look at my GAC and ask if he had seen this before. However, when I did this, and I opened the GAC again, all the files were there!! So I took some stick about being an idiot, and I went on with my day.&lt;/p&gt;
-&lt;p&gt;Later on though, the same thing happened. I pulled my colleague over again, and proved that I wasn’t dreaming. He agreed that he was seeing the same thing as I was (no need to call the men in white coats yet), but didn’t have a clue what was going on.&lt;/p&gt;
-&lt;p&gt;So, what do you do when all other avenues have been exhausted? That’s right, you Google it. I found various references to the problem, but nothing concrete, until I found this:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://kwizcom.blogspot.com/2009/01/global-assembly-cache-gac-folder.html"&gt;http://kwizcom.blogspot.com/2009/01/global-assembly-cache-gac-folder.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;My initial reaction was, no, that can’t be right. But to my surprise, disabling the “Indexing Service” does appear to have done the trick. I have had the retraction error a few more times since I disabled the service (I really need to look into why that is happening), and each time the GAC has remained in tact.&lt;/p&gt;
-&lt;p&gt;No idea what was causing this to happen, but seems like this is the solution.&lt;/p&gt;
+&lt;h1 id="bill-wagner-taking-a-break-from-golf"&gt;Bill Wagner - Taking a break from Golf&lt;/h1&gt;
+&lt;p&gt;It is with great pleasure that I can announce that I have been able to confirm Bill Wagner, author of &lt;a href="http://www.amazon.co.uk/Effective-Covers-4-0-Development-ebook/dp/B003BXRNZI/ref=sr_1_1?ie=UTF8&amp;amp;qid=1370544140&amp;amp;sr=8-1&amp;amp;keywords=effective+c%23"&gt;Effective C#&lt;/a&gt;&amp;nbsp;and &lt;a href="http://www.amazon.co.uk/More-Effective-Specific-Development-ebook/dp/B001FA0MAC/ref=sr_1_2?ie=UTF8&amp;amp;qid=1370544140&amp;amp;sr=8-2&amp;amp;keywords=effective+c%23"&gt;More Effective C#&lt;/a&gt;, to do User Group Presentations in both Glasgow and Aberdeen.&lt;/p&gt;
+&lt;p&gt;I have to send out a huge thank you to Mark Rendle (&lt;a href="https://twitter.com/markrendle"&gt;@markrendle&lt;/a&gt;) for the initial introductions, and obviously a special thank to Bill for agreeing to visit these User Groups. &amp;nbsp;Bill is taking time out of a busy golfing holiday (which I am very jealous of) to present topics on Async and Await Practices in C# 5.&lt;/p&gt;
+&lt;p&gt;You can find out more information about Bill Wagner at his site &lt;a href="http://billwagner.azurewebsites.net/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="aberdeen-event"&gt;Aberdeen Event&lt;/h1&gt;
+&lt;p&gt;This meeting, entitled "Async/Await Practices in C# 5", will be taking place on Thursday 4th July 2013, at the RGU St Andrews Street building at 6 o'clock in the evening. &amp;nbsp;For full details of the event, and to register, check out the Eventbrite page &lt;a href="http://adnuguk-jul2013.eventbrite.com/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="glasgow-event"&gt;Glasgow Event&lt;/h1&gt;
+&lt;p&gt;With the help of &lt;a href="http://www.scottishdevelopers.com/"&gt;Scottish Developers&lt;/a&gt;, this meeting, entitled "Async/Await Practices in C# 5", will be taking place on Saturday 13th July 2013, in the Mercure Hotel, starting at 10 o'clock in the morning. &amp;nbsp;For full details of the event, and to register, check out the Eventbrite page &lt;a href="http://billwagner-glasgow.eventbrite.com/#"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="questions"&gt;Questions&lt;/h1&gt;
+&lt;p&gt;If you have any questions about either of these events, please don't hesitate to get in touch!&lt;/p&gt;
 
 
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;
 &lt;script type="text/javascript"&gt;
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/where-did-the-assemblies-from-my-global-assembly-cache-gac-go' + 'S/';
-    var disqus_title = 'Where did the assemblies from my Global Assembly Cache (GAC) go?';
-    var disqus_url = 'http://www.gep13.co.uk/blog/where-did-the-assemblies-from-my-global-assembly-cache-gac-go' + '/';
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/bill-wager-scotland-tour' + 'S/';
+    var disqus_title = 'Bill Wagner Scotland Tour';
+    var disqus_url = 'http://www.gep13.co.uk/blog/bill-wager-scotland-tour' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -1073,34 +1057,36 @@ GithubPassword:
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
                                 </content>
-		<summary>&lt;p&gt;I have recently been working on a SharePoint Web Part, and while trying to retract the solution from SharePoint, I got an error message, shown here:&lt;/p&gt;</summary>
+		<summary>&lt;p&gt;It is with great pleasure that I can announce that I have been able to confirm Bill Wagner, author of &lt;a href="http://www.amazon.co.uk/Effective-Covers-4-0-Development-ebook/dp/B003BXRNZI/ref=sr_1_1?ie=UTF8&amp;amp;qid=1370544140&amp;amp;sr=8-1&amp;amp;keywords=effective+c%23"&gt;Effective C#&lt;/a&gt;&amp;nbsp;and &lt;a href="http://www.amazon.co.uk/More-Effective-Specific-Development-ebook/dp/B001FA0MAC/ref=sr_1_2?ie=UTF8&amp;amp;qid=1370544140&amp;amp;sr=8-2&amp;amp;keywords=effective+c%23"&gt;More Effective C#&lt;/a&gt;, to do User Group Presentations in both Glasgow and Aberdeen.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/nosql-autumn-conference-2010dundee" />
-		<id>http://www.gep13.co.uk/blog/nosql-autumn-conference-2010dundee</id>
-		<title>NoSql Autumn Conference 2010–Dundee</title>
-		<updated>2010-11-21T00:00:00Z</updated>
+		<link href="http://www.gep13.co.uk/blog/opening-and-editing-an-adobe-illustrator-file-using-expression-design" />
+		<id>http://www.gep13.co.uk/blog/opening-and-editing-an-adobe-illustrator-file-using-expression-design</id>
+		<title>Opening and editing an Adobe Illustrator file using Expression Design</title>
+		<updated>2013-05-24T00:00:00Z</updated>
 		<content>
                                         
 
-&lt;p&gt;Yesterday I attended the NoSql Autumn Conference at Dundee University:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://developerdeveloperdeveloper.com/nosql1/"&gt;http://developerdeveloperdeveloper.com/nosql1/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This included talks on &lt;a href="http://cassandra.apache.org/"&gt;Cassandra&lt;/a&gt; (by Andy Cobley), &lt;a href="http://hadoop.apache.org/"&gt;Hadoop&lt;/a&gt; (by Jonathan Forbes),&lt;a href="http://ravendb.net/"&gt;RavenDB&lt;/a&gt; (by Rob Ashton) and &lt;a href="http://voltdb.com/"&gt;VoltDB&lt;/a&gt; (by Mark Whitehorn), as well as an opening session entitled “Is NoSql the future of data storage?” by Gary Short.&lt;/p&gt;
-&lt;p&gt;In the past I have always used Sql Server, MySql and Oracle, I have never done anything with any NoSql Systems, but I went along to this conference with an open mind to see what else was available.&lt;/p&gt;
-&lt;p&gt;Of the systems that were talked about, the most interesting, from my point of view, was RavenDB. This is built on C#, and uses LINQ expressions to save and retrieve information from the data store, so from a .Net Development perspective, it certainly looked like the easiest system to get up and running with. The others required the use of Java, or Erlang, neither of which I have ever played with.&lt;/p&gt;
-&lt;p&gt;The only “slight” issue with RavenDB is that a lot of the features that make it stand out are currently still in the unstable branch of the development. However, as the speaker, Rob, pointed out, by the time you are ready to roll out a system that uses these features, it is more than likely that these features will have been moved over to the stable branch as there is a high level of active development going on.&lt;/p&gt;
-&lt;p&gt;From a NoSql point of view, the concepts of Consistency, Availability, and Partition Tolerance, (CAP) are at the heart of each system, but no one system can have each of these. They can have 2 out of the 3 only. So for instance, standard systems like SQL Server are CA, Hadoop is CP and RavenDB is AP.&lt;/p&gt;
-&lt;p&gt;Gary Short pretty much summed up the NoSql movement when he answered the question “Is NoSql the future of data storage?” by saying Yes, and No.&lt;/p&gt;
-&lt;p&gt;The concepts at the heart of NoSql make it very appealing when it comes to distributed storage and horizontal scalability, but it won’t be long before the big database manufacturers start to implement some of these concepts natively into their systems.&lt;/p&gt;
+&lt;h1 id="open-and-edit-a.ai-file-using-expression-design"&gt;Open and edit a .ai file using Expression Design&lt;/h1&gt;
+&lt;p&gt;The other week, I needed to edit the original source files for the Aberdeen Developers .Net User Group in order to change the size of the png's that I use for various things (like avatar's, etc). &amp;nbsp;Unfortunately, these were created using Adobe Illustrator, which I don't have access to. &amp;nbsp;I had a hunt around, but I couldn't find a way to do it. &amp;nbsp;Enter Twitter...&lt;/p&gt;
+&lt;p&gt;The ever knowledgeable Scott Lovegrove (&lt;a href="https://twitter.com/scottisafool"&gt;@scottisafool&lt;/a&gt;), made a great suggestion of using Expression Design to open and edit the files. &amp;nbsp;I had thought that Expression Design was only part of the Expression Studio, which I also don't have, but...&lt;/p&gt;
+&lt;h1 id="expression-design-is-free"&gt;Expression Design is free!&lt;/h1&gt;
+&lt;p&gt;Although it used to only be part of the Expression Studio, Express Design is now actually free! &amp;nbsp;You can download it from &lt;a href="http://www.microsoft.com/en-us/download/details.aspx?id=36180"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="opening-and-editing-the-file"&gt;Opening and Editing the file&lt;/h1&gt;
+&lt;p&gt;This couldn't be simpler! &amp;nbsp;Open up Expression Design, and open the file. &amp;nbsp;Once open, you will have the option to Export the image:&lt;/p&gt;
+&lt;p&gt;[caption id="attachment_2076" align="alignnone" width="1171"]&lt;a href="http://www.gep13.co.uk/blog/wp-content/uploads/2013/05/Expression-Design-Export-Menu.png"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/05/Expression-Design-Export-Menu.png" class="img-fluid" alt="Expression Design Export Menu"&gt;&lt;/a&gt; Expression Design Export Menu[/caption]&lt;/p&gt;
+&lt;p&gt;On the next window, you will then be able to choose the output format, and also the size of the resulting image:&lt;/p&gt;
+&lt;p&gt;[caption id="attachment_2077" align="alignnone" width="1206"]&lt;a href="http://www.gep13.co.uk/blog/wp-content/uploads/2013/05/Expression-Design-Export-Options.png"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/05/Expression-Design-Export-Options.png" class="img-fluid" alt="Expression Design Export Options"&gt;&lt;/a&gt; Expression Design Export Options[/caption]&lt;/p&gt;
+&lt;p&gt;Simples! &amp;nbsp;Thanks again Scott!&lt;/p&gt;
 
 
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;
 &lt;script type="text/javascript"&gt;
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/nosql-autumn-conference-2010dundee' + 'S/';
-    var disqus_title = 'NoSql Autumn Conference 2010&amp;#x2013;Dundee';
-    var disqus_url = 'http://www.gep13.co.uk/blog/nosql-autumn-conference-2010dundee' + '/';
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/opening-and-editing-an-adobe-illustrator-file-using-expression-design' + 'S/';
+    var disqus_title = 'Opening and editing an Adobe Illustrator file using Expression Design';
+    var disqus_url = 'http://www.gep13.co.uk/blog/opening-and-editing-an-adobe-illustrator-file-using-expression-design' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -1112,257 +1098,6 @@ GithubPassword:
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
                                 </content>
-		<summary>&lt;p&gt;Yesterday I attended the NoSql Autumn Conference at Dundee University:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/techmeetup-in-aberdeen" />
-		<id>http://www.gep13.co.uk/blog/techmeetup-in-aberdeen</id>
-		<title>techmeetup in Aberdeen</title>
-		<updated>2010-11-21T00:00:00Z</updated>
-		<content>
-                                        
-
-&lt;p&gt;I have just found out about the existence of a group called techmeetup in Aberdeen:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://techmeetup.co.uk/"&gt;http://techmeetup.co.uk/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;They meet every month in the Meston Building at Aberdeen University, and discuss a range of different topics. I am going to attend their next meeting.&lt;/p&gt;
-&lt;p&gt;You can find them on twitter with &lt;a href="http://twitter.com/techmeetup"&gt;@techmeetup&lt;/a&gt;.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/techmeetup-in-aberdeen' + 'S/';
-    var disqus_title = 'techmeetup in Aberdeen';
-    var disqus_url = 'http://www.gep13.co.uk/blog/techmeetup-in-aberdeen' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
-                                </content>
-		<summary>&lt;p&gt;I have just found out about the existence of a group called techmeetup in Aberdeen:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/microsoft-app-hub-registration" />
-		<id>http://www.gep13.co.uk/blog/microsoft-app-hub-registration</id>
-		<title>Microsoft App Hub Registration</title>
-		<updated>2010-11-13T00:00:00Z</updated>
-		<content>
-                                        
-
-&lt;p&gt;Having got the new &lt;a href="http://www.htc.com/uk/product/hd7/overview.html"&gt;HTC HD7&lt;/a&gt; a couple weeks ago, I decided that I wanted to create an account with the &lt;a href="http://create.msdn.com/"&gt;App Hub&lt;/a&gt;. Doing so means that I can unlock the handset and make it a developer handset.&lt;/p&gt;
-&lt;p&gt;What this means is that applications that have been created within Visual Studio can be deployed directly to the device. Until this is done, the only way to get applications onto a handset is to download them directly from the Microsoft Marketplace.&lt;/p&gt;
-&lt;p&gt;Although there is an emulator within the &lt;a href="http://www.microsoft.com/downloads/en/details.aspx?FamilyID=04704acf-a63a-4f97-952c-8b51b34b00ce&amp;amp;displaylang=en"&gt;Windows Phone Developer Tools&lt;/a&gt; which allows you to debug and test applications, there are times when you simply “have” to deploy to a physical device. One of the main reasons is to get a true representation of the performance of your application. Running through the emulator on a powerful machine can give a “false” indication of the performance of the application.&lt;/p&gt;
-&lt;p&gt;There are a set of very specific criteria that any application you create has to abide by and before submitting our application to the Marketplace for testing you will need to verify that your application meets them.&lt;/p&gt;
-&lt;p&gt;App Hub registration costs £65 + VAT per year.&lt;/p&gt;
-&lt;p&gt;There are a number of steps that have to be completed before you can get to the stage of unlocking your handset.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Step 1: Create an App Hub Account&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/b420594f-c8cd-4c60-ba5a-54edfd9e77e3.png"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/b420594f-c8cd-4c60-ba5a-54edfd9e77e3_thumb.png" class="img-fluid" alt="b420594f-c8cd-4c60-ba5a-54edfd9e77e3"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This will require a Windows Live ID. (If you don’ t have one, you can register &lt;a href="https://signup.live.com/signup.aspx?lic=1"&gt;here&lt;/a&gt;.) Go to the App Hub website and sign in.&lt;/p&gt;
-&lt;p&gt;If you have any problems signing into the App Hub site, first try going to the &lt;a href="http://www.xbox.com/en-US/live"&gt;XBox Live&lt;/a&gt;site and signing in there. There was a known issue with the Terms and Conditions on the XBox Live site which meant you had to first accept their Terms and Conditions before being able to progress with the App Hub registration.&lt;/p&gt;
-&lt;p&gt;During the registration process, you will be asked whether you want to register a individual account, a Business account, or a student account. You may want to spend some time thinking about this one as once you have made the decision, you can’t change it, and you will need to create a new account with a different Windows Live ID.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Step 2: Verify Email Address&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/4c2e6ba3-be55-48a0-b64b-b11d9d4f8f5a.png"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/4c2e6ba3-be55-48a0-b64b-b11d9d4f8f5a_thumb.png" class="img-fluid" alt="4c2e6ba3-be55-48a0-b64b-b11d9d4f8f5a"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Once you have completed Step 1, you will need to verify your email address. This can simply be achieved by clicking on the link that you will receive to the email address that you used to sign up.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Step 3: GeoTrust Verification&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/7eed2713-7369-418a-9634-2645883e8cb3.png"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/7eed2713-7369-418a-9634-2645883e8cb3_thumb.png" class="img-fluid" alt="7eed2713-7369-418a-9634-2645883e8cb3"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The next step in the authorisation process is handed over to a Microsoft Partner called GeoTrust. This involves having to submit a photocopy/scan of a piece of photographic identification. For instance, your driving license or passport. You will be asked for this by email. This step in the process can take upwards of a few days to complete.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Step 4: Unlock Phone&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/281e82ed-9a0b-4fba-955c-d1c64663dad8.png"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/281e82ed-9a0b-4fba-955c-d1c64663dad8_thumb.png" class="img-fluid" alt="281e82ed-9a0b-4fba-955c-d1c64663dad8"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Once GeoTrust has verified your identity you will be able to unlock your handset. (You can unlock up to 3 devices, and once unlocked you can control which devices you want to keep unlocked through your App Hub account). This step is completed by using the Windows Phone Developer Registration Tool which was installed along with the Windows Phone Developer Tools.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/586379f6-5f9b-4189-96db-dbaa610054cb.png"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/586379f6-5f9b-4189-96db-dbaa610054cb_thumb.png" class="img-fluid" alt="586379f6-5f9b-4189-96db-dbaa610054cb"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;However, before you will be able to connect your phone to your computer, you will have to install the &lt;a href="http://www.zune.net/en-GB/"&gt;Zune&lt;/a&gt; software so that your computer can communicate with the handset.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/df79e327-4cb3-4070-80e3-5467ba1bceb3.png"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/df79e327-4cb3-4070-80e3-5467ba1bceb3_thumb.png" class="img-fluid" alt="df79e327-4cb3-4070-80e3-5467ba1bceb3"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Once installed, connect your handset to your computer via the USB cable, and allow the device drivers to install. Then open the developer registration tool. Make sure that your phone is switched on and open (i.e. you can see the live tiles) and then type in your Windows Live ID and password, and click Register.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/035af53b-cf02-4896-a835-a4c468aa2eda.png"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/035af53b-cf02-4896-a835-a4c468aa2eda_thumb.png" class="img-fluid" alt="035af53b-cf02-4896-a835-a4c468aa2eda"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Step 5: Verify Handset is unlocked&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Log into your App Hub account and go to your Windows Phone Dashboard, and click “Manage your development phones”. Here you should see the phone that you just registered.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/fae30ad8-d26c-4979-99bb-69f40d55cca7.png"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/fae30ad8-d26c-4979-99bb-69f40d55cca7_thumb.png" class="img-fluid" alt="fae30ad8-d26c-4979-99bb-69f40d55cca7"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;With this step completed, you will now be able to choose this option:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/d4453484-4c92-4033-9a52-2bed1b168765.png"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/Microsoft-App-Hub-Registration_13804/d4453484-4c92-4033-9a52-2bed1b168765_thumb.png" class="img-fluid" alt="d4453484-4c92-4033-9a52-2bed1b168765"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Within Visual Studio to deploy applications onto your handset.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Points to note&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;During the registration process, I received an email saying that my payment had been cancelled, however, I never cancelled it. It this happens to you, the best people to contact are the XBox Live team, as they deal with the subscription payment. You can find their contact details here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://support.xbox.com/en-GB/pages/contact-us.aspx"&gt;http://support.xbox.com/en-GB/pages/contact-us.aspx&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I found their team to be very helpful, and I was quickly able to get everything straightened out.&lt;/p&gt;
-&lt;p&gt;You are able to upload up to 5 free applications to the Marketplace, and any number of paid for applications. However, in order to get any revenue from the Marketplace, you will have to sort out the Tax implications. I haven’t yet completed this step, but once I have figured it out, I will let you know how to do it.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/microsoft-app-hub-registration' + 'S/';
-    var disqus_title = 'Microsoft App Hub Registration';
-    var disqus_url = 'http://www.gep13.co.uk/blog/microsoft-app-hub-registration' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
-                                </content>
-		<summary>&lt;p&gt;Having got the new &lt;a href="http://www.htc.com/uk/product/hd7/overview.html"&gt;HTC HD7&lt;/a&gt; a couple weeks ago, I decided that I wanted to create an account with the &lt;a href="http://create.msdn.com/"&gt;App Hub&lt;/a&gt;. Doing so means that I can unlock the handset and make it a developer handset.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/lloyds-tsb-scam-email" />
-		<id>http://www.gep13.co.uk/blog/lloyds-tsb-scam-email</id>
-		<title>Lloyds TSB scam email</title>
-		<updated>2010-11-09T00:00:00Z</updated>
-		<content>
-                                        
-
-&lt;p&gt;In the last two weeks, I have had two emails claiming to be from my Lloyds TSB online account. In them, they tell me that due to “suspicious” activity on my online account (log ins from multiple IP addresses) my account has been temporarily limited, and I need to take one of two courses of action:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Click on the provided link to log into my account and re-enable it.&lt;/li&gt;
-&lt;li&gt;Complete the attachment&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Now, both of the above things made me a little suspicious, but looking at the email closer, there were a few tell tale signs that this was a scam email, and that it should be deleted and not looked at.&lt;/p&gt;
-&lt;p&gt;Firstly, the “from” address of the email:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.gep13.co.uk/blog/wp-content/uploads/Lloyds-TSB-scam-email_13AAA/14a5ab8f-17fc-46c1-b602-f154010be53e.png"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/Lloyds-TSB-scam-email_13AAA/14a5ab8f-17fc-46c1-b602-f154010be53e_thumb.png" class="img-fluid" alt="14a5ab8f-17fc-46c1-b602-f154010be53e"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;You should notice a couple things from the above:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;It is from “Loyds TSB”. This is a spelling mistake, and would unlikely happen on a legitimate email.&lt;/li&gt;
-&lt;li&gt;The registered domain name is also incorrect @loydstsb.com&lt;/li&gt;
-&lt;li&gt;The user name for the email is “supporti”. Again, this is unlikely in a legitimate email.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Looking in to the body of the email, I was then presented with:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.gep13.co.uk/blog/wp-content/uploads/Lloyds-TSB-scam-email_13AAA/ddff2199-f268-4526-a477-59ca19a25bdb.png"&gt;&lt;img src="http://www.gep13.co.uk/blog/wp-content/uploads/Lloyds-TSB-scam-email_13AAA/ddff2199-f268-4526-a477-59ca19a25bdb_thumb.png" class="img-fluid" alt="ddff2199-f268-4526-a477-59ca19a25bdb"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Notice here that the URL for the link goes to lloydstsb.co.uk. Although the spelling of Lloyds is correct this time, the actual URL for my Lloyds TSB account goes to lloydstsb.com. A subtle difference, but in the world of the internet, this is the difference between a legitimate site, and a bogus one.&lt;/p&gt;
-&lt;p&gt;Bottom line is, if you receive any emails like this, ALWAYS err on the side of caution. Don’t click any direct links from these emails, and don’t open any attachments. If in any doubt, phone your bank, or whoever is the subject of the email, they will be able to help you&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/lloyds-tsb-scam-email' + 'S/';
-    var disqus_title = 'Lloyds TSB scam email';
-    var disqus_url = 'http://www.gep13.co.uk/blog/lloyds-tsb-scam-email' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
-                                </content>
-		<summary>&lt;p&gt;In the last two weeks, I have had two emails claiming to be from my Lloyds TSB online account. In them, they tell me that due to “suspicious” activity on my online account (log ins from multiple IP addresses) my account has been temporarily limited, and I need to take one of two courses of action:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/why-cant-things-get-delivered-when-they-are-meant-to" />
-		<id>http://www.gep13.co.uk/blog/why-cant-things-get-delivered-when-they-are-meant-to</id>
-		<title>Why can’t things get delivered when they are meant to?</title>
-		<updated>2010-10-30T00:00:00Z</updated>
-		<content>
-                                        
-
-&lt;p&gt;Today, I was hoping to bring you a blow by blow account of my new Windows Phone 7 handset, the HTC HD7. I ordered it on Thursday, and I was told that I would have it yesterday. When I checked the DHL tracking website, sure enough, it said it was “Out of delivery” as of 15:23 yesterday. However, it never arrived, and there has been no update on the DHL website.&lt;/p&gt;
-&lt;p&gt;I phoned O2 this morning, and they were able to get in touch with DHL directly. Now, you would think that “Out for Delivery” means just that, it is out for delivery, however, that would be too easy. All this means is that it is in the hands of the courier who is going to deliver it, and it will be delivered at some point in the future. DHL, you really need to update your website with sensible descriptions!!! I have now been told that the phone will be delivered on Monday, however, there is not going to be anyone in the house on Monday, and much to my dismay, you can’t change the delivery address until they attempt delivery at least once, and neither am I able to pick it up from the depot. At the earliest, I am not going to have the phone until Tuesday &lt;img src="http://aberdeendevelopers.co.uk/CMSPages/GetFile.aspx?guid=46e7fb82-88ca-4efc-a766-c20a5dabb70a" class="img-fluid" alt="Sad smile"&gt;&lt;/p&gt;
-&lt;p&gt;Boo!!!!&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/why-cant-things-get-delivered-when-they-are-meant-to' + 'S/';
-    var disqus_title = 'Why can&amp;#x2019;t things get delivered when they are meant to?';
-    var disqus_url = 'http://www.gep13.co.uk/blog/why-cant-things-get-delivered-when-they-are-meant-to' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
-                                </content>
-		<summary>&lt;p&gt;Today, I was hoping to bring you a blow by blow account of my new Windows Phone 7 handset, the HTC HD7. I ordered it on Thursday, and I was told that I would have it yesterday. When I checked the DHL tracking website, sure enough, it said it was “Out of delivery” as of 15:23 yesterday. However, it never arrived, and there has been no update on the DHL website.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/windows-7-family-pack" />
-		<id>http://www.gep13.co.uk/blog/windows-7-family-pack</id>
-		<title>Windows 7 Family Pack</title>
-		<updated>2010-10-05T00:00:00Z</updated>
-		<content>
-                                        
-
-&lt;p&gt;Just found out about the existence of this pack, so I thought I would share:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.amazon.co.uk/Microsoft-Windows-Premium-Upgrade-customer/dp/B002MT21N6/ref=sr_1_1?ie=UTF8&amp;amp;s=software&amp;amp;qid=1286280895&amp;amp;sr=8-1"&gt;http://www.amazon.co.uk/Microsoft-Windows-Premium-Upgrade-customer/dp/B002MT21N6/ref=sr_1_1?ie=UTF8&amp;amp;s=software&amp;amp;qid=1286280895&amp;amp;sr=8-1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Seems like a good deal if you have more than one computer in the house that you want to have running Windows 7.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/windows-7-family-pack' + 'S/';
-    var disqus_title = 'Windows 7 Family Pack';
-    var disqus_url = 'http://www.gep13.co.uk/blog/windows-7-family-pack' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
-                                </content>
-		<summary>&lt;p&gt;Just found out about the existence of this pack, so I thought I would share:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/helping-out-friends-and-families" />
-		<id>http://www.gep13.co.uk/blog/helping-out-friends-and-families</id>
-		<title>Helping out friends and families</title>
-		<updated>2010-09-28T00:00:00Z</updated>
-		<content>
-                                        
-
-&lt;p&gt;For a long time, I have been an avid user of logmein, and I love it!!&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://secure.logmein.com/"&gt;https://secure.logmein.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I have all my friends and families machines connected to my free account which means if anyone is having any problems with their computer, and they are connected to the internet, then I can jump onto their machine, see what is going on, and take control if I need to, to fix the problem.&lt;/p&gt;
-&lt;p&gt;There are paid for versions of logmein available, that extend the feature set, such as File Share, Remote to Local Audio, etc, however, I have never felt the need for those versions.&lt;/p&gt;
-&lt;p&gt;There have been times though when I have been asked for help from people who are not connected to my logmein account, meaning that I can’t jump on and look at their machine. Although they try, some of the descriptions that I get from people (It’s not working…) makes it impossible to know what is going on, and it is just easier to be able to see their screen. There are ways to remotely connect computers to my logmein account, however, it isn’t a particularly simple process.&lt;/p&gt;
-&lt;p&gt;That is where &lt;a href="http://showmewhatswrong.com/"&gt;ShowMeWhatsWrong.com&lt;/a&gt; steps in. Basically, it allows the user (me) to send a url to the person at the other end of the phone, and on clicking that link, they will be taken to a website that will start recording their screen, thus allowing them to show me what the problem is. Once completed, the video file is then sent to me in an email for me to take a look at.&lt;/p&gt;
-&lt;p&gt;Enjoy!!&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/helping-out-friends-and-families' + 'S/';
-    var disqus_title = 'Helping out friends and families';
-    var disqus_url = 'http://www.gep13.co.uk/blog/helping-out-friends-and-families' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
-                                </content>
-		<summary>&lt;p&gt;For a long time, I have been an avid user of logmein, and I love it!!&lt;/p&gt;</summary>
+		<summary>&lt;p&gt;The other week, I needed to edit the original source files for the Aberdeen Developers .Net User Group in order to change the size of the png's that I use for various things (like avatar's, etc). &amp;nbsp;Unfortunately, these were created using Adobe Illustrator, which I don't have access to. &amp;nbsp;I had a hunt around, but I couldn't find a way to do it. &amp;nbsp;Enter Twitter...&lt;/p&gt;</summary>
 	</entry>
 </feed>

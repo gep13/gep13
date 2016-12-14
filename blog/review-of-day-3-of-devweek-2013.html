@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+        <title>Gary Ewan Park - Review of Day 3 of DevWeek 2013</title>
+        <meta name="description" content="Ramblings and Ponderings of a Microsoft Fan Boy..." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+
+        <link type="application/rss+xml" rel="alternate" title="Gary Ewan Park" href="/feed.rss" />
+        <link type="application/atom+xml" rel="alternate" title="Gary Ewan Park" href="/feed.atom" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/css/prettify.css" rel="stylesheet">
+        <link href="/assets/css/github.css" rel="stylesheet">
+        <link href="/assets/css/clean-blog.css" rel="stylesheet" />
+        <link href="/assets/css/master.css" rel="stylesheet" />
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+
+        <meta name="application-name" content="Gary Ewan Park" />
+        <meta name="msapplication-tooltip" content="Gary Ewan Park" />
+        <meta name="msapplication-starturl" content="/" />
+
+        <meta property="og:title" content="Gary Ewan Park - Review of Day 3 of DevWeek 2013" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.gep13.co.uk/blog/review-of-day-3-of-devweek-2013" />
+        <!-- TODO: More social graph meta tags -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
+        <script src="/assets/js/prettify.js"></script>
+        <script src="/assets/js/clean-blog.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="/assets/js/trianglify.min.js"></script>
+        <script src="/assets/js/Please-compressed.js"></script>
+                
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        </head>
+        <body onload="prettyPrint()">
+                
+                <!-- Navigation -->
+                <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+                        <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header page-scroll">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="/">Gary Ewan Park</a>
+                                </div>
+                        
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="navbar-collapse">
+                                        <ul class="nav navbar-nav navbar-right">
+                                                <li><a href="/about">About</a></li>
+<li><a href="/projects">Projects</a></li>
+<li><a href="/talks">Talks</a></li>
+<li><a href="/posts">Archive</a></li>
+<li><a href="/contact">Contact</a></li>
+<li><a href="/tags">Tags</a></li> 
+                                        </ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container -->
+                </nav>
+                
+                <!-- Page Header -->
+                <header class="intro-header" id="intro-header">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-md-12">
+
+    
+<div class="post-heading">
+    <h1>Review of Day 3 of DevWeek 2013</h1>
+    <div class="meta">        
+Published on 06 March 2013<br>    </div>
+        <div class="tags">
+                    <a role="button" href="/tags/async" class="btn btn-default btn-xs">Async</a>
+                    <a role="button" href="/tags/day-3" class="btn btn-default btn-xs">Day 3</a>
+                    <a role="button" href="/tags/devweek" class="btn btn-default btn-xs">DevWeek</a>
+                    <a role="button" href="/tags/javascript" class="btn btn-default btn-xs">JavaScript</a>
+                    <a role="button" href="/tags/k2" class="btn btn-default btn-xs">K2</a>
+                    <a role="button" href="/tags/review" class="btn btn-default btn-xs">Review</a>
+                    <a role="button" href="/tags/signalr" class="btn btn-default btn-xs">SignalR</a>
+                    <a role="button" href="/tags/web-api" class="btn btn-default btn-xs">Web API</a>
+        </div>     
+</div>
+                                        </div>
+                                </div>
+                        </div>
+                </header>
+                
+                <!-- Main Content -->
+                <div class="container">
+                        <div class="row">
+                                <div id="content" class="col-md-12">
+                                        
+
+<h1 id="today-i-won-a-surface-at-devweek">Today, I won a Surface at DevWeek...</h1>
+<p>What follow is a brief summary of the session that I attended at the 3rd overall day of DevWeek 2013 (the second day of actual sessions).  Review of the other days of DevWeek can be seen here</p>
+<ul>
+<li><a href="http://gep13.me/W0AJEP">Day 1 - Pre-Conference Workshop</a></li>
+<li><a href="http://gep13.me/YuOPy2">Day 2 - Conference Sessions</a></li>
+<li><a href="http://gep13.me/ZqTHU1">Day 3 - Conference Sessions</a> (this post)</li>
+<li><a href="http://gep13.me/13I4BKv">Day 4 - Conference Sessions</a></li>
+<li><a href="http://gep13.me/Y0Gj7A">Day 5 - Post-Conference Workshop</a></li>
+</ul>
+<p>So today was a great day!  Not only were there some top class presentations on Async ASP.NET, JavaScript, Web API and SignalR, but I was also lucky enough to win a Surface RT!  This was thanks to <a href="http://www.k2.com/platform/workflow">K2</a> who were running a prize giveaway.  Huge thanks go to them, and although they didn't have the Surface to give me on the day, I am reassured that this will be delivered to me as soon as they have it available :-)</p>
+<h1 id="first-morning-session">First Morning Session</h1>
+<p>**Presenter: **Brock Allen (you can find his blog <a href="http://brockallen.com/">here</a>, and twitter <a href="https://twitter.com/brocklallen">here</a>)</p>
+<p>**Topic: **Async ASP.NET</p>
+<blockquote class="blockquote">
+<p>Asynchronous programming is all the rage these days and was a major theme in the most recent release of .NET. In this session we’ll look at what async means for web applications for both client and server code. We’ll see how ASP.NET has had async support for over 10 years and how WebForms and MVC provide an easy to use async programming model. We’ll then look at async client programming using JavaScript and jQuery, HTML5 WebWorkers and finally we’ll conclude with the ever popular SignalR library for supporting async communication.</p>
+</blockquote>
+<p><strong>Thoughts</strong></p>
+<p>I really enjoyed this presentation.  It was almost a near perfect <em>continuation</em> (see what I did there?) to Andrew Clymer's talk that I went to yesterday.  This talk went into specifics about how things used to be done in ASP.NET and how you can start to make use of both Task, and async/await in ASP.NET.  There were loads of samples shown, and his slides were very detailed, which meant that it was really easy to follow along.  Great presentation!</p>
+<p><strong>Takeaways</strong></p>
+<ul>
+<li>ASP.NET has had async support since .Net 1.1</li>
+<li>HttpTaskAsyncHandler base class is new in .Net 4.5</li>
+<li>HttpContext is NOT thread safe, i.e contexts don't flow by default, so when doing continuations manually, you have to take care of ensuring the original context is passed into the callback.</li>
+<li>jQuery doesn't work in WebWorkers, since it is dependent on the DOM.  There is however a stripped down version of jQuery available which you can use in WebWorkers</li>
+<li>jQuery supports a &quot;promise&quot; i.e. the .then() syntax</li>
+<li>Brock indicated that the source code for his presentation will be available on his blog in due course.</li>
+</ul>
+<h1 id="second-morning-session">Second Morning Session</h1>
+<p>**Presenter: **Hadi Hariri (you can find his blog <a href="https://twitter.com/hhariri">here</a>, and twitter <a href="http://hadihariri.com/">here</a>)</p>
+<p>**Topic: **Just because it's JavaScript doesn't give you the right to write rubbish</p>
+<blockquote class="blockquote">
+<p>JavaScript, the language that we all laughed at and our usage of it was limited to copy/paste of scripts to have some dynamic content in a web page, has all grown up. From jQuery on the client-side to Node.js on the server, everywhere you look there’s JavaScript. Unfortunately there’s also a ton of horrible, twisted and somewhat convoluted code that would make any developer that remotely cares about clean code suicidal.
+A dynamic language that has somewhat given us a licence to do anything we want has been abused to the point that much of the blame has been placed on the language itself as opposed to the developers.
+In this talk we’ll discuss some of the patterns and anti-patterns of JavaScript, things you should and shouldn’t do.</blockquote></p>
+</blockquote>
+<p><strong>Thoughts</strong></p>
+<p>This was by far, the BEST presentation that I saw today!</p>
+<p>Ok, so Hadi asked me to say that, but seriously, I felt that it was a very good talk.  Hadi raised a very interesting question in &quot;how&quot; JavaScript is being developed.  In many ways, it is still seen as the &quot;baby brother&quot;, the &quot;scripting language&quot;, the &quot;User Interface Language&quot;, and as a result, it doesn't get treated with the same respect.  When you are doing other development, there are things like Unit Testing, Code Coverage, Continuous Delivery, etc.  Now, he wasn't saying that there aren't the equivalent systems for JavaScript, but rather, that they are not used with the same vigour.  If we, as developers, are going to start utilising JavaScript to the extent that we are likely to, we have to start giving it the respect it deserves.  This means actually &quot;learning&quot; it, rather than just copy and pasting from online sources.  A very well thought out and well executed presentation!</p>
+<p><strong>Takeaways</strong></p>
+<ul>
+<li>Common issue with writing code - as you write more, it becomes harder to maintain.  Writing with JavaScript takes you quickly down this route.</li>
+<li>Historically, there hasn't been much tooling for JavaScript.  This has now changed, and it needs to start being used.</li>
+<li>JSLint.com - online validation for JavaScript</li>
+<li>Always use ===</li>
+</ul>
+<p><strong>Quotes</strong></p>
+<p>Due to Hadi's style of presentation, there are quite a few quotes here, many of which I believe were said in jest, so please don't take them out of context:</p>
+<ul>
+<li>&quot;Feel free to get up and leave&quot;</li>
+<li>&quot;The aim of this talk is to show you how utterly crap JavaScript&quot;</li>
+<li>&quot;As though JavaScript of the client isn't bad enough, now we have it on the server!&quot;</li>
+<li>&quot;JavaScript is a 'write-once' language&quot; - i.e. you never want to look at the code again</li>
+<li>&quot;Hopefully I will convert you, and you will all hate JavaScript&quot;</li>
+</ul>
+<p><strong>Book Recommendations</strong></p>
+<ul>
+<li><a href="http://www.amazon.co.uk/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752/ref=sr_1_1?ie=UTF8&amp;qid=1362598412&amp;sr=8-1">JavaScript Patterns</a></li>
+<li><a href="http://www.amazon.co.uk/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=sr_1_1?ie=UTF8&amp;qid=1362598427&amp;sr=8-1">JavaScript: The Good Parts</a></li>
+</ul>
+<h1 id="first-afternoon-session">First Afternoon Session</h1>
+<p>**Presenter: **Dominick Baier (you can find his blog <a href="http://leastprivilege.com/">here</a>, and twitter <a href="https://twitter.com/leastprivilege">here</a>)</p>
+<p>**Topic: **Patterns and techniques for securing REST/HTTP-based services and (ASP.NET) Web APIs</p>
+<blockquote class="blockquote">
+<p>The industry is moving to an HTTP/Web API based approach when it comes to modelling web services. These services are typically much more lightweight compared to their SOAP counterparts, which makes them easier to use in cross-platform and device architectures. But are they maybe too lightweight? Can they fulfil the security requirements? It turns out they can! In this talk we will have a look at how authentication and authorization can be implemented in HTTP-based services in general, and we’ll have a look at the security features of Microsoft’s new framework called ASP.NET Web API in particular. In addition we’ll shed light on what terms like OAuth2, JWT, OpenID and WS-Federation actually mean, and where these technologies make sense.</blockquote></p>
+</blockquote>
+<p><strong>Thoughts</strong></p>
+<p>With all the buzz around Web API, it was interesting to hear in this session what needs to be done &quot;behind the scenes&quot; to ensure that things are secure.  There are several gotchas, such as lack of built-in support for cross domain applications in Web API.  The infrastructure is there to do it yourself, but it is a lot of work, and you have to know what you are doing.  Thankfullly, Dominick, and his mates at <a href="http://thinktecture.com/">thinktecture</a> have created the IdentityModel and IdentityServer (which can be found <a href="https://github.com/thinktecture">here</a>) which attempts to fill this void.  These projects are open source, and released under an MIT license, meaning that you can do whatever you want with them.  A very good presentation, although, I did feel that in parts, it was a little rushed.  Also, no fault of Dominick's, but the room was a little warm, which I think was a contributing factor to the guy in front of me sleeping through out the entire talk.  I think several people were put off by this, as the gentleman in question was snoring quite loudly, but no-one had the heart to wake him.</p>
+<p><strong>Takeaways</strong></p>
+<ul>
+<li>All Web API Security is built on top of SSL</li>
+<li>Authorize Attribute on ApiController specifies what Authentication is required</li>
+<li>New AllowAnonymous Attribute to specify that no Authentication is required</li>
+<li>You can create your own Authorization Filter</li>
+<li>No built-in support for Cross Domain applications</li>
+<li><a href="http://openidtest.uninett.no/jwt">Useful site</a> for decoding tokens</li>
+<li>Token-based Authentication is &quot;THE&quot; way to do it</li>
+<li>When generating tokens, keep the token lifetime short</li>
+</ul>
+<p><strong>Quotes</strong></p>
+<ul>
+<li>&quot;If you are ignoring SSL Certificate Errors, you are not doing security properly&quot;</li>
+<li>&quot;For some reason it is in German... That means it is extra secure!&quot; - when talking about a login prompt that appeared in German text</li>
+</ul>
+<h1 id="second-afternoon-session">Second Afternoon Session</h1>
+<p>**Presenter: **Christian Weyer (you can find his blog <a href="http://weblogs.thinktecture.com/cweyer/">here</a>, and twitter <a href="https://twitter.com/christianweyer">here</a>)</p>
+<p>**Topic: **I wanna be cool! Push communication with SignalR for the web &amp; beyond</p>
+<blockquote class="blockquote">
+<p>Google, Facebook &amp; Co. are leading the way: users want to see data and updates, live &amp; now. There is need for a server or service to send messages and data into clients – without the client actually explicitly asking. Christian Weyer shows how .NET developers can implement this with SignalR – a framework with a simple yet powerful programming model. You should not have to care about the underlying protocols and (quasi-) standards in order to realize bi-directional communication over standard network infrastructure with potentially any device (desktop, browser, mobile) – not just for the web.</p>
+</blockquote>
+<p><strong>Thoughts</strong></p>
+<p>For me, Christian's session at last years DevWeek was a stand out one!  He is an amazing presenter, and clearly loves what he does.  This session was no exception!  We were taking on a whistle-stop tour of SignalR, including loads of real world examples, that really help to drive home how SignalR could be used in practice.  If you have never been to one of Christian's presentation, you owe it to yourself to go along to one!</p>
+<p>Great job!</p>
+<p><strong>Takeaways</strong></p>
+<ul>
+<li>Wow, just wow!  He showed how, using SignalR, you can surface changes that were made directly to the database (using SQL Server Management Studio) could be surfaced to a DataGrid running in the browser.</li>
+<li><a href="https://github.com/chillitom/CefSharp">CEFSharp</a> - an embeddable version of Chrome that you can run in your .Net Applications</li>
+<li>Suggestion that you don't create native applications, in the traditional sense, but rather create native apps that host a browser, and run your application there.</li>
+<li>SignalR Sample Applications - Mouse Tracking - truly mind-blowing what is being done in only a few lines of code!</li>
+<li>Regardless of browser, long polling will always work and will be used as fall back connection with SignalR</li>
+</ul>
+<p><strong>Quotes</strong></p>
+<ul>
+<li>&quot;If your software doesn't contain a DataGrid, you have failed!&quot;</li>
+<li>&quot;Dynamic! Ah, can you feel this?&quot; - you had to be there to appreciate this one!</li>
+</ul>
+<h1 id="overall-thoughts">Overall Thoughts</h1>
+<p>Another great day of sessions, made all the better by winning a Surface RT!  Looking forward to more sessions tomorrow!</p>
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/review-of-day-3-of-devweek-2013' + 'S/';
+    var disqus_title = 'Review of Day 3 of DevWeek 2013';
+    var disqus_url = 'http://www.gep13.co.uk/blog/review-of-day-3-of-devweek-2013' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                                </div>
+                        </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Footer -->
+                <footer>
+                        <div class="container">
+        <div class="row">
+                <div class="col-md-12">
+                <ul class="list-inline text-center">
+                        <li>
+                        <a href="https://twitter.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="https://github.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                </ul>
+                <p class="copyright text-muted">
+                        Copyright © 2016 by Gary Ewan Park. The opinions expressed herein are my own and do not represent those of my employer or any other third-party views in any way. This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
+                        <br />
+                        <a href="/feed.rss"><i class="fa fa-rss"></i> RSS Feed</a> | <a href="/feed.atom"><i class="fa fa-rss"></i> Atom Feed</a>
+                        <br />
+                        <a href="https://github.com/gep13/gep13.github.io"><i class="fa fa-github"></i> This Site on GitHub</a> | <strong><a href="http://wyam.io">Generated by Wyam</a></strong>
+                </p>
+                </div>
+        </div>
+</div>
+                </footer> 
+
+                <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+
+    // Google Analytics
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-20926037-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+                        <script type="text/javascript">                
+                                // Header background                        
+                                var colors = Please.make_color({
+                                        colors_returned: 3,
+                                        saturation: .6
+                                });
+                                var t = new Trianglify({
+                                        x_gradient: colors,
+                                        y_gradient: ["#FFFFFF"]
+                                });
+                                var header = document.getElementById("intro-header");
+                                var pattern = t.generate(header.clientWidth, header.clientHeight);
+                                header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
+                        </script>
+        </body>
+</html>
+
