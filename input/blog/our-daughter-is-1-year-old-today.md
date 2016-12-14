@@ -1,3 +1,4 @@
+---
 Title: Our Daughter is 1 Year Old Today!
 Published: 13/9/2014
 Image: /images/birthday_collection.jpg

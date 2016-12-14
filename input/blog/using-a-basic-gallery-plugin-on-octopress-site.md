@@ -1,3 +1,4 @@
+---
 Title: Using a basic gallery plugin on Octopress Site
 Published: 8/9/2014
 Tags: 

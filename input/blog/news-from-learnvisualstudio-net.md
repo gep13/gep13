@@ -1,3 +1,4 @@
+---
 Title: News from LearnVisualStudio.Net
 Published: 4/8/2010
 Tags:

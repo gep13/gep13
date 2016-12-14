@@ -1,3 +1,4 @@
+---
 Title: Essential Visual Studio Addin - StyleCop
 Published: 18/7/2010
 Tags:

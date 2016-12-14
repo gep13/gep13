@@ -1,3 +1,4 @@
+---
 Title: Vampires Rock
 Published: 14/11/2008
 Tags:

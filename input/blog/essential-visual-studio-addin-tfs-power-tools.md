@@ -1,3 +1,4 @@
+---
 Title: Essential Visual Studio Addin – TFS Power Tools
 Published: 18/7/2010
 Tags:

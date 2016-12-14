@@ -1,3 +1,4 @@
+---
 Title: DDD attendance leaderboard, where do you rank?
 Published: 15/10/2012
 Tags:

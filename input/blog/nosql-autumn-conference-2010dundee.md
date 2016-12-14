@@ -1,3 +1,4 @@
+---
 Title: NoSql Autumn Conference 2010–Dundee
 Published: 21/11/2010
 Tags:

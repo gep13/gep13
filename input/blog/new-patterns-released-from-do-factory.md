@@ -1,3 +1,4 @@
+---
 Title: New Patterns released from DO Factory
 Published: 9/8/2010
 Tags:

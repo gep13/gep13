@@ -1,3 +1,4 @@
+---
 Title: Calgary Tower and the Casino
 Published: 31/7/2008
 Tags:

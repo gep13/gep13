@@ -1,3 +1,4 @@
+---
 Title: Where did the assemblies from my Global Assembly Cache (GAC) go?
 Published: 24/11/2010
 Tags:

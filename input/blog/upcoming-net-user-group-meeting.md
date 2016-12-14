@@ -1,3 +1,4 @@
+---
 Title: Upcoming .Net User Group Meeting
 Published: 24/9/2010
 Tags:

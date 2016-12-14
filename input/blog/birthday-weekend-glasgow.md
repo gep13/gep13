@@ -1,3 +1,4 @@
+---
 Title: Birthday Weekend - Glasgow
 Published: 1/12/2008
 Tags:

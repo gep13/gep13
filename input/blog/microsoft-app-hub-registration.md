@@ -1,3 +1,4 @@
+---
 Title: Microsoft App Hub Registration
 Published: 13/11/2010
 Tags:

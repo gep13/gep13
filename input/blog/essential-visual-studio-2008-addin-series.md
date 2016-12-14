@@ -1,3 +1,4 @@
+---
 Title: Essential Visual Studio 2008 Addin Series
 Published: 18/7/2010
 Tags:

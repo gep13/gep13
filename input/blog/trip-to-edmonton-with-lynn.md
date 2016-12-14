@@ -1,3 +1,4 @@
+---
 Title: Trip to Edmonton with Lynn
 Published: 6/8/2008
 Tags:

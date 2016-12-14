@@ -1,3 +1,4 @@
+---
 Title: Strange Error When Signing XAP File for Windows Phone 8.1. Silverlight Application
 Published: 29/1/2016
 Tags: 

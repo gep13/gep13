@@ -1,3 +1,4 @@
+---
 Title: Gary the Coconut joins me in Calgary
 Published: 12/7/2008
 Tags:

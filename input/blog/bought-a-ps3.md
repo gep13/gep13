@@ -1,3 +1,4 @@
+---
 Title: Bought a PS3
 Published: 1/11/2008
 Tags:

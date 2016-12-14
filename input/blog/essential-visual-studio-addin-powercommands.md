@@ -1,3 +1,4 @@
+---
 Title: Essential Visual Studio Addin - PowerCommands
 Published: 18/7/2010
 Tags:

@@ -1,3 +1,4 @@
+---
 Title: Upcoming ADNUG events
 Published: 27/6/2010
 Tags:

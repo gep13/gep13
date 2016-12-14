@@ -1,3 +1,4 @@
+---
 Title: First Aberdeen Developers .Net User Group Meeting
 Published: 22/7/2010
 Tags:

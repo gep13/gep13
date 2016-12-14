@@ -1,3 +1,4 @@
+---
 Title: Moved into my apartment
 Published: 1/5/2008
 Tags:

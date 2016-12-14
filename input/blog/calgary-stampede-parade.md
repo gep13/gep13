@@ -1,3 +1,4 @@
+---
 Title: Calgary Stampede Parade
 Published: 4/7/2008
 Tags:

@@ -1,3 +1,4 @@
+---
 Title: Guitar Hero World Tour
 Published: 22/11/2008
 Tags:

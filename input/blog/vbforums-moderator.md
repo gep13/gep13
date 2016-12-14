@@ -1,3 +1,4 @@
+---
 Title: VBForums Moderator
 Published: 9/12/2010
 Tags:

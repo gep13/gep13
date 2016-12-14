@@ -1,3 +1,4 @@
+---
 Title: Trip to Banff with Lynn
 Published: 30/7/2008
 Tags:

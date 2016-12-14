@@ -1,3 +1,4 @@
+---
 Title: Registration for DunDDD 2014 is now open
 Published: 1/11/2014
 Tags: 

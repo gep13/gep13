@@ -1,3 +1,4 @@
+---
 Title: Follow up from first User Group meeting
 Published: 23/7/2010
 Tags:
