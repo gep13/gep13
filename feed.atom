@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2016</rights>
-	<updated>2016-12-14T16:52:44Z</updated>
+	<updated>2016-12-14T16:58:05Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open" />
@@ -203,33 +203,23 @@ Have you ever needed to control the version number of your application?  If so, 
 
 &lt;h2 id="take-minutes-off-overall-build-time"&gt;Take minutes off overall build time...&lt;/h2&gt;
 &lt;p&gt;By making use of the &lt;a href="http://www.appveyor.com/docs/build-cache"&gt;build cache&lt;/a&gt; within &lt;a href="http://www.appveyor.com/"&gt;AppVeyor&lt;/a&gt;.  For both this blog, and also the &lt;a href="http://www.aberdeendevelopers.co.uk/"&gt;Aberdeen Developers .Net User Group&lt;/a&gt; blog, I was able to reduce the overall build time by over 3 minutes.  Find out how.&lt;/p&gt;
-&lt;!--more--&gt;
 &lt;p&gt;In a recent &lt;a href="http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages/"&gt;blog post&lt;/a&gt;, I described how I was able to use AppVeyor to generate and then deploy an Octopress site to GitHub Pages.  The process is very simple to setup, the only slight downside is the time that it takes to generate the site itself, which can take over 7 minutes.&lt;/p&gt;
 &lt;p&gt;In the grand scheme of things, this isn't a long time, but if you are pushing a quick change, and want to see whether it worked before moving onto something else, these 7 minutes can seem like an entirity.  Looking at the build log, it was clear that the thing that was taking the longest was this command:&lt;/p&gt;
-&lt;p&gt;{% codeblock lang:yaml %}&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;cmd: bundle install
-{% endcodeblock %}&lt;/li&gt;
-&lt;/ul&gt;
+&lt;pre&gt;&lt;code class="language-yaml"&gt;  - cmd: bundle install
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The reason that this is required is due to the fact that each time a build on AppVeyor runs, it is using a brand new instance of the &lt;a href="http://www.appveyor.com/docs/installed-software"&gt;Build Worker Image&lt;/a&gt;.  This is both good and bad.  It means that you are always starting from a known point.  However, it also means that anything you installed to get your build to work, is no longer there the next time the build runs.&lt;/p&gt;
 &lt;p&gt;In my case, there are almost 50 rubygems that need to be installed in order for Octopress to work correctly.  This means that these gems have to be downloaded from the internet, installed and verified, and then used in the build process.&lt;/p&gt;
 &lt;p&gt;Thankfully, AppVeyor has the concept of using a build cache.  This basically means that, once setup, AppVeyor will first extract all the cached files back onto the Build Worker Image, and then start the build proper.  As a result, when I run:&lt;/p&gt;
-&lt;p&gt;{% codeblock lang:yaml %}&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;cmd: bundle install
-{% endcodeblock %}&lt;/li&gt;
-&lt;/ul&gt;
+&lt;pre&gt;&lt;code class="language-yaml"&gt;  - cmd: bundle install
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The gems are already installed, and no longer need to be downloaded and installed.  Then, at the end of the build, the folders of interest are then re-cached, ready for extraction when the next build kicks off.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; There is a limit of 100MB applied to the build cache.  If you are trying to cache more files than this, you will have to get in contact with AppVeyor support to see if there is anything that can be done to increase this number.&lt;/p&gt;
 &lt;h2 id="enough-already-show-me-the-configuration"&gt;Enough already, show me the configuration&lt;/h2&gt;
 &lt;p&gt;Setting this up is as simple as this:&lt;/p&gt;
-&lt;p&gt;{% codeblock lang:yaml %}
-cache:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;C:\Ruby193\lib\ruby\gems\1.9.1&lt;/li&gt;
-&lt;li&gt;C:\Ruby193\bin
-{% endcodeblock %}&lt;/li&gt;
-&lt;/ul&gt;
+&lt;pre&gt;&lt;code class="language-yaml"&gt;cache:
+  - C:\Ruby193\lib\ruby\gems\1.9.1
+  - C:\Ruby193\bin
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I originally started out trying to cache only the &lt;code&gt;gems&lt;/code&gt; folder, however, with the help of Feodor Fitsner over at the &lt;a href="http://help.appveyor.com/discussions/questions/585-what-setup-for-build-cache-is-require-for-bundle-install"&gt;AppVeyor Support&lt;/a&gt; pages it became apparent that I would also need to include the &lt;code&gt;bin&lt;/code&gt; folder, as during the installation of gems a number of them put their bash or CMD scripts into this folder so that they can make the tooling work correctly from the command line.&lt;/p&gt;
 &lt;p&gt;And there you have it!  With the build cache configured, I was able to reduce the build time for this blog from &lt;code&gt;5 min 37&lt;/code&gt; to &lt;code&gt;2 min 28 sec&lt;/code&gt;.  Not a bad effort!&lt;/p&gt;
 &lt;p&gt;This same approach can be used for other artefacts of a build process, for instance, restoring nuget packages.&lt;/p&gt;
@@ -1086,40 +1076,6 @@ GithubPassword:
 		<summary>&lt;p&gt;I have recently been working on a SharePoint Web Part, and while trying to retract the solution from SharePoint, I got an error message, shown here:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/techmeetup-in-aberdeen" />
-		<id>http://www.gep13.co.uk/blog/techmeetup-in-aberdeen</id>
-		<title>techmeetup in Aberdeen</title>
-		<updated>2010-11-21T00:00:00Z</updated>
-		<content>
-                                        
-
-&lt;p&gt;I have just found out about the existence of a group called techmeetup in Aberdeen:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://techmeetup.co.uk/"&gt;http://techmeetup.co.uk/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;They meet every month in the Meston Building at Aberdeen University, and discuss a range of different topics. I am going to attend their next meeting.&lt;/p&gt;
-&lt;p&gt;You can find them on twitter with &lt;a href="http://twitter.com/techmeetup"&gt;@techmeetup&lt;/a&gt;.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/techmeetup-in-aberdeen' + 'S/';
-    var disqus_title = 'techmeetup in Aberdeen';
-    var disqus_url = 'http://www.gep13.co.uk/blog/techmeetup-in-aberdeen' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
-                                </content>
-		<summary>&lt;p&gt;I have just found out about the existence of a group called techmeetup in Aberdeen:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
 		<link href="http://www.gep13.co.uk/blog/nosql-autumn-conference-2010dundee" />
 		<id>http://www.gep13.co.uk/blog/nosql-autumn-conference-2010dundee</id>
 		<title>NoSql Autumn Conference 2010–Dundee</title>
@@ -1157,6 +1113,40 @@ GithubPassword:
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
                                 </content>
 		<summary>&lt;p&gt;Yesterday I attended the NoSql Autumn Conference at Dundee University:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/techmeetup-in-aberdeen" />
+		<id>http://www.gep13.co.uk/blog/techmeetup-in-aberdeen</id>
+		<title>techmeetup in Aberdeen</title>
+		<updated>2010-11-21T00:00:00Z</updated>
+		<content>
+                                        
+
+&lt;p&gt;I have just found out about the existence of a group called techmeetup in Aberdeen:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://techmeetup.co.uk/"&gt;http://techmeetup.co.uk/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;They meet every month in the Meston Building at Aberdeen University, and discuss a range of different topics. I am going to attend their next meeting.&lt;/p&gt;
+&lt;p&gt;You can find them on twitter with &lt;a href="http://twitter.com/techmeetup"&gt;@techmeetup&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/techmeetup-in-aberdeen' + 'S/';
+    var disqus_title = 'techmeetup in Aberdeen';
+    var disqus_url = 'http://www.gep13.co.uk/blog/techmeetup-in-aberdeen' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+                                </content>
+		<summary>&lt;p&gt;I have just found out about the existence of a group called techmeetup in Aberdeen:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/microsoft-app-hub-registration" />
