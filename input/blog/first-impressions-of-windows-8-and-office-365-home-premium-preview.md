@@ -26,7 +26,7 @@ Lots!
 
 Once the base Operating System was installed, I immediately put out a question on Twitter asking what I need to get installed:
 
-https://twitter.com/gep13/status/248747605868294144
+[https://twitter.com/gep13/status/248747605868294144](https://twitter.com/gep13/status/248747605868294144)
 
 And I have to say I was surprised by some of the comments. Some people immediately said that I had to install things like this:
 
