@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2016</rights>
-	<updated>2016-12-15T20:56:57Z</updated>
+	<updated>2016-12-15T21:33:11Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open" />
@@ -602,7 +602,7 @@ GithubPassword:
 &lt;/blockquote&gt;
 &lt;p&gt;Overall, I was quite happy with how the talk went, and it seems to go down quite well. &amp;nbsp;There was a fair bit of interaction with the audience, with several questions, which I hope that I was able to answer. &amp;nbsp;If there are any follow-up questions, then please feel free to get in touch, and I will do my best to respond.&lt;/p&gt;
 &lt;h1 id="slides-and-code"&gt;slides and code&lt;/h1&gt;
-&lt;p&gt;If you are interested in seeing the slides from the talk, you can find them displayed below, and also available for download [here](/assets/posts/2013-12-02-slides-code-continuous-integration-101-talk-dunddd/Continuous Integration 101.pdf).&lt;/p&gt;
+&lt;p&gt;If you are interested in seeing the slides from the talk, you can find them displayed below, and also they are available as a download by clicking through to the slideshare site.&lt;/p&gt;
 &lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/nkX2VPf0TuO6U" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="//www.slideshare.net/gep13/continuous-integration-101" title="Continuous integration 101" target="_blank"&gt;Continuous integration 101&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target="_blank" href="//www.slideshare.net/gep13"&gt;Gary Park&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
 &lt;p&gt;If you want to check out what little code was used during the presentation, you can find it &lt;a href="http://gep13.me/CIDemos"&gt;here&lt;/a&gt;.&lt;/p&gt;
 
@@ -637,16 +637,16 @@ GithubPassword:
 
 &lt;h1 id="but-there-is-a-fix"&gt;But there is a fix...&lt;/h1&gt;
 &lt;p&gt;Following the update of my laptop to Windows 8.1, every time I would tether to my Windows Phone 8 using Internet Connection Sharing, I would get a Blue Screen Of Death (BSOD).&lt;/p&gt;
-&lt;p&gt;&lt;img src="/assets/posts/2013-11-07-bsod-windows-81-using-internet-connection-sharing-windows-phone-8/WP_20131025_07_11_25_Pro-1024x576.jpg" class="img-fluid" alt="BSOD when using ICS 1"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="/assets/posts/2013-11-07-bsod-windows-81-using-internet-connection-sharing-windows-phone-8/WP_20131025_06_56_38_Pro-1024x576.jpg" class="img-fluid" alt="BSOD when using ICS 2"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2013/11/7/WP_20131025_07_11_25_Pro-1024x576.jpg" class="img-fluid" alt="BSOD when using ICS 1"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2013/11/7/WP_20131025_06_56_38_Pro-1024x576.jpg" class="img-fluid" alt="BSOD when using ICS 2"&gt;&lt;/p&gt;
 &lt;p&gt;This wouldn't happen if I was connected to a standard wireless connection, it was only when I was using the wireless hot spot which is made available through Internet Connection Sharing on my Windows Phone 8. &amp;nbsp;After a bit of googling, I turned up this post:&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://gadgets.itwriting.com/1986-fixing-blue-screen-using-internet-connection-sharing-in-windows-phone-8.html#comment-35511"&gt;http://gadgets.itwriting.com/1986-fixing-blue-screen-using-internet-connection-sharing-in-windows-phone-8.html#comment-35511&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Which seemed to explain exactly what I needed to do, however, for the life of me, I couldn't find the dialogue box in Windows 8.1 that would give me access to the FIPS setting to fix the issue. &amp;nbsp;I asked the author of the blog post if he could help, and happily he was able to, check the comments of the blog post from that information on that.&lt;/p&gt;
 &lt;p&gt;However, while I was waiting for his reply, I reached out to my friendly neighborhood IT expert, namely &lt;a href="https://twitter.com/MarkLeHuray"&gt;Mark Le Huray&lt;/a&gt;, who was able to point me in the direction of a command line way of setting the required parameter:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://twitter.com/MarkLeHuray/status/393664176012267520"&gt;&lt;img src="/assets/posts/2013-11-07-bsod-windows-81-using-internet-connection-sharing-windows-phone-8/Twitter_Help.png" class="img-fluid" alt="Twitter Help from Mark Le Huray"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2013/11/7/Twitter_Help.png" class="img-fluid" alt="Twitter Help from Mark Le Huray"&gt;&lt;/p&gt;
 &lt;p&gt;Here "ur wireless name" is actually the name of the wireless endpoint, i.e. the SSID for the connection. &amp;nbsp;This is what is displayed in the Internet Sharing page on your windows phone.&lt;/p&gt;
 &lt;p&gt;Opening the command prompt, and executing this command was all the is required to get rid of the BSOD:&lt;/p&gt;
-&lt;p&gt;&lt;img src="/assets/posts/2013-11-07-bsod-windows-81-using-internet-connection-sharing-windows-phone-8/2013-11-05_0741.png" class="img-fluid" alt="Fixing BSOD by setting FIPS"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2013/11/7/2013-11-05_0741.png" class="img-fluid" alt="Fixing BSOD by setting FIPS"&gt;&lt;/p&gt;
 &lt;p&gt;Big thanks to Mark for all his help in getting this sorted, and also Tim who pointed me in the right direction!&lt;/p&gt;
 
 
@@ -686,10 +686,12 @@ GithubPassword:
 &lt;p&gt;The one thing that has _really&amp;nbsp;_stood out for me though is the battery life of the Nokia Lumia 920. &amp;nbsp;As soon as you turn on flight mode, i.e. disabling all the data connections that the phone has to offer (Bluetooth, wi-fi, mobile, etc), the battery quite literally goes for days! &amp;nbsp;When using my Nokia Lumia 925 as a _phone,&amp;nbsp;_I am lucky if I can go a day without needing to charge it again.&lt;/p&gt;
 &lt;p&gt;Today I charged the 920 for what I think is the first time since I made the switch to using this device as my media device, although I think I must have charged it in between, otherwise it would have been over 2 weeks without a charge, which would be a bit of a stretch I think.&lt;/p&gt;
 &lt;p&gt;Using the &lt;a href="http://www.windowsphone.com/en-gb/store/app/insider/d9b7989e-1592-4f25-a556-4755c06bf2e9"&gt;Insider&lt;/a&gt;&amp;nbsp;application, it is currently estimating 6 days and 4 hours before the next charge for the Nokia Lumia 920, and 1 day and 2 hours for the Nokia Lumia 925. &amp;nbsp;See the screenshots below:&lt;/p&gt;
-&lt;p&gt;&lt;img src="assets/posts/2013-10-28-battery-life-nokia-lumia-920-really-fantastic/wp_ss_20131028_0001-180x300.jpg" class="img-fluid" alt="Insider Application running on Nokia Lumia 925"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="assets/posts/2013-10-28-battery-life-nokia-lumia-920-really-fantastic/wp_ss_20131028_0001-180x300.png" class="img-fluid" alt="Insider Application running on Nokia Lumia 920"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2013/10/28/wp_ss_20131028_0001-180x300.jpg" class="img-fluid" alt="Insider Application running on Nokia Lumia 925"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2013/10/28/wp_ss_20131028_0001-180x300.png" class="img-fluid" alt="Insider Application running on Nokia Lumia 920"&gt;&lt;/p&gt;
 &lt;p&gt;I firmly believe that the Nokia Lumia 925 will need charged tomorrow morning, but I am very curious to see how the Nokia Lumia 920 lasts before needing another charge.&lt;/p&gt;
 &lt;p&gt;In addition, here is a gallery of how the battery was discharging through the 11 days that it was being used. &amp;nbsp;Very impressive!&lt;/p&gt;
+&lt;div id="flickrembed"&gt;&lt;/div&gt;&lt;small style="display: block; text-align: center; margin: 0 auto;"&gt;Powered by &lt;a href="https://flickrembed.com"&gt;flickr embed&lt;/a&gt;.&lt;/small&gt;
+&lt;script src="https://flickrembed.com/embed_v2.js.php?source=flickr&amp;amp;layout=responsive&amp;amp;input=72157648525335240&amp;amp;sort=0&amp;amp;by=album&amp;amp;theme=default&amp;amp;scale=fit&amp;amp;skin=default&amp;amp;id=5850544461b40"&gt;&lt;/script&gt;
 
 
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;
@@ -912,7 +914,7 @@ GithubPassword:
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Fast forward 1 month, and after a twitter conversation with the support team at 3, which was a little coincidental (by the way, I am not claiming responsibility for getting the update released :-)), the GDR2 update arrived for my phone:&lt;/p&gt;
-&lt;p&gt;https://twitter.com/gep13/status/384990097176657922&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/gep13/status/384990097176657922"&gt;https://twitter.com/gep13/status/384990097176657922&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;One interesting thing is that although the OS version between the two phones is the same, the firmware version numbers are different. &amp;nbsp;You can see the comparison table between the original and update on my phone below. &amp;nbsp;Both the firmware revision number, and the radio software version numbers on my phone are higher than on my wife's phone.&lt;/p&gt;
 &lt;table&gt;
   &lt;tbody&gt;
