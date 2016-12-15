@@ -65,7 +65,7 @@ While leaving the room, I heard some mumblings from some other delegates that th
 
 **Topic: **Building interactive clients with knockout.js
 
- > Client side development in the browser is becoming more and more important. Clients expect highly interactive applications that respond quickly to changes. To manage this developers have to cope with the demands of JavaScript. While jQuery is a fantastic tool, sometimes it feels too low-level and maybe needs something layered on top. One such layering is knockout.js. This provides an MVVM programming model for the browser. This talk looks briefly at the basis for MVVM and then into the details of knockout.js. We will cover the data-binding that is at the heart of this toolkit looking for example at how knockout does data updates and computed values. We will also see how knockout can work with your server-side coding.</blockquote>
+ > Client side development in the browser is becoming more and more important. Clients expect highly interactive applications that respond quickly to changes. To manage this developers have to cope with the demands of JavaScript. While jQuery is a fantastic tool, sometimes it feels too low-level and maybe needs something layered on top. One such layering is knockout.js. This provides an MVVM programming model for the browser. This talk looks briefly at the basis for MVVM and then into the details of knockout.js. We will cover the data-binding that is at the heart of this toolkit looking for example at how knockout does data updates and computed values. We will also see how knockout can work with your server-side coding.
 
 **Thoughts**
 
@@ -96,7 +96,7 @@ At one point, Kevin seemed to go off on a bit of tangent when trying to describe
 **Topic: **The new world of HTML5 and CSS3
 
 > WebSockets, Webworkers, animations, transitions, and SVG. These are just a few of the new capabilities we can use to build applications with modern browsers.
-In this session we’ll give overviews and demonstrations of these new features and see how to build applications with the latest standards.</blockquote>
+> In this session we’ll give overviews and demonstrations of these new features and see how to build applications with the latest standards.
 
 **Thoughts**
 
@@ -126,7 +126,7 @@ Throughout this talk, there were a number of sites that were shown that really h
 
 **Topic: **Taking advantage of C# 5 async/await
 
-> .NET 4 introduced the new ‘task’ abstraction, and C# 5 will take advantage of integrating this into the language via the async and await keywords. Furthermore, the new task abstraction promotes a new way of architecting asynchronous behaviour; in this talk we will explore how to take advantage of these new keywords and other new types and features being exposed in the next version of .NET to deliver far simpler asynchronous Windows UI's.</blockquote>
+> .NET 4 introduced the new ‘task’ abstraction, and C# 5 will take advantage of integrating this into the language via the async and await keywords. Furthermore, the new task abstraction promotes a new way of architecting asynchronous behaviour; in this talk we will explore how to take advantage of these new keywords and other new types and features being exposed in the next version of .NET to deliver far simpler asynchronous Windows UI's.
 
 **Thoughts**
 

@@ -27,8 +27,8 @@ Review of the other days of DevWeek can be seen here:
 **Topic:** SharePoint 2013 workshop for developers
 
 > Join us for a full day of SharePoint 2013 goodness. SharePoint 2013 has some remarkable improvements as compared to SharePoint 2010.
-This day covers what you need to know about SharePoint 2013 as a SharePoint 2010 or 2007 developer. It also covers what you need to know as an ASP.NET developer to get a quick on-ramp to SharePoint 2013.
-Overall we’ll aim to provide a comprehensive overview of what’s new in SharePoint 2013 in various areas, including apps, client-side technologies, security, BCS, workflows, WCM and internet facing sites, mobile development, search, and Business Intelligence.</blockquote>
+> This day covers what you need to know about SharePoint 2013 as a SharePoint 2010 or 2007 developer. It also covers what you need to know as an ASP.NET developer to get a quick on-ramp to SharePoint 2013.
+> Overall we’ll aim to provide a comprehensive overview of what’s new in SharePoint 2013 in various areas, including apps, client-side technologies, security, BCS, workflows, WCM and internet facing sites, mobile development, search, and Business Intelligence.
 
 # Thoughts
 

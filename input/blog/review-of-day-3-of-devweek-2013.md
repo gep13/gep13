@@ -52,8 +52,8 @@ I really enjoyed this presentation.  It was almost a near perfect _continuatio
 **Topic: **Just because it's JavaScript doesn't give you the right to write rubbish
 
 > JavaScript, the language that we all laughed at and our usage of it was limited to copy/paste of scripts to have some dynamic content in a web page, has all grown up. From jQuery on the client-side to Node.js on the server, everywhere you look there’s JavaScript. Unfortunately there’s also a ton of horrible, twisted and somewhat convoluted code that would make any developer that remotely cares about clean code suicidal.
-A dynamic language that has somewhat given us a licence to do anything we want has been abused to the point that much of the blame has been placed on the language itself as opposed to the developers.
-In this talk we’ll discuss some of the patterns and anti-patterns of JavaScript, things you should and shouldn’t do.</blockquote>
+> A dynamic language that has somewhat given us a licence to do anything we want has been abused to the point that much of the blame has been placed on the language itself as opposed to the developers.
+> In this talk we’ll discuss some of the patterns and anti-patterns of JavaScript, things you should and shouldn’t do.
 
 **Thoughts**
 
@@ -89,7 +89,7 @@ Due to Hadi's style of presentation, there are quite a few quotes here, many of 
 
 **Topic: **Patterns and techniques for securing REST/HTTP-based services and (ASP.NET) Web APIs
 
-> The industry is moving to an HTTP/Web API based approach when it comes to modelling web services. These services are typically much more lightweight compared to their SOAP counterparts, which makes them easier to use in cross-platform and device architectures. But are they maybe too lightweight? Can they fulfil the security requirements? It turns out they can! In this talk we will have a look at how authentication and authorization can be implemented in HTTP-based services in general, and we’ll have a look at the security features of Microsoft’s new framework called ASP.NET Web API in particular. In addition we’ll shed light on what terms like OAuth2, JWT, OpenID and WS-Federation actually mean, and where these technologies make sense.</blockquote>
+> The industry is moving to an HTTP/Web API based approach when it comes to modelling web services. These services are typically much more lightweight compared to their SOAP counterparts, which makes them easier to use in cross-platform and device architectures. But are they maybe too lightweight? Can they fulfil the security requirements? It turns out they can! In this talk we will have a look at how authentication and authorization can be implemented in HTTP-based services in general, and we’ll have a look at the security features of Microsoft’s new framework called ASP.NET Web API in particular. In addition we’ll shed light on what terms like OAuth2, JWT, OpenID and WS-Federation actually mean, and where these technologies make sense.
 
 **Thoughts**
 
