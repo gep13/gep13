@@ -9,7 +9,7 @@ Tags:
 
 For a few months now I have been using the Office365 Beta to run the email accounts for the [Aberdeen Developers .Net User Group](http://www.aberdeendevelopers.co.uk/) and I am happy to say that it has been working really well, and in all honesty, it “just” works.
 
-I have it hooked up through Outlook on my desktop as an Exchange Account, and also through my Windows Phone 7. Initially, there were a couple teething problems to get the [required DNS entries sorted out](http://www.gep13.co.uk/blog/?p=260), but that was more of a problem with my hosting provider than anything else.
+I have it hooked up through Outlook on my desktop as an Exchange Account, and also through my Windows Phone 7. Initially, there were a couple teething problems to get the [required DNS entries sorted out](http://www.gep13.co.uk/blog/configure-dns-settings-for-office-365), but that was more of a problem with my hosting provider than anything else.
 
 As a User Group we are “toying” with the idea of perhaps using the supplied SharePoint Team Site to host the actual .Net User Group Website and fully utilise the built in Document Library functionality of SharePoint to share documents/slide decks with our users, as well as collaborate on User Group documents.
 

@@ -7,7 +7,7 @@ Tags:
 - Windows Phone 7
 ---
 
-As some of you may know, I have been using the [Office365](http://www.gep13.co.uk/blog/?p=260) for some time now. I use it both for my personal email accounts, as well as the email accounts for the [Aberdeen Developers .Net User Group](http://www.aberdeendevelopers.co.uk/). Personally, I think it is a great product, however, I have recently found out something rather _**annoying**_ (that was the polite version of the word I wanted to use).
+As some of you may know, I have been using the [Office365](http://www.gep13.co.uk/blog/configure-dns-settings-for-office-365) for some time now. I use it both for my personal email accounts, as well as the email accounts for the [Aberdeen Developers .Net User Group](http://www.aberdeendevelopers.co.uk/). Personally, I think it is a great product, however, I have recently found out something rather _**annoying**_ (that was the polite version of the word I wanted to use).
 
 As advertised here:
 

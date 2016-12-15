@@ -6,7 +6,7 @@ Tags:
 - Real-Time Web
 ---
 
-Hot on the heels of the announcement of our [August Meeting](http://www.gep13.co.uk/blog/?p=320), I am pleased to announce our upcoming September Meeting.
+Hot on the heels of the announcement of our [August Meeting](http://www.gep13.co.uk/blog/adnuguk-august-meeting), I am pleased to announce our upcoming September Meeting.
 
 This time around we are lucky enough to have [Phil Leggetter](http://www.leggetter.co.uk/) ([@leggetter](http://twitter.com/leggetter)) presenting a talk on the Real-Time Web. You can find the complete details of the talk, and register for it [here](http://adnuguk-sep.eventbrite.com/).
 

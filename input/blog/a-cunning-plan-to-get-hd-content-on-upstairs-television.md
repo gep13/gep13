@@ -9,7 +9,7 @@ Tags:
 - Synology Server
 ---
 
-A few months back I [blogged](http://www.gep13.co.uk/blog/?p=251) about how I was using a custom application on my Windows Phone 7 to control the wireless antenna in my ADSL router.  This was required because if the antenna was on while we were trying to watch Sky television upstairs via a wireless media sender, we would get interference on the screen upstairs.
+A few months back I [blogged](http://www.gep13.co.uk/blog/using-a-wp7-to-automate-my-house) about how I was using a custom application on my Windows Phone 7 to control the wireless antenna in my ADSL router.  This was required because if the antenna was on while we were trying to watch Sky television upstairs via a wireless media sender, we would get interference on the screen upstairs.
 
 I am happy to report that my custom Windows Phone 7 application can now be retired, as I now have a new, more complicated system.  Well, only slightly more complicated.  Bear with me while I try to explain it.
 
@@ -23,7 +23,7 @@ Now to explain, in the cupboard in the living room I have all the media devices 
 - PS3
 - Wii
 
-The single cable is used to provide a wired connection between the PS3 and my [Synology Server](http://www.gep13.co.uk/blog/?p=51) for streaming media down onto the downstairs TV.
+The single cable is used to provide a wired connection between the PS3 and my [Synology Server](http://www.gep13.co.uk/blog/streaming-movies-from-synology-server-to-ps3) for streaming media down onto the downstairs TV.
 
 The two cables running to the master bedroom were to be used to stream HD content from either the PS3 or the Sky+ HD box to the television upstairs.  The reason that I routed two cables was because originally I was going to use the [Neet - HDMI Extender](http://www.amazon.co.uk/gp/product/B002ECYEYA/ref=as_li_ss_tl?ie=UTF8&tag=www6thprimeco-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=B002ECYEYA)![](http://www.assoc-amazon.co.uk/e/ir?t=&l=as2&o=2&a=B002ECYEYA) which required two dedicated cables to transmit the HD signal.
 

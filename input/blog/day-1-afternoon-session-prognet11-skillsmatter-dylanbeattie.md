@@ -10,7 +10,7 @@ Tags:
 
 Wow!
 
-Following up on a very interesting [session this morning](http://www.gep13.co.uk/blog/?p=361), Dylan Beattie ([@dylanbeattie](http://twitter.com/#!/dylanbeattie)) provided a VERY interesting session called “[Front-End Tips for Back-End Devs](http://skillsmatter.com/podcast/open-source-dot-net/front-end-tips-for-back-end-devs)”
+Following up on a very interesting [session this morning](http://www.gep13.co.uk/blog/day-1-morning-session-prognet11-skillsmatter-icooper-serialseb), Dylan Beattie ([@dylanbeattie](http://twitter.com/#!/dylanbeattie)) provided a VERY interesting session called “[Front-End Tips for Back-End Devs](http://skillsmatter.com/podcast/open-source-dot-net/front-end-tips-for-back-end-devs)”
 
 The session started out with a whistle stop tour of HTML 5 including a pop quiz about new things that are going out. Example pop quiz question:
 

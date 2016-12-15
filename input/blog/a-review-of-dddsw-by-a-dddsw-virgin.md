@@ -1,5 +1,5 @@
 ---
-Title: 'A review of #DDDSW by a #DDDSW Virgin'
+Title: A review of DDDSW by a DDDSW Virgin
 Published: 13/6/2011
 Tags:
 - DDD
@@ -8,13 +8,13 @@ Tags:
 
 Following on from the very good [DDD Scotland](http://www.gep13.co.uk/blog/a-review-of-dddscot-by-a-dddscot-virgin), this past weekend, I attended the 3rd [DDD South West](http://www.dddsouthwest.com/). This event was organised by [@GuySmithFerrier](http://www.twitter.com/guysmithferrier), [@RossDScott](http://www.twitter.com/RossDScott), Martyn Fewtrell, [Jose Simas](http://codefornothing.wordpress.com/) and [Chris Myhill](http://cmyhill.blogspot.com/), and a lot of credit has to be given to all of them for the amazing work that they did!
 
-I [debated](http://www.gep13.co.uk/blog/?p=268) for a long time as to whether I was actually going to attend this event, but in the end, I am very much glad that I did!
+I [debated](http://www.gep13.co.uk/blog/upcoming-ddd-events) for a long time as to whether I was actually going to attend this event, but in the end, I am very much glad that I did!
 
 After seeing a Tweet from Guy asking for volunteers to help, I decided that I was going to offer my services. As a result, I ended up being a room monitor for the day. This involved ensuring that the speaker had everything that was required, as well as giving out and collecting the speaker feedback forms. I “think” this went ok, as I didn’t hear any complaints. I quite enjoyed doing this, and I will be volunteering my services going forward, especially if they continue to offer up the same free t-shirts ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/wlEmoticon-smile1.png)
 
 **Getting there…**
 
-As explained in my previous [blog post](http://www.gep13.co.uk/blog/?p=268) I ended up getting a lift to Bristol from [@CAMURPHY](http://twitter.com/#!/CAMURPHY) who was also giving a lift to [@chriscanal](http://twitter.com/#!/chriscanal) (getting picked up in Edinburgh), [@colinmackay](http://twitter.com/#!/colinmackay) (getting picked up in Glasgow) and [@apwestgarth](http://twitter.com/#!/apwestgarth) (getting picked up in Carlisle). This meant getting up at 0420 in order to be at the pick up point for 0800. All in all, it was a long day of driving (still not quite sure how Craig was able to do this, I know I couldn’t) to get there, but there was plenty of “geek” chat in the car to make it pass relatively quickly.
+As explained in my previous [blog post](http://www.gep13.co.uk/blog/upcoming-ddd-events) I ended up getting a lift to Bristol from [@CAMURPHY](http://twitter.com/#!/CAMURPHY) who was also giving a lift to [@chriscanal](http://twitter.com/#!/chriscanal) (getting picked up in Edinburgh), [@colinmackay](http://twitter.com/#!/colinmackay) (getting picked up in Glasgow) and [@apwestgarth](http://twitter.com/#!/apwestgarth) (getting picked up in Carlisle). This meant getting up at 0420 in order to be at the pick up point for 0800. All in all, it was a long day of driving (still not quite sure how Craig was able to do this, I know I couldn’t) to get there, but there was plenty of “geek” chat in the car to make it pass relatively quickly.
 
 **Session 1 – Kanban? what is it and how can it help?**
 

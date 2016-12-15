@@ -16,12 +16,12 @@ The other thing that I was amazed at was the speed at which Skills Matter were a
 
 For a round up of each of the sessions that I attended you can take a look at the following links:
 
-- [Day 1 - Morning Session](http://www.gep13.co.uk/blog/?p=361) - Ian Cooper and Sebastian Lambla.
-- [Day 1 - Afternoon Session](http://www.gep13.co.uk/blog/?p=362) - Dylan Beattie.
-- [Day 2 - Morning Session](http://www.gep13.co.uk/blog/?p=363) – Simon Brown
-- [Day 2 - Afternoon Session](http://www.gep13.co.uk/blog/?p=364) – Paul Stack
-- [Day 3 - Morning Session](http://www.gep13.co.uk/blog/?p=365) – Jon Skeet
-- [Day 3 - Afternoon Session](http://www.gep13.co.uk/blog/?p=372) – Mark Rendle and Steven Robbins
+- [Day 1 - Morning Session](http://www.gep13.co.uk/blog/day-1-morning-session-prognet11-skillsmatter-icooper-serialseb) - Ian Cooper and Sebastian Lambla.
+- [Day 1 - Afternoon Session](http://www.gep13.co.uk/blog/day-1-afternoon-session-prognet11-skillsmatter-dylanbeattie) - Dylan Beattie.
+- [Day 2 - Morning Session](http://www.gep13.co.uk/blog/day-2-morning-session-prognet11-skillsmatter-simonbrown) – Simon Brown
+- [Day 2 - Afternoon Session](http://www.gep13.co.uk/blog/day-2-afternoon-session-prognet11-skillsmatter-stack72) – Paul Stack
+- [Day 3 - Morning Session](http://www.gep13.co.uk/blog/day-3morning-session-prognet11-skillsmatter-jonskeet) – Jon Skeet
+- [Day 3 - Afternoon Session](http://www.gep13.co.uk/blog/day-3-afternoon-session-prognet11-skillsmatter-markrendle-grumpydev) – Mark Rendle and Steven Robbins
 
 So, the real question, would I attend the Progressive .Net Tutorials in 2012?
 

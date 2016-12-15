@@ -11,7 +11,7 @@ The [DDD](http://developerdeveloperdeveloper.com/home/) series of conferences in
 
 ## DunDDD
 
-Brought to you by the people who organised the [NoSQL Autumn Conference](http://www.gep13.co.uk/blog/?p=99) in Dundee last year and [Scottish Developers](http://scottishdevelopers.com/), this event was a three track event, with five sessions spread over the course of the day.  The first track was dedicated to “NoSQL”, the second was “The Web” and the third was a general track.
+Brought to you by the people who organised the [NoSQL Autumn Conference](http://www.gep13.co.uk/blog/nosql-autumn-conference-2010dundee) in Dundee last year and [Scottish Developers](http://scottishdevelopers.com/), this event was a three track event, with five sessions spread over the course of the day.  The first track was dedicated to “NoSQL”, the second was “The Web” and the third was a general track.
 
 At the start of the day, Colin MacKay asked if I would manage to help out as a room monitor which I agreed to, which resulted in me spending most of the day in the General Track, however, the majority of the sessions that I wanted to see were in this track, so that worked out quite well.
 

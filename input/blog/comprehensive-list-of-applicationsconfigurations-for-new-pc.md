@@ -23,13 +23,13 @@ It will serve as a reference to me when I need to re-install again.  My aim is 
 
 **_Security Applications_**
 
-See related [blog post](http://www.gep13.co.uk/blog/?p=95).
+See related [blog post](http://www.gep13.co.uk/blog/too-much-security-or-not-enough).
 
 **_Browsers (mainly used for debugging applications)_**
 
 - Chrome (default browser)
   - FireBug Lite
-  - [Set up search engine](http://www.gep13.co.uk/blog/?p=25)
+  - [Set up search engine](http://www.gep13.co.uk/blog/google-chrome-search-for-msdn)
 - Internet Explorer 9
 - FireFox 4
   - FireBug
@@ -78,7 +78,7 @@ See related [blog post](http://www.gep13.co.uk/blog/?p=95).
 - FreeFileSync
 - DropBox
 - Image Resizer For Windows
-- [Mouse Without Borders](http://www.gep13.co.uk/blog/?p=394)
+- [Mouse Without Borders](http://www.gep13.co.uk/blog/mouse-without-borders)
 - Lync
 
 **_Development Applications_**
@@ -122,11 +122,11 @@ See related [blog post](http://www.gep13.co.uk/blog/?p=95).
 
 _**Video Streaming**_
 
-- [Set up software for ripping DVD's for Streaming](http://www.gep13.co.uk/blog/?p=51)
+- [Set up software for ripping DVD's for Streaming](http://www.gep13.co.uk/blog/streaming-movies-from-synology-server-to-ps3)
 
 **_Post Installation Configurations_**
 
-- [Setup WinMerge and kDiff in Visual Studio](http://www.gep13.co.uk/blog/?p=188)
+- [Setup WinMerge and kDiff in Visual Studio](http://www.gep13.co.uk/blog/visual-studio-2010-compare-and-merge-tool-configuration)
 - Turn on Visual Studio Line Numbers
 - Set up Windows Explorer
 - Set up Microsoft OneNote to talk to SkyDrive

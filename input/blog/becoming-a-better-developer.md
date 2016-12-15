@@ -26,7 +26,7 @@ Now this is something that I don’t do, but something that I am looking to chan
  
 > “Possibly the most important part of this entire presentation, read books!”
 
-My work colleagues will testify to the fact that I have this one covered! I own a lot of books, and since purchasing my [Kindle](http://www.gep13.co.uk/blog/?p=93), I now own a few more. The problem here, as Mark points out, is that it is not enough just to own books, you also have to read them to. For a while there I was guilty of doing that, buying a book and never reading it, but I have learnt the error of my ways.
+My work colleagues will testify to the fact that I have this one covered! I own a lot of books, and since purchasing my [Kindle](http://www.gep13.co.uk/blog/my-new-kindle), I now own a few more. The problem here, as Mark points out, is that it is not enough just to own books, you also have to read them to. For a while there I was guilty of doing that, buying a book and never reading it, but I have learnt the error of my ways.
 
 
 > “Listen to podcasts”

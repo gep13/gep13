@@ -11,7 +11,7 @@ It is hard to believe, but [GiveCamp UK](http://www.givecamp.org.uk/) is now onl
 
 With the day fast approaching, it is making me wonder whether I have everything that I need installed on my laptop. So I thought I would create a list of the applications that I think I am going to need, and currently have installed. Then, through the power of Twitter and RSS, I am hoping that other GiveCamp UK attendees can make suggestions to add to the list, that way I will have everything installed that is required.
 
-- UPDATE 1: Added additional clients for VCS's, as well as kDiff, WinMerge (see [here](http://www.gep13.co.uk/blog/?p=188) for Visual Studio setup) and Putty 
+- UPDATE 1: Added additional clients for VCS's, as well as kDiff, WinMerge (see [here](http://www.gep13.co.uk/blog/visual-studio-2010-compare-and-merge-tool-configuration) for Visual Studio setup) and Putty 
 - UPDATE 2: Twitter Client added to the list 
 - UPDATE 3: Added more VCS Clients to the list 
 - UPDATE 4: Added some notes following feedback from attending GiveCamp UK, as well as pieces of hardware you might want to bring with you 

@@ -14,7 +14,7 @@ Having completed a new install of Visual Studio 2010 I thought I would keep a no
 - [CKS - Development Tools Edition (Foundation)](http://visualstudiogallery.msdn.microsoft.com/a346880f-2d29-47a6-84a2-f2d568dd6997)
 - [Color Printing](http://visualstudiogallery.msdn.microsoft.com/00ec88c2-1553-47d2-8170-3c5baa0c6e44/)
 - [CSSCop](http://visualstudiogallery.msdn.microsoft.com/a921b98e-9430-4be2-bf53-1169e12bdb50) [![new-icon](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/new-icon_thumb1.gif)](http://visualstudiogallery.msdn.microsoft.com/a921b98e-9430-4be2-bf53-1169e12bdb50)
-- [ExtensionSync](http://visualstudiogallery.msdn.microsoft.com/dbaf0ac9-fb7b-4fb3-b34d-ea2269276d3c) (more info can be found [here](http://www.gep13.co.uk/blog/?p=189)) 
+- [ExtensionSync](http://visualstudiogallery.msdn.microsoft.com/dbaf0ac9-fb7b-4fb3-b34d-ea2269276d3c) (more info can be found [here](http://www.gep13.co.uk/blog/a-tool-to-synchronise-visual-studio-2010-extensions)) 
 - [GhostDoc](http://visualstudiogallery.msdn.microsoft.com/46A20578-F0D5-4B1E-B55D-F001A6345748/)
 - [GoOffline](http://visualstudiogallery.msdn.microsoft.com/425f09d8-d070-4ab1-84c1-68fa326190f4?SRC=Home)
 - [Hide Main Menu](http://visualstudiogallery.msdn.microsoft.com/bdbcffca-32a6-4034-8e89-c31b86ad4813)

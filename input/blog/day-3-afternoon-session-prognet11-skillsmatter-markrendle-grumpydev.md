@@ -36,7 +36,7 @@ And:
 - install-package Simple.Data.Core 
 - install-package Simple.Data.Mysql 
 
-This is a prime example of the packaging that was described in the [first session on Monday](http://www.gep13.co.uk/blog/?p=361).
+This is a prime example of the packaging that was described in the [first session on Monday](http://www.gep13.co.uk/blog/day-1-morning-session-prognet11-skillsmatter-icooper-serialseb).
 
 Once the core packages were installed:
 

@@ -20,7 +20,7 @@ After a bit of googling/binging, I found this:
 
 [http://community.office365.com/en-us/w/lync/1040.aspx](http://community.office365.com/en-us/w/lync/1040.aspx)
 
-Which suggested that I needed to add another CNAME record to my DNS configuration in order for the Windows Phone application to work correctly. However, as per this [blog post](http://www.gep13.co.uk/blog/?p=260) I believed that I had already setup the required DNS Settings. Time to investigate…
+Which suggested that I needed to add another CNAME record to my DNS configuration in order for the Windows Phone application to work correctly. However, as per this [blog post](http://www.gep13.co.uk/blog/configure-dns-settings-for-office-365) I believed that I had already setup the required DNS Settings. Time to investigate…
 
 **_NOTE: What follows is only required is your are managing your own DNS entries for your Office 365 Domain._**
 
