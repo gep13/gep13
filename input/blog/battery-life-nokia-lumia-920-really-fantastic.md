@@ -23,10 +23,14 @@ Today I charged the 920 for what I think is the first time since I made the swit
 
 Using the [Insider](http://www.windowsphone.com/en-gb/store/app/insider/d9b7989e-1592-4f25-a556-4755c06bf2e9) application, it is currently estimating 6 days and 4 hours before the next charge for the Nokia Lumia 920, and 1 day and 2 hours for the Nokia Lumia 925.  See the screenshots below:
 
-![Insider Application running on Nokia Lumia 925](assets/posts/2013-10-28-battery-life-nokia-lumia-920-really-fantastic/wp_ss_20131028_0001-180x300.jpg)
+![Insider Application running on Nokia Lumia 925](https://gep13wpstorage.blob.core.windows.net/gep13/2013/10/28/wp_ss_20131028_0001-180x300.jpg)
 
-![Insider Application running on Nokia Lumia 920](assets/posts/2013-10-28-battery-life-nokia-lumia-920-really-fantastic/wp_ss_20131028_0001-180x300.png)
+![Insider Application running on Nokia Lumia 920](https://gep13wpstorage.blob.core.windows.net/gep13/2013/10/28/wp_ss_20131028_0001-180x300.png)
 
 I firmly believe that the Nokia Lumia 925 will need charged tomorrow morning, but I am very curious to see how the Nokia Lumia 920 lasts before needing another charge.
 
 In addition, here is a gallery of how the battery was discharging through the 11 days that it was being used.  Very impressive!
+
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157648525335240&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>

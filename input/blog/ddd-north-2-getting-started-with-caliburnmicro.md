@@ -19,12 +19,10 @@ All the demonstrations that I did during the presentation can be found on my Git
 
 # The Slides
 
-A full copy of the slides that were used on the day can be found as an attachment to this post, and you can see a preview of them below:
+If you are interested in seeing the slides from the talk, you can find them displayed below, and also they are available as a download by clicking through to the slideshare site.
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/5iTOaQkl3uFbp" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/gep13/getting-started-with-caliburnmicro-and-windows-phone-7" title="Getting started with caliburn.micro and windows phone 7" target="_blank">Getting started with caliburn.micro and windows phone 7</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/gep13">Gary Park</a></strong> </div>
 
 # Feedback
 
 Since I am still reasonably new to doing public speaking, I would welcome any additional feedback that anyone has on my talk. If you have any comments about what I did wrong, what I did right, what could be improved upon etc, I would be very grateful to hear them.
-
-[wpdm_file id=4]
