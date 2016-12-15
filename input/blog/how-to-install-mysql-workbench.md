@@ -7,6 +7,7 @@ Tags:
 - mysql
 - Series
 - workbench
+RedirectFrom: blog/how-to-install-mysql-workbench/index.html
 ---
 
 # What is MySQL Workbench

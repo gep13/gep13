@@ -4,6 +4,7 @@ Publised: 4/1/2013
 Tags:
 - chocolatey
 - teamcity
+RedirectFrom: blog/how-to-install-teamcity/index.html
 ---
 
 # What is TeamCity?

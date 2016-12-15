@@ -7,6 +7,7 @@ Tags:
 - Presentation
 - Slides
 - StyleCop
+RedirectFrom: blog/dddsw-4-stylecop-breaking-down-the-barriers-to-entry/index.html
 ---
 
 # My StyleCop Talk at DDDSW 4

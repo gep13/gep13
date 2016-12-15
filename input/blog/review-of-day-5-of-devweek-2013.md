@@ -6,6 +6,7 @@ Tags:
 - Day 5
 - DevWeek
 - Review
+RedirectFrom: blog/review-of-day-5-of-devweek-2013/index.html
 ---
 
 # Today was the last day of DevWeek

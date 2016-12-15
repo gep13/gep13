@@ -5,6 +5,7 @@ Tags:
 - Events
 - Matt Lacey Tour
 - Tours
+RedirectFrom: blog/matt-lacey-on-tour-wpug-mrlacey/index.html
 ---
 
 Back in October of 2011, I dropped an email to Matt Lacey, of the [Windows Phone User Group](http://wpug.net/), asking whether he would be interested in doing a talk up in Scotland at the [Aberdeen Developers .Net User Group](http://aberdeendevelopers.co.uk/).  This was a bit of a long shot, but I was always brought up with the saying, “If you don’t ask, you don’t get”, so I thought the worst that he could say would be “No”.

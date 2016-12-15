@@ -4,6 +4,7 @@ Published: 11/10/2012
 Tags:
 - Day Out
 - Phoenix Falconry. Birds of Prey
+RedirectFrom: blog/a-great-day-out-at-phoenix-falconry/index.html
 ---
 
 Last Sunday, I finally used a birthday present that I received last year; a day out at a Falconry Centre.  I had the choice of a number of Falconry centres in Scotland, but I ended up choosing Phoenix Falconry.  You can find their website [here](http://falconry-in-scotland.co.uk/), and you can find them on TripAdvisor [here,](http://www.tripadvisor.co.uk/Attraction_Review-g1146700-d2108482-Reviews-Phoenix_Falconry-Blackford_Perth_and_Kinross_Scotland.html) as you will see, they come highly recommended!

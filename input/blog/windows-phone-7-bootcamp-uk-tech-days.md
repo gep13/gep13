@@ -6,6 +6,7 @@ Tags:
 - Microsoft
 - UK Tech Days
 - Windows Phone 7
+RedirectFrom: blog/windows-phone-7-bootcamp-uk-tech-days/index.html
 ---
 
 Today, I attended the Windows Phone 7 Bootcamp, which was organised by Microsoft and [UK Tech Days](http://uktechdays.cloudapp.net/home.aspx). The event was also being supported by the Windows Phone MVP’s from [Appamundi](http://appamundi.com/).  You can find details of this event [here](http://uktechdays.cloudapp.net/upcoming-events/windows-phone-camp-(london).aspx).  This was hot on the heels of the Windows Azure Bootcamp which I [attended yesterday](http://www.gep13.co.uk/blog/windows-azure-bootcamp-uk-tech-days/?utm_source=rss&utm_medium=rss&utm_campaign=windows-azure-bootcamp-uk-tech-days).  The event broke down as follows:

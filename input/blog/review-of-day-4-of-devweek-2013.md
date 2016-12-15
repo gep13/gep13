@@ -9,6 +9,7 @@ Tags:
 - NoSql
 - Review
 - Security
+RedirectFrom: blog/review-of-day-4-of-devweek-2013/index.html
 ---
 
 # And the winning continues at DevWeek...

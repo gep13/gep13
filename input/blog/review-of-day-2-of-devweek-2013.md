@@ -12,6 +12,7 @@ Tags:
 - knockout.js
 - London
 - Review
+RedirectFrom: blog/review-of-day-2-of-devweek-2013/index.html
 ---
 
 # A busy second day at DevWeek...

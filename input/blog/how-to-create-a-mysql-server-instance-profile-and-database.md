@@ -10,6 +10,7 @@ Tags:
 - schema
 - Series
 - user
+RedirectFrom: blog/how-to-create-a-mysql-server-instance-profile-and-database/index.html
 ---
 
 # Creating a MySQL Server Instance Profile with a Database and User

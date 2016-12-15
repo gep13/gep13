@@ -6,6 +6,7 @@ Tags:
 - database
 - mysql
 - Series
+RedirectFrom: blog/how-to-install-mysql-community-server/index.html
 ---
 
 # What is MySQL Community Server?

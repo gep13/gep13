@@ -6,6 +6,7 @@ Tags:
 - Nokia Lumia 920
 - Nokia Lumia 925
 - TomTom replacement
+RedirectFrom: blog/started-using-nokia-lumia-920-ipod-tomtom-replacement/index.html
 ---
 
 # And I can't see myself looking back!

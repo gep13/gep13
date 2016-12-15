@@ -5,6 +5,7 @@ Tags:
 - Events
 - Sebastien Lambla Tour
 - Tours
+RedirectFrom: blog/sebastien-lambla-on-tour/index.html
 ---
 
 A couple of months back, Sebastien Lambla ([@serialseb](https://twitter.com/#!/serialseb)), the creator of [OpenWrap](http://www.openwrap.org/) and [OpenRasta](http://openrasta.org/), emailed the Developer Pro Leader email distribution list asking whether anyone would be interested in hosting his HTTP Caching 101 presentation.  I haven’t had the privilege to see one of Sebastien’s talks, but I have heard that they are very good, and I immediately contacted him to see whether he would be interested in bringing his talk to Scotland.  I am happy to say that he said that he was very interested, however, in order to make the trip worthwhile, it would be good to do a collection of User Groups.  With the help of the [Scottish Meetup Network](http://aberdeendevelopers.co.uk/post/2011/12/10/Scottish-Meetup-Network.aspx) and [NxtGenUG](http://www.nxtgenug.net/Default.aspx) I am delighted to say that we have been able to secure Sebastien to do 5 talks, as well as a Geek Dinner.

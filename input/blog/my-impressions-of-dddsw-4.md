@@ -5,6 +5,7 @@ Tags:
 - DDD
 - DDDSW
 - Events
+RedirectFrom: blog/my-impressions-of-dddsw-4/index.html
 ---
 
 # dddsw was fantastic!

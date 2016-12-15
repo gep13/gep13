@@ -5,6 +5,7 @@ Tags:
 - Charity
 - GiveCampUK
 - TheYouCanHub
+RedirectFrom: blog/my-impressions-of-givecampuk/index.html
 ---
 
 [![](http://www.givecamp.org.uk/content/images/givecamp-header.png)](http://www.givecamp.org.uk/)

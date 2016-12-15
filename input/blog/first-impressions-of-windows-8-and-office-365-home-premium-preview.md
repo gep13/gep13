@@ -5,6 +5,7 @@ Tags:
 - Installation
 - Office 365
 - Windows 8
+RedirectFrom: blog/first-impressions-of-windows-8-and-office-365-home-premium-preview/index.html
 ---
 
 # Installing Windows 8

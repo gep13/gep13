@@ -6,6 +6,7 @@ Tags:
 - Installation
 - package manager
 - Series
+RedirectFrom: blog/how-to-install-chocolatey-nuget/index.html
 ---
 
 # Time to get chocolatey...

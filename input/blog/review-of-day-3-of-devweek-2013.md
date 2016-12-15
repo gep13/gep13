@@ -10,6 +10,7 @@ Tags:
 - Review
 - SignalR
 - Web API
+RedirectFrom: blog/review-of-day-3-of-devweek-2013/index.html
 ---
 
 # Today, I won a Surface at DevWeek...

@@ -4,6 +4,7 @@ Published: 14/10/2012
 Tags:
 - DDD North
 - DDD
+RedirectFrom: blog/my-impressions-of-ddd-north-2/index.html
 ---
 
 # All in all, a very good conference

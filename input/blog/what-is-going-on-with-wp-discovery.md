@@ -5,6 +5,7 @@ Tags:
 - Giveaway
 - Scam
 - WP Discovery
+RedirectFrom: blog/what-is-going-on-with-wp-discovery/index.html
 ---
 
 # WP Discovery - Is it all a scam?

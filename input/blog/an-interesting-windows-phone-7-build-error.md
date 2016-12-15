@@ -6,6 +6,7 @@ Tags:
 - Build Error
 - Character Limit
 - WMAppManifest
+RedirectFrom: blog/an-interesting-windows-phone-7-build-error/index.html
 ---
 
 While creating the sample demos for my Windows Phone 7 presentation at DDDNorth, I ran into an interesting error:

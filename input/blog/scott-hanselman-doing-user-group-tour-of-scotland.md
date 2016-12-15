@@ -5,6 +5,7 @@ Tags:
 - Scotland
 - Scott Hanselman
 - Tour
+RedirectFrom: blog/scott-hanselman-doing-user-group-tour-of-scotland/index.html
 ---
 
 # No, really, scott hanselman is coming to Scotland

@@ -7,6 +7,7 @@ Tags:
 - DDDNorth
 - Presentation
 - Slides
+RedirectFrom: blog/ddd-north-2-getting-started-with-caliburnmicro/index.html
 ---
 
 # My Caliburn.Micro Talk at DDD North 2

@@ -6,6 +6,7 @@ Tags:
 - Developer
 - DevWeek
 - Events
+RedirectFrom: blog/review-of-day-1-of-devweek/index.html
 ---
 
 Today was the first day of [DevWeek 2012](http://www.devweek.com/), and I am happy to say that I have had a great day!  I have never been to DevWeek before, and the format of it is slightly different from other developer events that I have attended.   I am lucky enough to be attending the whole week of events at DevWeek, and today there was a choice of 9 different sessions.  These ranged from “A Day of Metro” to “Agile Primer”.  Reviews of the other days of DevWeek can be seen here:

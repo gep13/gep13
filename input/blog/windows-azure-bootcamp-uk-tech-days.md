@@ -6,6 +6,7 @@ Tags:
 - Microsoft
 - UK Tech Days
 - Windows Azure
+RedirectFrom: blog/windows-azure-bootcamp-uk-tech-days/index.html
 ---
 
 Today, I attended the Windows Azure Bootcamp, which was organised by Microsoft and [UK Tech Days](http://uktechdays.cloudapp.net/home.aspx).  You can find details of this event [here](http://uktechdays.cloudapp.net/upcoming-events/windows-azure-bootcamp-(london).aspx).  I was really looking forward to attending this event, as Windows Azure is something that I have been interested in getting into for a while.  I am happy to say that I was not disappointed, it really was a great event!  The event broke down as follows:

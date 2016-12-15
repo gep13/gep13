@@ -5,6 +5,7 @@ Tags:
 - ADNUGUK
 - Scottish Developers
 - SCOTTISHDEVS
+RedirectFrom: blog/scottish-developers-have-a-new-committee-member-me/index.html
 ---
 
 I am happy to announce that I am now a fully signed up member of the [Scottish Developers User Group](http://scottishdevelopers.com/).  Over the last year, I have been working more and more with the guys at Scottish Developers (Andy Gibson – [@ARGibson](http://twitter.com/argibson), Craig Murphy – [@CAMURPHY](http://twitter.com/camurphy), and Colin Mackay – [@ColinMackay](http://twitter.com/camurphy)) in order to bring speakers to Scottish User Groups, and I was thrilled when I was invited to become a committee member!

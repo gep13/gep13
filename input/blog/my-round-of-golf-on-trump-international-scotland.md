@@ -4,6 +4,7 @@ Published: 22/8/2012
 Tags:
 - Golf
 - Trump
+RedirectFrom: blog/my-round-of-golf-on-trump-international-scotland/index.html
 ---
 
 Last Christmas, I got an amazing present from my family...

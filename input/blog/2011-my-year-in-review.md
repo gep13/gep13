@@ -5,6 +5,7 @@ Tags:
 - '2011'
 - Retrospective
 - Review
+RedirectFrom: blog/2011-my-year-in-review/index.html
 ---
 
 It seems like everyone is doing a retrospective blog post about 2011, so I thought that I would jump on the bandwagon.
