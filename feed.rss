@@ -5,8 +5,8 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2016</copyright>
-		<pubDate>Thu, 15 Dec 2016 20:52:39 GMT</pubDate>
-		<lastBuildDate>Thu, 15 Dec 2016 20:52:39 GMT</lastBuildDate>
+		<pubDate>Thu, 15 Dec 2016 20:56:57 GMT</pubDate>
+		<lastBuildDate>Thu, 15 Dec 2016 20:56:57 GMT</lastBuildDate>
 		<item>
 			<title>DDD Scotland 2016 Call For Speakers Is Now Open</title>
 			<link>http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open</link>
@@ -605,7 +605,7 @@ GithubPassword:
 &lt;p&gt;Overall, I was quite happy with how the talk went, and it seems to go down quite well. &amp;nbsp;There was a fair bit of interaction with the audience, with several questions, which I hope that I was able to answer. &amp;nbsp;If there are any follow-up questions, then please feel free to get in touch, and I will do my best to respond.&lt;/p&gt;
 &lt;h1 id="slides-and-code"&gt;slides and code&lt;/h1&gt;
 &lt;p&gt;If you are interested in seeing the slides from the talk, you can find them displayed below, and also available for download [here](/assets/posts/2013-12-02-slides-code-continuous-integration-101-talk-dunddd/Continuous Integration 101.pdf).&lt;/p&gt;
-&lt;p&gt;{% slideshare 28819037 %}&lt;/p&gt;
+&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/nkX2VPf0TuO6U" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="//www.slideshare.net/gep13/continuous-integration-101" title="Continuous integration 101" target="_blank"&gt;Continuous integration 101&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target="_blank" href="//www.slideshare.net/gep13"&gt;Gary Park&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
 &lt;p&gt;If you want to check out what little code was used during the presentation, you can find it &lt;a href="http://gep13.me/CIDemos"&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 
