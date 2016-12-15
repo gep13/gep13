@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 
-        <title>Gary Ewan Park - A modification to my use of #ExtensionSync</title>
+        <title>Gary Ewan Park - A modification to my use of ExtensionSync</title>
         <meta name="description" content="Ramblings and Ponderings of a Microsoft Fan Boy..." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">        
 
@@ -28,7 +28,7 @@
         <meta name="msapplication-tooltip" content="Gary Ewan Park" />
         <meta name="msapplication-starturl" content="/" />
 
-        <meta property="og:title" content="Gary Ewan Park - A modification to my use of #ExtensionSync" />
+        <meta property="og:title" content="Gary Ewan Park - A modification to my use of ExtensionSync" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://www.gep13.co.uk/blog/a-modification-to-my-use-of-extensionsync" />
         <!-- TODO: More social graph meta tags -->
@@ -89,7 +89,7 @@
 
     
 <div class="post-heading">
-    <h1>A modification to my use of #ExtensionSync</h1>
+    <h1>A modification to my use of ExtensionSync</h1>
     <div class="meta">        
 Published on 15 July 2011<br>    </div>
         <div class="tags">
@@ -108,7 +108,7 @@ Published on 15 July 2011<br>    </div>
                                 <div id="content" class="col-md-12">
                                         
 
-<p>In an earlier <a href="http://www.gep13.co.uk/blog/?p=189">blog post</a> I mentioned how I am now using a very clever Visual Studio 2010 extension called <a href="http://visualstudiogallery.msdn.microsoft.com/dbaf0ac9-fb7b-4fb3-b34d-ea2269276d3c">ExtensionSync</a> (a complete list of all the Visual Studio 2010 extensions that I am currently using can be found <a href="http://www.gep13.co.uk/blog/?p=3">here</a>).</p>
+<p>In an earlier <a href="http://www.gep13.co.uk/blog/?p=189">blog post</a> I mentioned how I am now using a very clever Visual Studio 2010 extension called <a href="http://visualstudiogallery.msdn.microsoft.com/dbaf0ac9-fb7b-4fb3-b34d-ea2269276d3c">ExtensionSync</a> (a complete list of all the Visual Studio 2010 extensions that I am currently using can be found <a href="http://www.gep13.co.uk/blog/visual-studio-2010-extensions">here</a>).</p>
 <p>In that blog post I explained that I am using a mapped drive in order in “share” the ExtensionSync settings file between different developers in the team. Initially, this worked well, but there were a few problems with this, and this was actually noted by the author of the tool in a Twitter conversation.</p>
 <p>Basically, when you make a change, i.e. you add another extension, it saves the changes to the shared settings file it will work great until another developer who perhaps already had Visual Studio 2010 open, closes his Visual Studio. When this happens, his current extensions will be persisted to the shared ExtensionSync settings file, removing the extension that you just added. Not good!</p>
 <p>After giving it some thought, it occurred to me that this file was actually living in the wrong place. This file should really be treated as an <em>artefact</em> of the project, and as such, should live in our source control repository.</p>
@@ -124,7 +124,7 @@ Published on 15 July 2011<br>    </div>
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
     var disqus_identifier = 'http://www.gep13.co.uk/blog/a-modification-to-my-use-of-extensionsync' + 'S/';
-    var disqus_title = 'A modification to my use of #ExtensionSync';
+    var disqus_title = 'A modification to my use of ExtensionSync';
     var disqus_url = 'http://www.gep13.co.uk/blog/a-modification-to-my-use-of-extensionsync' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
