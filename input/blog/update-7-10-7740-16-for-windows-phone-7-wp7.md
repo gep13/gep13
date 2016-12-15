@@ -5,7 +5,7 @@ Tags:
 - Exchange
 - Update
 - Voice Mail
-- WP7
+- Windows Phone 7
 ---
 
 This morning, I switched on my phone, and it told me that there was an update available. It has only been a couple weeks since the [last update](http://www.gep13.co.uk/blog/?p=452), which provided me with the must needed ability to tether my phone to my laptop.

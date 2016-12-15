@@ -3,7 +3,7 @@ Title: I now have a full house of WP7 applications…
 Published: 18/12/2011
 Tags:
 - Applications
-- WP7
+- Windows Phone 7
 ---
 
 [![DSCF5126](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/DSCF5126_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/DSCF5126.jpg)   

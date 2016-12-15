@@ -3,7 +3,7 @@ Title: I feel I am missing some applications…
 Published: 10/12/2011
 Tags:
 - Applications
-- WP7
+- Windows Phone 7
 ---
 
 [![DSCF5120](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/DSCF5120_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/DSCF5120.jpg)

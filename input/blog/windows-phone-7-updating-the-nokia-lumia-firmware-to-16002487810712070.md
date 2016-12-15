@@ -4,7 +4,7 @@ Published: 30/3/2012
 Tags:
 - Nokia. Lumia 800
 - Update
-- WP7
+-Windows Phone 7WP7
 ---
 
 This morning I found another notification to indicate that there was an update for my Windows Phone 7, Nokia Lumia 800 Handset.  Given the [recent announcement](http://www.gep13.co.uk/blog/nokia-lumia-800-to-get-tethering-support-soon/), I hurriedly set about getting the update installed.

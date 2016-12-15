@@ -3,7 +3,7 @@ Title: Update 7.10.8107.79 for Windows Phone 7 (#WP7)
 Published: 19/1/2012
 Tags:
 - Update
-- WP7
+- Windows Phone 7
 ---
 
 Today I saw some tweets on Twitter hinting at the fact that a new update was available for Windows Phone, so when I got home tonight I plugged my HTC HD7 phone into my laptop, and sure enough, there was an update available!

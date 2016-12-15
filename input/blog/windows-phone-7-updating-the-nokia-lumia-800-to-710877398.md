@@ -4,7 +4,7 @@ Published: 24/8/2012
 Tags:
 - Nokia. Lumia 800
 - Update
-- WP7
+- Windows Phone 7
 ---
 
 Now that the dust has settled with the latest round of updates for my Nokia Lumia 800, I thought that it was time to blog about the update experience.  This is in line with my previous posts on the subject, and it is more a record for myself, than for anything else.

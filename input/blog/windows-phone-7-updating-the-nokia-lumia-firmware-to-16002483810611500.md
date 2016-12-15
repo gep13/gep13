@@ -4,7 +4,7 @@ Published: 9/3/2012
 Tags:
 - Nokia. Lumia 800
 - Update
-- WP7
+- Windows Phone 7
 ---
 
 I woke up this morning to find that my shiny new Windows Phone 7, the Nokia Lumia 800, was telling me that I had a new update.

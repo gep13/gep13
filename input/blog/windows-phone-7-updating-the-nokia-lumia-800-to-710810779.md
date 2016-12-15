@@ -4,7 +4,7 @@ Published: 8/2/2012
 Tags:
 - Nokia. Lumia 800
 - Update
-- WP7
+- Windows Phone 7
 ---
 
 Tonight I started to configure my new Windows Phone 7, the [Nokia Lumia 800](http://www.nokia.com/gb-en/products/phone/lumia800/).  I was lucky enough to receive this phone when I attended the [Windows Phone 7 Bootcamp](http://www.gep13.co.uk/blog/windows-phone-7-bootcamp-uk-tech-days/) in London, which was part of UK Tech Days, which is organised and run by Microsoft.
