@@ -26,6 +26,6 @@ Overall, I was quite happy with how the talk went, and it seems to go down quite
 
 If you are interested in seeing the slides from the talk, you can find them displayed below, and also available for download [here](/assets/posts/2013-12-02-slides-code-continuous-integration-101-talk-dunddd/Continuous Integration 101.pdf).
 
-{% slideshare 28819037 %}
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/nkX2VPf0TuO6U" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/gep13/continuous-integration-101" title="Continuous integration 101" target="_blank">Continuous integration 101</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/gep13">Gary Park</a></strong> </div>
 
 If you want to check out what little code was used during the presentation, you can find it [here](http://gep13.me/CIDemos).

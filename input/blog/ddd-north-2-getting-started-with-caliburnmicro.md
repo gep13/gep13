@@ -21,7 +21,7 @@ All the demonstrations that I did during the presentation can be found on my Git
 
 A full copy of the slides that were used on the day can be found as an attachment to this post, and you can see a preview of them below:
 
-{% slideshare 28938116 %}
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/5iTOaQkl3uFbp" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/gep13/getting-started-with-caliburnmicro-and-windows-phone-7" title="Getting started with caliburn.micro and windows phone 7" target="_blank">Getting started with caliburn.micro and windows phone 7</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/gep13">Gary Park</a></strong> </div>
 
 # Feedback
 

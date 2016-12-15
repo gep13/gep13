@@ -21,7 +21,7 @@ The demonstrations that I did during the presentation, with the exception of the
 
 A full copy of the slides that were used on the day can be found as an attachment to this post, and you can see a preview of them below:
 
-{% slideshare 28937854 %}
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/HZqUa62BEbfKQV" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/gep13/style-cop-breaking-down-the-barriers-to-entry" title="StyleCop breaking down the barriers to entry" target="_blank">StyleCop breaking down the barriers to entry</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/gep13">Gary Park</a></strong> </div>
 
 Feedback
 
