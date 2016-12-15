@@ -3,7 +3,7 @@ Title: 'Almost time for #DunDDD'
 Published: 16/11/2011
 Tags:
 - DDD
-- DDDScotland
+- DDDScot
 - DunDDD
 ---
 

@@ -2,8 +2,8 @@
 Title: How to install TeamCity
 Publised: 4/1/2013
 Tags:
-- Chocolatey
-- TeamCity
+- chocolatey
+- teamcity
 ---
 
 # What is TeamCity?
