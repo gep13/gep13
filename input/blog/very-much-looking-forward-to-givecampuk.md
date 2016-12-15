@@ -1,5 +1,5 @@
 ---
-Title: Very much looking forward to @GiveCampUK…
+Title: Very much looking forward to @GiveCampUK...
 Published: 4/7/2011
 Tags:
 - Community

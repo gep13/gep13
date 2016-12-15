@@ -16,11 +16,11 @@ Really nice keyboard, and would definitely recommend!
 
 **Full Disclaimer:** I have only been using this keyboard for about 2 hours. The opinions shared here may change over time, and if they do, I will update the blog post to reflect this.
 
-For over five years now, I have been the proud owner of the Microsoft Natural Ergonomic Keyboard 4000. I liked this keyboard so much that I actually bought two of them. One for the office, and one for home. However, as with most things, there comes a time when items need to be replaced. For me, with this particular keyboard, this was mainly due to the fact that on my work version, the “y” key had become flaky. Every so often, even though it was definitely being pushed, it simply wouldn’t work. The "solution" was to hit the key really hard, and it would eventually work. When I decided to leave my old job, I also decided it was time to replace the keyboard, and have a new one for my new job. New beginnings and all that…
+For over five years now, I have been the proud owner of the Microsoft Natural Ergonomic Keyboard 4000. I liked this keyboard so much that I actually bought two of them. One for the office, and one for home. However, as with most things, there comes a time when items need to be replaced. For me, with this particular keyboard, this was mainly due to the fact that on my work version, the “y” key had become flaky. Every so often, even though it was definitely being pushed, it simply wouldn’t work. The "solution" was to hit the key really hard, and it would eventually work. When I decided to leave my old job, I also decided it was time to replace the keyboard, and have a new one for my new job. New beginnings and all that...
 
 When I was given some Amazon vouchers as part of my leaving present, I thought that this would be the perfect opportunity to get the new keyboard, and so I bought [this](http://www.microsoft.com/hardware/en-gb/p/sculpt-ergonomic-desktop/L5V-00006).
 
-I have since had this delivered, and I am in fact using it to write this blog post. What are my thoughts so far I hear you ask? Well, let me tell you…
+I have since had this delivered, and I am in fact using it to write this blog post. What are my thoughts so far I hear you ask? Well, let me tell you...
 
 ## The Keyboard
 

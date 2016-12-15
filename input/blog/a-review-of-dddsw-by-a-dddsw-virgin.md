@@ -12,7 +12,7 @@ I [debated](http://www.gep13.co.uk/blog/upcoming-ddd-events) for a long time as 
 
 After seeing a Tweet from Guy asking for volunteers to help, I decided that I was going to offer my services. As a result, I ended up being a room monitor for the day. This involved ensuring that the speaker had everything that was required, as well as giving out and collecting the speaker feedback forms. I “think” this went ok, as I didn’t hear any complaints. I quite enjoyed doing this, and I will be volunteering my services going forward, especially if they continue to offer up the same free t-shirts ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/wlEmoticon-smile1.png)
 
-**Getting there…**
+**Getting there...**
 
 As explained in my previous [blog post](http://www.gep13.co.uk/blog/upcoming-ddd-events) I ended up getting a lift to Bristol from [@CAMURPHY](http://twitter.com/#!/CAMURPHY) who was also giving a lift to [@chriscanal](http://twitter.com/#!/chriscanal) (getting picked up in Edinburgh), [@colinmackay](http://twitter.com/#!/colinmackay) (getting picked up in Glasgow) and [@apwestgarth](http://twitter.com/#!/apwestgarth) (getting picked up in Carlisle). This meant getting up at 0420 in order to be at the pick up point for 0800. All in all, it was a long day of driving (still not quite sure how Craig was able to do this, I know I couldn’t) to get there, but there was plenty of “geek” chat in the car to make it pass relatively quickly.
 
@@ -88,6 +88,6 @@ The food at the Geek Dinner was really good. There was a strange request from th
 
 Simply put, it was very good, and I would recommend anyone to attend it next year. Guy and his team did an amazing job putting it altogether, congratulations!
 
-**Looking ahead…**
+**Looking ahead...**
 
 It was announced during the opening session of DDD South West that there is a brand new DDD event happening on the 8th October, in Sunderland. For more information on this event make sure that you follow [@DDDNorth](http://twitter.com/#!/dddnorth) on Twitter.

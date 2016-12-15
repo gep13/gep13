@@ -60,7 +60,7 @@ I knew I was in for something quite different, but I wasn’t prepared for what 
 
 Quote of the session from George:
 
-_“Your non-techy user has just let out a little bit of wee….”_
+_“Your non-techy user has just let out a little bit of wee...”_
 
 **Session 2 - Real World Application Development with NHibernate, FluentNHibernate and Castle Windsor (@chriscanal)**
 

@@ -1,5 +1,5 @@
 ---
-Title: Amazing…
+Title: Amazing...
 Published: 27/7/2010
 Tags:
 - BSOD

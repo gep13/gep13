@@ -1,5 +1,5 @@
 ---
-Title: Helicopter flying lesson…
+Title: Helicopter flying lesson
 Published: 26/7/2010
 Tags:
 - General
@@ -13,7 +13,7 @@ The lesson was provided by HJS Helicopters, you can find them here:
 
 [http://www.hjshelicopters.co.uk/](http://www.hjshelicopters.co.uk/)
 
-The format was pretty simple, watch a 15 minute presentation, jump in a two man helicopter, Robinson R22, fly up to 1200 feet, take control….
+The format was pretty simple, watch a 15 minute presentation, jump in a two man helicopter, Robinson R22, fly up to 1200 feet, take control...
 
 Wait, take control!! What!!
 

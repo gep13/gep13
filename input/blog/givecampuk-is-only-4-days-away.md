@@ -16,7 +16,7 @@ With the day fast approaching, it is making me wonder whether I have everything 
 - UPDATE 3: Added more VCS Clients to the list 
 - UPDATE 4: Added some notes following feedback from attending GiveCamp UK, as well as pieces of hardware you might want to bring with you 
  
-Here goes (in no particular order)…
+Here goes (in no particular order)...
 
 - 7-Zip 
 - CutePDF Writer 

@@ -7,7 +7,7 @@ Tags:
 - Ideas
 ---
 
-With the run up to Christmas I keep getting asked the same question…
+With the run up to Christmas I keep getting asked the same question...
 
 What do you want for Christmas?
 

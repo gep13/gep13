@@ -70,7 +70,7 @@ Chris Hay, Brian Prince
 
 ****[Book Details![](http://www.assoc-amazon.co.uk/e/ir?t=www6thprimeco-21&l=as2&o=2&a=0735656061) ](http://www.amazon.co.uk/gp/product/0735656061/ref=as_li_ss_tl?ie=UTF8&tag=www6thprimeco-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0735656061)
 
-# Looking ahead…
+# Looking ahead...
 
 So, what happens next?  Now that I have had this introduction to Windows Azure, what am I going to do with it.  The short answer is, I am not sure.  I am very interested in looking into the VM Role within Windows Azure, and how I could make use of that, and having just set up my WordPress Blog to use the Amazon S3 system as a CDN, I think I am going to look into using Azure Storage for it instead.  I will post back if I end up using this.
 

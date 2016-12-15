@@ -7,7 +7,7 @@ Tags:
 - SkillsMatter
 ---
 
-As per my earlier [blog post](http://www.gep13.co.uk/blog/?p=358), this morning I attended the “[Solving the Packaging Puzzle](http://skillsmatter.com/podcast/open-source-dot-net/patterns-and-practices-of-package-management)” featuring Ian Cooper ([@ICooper](https://twitter.com/#!/icooper)) and Sebastian Lambla ([@serialseb](https://twitter.com/#!/serialseb)).
+As per my earlier [blog post](http://www.gep13.co.uk/blog/progressive-net-tutorials-a-review-skillsmatter-prognet11), this morning I attended the “[Solving the Packaging Puzzle](http://skillsmatter.com/podcast/open-source-dot-net/patterns-and-practices-of-package-management)” featuring Ian Cooper ([@ICooper](https://twitter.com/#!/icooper)) and Sebastian Lambla ([@serialseb](https://twitter.com/#!/serialseb)).
 
 This talk was split into two parts.
 
@@ -25,8 +25,8 @@ A lot of the concepts that were described in the first part of the session were 
 - Few Interfaces
 - Small Interfaces
 - SOLID code principles
- 
-And how these can be used to ensure that the code base is constructed property.  
+
+And how these can be used to ensure that the code base is constructed property.
 
 These are all topics that I have heard about, but never fully put into practice. If nothing else, this morning talk has highlighted that I “need” to read up on these topics. Ian has recommended two books:
 

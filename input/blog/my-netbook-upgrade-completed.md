@@ -8,7 +8,7 @@ Tags:
 - Upgrade
 ---
 
-In yesterdays [blog post](http://www.gep13.co.uk/blog/?p=330) I mentioned how I was having some problems getting my shiny new 2 GB RAM for my ASUS 1015 PX working. I am happy to report that I now have it working!
+In yesterdays [blog post](http://www.gep13.co.uk/blog/upgrading-the-ram-on-my-new-netbook) I mentioned how I was having some problems getting my shiny new 2 GB RAM for my ASUS 1015 PX working. I am happy to report that I now have it working!
 
 Following a number of useful comments on the blog post, I set about trying a couple of things.
 
@@ -22,7 +22,7 @@ Once in there I still couldn’t see any options to change anything to do with M
 
 Just as I was away to come out and try something else, I noticed on the main screen that the reported amount of RAM on the System was 2 GB! Weird!
 
-So I decided to head back into Windows, on the off chance that simply going into BIOS (or turning the “Fast Boot” option off) had resulted in the full 2 GB of RAM was now being reported, and guess what…
+So I decided to head back into Windows, on the off chance that simply going into BIOS (or turning the “Fast Boot” option off) had resulted in the full 2 GB of RAM was now being reported, and guess what...
 
 It is!!!
 

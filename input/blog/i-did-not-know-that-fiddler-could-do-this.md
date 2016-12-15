@@ -1,5 +1,5 @@
 ---
-Title: 'I did not know that #Fiddler could do this…'
+Title: I did not know that Fiddler could do this...
 Published: 7/7/2011
 Tags:
 - Features
@@ -16,7 +16,7 @@ For those who don’t know:
  
 > Fiddler is a Web Debugging Proxy which logs all HTTP(S) traffic between your computer and the Internet. Fiddler allows you to inspect all HTTP(S) traffic, set breakpoints, and "fiddle" with incoming or outgoing data. Fiddler includes a powerful event-based scripting subsystem, and can be extended using any .NET language.
 
-This tool has helped me out in a number of situations, and it is actually one of the first things that I [install on my machine](http://www.gep13.co.uk/blog/?p=198) if I ever need to rebuild it.
+This tool has helped me out in a number of situations, and it is actually one of the first things that I [install on my machine](http://www.gep13.co.uk/blog/comprehensive-list-of-applicationsconfigurations-for-new-pc) if I ever need to rebuild it.
 
 The other day when using Fiddler I was blown away by a feature that I had not seen before. Namely, the ability to filter HTTP traffic coming from a single process. The concept is by no means a new one, but it is the way in which Fiddler does it that I thought was very clever.
 
@@ -28,7 +28,7 @@ The other day when using Fiddler I was blown away by a feature that I had not se
        
 [![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image.png)        
 
-1. Hover your mouse hover this and you will see the following tooltip which pretty much explains it all. Click your mouse on the “Process Filter” button and the text will change to say “pick target…” and the icon will change to be a cross hair.       
+1. Hover your mouse hover this and you will see the following tooltip which pretty much explains it all. Click your mouse on the “Process Filter” button and the text will change to say “pick target...” and the icon will change to be a cross hair.       
        
 [![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image_thumb1.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image1.png)        
 

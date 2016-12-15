@@ -1,5 +1,5 @@
 ---
-Title: VMWare Workstation troubles…
+Title: VMWare Workstation troubles
 Published: 13/5/2011
 Tags:
 - Virtual Machine
@@ -9,7 +9,7 @@ Tags:
 
 At work, I use Windows 7 as the base operating system for my Desktop machine. It is a reasonably beefy machine, with an Intel i7 CPU and 8GB of RAM. The idea is that we can host multiple VM’s at the same time for development purposes.
 
-In order to host the VM’s, I had both VMWare Workstation 6.5 installed, as well as Microsoft Virtual PC. Why the two virtualisation products I hear you ask? Well, let me tell you…
+In order to host the VM’s, I had both VMWare Workstation 6.5 installed, as well as Microsoft Virtual PC. Why the two virtualisation products I hear you ask? Well, let me tell you...
 
 In order to connect to some clients network, we have to use a proprietary VPN Client, and unfortunately, this does not work on Windows 7, only Windows XP. Now, I could have just installed a copy of Windows XP using VMWare Wokstation (which is our default virtualisation product) however, that would have required a retail version of the OS, rather than the MSDN ones that we use for development purposes. As a result, I decided to enable the WIndows XP Mode on my Windows 7 host operating system, which I thought was a particularly sensible solution.
 

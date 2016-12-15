@@ -13,7 +13,7 @@ I have it hooked up through Outlook on my desktop as an Exchange Account, and al
 
 As a User Group we are “toying” with the idea of perhaps using the supplied SharePoint Team Site to host the actual .Net User Group Website and fully utilise the built in Document Library functionality of SharePoint to share documents/slide decks with our users, as well as collaborate on User Group documents.
 
-Now comes the problem though…
+Now comes the problem though...
 
 Since the Office365 program is now out of Beta, you now have to pay for the service. ![Sad smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/wlEmoticon-sadsmile2.png)
 
@@ -23,6 +23,6 @@ So, as an open question to Microsoft (are you there?) I would like to request th
 
 We (.Net User Groups) are investing a lot of time in energy in bringing events to our members and informing them about your technology stack so I think it would be a great idea if this service could be provided to help us continue to do this.
 
-So…
+So...
 
 What do you think?

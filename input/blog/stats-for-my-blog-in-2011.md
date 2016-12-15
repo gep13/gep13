@@ -30,6 +30,6 @@ My top 5 blog posts were:
 
 - [Progressive .Net Tutorials – A Review](http://www.gep13.co.uk/blog/progressive-net-tutorials-a-review-skillsmatter-prognet11)
 - [My impressions of GiveCampUK](http://www.gep13.co.uk/blog/my-impressions-of-givecampuk)
-- [Becoming a better developer…](http://www.gep13.co.uk/blog/becoming-a-better-developer)
-- [GiveCampUK is only 4 days away…](http://www.gep13.co.uk/blog/?p=402)
+- [Becoming a better developer...](http://www.gep13.co.uk/blog/becoming-a-better-developer)
+- [GiveCampUK is only 4 days away...](http://www.gep13.co.uk/blog/onenote-2010-make-text-in-image-searchable)
 - [A review of DunDDD](http://www.gep13.co.uk/blog/a-review-of-dunddd)

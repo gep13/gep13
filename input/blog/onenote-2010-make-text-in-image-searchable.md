@@ -7,7 +7,7 @@ Tags:
 - OneNote 2010
 ---
 
-_This is the first in a _[_series of blog posts_](http://www.gep13.co.uk/blog/?p=53)_ I’m doing on the features that I now find invaluable within Microsoft OneNote 2010._
+_This is the first in a _[_series of blog posts_](http://www.gep13.co.uk/blog/reasons-to-love-onenote-2010-series)_ I’m doing on the features that I now find invaluable within Microsoft OneNote 2010._
 
 **The Situation:**
 
@@ -19,11 +19,11 @@ When it comes to finding an error, or tracking down a problem within a particula
 
 **The Problem:**
 
-As with most software problems, you typically get some sort of error message…
+As with most software problems, you typically get some sort of error message...
 
 [![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/image_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/image.png)
 
-_Here is one I created earlier…._
+_Here is one I created earlier..._
 
 In order to be useful, and searchable, I would normally type out the entire contents of the error message into the blog post, so that when it happens again, I can take the text from the error message and search for it directly within my blog. Sounds simple right? Now, imagine that you have a very long error message, or perhaps a stack trace included within the prompt. Typing all this out by hand can be quite tedious.
 

@@ -11,7 +11,7 @@ It seems like ages since the last Aberdeen Developers .Net User Group meeting, b
 
 We are lucky enough to have Jessica Meats of Microsoft doing a talk on SharePoint Online (Office 365) and the differences between it, and a full blown SharePoint server running in your environment.
 
-Now, this time around we are going to try something a little different…
+Now, this time around we are going to try something a little different...
 
 As I have mentioned at the last couple meetings, we are in the process of firming up the details on how we are going to make a move away from the Kentico CMS that we are currently using, in favour of some free services that can be used to organise events.
 

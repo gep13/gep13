@@ -42,7 +42,7 @@ However, when it came to Lync 2010, I just couldn’t get it to work!
 
 **_Manual Lync 2010 Configuration_**
 
-With the help of Ian, I was able to set up Lync 2010 manually, to prove that it worked at all. This was done by going into Lync and selecting Tools | Options, and from there click “Advanced…” 
+With the help of Ian, I was able to set up Lync 2010 manually, to prove that it worked at all. This was done by going into Lync and selecting Tools | Options, and from there click “Advanced...” 
 
 [![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb5.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image5.png)
 

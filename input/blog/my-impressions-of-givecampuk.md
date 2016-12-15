@@ -33,11 +33,11 @@ As a result, we both missed the start of the GiveCamp UK introductions, but than
 
 With the team fully formed, we set about having a quick chat with Mel and Lou from [TheYouCanHub](http://theyoucanhub.org.uk/).  The were not able to make it in person, but we were able to chat to them on Skype.  They already had a very clear idea about what they wanted to achieve, and had detailed everything in a number of documents which they were able to send to us.  We essentially had a full set of requirements!
 
-Their brief broke down quite simply…
+Their brief broke down quite simply...
 
 Take their existing WordPress site, and make it better!  They had already identified a number of other websites which they liked, and we were able to take a lot of ideas from them, and make a decision about how we were going to proceed.
 
-Now, some of you out there might be thinking “_**a WordPress site… Really? Where is the coding?**_” And I will be honest, for a while there, I was thinking the same.  However, at the end of the day, WordPress does what it does very well, and Mel and Lou wanted to use something that they were familiar with, so there was no point in trying to roll out a custom system so that we could actually cut some code.
+Now, some of you out there might be thinking “_**a WordPress site... Really? Where is the coding?**_” And I will be honest, for a while there, I was thinking the same.  However, at the end of the day, WordPress does what it does very well, and Mel and Lou wanted to use something that they were familiar with, so there was no point in trying to roll out a custom system so that we could actually cut some code.
 
 The rest of the evening was used to plan out what we were going to do over the next day and a half, as well as searching through the extensive array of WordPress Plugins and Themes to see what we could make use of.
 

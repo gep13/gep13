@@ -24,16 +24,29 @@ So, let's get started!
 1. [Windows Azure 3 Month Free Trial](https://www.windowsazure.com/en-us/pricing/free-trial/)
 1. [MSDN Subscribers can get Free Benefits](https://www.windowsazure.com/en-us/pricing/member-offers/msdn-benefits/)
 1. [A number of different paid subscriptions](https://www.windowsazure.com/en-us/pricing/purchase-options/)
-1. Once you have logged into your Windows Azure account, you will be presented with a huge selection of options, the scope of which are far out with the intention of this blog post, as a result, only the specific options to enable Blob Storage will be discussed here. Using the picture to the below as a guide, first select _Hosted Services, Storage Accounts & CDN, Storage Accounts, _then _New Storage Account._  
+1. Once you have logged into your Windows Azure account, you will be presented with a huge selection of options, the scope of which are far out with the intention of this blog post, as a result, only the specific options to enable Blob Storage will be discussed here. Using the picture to the below as a guide, first select _Hosted Services, Storage Accounts & CDN, Storage Accounts, _then _New Storage Account._
+
 [![Create_New_Storage_Account](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Create_New_Storage_Account_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Create_New_Storage_Account.png)
+
 1. This will open the _Create a New Storage Account_dialog, where you will need to provide the details for the Storage Account that you would like to create.
-[![Create_a_Storage_Account](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Create_a_Storage_Account_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Create_a_Storage_Account.png)The first of which is the URL that you would like to use. This needs to be unique across the entire Windows Azure infrastructure so you may need to get a little creative with your choice of name. You will be prompted with an error message if you enter something that isn’t allowed.  
+
+[![Create_a_Storage_Account](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Create_a_Storage_Account_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Create_a_Storage_Account.png)
+
+The first of which is the URL that you would like to use. This needs to be unique across the entire Windows Azure infrastructure so you may need to get a little creative with your choice of name. You will be prompted with an error message if you enter something that isn’t allowed.
+
 [![Error_-_don't_use_capitals](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Error_-_dont_use_capitals_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Error_-_dont_use_capitals.png)
+
 The next piece of information is the _region or affinity group_ that you want your Blob Storage Account to be located. Microsoft has several Data Centers located across the world, including Anywhere US, South Central US, Anywhere Europe, West Europe, Anywhere Asia, Southeast Asia, East Asia, North Central US, North Europe. Simply pick the region that makes most sense to your location.
 Click OK.
-1. Your Storage Account will now get created. There will be a slight delay as your Account is first “Creating…”[![Storage_Account_Creating](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Creating_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Creating.png)Then “Resolving DNS…”[![Storage_Account_Resolving_DNS](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Resolving_DNS_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Resolving_DNS.png)But the end result will be your Storage Account will be “Created”[![Storage_Account_Created](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Created_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Created.png)
-1. If you select your new Storage Account, on the right hand side of the Windows Azure Portal you will see all of the properties for this new Storage Account:[![Storage_Account_Properties](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Properties_thumb.png)
-](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Properties.png)The main ones of interest are the “Keys”, which we will use later to connect to the Blob Storage Account from WordPress, and the Blob URL. The Blob URL is the publicly routable URL for accessing your Blob Storage account. Any files you upload to the Blob Storage Account will be accessible using this URL as a prefix. As you can see though, this URL is slightly long, and when used in the context of existing website, say gep13.co.uk, it bears no relation to it. However, this is something we can change by applying a Custom Domain to the Storage Account.
+
+1. Your Storage Account will now get created. There will be a slight delay as your Account is first “Creating...”[![Storage_Account_Creating](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Creating_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Creating.png)Then “Resolving DNS...”[![Storage_Account_Resolving_DNS](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Resolving_DNS_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Resolving_DNS.png)But the end result will be your Storage Account will be “Created”[![Storage_Account_Created](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Created_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Created.png)
+1. If you select your new Storage Account, on the right hand side of the Windows Azure Portal you will see all of the properties for this new Storage Account:
+
+[![Storage_Account_Properties](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Properties_thumb.png)
+](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Storage_Account_Properties.png)
+
+The main ones of interest are the “Keys”, which we will use later to connect to the Blob Storage Account from WordPress, and the Blob URL. The Blob URL is the publicly routable URL for accessing your Blob Storage account. Any files you upload to the Blob Storage Account will be accessible using this URL as a prefix. As you can see though, this URL is slightly long, and when used in the context of existing website, say gep13.co.uk, it bears no relation to it. However, this is something we can change by applying a Custom Domain to the Storage Account.
+
 1. Select your Storage Account, and then press _Add Domain_, as shown below:[![Add_Custom_Domain](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Add_Custom_Domain_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Add_Custom_Domain.png)
 1. In the _Add a Custom Domain _Dialog, enter the domain name that you would like to use for this Storage Account. In my case, I wanted to use cdn.gep13.co.uk:[![Add_Custom_Domain_Name](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Add_Custom_Domain_Name_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Add_Custom_Domain_Name.png)Press OK.
 1. At this point, Windows Azure will begin to create the Custom Domain name:[![Custom_Domain_Name_being_created](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Custom_Domain_Name_being_created_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Custom_Domain_Name_being_created.png)
@@ -50,16 +63,33 @@ If you do, don’t worry, this simply means that the DNS Settings haven’t fini
 # configure your Blob Storage Account
 
 1. Now that the Blob Storage Account has been created, and Custom Domain established, we have a little bit of work to do in order to first configure the Blob Storage Account for use. It is easiest to do this using a 3rd Party Tool. There are a couple of main ones out there, the first being from [Redgate](http://cerebrata.com/) (who acquired Cerebrata) and you can get a trial version of their software, and also [CloudXplorer from ClumsyLeaf](http://clumsyleaf.com/products/cloudxplorer). For the purposes of this walk through, I will be using CloudXplorer, so go ahead and get that installed.
-1. Open CloudXplorer and select File | Accounts and the _Manage accounts_window opens:[![Manage_Accounts](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Manage_Accounts_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Manage_Accounts.png)
-1. Click the New… button and then select Windows Azure Account… and the _Windows Azure account _window will open:  
+1. Open CloudXplorer and select File | Accounts and the _Manage accounts_window opens:
+
+[![Manage_Accounts](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Manage_Accounts_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Manage_Accounts.png)
+
+1. Click the New... button and then select Windows Azure Account... and the _Windows Azure account _window will open:
+
 [![New_Windows_Azure_Account](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/New_Windows_Azure_Account_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/New_Windows_Azure_Account.png)
+
 1. Using the information from step 5 above, enter the details of the Blob Storage Account that we created, where “Secret Key:” equates to the “Primary Access Key” (simply click View button to bring this up) and Name: is the Name of your Blob Storage Account, i.e. in my case gep13wpstorage.
+
 [![Windows_Azure_Account_Window](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Windows_Azure_Account_Window_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Windows_Azure_Account_Window.png)
-1. With the account in place, the first thing we need to do is to create a container within the Blob Storage Account. This will let us compartmentalise files into the correct location. Right click in the right hand window of CloudXplorer and select New | Container…[![CloudXplorer_Create_Container](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/CloudXplorer_Create_Container_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/CloudXplorer_Create_Container.png)
+
+1. With the account in place, the first thing we need to do is to create a container within the Blob Storage Account. This will let us compartmentalise files into the correct location. Right click in the right hand window of CloudXplorer and select New | Container...
+
+[![CloudXplorer_Create_Container](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/CloudXplorer_Create_Container_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/CloudXplorer_Create_Container.png)
+
 1. In the _Create directory/container _window, enter the name for your container. I went for “myuploads”.
+
 [![Create_New_Container](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Create_New_Container_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Create_New_Container.png)
-1. Now we need to set the properties of the container to allow public access. Right click on the container that you just created and select Properties.[![Container_Properties](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Container_Properties_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Container_Properties.png)
-1. In the myloads Properties window, select the Policies tab and then select "_Full public read access_” in the Access control drop down list, then select ok.[![Container_Policies](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Container_Policies_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Container_Policies.png)
+
+1. Now we need to set the properties of the container to allow public access. Right click on the container that you just created and select Properties.
+
+[![Container_Properties](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Container_Properties_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Container_Properties.png)
+
+1. In the myloads Properties window, select the Policies tab and then select "_Full public read access_” in the Access control drop down list, then select ok.
+
+[![Container_Policies](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Container_Policies_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/Container_Policies.png)
 
 # configure WordPress
 

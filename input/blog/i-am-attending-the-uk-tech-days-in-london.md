@@ -7,7 +7,7 @@ Tags:
 - Windows Phone 7
 ---
 
-With reference to my [list of events here](http://www.gep13.co.uk/blog/?p=571), I am happy to say that today I finished getting everything booked for attending the UK Tech Days, in London in February.
+With reference to my [list of events here](http://www.gep13.co.uk/blog/uk-developer-events-for-2012), I am happy to say that today I finished getting everything booked for attending the UK Tech Days, in London in February.
  
 Microsoft are putting on two events:
 

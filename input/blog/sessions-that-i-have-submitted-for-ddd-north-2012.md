@@ -21,7 +21,7 @@ _**NOTE:** There is of course still _[_DDD10_](http://developerdeveloperdevelope
 
 If you are interested in attending DDD North, you can find out all the information about it [here](http://developerdeveloperdeveloper.com/north2/Default.aspx), and you can vote for the sessions that you would like to see [here](http://developerdeveloperdeveloper.com/north2/Users/VoteForSessions.aspx).  Voting for the proposed sessions for DDD North closes on the 24th August, so if you are looking to attend, be sure to vote for the sessions that you would like to see (hopefully one of mine).  Registration for the event opens on the 28th August 2012.  In order to avoid disappointment, make sure that you are logged into the site on the morning that the registration opens so that you can get your ticket.
 
-Here are my session submissions….
+Here are my session submissions...
 
 # Getting started with Caliburn.Micro and Windows Phone 7
 

@@ -15,7 +15,7 @@ This post is going to be the parent post for a series of posts where I am going 
 
 I will update this page with links to the individual posts I do as I publish them:
 
-- [Number 1 – Make Text in Image Searchable](http://www.gep13.co.uk/blog/?p=60)
-- [Number 2 – Create a note from anywhere](http://www.gep13.co.uk/blog/?p=69)
+- [Number 1 – Make Text in Image Searchable](http://www.gep13.co.uk/blog/onenote-2010-make-text-in-image-searchable)
+- [Number 2 – Create a note from anywhere](http://www.gep13.co.uk/blog/onenote-2010-create-a-note-from-anywhere)
 
 Hope you find these features as useful as I have!

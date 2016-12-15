@@ -14,7 +14,7 @@ _NOTE: If you are interested in how I got the URL’s for the applications liste
 
 **__MarketPlace Applications__**
 
-- […i’m a wp7!](http://social.zune.net/redirect?type=phoneApp&id=16b4f331-e05b-e011-854c-00237de2db9e) – I have to admit, I haven’t done much with this particular app yet, but it does show a lot of promise. Perhaps, as more people start using it, it will become more useful.
+- [...i’m a wp7!](http://social.zune.net/redirect?type=phoneApp&id=16b4f331-e05b-e011-854c-00237de2db9e) – I have to admit, I haven’t done much with this particular app yet, but it does show a lot of promise. Perhaps, as more people start using it, it will become more useful.
 - [Adobe Reader](http://social.zune.net/redirect?type=phoneApp&id=bc4f319a-9a9a-df11-a490-00237de2db9e) – Not an application that I use a lot, but very handy when trying to read the odd PDF on the phone
 - [Allrecipes](http://social.zune.net/redirect?type=phoneApp&id=23828a51-5391-e011-986b-78e7d1fa76f8) – I am a terrible cook, but at least this will help me get all the ingredients needed for throwing something together.
 - [Amazon Kindle](http://social.zune.net/redirect?type=phoneApp&id=48195fb4-ee0e-e011-9264-00237de2db9e) – Thanks to Amazon’s WhisperSync technology picking up your book from where you left off is just a joy
@@ -66,11 +66,11 @@ _NOTE: If you are interested in how I got the URL’s for the applications liste
 - [Yell](http://social.zune.net/redirect?type=phoneApp&id=d963da9a-fd85-e011-986b-78e7d1fa76f8) – You never know when you might need to find someone.
 - [YouTube](http://social.zune.net/redirect?type=phoneApp&id=dcbb1ac6-a89a-df11-a490-00237de2db9e) – I have been told that this isn’t the best YouTube application, but for all the time I spend looking on YouTube this application serves it purpose very well.
 - [Ztitch](http://social.zune.net/redirect?type=phoneApp&id=c1675dfa-f3ed-df11-9264-00237de2db9e) – A very nice application that allows you to stitch photos together to create immersive panoramic pictures.
- 
+
 
 **__Games__**
 
-- [Angry Birds](http://social.zune.net/redirect?type=phoneApp&id=e4571a02-0b87-e011-986b-78e7d1fa76f8) - Just because…
+- [Angry Birds](http://social.zune.net/redirect?type=phoneApp&id=e4571a02-0b87-e011-986b-78e7d1fa76f8) - Just because...
 - [Brain Challenge](http://social.zune.net/redirect?type=phoneApp&id=9cdfbe90-760a-e011-9264-00237de2db9e)
 - [Enigmo](http://social.zune.net/redirect?type=phoneApp&id=0f4cf335-326c-e011-81d2-78e7d1fa76f8)
 - [Gravity Guy](http://social.zune.net/redirect?type=phoneApp&id=4f930d12-2350-4c01-91e8-f46b8bd1d884)
@@ -84,7 +84,6 @@ _NOTE: If you are interested in how I got the URL’s for the applications liste
 - [Purity](http://social.zune.net/redirect?type=phoneApp&id=07ea1c30-453e-4751-b0f9-9f961afea110)
 - [Suduko](http://social.zune.net/redirect?type=phoneApp&id=d7dbc0a3-b362-e011-81d2-78e7d1fa76f8)
 - [Unite](http://social.zune.net/redirect?type=phoneApp&id=fa543402-18db-df11-a844-00237de2db9e)
- 
 
 **__HTC Applications__**
 

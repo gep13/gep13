@@ -9,7 +9,7 @@ Tags:
 
 If you aren’t already using [LearnVisualStudio.Net](http://www.learnvisualstudio.net/), then I would highly recommend that you give it a try.  I have had the lifetime membership for some years now, and I love it.
 
-Now, onto the news….
+Now, onto the news...
 
 The bottom line is, two major things are happening over at LearnVisualStudio:
 

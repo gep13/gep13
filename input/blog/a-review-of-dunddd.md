@@ -98,7 +98,7 @@ The one thing that I would say is, this presentation could do with some “polis
 
 [“The Happy Developer” – Is It a Myth?](http://dddscotland.co.uk/lineup/speaker/5) – Andy Gibson ([@ARGibson](http://twitter.com/#!/ARGibson))
 
-This session led on very nicely from Craig’s session and attempted to answer the eternal question… “_What makes a happy developer?_”  It is reasonably simply to answer the opposite question, “_What makes a developer unhappy?_”, in fact, Andy asked this question to the members of the audience, and this is what we came up with:
+This session led on very nicely from Craig’s session and attempted to answer the eternal question... “_What makes a happy developer?_”  It is reasonably simply to answer the opposite question, “_What makes a developer unhappy?_”, in fact, Andy asked this question to the members of the audience, and this is what we came up with:
 
 - Have to work on Sundays
 - When you ship crap
@@ -125,11 +125,11 @@ During the talk, Andy also asked another question, “_What does a developer in 
 For me, a couple of take away points were:
 	
 - Record your estimates.  Even if you don’t have a formal process, record them for your own records.  That way, when you have to estimate something else, you can look at this estimate, compare it against how long it actually took, and that way you will make a better estimate.
-- What it boils down to is… Respect.  Respect is earned in both directions. Much the same as trust.
+- What it boils down to is... Respect.  Respect is earned in both directions. Much the same as trust.
 
 ## Lunch and Grok Talks
 
-Hmmm…. Pizza!! This was kindly donated by NCR (one of the sponsors of DunDDD).  Although the agenda mentioned that there would be some Grok Talks, I ended up in a conversation with [@CAMURPHY](https://twitter.com/#!/camurphy), [@ARGibson](https://twitter.com/#!/argibson), [@leggetter](https://twitter.com/#!/leggetter) and [@craignicol](https://twitter.com/#!/craignicol), so I couldn’t actually tell you if there were any Grok Talks.  It was a very interesting conversation though!
+Hmmm... Pizza!! This was kindly donated by NCR (one of the sponsors of DunDDD).  Although the agenda mentioned that there would be some Grok Talks, I ended up in a conversation with [@CAMURPHY](https://twitter.com/#!/camurphy), [@ARGibson](https://twitter.com/#!/argibson), [@leggetter](https://twitter.com/#!/leggetter) and [@craignicol](https://twitter.com/#!/craignicol), so I couldn’t actually tell you if there were any Grok Talks.  It was a very interesting conversation though!
 
 ## Session 4
 

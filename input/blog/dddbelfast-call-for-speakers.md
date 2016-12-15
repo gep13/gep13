@@ -6,7 +6,7 @@ Tags:
 - DDDBelfast
 ---
 
-Hot on the heels of the [announcement](http://www.gep13.co.uk/blog/?p=310) from #DDDNorth that they are accepting submissions from potential speakers, I have just found out the #DDDBelfast are doing the same [thing](http://www.developerdeveloperdeveloper.com/dddie11/).
+Hot on the heels of the [announcement](http://www.gep13.co.uk/blog/dddnorth-call-for-speakers) from #DDDNorth that they are accepting submissions from potential speakers, I have just found out the #DDDBelfast are doing the same [thing](http://www.developerdeveloperdeveloper.com/dddie11/).
 
 This conference is set to take place on Saturday 1st October 2011 at the University of Ulster.
 

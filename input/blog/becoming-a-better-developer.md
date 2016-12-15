@@ -1,5 +1,5 @@
 ---
-Title: Becoming a better developer…
+Title: Becoming a better developer...
 Published: 30/7/2011
 Tags:
 - Better Developer
@@ -37,7 +37,7 @@ Again, this is something that I haven’t done a lot of, but I have now started 
 
 This is also not something that I have done a lot of. When I was first getting into ASP.Net development I used the original [BeerHouse sample kit](http://thebeerhouse.codeplex.com/releases/view/127) for ASP.Net 2.0 which I still believe to be a great example of N-Tier application development, however, since then, I haven’t really “read” any other code samples. Again, this is something that I aim to change going forward. With open source repositories such as GitHub and BitBucket, there is plenty of code out there to take a look at.
 
-> “Be prepared to invest some money in this process… you are a commodity, and you need to make sure that you maintain yourself as a commodity”
+> “Be prepared to invest some money in this process... you are a commodity, and you need to make sure that you maintain yourself as a commodity”
 
 For me, this was the defining point of the presentation, and one that really resounded with me. Now obviously it isn’t always possible to fork out loads of money to keep up to date with the latest technologies, however, I think it is fair to say that you need to invest something; be it time or money.
 

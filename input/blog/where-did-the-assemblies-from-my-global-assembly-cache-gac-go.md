@@ -12,7 +12,7 @@ I have recently been working on a SharePoint Web Part, and while trying to retra
 
 [![5e76c325-aa54-4408-9fe5-ca32dc405398](http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/5e76c325-aa54-4408-9fe5-ca32dc405398_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/5e76c325-aa54-4408-9fe5-ca32dc405398.png)
 
-Now, in all honesty, I didn’t think much of this error, because when I checked the files associated with each of the features for the solution they were all gone, and when I tried to open the home page of my SharePoint server, it worked, and everything looked to be ok. However, an additional step after retracting the solution was to remove a couple files from the GAC (yes, I know I need to alter my WSP project to do this for me, but…), on opening the GAC, I was greeted with this:
+Now, in all honesty, I didn’t think much of this error, because when I checked the files associated with each of the features for the solution they were all gone, and when I tried to open the home page of my SharePoint server, it worked, and everything looked to be ok. However, an additional step after retracting the solution was to remove a couple files from the GAC (yes, I know I need to alter my WSP project to do this for me, but...), on opening the GAC, I was greeted with this:
 
 [![ee75f8ab-79d9-4c07-b512-09fab0b6cdc0](http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/ee75f8ab-79d9-4c07-b512-09fab0b6cdc0_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/ee75f8ab-79d9-4c07-b512-09fab0b6cdc0.png)
 

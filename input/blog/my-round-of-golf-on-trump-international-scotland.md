@@ -6,7 +6,7 @@ Tags:
 - Trump
 ---
 
-Last Christmas, I got an amazing present from my family…
+Last Christmas, I got an amazing present from my family...
 
 A round of golf on Donald Trump’s new Golf Course, “Trump International Scotland”.
 

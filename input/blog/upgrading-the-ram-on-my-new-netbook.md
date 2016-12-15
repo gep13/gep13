@@ -8,7 +8,7 @@ Tags:
 - Upgrade
 ---
 
-Following a comment on a recent [blog post](http://www.gep13.co.uk/blog/?p=319), I went on over to the Crucial website and confirmed that my NetBook was capable of handling 2 GB of RAM, and I was happy to find out that it could. I was even more happy to find out that it was only going to cost me £9.99, plus £2 for shipping bargain.
+Following a comment on a recent [blog post](http://www.gep13.co.uk/blog/my-new-netbook), I went on over to the Crucial website and confirmed that my NetBook was capable of handling 2 GB of RAM, and I was happy to find out that it could. I was even more happy to find out that it was only going to cost me £9.99, plus £2 for shipping bargain.
 
 [![58 (2)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/58-2_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/58-2.jpg)
 

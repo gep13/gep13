@@ -1,5 +1,5 @@
 ---
-Title: Using a WP7 to automate my house…
+Title: Using a WP7 to automate my house...
 Published: 14/5/2011
 Tags:
 - HttpWebRequest
@@ -9,9 +9,9 @@ Tags:
 
 Ok, that is clearly a little bit of an exaggeration, I haven’t automated my whole house, but I have automated a very small portion of it. What am I talking about? And why am I writing a blog about it? Read on, and all will be revealed :)
 
-Last weekend while I was at [DDD Scotland](http://www.gep13.co.uk/blog/a-review-of-dddscot-by-a-dddscot-virgin) I got talking to [@richardadalton](http://twitter.com/#!/richardadalton) and during an enthralling conversation about the Commodore 64 (I really think I want to fire up my old C64, but I am worried about whether it would blow up cause it’s so old. I could always get myself one of [these](http://www.commodoreusa.net/CUSA_C64.aspx) though), I got a phone call from my wife asking if I would “switch of the internet”, to which I responded with, “sure, no problem”, and I promptly did so. 
+Last weekend while I was at [DDD Scotland](http://www.gep13.co.uk/blog/a-review-of-dddscot-by-a-dddscot-virgin) I got talking to [@richardadalton](http://twitter.com/#!/richardadalton) and during an enthralling conversation about the Commodore 64 (I really think I want to fire up my old C64, but I am worried about whether it would blow up cause it’s so old. I could always get myself one of [these](http://www.commodoreusa.net/CUSA_C64.aspx) though), I got a phone call from my wife asking if I would “switch of the internet”, to which I responded with, “sure, no problem”, and I promptly did so.
 
-Now bear in mind, I was 150 miles away at the time. How did I do this? Using my Windows Phone 7 of course! 
+Now bear in mind, I was 150 miles away at the time. How did I do this? Using my Windows Phone 7 of course!
 
 [![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb3.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image3.png)
 
@@ -31,7 +31,7 @@ A recent refactoring of the project included creating a Web Service to do the ac
 
 An earlier Windows Mobile 6.5 version of this application went as far as to intercept incoming text messages with a known format from another phone to enable/disable the wireless antenna, but the Windows Phone 7 API does not expose the ability to intercept text messages (hopefully this will be available in later versions of the OS).
 
-There are a couple extensions that I would like to add to this application, such as finding out the current state of the wireless router, i.e. enabled/disabled, but as yet, I haven’t had time to get round to it. One day…
+There are a couple extensions that I would like to add to this application, such as finding out the current state of the wireless router, i.e. enabled/disabled, but as yet, I haven’t had time to get round to it. One day...
 
 For a slightly shorter explanation of how all this works, have a look [here](http://www.tweetdeck.com/twitter/richardadalton/~PAHAI).
 

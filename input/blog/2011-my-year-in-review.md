@@ -9,7 +9,7 @@ Tags:
 
 It seems like everyone is doing a retrospective blog post about 2011, so I thought that I would jump on the bandwagon.
 
-Here goes…
+Here goes...
 
 2011 has been a very busy year for me, both from a work/community and personal standpoint.  What follows is a brief recap of what I have been involved in this year, and also a look ahead at what I hope to be doing in 2012.
 

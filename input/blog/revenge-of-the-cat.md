@@ -6,7 +6,7 @@ Tags:
 - YouTube
 ---
 
-I just got forwarded this from a colleague which made me laugh, so I thought I would share…
+I just got forwarded this from a colleague which made me laugh, so I thought I would share...
 
 If you don’t know the story, you can find it here:
 

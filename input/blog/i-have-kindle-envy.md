@@ -1,5 +1,5 @@
 ---
-Title: I have Kindle envy…
+Title: I have Kindle envy...
 Published: 12/10/2011
 Tags:
 - Kindle

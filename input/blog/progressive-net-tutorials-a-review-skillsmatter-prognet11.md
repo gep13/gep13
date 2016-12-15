@@ -27,10 +27,10 @@ So, the real question, would I attend the Progressive .Net Tutorials in 2012?
 
 The answer?
 
-Quite simply…
+Quite simply...
 
 **__YES! Highly recommended to everyone!__**
 
 If you are interested in hearing about the next Progressive .Net Tutorials, as well as other sessions offered by Skills Matter, make sure you follow them on [Twitter](http://twitter.com/#!/skillsmatter), or check them out on [Linkedin](http://www.linkedin.com/company/53564?trk=tyah). You can browse all their available sessions at their [website](http://skillsmatter.com/).
 
-For the reasons why I decided to attend the Progressive .Net Tutorials take a look [here](http://www.gep13.co.uk/blog/becoming-a-better-developer) and for my thoughts running up to the event, take a look [here](http://www.gep13.co.uk/blog/?p=358).
+For the reasons why I decided to attend the Progressive .Net Tutorials take a look [here](http://www.gep13.co.uk/blog/becoming-a-better-developer) and for my thoughts running up to the event, take a look [here](http://www.gep13.co.uk/blog/progressive-net-tutorials-a-review-skillsmatter-prognet11).

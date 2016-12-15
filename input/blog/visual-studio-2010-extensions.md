@@ -9,7 +9,7 @@ Tags:
 
 Having completed a new install of Visual Studio 2010 I thought I would keep a note of the Extensions that I have added to the default installation, that way I won’t have to try and remember them all if I have to do another install. My memory is bad enough as it is without having to remember anything else!!
 
-- [All-In-One Code Framework Sample Browser](http://visualstudiogallery.msdn.microsoft.com/4934b087-e6cc-44dd-b992-a71f00a2a6df) (more info can be found [here](http://www.gep13.co.uk/blog/?p=309)) 
+- [All-In-One Code Framework Sample Browser](http://visualstudiogallery.msdn.microsoft.com/4934b087-e6cc-44dd-b992-a71f00a2a6df) (more info can be found [here](http://www.gep13.co.uk/blog/all-in-one-code-framework)) 
 - [Amazon Web Services Toolkit for Visual Studio](http://visualstudiogallery.msdn.microsoft.com/175787af-a563-4306-957b-686b4ee9b497)
 - [CKS - Development Tools Edition (Foundation)](http://visualstudiogallery.msdn.microsoft.com/a346880f-2d29-47a6-84a2-f2d568dd6997)
 - [Color Printing](http://visualstudiogallery.msdn.microsoft.com/00ec88c2-1553-47d2-8170-3c5baa0c6e44/)

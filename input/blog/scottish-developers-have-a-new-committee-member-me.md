@@ -1,5 +1,5 @@
 ---
-Title: Scottish Developers have a new Committee Member… me!
+Title: Scottish Developers have a new Committee Member... me!
 Published: 15/8/2012
 Tags:
 - ADNUGUK

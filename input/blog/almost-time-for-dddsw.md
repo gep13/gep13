@@ -1,5 +1,5 @@
 ---
-Title: 'Almost time for #DDDSW…'
+Title: Almost time for DDDSW...
 Published: 5/6/2011
 Tags:
 - Bristol

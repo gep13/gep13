@@ -14,7 +14,7 @@ First up, I have to give Simon a lot of credit for his preparation for this talk
 
 Interestingly, his slide deck was in the form of an [Evernote](http://www.evernote.com/) notebook, which as well as having the standard slides, also had a set of exercises that were to be completed during the course of this presentation. Normally when I am in a session like this, I fire open [OneNote](http://office.microsoft.com/en-gb/onenote/) and take notes in there, but for the sake of this session, I closed OneNote. I have to say though, I was impressed with Evernote. I don’t think I will being switching any time soon, but it was very good.
 
-Now, onto the actual content of the session….
+Now, onto the actual content of the session...
 
 I have to say that I was very impressed with the session. Now, I have never done any form of Load Testing, and I was worried that in order to do any there would be this convoluted process to put all the pieces in the right place and get it all working, but this is simply not the case.
 

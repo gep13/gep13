@@ -27,7 +27,7 @@ Follow these steps to configure this:
 [![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image_thumb1.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image1.png)        
 
 - Select "Visual Studio Team Foundation Server" in the tree under "Source Control"
-- Click the "Configure User Tools…" button        
+- Click the "Configure User Tools..." button        
        
 [![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image_thumb2.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image2.png)        
 

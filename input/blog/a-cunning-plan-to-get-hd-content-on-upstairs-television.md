@@ -63,13 +63,13 @@ Given the number of extra devices that I was putting into the cupboard I require
 
 In order to keep things tidy, well at least reasonable tidy, I used two packs of these to collect all the various cables together.
 
-With all of the above in place and wired up, it was time for the moment of truth, was it all going to work….
+With all of the above in place and wired up, it was time for the moment of truth, was it all going to work...
 
 The answer is yes!!
 
 The picture and sound quality from both devices is exceptional.  I believe that you would be hard pushed to tell that either device was not directly plugged into the back of the upstairs TV.  In order to change between the Sky+ HD and the PS3 all that is required (on either TV) is to switch from one HDMI input to the other.
 
-But, aha, the eagle eyed amongst you out there will still be wondering how I change the channel on the Sky+ HD box, or control the PS3 from upstairs.  Well, let me tell you…
+But, aha, the eagle eyed amongst you out there will still be wondering how I change the channel on the Sky+ HD box, or control the PS3 from upstairs.  Well, let me tell you...
 
 [Remote Control Extender](http://www.amazon.co.uk/gp/product/B003H4BVEK/ref=as_li_ss_tl?ie=UTF8&tag=www6thprimeco-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=B003H4BVEK)![](http://www.assoc-amazon.co.uk/e/ir?t=&l=as2&o=2&a=B003H4BVEK)
 

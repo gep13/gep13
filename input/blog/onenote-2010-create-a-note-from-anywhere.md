@@ -7,7 +7,7 @@ Tags:
 - OneNote 2010
 ---
 
-_This is the second in a [series of blog posts](http://www.gep13.co.uk/blog/?p=53) I’m doing on the features that I now find invaluable within Microsoft OneNote 2010. _
+_This is the second in a [series of blog posts](http://www.gep13.co.uk/blog/reasons-to-love-onenote-2010-series) I’m doing on the features that I now find invaluable within Microsoft OneNote 2010. _
 
 **The Situation:**
 
@@ -33,7 +33,7 @@ Everything you type into this note is saved straight away, with no need for you 
 
 This is where all your “quick” notes end up. The idea being that you either delete them once you are finished with them, or you add them into one of your other Notebooks or sections.
 
-So, the next time you see your Manager storming your way, all you need to do are two things…
+So, the next time you see your Manager storming your way, all you need to do are two things...
   
 1. Hit “Windows Key + M” – you don’t want him to see you sitting with Twitter or FaceBook open
 1. Hit “Windows Key + N” – ready to start writing notes for the discussion you are about to have.

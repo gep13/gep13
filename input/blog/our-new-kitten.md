@@ -1,5 +1,5 @@
 ---
-Title: Our new kitten…
+Title: Our new kitten
 Published: 7/7/2010
 Tags:
 - Aiden
