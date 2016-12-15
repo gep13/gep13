@@ -7,7 +7,7 @@ Tags:
 - Training
 ---
 
-In a recent [blog post](http://www.gep13.co.uk/blog/?p=313) I spoke about how we (as developers) all have to strive to become a “better developer”. From a personal stand point, I decided that I was going to try to attend the [Progressive .Net Tutorials](http://skillsmatter.com/event/open-source-dot-net/progressive-dot-net-tutorials-2011), because in my opinion, the sessions were just too good to miss. After making this decision, I heard a rumour that Paul Stack (one of the speakers at the Tutorials) was in a position to [give away two tickets to the event](http://www.paulstack.co.uk/blog/post/win-a-ticket-to-progressivenet-tutorials.aspx).
+In a recent [blog post](http://www.gep13.co.uk/blog/becoming-a-better-developer) I spoke about how we (as developers) all have to strive to become a “better developer”. From a personal stand point, I decided that I was going to try to attend the [Progressive .Net Tutorials](http://skillsmatter.com/event/open-source-dot-net/progressive-dot-net-tutorials-2011), because in my opinion, the sessions were just too good to miss. After making this decision, I heard a rumour that Paul Stack (one of the speakers at the Tutorials) was in a position to [give away two tickets to the event](http://www.paulstack.co.uk/blog/post/win-a-ticket-to-progressivenet-tutorials.aspx).
 
 On the off chance that I might win, I decided to drop an email to Paul, basically reciting what I had said in my blog post, and luckily for me, I won!!! ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/wlEmoticon-smile1.png)
 

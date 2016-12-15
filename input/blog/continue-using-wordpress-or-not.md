@@ -15,9 +15,9 @@ For the next year or so, I was quite happy using the WordPress system, and it wa
 
 However, recently, a number of things have happened that are making me to rethink this decision.
 
-1. I attended [GiveCamp UK](http://www.gep13.co.uk/blog/?p=569) and worked on a WordPress site and I got to see more into the innards of WordPress and saw that it isn’t that “bad” to tinker with, as I had previously thought
+1. I attended [GiveCamp UK](http://www.gep13.co.uk/blog/my-impressions-of-givecampuk) and worked on a WordPress site and I got to see more into the innards of WordPress and saw that it isn’t that “bad” to tinker with, as I had previously thought
 1. I found an amazing Metro WordPress Theme thanks to [Pedro Lamas](http://www.pedrolamas.com/2011/12/21/metro-cimbalino-wordpress-theme/)
-1. [WordPress 3.3.1](http://www.gep13.co.uk/blog/?p=416) was released and it is quite simply, amazing!
+1. [WordPress 3.3.1](http://www.gep13.co.uk/blog/?p=569) was released and it is quite simply, amazing!
 1. I installed a few new WordPress Plugins that contained the last remaining functionality that I was looking for on my blog, namely [BackUpWordPress](http://wordpress.org/extend/plugins/backupwordpress/), [Disqus Comment System](http://wordpress.org/extend/plugins/disqus-comment-system/), [FeedBurner FeedSmith Extend](http://wordpress.org/extend/plugins/feedburner-setting/), [NextGen Gallery](http://alexrabe.de/wordpress-plugins/nextgen-gallery/), and [Now Reading Reloaded](http://wordpress.org/extend/plugins/now-reading-reloaded/), (If you are interested in seeing all the WordPress plugins that I currently use, take a look at this [blog post](http://www.gep13.co.uk/blog/?p=174)).
  
 The Now Reading plugin doesn’t “quite” do exactly what I want, but I think I am now prepared to invest the time to get it working the way I want it.

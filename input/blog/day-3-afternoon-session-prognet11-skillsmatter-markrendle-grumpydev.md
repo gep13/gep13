@@ -12,7 +12,7 @@ I had a lot of trouble deciding on the final session of the final day at the Pro
 
 Why the debate? Well, let me tell you…
 
-We have recently tried and failed to implement an Agile approach in a project, so I am fairly sure that we will not be using an Agile approach for the foreseeable future. Coupled with the fact that I have seen an earlier Kanban talk from Nathan, initially I was leaning towards Mark and Steven’s session. In addition, in a recent blog [post](http://www.gep13.co.uk/blog/?p=313) I talked about how is was striving to becoming a better developer and in order to do this I feel I need to learn more languages and frameworks, and the Nancy and Simple.Data talk seemed to fit that bill perfectly.
+We have recently tried and failed to implement an Agile approach in a project, so I am fairly sure that we will not be using an Agile approach for the foreseeable future. Coupled with the fact that I have seen an earlier Kanban talk from Nathan, initially I was leaning towards Mark and Steven’s session. In addition, in a recent blog [post](http://www.gep13.co.uk/blog/becoming-a-better-developer) I talked about how is was striving to becoming a better developer and in order to do this I feel I need to learn more languages and frameworks, and the Nancy and Simple.Data talk seemed to fit that bill perfectly.
 
 In the end, I opted to attend the Nancy and Simple.Data talk (sorry Nathan!) 
 

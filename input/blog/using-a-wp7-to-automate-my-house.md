@@ -9,7 +9,7 @@ Tags:
 
 Ok, that is clearly a little bit of an exaggeration, I haven’t automated my whole house, but I have automated a very small portion of it. What am I talking about? And why am I writing a blog about it? Read on, and all will be revealed :)
 
-Last weekend while I was at [DDD Scotland](http://www.gep13.co.uk/blog/?p=210) I got talking to [@richardadalton](http://twitter.com/#!/richardadalton) and during an enthralling conversation about the Commodore 64 (I really think I want to fire up my old C64, but I am worried about whether it would blow up cause it’s so old. I could always get myself one of [these](http://www.commodoreusa.net/CUSA_C64.aspx) though), I got a phone call from my wife asking if I would “switch of the internet”, to which I responded with, “sure, no problem”, and I promptly did so. 
+Last weekend while I was at [DDD Scotland](http://www.gep13.co.uk/blog/a-review-of-dddscot-by-a-dddscot-virgin) I got talking to [@richardadalton](http://twitter.com/#!/richardadalton) and during an enthralling conversation about the Commodore 64 (I really think I want to fire up my old C64, but I am worried about whether it would blow up cause it’s so old. I could always get myself one of [these](http://www.commodoreusa.net/CUSA_C64.aspx) though), I got a phone call from my wife asking if I would “switch of the internet”, to which I responded with, “sure, no problem”, and I promptly did so. 
 
 Now bear in mind, I was 150 miles away at the time. How did I do this? Using my Windows Phone 7 of course! 
 

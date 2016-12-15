@@ -6,7 +6,7 @@ Tags:
 - DDDSCOT
 ---
 
-Hot of the heels of [DDD9](http://developerdeveloperdeveloper.com/ddd9/) which I [attended in January](http://www.gep13.co.uk/blog/?p=28), this weekend was the turn of [DDD Scotland](http://developerdeveloperdeveloper.com/scotland2011/).
+Hot of the heels of [DDD9](http://developerdeveloperdeveloper.com/ddd9/) which I [attended in January](http://www.gep13.co.uk/blog/a-review-of-ddd9-by-a-ddd-virgin), this weekend was the turn of [DDD Scotland](http://developerdeveloperdeveloper.com/scotland2011/).
 
 Again, I had never attended this event before, and having seen what was on offer at DDD9 I was hopeful of more of the same, and I am happy to say that I was not disappointed. The [list of sessions](http://developerdeveloperdeveloper.com/scotland2011/Schedule.aspx) was immense and it actually made it quite difficult to choose which session of the five available that I wanted to attend.
 

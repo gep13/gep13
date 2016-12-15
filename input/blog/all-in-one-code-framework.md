@@ -22,7 +22,7 @@ This is not something that I had heard of before, and the initial description of
 
 After watching the introduction video [here](http://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-Toolbox-All-In-One-Code-Framework), I decided to get it installed.
 
-There are two ways that you can use it, either as a [standalone application](http://1code.codeplex.com/releases/view/64539) or as a [Visual Studio 2010 Extension](http://visualstudiogallery.msdn.microsoft.com/4934b087-e6cc-44dd-b992-a71f00a2a6df). Due to the fact that the sample application is intended for use with the Express Editions of Visual Studio and because I am a hoarder of [Visual Studio Extensions](http://www.gep13.co.uk/blog/?p=3), I opted to install the Extension.
+There are two ways that you can use it, either as a [standalone application](http://1code.codeplex.com/releases/view/64539) or as a [Visual Studio 2010 Extension](http://visualstudiogallery.msdn.microsoft.com/4934b087-e6cc-44dd-b992-a71f00a2a6df). Due to the fact that the sample application is intended for use with the Express Editions of Visual Studio and because I am a hoarder of [Visual Studio Extensions](http://www.gep13.co.uk/blog/visual-studio-2010-extensions), I opted to install the Extension.
 
 With this installed, you have two ways to access the available sample applications. The first is from the Tools Menu:
 

@@ -6,7 +6,7 @@ Tags:
 - DDDSW
 ---
 
-Following on from the very good [DDD Scotland](http://www.gep13.co.uk/blog/?p=210), this past weekend, I attended the 3rd [DDD South West](http://www.dddsouthwest.com/). This event was organised by [@GuySmithFerrier](http://www.twitter.com/guysmithferrier), [@RossDScott](http://www.twitter.com/RossDScott), Martyn Fewtrell, [Jose Simas](http://codefornothing.wordpress.com/) and [Chris Myhill](http://cmyhill.blogspot.com/), and a lot of credit has to be given to all of them for the amazing work that they did!
+Following on from the very good [DDD Scotland](http://www.gep13.co.uk/blog/a-review-of-dddscot-by-a-dddscot-virgin), this past weekend, I attended the 3rd [DDD South West](http://www.dddsouthwest.com/). This event was organised by [@GuySmithFerrier](http://www.twitter.com/guysmithferrier), [@RossDScott](http://www.twitter.com/RossDScott), Martyn Fewtrell, [Jose Simas](http://codefornothing.wordpress.com/) and [Chris Myhill](http://cmyhill.blogspot.com/), and a lot of credit has to be given to all of them for the amazing work that they did!
 
 I [debated](http://www.gep13.co.uk/blog/?p=268) for a long time as to whether I was actually going to attend this event, but in the end, I am very much glad that I did!
 

@@ -6,7 +6,7 @@ Tags:
 - Inspiration
 ---
 
-While I was at [DDD South West](http://www.gep13.co.uk/blog/?p=278) I had the pleasure of listening to a number of 20-20 presentations (20 slides, each one timed to last 20 seconds) and one that really stood out for me was [Mark Rendle’s](http://twitter.com/#!/markrendle) “Kaizen For Coders”.
+While I was at [DDD South West](http://www.gep13.co.uk/blog/a-review-of-dddsw-by-a-dddsw-virgin) I had the pleasure of listening to a number of 20-20 presentations (20 slides, each one timed to last 20 seconds) and one that really stood out for me was [Mark Rendle’s](http://twitter.com/#!/markrendle) “Kaizen For Coders”.
 
 I have now had the chance to listen back to this presentation thanks for [Guy Smith-Ferrier](http://twitter.com/#!/guysmithferrier), who has downloads of four out of the six 20-20 presentations available on his [blog](http://guysmithferrier.com/post/2011/07/DDD-South-West-3-On-The-Day.aspx). I would highly encourage everyone to take 6 minutes and 40 seconds out of their day to watch this presentation.
 

@@ -1,5 +1,5 @@
 ---
-Title: '#ADNUGUK – September Meeting'
+Title: ADNUGUK – September Meeting
 Published: 20/8/2011
 Tags:
 - Meeting

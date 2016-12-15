@@ -1,5 +1,5 @@
 ---
-Title: '#GiveCampUK is only 4 days away…'
+Title: GiveCampUK is only 4 days away...
 Published: 17/10/2011
 Tags:
 - GiveCampUK
@@ -29,7 +29,7 @@ Here goes (in no particular order)…
   - ASP.Net MVC 1,2,3 
   - SQL Server Compact Edition 
   - Windows Phone 7 Tools 
-  - [Lots of Extensions](http://www.gep13.co.uk/blog/?p=3)
+  - [Lots of Extensions](http://www.gep13.co.uk/blog/visual-studio-2010-extensions)
 - Microsoft Expression Studio 
 - Microsoft Lync 
 - Microsoft Office 2010 

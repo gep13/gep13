@@ -23,7 +23,7 @@ Once I know exact details for these events, in terms of exact dates, venues, web
 - **DDD Reading - **Don’t yet know exact date or venue
   - Details of this event will be listed [here](http://www.developerdeveloperdeveloper.com/home/)
   - You can also follow [@developerday](https://twitter.com/#!/developerday) for more information
-  - I attended this event [last year](http://www.gep13.co.uk/blog/?p=28)
+  - I attended this event [last year](http://www.gep13.co.uk/blog/a-review-of-ddd9-by-a-ddd-virgin)
   - I am hoping to attend this event, and am available to help if required
 - **DevWeek 2012**– 26th to 30th March, Barbican Conference Centre, London
   - Details of this event can be found [here](http://www.devweek.com/)
@@ -36,17 +36,17 @@ Once I know exact details for these events, in terms of exact dates, venues, web
 - **DDD Scotland **– Proposed date of 5th May 2012, venue yet to be confirmed
   - No firm details on this one yet, but details will likely appear [here](http://www.developerdeveloperdeveloper.com/home/)
   - You can also follow [@dddscot](https://twitter.com/#!/dddscot) for more information
-  - I attended this event [last year](http://www.gep13.co.uk/blog/?p=210)
+  - I attended this event [last year](http://www.gep13.co.uk/blog/a-review-of-dddscot-by-a-dddscot-virgin)
   - I am hoping to attend this event and would be available to help out as per last year
 - **DDD South West **– 26th May 2012 – University of the West of England, Bristol
   - Website can be found [here](http://dddsouthwest.com/)
   - You can also follow [@dddsouthwest](https://twitter.com/#!/dddsouthwest) for more information
-  - I attended this event [last year](http://www.gep13.co.uk/blog/?p=278)
+  - I attended this event [last year](http://www.gep13.co.uk/blog/a-review-of-dddsw-by-a-dddsw-virgin)
   - I am hoping to attend this event and would be available to help out as per last year
 - **Progressive .Net Tutorials 2012** - 29th May 2012 to 31st May 2012, London
   - Website can be found [here](http://skillsmatter.com/event/open-source-dot-net/prognet-2012)
   - You can also follow [@skillsmatter](https://twitter.com/#!/skillsmatter) for more information and the hashtag [#prognet12](https://twitter.com/#!/search/realtime/%23prognet12)
-  - I attended this event [last year](http://www.gep13.co.uk/blog/?p=377) and loved it, I would really like to attend again
+  - I attended this event [last year](http://www.gep13.co.uk/blog/progressive-net-tutorials-a-review-skillsmatter-prognet11) and loved it, I would really like to attend again
 - **NDC 2012**– 6th to 8th June 2012, Oslo, Norway
   - Obviously, this isn’t based in the UK, but I have heard that it is very goo!
 - **Scottish Ruby Conference 2012**– 29th to 30th June 2012, Royal College of Physicians, Edinburgh
@@ -68,11 +68,11 @@ Once I know exact details for these events, in terms of exact dates, venues, web
   - No firm details on this one yet, but details should appear [here](http://www.givecamp.org.uk/)
   - You can also follow [@givecampuk](https://twitter.com/#!/givecampuk) for more information
   - If you are interested in attending this event, and want information, sign up [here](http://www.givecamp.org.uk/StayInformed)
-  - I attended this event [last year](http://www.gep13.co.uk/blog/?p=416), and loved it, so would really like to attend again, and also help out if required as per last year
+  - I attended this event [last year](http://www.gep13.co.uk/blog/my-impressions-of-givecampuk), and loved it, so would really like to attend again, and also help out if required as per last year
 - **Oredev 2012** – Sweden
   - Again, not a UK based Developer Event, but again, I have been reliably informed that this is a great event.
 - **DunDDD** - Don't yet know the exact date or venue
   - No firm details on this one yet, but details should appear [here](http://www.dddscotland.co.uk/)
-  - I attended this event [last year](http://www.gep13.co.uk/blog/?p=436), and loved it, so would really like to attend again and also help out if required as per last year.
+  - I attended this event [last year](http://www.gep13.co.uk/blog/a-review-of-dunddd), and loved it, so would really like to attend again and also help out if required as per last year.
 
 There are a lot of events listed here, but I am sure that there are still some that I am missing, and I would very much like to you to get in touch, either through the comments below, or the contact form [here](http://www.gep13.co.uk/blog/?page_id=38), if you know about any other events that are happening in the UK this year.  Before I commit to attending any of the above events, I would like to have looked at the majority available.  Thanks!

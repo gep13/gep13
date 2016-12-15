@@ -1,5 +1,5 @@
 ---
-Title: '#ADNUGUK – October Meeting'
+Title: ADNUGUK – October Meeting
 Published: 1/9/2011
 Tags:
 - Mark Rendle

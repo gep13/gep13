@@ -1,12 +1,12 @@
 ---
-Title: 'A modification to my use of #ExtensionSync'
+Title: A modification to my use of ExtensionSync
 Published: 15/7/2011
 Tags:
 - Extensions
 - ExtensionSync
 ---
 
-In an earlier [blog post](http://www.gep13.co.uk/blog/?p=189) I mentioned how I am now using a very clever Visual Studio 2010 extension called [ExtensionSync](http://visualstudiogallery.msdn.microsoft.com/dbaf0ac9-fb7b-4fb3-b34d-ea2269276d3c) (a complete list of all the Visual Studio 2010 extensions that I am currently using can be found [here](http://www.gep13.co.uk/blog/?p=3)).
+In an earlier [blog post](http://www.gep13.co.uk/blog/?p=189) I mentioned how I am now using a very clever Visual Studio 2010 extension called [ExtensionSync](http://visualstudiogallery.msdn.microsoft.com/dbaf0ac9-fb7b-4fb3-b34d-ea2269276d3c) (a complete list of all the Visual Studio 2010 extensions that I am currently using can be found [here](http://www.gep13.co.uk/blog/visual-studio-2010-extensions)).
 
 In that blog post I explained that I am using a mapped drive in order in “share” the ExtensionSync settings file between different developers in the team. Initially, this worked well, but there were a few problems with this, and this was actually noted by the author of the tool in a Twitter conversation.
 

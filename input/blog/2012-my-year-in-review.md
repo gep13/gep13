@@ -15,7 +15,7 @@ In the same way that I did a [review of my year in 2011](http://gep13.me/U9X0O1)
 
 The below is what I "said" I was going to do in 2012.  I will refer back to this in this post to see whether I actually achieved any of this or not.
 
->Looking forward into 2012, there will mainly be more of the same as above.  Following [the principles](http://www.gep13.co.uk/blog/?p=313) that I took from Mark Rendle’s talk at DDD South West I will be looking to improve myself as a developer, but I also hope to break into doing talks at some of these community events, rather than simply attending them.  This will be a big step for me, but something that I am very much looking forward to.
+>Looking forward into 2012, there will mainly be more of the same as above.  Following [the principles](http://www.gep13.co.uk/blog/becoming-a-better-developer) that I took from Mark Rendle’s talk at DDD South West I will be looking to improve myself as a developer, but I also hope to break into doing talks at some of these community events, rather than simply attending them.  This will be a big step for me, but something that I am very much looking forward to.
 
 >I will be continuing to blog next year as well, however, I am looking to writing much more technical blog posts.  I have learnt a lot this year from all the talks that I have attended, and I am looking to implement these technologies in a number of pet projects.  I will be blogging the trials and tribulations that I have along the way, which will hopefully help other people.
 

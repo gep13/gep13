@@ -84,7 +84,7 @@ See related [blog post](http://www.gep13.co.uk/blog/?p=95).
 **_Development Applications_**
 
 - Visual Studio 2010 Ultimate (Custom Install)
-  - [Visual Studio 2010 Extensions](http://www.gep13.co.uk/blog/?p=3)
+  - [Visual Studio 2010 Extensions](http://www.gep13.co.uk/blog/visual-studio-2010-extensions)
 - Web Platform Installer 3.0
   - ASP.Net MVC 3
   - SQL Server Express 2008 R2

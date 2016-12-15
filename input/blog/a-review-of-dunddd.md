@@ -1,5 +1,5 @@
 ---
-Title: A review of #DunDDD
+Title: A review of DunDDD
 Published: 19/11/2011
 Tags:
 - Community

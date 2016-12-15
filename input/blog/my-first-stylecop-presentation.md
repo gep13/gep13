@@ -18,7 +18,7 @@ This talk was very much inspired by the excellent [talk](http://developerdevelop
 
 On the night, I am happy to say that I think the talk went down really well, although there were a couple fumbles as I tried to remember the order that my slides were in, and the demo where I tried to debug a custom StyleCop rule using two instances of Visual Studio didn’t want to work. If you attended the talk, I would be very interested to hear any feedback that you have, good and bad. This is the only way in which I can get better.
 
-I am also happy to say that this was the first night where I was able to give away lots of [swag](http://www.gep13.co.uk/blog/?p=107) to the User Group members, and this will continue for the foreseeable future, with hopefully more prizes being added as we go.
+I am also happy to say that this was the first night where I was able to give away lots of [swag](http://www.gep13.co.uk/blog/confirmed-swag-for-adnug-events) to the User Group members, and this will continue for the foreseeable future, with hopefully more prizes being added as we go.
 
 A big thanks has to go to Emma for the lend of her hat for drawing the names for the prizes! I am going to have to sort out a proper way of doing this for the next meeting (but just in case, if you could bring your hat again, that would be great!!). If anyone has any novel ideas about how we can auction off these prizes, then feel free to let me know.
 
