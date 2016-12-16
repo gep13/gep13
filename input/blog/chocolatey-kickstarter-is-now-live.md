@@ -10,11 +10,9 @@ Tags:
 Click [here](https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum) and back the brand new Chocolatey Kickstarter!
 
 ## Some more information
-Earlier today, Rob Reynolds ([@ferventcoder](https://twitter.com/ferventcoder)) pushed the button on a new Kickstarter, aimed at raising funds to:
+Earlier today, Rob Reynolds ([@ferventcoder](https://twitter.com/ferventcoder)) pushed the button on a new [Kickstarter](https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum), aimed at raising funds to:
 
-{% blockquote Rob Reynolds https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum Chocolatey Kickstarter %}
-move forward from the Chocolatey experiment to the Chocolatey experience!
-{% endblockquote %}
+> move forward from the Chocolatey experiment to the Chocolatey experience!
 
 This really is an exciting time for Chocolatey, and general application management on Windows.  You can find all the details that you will need to get started, including information about the rewards that you can back on the Kickstarter page (did I mention that one of them actually including actual chocolate?).  Head on [over](https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum) to check them out!
 
