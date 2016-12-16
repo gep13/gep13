@@ -117,7 +117,7 @@ Published on 10 October 2012<br>    </div>
 <p>The first decision that you will need to make is whether you want to Clone the Caliburn.Micro source control locally to your machine, or whether you just want to download the source code.  Due to the fact that I am lazy, the steps outlined here are going to talk you through the downloading route, but if you are interested in cloning the repository take a look at this article <a href="http://codeplex.codeplex.com/wikipage?title=Using%20TortoiseHG%20with%20CodePlex&amp;referringTitle=Source%20control%20clients&amp;ProjectName=codeplex">here</a>.</p>
 <h1 id="lets-get-started">Let’s get started</h1>
 <p>So, first thing’s first, go ahead and download the latest Caliburn.Micro source code:</p>
-<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1466"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Download.png" class="img-fluid" alt="" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/10/Caliburn.Micro_Download.png" class="img-fluid" alt="Caliburn Micro CodePlex Site" /></p>
 <p>Once the zip file has downloaded:</p>
 <ol>
 <li>Go to the folder where you saved it</li>
@@ -134,7 +134,7 @@ Published on 10 October 2012<br>    </div>
 </ul>
 <p>In order to open the second solution file, you will need to have the Silverlight Tools and Windows Phone 7 SDK installed.</p>
 <p>In order to open the last solution file, you are going to need to have Visual Studio 2012 along with .Net Framework 4.5 installed.  If you don’t, and you try to open this solution in Visual Studio 2010, you will be greeted with the following:</p>
-<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1465"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_.WinRT_not_opening.png" class="img-fluid" alt="" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/10/Caliburn.Micro.WinRT_not_opening.png" class="img-fluid" alt="One or more projects were not loaded correctly" /></p>
 <h1 id="building-the-solutions">Building the solutions</h1>
 <p>Depending on what frameworks you are targeting, i.e. Silverlight, Windows Phone 7, WinRT, open the correct solution file, and switch to doing a “Release” build.  Build the solution, and ensure that there are no errors.  The act of building the solution actually only creates the output assemblies, it doesn't generate the Nuget package.  To be clear, at this point, you can build either solution, or both.  The Nuget package created works on whatever it can find, and will place only the output assemblies that it can located in the resulting Nuget package.</p>
 <h1 id="creating-the-nuget-package">Creating the Nuget package</h1>
@@ -153,11 +153,11 @@ Published on 10 October 2012<br>    </div>
 <p>In version 1.3.1 of Caliburn.Micro, it was assumed that everyone who was using the Nuget package wanted the additional files that it included.  This wasn't always the case (as some people roll their own AppBootstrapper, etc) and as a result, they would have to delete the unwanted files.  To work around this, the Caliburn.Micro assemblies are stored in the “Caliburn.Micro.1.3.2.nupkg” package, and the additional installation files are stored in “Caliburn.Micro.Start.1.3.2.nupkg”.  To complete the story, the “.Start” package takes a dependency on the main “Caliburn.Micro” package.  This way, a user has a choice of what they want to use; very clever!</p>
 <h1 id="use-a-local-nugetrepository">use a local Nuget repository</h1>
 <p>Now that you have these Nuget packages, what do you do with them?  What I do is I create a folder on my C:\ drive, typically c:\nugetpackages and I put the Nuget packages in there.  Then, within Visual Studio select Tools | Library Package Manager | Package Manager Settings.  In the windows that opens up, select “Package Sources”, click the green &quot;add&quot; button, and enter “Local Nuget” as the Name, and “C:\nugetpackages” as the source, and click the “Update” button:</p>
-<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1467"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Local_Nuget_Package_Source.png" class="img-fluid" alt="" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/10/Caliburn.Micro_Local_Nuget_Package_Source.png" class="img-fluid" alt="Local Nuget Package Source" /></p>
 <p>With this in place, then either through the Package Manager Console you can use the “Local Nuget” source and install the package:</p>
-<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1469"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Package_Manager_Console_Install.png" class="img-fluid" alt="" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2010/10/10/Caliburn.Micro_Package_Manager_Console_Install.png" class="img-fluid" alt="NuGet Package Manager Console" /></p>
 <p>Or, through the “Mange Nuget Packages” dialog you can again select “Local Nuget” and select the package that you want to install:</p>
-<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1468"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Manage_Nuget_Packages.png" class="img-fluid" alt="" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/10/Caliburn.Micro_Manage_Nuget_Packages.png" class="img-fluid" alt="Manage NuGet Packages" /></p>
 
 
 <div id="disqus_thread"></div>

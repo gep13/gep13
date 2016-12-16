@@ -111,13 +111,13 @@ Published on 12 October 2012<br>    </div>
                                         
 
 <p>While creating the sample demos for my Windows Phone 7 presentation at DDDNorth, I ran into an interesting error:</p>
-<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1484"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/2012-10-09_1936.png" class="img-fluid" alt="" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/12/2012-10-09_1936.png" class="img-fluid" alt="Error List" /></p>
 <blockquote class="blockquote">
 <p>“Manifest validation failed: AppManifestInvalidAuthor”</p>
 </blockquote>
 <p>To put it into perspective, this was a brand new Windows Phone 7 application, fresh out of the box, with no changes made by me.  I had decided to build the project (as I periodically do) just to make sure that everything was fine before continuing, and I was welcomed with the above.</p>
 <p>Based on the description, I had a look in the WMAppManifest file, but I couldn't find anything obviously wrong:</p>
-<p><a href="http://www.gep13.co.uk/blog/?attachment_id=1483"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/2012-10-09_1937.png" class="img-fluid" alt="" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/12/2012-10-09_1937.png" class="img-fluid" alt="WMAppManifest.xml file" /></p>
 <p>A quick Google later, and I had stumbled upon this <a href="http://digitaltransfusion.net/2010/09/21/wp7-manifest-validation-fails/">blog post</a> by <a href="http://twitter.com/ryanplemons">&#64;ryanplemons</a> which answered the question.  Turns out there is a limit on the number of characters that you can have in the Publisher, Author and Title attributes of the App node:</p>
 <ul>
 <li>Publisher = 50 Characters</li>

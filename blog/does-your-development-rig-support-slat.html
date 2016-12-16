@@ -123,12 +123,12 @@ Published on 14 September 2012<br>    </div>
 <p>Thanks for Mark Russinovich, there is a Sysinternals tool called Coreinfo, which will tell you whether your current hardware can support SLAT.  See Ryan Lowdermilk’s <a href="http://www.ryanlowdermilk.com/2012/09/does-my-computer-support-slat/">blog post here</a> for the exact steps that you need to follow.</p>
 <h1 id="my-results">My results</h1>
 <p>For my desktop machine, which in fairness is VERY old, SLAT is not supported:</p>
-<p><a href="http://www.gep13.co.uk/blog/does-your-development-rig-support-slat/desktop_output/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/09/Desktop_Output.png" class="img-fluid" alt="SLAT not support on Desktop" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/9/14/Desktop_Output.png" class="img-fluid" alt="SLAT not support on Desktop" /></p>
 <p>The good news however is that SLAT is supported on my laptop:</p>
-<p><a href="http://www.gep13.co.uk/blog/does-your-development-rig-support-slat/laptop_output/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/09/Laptop_Output.png" class="img-fluid" alt="SLAT is support on Laptop" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/9/14/Laptop_Output.png" class="img-fluid" alt="SLAT is support on Laptop" /></p>
 <p>NOTE: The important thing that you need to look for (for Intel chips) is the asterisk next to EPT.</p>
 <p><strong>UPDATE:</strong> Based on the comment from Andy Westgarth below, if you are running coreinfo.exe on a machine that already has Hyper-V installed, you will get a different message returned.  Be careful to read all the output from this command.  When Hyper-V was installed on my new machine, this is the output that I got:</p>
-<p><a href="http://www.gep13.co.uk/blog/does-your-development-rig-support-slat/2012-09-27_2033/"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/09/2012-09-27_2033.png" class="img-fluid" alt="" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/9/14/2012-09-27_2033.png" class="img-fluid" alt="Update" /></p>
 <p>Note the important text:</p>
 <p><em><strong>&quot;Coreinfo must be executed on a system without a hypervisor running for accurate results.&quot;</strong></em></p>
 

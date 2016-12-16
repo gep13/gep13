@@ -110,7 +110,7 @@ Published on 12 December 2011<br>    </div>
                                 <div id="content" class="col-md-12">
                                         
 
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/clip_image002.jpg"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/clip_image002_thumb.jpg" class="img-fluid" alt="clip_image002" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/12/clip_image002.jpg" class="img-fluid" alt="Twitter News about Lync Mobile" /></p>
 <p>This morning, thanks to the medium of Twitter I found out that the Lync 2010 Client for Windows Phone had been released. A quick search on the Marketplace, and the application was downloading onto my Phone.</p>
 <p>I immediately went and typed in the credentials for my Office 365 account expecting that it would just work, however, it came back with an error saying that it was “Unable to Sign In” and that I should check my sign in details, and server etc.</p>
 <p>The first thing I checked was that Lync was still connecting fine from my desktop application, and it was. The second thing I tried was to manually type in the server name (or what I thought was the server name) into the necessary places, however, this didn’t work either.</p>
@@ -126,7 +126,7 @@ Published on 12 December 2011<br>    </div>
 <li>Selected the domain of interest, and then click “Manage DNS”</li>
 </ul>
 <p>And sure enough, the required DNS Records for Office 365 had changed since I last looked at it:</p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/clip_image0024.jpg"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/clip_image0024_thumb.jpg" class="img-fluid" alt="clip_image002[4]" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/12/clip_image0024.jpg" class="img-fluid" alt="DNS Records" /></p>
 <p>There is a new CNAME entry for lyncdiscover.gep13.co.uk. And actually, the requirement for the second SRV record has been removed, replaced with another CNAME record.</p>
 <p>I then set about making the required changes with my domain registrar, and after the required propagation time, I am happy to report that I am now able to connect my Windows Phone running Lync 2010 to my Office 365 account.</p>
 <p>It would be nice to know if there were notifications about the changes to the DNS requirements for Office 365. If anyone knows where I can get these, I would be very interested to hear about it!</p>
