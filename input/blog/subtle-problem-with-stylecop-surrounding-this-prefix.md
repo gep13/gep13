@@ -32,7 +32,7 @@ This was the plan, however, it turns out that this wasn’t going to be as easy 
 
 When I first started creating my StyleCop Demos, and the scripts to go with it, I was using StyleCop 4.7.23 which at the time was the latest version, but unfortunately there was a bug in StyleCop surrounding SA1101.  Information on this can be found [here](http://stylecop.codeplex.com/workitem/7266).  What made things a little more interesting is that even though StyleCop wasn’t picking up the violation, the StyleCop for ReSharper plugin that I use was picking it up:
 
-[![Problem_with_this._and_resharper](http://www.gep13.co.uk/blog/wp-content/uploads/2012/05/Problem_with_this._and_resharper_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/05/Problem_with_this._and_resharper.png)
+![Problem with this and ReSharper](https://gep13wpstorage.blob.core.windows.net/gep13/2012/5/30/Problem_with_this._and_resharper.png)
 
 This didn’t make for a good demo, so I set about changing the script for the demo such that this bug wouldn’t be mentioned.  The morning of Saturday 26th May 2012 comes around and I am sitting in the speaker room adding the finishing touches to my slides and demos, only to find out that there is a new version of StyleCop been released, version 4.7.26.  Doing a little bit of digging, it appeared that this release fixed the issue that I was seeing, so with 1 hour before my presentation was due to start, I decided to install the latest version of StyleCop.
 
@@ -42,7 +42,7 @@ Now, I know that there are probably a lot of seasoned presenters out there that 
 
 But, I am happy to say that the uninstall and reinstall of StyleCop went off without any problems, and on running through the script that I mentioned above, both StyleCop and StyleCop for ReSharper, correctly identify the violation:
 
-[![corrected_problem_with_this._and_resharper](http://www.gep13.co.uk/blog/wp-content/uploads/2012/05/corrected_problem_with_this._and_resharper_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/05/corrected_problem_with_this._and_resharper.png)
+![Corrected problem with this and ReSharper](https://gep13wpstorage.blob.core.windows.net/gep13/2012/5/30/corrected_problem_with_this._and_resharper.png)
 
 _NOTE: The above screenshot is actually taken using StyleCop 4.7.27 (which was released on Tuesday 29th May 2012) and actually includes a new rule SA1126.  This appears to supersede the original violation which was SA1101._
 

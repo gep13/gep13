@@ -15,7 +15,7 @@ It is now time to see what the stats were for 2012 and compare these to the prev
 
 First up, what does Google Analytics have to say about it:
 
-[![Google_Analytics_Results](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/Google_Analytics_Results-1024x408.png)](http://www.gep13.co.uk/blog/stats-for-my-blog-in-2012/google_analytics_results/)
+![Google Analytics Results](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/31/Google_Analytics_Results.png)
 
 Highlights being:
 
@@ -31,7 +31,7 @@ Overall, I am really happy with these results.  I spent a lot more time working
 
 Thanks again to the amazing [Jetpack plugin for WordPress](http://wordpress.org/extend/plugins/jetpack/), I am able to share some more stats:
 
-[![Crunchy_Numbers_from_Jetpack](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/Crunchy_Numbers_from_Jetpack.png)](http://www.gep13.co.uk/blog/stats-for-my-blog-in-2012/crunchy_numbers_from_jetpack/)
+![Crunchy Numbers from Jetpack](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/31/Crunchy_Numbers_from_Jetpack.png)
 
 My top 5 blog posts were:
 

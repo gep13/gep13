@@ -36,7 +36,7 @@ Although I was in a unique position where I had a spare Nokia Lumia 920 to serve
 
 Last night while shopping at Tesco, I saw the following deal:
 
-[caption id="attachment_2146" align="alignnone" width="1632"][![Nokia Lumia 510 only £80](http://www.gep13.co.uk/blog/wp-content/uploads/2013/10/WP_20131012_18_47_32_Pro.jpg)](http://www.gep13.co.uk/blog/started-using-nokia-lumia-920-ipod-tomtom-replacement/wp_20131012_18_47_32_pro/) Nokia Lumia 510 only £80[/caption]
+![Nokia Lumia 510 only £80](https://gep13wpstorage.blob.core.windows.net/gep13/2013/10/13/WP_20131012_18_47_32_Pro.jpg)
 
 This is quite simply amazing!  When you put it together with the services that you get from both Microsoft and Nokia, this little device makes for a compelling choice.  It is not hard to understand why these lower end Lumia's are the fastest selling devices at the moment.  They are very affordable, and offer the end-user a lot of options.
 
@@ -46,6 +46,6 @@ When you compare the above to something like the iPod, starting at £199, it wou
 
 The start screen of my Nokia Lumia 920 now looks like the following:
 
-[caption id="attachment_2147" align="alignnone" width="768"][![Nokia Lumia 920 Start Screen](http://www.gep13.co.uk/blog/wp-content/uploads/2013/10/wp_ss_20131013_0001.jpg)](http://www.gep13.co.uk/blog/started-using-nokia-lumia-920-ipod-tomtom-replacement/wp_ss_20131013_0001/) Nokia Lumia 920 Start Screen[/caption]
+![Nokia Lumia 920 Start Screen](https://gep13wpstorage.blob.core.windows.net/gep13/2013/10/13/wp_ss_20131013_0001.jpg)
 
 As you can see, all the "normal" tiles, such as messaging, phone, email, etc, have all been removed, leaving only the tiles for the essential applications, such as navigation and music.  Since all the required maps for the navigation application that Nokia provide can be downloaded ahead of time using the phone's wireless connection, there is no need for a network connection while using it.  In fact, I have actually went as far as to enable the phones flight mode, and will only enable the wireless connection when required.

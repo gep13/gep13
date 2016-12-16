@@ -10,7 +10,7 @@ Tags:
 
 Here are my Google Analytics results:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/image_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/image.png)
+![Visitors Overview](https://gep13wpstorage.blob.core.windows.net/gep13/2012/1/1/image.png)
 
 Highlights being:
 
@@ -24,7 +24,7 @@ Highlights being:
 
 And thanks to the JetPack addin that I use for my WordPress blog, other stats are:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/image_thumb1.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/image1.png)
+![Crunchy Numbers](https://gep13wpstorage.blob.core.windows.net/gep13/2012/1/1/image1.png)
 
 My top 5 blog posts were:
 

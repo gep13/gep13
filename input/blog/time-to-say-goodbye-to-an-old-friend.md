@@ -14,11 +14,11 @@ It is with a tinge of sadness, that today I had to say goodbye to an old friend.
 
 But alas, all good things must come to an end, and today was the day that I said goodbye to "Elle":
 
-[![](http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/4.-Another-view-from-the-front-224x300.jpg)](http://www.gep13.co.uk/blog/time-to-say-goodbye-to-an-old-friend/4.-another-view-from-the-front/)
+![My Old Friend](https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/2/4.%20Another%20view%20from%20the%20front.jpg)
 
 Enter the new replacement. A 6 month old Ford Focus Zetec S:
 
-[![](http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/8.-Another-view-from-the-front-300x224.jpg)](http://www.gep13.co.uk/blog/time-to-say-goodbye-to-an-old-friend/8.-another-view-from-the-front/)
+![My New Friend](https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/2/8.%20Another%20view%20from%20the%20front.jpg)
 
 I went back to the [Jim Reid Vehicle Sales](http://www.jimreidvehiclesales.co.uk/) which is where I bought the first car, and I got a cracking deal, both on the trade in, and with the added extras that were thrown in. If anyone in the North East is looking for a new car, definitely give Jim a shout, I am sure that he would be able to help you out.
 
@@ -34,4 +34,6 @@ I am sure that there will be loads more features that I come to find irreplaceab
 
 Some more photos of both cars can be seen below:
 
-[gallery]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157677819989376&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>
