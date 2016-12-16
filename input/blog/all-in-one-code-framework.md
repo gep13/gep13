@@ -14,10 +14,10 @@ This afternoon, while trying to find a sample that would help me create a Shell 
 
 This is not something that I had heard of before, and the initial description of the project warranted some more investigation:
 
->   * Are you frustrated by the lack of code samples for a certain programming task? 
->   * Have you ever struggled to quickly get started with a technique? 
->   * Have you expected someone to write code samples for you based on your requests for free? 
->   * Is a one-stop code sample library for all Microsoft development technologies attractive to you?
+> * Are you frustrated by the lack of code samples for a certain programming task?
+> * Have you ever struggled to quickly get started with a technique?
+> * Have you expected someone to write code samples for you based on your requests for free?
+> * Is a one-stop code sample library for all Microsoft development technologies attractive to you?
 > If your answer is YES to any of these questions, the Microsoft All-In-One Code Framework is for you!
 
 After watching the introduction video [here](http://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-Toolbox-All-In-One-Code-Framework), I decided to get it installed.
