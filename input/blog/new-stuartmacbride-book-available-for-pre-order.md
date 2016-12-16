@@ -9,7 +9,7 @@ Tags:
 
 [![](http://ws.assoc-amazon.co.uk/widgets/q?_encoding=UTF8&Format=_SL110_&ASIN=0007344171&MarketPlace=GB&ID=AsinImage&WS=1&tag=www6thprimeco-21&ServiceVersion=20070822)](http://www.amazon.co.uk/gp/product/0007344171/ref=as_li_ss_il?ie=UTF8&tag=www6thprimeco-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0007344171)
 
-Thanks to an email from Amazon, I have just found out that the new Stuart MacBride book is ready for pre-order, so I have just ordered it ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/10/wlEmoticon-smile2.png).
+Thanks to an email from Amazon, I have just found out that the new Stuart MacBride book is ready for pre-order, so I have just ordered it.
 
 The new book is called “[Birthdays for the Dead](http://www.amazon.co.uk/gp/product/0007344171/ref=as_li_ss_tl?ie=UTF8&tag=www6thprimeco-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0007344171)”.
 

@@ -18,7 +18,7 @@ The next day came and I saw this tweet from ShawnWildermuth:
 
 I couldn’t quite believe what I was reading!  This was the killer function that I have been waiting for!  Ever since switching to Windows Phone 7 from my Windows Mobile 6.5 I have sorely missed the ability to fire up the internet on my laptop while on the move.  A quick conversation exchange with Shawn pointed me [here](http://www.wpcentral.com/updates-out-htc-hd7-mozart-and-samsung-focus-bringing-tethering-many), and I set about starting the update!
 
-The good news?  I can now tether my laptop to the internet via my Windows Phone 7!! ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/11/wlEmoticon-smile1.png)
+The good news?  I can now tether my laptop to the internet via my Windows Phone 7!!
 
 [![IMAG0354](http://www.gep13.co.uk/blog/wp-content/uploads/2011/11/IMAG0354_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/11/IMAG0354.jpg)
 

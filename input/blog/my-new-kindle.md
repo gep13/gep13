@@ -7,7 +7,7 @@ Tags:
 - Kindle
 ---
 
-Yesterday I got my shiny new Amazon Kindle ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/wlEmoticon-smile1.png)
+Yesterday I got my shiny new Amazon Kindle!
 
 First up, credit where credit is due, I ordered the Kindle from the Amazon website late Sunday afternoon, and it was in my hands on Tuesday morning. Very impressive, thanks Amazon!
 

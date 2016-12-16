@@ -22,13 +22,13 @@ The [Aberdeen Developers .Net User Group](http://aberdeendevelopers.co.uk/) is g
 
 I went out of my way to attend numerous Community Events this year.  Looking at my [hashtag cloud](http://tweetstats.com/graphs/gep13#tcloud) from Twitter, it is pretty clear where I went:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/image8.png)](http://tweetstats.com/graphs/gep13#tcloud)
+![hashtag cloud](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/30/image8.png)
 
 This year I attended, [DDD9](http://www.gep13.co.uk/blog/a-review-of-ddd9-by-a-ddd-virgin), [DDD Scotland](http://www.gep13.co.uk/blog/a-review-of-dddscot-by-a-dddscot-virgin), [DDD South West](http://www.gep13.co.uk/blog/a-review-of-dddsw-by-a-dddsw-virgin), [The Progressive .Net Tutorials](http://www.gep13.co.uk/blog/progressive-net-tutorials-a-review-skillsmatter-prognet11), [GiveCamp UK](http://www.gep13.co.uk/blog/my-impressions-of-givecampuk), and [DunDDD](http://www.gep13.co.uk/blog/a-review-of-dunddd)!  These were all great events, and if I was forced to choose one above all others, it would have to be GiveCamp UK.  The sense of satisfaction that everyone in attendance got from helping out at GiveCamp was amazing, and I would strongly encourage anyone to attend should it happen again in 2012.
 
 Attending events like this is a great way to develop yourself as well as get to know other developers.  As a direct result of these events you can see from this graph the type of characters I have ended up talking to on Twitter throughout 2011:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/image9.png)](http://tweetstats.com/graphs/gep13#tcloud)
+![twitter contacts](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/30/image9.png)
 
 All of the above mentioned people have helped me in 2011, in one way or another, and for this I am very grateful!  Twitter really is a great way to get involved with fellow developers, and it is a wonderful source of information.  If you are a developer, and you are not on Twitter, you should be!
 

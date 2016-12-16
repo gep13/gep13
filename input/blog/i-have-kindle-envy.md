@@ -5,7 +5,7 @@ Tags:
 - Kindle
 ---
 
-Back in February, I bought myself a [Kindle](http://www.amazon.co.uk/gp/product/B002LVUWFE/ref=as_li_ss_tl?ie=UTF8&tag=www6thprimeco-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=B002LVUWFE) and I blogged about it [here](http://www.gep13.co.uk/blog/my-new-kindle). I have been very happy with it, and through some cracking deals at the likes of [O’Reilly](http://oreilly.com/) and [Manning Publications](http://www.manning.com/) I now have an extensive set of technical books on the Kindle. Now all I need is time to read them all ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/10/wlEmoticon-smile1.png).
+Back in February, I bought myself a [Kindle](http://www.amazon.co.uk/gp/product/B002LVUWFE/ref=as_li_ss_tl?ie=UTF8&tag=www6thprimeco-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=B002LVUWFE) and I blogged about it [here](http://www.gep13.co.uk/blog/my-new-kindle). I have been very happy with it, and through some cracking deals at the likes of [O’Reilly](http://oreilly.com/) and [Manning Publications](http://www.manning.com/) I now have an extensive set of technical books on the Kindle. Now all I need is time to read them all.
 
 So, what is the problem?
 

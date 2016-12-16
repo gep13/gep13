@@ -10,7 +10,7 @@ Following on from the very good [DDD Scotland](http://www.gep13.co.uk/blog/a-rev
 
 I [debated](http://www.gep13.co.uk/blog/upcoming-ddd-events) for a long time as to whether I was actually going to attend this event, but in the end, I am very much glad that I did!
 
-After seeing a Tweet from Guy asking for volunteers to help, I decided that I was going to offer my services. As a result, I ended up being a room monitor for the day. This involved ensuring that the speaker had everything that was required, as well as giving out and collecting the speaker feedback forms. I “think” this went ok, as I didn’t hear any complaints. I quite enjoyed doing this, and I will be volunteering my services going forward, especially if they continue to offer up the same free t-shirts ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/wlEmoticon-smile1.png)
+After seeing a Tweet from Guy asking for volunteers to help, I decided that I was going to offer my services. As a result, I ended up being a room monitor for the day. This involved ensuring that the speaker had everything that was required, as well as giving out and collecting the speaker feedback forms. I “think” this went ok, as I didn’t hear any complaints. I quite enjoyed doing this, and I will be volunteering my services going forward, especially if they continue to offer up the same free t-shirts!
 
 **Getting there...**
 
@@ -42,7 +42,7 @@ The only slight criticism of the talk would have to be that, initially, the demo
 
 **Presenter – **Steve Sanderson** ([@stevensanderson](http://twitter.com/#!/stevensanderson))**
 
-I have really only “toyed” with MVC, you can see the fruits of my labour [here](http://gep13.co.uk/). Pretty isn’t it? The eagled-eyed amongst you will recognise it as the out-of-the-box MVC 3 application that ships with Visual Studio 2010 deployed to my web server ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/wlEmoticon-smile1.png). As a result, I was very much looking forward to seeing how MVC could be used properly, from the person who quite literally wrote the [book](http://www.amazon.co.uk/ASP-NET-Framework-Experts-Voice-NET/dp/1430228865/ref=sr_1_1?ie=UTF8&qid=1307983241&sr=8-1) on MVC (with the new release available [here](http://www.amazon.co.uk/Pro-ASP-NET-MVC-Framework-3rd/dp/1430234040/ref=sr_1_2?ie=UTF8&qid=1307983241&sr=8-2)).
+I have really only “toyed” with MVC, you can see the fruits of my labour [here](http://gep13.co.uk/). Pretty isn’t it? The eagled-eyed amongst you will recognise it as the out-of-the-box MVC 3 application that ships with Visual Studio 2010 deployed to my web server. As a result, I was very much looking forward to seeing how MVC could be used properly, from the person who quite literally wrote the [book](http://www.amazon.co.uk/ASP-NET-Framework-Experts-Voice-NET/dp/1430228865/ref=sr_1_1?ie=UTF8&qid=1307983241&sr=8-1) on MVC (with the new release available [here](http://www.amazon.co.uk/Pro-ASP-NET-MVC-Framework-3rd/dp/1430234040/ref=sr_1_2?ie=UTF8&qid=1307983241&sr=8-2)).
 
 The talk started off slowly, and quickly moved onto using the new MVC Scaffolding capabilities of Visual Studio. Of special interest was the separate installation of an additional scaffolding project (via nuget) which allowed the creation of a repository pattern for data access. This is definitely going on the list of things to check out.
 
@@ -80,7 +80,7 @@ Instead, I went down to the Sponsors room and had a very interesting chat with [
 
 **Geek Dinner - Water Sky (Chinese restaurant)**
 
-After a quick stop at the hotel to drop off bags and get changed, it was onto the Geek Dinner. Thanks to [@welshboy2008](http://twitter.com/#!/welshboy2008) for the lift to the restaurant, even though we did at one point end up going the wrong way round a roundabout ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/wlEmoticon-smile1.png).
+After a quick stop at the hotel to drop off bags and get changed, it was onto the Geek Dinner. Thanks to [@welshboy2008](http://twitter.com/#!/welshboy2008) for the lift to the restaurant, even though we did at one point end up going the wrong way round a roundabout.
 
 The food at the Geek Dinner was really good. There was a strange request from the staff that drinks were ordered/paid for separately, which caused an initial bit of confusion, but after the first couple of rounds, I don’t think anyone cared. After the food and drink it was back to the hotel for a quick drink and some more banter, and then an early night ready for the long trip back to Scotland.
 

@@ -17,7 +17,7 @@ Now bear in mind, I was 150 miles away at the time. How did I do this? Using my 
 
 I should clarify that in my house, switching off the internet actually translates as switching off the wireless antenna of our ADSL Router. The need to do this stems from the fact that we use a wireless TV sender to take the Sky Television signal from the Sky+ box downstairs to the television upstairs, and when the wireless antenna in the ADSL router is on, we get interference on the upstairs television.
 
-Now, as I can hear [@barryoconnor](http://twitter.com/#!/barryoconnor) saying, “why not just get Sky Multi-Room?” The reason is two fold. 1) We don’t watch enough TV upstairs to warrant another feed, and more importantly 2) I am cheap ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/wlEmoticon-smile1.png)
+Now, as I can hear [@barryoconnor](http://twitter.com/#!/barryoconnor) saying, “why not just get Sky Multi-Room?” The reason is two fold. 1) We don’t watch enough TV upstairs to warrant another feed, and more importantly 2) I am cheap!
 
 To start with, the solution to this problem was to simply kill the power to the wireless router. However, this was bad for a couple reasons. Firstly, it isn’t great for the device itself, just having the power pulled from it. And secondly, switching off the power stopped all inbound traffic, which given that I run a couple services from a server in my house, isn’t ideal. Also, the five minutes it takes to switch on another computer, to log into the router to switch it off is just too much like hard work!
 

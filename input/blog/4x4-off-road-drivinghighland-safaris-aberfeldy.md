@@ -13,7 +13,7 @@ Last year I was struggling to think what I could get my dad for his Christmas. E
 
 Which led me to [here](http://www.giftexperiencescotland.com/driving-vouchers/offroad-driving-gift-voucher/extended-4x4-offroad-driving-experience-near-aberfeldy./product-detail-EXP139/), which is provided by a company called [Highland Safaris](http://www.highlandsafaris.net/leisure/).
 
-So I ended up buying him this on the understanding that I would be the “other” person that he would be taking along with him (I made sure that this was understood very early in the process ![Smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/wlEmoticon-smile2.png))
+So I ended up buying him this on the understanding that I would be the “other” person that he would be taking along with him (I made sure that this was understood very early in the process)
 
 [![Photo_65094934-7CE5-2FDF-0208-CB9AB0984248](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/Photo_65094934-7CE5-2FDF-0208-CB9AB0984248_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/Photo_65094934-7CE5-2FDF-0208-CB9AB0984248.jpg)This last weekend (25th June), we travelled down to Dull, just west of Aberfeldy to the Highland Safaris Centre. For those of you who are interested, this is the [location](http://maps.google.com/maps?q=Highland+Safaris,+Aberfeldy,+United+Kingdom&hl=en&ll=56.618324,-3.934908&spn=0.037213,0.077162&sll=56.61719,-3.93744&sspn=0.009304,0.01929&geocode=CeGWL-mfSgx7FRLwXwMdV83D_ynxI6kX6aSISDE7st8IwrS1uw&z=14).
 
