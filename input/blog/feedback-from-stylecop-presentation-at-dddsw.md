@@ -15,290 +15,43 @@ Now, I have to say that I was a bit nervous about getting these feedback forms a
 
 # My Feedback
 
-
-<table cellpadding="2" width="600" cellspacing="0" border="0" >
-<tbody >
-<tr >
-
-<td width="200" valign="top" >Speakers knowledge of the subject
-</td>
-
-<td width="200" valign="top" >Speakers presentation skills
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >9
-</td>
-
-<td width="133" valign="top" >8
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >9
-</td>
-
-<td width="133" valign="top" >9
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >8
-</td>
-
-<td width="133" valign="top" >8
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >9
-</td>
-
-<td width="133" valign="top" >9
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >9
-</td>
-
-<td width="133" valign="top" >9
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >9
-</td>
-
-<td width="133" valign="top" >8
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >8
-</td>
-
-<td width="133" valign="top" >8
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >9
-</td>
-
-<td width="133" valign="top" >8
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >9
-</td>
-
-<td width="133" valign="top" >9
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >8
-</td>
-
-<td width="133" valign="top" >8
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >9
-</td>
-
-<td width="133" valign="top" >9
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >9
-</td>
-
-<td width="133" valign="top" >8
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >9
-</td>
-
-<td width="133" valign="top" >9
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >7
-</td>
-
-<td width="133" valign="top" >5
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >8
-</td>
-
-<td width="133" valign="top" >9
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >7
-</td>
-
-<td width="133" valign="top" >8
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >8
-</td>
-
-<td width="133" valign="top" >8
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >9
-</td>
-
-<td width="133" valign="top" >8
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >9
-</td>
-
-<td width="133" valign="top" >9
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >9
-</td>
-
-<td width="133" valign="top" >9
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >9
-</td>
-
-<td width="133" valign="top" >8
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >8
-</td>
-
-<td width="133" valign="top" >7
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >8
-</td>
-
-<td width="133" valign="top" >7
-</td>
-</tr>
-<tr >
-
-<td width="133" valign="top" >8.52 (average)
-</td>
-
-<td width="133" valign="top" >8.17 (average)
-</td>
-</tr>
-</tbody>
-</table>
-
+| Speakers knowledge of the subject | Speakers presentation skills |
+|-----------------------------------|------------------------------|
+| 9                                 | 8                            |
+| 9                                 | 9                            |
+| 8                                 | 8                            |
+| 9                                 | 9                            |
+| 9                                 | 9                            |
+| 9                                 | 8                            |
+| 8                                 | 8                            |
+| 9                                 | 8                            |
+| 9                                 | 9                            |
+| 8                                 | 8                            |
+| 9                                 | 9                            |
+| 9                                 | 8                            |
+| 9                                 | 9                            |
+| 7                                 | 5                            |
+| 8                                 | 9                            |
+| 7                                 | 8                            |
+| 8                                 | 8                            |
+| 9                                 | 8                            |
+| 9                                 | 9                            |
+| 9                                 | 8                            |
+| 8                                 | 7                            |
+| 8.52 (average)                    | 8.17 (average)               |
 
 # Best Speakers By Presentation Skills
 
-
-<table cellpadding="2" width="525" cellspacing="0" border="0" >
-<tbody >
-<tr >
-
-<td width="263" valign="top" >**Speaker**
-</td>
-
-<td width="260" valign="top" >**Score**
-</td>
-</tr>
-<tr >
-
-<td width="301" valign="top" >[Gary Short](https://twitter.com/#!/GaryShort)
-</td>
-
-<td width="278" valign="top" >8.7
-</td>
-</tr>
-<tr >
-
-<td width="311" valign="top" >[Niall Merrigan](https://twitter.com/#!/nmerrigan)
-</td>
-
-<td width="283" valign="top" >8.7
-</td>
-</tr>
-<tr >
-
-<td width="313" valign="top" >[George Adamson](https://twitter.com/#!/GeorgeAdamson)
-</td>
-
-<td width="285" valign="top" >8.66
-</td>
-</tr>
-</tbody>
-</table>
-
+| Speaker                                                | Score                         |
+|--------------------------------------------------------|-------------------------------|
+| [Gary Short](https://twitter.com/#!/GaryShort)         | 8.7                           |
+| [Niall Merrigan](https://twitter.com/#!/nmerrigan)     | 8.7                           |
+| [George Adamson](https://twitter.com/#!/GeorgeAdamson) | 8.66                          |
 
 # Best Speakers By Knowledge Of Subject
 
-
-<table cellpadding="2" width="525" cellspacing="0" border="0" >
-<tbody >
-<tr >
-
-<td width="263" valign="top" >**Speaker**
-</td>
-
-<td width="260" valign="top" >**Score**
-</td>
-</tr>
-<tr >
-
-<td width="301" valign="top" >[Richard Parker](https://twitter.com/#!/rikp)
-</td>
-
-<td width="278" valign="top" >8.64
-</td>
-</tr>
-<tr >
-
-<td width="311" valign="top" >[Niall Merrigan](https://twitter.com/#!/nmerrigan)
-</td>
-
-<td width="283" valign="top" >8.63
-</td>
-</tr>
-<tr >
-
-<td width="313" valign="top" >[Gary Short](https://twitter.com/#!/GaryShort)
-</td>
-
-<td width="285" valign="top" >8.61
-</td>
-</tr>
-</tbody>
-</table>
+| Speaker                                                | Score                         |
+|--------------------------------------------------------|-------------------------------|
+| [Richard Parker](https://twitter.com/#!/rikp)          | 8.64                          |
+| [Niall Merrigan](https://twitter.com/#!/nmerrigan)     | 8.63                          |
+| [Gary Short](https://twitter.com/#!/GaryShort)         | 8.61                          |

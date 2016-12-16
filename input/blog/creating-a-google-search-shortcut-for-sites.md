@@ -18,19 +18,11 @@ However, there is one thing that I think is missing from Barry’s post though (
 
 Here I have added a Search Engine with the following settings:
 
-  <table cellpadding="2" cellspacing="0" border="0" width="628" ><tbody >       <tr >         
-<td width="200" valign="top" >Name:
-</td>          
-<td width="426" valign="top" >Web Applications
-</td>       </tr>        <tr >         
-<td width="200" valign="top" >Keyword:
-</td>          
-<td width="426" valign="top" >webapp
-</td>       </tr>        <tr >         
-<td width="200" valign="top" >URL:
-</td>          
-<td width="426" valign="top" >[http://webapps.stackexchange.com/search?q=%s](http://webapps.stackexchange.com/search?q=%s)
-</td>       </tr>     </tbody></table>
+| Key            | Value                                                                                        |
+|----------------|----------------------------------------------------------------------------------------------|
+| Name:          | Web Applications                                                                             |
+| Keyword:       | webapp                                                                                       |
+| URL:           | [http://webapps.stackexchange.com/search?q=%s](http://webapps.stackexchange.com/search?q=%s) |
 
 This means that in the Google Chrome Omnibox I can simply type:
 
@@ -44,18 +36,10 @@ Personally, this is a much better flow for me, and one that I use on a daily bas
 
 For sites that don’t have a their search page available on the query string, you can use Google’s built in function to limit the search to a specific domain. For instance, over at VBForums, I can use the following Custom Search Engine:
 
- <table cellpadding="2" cellspacing="0" border="0" width="817" ><tbody >     <tr >       
-<td width="200" valign="top" >Name:
-</td>        
-<td width="615" valign="top" >VBForums
-</td>     </tr>      <tr >       
-<td width="200" valign="top" >Keyword:
-</td>        
-<td width="615" valign="top" >vbforums
-</td>     </tr>      <tr >       
-<td width="200" valign="top" >URL:
-</td>        
-<td width="615" valign="top" >[http://www.google.co.uk/search?q=site:vbforums.com+%s](http://www.google.co.uk/search?q=site:vbforums.com+%s)
-</td>     </tr>   </tbody></table>  
+| Key            | Value                                                                                                          |
+|----------------|----------------------------------------------------------------------------------------------------------------|
+| Name:          | VBForums                                                                                                       |
+| Keyword:       | vbforums                                                                                                       |
+| URL:           | [http://www.google.co.uk/search?q=site:vbforums.com+%s](http://www.google.co.uk/search?q=site:vbforums.com+%s) | 
 
 Hope this helps!
