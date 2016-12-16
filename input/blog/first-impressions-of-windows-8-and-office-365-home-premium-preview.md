@@ -49,4 +49,6 @@ Below you will see a number of screenshots that show both the installation proce
 
 I should point out that I did the installation across a lunch hour, using Internet Tethering on my Windows Phone 7. The idea of streaming the necessary functionality as and when required means that the initial installation package is far smaller than previous versions of Office, and installation over a 3G connection is certainly a possibility.
 
-[gallery]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157677922251555&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>

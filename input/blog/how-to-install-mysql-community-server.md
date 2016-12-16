@@ -42,4 +42,6 @@ The installation of MySQL Community Server will have added a new Windows Service
 
 # Installation Screenshots
 
-[gallery ids="1746,1747,1748,1749,1745,1744"]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157674078633093&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>

@@ -19,4 +19,6 @@ Big thanks to Craig for creating the application, I am sure that it will come in
 
 If you are interested, you can see some of the screenshots for the application below:
 
-[gallery]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157674077918383&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>

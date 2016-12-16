@@ -77,4 +77,6 @@ There are still steps remaining in terms of setting up projects, build configura
 
 # Installation Screenshots
 
-[gallery ids="1804,1805,1806,1807,1808,1809,1810,1811,1812,1813,1814,1815,1816,1817,1818,1819,1820,1821,1822,1823,1824,1825,1826,1827,1828,1829,1830,1831,1832,1833,1834,1835,1836,1837"]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157674079120783&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>

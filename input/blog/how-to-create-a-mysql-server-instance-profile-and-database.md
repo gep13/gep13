@@ -54,4 +54,6 @@ You can see screenshots of each of these steps in the galley at the bottom of th
 
 # Configuration Screenshots
 
-[gallery ids="1772,1773,1774,1775,1776,1777,1778,1779,1780,1781,1782,1783,1784,1785,1786,1787,1788,1789,1790,1791,1792,1793,1794,1795,1796,1797"]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157677826941036&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>

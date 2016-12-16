@@ -43,4 +43,6 @@ You can see screenshots of each of these steps in the gallery at the bottom of t
 # Installation Screenshots
 
 
-[gallery ids="1900,1901,1902,1903,1904,1905,1906,1907,1908,1909,1910"]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157677818387676&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>

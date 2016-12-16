@@ -53,4 +53,6 @@ You can see screenshots of each of these steps in the galley at the bottom of th
 # Installation Screenshots
 
 
-[gallery ids="1921,1922,1923,1924,1925,1926,1927,1928,1929,1930,1931,1932,1933,1934,1935,1936,1937,1938,1939,1940,1941,1942,1943,1944"]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157676537769180&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>

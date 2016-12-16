@@ -59,4 +59,6 @@ To verify that verify is working correctly:
 
 # Installation Screenshots
 
-[gallery ids="1727,1728,1729,1730,1732,1731,1737,1734"]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157676537512420&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>

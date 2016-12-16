@@ -98,4 +98,6 @@ To summarize, in addition to the huge difference in time between pushing out the
 
 You can see a gallery of the screenshots that I took during the update process below.
 
-[gallery type="rectangular" ids="2124,2126,2127,2128,2129,2130,2131,2132"]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157674078402093&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>

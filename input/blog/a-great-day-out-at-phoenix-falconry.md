@@ -23,4 +23,6 @@ I am happy to report that I had a great day, so much so that I have actually boo
 
 In total, there were 7 different birds of prey shown to us.  It really was a fascinating day, starting with a small Harris Hawk, and finishing with a Bald Eagle.  Some of the photos that I took on the day can be seen below (there were far more actually taken, and if you are interested, I would be happy to let you see them, but be warned there are lots!)
 
-[gallery]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157676300841291&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>

@@ -17,4 +17,6 @@ When the Kindle is seated within the cover is feels very secure, and I don’t t
 
 Some photos of the Kindle contained within this cover are shown below:
 
-[gallery]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157673989759394&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>
