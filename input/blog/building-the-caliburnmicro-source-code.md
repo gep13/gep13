@@ -23,7 +23,7 @@ The first decision that you will need to make is whether you want to Clone the C
 
 So, first thing’s first, go ahead and download the latest Caliburn.Micro source code:
 
-[![](http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Download.png)](http://www.gep13.co.uk/blog/?attachment_id=1466)
+![Caliburn Micro CodePlex Site](https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/10/Caliburn.Micro_Download.png)
 
 Once the zip file has downloaded:
 
@@ -43,7 +43,7 @@ In order to open the second solution file, you will need to have the Silverlight
 
 In order to open the last solution file, you are going to need to have Visual Studio 2012 along with .Net Framework 4.5 installed.  If you don’t, and you try to open this solution in Visual Studio 2010, you will be greeted with the following:
 
-[![](http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_.WinRT_not_opening.png)](http://www.gep13.co.uk/blog/?attachment_id=1465)
+![One or more projects were not loaded correctly](https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/10/Caliburn.Micro.WinRT_not_opening.png)
 
 # Building the solutions
 
@@ -71,12 +71,12 @@ In version 1.3.1 of Caliburn.Micro, it was assumed that everyone who was using t
 
 Now that you have these Nuget packages, what do you do with them?  What I do is I create a folder on my C:\ drive, typically c:\nugetpackages and I put the Nuget packages in there.  Then, within Visual Studio select Tools | Library Package Manager | Package Manager Settings.  In the windows that opens up, select “Package Sources”, click the green "add" button, and enter “Local Nuget” as the Name, and “C:\nugetpackages” as the source, and click the “Update” button:
 
-[![](http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Local_Nuget_Package_Source.png)](http://www.gep13.co.uk/blog/?attachment_id=1467)
+![Local Nuget Package Source](https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/10/Caliburn.Micro_Local_Nuget_Package_Source.png)
 
 With this in place, then either through the Package Manager Console you can use the “Local Nuget” source and install the package:
 
-[![](http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Package_Manager_Console_Install.png)](http://www.gep13.co.uk/blog/?attachment_id=1469)
+![NuGet Package Manager Console](https://gep13wpstorage.blob.core.windows.net/gep13/2010/10/10/Caliburn.Micro_Package_Manager_Console_Install.png)
 
 Or, through the “Mange Nuget Packages” dialog you can again select “Local Nuget” and select the package that you want to install:
 
-[![](http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/Caliburn.Micro_Manage_Nuget_Packages.png)](http://www.gep13.co.uk/blog/?attachment_id=1468)
+![Manage NuGet Packages](https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/10/Caliburn.Micro_Manage_Nuget_Packages.png)

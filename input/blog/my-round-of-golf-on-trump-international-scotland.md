@@ -11,7 +11,7 @@ Last Christmas, I got an amazing present from my family...
 
 A round of golf on Donald Trump’s new Golf Course, “Trump International Scotland”.
 
-[![](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/WP_000300-300x225.jpg)](http://www.gep13.co.uk/blog/my-round-of-golf-on-trump-international-scotland/wp_000300.jpg/)
+![Gift Certificate](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/22/WP_000300.jpg)
 
 **_NOTE:_** Below you will see a gallery of some of the photos that I took on the day.
 
@@ -25,4 +25,6 @@ Granted, we did get an amazing day for playing the course.  The sun was out, an
 
 All in all, we had a fantastic time, and I would highly recommend playing this course.  There are still some areas where the course needs work, and time to bed in, but that will come with time.  Congratulations to Donald Trump for bringing a great Golf Course to the North East!
 
-[gallery]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157674067914223&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>

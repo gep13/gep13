@@ -16,6 +16,6 @@ In addition to the regular monthly events, I will also be getting involved in he
 
 I attended my first Scottish Developers Annual General Meeting on the 7th July 2012, where I was formally introduced as a committee members.  You can see photos from the day below.
 
-[gallery orderby="title"]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
 
-
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157676528891060&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>

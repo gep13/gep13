@@ -21,7 +21,7 @@ Due to the fact that you were completely unprepared for this impromptu meeting, 
 
 Once OneNote is up installed on your machine, it is always available, for any application. Simply by pressing the “Windows Key + N” you will be presented with an area into which you can start writing notes, shown here:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/image_thumb3.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/image3.png)
+![New Note](https://gep13wpstorage.blob.core.windows.net/gep13/2011/2/15/image3.png)
 
 This isn’t the full OneNote application, but rather a stripped down version of it, with some rudimentary formatting options, and a space to start entering text. As a result, it opens almost immediately, and you can literally start typing directly into it.
 
@@ -29,7 +29,7 @@ To follow on from the situation above, as your manager is harassing you with que
 
 Everything you type into this note is saved straight away, with no need for you to do anything else, just type the text, and then close the note. To get the note back later, fire open OneNote, and you will see a section called “Unfiled Notes” at the bottom left hand side:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/image_thumb4.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/image4.png)
+![Filed into unfiled notes](https://gep13wpstorage.blob.core.windows.net/gep13/2011/2/15/image4.png)
 
 This is where all your “quick” notes end up. The idea being that you either delete them once you are finished with them, or you add them into one of your other Notebooks or sections.
 

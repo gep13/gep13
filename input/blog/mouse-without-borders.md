@@ -13,10 +13,10 @@ Before finding “[Mouse without Borders](http://blogs.technet.com/b/next/archiv
 
 Once setup, you can position tell “[Mouse without Borders](http://blogs.technet.com/b/next/archive/2011/09/09/microsoft-garage-download-mouse-without-borders.aspx)” how you want your machines configured, I have mine setup as follows:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/10/image_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/10/image.png)
+![Mouse Without Borders](https://gep13wpstorage.blob.core.windows.net/gep13/2011/10/13/image.png)
 
 and there are a host of options that you can configure:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/10/image_thumb1.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/10/image1.png)
+![Mouse Without Borders Configuration](https://gep13wpstorage.blob.core.windows.net/gep13/2011/10/13/image1.png)
 
 There are other products on the market that do a similar job, for instance [InputDirector](http://www.inputdirector.com/), but I have never tried this software.

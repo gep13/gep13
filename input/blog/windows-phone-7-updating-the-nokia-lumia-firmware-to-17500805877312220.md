@@ -8,43 +8,43 @@ Tags:
 - Windows Phone 7
 ---
 
-I have been meaning to post this for a while, but with one thing and another, I just haven’t had time.  However, as some of you will know, I have been banging on about this update for a LONG time!  What feels like ages ago now, Nokia finally announced that they were going to bring internet tethering to the Nokia Lumia 800 (a feature that I have been sorely missing since I moved from my beloved HTC HD7 to the Nokia Lumia 800), however, it took over a month to get the update onto my phone.
+I have been meaning to post this for a while, but with one thing and another, I just haven’t had time.  However, as some of you will know, I have been banging on about this update for a LONG time!  What feels like ages ago now, Nokia finally announced that they were going to bring internet tethering to the Nokia Lumia 800 (a feature that I have been sorely missing since I moved from my beloved HTC HD7 to the Nokia Lumia 800), however, it took over a month to get the update onto my phone.
 
 Anyway, the day finally arrived, and the installation, as always, went very smoothly:
 
-[![2012-08-07_0729](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0729_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0729.png)
+![An update is available](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-08-07_0729.png)
 
-[![2012-08-07_0732](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0732_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0732.png)
+![Update your phone](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-08-07_0732.png)
 
-[![2012-08-07_0732_001](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0732_001_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0732_001.png)
+![Don't Disconnect](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-08-07_0732_001.png)
 
-You may or may not see the following screen.  As soon as I got the notification that the update was ready I went ahead and installed it, which meant using the work computer, which I haven’t set up my phone on.  It’s good to know that it can be done in this way though.
+You may or may not see the following screen.  As soon as I got the notification that the update was ready I went ahead and installed it, which meant using the work computer, which I haven’t set up my phone on.  It’s good to know that it can be done in this way though.
 
-[![2012-08-07_0733](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0733_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0733.png)
+![Guest Phone Detected](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-08-07_0733.png)
 
-[![2012-08-07_0733_001](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0733_001_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0733_001.png)
+![Step 2 of 10](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-08-07_0733_001.png)
 
-[![2012-08-07_0735](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0735_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0735.png)
+![Update in progress](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-08-07_0735.png)
 
-[![2012-08-07_0735_001](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0735_001_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0735_001.png)
+![Step 4 of 10](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-08-07_0735_001.png)
 
-[![2012-08-07_0736](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0736_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0736.png)
+![Step 5 of 10](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-08-07_0736.png)
 
-[![2012-08-07_0736_001](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0736_001_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0736_001.png)
+![Step 6 of 10](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-08-07_0736_001.png)
 
-[![2012-08-07_0737](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0737_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0737.png)
+![Step 7 of 10](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-08-07_0737.png)
 
-[![2012-08-07_0742](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0742_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0742.png)
+![Step 8 of 10](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-08-07_0742.png)
 
-[![2012-08-07_0750](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0750_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0750.png)
+![Step 9 of 10](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-08-07_0750.png)
 
-[![2012-08-07_0751](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0751_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0751.png)
+![Step 10 of 10](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-08-07_0751.png)
 
-[![2012-08-07_0751_001](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0751_001_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0751_001.png)
+![Successful Update](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-08-07_0751_001.png)
 
-[![2012-08-07_0752](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0752_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-08-07_0752.png)
+![Your phone is up to date](https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-08-07_0752.png)
 
-With the update completed, I immediately checked the Settings page, and I am very happy to report that the “Internet Sharing” function is now available on my Nokia Lumia 800.  In fact, I am actually away to publish this blog post from my laptop, which is currently tethered to the phone.
+With the update completed, I immediately checked the Settings page, and I am very happy to report that the “Internet Sharing” function is now available on my Nokia Lumia 800.  In fact, I am actually away to publish this blog post from my laptop, which is currently tethered to the phone.
 
 Other features that came along with this update includes:
 

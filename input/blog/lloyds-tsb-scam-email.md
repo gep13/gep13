@@ -16,7 +16,7 @@ Now, both of the above things made me a little suspicious, but looking at the em
 
 Firstly, the “from” address of the email:
 
-[![14a5ab8f-17fc-46c1-b602-f154010be53e](http://www.gep13.co.uk/blog/wp-content/uploads/Lloyds-TSB-scam-email_13AAA/14a5ab8f-17fc-46c1-b602-f154010be53e_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Lloyds-TSB-scam-email_13AAA/14a5ab8f-17fc-46c1-b602-f154010be53e.png)
+![From Email Address](https://gep13wpstorage.blob.core.windows.net/gep13/2010/11/9/14a5ab8f-17fc-46c1-b602-f154010be53e.png)
 
 You should notice a couple things from the above:
 
@@ -26,7 +26,7 @@ You should notice a couple things from the above:
 
 Looking in to the body of the email, I was then presented with:
 
-[![ddff2199-f268-4526-a477-59ca19a25bdb](http://www.gep13.co.uk/blog/wp-content/uploads/Lloyds-TSB-scam-email_13AAA/ddff2199-f268-4526-a477-59ca19a25bdb_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Lloyds-TSB-scam-email_13AAA/ddff2199-f268-4526-a477-59ca19a25bdb.png)
+![Suspicious URL](https://gep13wpstorage.blob.core.windows.net/gep13/2010/11/9/ddff2199-f268-4526-a477-59ca19a25bdb.png)
 
 Notice here that the URL for the link goes to lloydstsb.co.uk. Although the spelling of Lloyds is correct this time, the actual URL for my Lloyds TSB account goes to lloydstsb.com. A subtle difference, but in the world of the internet, this is the difference between a legitimate site, and a bogus one.
 

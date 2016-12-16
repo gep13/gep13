@@ -6,6 +6,6 @@ Tags:
 - Family
 ---
 
-[![Dave Susan and Judy](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/Dave-Susan-and-Judy_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/Dave-Susan-and-Judy.jpg)
+![Dave Susan and Judy](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/17/Dave-Susan-and-Judy.jpg)
 
 Happy Birthday to my Auntie Susan and Uncle Dave, both of whom are sadly no longer with us.

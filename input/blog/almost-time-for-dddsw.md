@@ -30,7 +30,9 @@ In case you haven’t seen it, there is a Windows Phone 7 application for DDD So
 
 The original version of this application simply listed any tweets on twitter that included the #dddsw hash tag, however, a recent update to the application now includes the agenda for the day. Screenshots below:
 
-[![DSCF5118](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/DSCF5118_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/DSCF5118.jpg)[![DSCF5117](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/DSCF5117_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/DSCF5117.jpg)
+![DDDSW Windows Phone Application](https://gep13wpstorage.blob.core.windows.net/gep13/2011/6/5/DSCF5118.jpg)
+
+![DDDSW Windows Phone Agenda](https://gep13wpstorage.blob.core.windows.net/gep13/2011/6/5/DSCF5117.jpg)
 
 I for one will be making extensive use of this application when I am trying to decide which sessions I want to go to.
 

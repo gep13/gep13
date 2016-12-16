@@ -6,7 +6,7 @@ Tags:
 - Windows Phone 7
 ---
 
-[![DSCF5126](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/DSCF5126_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/DSCF5126.jpg)   
+![Full House of Applications](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/18/DSCF5126.jpg)
 
 As some of you may remember, I recently [blogged](http://www.gep13.co.uk/blog/i-feel-i-am-missing-some-applications) about the fact that I was missing some applications from my collection of Windows Phone 7 Apps. i.e. there were letters in my Windows Phone 7 Jump List that didn’t have any applications behind them.
 

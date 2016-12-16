@@ -17,7 +17,7 @@ Overall, DDD North 2 went very well! I have to say a huge congratulations to the
 
 One really nice touch at this year's event was the speaker t-shirts. Printed on the back of the t-shirts is a list of all the DDD events that have happened both in the UK and further afield. I am wondering whether this new tradition is going to continue in future events.  You can see the back of the t-shirt below:
 
-[![](http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/WP_000313-768x1024.jpg)](http://www.gep13.co.uk/blog/my-impressions-of-ddd-north-2/wp_000313/)
+![DDD North 2 T-Shirt](https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/14/WP_000313.jpg)
 
 This led to an interesting question about how many DDD Events you had attended, which led me to make this [blog post](http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank/), hopefully we will find who has attended the most DDD Events.
 

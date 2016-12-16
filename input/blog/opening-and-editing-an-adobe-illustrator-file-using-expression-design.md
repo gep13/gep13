@@ -21,10 +21,10 @@ Although it used to only be part of the Expression Studio, Express Design is now
 
 This couldn't be simpler!  Open up Expression Design, and open the file.  Once open, you will have the option to Export the image:
 
-[caption id="attachment_2076" align="alignnone" width="1171"][![Expression Design Export Menu](http://www.gep13.co.uk/blog/wp-content/uploads/2013/05/Expression-Design-Export-Menu.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2013/05/Expression-Design-Export-Menu.png) Expression Design Export Menu[/caption]
+![Expression Design Export Menu](https://gep13wpstorage.blob.core.windows.net/gep13/2013/5/24/Expression-Design-Export-Menu.png)
 
 On the next window, you will then be able to choose the output format, and also the size of the resulting image:
 
-[caption id="attachment_2077" align="alignnone" width="1206"][![Expression Design Export Options](http://www.gep13.co.uk/blog/wp-content/uploads/2013/05/Expression-Design-Export-Options.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2013/05/Expression-Design-Export-Options.png) Expression Design Export Options[/caption]
+![Expression Design Export Options](https://gep13wpstorage.blob.core.windows.net/gep13/2013/5/24/Expression-Design-Export-Options.png)
 
 Simples!  Thanks again Scott!

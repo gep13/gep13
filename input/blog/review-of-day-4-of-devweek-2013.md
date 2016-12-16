@@ -14,7 +14,7 @@ RedirectFrom: blog/review-of-day-4-of-devweek-2013/index.html
 
 # And the winning continues at DevWeek...
 
-I am very happy to say that today started where yesterday finished off.  I won a Telerik DevCraft Complete license.  Big thanks to Telerik for this! As a number of people on twitter have suggested, I will be purchasing a lottery ticket for this weekend!  Who knows, I might be a winner!
+I am very happy to say that today started where yesterday finished off.  I won a Telerik DevCraft Complete license.  Big thanks to Telerik for this! As a number of people on twitter have suggested, I will be purchasing a lottery ticket for this weekend!  Who knows, I might be a winner!
 
 - [Day 1 - Pre-Conference Workshop](http://gep13.me/W0AJEP)
 - [Day 2 - Conference Sessions](http://gep13.me/YuOPy2)
@@ -24,15 +24,15 @@ I am very happy to say that today started where yesterday finished off.  I won 
 
 # First Morning Session
 
-**Presenter: **Brock Allen (you can find his blog [here](http://brockallen.com/), and twitter [here](https://twitter.com/brocklallen))
+**Presenter:** Brock Allen (you can find his blog [here](http://brockallen.com/), and twitter [here](https://twitter.com/brocklallen))
 
-**Topic: **Internals of security in ASP.NET
+**Topic:** Internals of security in ASP.NET
 
  > Security is crucial for online applications. This session on security discusses the basics and then the internals of authentication and authorization in ASP.NET. We will discuss Windows and Forums authentication, how roles are assigned to the user and how to control authorization in both WebForms and MVC applications.
 
 **Thoughts**
 
-As per Brock's talk yesterday, this was another very well executed presentation, detailing the fine details of how Security works in ASP.NET (both Windows and Forms Authentication).  This talk got down to the nitty-gritty of how things work, with lots of great insights that showed how depth of knowledge on the subject.  You could argue that some of the topics were "common sense" but that doesn't mean that everyone does them.  It is only when they are laid out in detail as they were in this talk, that you start to think about what you need to do in your own applications.
+As per Brock's talk yesterday, this was another very well executed presentation, detailing the fine details of how Security works in ASP.NET (both Windows and Forms Authentication).  This talk got down to the nitty-gritty of how things work, with lots of great insights that showed how depth of knowledge on the subject.  You could argue that some of the topics were "common sense" but that doesn't mean that everyone does them.  It is only when they are laid out in detail as they were in this talk, that you start to think about what you need to do in your own applications.
 
 **Takeaways**
 
@@ -51,11 +51,11 @@ As per Brock's talk yesterday, this was another very well executed presentation,
 
 # Rest of the day
 
-The final session of today was one on NoSQL (specifically MongoDB) and I was very interested in seeing this!  On reading the schedule for the other sessions, it was clear that Michael was doing three back to back sessions, that each built on top of each other, to complete a full application.  Essentially, another full day workshop.  As a result, I decided to attend all three of them.
+The final session of today was one on NoSQL (specifically MongoDB) and I was very interested in seeing this!  On reading the schedule for the other sessions, it was clear that Michael was doing three back to back sessions, that each built on top of each other, to complete a full application.  Essentially, another full day workshop.  As a result, I decided to attend all three of them.
 
-**Presenter: **Michael Kennedy (you can find his blog [here](http://blog.michaelckennedy.net/), and twitter [here](https://twitter.com/mkennedy))
+**Presenter:** Michael Kennedy (you can find his blog [here](http://blog.michaelckennedy.net/), and twitter [here](https://twitter.com/mkennedy))
 
-**First Topic: **Nine ways your next ASP.NET MVC project can be better
+**First Topic:** Nine ways your next ASP.NET MVC project can be better
 
 > So you’re ready to start that new and ambitious ASP.NET MVC project. Maybe you’re kicking off a new startup or just finally moving that old-and-crusty Web Forms project into the modern development world. Either way, this talk will give you some easy things you can do immediately after creating that new MVC project that you will thank yourself for as your project grows in complexity.
 > This talk will be based on my related blog post here: [http://bit.ly/QoCxnC](http://bit.ly/QoCxnC)
@@ -72,15 +72,15 @@ The final session of today was one on NoSQL (specifically MongoDB) and I was ver
 
 **Thoughts**
 
-Overall, this was a really good series of presentations.  Each one built on the last, and the end result was a complete sample application that shows how to create an ASP.NET MVC Application, using MongoDB as the back-end.  I have been told be Michael that both the sample code for the talks and the slides will be made available, so I will be keeping an eye out for those!
+Overall, this was a really good series of presentations.  Each one built on the last, and the end result was a complete sample application that shows how to create an ASP.NET MVC Application, using MongoDB as the back-end.  I have been told be Michael that both the sample code for the talks and the slides will be made available, so I will be keeping an eye out for those!
 
-The final session, although the most interesting for me, was (in my opinion) a little rushed in terms of the code that was shown, and there were a couple of problems during the demos that meant there was a bit of jumping around in the code.  However, this was more than made up for in the question and answer session at the end of the talk, lots of great info here, especially the discussion between whether to use MongoDB or RavenDB.
+The final session, although the most interesting for me, was (in my opinion) a little rushed in terms of the code that was shown, and there were a couple of problems during the demos that meant there was a bit of jumping around in the code.  However, this was more than made up for in the question and answer session at the end of the talk, lots of great info here, especially the discussion between whether to use MongoDB or RavenDB.
 
 Also, during the second session, there was quite a lot of banging noises coming from elsewhere in the Barbican Centre, which was a little off-putting.
 
 **Takeaways**
 
-- Lots of great tips about how to improve the default ASP.NET MVC project.  Far too many to list here, but check out Michael's blog post linked above.
+- Lots of great tips about how to improve the default ASP.NET MVC project.  Far too many to list here, but check out Michael's blog post linked above.
 - Suggestion to use [front-end frameworks](http://usablica.github.com/front-end-frameworks/compare.html) for CSS
 - Make use of a [reset.css](http://www.cssreset.com)
 - Make use of the Get, Post, Redirect pattern
@@ -95,4 +95,4 @@ Also, during the second session, there was quite a lot of banging noises coming 
 
 # Overall Thoughts
 
-Another busy, but highly enjoyable day at DevWeek.  Was also able to squeeze in a kick lunch meeting with Paul, Hadi, Matt, and Howard.  Was great to catch up with people I haven't seen in a while, as well as put faces to twitter names!
+Another busy, but highly enjoyable day at DevWeek.  Was also able to squeeze in a kick lunch meeting with Paul, Hadi, Matt, and Howard.  Was great to catch up with people I haven't seen in a while, as well as put faces to twitter names!

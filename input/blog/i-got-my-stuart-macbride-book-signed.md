@@ -16,4 +16,4 @@ With some time to kill while I was in the queue, I started to read the book, and
 
 For those interested, here is the result of waiting in the queue:
 
-[![WP_000311](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/WP_000311_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/WP_000311.jpg)
+![Signed Stuart MacBride Book](https://gep13wpstorage.blob.core.windows.net/gep13/2012/1/17/WP_000311.jpg)

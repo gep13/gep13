@@ -30,17 +30,17 @@ Thanks for Mark Russinovich, there is a Sysinternals tool called Coreinfo, which
 
 For my desktop machine, which in fairness is VERY old, SLAT is not supported:
 
-[![SLAT not support on Desktop](http://www.gep13.co.uk/blog/wp-content/uploads/2012/09/Desktop_Output.png)](http://www.gep13.co.uk/blog/does-your-development-rig-support-slat/desktop_output/)
+![SLAT not support on Desktop](https://gep13wpstorage.blob.core.windows.net/gep13/2012/9/14/Desktop_Output.png)
 
 The good news however is that SLAT is supported on my laptop:
 
-[![SLAT is support on Laptop](http://www.gep13.co.uk/blog/wp-content/uploads/2012/09/Laptop_Output.png)](http://www.gep13.co.uk/blog/does-your-development-rig-support-slat/laptop_output/)
+![SLAT is support on Laptop](https://gep13wpstorage.blob.core.windows.net/gep13/2012/9/14/Laptop_Output.png)
 
 NOTE: The important thing that you need to look for (for Intel chips) is the asterisk next to EPT.
 
 **UPDATE:** Based on the comment from Andy Westgarth below, if you are running coreinfo.exe on a machine that already has Hyper-V installed, you will get a different message returned.  Be careful to read all the output from this command.  When Hyper-V was installed on my new machine, this is the output that I got:
 
-[![](http://www.gep13.co.uk/blog/wp-content/uploads/2012/09/2012-09-27_2033.png)](http://www.gep13.co.uk/blog/does-your-development-rig-support-slat/2012-09-27_2033/)
+![Update](https://gep13wpstorage.blob.core.windows.net/gep13/2012/9/14/2012-09-27_2033.png)
 
 Note the important text:
 

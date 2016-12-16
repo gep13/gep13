@@ -26,23 +26,23 @@ There are two ways that you can use it, either as a [standalone application](htt
 
 With this installed, you have two ways to access the available sample applications. The first is from the Tools Menu:
 
-[![All In One Code 1](http://www.gep13.co.uk/blog/wp-content/uploads/All-In-Code-Framework_12560/All-In-One-Code-1_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/All-In-Code-Framework_12560/All-In-One-Code-1.png)
+![All In One Code 1](https://gep13wpstorage.blob.core.windows.net/gep13/2011/7/16/All-In-One-Code-1.png)
 
 Clicking on this brings up this:
 
-[![All In One Code 3](http://www.gep13.co.uk/blog/wp-content/uploads/All-In-Code-Framework_12560/All-In-One-Code-3_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/All-In-Code-Framework_12560/All-In-One-Code-3.png)
+![All In One Code 3](https://gep13wpstorage.blob.core.windows.net/gep13/2011/7/16/All-In-One-Code-3.png)
 
 Where you have the option to filter on keyword, language and technology.
 
 The second method is to highlight a keyword within your code file and filter on that:
 
-[![All In One Code 2](http://www.gep13.co.uk/blog/wp-content/uploads/All-In-Code-Framework_12560/All-In-One-Code-2_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/All-In-Code-Framework_12560/All-In-One-Code-2.png)
+![All In One Code 2](https://gep13wpstorage.blob.core.windows.net/gep13/2011/7/16/All-In-One-Code-2.png)
 
 There are currently 678 sample applications that span a very wide area. The people behind this strive to create each sample using C#, VB.Net and C++, as well as for Visual Studio 2008 and Visual Studio 2010, so you should always be able to find sample in the language that you require. If you can’t, there is also the option to request a particular [code sample](http://1code.codeplex.com/wikipage?title=Request%20Code%20Sample%20from%20Microsoft%20All-In-One%20Code%20Framework&referringTitle=Documentation).
 
 Once you have specified the location that you want to store the downloaded sample applications:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/All-In-Code-Framework_12560/image_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/All-In-Code-Framework_12560/image.png)
+![All In One Code Storage Location](https://gep13wpstorage.blob.core.windows.net/gep13/2011/7/16/image.png)
 
 You have the option to either download the sample applications as and when you require them, or you can download them all at once. Also, if an update to an application is published to the CodePlex site, the application notifies you of this, and gives you the option to upgrade.
 

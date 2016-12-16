@@ -21,7 +21,7 @@ When it comes to finding an error, or tracking down a problem within a particula
 
 As with most software problems, you typically get some sort of error message...
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/image_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/image.png)
+![JavaScript Alert](https://gep13wpstorage.blob.core.windows.net/gep13/2011/2/8/image.png)
 
 _Here is one I created earlier..._
 
@@ -31,12 +31,12 @@ In order to be useful, and searchable, I would normally type out the entire cont
 
 By default, when you insert an image into a OneNote Note, the text within that picture (if there is any) is automatically made searchable. You can verify this by right clicking on the image and looking at “Make Text in Image Searchable”
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/image_thumb1.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/image1.png)
+![Make Text in Image Searchable](https://gep13wpstorage.blob.core.windows.net/gep13/2011/2/8/image1.png)
 
 From within this menu you have the option of turning this feature off, as well as selecting the language that you want to use for the text recognition.
 
 When it comes to searching for the text of interest, just hit “CTRL+F”, type the text you want, and then click through the results:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/image_thumb2.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/image2.png)
+![Search Results](https://gep13wpstorage.blob.core.windows.net/gep13/2011/2/8/image2.png)
 
 In the above, notice how the text that was searched for in the top right hand corner immediately became highlighted within the image that had been pasted into the Note.

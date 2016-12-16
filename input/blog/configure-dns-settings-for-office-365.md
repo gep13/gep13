@@ -28,7 +28,7 @@ _**Required DNS Records**_
 
 In order to know the DNS settings that you need to configure you have to log into the administration section of Office 365. Once in there, click on Admin. From there, click on Domains in the left hand menu, then click on the domain that you want to administer. Once there, click on DNS Manager, and you will see something like the following:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb4.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image4.png)
+![DNS Manager](https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/15/image4.png)
 
 These are all the records that you will need to configure on your domain. The first set are used for the Exchange Email and the second set are used of setting up [Lync 2010](http://blogs.msdn.com/b/mssmallbiz/archive/2010/11/16/microsoft-lync-2010-information-and-resources-for-you.aspx).
 
@@ -44,11 +44,11 @@ However, when it came to Lync 2010, I just couldn’t get it to work!
 
 With the help of Ian, I was able to set up Lync 2010 manually, to prove that it worked at all. This was done by going into Lync and selecting Tools | Options, and from there click “Advanced...” 
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb5.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image5.png)
+![Lync Options](https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/15/image5.png)
 
 Then, in the Advanced Connection Settings dialogue, manually configure the internal and external server names to be sipdir.online.lync.com:443:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb6.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image6.png)
+![Advanced Connection Settings](https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/15/image6.png)
 
 And this will allow you to log into Lync using your user that you set up in Office 365.
 
@@ -69,7 +69,7 @@ I fell back on trying to use nslookup to get the information that I needed, and 
 
 The output should look something like this:
 
-[![SRV Records](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/SRV-Records_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/SRV-Records.png)
+![SRV Records](https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/15/SRV-Records.png)
 
 _NOTE: There records are the ones that are misconfigured_
 

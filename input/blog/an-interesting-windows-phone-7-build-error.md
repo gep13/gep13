@@ -11,7 +11,7 @@ RedirectFrom: blog/an-interesting-windows-phone-7-build-error/index.html
 
 While creating the sample demos for my Windows Phone 7 presentation at DDDNorth, I ran into an interesting error:
 
-[![](http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/2012-10-09_1936.png)](http://www.gep13.co.uk/blog/?attachment_id=1484)
+![Error List](https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/12/2012-10-09_1936.png)
 
 > “Manifest validation failed: AppManifestInvalidAuthor”
 
@@ -19,7 +19,7 @@ To put it into perspective, this was a brand new Windows Phone 7 application, fr
 
 Based on the description, I had a look in the WMAppManifest file, but I couldn't find anything obviously wrong:
 
-[![](http://www.gep13.co.uk/blog/wp-content/uploads/2012/10/2012-10-09_1937.png)](http://www.gep13.co.uk/blog/?attachment_id=1483)
+![WMAppManifest.xml file](https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/12/2012-10-09_1937.png)
 
 A quick Google later, and I had stumbled upon this [blog post](http://digitaltransfusion.net/2010/09/21/wp7-manifest-validation-fails/) by [@ryanplemons](http://twitter.com/ryanplemons) which answered the question.  Turns out there is a limit on the number of characters that you can have in the Publisher, Author and Title attributes of the App node:
 

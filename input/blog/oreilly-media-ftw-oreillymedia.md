@@ -17,7 +17,7 @@ To start off with, as a registered member, you have the option to register all t
 
 As an example, take a look at the “Inside the Microsoft Build Engine” book that I have in my collection (I picked this one up while I was at DDD Reading):
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/OReilly-Media_BA9D/image_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/OReilly-Media_BA9D/image.png)
+![Inside the Microsoft Build Engine](https://gep13wpstorage.blob.core.windows.net/gep13/2011/4/15/image.png)
 
 **NOTE:** not all books are supported by the O’Reilly site, but I would say that over 70% of my collection was.
 

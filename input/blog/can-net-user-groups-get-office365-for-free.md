@@ -15,7 +15,7 @@ As a User Group we are “toying” with the idea of perhaps using the supplied 
 
 Now comes the problem though...
 
-Since the Office365 program is now out of Beta, you now have to pay for the service. ![Sad smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/wlEmoticon-sadsmile2.png)
+Since the Office365 program is now out of Beta, you now have to pay for the service.
 
 Don’t get me wrong, this is not a huge amount of money, it starts at £4 per user, per month (full details can be found [here](http://www.microsoft.com/en-gb/office365/online-software.aspx)), but given that we are a User Group who runs free events for the community, there simply isn’t any budget allocated for this type of service.
 

@@ -17,7 +17,7 @@ RedirectFrom: blog/review-of-day-2-of-devweek-2013/index.html
 
 # A busy second day at DevWeek...
 
-What follows is a brief summary of the sessions that I attended at the 2nd overall day of DevWeek 2013 (the first day of actual sessions).  Review of the other days of DevWeek can be seen here:
+What follows is a brief summary of the sessions that I attended at the 2nd overall day of DevWeek 2013 (the first day of actual sessions).  Review of the other days of DevWeek can be seen here:
 	
 - [Day 1 - Pre-Conference Workshop](http://gep13.me/W0AJEP)
 - [Day 2 - Conference Sessions](http://gep13.me/YuOPy2) (this post)
@@ -29,15 +29,15 @@ In this the 16th year of DevWeek, Dave Wheeler was meant to be doing the Keynote
 
 # First Morning Session
 
-**Presenter: **[Kevlin Henney](https://twitter.com/kevlinhenney) and [Steve Plank](https://twitter.com/plankytronixx)
+**Presenter:** [Kevlin Henney](https://twitter.com/kevlinhenney) and [Steve Plank](https://twitter.com/plankytronixx)
 
-**Topic: **"A Question of Craftsmanship" and "Advances in Cloud Computing Platform"
+**Topic:** "A Question of Craftsmanship" and "Advances in Cloud Computing Platform"
 
 **Thoughts**
 
-Personally, I thought that these were two very good sessions.  Kevlin's gave a very thought-provoking discussion about thinking about code as art, and how we should be ensuring that we strive to create the best code possible.  And Steve gave a great demo of how complicated systems can be configured and deployed in Windows Azure.  I also really liked Steve's slides, which really have to be seen to be understood.  They were essentially drawings, which were created as he was speaking.
+Personally, I thought that these were two very good sessions.  Kevlin's gave a very thought-provoking discussion about thinking about code as art, and how we should be ensuring that we strive to create the best code possible.  And Steve gave a great demo of how complicated systems can be configured and deployed in Windows Azure.  I also really liked Steve's slides, which really have to be seen to be understood.  They were essentially drawings, which were created as he was speaking.
 
-While leaving the room, I heard some mumblings from some other delegates that the second talk was a sales pitch, but I really don't think that this was how it was intended.  I guess you can't please everyone!
+While leaving the room, I heard some mumblings from some other delegates that the second talk was a sales pitch, but I really don't think that this was how it was intended.  I guess you can't please everyone!
 
 **Takeaways**
 	
@@ -57,22 +57,22 @@ While leaving the room, I heard some mumblings from some other delegates that th
 **Book Recommendations**
 
 - [Pattern-Oriented Software Architecture](http://www.amazon.co.uk/Pattern-Oriented-Software-Architecture-Volume-Patterns/dp/0471958697/ref=sr_1_1?ie=UTF8&qid=1362513603&sr=8-1)
-- [Software Craftsmanship - The New Imperative](http://www.amazon.co.uk/Software-Craftsmanship-The-New-Imperative/dp/0201733862/ref=sr_1_sc_1?ie=UTF8&qid=1362513626&sr=8-1-spell) - described as quite simplistic, but with some good points
+- [Software Craftsmanship - The New Imperative](http://www.amazon.co.uk/Software-Craftsmanship-The-New-Imperative/dp/0201733862/ref=sr_1_sc_1?ie=UTF8&qid=1362513626&sr=8-1-spell) - described as quite simplistic, but with some good points
 - [97 Things Every Programmer Should Know](http://www.amazon.co.uk/Things-Every-Programmer-Should-Know/dp/0596809484/ref=sr_1_1?ie=UTF8&qid=1362513643&sr=8-1)
 
 # Second Morning Session
 
-**Presenter: **Kevin Jones (you can find him on twitter [here](https://twitter.com/kevinrjones) and on GitHub [here](https://github.com/kevinrjones))
+**Presenter:** Kevin Jones (you can find him on twitter [here](https://twitter.com/kevinrjones) and on GitHub [here](https://github.com/kevinrjones))
 
-**Topic: **Building interactive clients with knockout.js
+**Topic:** Building interactive clients with knockout.js
 
  > Client side development in the browser is becoming more and more important. Clients expect highly interactive applications that respond quickly to changes. To manage this developers have to cope with the demands of JavaScript. While jQuery is a fantastic tool, sometimes it feels too low-level and maybe needs something layered on top. One such layering is knockout.js. This provides an MVVM programming model for the browser. This talk looks briefly at the basis for MVVM and then into the details of knockout.js. We will cover the data-binding that is at the heart of this toolkit looking for example at how knockout does data updates and computed values. We will also see how knockout can work with your server-side coding.
 
 **Thoughts**
 
-I went to Kevin's full day session on Unit Testing at last years DevWeek so I knew that he is a great speaker, and I am happy to say that again, I was not disappointed.  Through a number of examples, each building on top of each other, we were provided with a very good introduction to what knockout.js is, and how it can be used.
+I went to Kevin's full day session on Unit Testing at last years DevWeek so I knew that he is a great speaker, and I am happy to say that again, I was not disappointed.  Through a number of examples, each building on top of each other, we were provided with a very good introduction to what knockout.js is, and how it can be used.
 
-At one point, Kevin seemed to go off on a bit of tangent when trying to describe a particular situation, when his demo didn't do what he expected.  He was able to turn this around very well though, and the end result was a discussion about using "debugger" on the click event of any bound element to step into the JavaScript debugger of the browser you are using to enable you to figure out exactly what is going on, and what contexts are being used by knockout.js.  This was the number one takeaway from this session.  This technique is described in this [StackOverflow question](http://stackoverflow.com/questions/9261296/any-good-techniques-to-debug-template-binding-faults-for-knockout-js).
+At one point, Kevin seemed to go off on a bit of tangent when trying to describe a particular situation, when his demo didn't do what he expected.  He was able to turn this around very well though, and the end result was a discussion about using "debugger" on the click event of any bound element to step into the JavaScript debugger of the browser you are using to enable you to figure out exactly what is going on, and what contexts are being used by knockout.js.  This was the number one takeaway from this session.  This technique is described in this [StackOverflow question](http://stackoverflow.com/questions/9261296/any-good-techniques-to-debug-template-binding-faults-for-knockout-js).
 
 **Takeaways**
 
@@ -92,48 +92,48 @@ At one point, Kevin seemed to go off on a bit of tangent when trying to describe
 
 # First Afternoon Session
 
-**Presenter: **Scott Allen (you can find his blog [here](http://odetocode.com/blogs/all), and twitter [here](https://twitter.com/OdeToCode))
+**Presenter:** Scott Allen (you can find his blog [here](http://odetocode.com/blogs/all), and twitter [here](https://twitter.com/OdeToCode))
 
-**Topic: **The new world of HTML5 and CSS3
+**Topic:** The new world of HTML5 and CSS3
 
 > WebSockets, Webworkers, animations, transitions, and SVG. These are just a few of the new capabilities we can use to build applications with modern browsers.
 > In this session we’ll give overviews and demonstrations of these new features and see how to build applications with the latest standards.
 
 **Thoughts**
 
-This was a very good talk.  Scott's laid back approach to presenting makes it very easy to get absorbed in what he is saying, and you don't realise where the time goes!  The 90 minutes were up very quickly!
+This was a very good talk.  Scott's laid back approach to presenting makes it very easy to get absorbed in what he is saying, and you don't realise where the time goes!  The 90 minutes were up very quickly!
 
-The only thing that I would say is there was a lot of jumping between the PowerPoint version of his slides, and an HTML version of his slides.  I think he could have quite easily done the entire presentation from the HTML version, rather than just showing the demos from the HTML version.  Not sure why he took the decision to do it this way.
+The only thing that I would say is there was a lot of jumping between the PowerPoint version of his slides, and an HTML version of his slides.  I think he could have quite easily done the entire presentation from the HTML version, rather than just showing the demos from the HTML version.  Not sure why he took the decision to do it this way.
 
 **Takeaways**
 
 Throughout this talk, there were a number of sites that were shown that really help you get started with HTML5 and CSS3, so some of the below are simply links to these sites.
 
-- [http://caniuse.com/](http://caniuse.com/) - very cool site which shows which elements are supported in which browsers
-- [http://html5test.com/](http://html5test.com/) - provides a score for browsers in terms of how well they implement HTML5.  For instance, at the time of writing, Chrome scores 463.
+- [http://caniuse.com/](http://caniuse.com/) - very cool site which shows which elements are supported in which browsers
+- [http://html5test.com/](http://html5test.com/) - provides a score for browsers in terms of how well they implement HTML5.  For instance, at the time of writing, Chrome scores 463.
 - [http://html5boilerplate.com/](http://html5boilerplate.com/)
-- [http://www.css3.info/preview/](http://www.css3.info/preview/) - site showing how CSS3 can be used
+- [http://www.css3.info/preview/](http://www.css3.info/preview/) - site showing how CSS3 can be used
 - [Interesting post about HTML5](http://www.brucelawson.co.uk/2009/redesigning-with-html-5-wai-aria/)
-- [Google Fonts](http://www.google.com/webfonts) - a site to provide the necessary CSS to enable certain fonts on your site
+- [Google Fonts](http://www.google.com/webfonts) - a site to provide the necessary CSS to enable certain fonts on your site
 - Declare the language encoding that your site uses as early as possible in the page
-- [http://thehtml5quiz.com/](http://thehtml5quiz.com/) - how many html elements can you name in 5 minutes?
+- [http://thehtml5quiz.com/](http://thehtml5quiz.com/) - how many html elements can you name in 5 minutes?
 - HTML 5 video tag doesn't support DRM
 - For debugging WebSockets, you can't use fiddler right now, you would need to use something like WireShark
 - The code for the session can be found [here](https://t.co/3vineLMtJN)
 
 # Second Afternoon Session
 
-**Presenter: **Andrew Clymer (you can find his blog [here](http://andyclymer.blogspot.co.uk/), and twitter [here](https://twitter.com/andrewclymer))
+**Presenter:** Andrew Clymer (you can find his blog [here](http://andyclymer.blogspot.co.uk/), and twitter [here](https://twitter.com/andrewclymer))
 
-**Topic: **Taking advantage of C# 5 async/await
+**Topic:** Taking advantage of C# 5 async/await
 
 > .NET 4 introduced the new ‘task’ abstraction, and C# 5 will take advantage of integrating this into the language via the async and await keywords. Furthermore, the new task abstraction promotes a new way of architecting asynchronous behaviour; in this talk we will explore how to take advantage of these new keywords and other new types and features being exposed in the next version of .NET to deliver far simpler asynchronous Windows UI's.
 
 **Thoughts**
 
-I was very much looking forward to this talk.  I have seen the usage of async/await before, and I have played with it in a Windows Phone application that I was creating, but I was interested to find out more about it.  There was no faulting the speakers knowledge on the subject, it was excellent, however, there were a couple of things about the talk that were slightly off-putting for me.
+I was very much looking forward to this talk.  I have seen the usage of async/await before, and I have played with it in a Windows Phone application that I was creating, but I was interested to find out more about it.  There was no faulting the speakers knowledge on the subject, it was excellent, however, there were a couple of things about the talk that were slightly off-putting for me.
 
-Firstly, the use of a second person, Richard Blewett, on stage to drive the transition of the slides, and also to generate the code.  For me, this didn't really work.  Rich was using Andrew's laptop that had a different configuration than he was used to which meant that there were problems when building and running code.
+Firstly, the use of a second person, Richard Blewett, on stage to drive the transition of the slides, and also to generate the code.  For me, this didn't really work.  Rich was using Andrew's laptop that had a different configuration than he was used to which meant that there were problems when building and running code.
 
 Secondly, when requesting that a slide be moved to the next one, there was a click of the fingers, which again for me, was quite off-putting.
 
@@ -156,6 +156,6 @@ There were actually some really interesting takeaways from this session.
 
 # Overall Thoughts
 
-As always, a very well executed day at DevWeek.  Everything seemed to run very smoothly.  The venue is amazing (even though it is a bit of a hike from the exhibition area to some of the rooms for talks), and the food for lunch and breaks is excellent.  Looking forward to tomorrow.  I took a few pictures on my phone, which you can see below:
+As always, a very well executed day at DevWeek.  Everything seemed to run very smoothly.  The venue is amazing (even though it is a bit of a hike from the exhibition area to some of the rooms for talks), and the food for lunch and breaks is excellent.  Looking forward to tomorrow.  I took a few pictures on my phone, which you can see below:
 
 [gallery type="rectangular" ids="1965,1966,1967,1968"]

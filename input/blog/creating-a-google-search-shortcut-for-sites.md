@@ -14,7 +14,7 @@ Barry makes a really good point about tailoring the place that you are searching
 
 However, there is one thing that I think is missing from Barry’s post though (sorry Barry, in no way a criticism), and that is first of all going to the Web Applications website to then do your search. Personally, I would prefer to set up a Custom Search Engine within Google Chrome, rather than first navigating to the site. I do this all the time for things that I find myself doing over and over again. For instance, I have a Custom Google Search Engine for [finding information on MSDN](http://www.gep13.co.uk/blog/google-chrome-search-for-msdn/) (NOTE: This blog post needs updating to the latest version of Google Chrome, but you get the idea). And the same thing can be done for Web Applications:
 
-[![Custom_Google_Search](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Custom_Google_Search_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Custom_Google_Search.png)
+![Custom Google Search](https://gep13wpstorage.blob.core.windows.net/gep13/2012/1/31/Custom_Google_Search.png)
 
 Here I have added a Search Engine with the following settings:
 
@@ -36,7 +36,7 @@ This means that in the Google Chrome Omnibox I can simply type:
 
 > webapp <then the tab key> "What you want to search for” <then press the enter key>
 
-[![Web_Application_Search](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Web_Application_Search_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Web_Application_Search.png)
+![Web Application Search](https://gep13wpstorage.blob.core.windows.net/gep13/2012/1/31/Web_Application_Search.png)
 
 This has the benefit of doing the search, and the navigation to the website in one action, rather than two.
 

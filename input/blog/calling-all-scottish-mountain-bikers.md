@@ -11,4 +11,4 @@ A friend of mine has started a new website dedicated to Mountain Biking in Scotl
 
 If you are at all interested in Mountain Biking, I would highly recommend that you check it out!
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/11/image_thumb.png)](http://www.mtbtrails.info/Default.aspx)
+![MTB Trails Info Website](https://gep13wpstorage.blob.core.windows.net/gep13/2011/11/17/image.png)

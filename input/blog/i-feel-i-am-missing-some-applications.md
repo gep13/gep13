@@ -6,7 +6,7 @@ Tags:
 - Windows Phone 7
 ---
 
-[![DSCF5120](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/DSCF5120_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/DSCF5120.jpg)
+![Missing Applications](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/10/DSCF5120.jpg)
 
 For those of you who don’t know me, I am a bit of a hoarder when it comes to Windows Phone applications. You can find a list of the ones that I currently have installed [here](http://www.gep13.co.uk/blog/my-windows-phone-7-applications).
 

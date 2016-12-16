@@ -11,9 +11,9 @@ RedirectFrom: blog/review-of-day-5-of-devweek-2013/index.html
 
 # Today was the last day of DevWeek
 
-Well, it has been a long, but enjoyable, week at DevWeek, and today was the last day.  Today was another full day workshop, and I decided to attend the Continuous Delivery Workshop with Neal Ford.
+Well, it has been a long, but enjoyable, week at DevWeek, and today was the last day.  Today was another full day workshop, and I decided to attend the Continuous Delivery Workshop with Neal Ford.
 
-People who have been following this series of posts will know that I have been rather lucky, winning both a Surface RT and a Telerik DevCraft Complete License.  There were no prizes won today, but you will all be happy to know that I have purchased a Euro Millions lottery ticket.  I will keep you posted on whether I win anything :-)
+People who have been following this series of posts will know that I have been rather lucky, winning both a Surface RT and a Telerik DevCraft Complete License.  There were no prizes won today, but you will all be happy to know that I have purchased a Euro Millions lottery ticket.  I will keep you posted on whether I win anything :-)
 
 Review of the other days of DevWeek can be seen here:
 
@@ -25,9 +25,9 @@ Review of the other days of DevWeek can be seen here:
 
 # Post-Conference Workshop at DevWeek
 
-**Presenter: **Neal Ford (you can find his blog [here](http://nealford.com/), and his twitter [here](https://twitter.com/neal4d))
+**Presenter:** Neal Ford (you can find his blog [here](http://nealford.com/), and his twitter [here](https://twitter.com/neal4d))
 
-**Topic: **Continuous Delivery Workshop
+**Topic:** Continuous Delivery Workshop
 
 > Getting software released to users is often a painful, risky, and time-consuming process. This workshop sets out the principles and technical practices that enable rapid, incremental delivery of high quality, valuable new functionality to users.
 Through automation of the build, deployment, and testing process, and improved collaboration between developers, testers and operations, delivery teams can get changes released in a matter of hours – sometimes even minutes – no matter what the size of a project or the complexity of its code base.
@@ -35,16 +35,16 @@ The workshop materials are derived from the best-selling book ‘Continuous Deli
 
 # Thoughts
 
-Overall, I have to say that this was a very well structured and executed presentation.  Neal obviously understands this area very well, and was able to field a number of questions from the audience.  There was loads of active conversation from the audience, which made it even more interesting. Lots of conversation regarding real-life situations, and experiences.
+Overall, I have to say that this was a very well structured and executed presentation.  Neal obviously understands this area very well, and was able to field a number of questions from the audience.  There was loads of active conversation from the audience, which made it even more interesting. Lots of conversation regarding real-life situations, and experiences.
 
-The one thing that I thought was missing from the Workshop was some demos.  There was lots of description of the deployment pipeline, and using puppet to automate the configuration of a server, but I think what really would have cemented these ideas was an example.  Even if this was a simple website application being packaged, and deployed onto even a single server, at the click of a button.  This would have made for a very cool end demonstration to summarize the whole discussion.
+The one thing that I thought was missing from the Workshop was some demos.  There was lots of description of the deployment pipeline, and using puppet to automate the configuration of a server, but I think what really would have cemented these ideas was an example.  Even if this was a simple website application being packaged, and deployed onto even a single server, at the click of a button.  This would have made for a very cool end demonstration to summarize the whole discussion.
 
 # Takeaways
 
-There really was loads to think about in this talk.  Some of the stand out questions, takeaways were as follows:
+There really was loads to think about in this talk.  Some of the stand out questions, takeaways were as follows:
 
 - How often do you release to users?
-- Correct answer of course is that you should be ready to release to users whenever they require it.  Software should always be in a deployable state.
+- Correct answer of course is that you should be ready to release to users whenever they require it.  Software should always be in a deployable state.
 - How long would it take your organisation to deploy a change that involves just one line of code?
 - Thinking about the above, can you do this in a repeatable fashion, that doesn't involve crazy amounts of over time?
 - Make sure there is a clear delineation between Unit Tests and Functional Tests, and run these as separate parts of your delivery pipeline
@@ -76,6 +76,6 @@ There really was loads to think about in this talk.  Some of the stand out ques
 
 # Overall Thoughts
 
-As I have said in my other posts, I have had a really good time at DevWeek, and I am happy to say that I have learnt a lot this week.  Hoping to be able to take back a lot of what I have learnt and start applying them at work.
+As I have said in my other posts, I have had a really good time at DevWeek, and I am happy to say that I have learnt a lot this week.  Hoping to be able to take back a lot of what I have learnt and start applying them at work.
 
 Huge congratulations to the organisers of DevWeek, they did a great job, and a huge thanks to all the staff of the Barbican and the helpers at DevWeek!

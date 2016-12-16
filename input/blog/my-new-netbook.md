@@ -9,10 +9,9 @@ Tags:
 
 Last week I purchased my shiny new NetBook. I opted for the [ASUS Eee PC 1015PX](http://www.asus.com/Eee/Eee_PC/Eee_PC_1015PX/) which you can see pictured below.
 
-[![56 (2)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/56-2_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/56-2.jpg)
+![Open Netbook](https://gep13wpstorage.blob.core.windows.net/gep13/2011/8/9/56-2.jpg)
 
-[![55 (2)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/55-2_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/55-2.jpg)
-
+![Closed Netbook](https://gep13wpstorage.blob.core.windows.net/gep13/2011/8/9/55-2.jpg)
  
 
  

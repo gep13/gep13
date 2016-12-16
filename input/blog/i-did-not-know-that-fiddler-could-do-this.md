@@ -25,17 +25,16 @@ The other day when using Fiddler I was blown away by a feature that I had not se
 1. Open your web browser ready for inspecting traffic
 1. Open Fiddler
 1. Find the “Process Filter” toolbar item in the main toolbar       
-       
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image.png)        
+
+    ![Fiddler Process Filter](https://gep13wpstorage.blob.core.windows.net/gep13/2011/7/7/image.png)       
 
 1. Hover your mouse hover this and you will see the following tooltip which pretty much explains it all. Click your mouse on the “Process Filter” button and the text will change to say “pick target...” and the icon will change to be a cross hair.       
-       
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image_thumb1.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image1.png)        
+
+    ![Click and Drag](https://gep13wpstorage.blob.core.windows.net/gep13/2011/7/7/image1.png)       
 
 1. With the left mouse button still held down, move the mouse to the window (process) that you want to filter the HTTP target from. In this case, it is the web browser that you opened in step 1, but it could equally be any other application that is communicating over HTTP. 
 1. The “Process Filter” button will change again to show the process id that it is filtering HTTP traffic from       
-       
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image_thumb2.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/07/image2.png)   
+    ![Filter in place](https://gep13wpstorage.blob.core.windows.net/gep13/2011/7/7/image2.png)       
 
 1. Once you are finished, simply left click the “Process Filter” toolbar item again and the filter will be removed.
 

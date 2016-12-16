@@ -8,7 +8,7 @@ Tags:
 - Windows Phone 7
 ---
 
-[![clip_image002](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/clip_image002_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/clip_image002.jpg)
+![Twitter News about Lync Mobile](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/12/clip_image002.jpg)
 
 This morning, thanks to the medium of Twitter I found out that the Lync 2010 Client for Windows Phone had been released. A quick search on the Marketplace, and the application was downloading onto my Phone.
 
@@ -33,7 +33,7 @@ After logging into my Office 365 account, I selected:
  
 And sure enough, the required DNS Records for Office 365 had changed since I last looked at it:
 
-[![clip_image002[4]](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/clip_image0024_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/clip_image0024.jpg)
+![DNS Records](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/12/clip_image0024.jpg)
 
 There is a new CNAME entry for lyncdiscover.gep13.co.uk. And actually, the requirement for the second SRV record has been removed, replaced with another CNAME record.
 

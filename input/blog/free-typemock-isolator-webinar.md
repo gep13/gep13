@@ -11,7 +11,7 @@ In case you haven’t seen it, TypeMock are running a free Webinar entitled:
 
 **“Test the Untestable: Tips for Easy Unit Testing”**
 
-on the 27th June 2011 at 3 PM GMT. The link for signing up is [here](https://www2.gotomeeting.com/register/365837051). All going well, I am planning on attending this event, but the way work has been going, I might have to give it a miss ![Sad smile](http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/wlEmoticon-sadsmile1.png)
+on the 27th June 2011 at 3 PM GMT. The link for signing up is [here](https://www2.gotomeeting.com/register/365837051). All going well, I am planning on attending this event, but the way work has been going, I might have to give it a miss.
 
 TypeMock Isloator is one of the licenses that we are able to give away at the [Aberdeen Developers .Net User Group](http://www.aberdeendevelopers.co.uk/), so if you have already been lucky enough to win one of these licenses, this Webinar will be a great way to get started using it.
 
