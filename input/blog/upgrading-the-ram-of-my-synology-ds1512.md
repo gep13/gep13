@@ -19,7 +19,7 @@ As a result, I have noticed that certain things are taking longer than they "sho
 
 I opted to go for [this from Amazon](http://www.amazon.co.uk/gp/product/B0050X1OQ6/ref=oh_details_o00_s00_i00?ie=UTF8&psc=1), and I am happy to report that it all worked perfectly!  After installing, the RAM was immediately detected, and the Synology Server is running very smoothly.  Definitely recommend the upgrade to anyone who has not yet done it.  Very cheap to do, with a marked improvement in performance.
 
-[caption id="attachment_2046" align="alignnone" width="827"][![Synology RAM Upgrade Complete](http://www.gep13.co.uk/blog/wp-content/uploads/2013/04/2013-04-24_1815.png)](http://www.gep13.co.uk/blog/upgrading-the-ram-of-my-synology-ds1512/2013-04-24_1815/) Synology RAM Upgrade Complete[/caption]
+![Synology RAM Upgrade Complete](https://gep13wpstorage.blob.core.windows.net/gep13/2013/4/25/2013-04-24_1815.png)
 
 # Video Help
 

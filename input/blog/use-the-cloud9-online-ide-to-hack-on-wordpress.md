@@ -13,7 +13,7 @@ As some of you may know, I have been _hacking_ on this WordPress blog site recen
 
 Now, WordPress comes with its own built-in file editor, which gives you the ability to edit individual files.  This can be pretty much any file within WordPress, be it, plugins, themes, script files, etc.  However, the editor itself is very basic, and I quickly became annoyed at using it:
 
-[![WordPress_Editor](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/WordPress_Editor_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/WordPress_Editor.png)
+![WordPress Editor](https://gep13wpstorage.blob.core.windows.net/gep13/2012/1/31/WordPress_Editor.png)
 
 # Using an Online IDE
 
@@ -42,22 +42,22 @@ I played with both of these, on and off, while I was doing my hacking, and I hav
 
 One thing I should note about [Cloud9 IDE](http://c9.io/), is that in order to secure access to your projects you normally need to purchase the premium subscription, i.e:
 
-[![Create_New_Project](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Create_New_Project_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Create_New_Project.png)
+![Create New Project](https://gep13wpstorage.blob.core.windows.net/gep13/2012/1/31/Create_New_Project.png)
 
 However, when it comes to FTP projects, it is only you that gets access:
 
-[![Create_New_Project_-_FTP](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Create_New_Project_-_FTP_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Create_New_Project_-_FTP.png)
+![Create New Project FTP](https://gep13wpstorage.blob.core.windows.net/gep13/2012/1/31/Create_New_Project_-_FTP.png)
 
 Now, I have to admit that other people getting access to my FTP Server was something that I was worried about, and I wanted to test to make sure that it wasn't publicly accessible.  To test this I sent a DM on Twitter to Phil Leggetter and asked him to try to get in, and this is what he was met with:
 
-[![denied access](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/denied-access_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/denied-access.png)
+![Denied Access](https://gep13wpstorage.blob.core.windows.net/gep13/2012/1/31/denied-access.png)
 
 However, what is interesting, is that you "can" grant access to users through the [Cloud9 IDE](http://c9.io/) dashboard, once they request access, which is a really nice touch:
 
-[![Cloud9_Dashboard](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Cloud9_Dashboard_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/Cloud9_Dashboard.png)
+![Cloud9 Dashboard](https://gep13wpstorage.blob.core.windows.net/gep13/2012/1/31/Cloud9_Dashboard.png)
 
 Sorry Phil, I denied your request to join the project :).
 
 All in all, this is a VERY polished application, and I would highly recommend checking it out.  The GitHub and BitBucket integration is seamless, and _just_ works!  Make sure you check it out.
 
-If you are interested in checking out the result of my _hacking _I have uploaded my changes to my GitHub site [here](https://github.com/gep13/NowReadingReloaded13).
+If you are interested in checking out the result of my _hacking_ I have uploaded my changes to my GitHub site [here](https://github.com/gep13/NowReadingReloaded13).

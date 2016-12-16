@@ -12,12 +12,12 @@ This morning, I switched on my phone, and it told me that there was an update av
 
 On plugging in my phone, and opening up Zune, I was presented with this:
 
-[![2011-12-03_0939](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/2011-12-03_0939_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/2011-12-03_0939.png)
+![Update your phone](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/3/2011-12-03_0939.png)
 
 So this update was the one that I thought the last one was, a bug fix update.
 
 This wasn’t a big update, and after about fifteen minutes, I got the following:
 
-[![2011-12-03_0956](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/2011-12-03_0956_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/2011-12-03_0956.png)
+![Successful Update](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/3/2011-12-03_0956.png)
 
 Simples!

@@ -10,13 +10,15 @@ Tags:
 
 Following a comment on a recent [blog post](http://www.gep13.co.uk/blog/my-new-netbook), I went on over to the Crucial website and confirmed that my NetBook was capable of handling 2 GB of RAM, and I was happy to find out that it could. I was even more happy to find out that it was only going to cost me £9.99, plus £2 for shipping bargain.
 
-[![58 (2)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/58-2_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/58-2.jpg)
+![Memory Compartment](https://gep13wpstorage.blob.core.windows.net/gep13/2011/8/11/58-2.jpg)
 
 A couple days later, and I was the proud owner of a brand new stick of 2 GB of RAM.
 
 The memory compartment for the ASUS 1015PX is located on the base of the NetBook, pictured on the left, and there is one simple screw keeping the compartment secure.
 
-With this removed, I was able to expose the current 1GB of RAM that is installed on the NetBook, pictured below.[![5a (2)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/5a-2_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/5a-2.jpg)
+With this removed, I was able to expose the current 1GB of RAM that is installed on the NetBook, pictured below.
+
+![Old Memory](https://gep13wpstorage.blob.core.windows.net/gep13/2011/8/11/5a-2.jpg)
 
 To remove the currently installed RAM, it is a simple process of pushing the flexible piece of metal at each side of stick of RAM, and the RAM will pop up slightly out of secure holding.
 
@@ -26,7 +28,7 @@ Putting the new stick of RAM in is just as simple. Place the RAM into the openin
 
 The result of my efforts are pictured below.
 
-[![5b (2)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/5b-2_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/5b-2.jpg)
+![RAM Installed](https://gep13wpstorage.blob.core.windows.net/gep13/2011/8/11/5b-2.jpg)
 
 With the new stick of RAM securely seated in the holder, the only thing left to do is to tighten the screw again, and the jobs done, all you have to do is boot back into Windows, and start enjoying your computers new found power!
 
@@ -36,7 +38,7 @@ There would now appear to be a problem!
 
 When I started up my NetBook, and booted back into Windows, I was greeted with the following when I went into the system properties:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/image_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/image.png)
+![System Properties](https://gep13wpstorage.blob.core.windows.net/gep13/2011/8/11/image.png)
 
 For some reason, the new stick of RAM has not been recognised, but the NetBook is functioning correctly?!?
 

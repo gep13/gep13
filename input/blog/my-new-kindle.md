@@ -15,7 +15,11 @@ In addition to ordering the Kindle, I also opted to buy the leather case, which 
 
 Here is how it looks:
 
-[![b3](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/b3_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/b3.jpg)[![b5](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/b5_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/b5.jpg)[![b4](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/b4_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/b4.jpg)
+![Kindle Cover](https://gep13wpstorage.blob.core.windows.net/gep13/2011/2/23/b3.jpg)
+
+![Kindle Light](https://gep13wpstorage.blob.core.windows.net/gep13/2011/2/23/b5.jpg)
+
+![Kindle Open](https://gep13wpstorage.blob.core.windows.net/gep13/2011/2/23/b4.jpg)
 
 I opted to go for the standard wifi version, rather than the 3G one. This was for a couple reasons:
 
@@ -34,7 +38,9 @@ You can either:
  
 Because I wanted to see how it would work, I opted to go for the second option. I fired up Outlook, attached the book and sent it. Within a few minutes, the book was on the Kindle, so very clever!! I sent a few eBooks with a couple different formats, namely PDF and mobi, as I wanted to see how both would work. The results are shown here:
 
-[![b7](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/b7_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/b7.jpg)[![b8](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/b8_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/02/b8.jpg)
+![Showing book on Kindle](https://gep13wpstorage.blob.core.windows.net/gep13/2011/2/23/b7.jpg)
+
+![Showing another book on Kindle](https://gep13wpstorage.blob.core.windows.net/gep13/2011/2/23/b8.jpg)
 
 They both work very well!!
 

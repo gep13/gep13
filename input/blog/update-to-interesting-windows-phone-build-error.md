@@ -20,14 +20,16 @@ But after a bit of googling, I was able to find out what the problem was.  In a
 
 I am happy to report, that things have improved, a lot, in this area within Visual Studio 2012.  Firstly, you don't have to edit the WMAppManifest.xml file by hand.  Visual Studio 2012 now includes a designer that sits on top of this XML file, as shown here:
 
-[gallery type="rectangular" ids="1867,1868,1869,1870"]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157676140964522&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>
 
 This editor exists for both Windows Phone 7.1 and Windows Phone 8.0 applications.  You can of course continue to edit the XML directly (if you are that way inclined):
 
-[caption id="attachment_1871" align="alignnone" width="1142"][![Edit WMAppManifest.xml directly](http://www.gep13.co.uk/blog/wp-content/uploads/2013/01/edit_WMAppManifest_File_Directly.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2013/01/edit_WMAppManifest_File_Directly.png) Edit WMAppManifest.xml directly[/caption]
+![Edit WMAppManifest.xml directly](https://gep13wpstorage.blob.core.windows.net/gep13/2013/1/15/edit_WMAppManifest_File_Directly.png)
 
 But doing so means that you lose the ability to get immediate feedback on the state of your WMAppManifest.xml file, as shown here:
 
-[caption id="attachment_1872" align="alignnone" width="904"][![WMAppManifest Editor showing error](http://www.gep13.co.uk/blog/wp-content/uploads/2013/01/WMAppManifest_Editor_Error.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2013/01/WMAppManifest_Editor_Error.png) WMAppManifest Editor showing error[/caption]
+![WMAppManifest Editor showing error](https://gep13wpstorage.blob.core.windows.net/gep13/2013/1/15/WMAppManifest_Editor_Error.png)
 
 This is a really great addition to Visual Studio, and another example of how Microsoft are ensuring that the end to end development experience is getting much better.  I first noticed this type of editor on top of XML files in Visual Studio 2010 when doing SharePoint development, and this is another very welcome addition!

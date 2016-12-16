@@ -10,11 +10,11 @@ Tags:
 
 I have recently been working on a SharePoint Web Part, and while trying to retract the solution from SharePoint, I got an error message, shown here:
 
-[![5e76c325-aa54-4408-9fe5-ca32dc405398](http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/5e76c325-aa54-4408-9fe5-ca32dc405398_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/5e76c325-aa54-4408-9fe5-ca32dc405398.png)
+![SharePoint Error Message](https://gep13wpstorage.blob.core.windows.net/gep13/2010/11/24/5e76c325-aa54-4408-9fe5-ca32dc405398.png)
 
 Now, in all honesty, I didn’t think much of this error, because when I checked the files associated with each of the features for the solution they were all gone, and when I tried to open the home page of my SharePoint server, it worked, and everything looked to be ok. However, an additional step after retracting the solution was to remove a couple files from the GAC (yes, I know I need to alter my WSP project to do this for me, but...), on opening the GAC, I was greeted with this:
 
-[![ee75f8ab-79d9-4c07-b512-09fab0b6cdc0](http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/ee75f8ab-79d9-4c07-b512-09fab0b6cdc0_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Where-did-the-assemblies-from-my-Global-_13A1E/ee75f8ab-79d9-4c07-b512-09fab0b6cdc0.png)
+![Empty GAC in Windows Explorer](https://gep13wpstorage.blob.core.windows.net/gep13/2010/11/24/ee75f8ab-79d9-4c07-b512-09fab0b6cdc0.png)
 
 Where have all my assemblies gone?!? My machine is still running, and there haven’t been any error messages pop up, so I know the files in the GAC must be there, but for whatever reason, they are not being displayed. So, what do you do in situations like this? I don’t know about you, but I always turn to the person next to me to make sure that they are seeing the same thing as me. So I did, I pulled over one of my colleagues, and asked him to look at my GAC and ask if he had seen this before. However, when I did this, and I opened the GAC again, all the files were there!! So I took some stick about being an idiot, and I went on with my day.
 

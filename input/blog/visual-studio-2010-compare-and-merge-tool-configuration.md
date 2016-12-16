@@ -23,17 +23,17 @@ Follow these steps to configure this:
 - Open Visual Studio 2010 
 - Select Tools | Options and in the tree, select “Source Control” 
 - Change the "Current source control plug-in" DropDownList to be "Visual Studio Team Foundation Server"        
-       
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image_thumb1.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image1.png)        
+    
+    ![Options](https://gep13wpstorage.blob.core.windows.net/gep13/2011/3/15/image1.png)   
 
 - Select "Visual Studio Team Foundation Server" in the tree under "Source Control"
 - Click the "Configure User Tools..." button        
-       
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image_thumb2.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image2.png)        
+
+    ![Options](https://gep13wpstorage.blob.core.windows.net/gep13/2011/3/15/image2.png)
 
 - Click the "Add..." button        
-       
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image_thumb3.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image3.png)        
+
+    ![Configure User Tools](https://gep13wpstorage.blob.core.windows.net/gep13/2011/3/15/image3.png)
 
 - For the "Extension" put ".*" (without the quotes) 
 - For the "Operation" put "Compare"
@@ -41,7 +41,7 @@ Follow these steps to configure this:
 - For the "Arguments" put "/ub /dl %6 /dr %7 %1 %2" (without the quotes) 
 - Hit "OK"        
        
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image_thumb4.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image4.png)        
+    ![Configure Tool](https://gep13wpstorage.blob.core.windows.net/gep13/2011/3/15/image4.png)
 
 - Click the "Add..." button 
 - For the "Extension" put ".*" (without the quotes) 
@@ -50,7 +50,7 @@ Follow these steps to configure this:
 - For the "Arguments" put "%3 --fname %8 %2 --fname %7 %1 --fname %6 -o %4" (without the quotes) 
 - Hit "OK"        
        
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image_thumb5.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/03/image5.png)        
+    ![Configure Tool](https://gep13wpstorage.blob.core.windows.net/gep13/2011/3/15/image5.png)
 
 - Hit "OK"
 - Hit "OK"

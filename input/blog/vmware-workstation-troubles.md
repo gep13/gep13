@@ -15,11 +15,11 @@ In order to connect to some clients network, we have to use a proprietary VPN Cl
 
 However, when I tried to run up Windows XP Mode at the same time as a VM hosted in VMWare Workstation, I was greeted with the following:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/VMWare-Workstation-troubles_11F5D/image_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/VMWare-Workstation-troubles_11F5D/image.png)
+![VMWare Workstation Error](https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/13/image.png)
 
 Followed by this:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/VMWare-Workstation-troubles_11F5D/image_thumb_3.png)](http://www.gep13.co.uk/blog/wp-content/uploads/VMWare-Workstation-troubles_11F5D/image_3.png)
+![Further VMWare Workstation Error](https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/13/image_3.png)
 
 This actually crashed the VMWare Workstation hosted VM, and resulted in some corruption of one of me VM’s.
 

@@ -8,11 +8,11 @@ Tags:
 
 Today I saw some tweets on Twitter hinting at the fact that a new update was available for Windows Phone, so when I got home tonight I plugged my HTC HD7 phone into my laptop, and sure enough, there was an update available!
 
-[![1._Update_Available](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/1._Update_Available_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/1._Update_Available.png)
+![Update available](https://gep13wpstorage.blob.core.windows.net/gep13/2012/1/19/1._Update_Available.png)
 
 Clicking on update presented me with more information about this update:
 
-[![2._Update_Your_Phone](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/2._Update_Your_Phone_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/2._Update_Your_Phone.png)
+![Update your phone](https://gep13wpstorage.blob.core.windows.net/gep13/2012/1/19/2._Update_Your_Phone.png)
 
 In case it is not clear from the picture this update includes:
 
@@ -27,10 +27,10 @@ For full information about this update, be sure to check out the site [here](htt
 
 After doing a quick check that everything was ready to go, I opted to start the update. Thankfully, the installer reminded me of this important fact:
 
-[![3._Plug_in_computer](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/3._Plug_in_computer_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/3._Plug_in_computer.png)
+![Plug in your computer](https://gep13wpstorage.blob.core.windows.net/gep13/2011/1/19/3._Plug_in_computer.png)
 
 10 steps and 30 minutes later, I had a newly updated phone (the majority of this time was spent backing up the phone before applying the update).
 
-[![5._Success](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/5._Success_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/01/5._Success.png)
+![Success](https://gep13wpstorage.blob.core.windows.net/gep13/2011/1/19/5._Success.png)
 
 With this update in place, I am happy to report that I am now able to connect to my wireless internet connection in the house. I was previously having issues with this following the last update.

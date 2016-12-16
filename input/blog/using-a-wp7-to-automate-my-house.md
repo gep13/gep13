@@ -13,7 +13,7 @@ Last weekend while I was at [DDD Scotland](http://www.gep13.co.uk/blog/a-review-
 
 Now bear in mind, I was 150 miles away at the time. How did I do this? Using my Windows Phone 7 of course!
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb3.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image3.png)
+![Main Page](https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/14/image3.png)
 
 I should clarify that in my house, switching off the internet actually translates as switching off the wireless antenna of our ADSL Router. The need to do this stems from the fact that we use a wireless TV sender to take the Sky Television signal from the Sky+ box downstairs to the television upstairs, and when the wireless antenna in the ADSL router is on, we get interference on the upstairs television.
 

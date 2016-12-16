@@ -14,16 +14,16 @@ Nothing in the information that I then read about made me want to run away and i
 
 The next day came and I saw this tweet from ShawnWildermuth:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/11/image1.png)](https://twitter.com/#!/ShawnWildermuth/status/137623103256793088)
+[![Shawn Wildermuth Tweet](https://gep13wpstorage.blob.core.windows.net/gep13/2011/11/22/image1.png)](https://twitter.com/#!/ShawnWildermuth/status/137623103256793088)
 
 I couldn’t quite believe what I was reading!  This was the killer function that I have been waiting for!  Ever since switching to Windows Phone 7 from my Windows Mobile 6.5 I have sorely missed the ability to fire up the internet on my laptop while on the move.  A quick conversation exchange with Shawn pointed me [here](http://www.wpcentral.com/updates-out-htc-hd7-mozart-and-samsung-focus-bringing-tethering-many), and I set about starting the update!
 
 The good news?  I can now tether my laptop to the internet via my Windows Phone 7!!
 
-[![IMAG0354](http://www.gep13.co.uk/blog/wp-content/uploads/2011/11/IMAG0354_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/11/IMAG0354.jpg)
+![Windows Phone Internet Sharing](https://gep13wpstorage.blob.core.windows.net/gep13/2011/11/22/IMAG0354.jpg)
 
 With the update installed, you will see a new “Internet Sharing” option in the Settings window.  Then all that is left to do is to enable it.  With that done, you will have the option to connect up to 5 devices to the internet via your handset.
 
-[![IMAG0352](http://www.gep13.co.uk/blog/wp-content/uploads/2011/11/IMAG0352_thumb.jpg)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/11/IMAG0352.jpg)
+![Windows Phone Internet Sharing On](https://gep13wpstorage.blob.core.windows.net/gep13/2011/11/22/IMAG0352.jpg)
 
 The only thing that worries me now is the reports that I have been hearing on the news about unlimited data contracts, [not actually being unlimited](http://www.guardian.co.uk/technology/blog/2011/nov/22/mobile-web-users-unlimited-data-caps).  Before I start using this service heavily I am going to check with my service provider that I actually do have an unlimited data contract, and I would strongly advice that you do the same before using this service, as the last thing that you are going to want is a hefty mobile phone bill at the end of the month.

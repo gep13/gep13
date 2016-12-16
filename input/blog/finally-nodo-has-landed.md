@@ -11,35 +11,35 @@ So, after weeks of waiting, the Nodo update has finally landed on my HTC HD7.
 
 I didn’t get any notification on my phone, but after a day of reading tweets from people I knew were on O2 who had the update, I decided to plug my phone into computer and let the Zune software check for an update, and this is what I was greeted with:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image.png)
+![Update Available](https://gep13wpstorage.blob.core.windows.net/gep13/2011/4/6/image.png)
 
 Clicking the UPDATE button took me through to here:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_thumb_3.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_3.png)
+![Update your phone](https://gep13wpstorage.blob.core.windows.net/gep13/2011/4/6/image_3.png)
 
 And after a quick prayer, and a deep breath, I clicked the UPDATE NOW button:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_thumb_4.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_4.png)
+![Step 2 of 10](https://gep13wpstorage.blob.core.windows.net/gep13/2011/4/6/image_4.png)
 
 I missed some steps as they happened so quickly:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_thumb_5.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_5.png)
+![Step 5 of 10](https://gep13wpstorage.blob.core.windows.net/gep13/2011/4/6/image_5.png)
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_thumb_6.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_6.png)
+![Step 6 of 10](https://gep13wpstorage.blob.core.windows.net/gep13/2011/4/6/image_6.png)
 
 This step took quite a while:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_thumb_7.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_7.png)
+![Step 7 of 10](https://gep13wpstorage.blob.core.windows.net/gep13/2011/4/6/image_7.png)
 
 This step took even longer (go and get yourself a cup of tea):
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_thumb_8.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_8.png)
+![Step 8 of 10](https://gep13wpstorage.blob.core.windows.net/gep13/2011/4/6/image_8.png)
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_thumb_9.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_9.png)
+![Step 9 of 10](https://gep13wpstorage.blob.core.windows.net/gep13/2011/4/6/image_9.png)
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_thumb_10.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_10.png)
+![Step 10 of 10](https://gep13wpstorage.blob.core.windows.net/gep13/2011/4/6/image_10.png)
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_thumb_11.png)](http://www.gep13.co.uk/blog/wp-content/uploads/Finally-Nodo-has-landed_11CCC/image_11.png)
+![You can now disconnect your phone](https://gep13wpstorage.blob.core.windows.net/gep13/2011/4/6/image_11.png)
 
 Woot!!
 

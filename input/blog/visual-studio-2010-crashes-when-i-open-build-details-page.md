@@ -10,15 +10,15 @@ Tags:
 
 For that last few weeks I have noticed that every time I try to open a build details screen from my Team Foundation Server within Visual Studio 2010 I was greeted with this:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image.png)
+![Microsoft Visual Studio Error Message](https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/9/image.png)
 
 _NOTE: By build details screen I mean the TFS build details screen which you can get to via Team Explorer | Builds | View Builds and then double click on an available completed build_
 
 The details of the event didn’t really provide much insight into what might be going on:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb1.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image1.png)
+![Error Details](https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/9/image1.png)
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb2.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image2.png)  
+![Further Error Details](https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/9/image2.png)
 
 But due to the fact that I am in the process of transitioning the code base from Visual Studio 2008 to Visual Studio 2010 there really wasn’t much of a push to get this working, as I could simply jump back to my 2008 VM and check what I needed.
 

@@ -13,7 +13,7 @@ While doing this, I got a distinct feeling of _deja vu_, as I recently applied t
 
 In the same way as the last time, the update itself went in without any problems.  One interesting difference between the two updates can be seen in the following screenshot though:
 
-[![2012-02-08_2014](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/2012-02-08_2014_thumb.png)](http://www.gep13.co.uk/blog/wp-content/uploads/2012/02/2012-02-08_2014.png)
+![Update your phone](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/2012-02-08_2014.png)
 
 If you compare this to the previous screenshot, you will see that there is no mention of the “_HTC Update for Windows Phone”_ which was present on the last update screen.
 

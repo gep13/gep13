@@ -8,13 +8,22 @@ Tags:
 
 A few weeks ago I put out a [tweet](https://twitter.com/#!/gep13/status/130396530136981505) asking for recommendations for a piece of software for time tracking:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/image.png)](https://twitter.com/#!/gep13/status/130396530136981505)
+![Twitter Question](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/1/image.png)
 
 What I got back was a wealth of options, including:
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/image1.png)](http://www.timesnapper.com/)
+[![TimeSnapper](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/1/image1.png)](http://www.timesnapper.com/)
 
-[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/image2.png)](http://www.yast.com/timetracker/)[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/image3.png)](https://www.rescuetime.com/)[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/image4.png)](http://www.yanomo.com/)[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/image5.png)](http://www.paymo.biz/)[![image](http://www.gep13.co.uk/blog/wp-content/uploads/2011/12/image6.png)](http://www.fanuriotimetracking.com/)
+[![Yast](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/1/image2.png)](http://www.yast.com/timetracker/)
+
+[![RescueTime](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/1/image3.png)](https://www.rescuetime.com/)
+
+[![Yanomo](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/1/image4.png)](http://www.yanomo.com/)
+
+[![Paymo](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/1/image5.png)](http://www.paymo.biz/)
+
+[![fanurio](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/1/image6.png)](http://www.fanuriotimetracking.com/)
+
 
 My requirements for this are quite simple. The piece of software needed to be:
 

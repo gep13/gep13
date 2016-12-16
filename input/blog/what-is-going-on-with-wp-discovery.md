@@ -18,7 +18,7 @@ I am happy to wait and see - but I've seen no evidence to suggest it's **NOT** f
 
 The WP Discovery Twitter account has now been closed as a result of legal action between Blockfall and WP Discovery.  This was WP Discovery's last tweet on the subject before their account was closed.
 
-[![wp_ss_20130101_0004](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_ss_20130101_0004.jpg)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_ss_20130101_0004/)
+![WP Discovery Tweet](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/wp_ss_20130101_0004.jpg)
 
 So to me, it looks as though it was all a scam, and to the best of my knowledge, no Nokia Lumia's, or Surfaces, or anything else, was given away by WP Discovery.
 
@@ -30,19 +30,19 @@ This type of competition on Twitter is not new, and I have been involved in seve
 
 However, I personally have been starting to think that these giveaways are a little bit too good to be true.  And it is not just me that thinks that this is a scam.  Tom Warren ([@tomwarren](https://twitter.com/tomwarren)), Senior Editor at the Verge, tweeted this today:
 
-https://twitter.com/tomwarren/status/285021015434735616
+[https://twitter.com/tomwarren/status/285021015434735616](https://twitter.com/tomwarren/status/285021015434735616)
 
 It was also noted by Phil Jones ([@philjones88](https://twitter.com/philjones88)) that the photo of the Surface that are being given away here:
 
-https://twitter.com/wp_discovery/status/284824914849038336
+[https://twitter.com/wp_discovery/status/284824914849038336](https://twitter.com/wp_discovery/status/284824914849038336)
 
 **NOTE: **This used to link to a full status update from WP Discovery where they were showing two Windows Surface RT's that they were going to be "giving away".  This image in question looked like this:
 
-[![Surfaces_to_give_away](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/Surfaces_to_give_away.png)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/surfaces_to_give_away/)
+![Surface to give away](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/Surfaces_to_give_away.png)
 
 is exactly the same as the Surfaces that are being sold in this [eBay auction](http://www.ebay.com/itm/NEW-SEALED-MICROSOFT-SURFACE-32GB-WINDOWS-8-RT-BLACK-TOUCH-COVER-BUNDLE-/121007189503).
 
-[![Ebay_auction_for_Surfaces](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/Ebay_auction_for_Surfaces.png)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/ebay_auction_for_surfaces/)
+![Ebay Auction for Surfaces](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/Ebay_auction_for_Surfaces.png)
 
 Now, you could argue that both decided to use the same picture, but surely, if you had a Surface to give away, right in front of you, you would take a picture of the actual devices, right?  WP Discovery later suggested that this is where they had purchased the Surfaces that they were going to be giving away, that is why the pictures were the same.
 
@@ -112,7 +112,7 @@ As requested in the comments below, you will see a screenshot of the DM's that I
 
 Looks like a new Twitter account has been created called WP Discovery is Fake, you can find it [here](https://twitter.com/WPDiscoveryFAKE).  For the record, I had nothing to do with setting up this account.
 
-[![2012-12-31_2017](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/2012-12-31_2017.png)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/2012-12-31_2017/)
+![WP Discovery is FAKE](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/2012-12-31_2017.png)
 
 # Update 5
 
@@ -126,7 +126,7 @@ Thanks to Miguel Avila ([@iMusice](https://twitter.com/iMusice)) we have another
 
 Looks like there is now another "parody" account for WP Discovery been created.  This time in the form of George Patel ([@wp_discovery_pr](https://twitter.com/wp_discovery_pr)).  The profile image and logo for the account are very similar to those of WP Discovery, but it does clearly say in the profile for the account that it is a parody account.
 
-[![2012-12-31_1450](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/2012-12-31_1450.png)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/2012-12-31_1450/)
+![George Patel Twitter Account](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/2012-12-31_1450.png)
 
 # Update 8
 
@@ -140,7 +140,7 @@ Yet another screenshot added, this time from Jeff Dunn ([@Jeff_Dunn](https://twi
 
 Seems like another spoof account of WP Discovery has now popped up, this time in the form of WP Discovery ([@wp_discovery_](https://twitter.com/wp_discovery_)), notice the extra underscore at the end of the name.  They have clearly identified themselves as a "parody" account, but just be careful, as looking at their feed, they seem to be taking the "mick" but some comments are dubious.  I would personally advise that you stay away from this account.  Again, for the record, I had nothing to do with setting up this account.
 
-[![2012-12-31_2007](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/2012-12-31_2007.png)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/2012-12-31_2007/)
+![WP Discovery Twitter Account](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/2012-12-31_2007.png)
 
 # Update 11
 
@@ -156,13 +156,13 @@ WP Discovery decided that they should take it upon themselves to warm people abo
 
 **NOTE:** This screenshot was taken on Tuesday 1st January at the time shown in the screenshot, 17:02 GMT.
 
-[![P__7E89](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/P__7E89.jpg)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/p__7e89/)
+![WP Discovery Tweet](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/P__7E89.jpg)
 
 # Update 14
 
 Changes seem to be afoot..  Craig Murphy ([@CAMURPHY](https://twitter.com/CAMURPHY)) has noticed that WP Discovery are starting to delete all the tweets from their time line.
 
-https://twitter.com/CAMURPHY/status/286234160664813571
+[https://twitter.com/CAMURPHY/status/286234160664813571](https://twitter.com/CAMURPHY/status/286234160664813571)
 
 As a result, I have had to update the text in the main blog post, as I had some links to tweets that no longer exist.
 
@@ -172,7 +172,9 @@ After deleting all the tweets from their timeline, WP Discovery then left a sing
 
 **NOTE:** These screenshots were taken on Tuesday 1st January at the time shown in the screenshot, 22:21 and  23:10 GMT respectively
 
-[![wp_ss_20130101_0002](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_ss_20130101_0002.jpg)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_ss_20130101_0002/)[![wp_ss_20130101_0004](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_ss_20130101_0004.jpg)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_ss_20130101_0004/).
+![WP Discovery Tweet](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/wp_ss_20130101_0002.jpg)
+
+![WP Discovery Tweet](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/wp_ss_20130101_0004.jpg)
 
 # Update 16
 
@@ -184,17 +186,19 @@ Shortly after the above, Blockfall, the game that WP Discovery seemed to be adve
 
 **NOTE:** These screenshots were taken on Tuesday 1st January at the time shown in the screenshot, 23:12 GMT.
 
-[![wp_ss_20130101_0006](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_ss_20130101_0006.jpg)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_ss_20130101_0006/)[![wp_ss_20130101_0005](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_ss_20130101_0005.jpg)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_ss_20130101_0005/)
+![Blockfall Tweet](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/wp_ss_20130101_0006.jpg)
+
+![Blockfall Tweet](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/wp_ss_20130101_0005.jpg)
 
 These tweets linked to the [Areon Development Website](http://areon-development.de/), where they had created a [blog post](http://areon-development.de/?p=191) on the topic, indicating that they had been in direct contact with WP Discovery, and had resulted in getting WP Discovery closed down.  In a short space of time, the blog post had changed slightly.  Both versions can be seen below:
 
 ## The Original Version
 
-[![wp_discovery_old](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_discovery_old.jpg)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_discovery_old/)
+![Customers First Original](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/wp_discovery_old.jpg)
 
 ## The Updated version:
 
-[![wp_discovery2](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_discovery2.jpg)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_discovery2/)
+![Customers First](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/wp_discovery2.jpg)
 
 # Update 18
 
@@ -206,8 +210,9 @@ People seem to be getting the message.  I am happy to say that the number of fo
 
 **NOTE:** These screenshots were taken on Tuesday 1st January at the time shown in the screenshot, 23:25 and  23:37 GMT respectively
 
-# [![wp_ss_20130101_0007](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_ss_20130101_0007.jpg)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_ss_20130101_0007/)[![wp_ss_20130101_0008](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/wp_ss_20130101_0008.jpg)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/wp_ss_20130101_0008/)
+![WP Discovery Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/wp_ss_20130101_0007.jpg)
 
+![WP Discovery Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/wp_ss_20130101_0008.jpg)
 
 Remember, at one point, WP Discovery had over 10000 followers.  Within the 12 minutes that elapsed in the screenshots above, WP Discovery also stopped following the 40 people that they had been following.
 
@@ -215,11 +220,11 @@ Remember, at one point, WP Discovery had over 10000 followers.  Within the 12 m
 
 Blockfall seem to have been very busy, they have posted to a PDF in which they show the communication history between themselves and WP Discovery.  They tweeted the existence of this PDF here:
 
-https://twitter.com/Blockfall/status/286263981256105984
+[https://twitter.com/Blockfall/status/286263981256105984](https://twitter.com/Blockfall/status/286263981256105984)
 
 In case this tweet goes away (Blockfall suggested already that they may delete it to stop spambots, you can see it here:
 
-[![2013-01-02_1156](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/2013-01-02_1156.png)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/2013-01-02_1156/)
+![Blockfall Conversation](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/2013-01-02_1156.png)
 
 The linked PDF can be found [here](http://areon-development.de/press/AREON_LD00131.pdf).
 
@@ -227,8 +232,10 @@ The linked PDF can be found [here](http://areon-development.de/press/AREON_LD001
 
 I am VERY happy to announce that the WP Discovery Twitter account has now been closed!
 
-[![2013-01-02_1133](http://www.gep13.co.uk/blog/wp-content/uploads/2012/12/2013-01-02_1133.png)](http://www.gep13.co.uk/blog/what-is-going-on-with-wp-discovery/2013-01-02_1133/)
+![Twitter Account Closed down](https://gep13wpstorage.blob.core.windows.net/gep13/2012/12/29/2013-01-02_1133.png)
 
 # Collection of screenshots of WP Discovery activity
 
-[gallery ids="1651,1650,1646,1680,1647,1648,1649,1664,1665,1666,1667,1669,1671,1663,1672,1683"]
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157676536244070&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>
