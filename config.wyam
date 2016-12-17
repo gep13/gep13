@@ -2,7 +2,7 @@ System.Globalization.CultureInfo.DefaultThreadCurrentCulture = System.Globalizat
 Settings.Host = "www.gep13.co.uk";
 GlobalMetadata["Title"] = "Gary Ewan Park";
 GlobalMetadata["Description"] = "Ramblings and Ponderings of a Microsoft Fan Boy...";
-GlobalMetadata["Intro"] = "Need to put something in here...";
+GlobalMetadata["Intro"] = "Hello, my name is Gary Ewan Park.  By day, I make a living as .Net Developer.  I am a husband and a father, and I enjoy contributing to Open Source projects.";
 
 Pipelines[BlogPipelines.RawPosts].Clear();
 Pipelines[BlogPipelines.RawPosts].Add(
