@@ -3,42 +3,7 @@ Settings.Host = "www.gep13.co.uk";
 GlobalMetadata["Title"] = "Gary Ewan Park";
 GlobalMetadata["Description"] = "Ramblings and Ponderings of a Microsoft Fan Boy...";
 GlobalMetadata["Intro"] = "Hello, my name is Gary Ewan Park.  By day, I make a living as .Net Developer.  I am a husband and a father, and I enjoy contributing to Open Source projects.";
-
-Pipelines[BlogPipelines.RawPosts].Clear();
-Pipelines[BlogPipelines.RawPosts].Add(
-    new ReadFiles("blog/*.md"),
-    new FrontMatter(new Yaml()),
-    new Where((doc, ctx) => doc.ContainsKey(BlogKeys.Published) && doc.Get<DateTime>(BlogKeys.Published) <= DateTime.Today),
-    new Markdown().UseConfiguration("advanced+bootstrap"),
-    new Replace("<pre><code>", "<pre class=\"prettyprint\"><code>"),
-    new Concat(
-        // Add any posts written in Razor
-        new ReadFiles("blog/{!_,!index,}*.cshtml"),
-        new FrontMatter(new Yaml())),
-    new OrderBy((doc, ctx) => doc.Get<DateTime>(BlogKeys.Published)).Descending()
-);
-
-Pipelines[BlogPipelines.Pages].Clear();
-Pipelines[BlogPipelines.Pages].Add(
-    new ReadFiles("{!blog,**}/*.md"),
-        new FrontMatter(new Yaml()),
-        new Markdown().UseConfiguration("advanced+bootstrap"),
-        new Replace("<pre><code>", "<pre class=\"prettyprint\"><code>"),
-        new Concat(
-            // Add any additional Razor pages
-            new ReadFiles("{!blog,!tags,**}/*.cshtml"),
-            new FrontMatter(new Yaml())),
-        new Concat(
-            // Add the posts index page
-            new ReadFiles("blog/index.cshtml"),
-            new FrontMatter(new Yaml())),
-        new Concat(
-            // Add the tags index page
-            new ReadFiles("tags/index.cshtml"),
-            new FrontMatter(new Yaml())),
-        new WriteFiles(".html")
-            .OnlyMetadata()
-);
+GlobalMetadata[BlogKeys.PostsPath] = "blog";
 
 Pipelines.Add("Feed2",
     Documents(BlogPipelines.Posts),
