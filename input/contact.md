@@ -1,12 +1,5 @@
 ---
-author: gep13
-layout: page
-title: "Contact"
-date: 2014-09-02 21:05
-comments: false
-sharing: false
-footer: true
-style: http://yui.yahooapis.com/pure/0.5.0/pure-min.css
+Title: "Contact"
 ---
 
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
@@ -16,7 +9,7 @@ style: http://yui.yahooapis.com/pure/0.5.0/pure-min.css
       if(window.location.hash == '#thank-you'){
       document.getElementById('thank-you-message').className = 'none';
       }
-      })
+  })
 </script>
 
 Feel free to use any of the social links on this <a href="http://www.gep13.co.uk/about">page</a> to get in touch with me, or you can use the form below.
