@@ -1,11 +1,11 @@
 ﻿---
-Title: adnuguk organisation created on GitHub
+Title: GitTools organisation created on GitHub
 Published: 5/8/2014
 Tags:
 - GitHub
 - Open Source
 - Organisation
-- adnuguk
+- GitTools
 ---
 
 # New GitTools Organisation created on GitHub
