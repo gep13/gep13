@@ -15,13 +15,13 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/assets/css/prettify.css" rel="stylesheet">
-        <link href="/assets/css/github.css" rel="stylesheet">
+        <link href="/assets/css/highlight.css" rel="stylesheet">
         <link href="/assets/css/clean-blog.css" rel="stylesheet" />
         <link href="/assets/css/master.css" rel="stylesheet" />
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
 
 
         <meta name="application-name" content="Gary Ewan Park" />
@@ -35,7 +35,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
-        <script src="/assets/js/prettify.js"></script>
+        <script src="/assets/js/highlight.pack.js"></script>   
         <script src="/assets/js/clean-blog.js"></script>
         <script src="http://d3js.org/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
@@ -48,8 +48,9 @@
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+
         </head>
-        <body onload="prettyPrint()">
+        <body>
                 
                 <!-- Navigation -->
                 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -110,9 +111,9 @@ Published on 06 June 2011<br>    </div>
                                         
 
 <p>Just tried to open MetroTwit this morning and I was greeted with what can only be described as one of the nicest looking, and most polite error messages that I have seen in a while. Here it is:</p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/image.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/image_thumb.png" class="img-fluid" alt="image" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/6/6/image.png" class="img-fluid" alt="Something went wrong, very wrong" /></p>
 <p>The more detailed error message shows:</p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/image1.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/06/image_thumb1.png" class="img-fluid" alt="image" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/6/6/image1.png" class="img-fluid" alt="Detailed Error" /></p>
 <p>Just tried opening and closing the application but I get the same thing. Looks like I will have to revert to using the Twitter web site for now, but I will try MetroTwit again later.</p>
 <p>Could this be a sign that the eagerly awaited Nest is making some changes, or is it more likely that new IT changes that came in over the weekend now prevent me from using Twitter at work.</p>
 
@@ -198,6 +199,7 @@ Published on 06 June 2011<br>    </div>
     ga('create', 'UA-20926037-1', 'auto');
     ga('send', 'pageview');
 </script>
+                <script>hljs.initHighlightingOnLoad();</script>
 
                         <script type="text/javascript">                
                                 // Header background                        

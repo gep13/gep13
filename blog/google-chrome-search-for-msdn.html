@@ -15,13 +15,13 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/assets/css/prettify.css" rel="stylesheet">
-        <link href="/assets/css/github.css" rel="stylesheet">
+        <link href="/assets/css/highlight.css" rel="stylesheet">
         <link href="/assets/css/clean-blog.css" rel="stylesheet" />
         <link href="/assets/css/master.css" rel="stylesheet" />
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
 
 
         <meta name="application-name" content="Gary Ewan Park" />
@@ -35,7 +35,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
-        <script src="/assets/js/prettify.js"></script>
+        <script src="/assets/js/highlight.pack.js"></script>   
         <script src="/assets/js/clean-blog.js"></script>
         <script src="http://d3js.org/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
@@ -48,8 +48,9 @@
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+
         </head>
-        <body onload="prettyPrint()">
+        <body>
                 
                 <!-- Navigation -->
                 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -115,38 +116,38 @@ Published on 24 January 2011<br>    </div>
 <p>The solution?</p>
 <p>Combine the power of Google Chrome with the power of the Google Search Engine and it’s “I’m Feeling Lucky” search. Here are the steps:</p>
 <ol>
-<li>Open Google Chrome</li>
-<li>Click the Options spanner at the top right, and select “Options”</li>
-</ol>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/01/image.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/01/image_thumb.png" class="img-fluid" alt="image" /></a></p>
-<ol>
-<li>Select the “Basics” tab, and click the “Manage” button</li>
-</ol>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/01/image1.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/01/image_thumb1.png" class="img-fluid" alt="image" /></a></p>
-<ol>
-<li>Click the “Add” button</li>
-</ol>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/01/image2.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/01/image_thumb2.png" class="img-fluid" alt="image" /></a></p>
-<ol>
-<li>In the dialog box that opens, enter the following values:</li>
-</ol>
+<li><p>Open Google Chrome</p>
+</li>
+<li><p>Click the Options spanner at the top right, and select “Options”</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/1/24/image.png" class="img-fluid" alt="Options Menu" /></p>
+</li>
+<li><p>Select the “Basics” tab, and click the “Manage” button</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/1/24/image1.png" class="img-fluid" alt="Manage Default Search" /></p>
+</li>
+<li><p>Click the “Add” button</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/1/24/image2.png" class="img-fluid" alt="Add Search Option" /></p>
+</li>
+<li><p>In the dialog box that opens, enter the following values:</p>
 <ul>
 <li>MSDN Search</li>
 <li>msdn</li>
-<li><a href="http://www.google.co.uk/search?btnI=I%27m+Feeling+Lucky&amp;q=%s+Class+MSDN">http://www.google.co.uk/search?btnI=I'm+Feeling+Lucky&amp;q=%s+Class+MSDN</a></li>
+<li><a href="http://www.google.co.uk/search?btnI=I%27m+Feeling+Lucky&amp;q=%s+Class+MSDN">http://www.google.co.uk/search?btnI=I'm+Feeling+Lucky&amp;q=%s+Class+MSDN</a><br />
+<img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/1/24/image3.png" class="img-fluid" alt="Edit Search Engine" /></li>
 </ul>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/01/image3.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/01/image_thumb3.png" class="img-fluid" alt="image" /></a></p>
 <p>All that is being done here is using the search string that was used early, i.e. HttpContext Class MSDN (you can replace this with anything that you find more appropriate, but this works for me), and using a %s instead of HttpContext to allow the replacement of it with a Class name that we are actually interested in.</p>
-<ol>
-<li>Click Ok</li>
-<li>Click Close</li>
-<li>Click Close</li>
-<li>Go into the OmniBox, and type msdn, followed by the tab key (this will initiate the custom msdn search that we just created, then simply type the class name that you are interested in, i.e. HttpContext</li>
-</ol>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/01/image4.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/01/image_thumb4.png" class="img-fluid" alt="image" /></a></p>
-<ol>
-<li>Hit enter, the HttpContext Class on the MSDN Library page opens up.
-<strong><em>Suggested Alternatives</em></strong>  If you are always interested in the Properties for a class, you could modify the search string to be “HttpContext Properties MSDN”. This should then take you straight to the Properties page for that class. The same is true if you want the Events, Methods, or the Constructor.  The trick is making the search string unique enough to return the entry that you are after as the first result (which isn’t all that difficult. This technique means that you don’t then have to enter that search string each time.</li>
+</li>
+<li><p>Click Ok</p>
+</li>
+<li><p>Click Close</p>
+</li>
+<li><p>Click Close</p>
+</li>
+<li><p>Go into the OmniBox, and type msdn, followed by the tab key (this will initiate the custom msdn search that we just created, then simply type the class name that you are interested in, i.e. HttpContext</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/1/24/image4.png" class="img-fluid" alt="New Search in action" /></p>
+</li>
+<li><p>Hit enter, the HttpContext Class on the MSDN Library page opens up.
+<strong><em>Suggested Alternatives</em></strong>  If you are always interested in the Properties for a class, you could modify the search string to be “HttpContext Properties MSDN”. This should then take you straight to the Properties page for that class. The same is true if you want the Events, Methods, or the Constructor.  The trick is making the search string unique enough to return the entry that you are after as the first result (which isn’t all that difficult. This technique means that you don’t then have to enter that search string each time.</p>
+</li>
 </ol>
 
 
@@ -231,6 +232,7 @@ Published on 24 January 2011<br>    </div>
     ga('create', 'UA-20926037-1', 'auto');
     ga('send', 'pageview');
 </script>
+                <script>hljs.initHighlightingOnLoad();</script>
 
                         <script type="text/javascript">                
                                 // Header background                        

@@ -15,13 +15,13 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/assets/css/prettify.css" rel="stylesheet">
-        <link href="/assets/css/github.css" rel="stylesheet">
+        <link href="/assets/css/highlight.css" rel="stylesheet">
         <link href="/assets/css/clean-blog.css" rel="stylesheet" />
         <link href="/assets/css/master.css" rel="stylesheet" />
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
 
 
         <meta name="application-name" content="Gary Ewan Park" />
@@ -35,7 +35,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
-        <script src="/assets/js/prettify.js"></script>
+        <script src="/assets/js/highlight.pack.js"></script>   
         <script src="/assets/js/clean-blog.js"></script>
         <script src="http://d3js.org/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
@@ -48,8 +48,9 @@
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+
         </head>
-        <body onload="prettyPrint()">
+        <body>
                 
                 <!-- Navigation -->
                 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -115,19 +116,28 @@ Published on 31 January 2012<br>    </div>
 <p>However, there is one thing that I think is missing from Barry’s post though (sorry Barry, in no way a criticism), and that is first of all going to the Web Applications website to then do your search. Personally, I would prefer to set up a Custom Search Engine within Google Chrome, rather than first navigating to the site. I do this all the time for things that I find myself doing over and over again. For instance, I have a Custom Google Search Engine for <a href="http://www.gep13.co.uk/blog/google-chrome-search-for-msdn/">finding information on MSDN</a> (NOTE: This blog post needs updating to the latest version of Google Chrome, but you get the idea). And the same thing can be done for Web Applications:</p>
 <p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/1/31/Custom_Google_Search.png" class="img-fluid" alt="Custom Google Search" /></p>
 <p>Here I have added a Search Engine with the following settings:</p>
-  <table cellpadding="2" cellspacing="0" border="0" width="628" ><tbody >       <tr >         
-<td width="200" valign="top" >Name:
-</td>          
-<td width="426" valign="top" >Web Applications
-</td>       </tr>        <tr >         
-<td width="200" valign="top" >Keyword:
-</td>          
-<td width="426" valign="top" >webapp
-</td>       </tr>        <tr >         
-<td width="200" valign="top" >URL:
-</td>          
-<td width="426" valign="top" >[http://webapps.stackexchange.com/search?q=%s](http://webapps.stackexchange.com/search?q=%s)
-</td>       </tr>     </tbody></table>
+<table class="table">
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name:</td>
+<td>Web Applications</td>
+</tr>
+<tr>
+<td>Keyword:</td>
+<td>webapp</td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="http://webapps.stackexchange.com/search?q=%s">http://webapps.stackexchange.com/search?q=%s</a></td>
+</tr>
+</tbody>
+</table>
 <p>This means that in the Google Chrome Omnibox I can simply type:</p>
 <blockquote class="blockquote">
 <p>webapp <then the tab key> &quot;What you want to search for” <then press the enter key></p>
@@ -136,19 +146,28 @@ Published on 31 January 2012<br>    </div>
 <p>This has the benefit of doing the search, and the navigation to the website in one action, rather than two.</p>
 <p>Personally, this is a much better flow for me, and one that I use on a daily basis. I highly recommend that you sit back and look at things you are doing over and over again, and look for ways that you can optimize this.</p>
 <p>For sites that don’t have a their search page available on the query string, you can use Google’s built in function to limit the search to a specific domain. For instance, over at VBForums, I can use the following Custom Search Engine:</p>
- <table cellpadding="2" cellspacing="0" border="0" width="817" ><tbody >     <tr >       
-<td width="200" valign="top" >Name:
-</td>        
-<td width="615" valign="top" >VBForums
-</td>     </tr>      <tr >       
-<td width="200" valign="top" >Keyword:
-</td>        
-<td width="615" valign="top" >vbforums
-</td>     </tr>      <tr >       
-<td width="200" valign="top" >URL:
-</td>        
-<td width="615" valign="top" >[http://www.google.co.uk/search?q=site:vbforums.com+%s](http://www.google.co.uk/search?q=site:vbforums.com+%s)
-</td>     </tr>   </tbody></table>  
+<table class="table">
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name:</td>
+<td>VBForums</td>
+</tr>
+<tr>
+<td>Keyword:</td>
+<td>vbforums</td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="http://www.google.co.uk/search?q=site:vbforums.com+%s">http://www.google.co.uk/search?q=site:vbforums.com+%s</a></td>
+</tr>
+</tbody>
+</table>
 <p>Hope this helps!</p>
 
 
@@ -233,6 +252,7 @@ Published on 31 January 2012<br>    </div>
     ga('create', 'UA-20926037-1', 'auto');
     ga('send', 'pageview');
 </script>
+                <script>hljs.initHighlightingOnLoad();</script>
 
                         <script type="text/javascript">                
                                 // Header background                        

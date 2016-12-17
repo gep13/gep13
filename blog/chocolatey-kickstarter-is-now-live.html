@@ -15,13 +15,13 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/assets/css/prettify.css" rel="stylesheet">
-        <link href="/assets/css/github.css" rel="stylesheet">
+        <link href="/assets/css/highlight.css" rel="stylesheet">
         <link href="/assets/css/clean-blog.css" rel="stylesheet" />
         <link href="/assets/css/master.css" rel="stylesheet" />
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
 
 
         <meta name="application-name" content="Gary Ewan Park" />
@@ -35,7 +35,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
-        <script src="/assets/js/prettify.js"></script>
+        <script src="/assets/js/highlight.pack.js"></script>   
         <script src="/assets/js/clean-blog.js"></script>
         <script src="http://d3js.org/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
@@ -48,8 +48,9 @@
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+
         </head>
-        <body onload="prettyPrint()">
+        <body>
                 
                 <!-- Navigation -->
                 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -111,10 +112,10 @@ Published on 15 October 2014<br>    </div>
 <h2 id="tldr">tl;dr</h2>
 <p>Click <a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum">here</a> and back the brand new Chocolatey Kickstarter!</p>
 <h2 id="some-more-information">Some more information</h2>
-<p>Earlier today, Rob Reynolds (<a href="https://twitter.com/ferventcoder">&#64;ferventcoder</a>) pushed the button on a new Kickstarter, aimed at raising funds to:</p>
-<p>{% blockquote Rob Reynolds https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum Chocolatey Kickstarter %}
-move forward from the Chocolatey experiment to the Chocolatey experience!
-{% endblockquote %}</p>
+<p>Earlier today, Rob Reynolds (<a href="https://twitter.com/ferventcoder">&#64;ferventcoder</a>) pushed the button on a new <a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum">Kickstarter</a>, aimed at raising funds to:</p>
+<blockquote class="blockquote">
+<p>move forward from the Chocolatey experiment to the Chocolatey experience!</p>
+</blockquote>
 <p>This really is an exciting time for Chocolatey, and general application management on Windows.  You can find all the details that you will need to get started, including information about the rewards that you can back on the Kickstarter page (did I mention that one of them actually including actual chocolate?).  Head on <a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum">over</a> to check them out!</p>
 <h2 id="chocolatey-kickstarter-release-video">Chocolatey Kickstarter Release Video</h2>
 <p>Here is the release video which explains some of the aims of the Chocolatey Kickstarter:</p>
@@ -211,6 +212,7 @@ move forward from the Chocolatey experiment to the Chocolatey experience!
     ga('create', 'UA-20926037-1', 'auto');
     ga('send', 'pageview');
 </script>
+                <script>hljs.initHighlightingOnLoad();</script>
 
                         <script type="text/javascript">                
                                 // Header background                        

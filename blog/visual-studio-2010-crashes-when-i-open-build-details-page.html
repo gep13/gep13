@@ -15,13 +15,13 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/assets/css/prettify.css" rel="stylesheet">
-        <link href="/assets/css/github.css" rel="stylesheet">
+        <link href="/assets/css/highlight.css" rel="stylesheet">
         <link href="/assets/css/clean-blog.css" rel="stylesheet" />
         <link href="/assets/css/master.css" rel="stylesheet" />
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
 
 
         <meta name="application-name" content="Gary Ewan Park" />
@@ -35,7 +35,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
-        <script src="/assets/js/prettify.js"></script>
+        <script src="/assets/js/highlight.pack.js"></script>   
         <script src="/assets/js/clean-blog.js"></script>
         <script src="http://d3js.org/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
@@ -48,8 +48,9 @@
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+
         </head>
-        <body onload="prettyPrint()">
+        <body>
                 
                 <!-- Navigation -->
                 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -111,11 +112,11 @@ Published on 09 May 2011<br>    </div>
                                         
 
 <p>For that last few weeks I have noticed that every time I try to open a build details screen from my Team Foundation Server within Visual Studio 2010 I was greeted with this:</p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb.png" class="img-fluid" alt="image" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/9/image.png" class="img-fluid" alt="Microsoft Visual Studio Error Message" /></p>
 <p><em>NOTE: By build details screen I mean the TFS build details screen which you can get to via Team Explorer | Builds | View Builds and then double click on an available completed build</em></p>
 <p>The details of the event didn’t really provide much insight into what might be going on:</p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image1.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb1.png" class="img-fluid" alt="image" /></a></p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image2.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb2.png" class="img-fluid" alt="image" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/9/image1.png" class="img-fluid" alt="Error Details" /></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/9/image2.png" class="img-fluid" alt="Further Error Details" /></p>
 <p>But due to the fact that I am in the process of transitioning the code base from Visual Studio 2008 to Visual Studio 2010 there really wasn’t much of a push to get this working, as I could simply jump back to my 2008 VM and check what I needed.</p>
 <p>The other day though I found myself with a couple minutes, so I thought that I would look into getting the problem fixed. A quick Bing turned up the following:</p>
 <p><a href="http://connect.microsoft.com/VisualStudio/Downloads/DownloadDetails.aspx?DownloadID=34824">http://connect.microsoft.com/VisualStudio/Downloads/DownloadDetails.aspx?DownloadID=34824</a></p>
@@ -209,6 +210,7 @@ Published on 09 May 2011<br>    </div>
     ga('create', 'UA-20926037-1', 'auto');
     ga('send', 'pageview');
 </script>
+                <script>hljs.initHighlightingOnLoad();</script>
 
                         <script type="text/javascript">                
                                 // Header background                        

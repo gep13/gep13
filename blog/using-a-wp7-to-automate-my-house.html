@@ -15,13 +15,13 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/assets/css/prettify.css" rel="stylesheet">
-        <link href="/assets/css/github.css" rel="stylesheet">
+        <link href="/assets/css/highlight.css" rel="stylesheet">
         <link href="/assets/css/clean-blog.css" rel="stylesheet" />
         <link href="/assets/css/master.css" rel="stylesheet" />
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
 
 
         <meta name="application-name" content="Gary Ewan Park" />
@@ -35,7 +35,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
-        <script src="/assets/js/prettify.js"></script>
+        <script src="/assets/js/highlight.pack.js"></script>   
         <script src="/assets/js/clean-blog.js"></script>
         <script src="http://d3js.org/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
@@ -48,8 +48,9 @@
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+
         </head>
-        <body onload="prettyPrint()">
+        <body>
                 
                 <!-- Navigation -->
                 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -112,7 +113,7 @@ Published on 14 May 2011<br>    </div>
 <p>Ok, that is clearly a little bit of an exaggeration, I haven’t automated my whole house, but I have automated a very small portion of it. What am I talking about? And why am I writing a blog about it? Read on, and all will be revealed :)</p>
 <p>Last weekend while I was at <a href="http://www.gep13.co.uk/blog/a-review-of-dddscot-by-a-dddscot-virgin">DDD Scotland</a> I got talking to <a href="http://twitter.com/#!/richardadalton">&#64;richardadalton</a> and during an enthralling conversation about the Commodore 64 (I really think I want to fire up my old C64, but I am worried about whether it would blow up cause it’s so old. I could always get myself one of <a href="http://www.commodoreusa.net/CUSA_C64.aspx">these</a> though), I got a phone call from my wife asking if I would “switch of the internet”, to which I responded with, “sure, no problem”, and I promptly did so.</p>
 <p>Now bear in mind, I was 150 miles away at the time. How did I do this? Using my Windows Phone 7 of course!</p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image3.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/05/image_thumb3.png" class="img-fluid" alt="image" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/14/image3.png" class="img-fluid" alt="Main Page" /></p>
 <p>I should clarify that in my house, switching off the internet actually translates as switching off the wireless antenna of our ADSL Router. The need to do this stems from the fact that we use a wireless TV sender to take the Sky Television signal from the Sky+ box downstairs to the television upstairs, and when the wireless antenna in the ADSL router is on, we get interference on the upstairs television.</p>
 <p>Now, as I can hear <a href="http://twitter.com/#!/barryoconnor">&#64;barryoconnor</a> saying, “why not just get Sky Multi-Room?” The reason is two fold. 1) We don’t watch enough TV upstairs to warrant another feed, and more importantly 2) I am cheap!</p>
 <p>To start with, the solution to this problem was to simply kill the power to the wireless router. However, this was bad for a couple reasons. Firstly, it isn’t great for the device itself, just having the power pulled from it. And secondly, switching off the power stopped all inbound traffic, which given that I run a couple services from a server in my house, isn’t ideal. Also, the five minutes it takes to switch on another computer, to log into the router to switch it off is just too much like hard work!</p>
@@ -207,6 +208,7 @@ Published on 14 May 2011<br>    </div>
     ga('create', 'UA-20926037-1', 'auto');
     ga('send', 'pageview');
 </script>
+                <script>hljs.initHighlightingOnLoad();</script>
 
                         <script type="text/javascript">                
                                 // Header background                        

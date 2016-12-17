@@ -15,13 +15,13 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/assets/css/prettify.css" rel="stylesheet">
-        <link href="/assets/css/github.css" rel="stylesheet">
+        <link href="/assets/css/highlight.css" rel="stylesheet">
         <link href="/assets/css/clean-blog.css" rel="stylesheet" />
         <link href="/assets/css/master.css" rel="stylesheet" />
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
 
 
         <meta name="application-name" content="Gary Ewan Park" />
@@ -35,7 +35,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
-        <script src="/assets/js/prettify.js"></script>
+        <script src="/assets/js/highlight.pack.js"></script>   
         <script src="/assets/js/clean-blog.js"></script>
         <script src="http://d3js.org/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
@@ -48,8 +48,9 @@
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+
         </head>
-        <body onload="prettyPrint()">
+        <body>
                 
                 <!-- Navigation -->
                 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -113,215 +114,147 @@ Published on 07 June 2012<br>    </div>
 <p>Last week the speakers at DDDSW received their feedback evaluations forms, myself included.</p>
 <p>Now, I have to say that I was a bit nervous about getting these feedback forms as this was my first time doing a session at a conference the size DDDSW, However, I am happy to report that I am VERY happy with the results. Thank you to everyone who attended my session, and who provided the valuable feedback on my session. I will take all of your comments away, and try to improve this session going forward. It is clear from the feedback that the session was rushed towards the end, and this was due to the fact that I was over-running slightly. I will have to look at the content and move some things around in order to make the timings better.</p>
 <h1 id="my-feedback">My Feedback</h1>
-<table cellpadding="2" width="600" cellspacing="0" border="0" >
-<tbody >
-<tr >
-<td width="200" valign="top" >Speakers knowledge of the subject
-</td>
-<td width="200" valign="top" >Speakers presentation skills
-</td>
+<table class="table">
+<thead>
+<tr>
+<th>Speakers knowledge of the subject</th>
+<th>Speakers presentation skills</th>
 </tr>
-<tr >
-<td width="133" valign="top" >9
-</td>
-<td width="133" valign="top" >8
-</td>
+</thead>
+<tbody>
+<tr>
+<td>9</td>
+<td>8</td>
 </tr>
-<tr >
-<td width="133" valign="top" >9
-</td>
-<td width="133" valign="top" >9
-</td>
+<tr>
+<td>9</td>
+<td>9</td>
 </tr>
-<tr >
-<td width="133" valign="top" >8
-</td>
-<td width="133" valign="top" >8
-</td>
+<tr>
+<td>8</td>
+<td>8</td>
 </tr>
-<tr >
-<td width="133" valign="top" >9
-</td>
-<td width="133" valign="top" >9
-</td>
+<tr>
+<td>9</td>
+<td>9</td>
 </tr>
-<tr >
-<td width="133" valign="top" >9
-</td>
-<td width="133" valign="top" >9
-</td>
+<tr>
+<td>9</td>
+<td>9</td>
 </tr>
-<tr >
-<td width="133" valign="top" >9
-</td>
-<td width="133" valign="top" >8
-</td>
+<tr>
+<td>9</td>
+<td>8</td>
 </tr>
-<tr >
-<td width="133" valign="top" >8
-</td>
-<td width="133" valign="top" >8
-</td>
+<tr>
+<td>8</td>
+<td>8</td>
 </tr>
-<tr >
-<td width="133" valign="top" >9
-</td>
-<td width="133" valign="top" >8
-</td>
+<tr>
+<td>9</td>
+<td>8</td>
 </tr>
-<tr >
-<td width="133" valign="top" >9
-</td>
-<td width="133" valign="top" >9
-</td>
+<tr>
+<td>9</td>
+<td>9</td>
 </tr>
-<tr >
-<td width="133" valign="top" >8
-</td>
-<td width="133" valign="top" >8
-</td>
+<tr>
+<td>8</td>
+<td>8</td>
 </tr>
-<tr >
-<td width="133" valign="top" >9
-</td>
-<td width="133" valign="top" >9
-</td>
+<tr>
+<td>9</td>
+<td>9</td>
 </tr>
-<tr >
-<td width="133" valign="top" >9
-</td>
-<td width="133" valign="top" >8
-</td>
+<tr>
+<td>9</td>
+<td>8</td>
 </tr>
-<tr >
-<td width="133" valign="top" >9
-</td>
-<td width="133" valign="top" >9
-</td>
+<tr>
+<td>9</td>
+<td>9</td>
 </tr>
-<tr >
-<td width="133" valign="top" >7
-</td>
-<td width="133" valign="top" >5
-</td>
+<tr>
+<td>7</td>
+<td>5</td>
 </tr>
-<tr >
-<td width="133" valign="top" >8
-</td>
-<td width="133" valign="top" >9
-</td>
+<tr>
+<td>8</td>
+<td>9</td>
 </tr>
-<tr >
-<td width="133" valign="top" >7
-</td>
-<td width="133" valign="top" >8
-</td>
+<tr>
+<td>7</td>
+<td>8</td>
 </tr>
-<tr >
-<td width="133" valign="top" >8
-</td>
-<td width="133" valign="top" >8
-</td>
+<tr>
+<td>8</td>
+<td>8</td>
 </tr>
-<tr >
-<td width="133" valign="top" >9
-</td>
-<td width="133" valign="top" >8
-</td>
+<tr>
+<td>9</td>
+<td>8</td>
 </tr>
-<tr >
-<td width="133" valign="top" >9
-</td>
-<td width="133" valign="top" >9
-</td>
+<tr>
+<td>9</td>
+<td>9</td>
 </tr>
-<tr >
-<td width="133" valign="top" >9
-</td>
-<td width="133" valign="top" >9
-</td>
+<tr>
+<td>9</td>
+<td>8</td>
 </tr>
-<tr >
-<td width="133" valign="top" >9
-</td>
-<td width="133" valign="top" >8
-</td>
+<tr>
+<td>8</td>
+<td>7</td>
 </tr>
-<tr >
-<td width="133" valign="top" >8
-</td>
-<td width="133" valign="top" >7
-</td>
-</tr>
-<tr >
-<td width="133" valign="top" >8
-</td>
-<td width="133" valign="top" >7
-</td>
-</tr>
-<tr >
-<td width="133" valign="top" >8.52 (average)
-</td>
-<td width="133" valign="top" >8.17 (average)
-</td>
+<tr>
+<td>8.52 (average)</td>
+<td>8.17 (average)</td>
 </tr>
 </tbody>
 </table>
 <h1 id="best-speakers-by-presentation-skills">Best Speakers By Presentation Skills</h1>
-<table cellpadding="2" width="525" cellspacing="0" border="0" >
-<tbody >
-<tr >
-<td width="263" valign="top" >**Speaker**
-</td>
-<td width="260" valign="top" >**Score**
-</td>
+<table class="table">
+<thead>
+<tr>
+<th>Speaker</th>
+<th>Score</th>
 </tr>
-<tr >
-<td width="301" valign="top" >[Gary Short](https://twitter.com/#!/GaryShort)
-</td>
-<td width="278" valign="top" >8.7
-</td>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://twitter.com/#!/GaryShort">Gary Short</a></td>
+<td>8.7</td>
 </tr>
-<tr >
-<td width="311" valign="top" >[Niall Merrigan](https://twitter.com/#!/nmerrigan)
-</td>
-<td width="283" valign="top" >8.7
-</td>
+<tr>
+<td><a href="https://twitter.com/#!/nmerrigan">Niall Merrigan</a></td>
+<td>8.7</td>
 </tr>
-<tr >
-<td width="313" valign="top" >[George Adamson](https://twitter.com/#!/GeorgeAdamson)
-</td>
-<td width="285" valign="top" >8.66
-</td>
+<tr>
+<td><a href="https://twitter.com/#!/GeorgeAdamson">George Adamson</a></td>
+<td>8.66</td>
 </tr>
 </tbody>
 </table>
 <h1 id="best-speakers-by-knowledge-of-subject">Best Speakers By Knowledge Of Subject</h1>
-<table cellpadding="2" width="525" cellspacing="0" border="0" >
-<tbody >
-<tr >
-<td width="263" valign="top" >**Speaker**
-</td>
-<td width="260" valign="top" >**Score**
-</td>
+<table class="table">
+<thead>
+<tr>
+<th>Speaker</th>
+<th>Score</th>
 </tr>
-<tr >
-<td width="301" valign="top" >[Richard Parker](https://twitter.com/#!/rikp)
-</td>
-<td width="278" valign="top" >8.64
-</td>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://twitter.com/#!/rikp">Richard Parker</a></td>
+<td>8.64</td>
 </tr>
-<tr >
-<td width="311" valign="top" >[Niall Merrigan](https://twitter.com/#!/nmerrigan)
-</td>
-<td width="283" valign="top" >8.63
-</td>
+<tr>
+<td><a href="https://twitter.com/#!/nmerrigan">Niall Merrigan</a></td>
+<td>8.63</td>
 </tr>
-<tr >
-<td width="313" valign="top" >[Gary Short](https://twitter.com/#!/GaryShort)
-</td>
-<td width="285" valign="top" >8.61
-</td>
+<tr>
+<td><a href="https://twitter.com/#!/GaryShort">Gary Short</a></td>
+<td>8.61</td>
 </tr>
 </tbody>
 </table>
@@ -408,6 +341,7 @@ Published on 07 June 2012<br>    </div>
     ga('create', 'UA-20926037-1', 'auto');
     ga('send', 'pageview');
 </script>
+                <script>hljs.initHighlightingOnLoad();</script>
 
                         <script type="text/javascript">                
                                 // Header background                        

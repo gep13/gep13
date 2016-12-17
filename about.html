@@ -15,13 +15,13 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/assets/css/prettify.css" rel="stylesheet">
-        <link href="/assets/css/github.css" rel="stylesheet">
+        <link href="/assets/css/highlight.css" rel="stylesheet">
         <link href="/assets/css/clean-blog.css" rel="stylesheet" />
         <link href="/assets/css/master.css" rel="stylesheet" />
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
 
 
         <meta name="application-name" content="Gary Ewan Park" />
@@ -35,7 +35,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
-        <script src="/assets/js/prettify.js"></script>
+        <script src="/assets/js/highlight.pack.js"></script>   
         <script src="/assets/js/clean-blog.js"></script>
         <script src="http://d3js.org/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
@@ -48,8 +48,9 @@
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+
         </head>
-        <body onload="prettyPrint()">
+        <body>
                 
                 <!-- Navigation -->
                 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -104,11 +105,11 @@
 
 <p>I graduated from the University of Aberdeen with a First Class Honours Degree in Electrical and Electronic Engineering.  Looking back at the career that I have had, it strikes me that a Computer Science Degree might have served me better.  On the other hand though, I do think it helps to be able to know about the hardware side of things, so that you can know what the software is trying to control.</p>
 
-<p>Today sees me developing using SharePoint, Silverlight, and ASP.Net, but I am starting to do more client side development work using systems link AngularJS.  In addition to coding, I love automating things.  Especially around automated deployment of code, as well as infrastructure.  Automate all the things!</p>
+<p>In addition to coding, I love automating things.  Especially around automated deployment of code, as well as infrastructure.  Automate all the things!</p>
 
 <p>For my sins, I am a self-confessed Microsoft Fan Boy.  I don’t know what else to say other than I think that the .Net Framework is a great platform to build on, and I really can’t get enough of it.  I am a certified Microsoft Developer, (you can see my certifications <a href="https://www.mcpvirtualbusinesscard.com/VBCServer/gep13/profile">here</a>) and I am more than happy to talk at length about anything geek related, so if you have any questions, feel free to get in touch.</p>
 
-<p>Outside of work I like to play 5-a-side football and golf, and I have also started <a href="http://smashrun.com/gep13/invite">running</a> on a regular basis.  I have it in my head that I would like to be able to do a half marathon.  Still a long way to go before being ready for that though!  I used to be an archer at University as well, but since graduating I haven’t done any.  This is something that I would like to get back into though.</p>
+<p>Outside of work I like <a href="http://smashrun.com/gep13/invite">running</a> on a semi-regular basis.  I used to be an archer at University as well, but since graduating I haven’t done any.  This is something that I would like to get back into though.</p>
 
 <p>I have profiles scattered around the web at the following sites:</p>
 <ul class="list-unstyled">
@@ -185,6 +186,7 @@
     ga('create', 'UA-20926037-1', 'auto');
     ga('send', 'pageview');
 </script>
+                <script>hljs.initHighlightingOnLoad();</script>
 
         </body>
 </html>

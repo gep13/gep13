@@ -15,13 +15,13 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/assets/css/prettify.css" rel="stylesheet">
-        <link href="/assets/css/github.css" rel="stylesheet">
+        <link href="/assets/css/highlight.css" rel="stylesheet">
         <link href="/assets/css/clean-blog.css" rel="stylesheet" />
         <link href="/assets/css/master.css" rel="stylesheet" />
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
 
 
         <meta name="application-name" content="Gary Ewan Park" />
@@ -35,7 +35,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
-        <script src="/assets/js/prettify.js"></script>
+        <script src="/assets/js/highlight.pack.js"></script>   
         <script src="/assets/js/clean-blog.js"></script>
         <script src="http://d3js.org/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
@@ -48,8 +48,9 @@
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+
         </head>
-        <body onload="prettyPrint()">
+        <body>
                 
                 <!-- Navigation -->
                 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -118,11 +119,12 @@ Published on 15 January 2013<br>    </div>
 <p>But after a bit of googling, I was able to find out what the problem was.  In all honesty, it was a very rare error, and it came down to a naming convention that I was using for a set of sample applications that I was creating, however, it was still slightly annoying!</p>
 <h1 id="things-are-better-in-visual-studio-2012">Things are better in Visual Studio 2012</h1>
 <p>I am happy to report, that things have improved, a lot, in this area within Visual Studio 2012.  Firstly, you don't have to edit the WMAppManifest.xml file by hand.  Visual Studio 2012 now includes a designer that sits on top of this XML file, as shown here:</p>
-<p>[gallery type=&quot;rectangular&quot; ids=&quot;1867,1868,1869,1870&quot;]</p>
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157676140964522&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>
 <p>This editor exists for both Windows Phone 7.1 and Windows Phone 8.0 applications.  You can of course continue to edit the XML directly (if you are that way inclined):</p>
-<p>[caption id=&quot;attachment_1871&quot; align=&quot;alignnone&quot; width=&quot;1142&quot;]<a href="http://www.gep13.co.uk/blog/wp-content/uploads/2013/01/edit_WMAppManifest_File_Directly.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/01/edit_WMAppManifest_File_Directly.png" class="img-fluid" alt="Edit WMAppManifest.xml directly" /></a> Edit WMAppManifest.xml directly[/caption]</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2013/1/15/edit_WMAppManifest_File_Directly.png" class="img-fluid" alt="Edit WMAppManifest.xml directly" /></p>
 <p>But doing so means that you lose the ability to get immediate feedback on the state of your WMAppManifest.xml file, as shown here:</p>
-<p>[caption id=&quot;attachment_1872&quot; align=&quot;alignnone&quot; width=&quot;904&quot;]<a href="http://www.gep13.co.uk/blog/wp-content/uploads/2013/01/WMAppManifest_Editor_Error.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2013/01/WMAppManifest_Editor_Error.png" class="img-fluid" alt="WMAppManifest Editor showing error" /></a> WMAppManifest Editor showing error[/caption]</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2013/1/15/WMAppManifest_Editor_Error.png" class="img-fluid" alt="WMAppManifest Editor showing error" /></p>
 <p>This is a really great addition to Visual Studio, and another example of how Microsoft are ensuring that the end to end development experience is getting much better.  I first noticed this type of editor on top of XML files in Visual Studio 2010 when doing SharePoint development, and this is another very welcome addition!</p>
 
 
@@ -207,6 +209,7 @@ Published on 15 January 2013<br>    </div>
     ga('create', 'UA-20926037-1', 'auto');
     ga('send', 'pageview');
 </script>
+                <script>hljs.initHighlightingOnLoad();</script>
 
                         <script type="text/javascript">                
                                 // Header background                        

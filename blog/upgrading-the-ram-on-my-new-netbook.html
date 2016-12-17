@@ -15,13 +15,13 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/assets/css/prettify.css" rel="stylesheet">
-        <link href="/assets/css/github.css" rel="stylesheet">
+        <link href="/assets/css/highlight.css" rel="stylesheet">
         <link href="/assets/css/clean-blog.css" rel="stylesheet" />
         <link href="/assets/css/master.css" rel="stylesheet" />
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
 
 
         <meta name="application-name" content="Gary Ewan Park" />
@@ -35,7 +35,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
-        <script src="/assets/js/prettify.js"></script>
+        <script src="/assets/js/highlight.pack.js"></script>   
         <script src="/assets/js/clean-blog.js"></script>
         <script src="http://d3js.org/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
@@ -48,8 +48,9 @@
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+
         </head>
-        <body onload="prettyPrint()">
+        <body>
                 
                 <!-- Navigation -->
                 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -111,20 +112,21 @@ Published on 11 August 2011<br>    </div>
                                         
 
 <p>Following a comment on a recent <a href="http://www.gep13.co.uk/blog/my-new-netbook">blog post</a>, I went on over to the Crucial website and confirmed that my NetBook was capable of handling 2 GB of RAM, and I was happy to find out that it could. I was even more happy to find out that it was only going to cost me £9.99, plus £2 for shipping bargain.</p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/58-2.jpg"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/58-2_thumb.jpg" class="img-fluid" alt="58 (2)" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/8/11/58-2.jpg" class="img-fluid" alt="Memory Compartment" /></p>
 <p>A couple days later, and I was the proud owner of a brand new stick of 2 GB of RAM.</p>
 <p>The memory compartment for the ASUS 1015PX is located on the base of the NetBook, pictured on the left, and there is one simple screw keeping the compartment secure.</p>
-<p>With this removed, I was able to expose the current 1GB of RAM that is installed on the NetBook, pictured below.<a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/5a-2.jpg"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/5a-2_thumb.jpg" class="img-fluid" alt="5a (2)" /></a></p>
+<p>With this removed, I was able to expose the current 1GB of RAM that is installed on the NetBook, pictured below.</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/8/11/5a-2.jpg" class="img-fluid" alt="Old Memory" /></p>
 <p>To remove the currently installed RAM, it is a simple process of pushing the flexible piece of metal at each side of stick of RAM, and the RAM will pop up slightly out of secure holding.</p>
 <p>With that done, you can simply lift the stick of RAM out of it holder.</p>
 <p>Putting the new stick of RAM in is just as simple. Place the RAM into the opening of the secure holder, and gently push the top of the stick until the flexible piece of metal at each side snaps in to place.</p>
 <p>The result of my efforts are pictured below.</p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/5b-2.jpg"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/5b-2_thumb.jpg" class="img-fluid" alt="5b (2)" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/8/11/5b-2.jpg" class="img-fluid" alt="RAM Installed" /></p>
 <p>With the new stick of RAM securely seated in the holder, the only thing left to do is to tighten the screw again, and the jobs done, all you have to do is boot back into Windows, and start enjoying your computers new found power!</p>
 <p>However...</p>
 <p>There would now appear to be a problem!</p>
 <p>When I started up my NetBook, and booted back into Windows, I was greeted with the following when I went into the system properties:</p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/image.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2011/08/image_thumb.png" class="img-fluid" alt="image" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/8/11/image.png" class="img-fluid" alt="System Properties" /></p>
 <p>For some reason, the new stick of RAM has not been recognised, but the NetBook is functioning correctly?!?</p>
 <p>Upon checking <a href="http://windows.microsoft.com/en-US/windows7/products/system-requirements">here</a> I am now concerned that I need a 64 bit operating system in order to take advantage of the 2 GB of RAM. Can anyone confirm that this is the case?</p>
 
@@ -210,6 +212,7 @@ Published on 11 August 2011<br>    </div>
     ga('create', 'UA-20926037-1', 'auto');
     ga('send', 'pageview');
 </script>
+                <script>hljs.initHighlightingOnLoad();</script>
 
                         <script type="text/javascript">                
                                 // Header background                        

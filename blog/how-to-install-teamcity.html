@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+        <title>Gary Ewan Park - How to install TeamCity</title>
+        <meta name="description" content="Ramblings and Ponderings of a Microsoft Fan Boy..." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+
+        <link type="application/rss+xml" rel="alternate" title="Gary Ewan Park" href="/feed.rss" />
+        <link type="application/atom+xml" rel="alternate" title="Gary Ewan Park" href="/feed.atom" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/css/highlight.css" rel="stylesheet">
+        <link href="/assets/css/clean-blog.css" rel="stylesheet" />
+        <link href="/assets/css/master.css" rel="stylesheet" />
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
+
+
+        <meta name="application-name" content="Gary Ewan Park" />
+        <meta name="msapplication-tooltip" content="Gary Ewan Park" />
+        <meta name="msapplication-starturl" content="/" />
+
+        <meta property="og:title" content="Gary Ewan Park - How to install TeamCity" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.gep13.co.uk/blog/how-to-install-teamcity" />
+        <!-- TODO: More social graph meta tags -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
+        <script src="/assets/js/highlight.pack.js"></script>   
+        <script src="/assets/js/clean-blog.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="/assets/js/trianglify.min.js"></script>
+        <script src="/assets/js/Please-compressed.js"></script>
+                
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+        </head>
+        <body>
+                
+                <!-- Navigation -->
+                <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+                        <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header page-scroll">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="/">Gary Ewan Park</a>
+                                </div>
+                        
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="navbar-collapse">
+                                        <ul class="nav navbar-nav navbar-right">
+                                                <li><a href="/about">About</a></li>
+<li><a href="/projects">Projects</a></li>
+<li><a href="/talks">Talks</a></li>
+<li><a href="/posts">Archive</a></li>
+<li><a href="/contact">Contact</a></li>
+<li><a href="/tags">Tags</a></li> 
+                                        </ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container -->
+                </nav>
+                
+                <!-- Page Header -->
+                <header class="intro-header" id="intro-header">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-md-12">
+
+    
+<div class="post-heading">
+    <h1>How to install TeamCity</h1>
+    <div class="meta">        
+Published on 04 January 2013<br>    </div>
+        <div class="tags">
+                    <a role="button" href="/tags/chocolatey" class="btn btn-default btn-xs">chocolatey</a>
+                    <a role="button" href="/tags/teamcity" class="btn btn-default btn-xs">teamcity</a>
+        </div>     
+</div>
+                                        </div>
+                                </div>
+                        </div>
+                </header>
+                
+                <!-- Main Content -->
+                <div class="container">
+                        <div class="row">
+                                <div id="content" class="col-md-12">
+                                        
+
+<h1 id="what-is-teamcity">What is TeamCity?</h1>
+<p>Just in case you didn't know...</p>
+<blockquote class="blockquote">
+<p>TeamCity is a user-friendly continuous integration (CI) server for professional developers and build engineers, like ourselves. It is trivial to setup and absolutely free for small teams.</p>
+</blockquote>
+<p>If you want to find out more information about TeamCity, you can find it <a href="http://www.jetbrains.com/teamcity/index.html">here</a>.</p>
+<p>The following blog post walks through the steps to get TeamCity installed., however, at the end of this blog post there will still be other items that need to be configured, but these issues will be the topics of other blog posts.</p>
+<p>Although out of the box TeamCity uses an internal database based on the HSQLDB database engine, if you are planning on using a TeamCity instance for Production purposes, it is <a href="http://confluence.jetbrains.net/display/TCD7/Setting+up+an+External+Database">strongly recommended</a> that you set up an external database connection for it to use.  To that end, this blog post uses a MySQL Database as the external connection for TeamCity.</p>
+<h1 id="installation-steps">Installation Steps</h1>
+<p>**NOTE: **The following installation steps and screenshots were taken from a virtual machine   with Windows Server 2008 R2 Service Pack 1, running in Hyper-V on a Windows 8 Host Machine.</p>
+<p>These instructions are specific to version 7.1.3 of TeamCity, however, later versions will likely follow very similar steps.  In addition, these installation instructions will install both the TeamCity Server and Build Agent onto the same machine.  Ideally, you would want to have a separate Build Agent Machine.</p>
+<p>You can see screenshots of each of these steps in the galley at the bottom of this blog post.</p>
+<ol>
+<li>Assumption is that you already have <a href="http://gep13.me/S91bws">MySQL Community Server</a> installed</li>
+<li>Assumption is that you already have <a href="http://gep13.me/WiiHcN">MySQL Workbench</a> installed</li>
+<li>Assumption is that you already have configured a <a href="http://gep13.me/Z3jaBI">Profile Instance, with a database and user</a> that can be used by the TeamCity Server</li>
+<li>Download the <a href="http://www.jetbrains.com/teamcity/download/index.html">latest version of TeamCity from the JetBrains website</a> then double-click the .exe and click Run</li>
+<li>At the first step in the installation wizard simply click Next</li>
+<li>Read the License Agreement and assuming you are happy with it, click &quot;I Agree&quot;</li>
+<li>In the &quot;Choose Install Location&quot; window, assuming you are happy with the default installation folder, simply click Next, otherwise change it first</li>
+<li>In the &quot;Choose Components&quot; window choose the components that you want to install.  As already mentioned, we will be installing both the Server and Build Agent on one server.  Click Next</li>
+<li>In the &quot;Specify server configuration directory&quot; window assuming you are happy with the default location click Next, other change it first</li>
+<li>The main portion of the installation will start now</li>
+<li>In the &quot;Installation Complete&quot; windows, specify the port that you want TeamCity to run under.  I have other services running on this server, so I have chosen to use port 8080.  Choose something that won't conflict, and then click Next</li>
+<li>The &quot;Configure Build Agent Properties&quot; window will then open, giving you the opportunity to add/edit build agent properties.  For now, you can leave this as the default.  If needed, this can be changed later.  Click Save.</li>
+<li>Simply click OK on the &quot;TeamCity Build Agent Properties&quot; pop-up</li>
+<li>In the &quot;Select Service Account for Server&quot; window decide what user account you want to run the TeamCity Server, I chose to use the SYSTEM account.  Click Next</li>
+<li>In the &quot;Select Service Account for Agent&quot; window decide what user account you want to run the TeamCity Build Agent, I chose to use the SYSTEM account.  Click Next</li>
+<li>In the &quot;Services&quot; window, choose to start both the Server and Build Agent Services, and click Next</li>
+<li>In the final screen, ensure that the option to open TeamCity Website after exit is checked and click Finish.</li>
+<li>You will then be taken to the default start screen, which as mentioned will create the internal database that TeamCity would normally use by default.  Go ahead and click Proceed, we will then begin editing the configuration to use a MySQL Server Database.</li>
+<li>A web page will open saying &quot;TeamCity is starting&quot;</li>
+<li>Once this page reloads, and show the license agreement page, open windows explorer and navigate to the configuration directory, the default is C:\ProgramData\JetBrains\TeamCity</li>
+<li>Open the services snap-in and stop both the TeamCity Build Agent and TeamCity Server services</li>
+<li>Hit the Start button</li>
+<li>Type &quot;services.msc&quot; and press Enter</li>
+<li>Find each named service and click stop</li>
+<li>Back to Windows Explorer, navigate into the configuration folder.  Find the database.mysql.properties.dist file.  Copy and paste this file, and rename the newly created file as database.properties (NOTE: This name is very important.  Compare to the screenshot below to ensure it is correct.</li>
+<li>Open the database.properties file and notice the section that you have to update</li>
+<li>Make the necessary changes and save the file (NOTE: I have added an extra configuration line to use UTF-8 character encoding, which if you followed the <a href="http://gep13.me/Z3jaBI">Profile Instance, with a database and user</a> is what your database will use</li>
+<li>Open an internet browser and download the latest JDBC driver for MySQL.  The main download site can be found <a href="http://dev.mysql.com/downloads/connector/j/">here</a>.</li>
+<li>Browse to where you downloaded the driver and extract the contents of the download.  Find the .jar file and copy this into the lib folder within the TeamCity configuration directory.  Typically C:\ProgramData\JetBrains\TeamCity\lib\jdbc</li>
+<li>Open the services snap-in and start both the TeamCity Server, and TeamCity Build Agent services</li>
+<li>Hit the Start button</li>
+<li>Type &quot;services.msc&quot; and press Enter</li>
+<li>Find each named service and click start</li>
+<li>Open an internet browser and open the TeamCity home page.  As per these installation instructions, that would be http://localhost:8080, but the port may be different depending on what you selected.  You will get a warning about the Database being empty.  That is to be expected, as we have only just set this up, and it doesn't contain anything</li>
+<li>Click the link entitled &quot;I'm a server administrator, show me the details&quot;.  We need to locate the authentication token, before TeamCity will let us continue with the setup.  To do this, we have to open the log file for the TeamCity instance</li>
+<li>Open windows explorer, and navigate to the TeamCity installation folder, typically this is C:\TeamCity and find the logs folder, and in that folder, the teamcity-server.log.  Open this file.</li>
+<li>Scroll to the end of this log file, and the last line in the log file should contain the authentication token.  Copy this token to your clipboard</li>
+<li>Go back to the internet browser, and paste the token and click Confirm.  This will take you to the &quot;TeamCity Database Creation&quot; window.  Confirm that the details are correct, and click Proceed</li>
+<li>TeamCity will then create the database and finish configuration setup</li>
+<li>If you are interested, you can open MySQL Workbench and look at all the tables that have just been created</li>
+<li>Back in the internet browser, you should be presented with the TeamCity license agreement again.  Read through this, and when happy click the &quot;Accept license agreement&quot; check box, and then click Continue</li>
+<li>Enter the details for an administrator account that you will use to administer this TeamCity instance and click Create Account</li>
+<li>Job done!</li>
+</ol>
+<p>You can see screenshots of each of these steps in the galley at the bottom of this blog post.</p>
+<p>There are still steps remaining in terms of setting up projects, build configurations, and other TeamCity settings, but these will be topics for other blog posts.</p>
+<h1 id="installation-screenshots">Installation Screenshots</h1>
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157674079120783&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-install-teamcity' + 'S/';
+    var disqus_title = 'How to install TeamCity';
+    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-install-teamcity' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                                </div>
+                        </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Footer -->
+                <footer>
+                        <div class="container">
+        <div class="row">
+                <div class="col-md-12">
+                <ul class="list-inline text-center">
+                        <li>
+                        <a href="https://twitter.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="https://github.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                </ul>
+                <p class="copyright text-muted">
+                        Copyright © 2016 by Gary Ewan Park. The opinions expressed herein are my own and do not represent those of my employer or any other third-party views in any way. This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
+                        <br />
+                        <a href="/feed.rss"><i class="fa fa-rss"></i> RSS Feed</a> | <a href="/feed.atom"><i class="fa fa-rss"></i> Atom Feed</a>
+                        <br />
+                        <a href="https://github.com/gep13/gep13.github.io"><i class="fa fa-github"></i> This Site on GitHub</a> | <strong><a href="http://wyam.io">Generated by Wyam</a></strong>
+                </p>
+                </div>
+        </div>
+</div>
+                </footer> 
+
+                <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+
+    // Google Analytics
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-20926037-1', 'auto');
+    ga('send', 'pageview');
+</script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+                        <script type="text/javascript">                
+                                // Header background                        
+                                var colors = Please.make_color({
+                                        colors_returned: 3,
+                                        saturation: .6
+                                });
+                                var t = new Trianglify({
+                                        x_gradient: colors,
+                                        y_gradient: ["#FFFFFF"]
+                                });
+                                var header = document.getElementById("intro-header");
+                                var pattern = t.generate(header.clientWidth, header.clientHeight);
+                                header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
+                        </script>
+        </body>
+</html>
+

@@ -15,13 +15,13 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/assets/css/prettify.css" rel="stylesheet">
-        <link href="/assets/css/github.css" rel="stylesheet">
+        <link href="/assets/css/highlight.css" rel="stylesheet">
         <link href="/assets/css/clean-blog.css" rel="stylesheet" />
         <link href="/assets/css/master.css" rel="stylesheet" />
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
 
 
         <meta name="application-name" content="Gary Ewan Park" />
@@ -35,7 +35,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
-        <script src="/assets/js/prettify.js"></script>
+        <script src="/assets/js/highlight.pack.js"></script>   
         <script src="/assets/js/clean-blog.js"></script>
         <script src="http://d3js.org/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
@@ -48,8 +48,9 @@
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+
         </head>
-        <body onload="prettyPrint()">
+        <body>
                 
                 <!-- Navigation -->
                 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -112,15 +113,16 @@ Published on 24 August 2012<br>    </div>
 <p>Now that the dust has settled with the latest round of updates for my Nokia Lumia 800, I thought that it was time to blog about the update experience.  This is in line with my previous posts on the subject, and it is more a record for myself, than for anything else.</p>
 <p>There was a lot of discussion about this set of updates, especially following the announcements regarding Windows Phone 8, and the fact that there was no upgrade path from a Windows Phone 7 device, and what if anything, we were going to be getting from this update.  A lot of people thought that this update would include the new Windows Phone “Start Screen”, but this isn’t the case.</p>
 <p>This update is the so-called “Tango” update.  There wasn’t a lot to shout about within this update, but it does have a couple of interesting new additions.  In order to complete the update, there were actually two back to back updates applied to the Windows Phone.</p>
-<p>In the same way as all of my Windows Phone updates to date, the installation/backup procedure worked perfectly, and the screenshots from the experience can be seen below.<a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2129.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2129_thumb.png" class="img-fluid" alt="2012-07-23_2129" /></a></p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2130.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2130_thumb.png" class="img-fluid" alt="2012-07-23_2130" /></a></p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2131.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2131_thumb.png" class="img-fluid" alt="2012-07-23_2131" /></a></p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2147.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2147_thumb.png" class="img-fluid" alt="2012-07-23_2147" /></a></p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2147_001.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2147_001_thumb.png" class="img-fluid" alt="2012-07-23_2147_001" /></a></p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2158.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2158_thumb.png" class="img-fluid" alt="2012-07-23_2158" /></a></p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2211.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2211_thumb.png" class="img-fluid" alt="2012-07-23_2211" /></a></p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2211_001.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2211_001_thumb.png" class="img-fluid" alt="2012-07-23_2211_001" /></a></p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2211_002.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/2012/08/2012-07-23_2211_002_thumb.png" class="img-fluid" alt="2012-07-23_2211_002" /></a></p>
+<p>In the same way as all of my Windows Phone updates to date, the installation/backup procedure worked perfectly, and the screenshots from the experience can be seen below.</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-07-23_2129.png" class="img-fluid" alt="An update is available" /></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-07-23_2130.png" class="img-fluid" alt="Update your phone" /></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-07-23_2131.png" class="img-fluid" alt="Update in progress" /></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-07-23_2147.png" class="img-fluid" alt="Update in progress 2" /></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-07-23_2147_001.png" class="img-fluid" alt="Update in progress 3" /></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-07-23_2158.png" class="img-fluid" alt="Step 7 of 9" /></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-07-23_2211.png" class="img-fluid" alt="Update in progress 4" /></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-07-23_2211_001.png" class="img-fluid" alt="Successful update" /></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/8/24/2012-07-23_2211_002.png" class="img-fluid" alt="You can now disconnect your phone" /></p>
 <p>On completing this update, I straight away went to the Settings screen to see if the Internet Sharing function was available, however, it still wasn’t!  I immediately started googling, and talking to people on Twitter, only to find out that there was actually another update (on top of the two that I had just applied).  This final update was a vendor specific update (in my case Nokia), that would enable this feature.  At this point, this update wasn’t available, so I still had to wait patiently.</p>
 <p>For more information about what was included in this update, you can take a look at the <a href="http://www.microsoft.com/windowsphone/en-us/howto/wp7/basics/update-history.aspx">Windows Phone update history</a> page.</p>
 <p>This update took the Nokia Lumia 800 handset to the following state:</p>
@@ -216,6 +218,7 @@ Published on 24 August 2012<br>    </div>
     ga('create', 'UA-20926037-1', 'auto');
     ga('send', 'pageview');
 </script>
+                <script>hljs.initHighlightingOnLoad();</script>
 
                         <script type="text/javascript">                
                                 // Header background                        

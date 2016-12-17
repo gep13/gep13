@@ -15,13 +15,13 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/assets/css/prettify.css" rel="stylesheet">
-        <link href="/assets/css/github.css" rel="stylesheet">
+        <link href="/assets/css/highlight.css" rel="stylesheet">
         <link href="/assets/css/clean-blog.css" rel="stylesheet" />
         <link href="/assets/css/master.css" rel="stylesheet" />
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
 
 
         <meta name="application-name" content="Gary Ewan Park" />
@@ -35,7 +35,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
-        <script src="/assets/js/prettify.js"></script>
+        <script src="/assets/js/highlight.pack.js"></script>   
         <script src="/assets/js/clean-blog.js"></script>
         <script src="http://d3js.org/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
@@ -48,8 +48,9 @@
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+
         </head>
-        <body onload="prettyPrint()">
+        <body>
                 
                 <!-- Navigation -->
                 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -112,86 +113,91 @@ Published on 03 October 2013<br>    </div>
 <p>I am happy to report that the GDR2 update for my Nokia Lumia 925 has finally arrived.  I say finally because it is almost 1 month after it arrived for my wife's phone!  We are not on the same operator, so this is obviously showing the difference in turning around the updates for the Windows Phone eco-system, and it has to be said that this really is a sad state of affairs!  I really hope that this turn around time for pushing out the updates improves, as getting the latest features for my handset is very important to me.  Almost important enough to consider switching mobile phone providers.</p>
 <p>Almost 1 month ago, I convinced my wife that she should upgrade her mobile phone to the Nokia Lumia 925.  To my annoyance, one day after receiving the handset, she was prompted that there was an update available for the phone.  I started the update process, which actually consisted of two back to back updates, and after checking, this update was the much rumored <a href="http://winsupersite.com/windows-phone/complete-guide-windows-phone-8-gdr2">GDR2 update</a>.</p>
 <p>Following the update, the various version numbers changed as follows:</p>
-<table>
-  <tbody>
-    <tr>
-      <td></td>
-      <td>**Original**</td>
-      <td>**First Update**</td>
-      <td>**Second Update**</td>
-    </tr>
-    <tr>
-      <td>**OS Version:**</td>
-      <td>8.0.10327.0</td>
-      <td>8.0.10327.0</td>
-      <td>8.0.10328.0</td>
-    </tr>
-    <tr>
-      <td>**Firmware revision number:**</td>
-      <td>3040.0000.1322.2004</td>
-      <td>3040.0005.1323.3004</td>
-      <td>3047.0000.1326.2006</td>
-    </tr>
-    <tr>
-      <td>**Hardware revision number:**</td>
-      <td>1.0.0.0</td>
-      <td>1.0.0.0</td>
-      <td>1.0.0.0</td>
-    </tr>
-    <tr>
-      <td>**Radio software version:**</td>
-      <td>3.2.04018.1</td>
-      <td>3.2.04018.1</td>
-      <td>3.2.04028.1</td>
-    </tr>
-    <tr>
-      <td>**Chip SOC version:**</td>
-      <td>8960</td>
-      <td>8960</td>
-      <td>8960</td>
-    </tr>
-  </tbody>
+<table class="table">
+<thead>
+<tr>
+<th></th>
+<th>Original</th>
+<th>First Update</th>
+<th>Second Update</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OS Version:</td>
+<td>8.0.10327.0</td>
+<td>8.0.10327.0</td>
+<td>8.0.10328.0</td>
+</tr>
+<tr>
+<td>Firmware revision number:</td>
+<td>3040.0000.1322.2004</td>
+<td>3040.0005.1323.3004</td>
+<td>3047.0000.1326.2006</td>
+</tr>
+<tr>
+<td>Hardware revision number:</td>
+<td>1.0.0.0</td>
+<td>1.0.0.0</td>
+<td>1.0.0.0</td>
+</tr>
+<tr>
+<td>Radio software version:</td>
+<td>3.2.04018.1</td>
+<td>3.2.04018.1</td>
+<td>3.2.04018.1</td>
+</tr>
+<tr>
+<td>Chip SOC version:</td>
+<td>8960</td>
+<td>8960</td>
+<td>8960</td>
+</tr>
+</tbody>
 </table>
 <p>Fast forward 1 month, and after a twitter conversation with the support team at 3, which was a little coincidental (by the way, I am not claiming responsibility for getting the update released :-)), the GDR2 update arrived for my phone:</p>
 <p><a href="https://twitter.com/gep13/status/384990097176657922">https://twitter.com/gep13/status/384990097176657922</a></p>
 <p>One interesting thing is that although the OS version between the two phones is the same, the firmware version numbers are different.  You can see the comparison table between the original and update on my phone below.  Both the firmware revision number, and the radio software version numbers on my phone are higher than on my wife's phone.</p>
-<table>
-  <tbody>
-    <tr>
-      <td></td>
-      <td>**Original**</td>
-      <td>**Update**</td>
-    </tr>
-    <tr>
-      <td>**OS Version:**</td>
-      <td>8.0.10327.0</td>
-      <td>8.0.10328.0</td>
-    </tr>
-    <tr>
-      <td>**Firmware revision number:**</td>
-      <td>3040.0000.1322.2003</td>
-      <td>3049.0000.1330.0004</td>
-    </tr>
-    <tr>
-      <td>**Hardware revision number:**</td>
-      <td>1.0.0.0</td>
-      <td>1.0.0.0</td>
-    </tr>
-    <tr>
-      <td>**Radio software version:**</td>
-      <td>3.2.04018.1</td>
-      <td>3.2.04033.1</td>
-    </tr>
-    <tr>
-      <td>**Chip SOC version:**</td>
-      <td>8960</td>
-      <td>8960</td>
-    </tr>
-  </tbody>
+<table class="table">
+<thead>
+<tr>
+<th></th>
+<th>Original</th>
+<th>Update</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OS Version:</td>
+<td>8.0.10327.0</td>
+<td>8.0.10328.0</td>
+</tr>
+<tr>
+<td>Firmware revision number:</td>
+<td>3040.0000.1322.2003</td>
+<td>3049.0000.1330.0004</td>
+</tr>
+<tr>
+<td>Hardware revision number:</td>
+<td>1.0.0.0</td>
+<td>1.0.0.0</td>
+</tr>
+<tr>
+<td>Radio software version:</td>
+<td>3.2.04018.1</td>
+<td>3.2.04033.1</td>
+</tr>
+<tr>
+<td>Chip SOC version:</td>
+<td>8960</td>
+<td>8960</td>
+</tr>
+</tbody>
 </table>
 <p>To summarize, in addition to the huge difference in time between pushing out the updates between the mobile phone providers, it also looks like they are choosing to release different updates.  It would be really interesting to find out why they are doing this.  To me, this seem a little bit troubling.  I know the carriers have a right to decide which updates are released to the handsets that they are in charge of, but to go an entire month after one of your competitors releases the update seems very excessive to me.  Let's hope the release process improves with the forthcoming GDR3 update.</p>
 <p>You can see a gallery of the screenshots that I took during the update process below.</p>
-<p>[gallery type=&quot;rectangular&quot; ids=&quot;2124,2126,2127,2128,2129,2130,2131,2132&quot;]</p>
+<div id="flickrembed"></div><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+<script src="https://flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=72157674078402093&sort=0&by=album&theme=default&scale=fit&skin=default&id=5850544461b40"></script>
 
 
 <div id="disqus_thread"></div>
@@ -275,6 +281,7 @@ Published on 03 October 2013<br>    </div>
     ga('create', 'UA-20926037-1', 'auto');
     ga('send', 'pageview');
 </script>
+                <script>hljs.initHighlightingOnLoad();</script>
 
                         <script type="text/javascript">                
                                 // Header background                        

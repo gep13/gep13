@@ -15,13 +15,13 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/assets/css/prettify.css" rel="stylesheet">
-        <link href="/assets/css/github.css" rel="stylesheet">
+        <link href="/assets/css/highlight.css" rel="stylesheet">
         <link href="/assets/css/clean-blog.css" rel="stylesheet" />
         <link href="/assets/css/master.css" rel="stylesheet" />
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
 
 
         <meta name="application-name" content="Gary Ewan Park" />
@@ -35,7 +35,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
-        <script src="/assets/js/prettify.js"></script>
+        <script src="/assets/js/highlight.pack.js"></script>   
         <script src="/assets/js/clean-blog.js"></script>
         <script src="http://d3js.org/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
@@ -48,8 +48,9 @@
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+
         </head>
-        <body onload="prettyPrint()">
+        <body>
                 
                 <!-- Navigation -->
                 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -113,9 +114,9 @@ Published on 13 May 2011<br>    </div>
 <p>In order to host the VM’s, I had both VMWare Workstation 6.5 installed, as well as Microsoft Virtual PC. Why the two virtualisation products I hear you ask? Well, let me tell you...</p>
 <p>In order to connect to some clients network, we have to use a proprietary VPN Client, and unfortunately, this does not work on Windows 7, only Windows XP. Now, I could have just installed a copy of Windows XP using VMWare Wokstation (which is our default virtualisation product) however, that would have required a retail version of the OS, rather than the MSDN ones that we use for development purposes. As a result, I decided to enable the WIndows XP Mode on my Windows 7 host operating system, which I thought was a particularly sensible solution.</p>
 <p>However, when I tried to run up Windows XP Mode at the same time as a VM hosted in VMWare Workstation, I was greeted with the following:</p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/VMWare-Workstation-troubles_11F5D/image.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/VMWare-Workstation-troubles_11F5D/image_thumb.png" class="img-fluid" alt="image" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/13/image.png" class="img-fluid" alt="VMWare Workstation Error" /></p>
 <p>Followed by this:</p>
-<p><a href="http://www.gep13.co.uk/blog/wp-content/uploads/VMWare-Workstation-troubles_11F5D/image_3.png"><img src="http://www.gep13.co.uk/blog/wp-content/uploads/VMWare-Workstation-troubles_11F5D/image_thumb_3.png" class="img-fluid" alt="image" /></a></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/13/image_3.png" class="img-fluid" alt="Further VMWare Workstation Error" /></p>
 <p>This actually crashed the VMWare Workstation hosted VM, and resulted in some corruption of one of me VM’s.</p>
 <p>Initially, I resigned myself to only having one virtualisation software running at once, as I couldn’t find an immediate solution to the problem.</p>
 <p>However, talking to a colleague at work, who does the exact same thing as I was trying to do, said he was able to get it working no problem. Turns out, he was running VMware Workstation 7, not version 6.5.</p>
@@ -203,6 +204,7 @@ Published on 13 May 2011<br>    </div>
     ga('create', 'UA-20926037-1', 'auto');
     ga('send', 'pageview');
 </script>
+                <script>hljs.initHighlightingOnLoad();</script>
 
                         <script type="text/javascript">                
                                 // Header background                        
