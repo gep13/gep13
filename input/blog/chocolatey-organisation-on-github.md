@@ -8,6 +8,8 @@ Tags:
 - Chocolatey
 ---
 
+# I am now member of the Chocolatey GitHub Organisation
+
 Today was a HUGE day!  I was formally invited to join the Chocolatey Organisation on GitHub:
 
 ![Chocolatey Organisation on GitHub](https://gep13wpstorage.blob.core.windows.net/gep13/2015/8/20/chocolatey-organisation.png)
