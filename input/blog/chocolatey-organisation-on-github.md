@@ -1,5 +1,5 @@
 ﻿---
-Title: Invited to Chocolatey organisation created on GitHub
+Title: Invited to Chocolatey organisation on GitHub
 Published: 5/8/2014
 Tags:
 - GitHub
