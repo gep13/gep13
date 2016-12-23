@@ -1,6 +1,6 @@
 ﻿---
 Title: Invited to Chocolatey organisation on GitHub
-Published: 5/8/2014
+Published: 20/8/2015
 Tags:
 - GitHub
 - Open Source

@@ -1,6 +1,6 @@
 ﻿---
 Title: Invited to Wyam organisation on GitHub
-Published: 10/9/2014
+Published: 18/4/2016
 Tags:
 - GitHub
 - Open Source
