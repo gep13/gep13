@@ -5,6 +5,9 @@ GlobalMetadata["Description"] = "Ramblings and Ponderings of a Microsoft Fan Boy
 GlobalMetadata["Intro"] = "Hello, my name is Gary Ewan Park.  By day, I make a living as .Net Developer.  I am a husband and a father, and I enjoy contributing to Open Source projects.";
 GlobalMetadata[BlogKeys.PostsPath] = "blog";
 
+GlobalMetadata[BlogKeys.ValidateRelativeLinks] = true;
+GlobalMetadata[BlogKeys.ValidateAbsoluteLinks] = true;
+
 Pipelines.Add("Feed2",
     Documents(BlogPipelines.Posts),
     GenerateFeeds().WithAtomPath(_ => "feed/index.xml"),

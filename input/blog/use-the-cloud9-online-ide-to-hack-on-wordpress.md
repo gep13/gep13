@@ -7,7 +7,7 @@ Tags:
 - WordPress
 ---
 
-As some of you may know, I have been _hacking_ on this WordPress blog site recently.  The decision to "improve" this site has really come from the realisation that WordPress is actually very good at what it does, and I am going to [continue using it for the foreseeable future](http://www.gep13.co.uk/blog/continue-using-wordpress-or-not/).  With that in mind, there were a few things that were annoying me about the site, so I started digging around the innards of WordPress to figure out what could be changed, and more importantly, how to do it.  To start with, this was done using the always useful FTP application, [FileZilla](http://filezilla-project.org/).  I would download a .php file locally, make some changes to it, and then upload it again.  This cycle repeated for a few iterations, until I realised that there _must_ be a better way to do this!
+As some of you may know, I have been _hacking_ on this WordPress blog site recently.  The decision to "improve" this site has really come from the realisation that WordPress is actually very good at what it does, and I am going to [continue using it for the foreseeable future](http://www.gep13.co.uk/blog/continue-using-wordpress-or-not).  With that in mind, there were a few things that were annoying me about the site, so I started digging around the innards of WordPress to figure out what could be changed, and more importantly, how to do it.  To start with, this was done using the always useful FTP application, [FileZilla](http://filezilla-project.org/).  I would download a .php file locally, make some changes to it, and then upload it again.  This cycle repeated for a few iterations, until I realised that there _must_ be a better way to do this!
 
 # Using the WordPress Editor
 
@@ -17,7 +17,7 @@ Now, WordPress comes with its own built-in file editor, which gives you the abil
 
 # Using an Online IDE
 
-Then I remembered about a conversation had with Phil Leggetter ([@leggetter](https://twitter.com/#!/leggetter)) and Daniel Elliot ([@agileguy](https://twitter.com/#!/agileguy)) while I was at [GiveCamp UK](http://www.gep13.co.uk/blog/my-impressions-of-givecampuk/) last year, and the idea of using an online IDE to do the work started to become more appealing.  This would mean that I could "hack" on the files directly from within the browser, but still get the added benefits, such as syntax highlighting.  A quick search, and it turns out that there are lots of online IDE's out there.  Here are some of the ones that I tried out:
+Then I remembered about a conversation had with Phil Leggetter ([@leggetter](https://twitter.com/#!/leggetter)) and Daniel Elliot ([@agileguy](https://twitter.com/#!/agileguy)) while I was at [GiveCamp UK](http://www.gep13.co.uk/blog/my-impressions-of-givecampuk) last year, and the idea of using an online IDE to do the work started to become more appealing.  This would mean that I could "hack" on the files directly from within the browser, but still get the added benefits, such as syntax highlighting.  A quick search, and it turns out that there are lots of online IDE's out there.  Here are some of the ones that I tried out:
 
 - [coderun](http://coderun.com/ide/)
 - [ShiftEdit](http://shiftedit.net/)

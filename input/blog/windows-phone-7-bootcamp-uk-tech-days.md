@@ -9,7 +9,7 @@ Tags:
 RedirectFrom: blog/windows-phone-7-bootcamp-uk-tech-days/index.html
 ---
 
-Today, I attended the Windows Phone 7 Bootcamp, which was organised by Microsoft and [UK Tech Days](http://uktechdays.cloudapp.net/home.aspx). The event was also being supported by the Windows Phone MVP’s from [Appamundi](http://appamundi.com/).  You can find details of this event [here](http://uktechdays.cloudapp.net/upcoming-events/windows-phone-camp-(london).aspx).  This was hot on the heels of the Windows Azure Bootcamp which I [attended yesterday](http://www.gep13.co.uk/blog/windows-azure-bootcamp-uk-tech-days/?utm_source=rss&utm_medium=rss&utm_campaign=windows-azure-bootcamp-uk-tech-days).  The event broke down as follows:
+Today, I attended the Windows Phone 7 Bootcamp, which was organised by Microsoft and [UK Tech Days](http://uktechdays.cloudapp.net/home.aspx). The event was also being supported by the Windows Phone MVP’s from [Appamundi](http://appamundi.com/).  You can find details of this event [here](http://uktechdays.cloudapp.net/upcoming-events/windows-phone-camp-(london).aspx).  This was hot on the heels of the Windows Azure Bootcamp which I [attended yesterday](http://www.gep13.co.uk/blog/windows-azure-bootcamp-uk-tech-days).  The event broke down as follows:
 
 - A series of sessions covering:
   - Design Session: User Journey
@@ -73,7 +73,7 @@ Charles Petzold
 
 ****[Book Details](http://www.amazon.co.uk/gp/product/0735656673/ref=as_li_ss_il?ie=UTF8&tag=www6thprimeco-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0735656673)
 
-Also, check out my list of [free eBooks](http://www.gep13.co.uk/blog/free-ebooks/) which includes some Windows Phone 7 ones.
+Also, check out my list of [free eBooks](http://www.gep13.co.uk/blog/free-ebooks) which includes some Windows Phone 7 ones.
 
 # Looking ahead...
 

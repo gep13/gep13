@@ -10,11 +10,11 @@ Tags:
 
 What follows is a brief summary of the sessions that I attended at the 2nd overall day of DevWeek (the first day of actual sessions).  Reviews of the other days of DevWeek can be seen here:
 
-- [Day 1 - Pre-Conference Workshops](http://www.gep13.co.uk/blog/review-of-day-1-of-devweek/)
-- [Day 2 - Conference Sessions](http://www.gep13.co.uk/blog/review-of-day-2-of-devweek/)
-- [Day 3 - Conference Sessions](http://www.gep13.co.uk/blog/review-of-day-3-of-devweek/)
+- [Day 1 - Pre-Conference Workshops](http://www.gep13.co.uk/blog/review-of-day-1-of-devweek)
+- [Day 2 - Conference Sessions](http://www.gep13.co.uk/blog/review-of-day-2-of-devweek)
+- [Day 3 - Conference Sessions](http://www.gep13.co.uk/blog/review-of-day-3-of-devweek)
 - Day 4 - Conference Sessions
-- [Day 5 - Post-Conference Workshops](http://www.gep13.co.uk/blog/review-of-day-5-of-devweek/)
+- [Day 5 - Post-Conference Workshops](http://www.gep13.co.uk/blog/review-of-day-5-of-devweek)
 
 # First Morning Session at DevWeek Day 2
 

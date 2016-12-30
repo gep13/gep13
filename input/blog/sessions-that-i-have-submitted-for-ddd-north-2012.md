@@ -11,9 +11,9 @@ Tags:
 - StyleCop
 ---
 
-Hot on the heels of [DDD South West](http://www.gep13.co.uk/blog/my-impressions-of-dddsw-4/), it is now almost time for [DDD North](http://developerdeveloperdeveloper.com/north2/Default.aspx).  All of the proposed sessions have been submitted, and it is now time for the community to vote for which sessions they would like to see.
+Hot on the heels of [DDD South West](http://www.gep13.co.uk/blog/my-impressions-of-dddsw-4), it is now almost time for [DDD North](http://developerdeveloperdeveloper.com/north2/Default.aspx).  All of the proposed sessions have been submitted, and it is now time for the community to vote for which sessions they would like to see.
 
-This year I committed myself to start speaking at community events, and this started with my [StyleCop presentation](http://www.gep13.co.uk/blog/dddsw-4-stylecop-breaking-down-the-barriers-to-entry/) at DDD South West, and this will hopefully continue at DDD North.  I have submitted 3 sessions, the details of which can be seen below, and I am hoping that one of them will be selected.
+This year I committed myself to start speaking at community events, and this started with my [StyleCop presentation](http://www.gep13.co.uk/blog/dddsw-4-stylecop-breaking-down-the-barriers-to-entry) at DDD South West, and this will hopefully continue at DDD North.  I have submitted 3 sessions, the details of which can be seen below, and I am hoping that one of them will be selected.
 
 Of course, if this doesn’t happen, I am still planning on attending DDD North as it looks like there is an awesome line up of speakers and everything that I heard about the inaugural event last year is that this isn’t to be missed!
 

@@ -11,7 +11,7 @@ Tags:
 
 [![](http://www.dddsouthwest.com/Portals/0/DDDSW4/DDDSouthWest4BadgeMedium.png)](http://www.dddsouthwest.com/) In case you haven’t heard, the registration for DDD South West (DDDSW) is now open.  You can find the Event Registration page [here](http://www.dddsouthwest.com/EventRegistration/tabid/64/Default.aspx) (you will need to login/register first).
 
-This is the fourth outing for this conference, and if it is anything like [last year](http://www.gep13.co.uk/blog/a-review-of-dddsw-by-a-dddsw-virgin/), it will definitely be worth attending.  There are a couple very nice features to DDDSW which makes it very appealing.  The first is the “Getting Started" with .Net” track.  If you are new to .Net, then this is the perfect place to get started.  And the second if the “Repeat” track.  Once all the speakers are confirmed, voting opens on the most popular talks, and they are scheduled to be shown at another time during the day.  This is a great help, as there are normally always two things on at the same time, and with this approach, it means that you will hopefully be able to see both.  For the full agenda, take a look [here](http://www.dddsouthwest.com/Agenda/tabid/55/Default.aspx).
+This is the fourth outing for this conference, and if it is anything like [last year](http://www.gep13.co.uk/blog/a-review-of-dddsw-by-a-dddsw-virgin), it will definitely be worth attending.  There are a couple very nice features to DDDSW which makes it very appealing.  The first is the “Getting Started" with .Net” track.  If you are new to .Net, then this is the perfect place to get started.  And the second if the “Repeat” track.  Once all the speakers are confirmed, voting opens on the most popular talks, and they are scheduled to be shown at another time during the day.  This is a great help, as there are normally always two things on at the same time, and with this approach, it means that you will hopefully be able to see both.  For the full agenda, take a look [here](http://www.dddsouthwest.com/Agenda/tabid/55/Default.aspx).
 
 # I am doing a talk
 
@@ -27,7 +27,7 @@ I have done this talk before at the [Aberdeen Developers .Net User Group](http:/
 
 # Mobile application
 
-Last year at DDDSW there was a Windows Phone 7 Application (you can see it [here](http://www.gep13.co.uk/blog/almost-time-for-dddsw/)) that proved to be very helpful on the day for looking up session information.  The Mobile Application(s) for DDDSW 4 haven’t been released yet, but I have it on good authority that they are in the works, so I would advice you to keep an eye out for them.  I will update this post once I know exactly where it is, and how you can get your hands on it.
+Last year at DDDSW there was a Windows Phone 7 Application (you can see it [here](http://www.gep13.co.uk/blog/almost-time-for-dddsw)) that proved to be very helpful on the day for looking up session information.  The Mobile Application(s) for DDDSW 4 haven’t been released yet, but I have it on good authority that they are in the works, so I would advice you to keep an eye out for them.  I will update this post once I know exactly where it is, and how you can get your hands on it.
 
 # Helping out
 

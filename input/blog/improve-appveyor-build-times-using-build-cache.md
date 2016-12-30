@@ -11,7 +11,7 @@ Tags:
 
 By making use of the [build cache](http://www.appveyor.com/docs/build-cache) within [AppVeyor](http://www.appveyor.com/).  For both this blog, and also the [Aberdeen Developers .Net User Group](http://www.aberdeendevelopers.co.uk/) blog, I was able to reduce the overall build time by over 3 minutes.  Find out how.
 
-In a recent [blog post](http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages/), I described how I was able to use AppVeyor to generate and then deploy an Octopress site to GitHub Pages.  The process is very simple to setup, the only slight downside is the time that it takes to generate the site itself, which can take over 7 minutes.
+In a recent [blog post](http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages), I described how I was able to use AppVeyor to generate and then deploy an Octopress site to GitHub Pages.  The process is very simple to setup, the only slight downside is the time that it takes to generate the site itself, which can take over 7 minutes.
 
 In the grand scheme of things, this isn't a long time, but if you are pushing a quick change, and want to see whether it worked before moving onto something else, these 7 minutes can seem like an entirity.  Looking at the build log, it was clear that the thing that was taking the longest was this command:
 

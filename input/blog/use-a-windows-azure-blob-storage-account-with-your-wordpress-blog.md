@@ -8,7 +8,7 @@ Tags:
 - WordPress
 ---
 
-Hot on the heels of the [Windows Azure Bootcamp](http://www.gep13.co.uk/blog/windows-azure-bootcamp-uk-tech-days/) that I did this weekend, I decided that I wanted to do _something_ with Windows Azure, that way I could practice what I had learnt, and begin to increase my exposure to what Windows Azure brings to the table. I decided that I wanted to use the Windows Azure Blob Storage to host all of the static content of my WordPress Blog, thus, _hopefully, _increasing the performance of my blog. What follows is a list of instructions for setting up your WordPress Blog, as well as your Windows Azure account, and also your domain registrar (in order to apply a shortened domain name to your Blob Storage Account).
+Hot on the heels of the [Windows Azure Bootcamp](http://www.gep13.co.uk/blog/windows-azure-bootcamp-uk-tech-days) that I did this weekend, I decided that I wanted to do _something_ with Windows Azure, that way I could practice what I had learnt, and begin to increase my exposure to what Windows Azure brings to the table. I decided that I wanted to use the Windows Azure Blob Storage to host all of the static content of my WordPress Blog, thus, _hopefully, _increasing the performance of my blog. What follows is a list of instructions for setting up your WordPress Blog, as well as your Windows Azure account, and also your domain registrar (in order to apply a shortened domain name to your Blob Storage Account).
 
 This article breaks down into three main parts:
 

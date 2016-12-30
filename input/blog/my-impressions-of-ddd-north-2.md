@@ -11,7 +11,7 @@ RedirectFrom: blog/my-impressions-of-ddd-north-2/index.html
 
 This was my first DDD North that I had attended. I wasn't able to make it last year due to prior commitments, but I really wanted to attend this year based on all the good feedback that I had heard about last year.
 
-In addition, in the same way that I submitted a session for [DDD South West](http://www.gep13.co.uk/blog/feedback-from-stylecop-presentation-at-dddsw/), I also decided to submit some [sessions](http://www.gep13.co.uk/blog/sessions-that-i-have-submitted-for-ddd-north-2012/) for DDD North. Luckily my session on Caliburn.Micro was selected for inclusion in the agenda. This was going to be the first time that I had spoken on Caliburn.Micro, and I was really looking forward to giving the session.
+In addition, in the same way that I submitted a session for [DDD South West](http://www.gep13.co.uk/blog/feedback-from-stylecop-presentation-at-dddsw), I also decided to submit some [sessions](http://www.gep13.co.uk/blog/sessions-that-i-have-submitted-for-ddd-north-2012) for DDD North. Luckily my session on Caliburn.Micro was selected for inclusion in the agenda. This was going to be the first time that I had spoken on Caliburn.Micro, and I was really looking forward to giving the session.
 
 Overall, DDD North 2 went very well! I have to say a huge congratulations to the organisers, and helpers, they put on a great conference, and they should be very proud of themselves. I think the only thing that might be viewed in a negative light was the queue at the registration desk, however, this was due in part to everyone seemingly arriving at the same time. Everything else, the sessions, the venue, the food, the prizes, were all very good. Congratulations to everyone involved.
 
@@ -19,7 +19,7 @@ One really nice touch at this year's event was the speaker t-shirts. Printed on 
 
 ![DDD North 2 T-Shirt](https://gep13wpstorage.blob.core.windows.net/gep13/2012/10/14/WP_000313.jpg)
 
-This led to an interesting question about how many DDD Events you had attended, which led me to make this [blog post](http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank/), hopefully we will find who has attended the most DDD Events.
+This led to an interesting question about how many DDD Events you had attended, which led me to make this [blog post](http://www.gep13.co.uk/blog/ddd-attendance-leaderboard-where-do-you-rank), hopefully we will find who has attended the most DDD Events.
 
 As is always the case, community events such as this are a great opportunity to catch up with people. I am happy to say that I have been able to put a few more faces to twitter handles, and I had a great time chatting to various people at both the pre-conference dinner, as well as the geek dinner after the conference itself.
 
@@ -40,15 +40,15 @@ Although there were a number of talks that I would have liked to have seen in th
 **Topic: **Getting Started with Caliburn.Micro and Windows Phone 7
 
 > Getting started with the Windows Phone 7 Development Platform is relatively simple, however, using a Framework like Caliburn.Micro takes away some of the more mundane tasks, and allows you to focus on what you are trying to achieve. In this session we will start with a blank Windows Phone 7 project, and start to create our first Windows Phone 7 application using features such as:
->   * ActionMessages
->   * Action Conventions
->   * Binding Conventions
->   * Navigation Service
->   * The Bootstrapper
->   * The IPhoneService
->   * Tombstoning
->   * Lauchers and Choosers
->   * The IWindowManager
+> * ActionMessages
+> * Action Conventions
+> * Binding Conventions
+> * Navigation Service
+> * The Bootstrapper
+> * The IPhoneService
+> * Tombstoning
+> * Lauchers and Choosers
+> * The IWindowManager
 
 **Thoughts: **Since this was my first time doing this talk, I was a little nervous, so I felt that I got off to a bit of a ropey start, but I would like to think that I pulled it together at the end. I will be interested to take a look at the speaker feedback when it is released. I did end up running slightly over time, which meant that I had to pull one demo from the presentation. However, all of the major topics that make Caliburn.Micro a great framework to use were covered, and I am hoping that the people who attended my session got a lot out of it. I would like to say a big thank you to those who did attend the session. I will be posting the slides from the presentation to this blog in the next couple days, so if you are interested to take a look, you are more than welcome, and I would welcome any feedback.
 
@@ -102,8 +102,6 @@ If you are interested to hear what other people had to say about the event you c
 - [DDDNorth2 - quick review](http://thecogworks.co.uk/blog/posts/2012/october/dddnorth2-quick-review/) by [Ismail Mayat](https://twitter.com/ismailmayat)
 
 
-
-
 # Source Code, Slides and Resources
 
 
@@ -111,77 +109,48 @@ If you are looking for the source code and slides for some of the presentations,
 
 
 
-	
-  * [Gary Ewan Park](https://twitter.com/gep13) - [Getting Started with Caliburn.Micro and Windows Phone 7](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=975) - [Code](https://github.com/gep13/CaliburnMicroDemos) - [Slides](http://www.gep13.co.uk/blog/ddd-north-2-getting-started-with-caliburn.micro/)
+* [Gary Ewan Park](https://twitter.com/gep13) - [Getting Started with Caliburn.Micro and Windows Phone 7](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=975) - [Code](https://github.com/gep13/CaliburnMicroDemos) - [Slides](http://www.gep13.co.uk/blog/ddd-north-2-getting-started-with-caliburn.micro)
 
-	
-  * [Nathan Gloyn](https://twitter.com/nathangloyn) - [Selenium a UI testing paradigm](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1028) - [Code](https://github.com/NathanGloyn/Selenium-UI-Testing) - [Slides](http://www.slideshare.net/Nathangl/selenium-ui-paradigm-ddd-north-2)
+* [Nathan Gloyn](https://twitter.com/nathangloyn) - [Selenium a UI testing paradigm](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1028) - [Code](https://github.com/NathanGloyn/Selenium-UI-Testing) - [Slides](http://www.slideshare.net/Nathangl/selenium-ui-paradigm-ddd-north-2)
 
-	
-  * [Guy Smith-Ferrier](https://twitter.com/guysmithferrier) - [Riting Rosyln Refactorings: Harnessing The Compiler As A Service](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=963) - [Slides and Code](http://www.guysmithferrier.com/page/Resources.aspx)
+* [Guy Smith-Ferrier](https://twitter.com/guysmithferrier) - [Riting Rosyln Refactorings: Harnessing The Compiler As A Service](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=963) - [Slides and Code](http://www.guysmithferrier.com/page/Resources.aspx)
 
-	
-  * [Peter Shaw](https://twitter.com/shawty_ds) - [So Just What is Spatial SQL](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=951) - [Slides](http://www.slideshare.net/shawty_ds/what-is-spatial-sql)
+* [Peter Shaw](https://twitter.com/shawty_ds) - [So Just What is Spatial SQL](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=951) - [Slides](http://www.slideshare.net/shawty_ds/what-is-spatial-sql)
 
-	
-  * [Gary Short](https://twitter.com/garyshort) - [Raspberry Pi Deep Dive](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1045) - [Slides](http://rocksolid.gibraltarsoftware.com/vistadb/raspberry-pi-at-dddnorth)
+* [Gary Short](https://twitter.com/garyshort) - [Raspberry Pi Deep Dive](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1045) - [Slides](http://rocksolid.gibraltarsoftware.com/vistadb/raspberry-pi-at-dddnorth)
 
-	
-  * [Liam Westley](http://twitter.com/westleyl) - [Async C# 5.0 - patterns for real world use](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=947) - [Slides and Code](http://geekswithblogs.net/twickers/archive/2012/10/14/dddnorth2-bradford-13th-october-2012---async-patterns-presentation-and.aspx)
+* [Liam Westley](http://twitter.com/westleyl) - [Async C# 5.0 - patterns for real world use](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=947) - [Slides and Code](http://geekswithblogs.net/twickers/archive/2012/10/14/dddnorth2-bradford-13th-october-2012---async-patterns-presentation-and.aspx)
 
-	
-  * [Niall Merrigan](https://twitter.com/nmerrigan) - [Defensive Programming 101 V2](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=986) - [Resources](http://www.certsandprogs.com/2012/10/ddd-north-2-resources.html)
+* [Niall Merrigan](https://twitter.com/nmerrigan) - [Defensive Programming 101 V2](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=986) - [Resources](http://www.certsandprogs.com/2012/10/ddd-north-2-resources.html)
 
-	
-  * [Matt Lacey](https://twitter.com/mrlacey) - [Introducing Windows Phone 8](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1047) - [Slides](http://blog.mrlacey.co.uk/2012/10/preparing-for-windows-phone-8-slides.html)
+* [Matt Lacey](https://twitter.com/mrlacey) - [Introducing Windows Phone 8](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1047) - [Slides](http://blog.mrlacey.co.uk/2012/10/preparing-for-windows-phone-8-slides.html)
 
-	
-  * [Joel Hammond-Turner](https://twitter.com/rammesses) - [Using your Nuget for Fun & Proift (Redux)](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1038) - [Slides](https://github.com/JoelHT-Landmark/NuGet-PackageNPublish/tree/master/Documentation) - [Resources](http://www.youtube.com/watch?v=R6e4kV5dfIQ)
+* [Joel Hammond-Turner](https://twitter.com/rammesses) - [Using your Nuget for Fun & Proift (Redux)](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=1038) - [Slides](https://github.com/JoelHT-Landmark/NuGet-PackageNPublish/tree/master/Documentation) - [Resources](http://www.youtube.com/watch?v=R6e4kV5dfIQ)
 
-	
-  * [Richard Garside](https://twitter.com/_richardg) - [The business of side projects](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=962) - [Reading List](http://nogginbox.co.uk/blog/side-project-startup-reading-list)
-
-
-
+* [Richard Garside](https://twitter.com/_richardg) - [The business of side projects](http://developerdeveloperdeveloper.com/north2/ViewSession.aspx?SessionID=962) - [Reading List](http://nogginbox.co.uk/blog/side-project-startup-reading-list)
 
 # Photos
 
-
 A number of people were taking photos on the day of the event and I will try to capture as many links as I can to various Flickr albums etc.
 
+* [DDD North 2](http://www.flickr.com/photos/55078960@N05/sets/72157631769689503/) by [Anthony Steele](https://twitter.com/anthonysteele)
 
+* [DDD North 2 - 13/10/2012](http://www.flickr.com/photos/craigmurphy/sets/72157631769547147/) by [Craig Murphy](https://twitter.com/camurphy)
 
-	
-  * [DDD North 2](http://www.flickr.com/photos/55078960@N05/sets/72157631769689503/) by [Anthony Steele](https://twitter.com/anthonysteele)
+* [DDD North 2](http://www.flickr.com/photos/colinangusmackay/sets/72157631765310260/) by [Colin Mackay](https://twitter.com/colinmackay)
 
-	
-  * [DDD North 2 - 13/10/2012](http://www.flickr.com/photos/craigmurphy/sets/72157631769547147/) by [Craig Murphy](https://twitter.com/camurphy)
+* [SkyDrive Album](https://t.co/xo0UxAGO) by [Hermit Dave](https://twitter.com/hermitdave)
 
-	
-  * [DDD North 2](http://www.flickr.com/photos/colinangusmackay/sets/72157631765310260/) by [Colin Mackay](https://twitter.com/colinmackay)
+* [Gibraltar Software at DDDNorth 2012](http://www.facebook.com/media/set/?set=a.10151115177983026.451777.211894228025&type=1) by [Gibraltar Software](http://www.gibraltarsoftware.com/)
 
-	
-  * [SkyDrive Album](https://t.co/xo0UxAGO) by [Hermit Dave](https://twitter.com/hermitdave)
+* [DDD North 2](http://www.flickr.com/photos/18885387@N00/sets/72157631774460566/) by [Peter Shaw](https://twitter.com/shawty_ds)
 
-	
-  * [Gibraltar Software at DDDNorth 2012](http://www.facebook.com/media/set/?set=a.10151115177983026.451777.211894228025&type=1) by [Gibraltar Software](http://www.gibraltarsoftware.com/)
-
-	
-  * [DDD North 2](http://www.flickr.com/photos/18885387@N00/sets/72157631774460566/) by [Peter Shaw](https://twitter.com/shawty_ds)
-
-	
-  * [Anything tagged with dddnorth on flickr](http://www.flickr.com/search/?q=dddnorth&f=hp)
-
-
-
+* [Anything tagged with dddnorth on flickr](http://www.flickr.com/search/?q=dddnorth&f=hp)
 
 # Sponsors and organisers
 
-
 As always, a huge thank you has to go out to both the [sponsors](http://developerdeveloperdeveloper.com/north2/) and the organisers to DDD North. It is quite simple, without both free community events like DDD North simply wouldn't be able to happen. Thank you!
 
-
 # DDD North 3 in 2013
-
 
 Andy Westgarth, the organiser of DDD North has already confirmed the date for the next DDD North. This will be held on the 12th October 2013. This time around it will be back on the North East. His plan is to alternate between the North East and the North West in order to ensure that more people can get involved in the community. If you want to catch all the news about what is happening with DDD North make sure to follow them on [twitter](http://twitter.com/dddnorth).

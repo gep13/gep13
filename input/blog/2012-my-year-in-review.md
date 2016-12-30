@@ -39,7 +39,7 @@ I had to say goodbye to an [old friend](http://gep13.me/RoB8Qj) in the form of m
 
 I had an amazing day out at the [Phoenix Falconry Centre](http://gep13.me/Ua1d49), so much so that I have booked myself on another day out which will be happening in either January or February of this year.  Really looking forward to it!  I will post some photos once I have been on it.
 
-With the help of Paul Stack ([@stack72](https://twitter.com/stack72)), a Windows Phone 7 application called TeamCity Metro came into being.  We released [Version 1.0.0.0](http://www.gep13.co.uk/blog/windows-phone-application/teamcity-metro/teamcitymetro-v1.0.0.0/), quickly followed by [Version 1.1.0.0](http://www.gep13.co.uk/blog/windows-phone-application/teamcity-metro/teamcity-metro-v-1.1.0.0/).  There are plans to make this into a Windows Phone 8 application as well, but that will be time dependent.
+With the help of Paul Stack ([@stack72](https://twitter.com/stack72)), a Windows Phone 7 application called TeamCity Metro came into being.  We released [Version 1.0.0.0](http://www.gep13.co.uk/blog/windows-phone-application/teamcity-metro/teamcitymetro-v1.0.0.0), quickly followed by [Version 1.1.0.0](http://www.gep13.co.uk/blog/windows-phone-application/teamcity-metro/teamcity-metro-v-1.1.0.0).  There are plans to make this into a Windows Phone 8 application as well, but that will be time dependent.
 
 I am happy to say that my wife was able to put up with me, and we celebrated our second Wedding Anniversary.
 

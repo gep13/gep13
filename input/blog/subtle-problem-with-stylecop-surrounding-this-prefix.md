@@ -9,7 +9,7 @@ Tags:
 - this.
 ---
 
-While preparing for my [StyleCop presentation at DDDSW](http://www.gep13.co.uk/blog/dddsw-4-stylecop-breaking-down-the-barriers-to-entry/) I created a number of scripts for the demos that I wanted to show during the presentation.  For the first demo, which was a simple introduction to what StyleCop is and how it can be used, the script went like this:
+While preparing for my [StyleCop presentation at DDDSW](http://www.gep13.co.uk/blog/dddsw-4-stylecop-breaking-down-the-barriers-to-entry) I created a number of scripts for the demos that I wanted to show during the presentation.  For the first demo, which was a simple introduction to what StyleCop is and how it can be used, the script went like this:
 
 - Create new Windows Forms Application using C#
 - Show that the Project Builds successfully

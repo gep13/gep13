@@ -8,7 +8,7 @@ Tags:
 - User Groups
 ---
 
-Back in June 2011, I asked an [open question](http://www.gep13.co.uk/blog/can-net-user-groups-get-office365-for-free/) to the community regarding Office 365.  The question was simple...
+Back in June 2011, I asked an [open question](http://www.gep13.co.uk/blog/can-net-user-groups-get-office365-for-free) to the community regarding Office 365.  The question was simple...
 
 > Can .Net User Groups get Office 365 for free?
 

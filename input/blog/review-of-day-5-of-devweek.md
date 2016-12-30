@@ -10,11 +10,11 @@ Tags:
 
 What follows is a brief summary of the final day of [DevWeek 2012](http://www.devweek.com/).  It has been a very long, but also a very enjoyable, week and I have to give a lot of credit of all of the organisers, speakers and sponsors for putting on a great conference.  Congratulations to Nick Payne of [Bearkpark Publishing](http://www.bearpark.co.uk/) for organising everything!  Reviews of the other days of DevWeek can be seen here:
 
-- [Day 1 - Pre-Conference Workshops](http://www.gep13.co.uk/blog/review-of-day-1-of-devweek/)
-- [Day 2 - Conference Sessions](http://www.gep13.co.uk/blog/review-of-day-2-of-devweek/)
-- [Day 3 - Conference Sessions](http://www.gep13.co.uk/blog/review-of-day-3-of-devweek/)
+- [Day 1 - Pre-Conference Workshops](http://www.gep13.co.uk/blog/review-of-day-1-of-devweek)
+- [Day 2 - Conference Sessions](http://www.gep13.co.uk/blog/review-of-day-2-of-devweek)
+- [Day 3 - Conference Sessions](http://www.gep13.co.uk/blog/review-of-day-3-of-devweek)
 - Day 4 - Conference Sessions
-- [Day 5 - Post-Conference Workshops](http://www.gep13.co.uk/blog/review-of-day-5-of-devweek/)
+- [Day 5 - Post-Conference Workshops](http://www.gep13.co.uk/blog/review-of-day-5-of-devweek)
 
 # Post-Conference Workshop at DevWeek
 

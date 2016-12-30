@@ -92,7 +92,7 @@ If you are interested to hear what other people had to say about the event you c
 * [DDD Southwest](http://blog.russellgilbert.co.uk/2012/05/27/ddd-southwest/) by [@rgilbert59](https://twitter.com/#!/rgilbert59)
 * Is Your Code Solid – [slides](http://www.slideshare.net/Nathangl/is-your-code-solid-13085622) and [code](https://github.com/NathanGloyn/Is-your-code-SOLID) by [@NathanGloyn](https://twitter.com/#!/nathangloyn)
 * [DDD South West OAuth Session](http://jimmylarkin.net/post/2012/05/27/DDD-South-West-OAuth-Session.aspx) by [@_jimmys](https://twitter.com/#!/_jimmys)
-* [DDDSW 4 – Stylecop: Breaking down the barriers to entry](http://www.gep13.co.uk/blog/dddsw-4-stylecop-breaking-down-the-barriers-to-entry/) by [@gep13](https://twitter.com/#!/gep13)
+* [DDDSW 4 – Stylecop: Breaking down the barriers to entry](http://www.gep13.co.uk/blog/dddsw-4-stylecop-breaking-down-the-barriers-to-entry) by [@gep13](https://twitter.com/#!/gep13)
 * [Raven DB: Day to day at #DDDSW](http://roundcrisis.com/2012/05/29/raven-db-day-to-day-at-dddsw/) by [@silverspoon](https://twitter.com/#!/silverSpoon)
 * [DDDSW Roundup and Resources](http://www.certsandprogs.com/2012/05/dddsw-roundup-and-resources.html#axzz1wGMj01Hs) by [@nmerrigan](https://twitter.com/#!/nmerrigan)
 * [DDD Southwest](http://blog.hmobius.com/post/2012/05/29/DDD-Southwest.aspx) by [@hmobius](http://twitter.com/#!/hmobius)
