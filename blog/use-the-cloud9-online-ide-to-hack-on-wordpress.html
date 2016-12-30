@@ -14,13 +14,13 @@
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
         <link href="/assets/css/highlight.css" rel="stylesheet">
         <link href="/assets/css/clean-blog.css" rel="stylesheet" />
         <link href="/assets/css/master.css" rel="stylesheet" />
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
         <link href="/assets/css/override.css" rel="stylesheet" />
 
 
@@ -33,19 +33,19 @@
         <meta property="og:url" content="http://www.gep13.co.uk/blog/use-the-cloud9-online-ide-to-hack-on-wordpress" />
         <!-- TODO: More social graph meta tags -->
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>     
         <script src="/assets/js/highlight.pack.js"></script>   
         <script src="/assets/js/clean-blog.js"></script>
-        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-                <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+                <script src="/assets/js/html5shiv.js"></script>
+                <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
 
 
@@ -110,12 +110,12 @@ Published on 31 January 2012<br>    </div>
                                 <div id="content" class="col-md-12">
                                         
 
-<p>As some of you may know, I have been <em>hacking</em> on this WordPress blog site recently.  The decision to &quot;improve&quot; this site has really come from the realisation that WordPress is actually very good at what it does, and I am going to <a href="http://www.gep13.co.uk/blog/continue-using-wordpress-or-not/">continue using it for the foreseeable future</a>.  With that in mind, there were a few things that were annoying me about the site, so I started digging around the innards of WordPress to figure out what could be changed, and more importantly, how to do it.  To start with, this was done using the always useful FTP application, <a href="http://filezilla-project.org/">FileZilla</a>.  I would download a .php file locally, make some changes to it, and then upload it again.  This cycle repeated for a few iterations, until I realised that there <em>must</em> be a better way to do this!</p>
+<p>As some of you may know, I have been <em>hacking</em> on this WordPress blog site recently.  The decision to &quot;improve&quot; this site has really come from the realisation that WordPress is actually very good at what it does, and I am going to <a href="http://www.gep13.co.uk/blog/continue-using-wordpress-or-not">continue using it for the foreseeable future</a>.  With that in mind, there were a few things that were annoying me about the site, so I started digging around the innards of WordPress to figure out what could be changed, and more importantly, how to do it.  To start with, this was done using the always useful FTP application, <a href="http://filezilla-project.org/">FileZilla</a>.  I would download a .php file locally, make some changes to it, and then upload it again.  This cycle repeated for a few iterations, until I realised that there <em>must</em> be a better way to do this!</p>
 <h1 id="using-the-wordpress-editor">Using the WordPress Editor</h1>
 <p>Now, WordPress comes with its own built-in file editor, which gives you the ability to edit individual files.  This can be pretty much any file within WordPress, be it, plugins, themes, script files, etc.  However, the editor itself is very basic, and I quickly became annoyed at using it:</p>
 <p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2012/1/31/WordPress_Editor.png" class="img-fluid" alt="WordPress Editor" /></p>
 <h1 id="using-an-online-ide">Using an Online IDE</h1>
-<p>Then I remembered about a conversation had with Phil Leggetter (<a href="https://twitter.com/#!/leggetter">&#64;leggetter</a>) and Daniel Elliot (<a href="https://twitter.com/#!/agileguy">&#64;agileguy</a>) while I was at <a href="http://www.gep13.co.uk/blog/my-impressions-of-givecampuk/">GiveCamp UK</a> last year, and the idea of using an online IDE to do the work started to become more appealing.  This would mean that I could &quot;hack&quot; on the files directly from within the browser, but still get the added benefits, such as syntax highlighting.  A quick search, and it turns out that there are lots of online IDE's out there.  Here are some of the ones that I tried out:</p>
+<p>Then I remembered about a conversation had with Phil Leggetter (<a href="https://twitter.com/#!/leggetter">&#64;leggetter</a>) and Daniel Elliot (<a href="https://twitter.com/#!/agileguy">&#64;agileguy</a>) while I was at <a href="http://www.gep13.co.uk/blog/my-impressions-of-givecampuk">GiveCamp UK</a> last year, and the idea of using an online IDE to do the work started to become more appealing.  This would mean that I could &quot;hack&quot; on the files directly from within the browser, but still get the added benefits, such as syntax highlighting.  A quick search, and it turns out that there are lots of online IDE's out there.  Here are some of the ones that I tried out:</p>
 <ul>
 <li><a href="http://coderun.com/ide/">coderun</a></li>
 <li><a href="http://shiftedit.net/">ShiftEdit</a></li>

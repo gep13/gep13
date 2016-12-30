@@ -14,13 +14,13 @@
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
         <link href="/assets/css/highlight.css" rel="stylesheet">
         <link href="/assets/css/clean-blog.css" rel="stylesheet" />
         <link href="/assets/css/master.css" rel="stylesheet" />
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
         <link href="/assets/css/override.css" rel="stylesheet" />
 
 
@@ -33,19 +33,19 @@
         <meta property="og:url" content="http://www.gep13.co.uk/blog/improve-appveyor-build-times-using-build-cache" />
         <!-- TODO: More social graph meta tags -->
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>     
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>     
         <script src="/assets/js/highlight.pack.js"></script>   
         <script src="/assets/js/clean-blog.js"></script>
-        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-                <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+                <script src="/assets/js/html5shiv.js"></script>
+                <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
 
 
@@ -112,7 +112,7 @@ Published on 20 October 2014<br>    </div>
 
 <h2 id="take-minutes-off-overall-build-time">Take minutes off overall build time...</h2>
 <p>By making use of the <a href="http://www.appveyor.com/docs/build-cache">build cache</a> within <a href="http://www.appveyor.com/">AppVeyor</a>.  For both this blog, and also the <a href="http://www.aberdeendevelopers.co.uk/">Aberdeen Developers .Net User Group</a> blog, I was able to reduce the overall build time by over 3 minutes.  Find out how.</p>
-<p>In a recent <a href="http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages/">blog post</a>, I described how I was able to use AppVeyor to generate and then deploy an Octopress site to GitHub Pages.  The process is very simple to setup, the only slight downside is the time that it takes to generate the site itself, which can take over 7 minutes.</p>
+<p>In a recent <a href="http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages">blog post</a>, I described how I was able to use AppVeyor to generate and then deploy an Octopress site to GitHub Pages.  The process is very simple to setup, the only slight downside is the time that it takes to generate the site itself, which can take over 7 minutes.</p>
 <p>In the grand scheme of things, this isn't a long time, but if you are pushing a quick change, and want to see whether it worked before moving onto something else, these 7 minutes can seem like an entirity.  Looking at the build log, it was clear that the thing that was taking the longest was this command:</p>
 <pre><code class="language-yaml">  - cmd: bundle install
 </code></pre>
