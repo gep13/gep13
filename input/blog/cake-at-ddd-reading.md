@@ -1,5 +1,5 @@
 ---
-Title: Cake talk at NDC Oslo
+Title: Cake talk at DDD Reading
 Published: 3/9/2016
 Tags:
 - Cake
@@ -9,7 +9,7 @@ Tags:
 # A Piece of Cake
 ## C# powered cross platform build automation
 
-In the same way that DDD Scotland made a welcome return this year, the same was true of DDD Reading.  A .Net Community event which is hosted in the Microsoft Offices in Thames Valley Park.  I have attended this event before, in fact, it was actually one of the first .Net Community events that I went to, and this year I was asked along to present my talk on Cake.
+In the same way that DDD Scotland made a welcome return this year, the same was true of [DDD Reading](http://developerdeveloperdeveloper.com/).  A .Net Community event which is hosted in the Microsoft Offices in Thames Valley Park.  I have attended this event before, in fact, it was actually one of the first .Net Community events that I went to, and this year I was asked along to present my talk on Cake.
 
 # The Code
 
