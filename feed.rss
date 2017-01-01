@@ -4,9 +4,9 @@
 		<title>Gary Ewan Park</title>
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-		<copyright>2016</copyright>
-		<pubDate>Fri, 30 Dec 2016 20:12:57 GMT</pubDate>
-		<lastBuildDate>Fri, 30 Dec 2016 20:12:57 GMT</lastBuildDate>
+		<copyright>2017</copyright>
+		<pubDate>Sun, 01 Jan 2017 20:47:58 GMT</pubDate>
+		<lastBuildDate>Sun, 01 Jan 2017 20:47:58 GMT</lastBuildDate>
 		<item>
 			<title>Cake reaches 250000 downloads</title>
 			<link>http://www.gep13.co.uk/blog/cake-reaches-250000-downloads</link>
@@ -107,6 +107,163 @@
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
 		</item>
 		<item>
+			<title>Cake discussion on Herding Code!</title>
+			<link>http://www.gep13.co.uk/blog/cake-on-herding-code</link>
+			<description>&lt;p&gt;Following on the heels of a few podcasts appearances, I am happy to announce that myself and Mattias were interviewed on the &lt;a href="http://herdingcode.com/"&gt;Herding Code&lt;/a&gt; talking about &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt;.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/cake-on-herding-code</guid>
+			<pubDate>Mon, 17 Oct 2016 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="herding-code-219-cake-with-gary-park-and-mattias-karlsson"&gt;Herding Code 219: Cake with Gary Park and Mattias Karlsson&lt;/h1&gt;
+&lt;p&gt;Following on the heels of a few podcasts appearances, I am happy to announce that myself and Mattias were interviewed on the &lt;a href="http://herdingcode.com/"&gt;Herding Code&lt;/a&gt; talking about &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can find the show &lt;a href="http://herdingcode.com/herding-code-219-cake-with-gary-park-and-mattias-karlsson/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Once again, I have to give a lot of credit to the guys behind these podcasts, they really do know what they are doing, and make it very easy to talk about the topic.  Thanks for having us on!&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-on-herding-code' + 'S/';
+    var disqus_title = 'Cake discussion on Herding Code!';
+    var disqus_url = 'http://www.gep13.co.uk/blog/cake-on-herding-code' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
+		<item>
+			<title>Cake talk at DDD North</title>
+			<link>http://www.gep13.co.uk/blog/cake-at-ddd-north</link>
+			<description>&lt;p&gt;Following a run of Cake talks this year, today saw me presenting at &lt;a href="http://dddnorth.co.uk/"&gt;DDD North&lt;/a&gt;.  Today's event was very well organised, and I was priveledged to be part of it.  Thanks for inviting me!&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/cake-at-ddd-north</guid>
+			<pubDate>Sat, 01 Oct 2016 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="a-piece-of-cake"&gt;A Piece of Cake&lt;/h1&gt;
+&lt;h2 id="c-powered-cross-platform-build-automation"&gt;C# powered cross platform build automation&lt;/h2&gt;
+&lt;p&gt;Following a run of Cake talks this year, today saw me presenting at &lt;a href="http://dddnorth.co.uk/"&gt;DDD North&lt;/a&gt;.  Today's event was very well organised, and I was priveledged to be part of it.  Thanks for inviting me!&lt;/p&gt;
+&lt;h1 id="the-code"&gt;The Code&lt;/h1&gt;
+&lt;p&gt;If you are interested in following along with the demos that I gave during this talk, you can find all the information in my &lt;a href="https://github.com/gep13/CakeDemos"&gt;GitHub Repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="the-slides"&gt;The Slides&lt;/h1&gt;
+&lt;p&gt;If you are interested in seeing the slides from the talk, you can find them displayed below, and also they are available as a download by clicking through to the slideshare site.&lt;/p&gt;
+&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/LciH1gJkM3mcm" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="//www.slideshare.net/gep13/a-piece-of-cake-ddd-north" title="A Piece of Cake - DDD North" target="_blank"&gt;A Piece of Cake - DDD North&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target="_blank" href="//www.slideshare.net/gep13"&gt;Gary Park&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+&lt;h2 id="update"&gt;Update&lt;/h2&gt;
+&lt;p&gt;I was very happy with how this talk went on the day, but I was even happier once I got the speaker feedback.  These were the results/comments:&lt;/p&gt;
+&lt;p&gt;Speaker Knowledge: 9/9
+Speaker Presentation: 8.41/9&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A lot to fit in within an hour but covered the basics well.&lt;/li&gt;
+&lt;li&gt;Arrows back to front in build workflow? Pedantic me?&lt;/li&gt;
+&lt;li&gt;Bring cake.&lt;/li&gt;
+&lt;li&gt;Fantastic, thanks Gary.&lt;/li&gt;
+&lt;li&gt;Great intro to cake. Thanks.&lt;/li&gt;
+&lt;li&gt;Great talk, I will use it!&lt;/li&gt;
+&lt;li&gt;Really nice demo. Good explanation of motivations (why/why not use it?). Debuggable build scripts is amazing.&lt;/li&gt;
+&lt;li&gt;Well structured, clear. Thank you.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you to everyone who attended, and I am very glad that you all liked it!&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-at-ddd-north' + 'S/';
+    var disqus_title = 'Cake talk at DDD North';
+    var disqus_url = 'http://www.gep13.co.uk/blog/cake-at-ddd-north' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
+		<item>
+			<title>Cake discussion on Cynical Developer</title>
+			<link>http://www.gep13.co.uk/blog/cake-on-cynical-developer</link>
+			<description>&lt;p&gt;I am very happy to announce that a podcast appearance that I did has just been published.  You can find the show &lt;a href="http://cynicaldeveloper.com/podcast/1/"&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/cake-on-cynical-developer</guid>
+			<pubDate>Mon, 12 Sep 2016 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="let-them-build-with-cake"&gt;Let them build with Cake&lt;/h1&gt;
+&lt;p&gt;I am very happy to announce that a podcast appearance that I did has just been published.  You can find the show &lt;a href="http://cynicaldeveloper.com/podcast/1/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a brand new podcast called &lt;a href="http://cynicaldeveloper.com/"&gt;Cynical Developer&lt;/a&gt; and the man behind it is &lt;a href="http://cynicaldeveloper.com/about/"&gt;James Studdart&lt;/a&gt;.  It was a great discussion about &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and I hope you enjoy it.&lt;/p&gt;
+&lt;p&gt;I wish James all the best with his future shows!&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-on-cynical-developer' + 'S/';
+    var disqus_title = 'Cake discussion on Cynical Developer';
+    var disqus_url = 'http://www.gep13.co.uk/blog/cake-on-cynical-developer' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
+		<item>
+			<title>Cake talk at DDD Reading</title>
+			<link>http://www.gep13.co.uk/blog/cake-at-ddd-reading</link>
+			<description>&lt;p&gt;In the same way that DDD Scotland made a welcome return this year, the same was true of &lt;a href="http://developerdeveloperdeveloper.com/"&gt;DDD Reading&lt;/a&gt;.  A .Net Community event which is hosted in the Microsoft Offices in Thames Valley Park.  I have attended this event before, in fact, it was actually one of the first .Net Community events that I went to, and this year I was asked along to present my talk on Cake.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/cake-at-ddd-reading</guid>
+			<pubDate>Sat, 03 Sep 2016 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="a-piece-of-cake"&gt;A Piece of Cake&lt;/h1&gt;
+&lt;h2 id="c-powered-cross-platform-build-automation"&gt;C# powered cross platform build automation&lt;/h2&gt;
+&lt;p&gt;In the same way that DDD Scotland made a welcome return this year, the same was true of &lt;a href="http://developerdeveloperdeveloper.com/"&gt;DDD Reading&lt;/a&gt;.  A .Net Community event which is hosted in the Microsoft Offices in Thames Valley Park.  I have attended this event before, in fact, it was actually one of the first .Net Community events that I went to, and this year I was asked along to present my talk on Cake.&lt;/p&gt;
+&lt;h1 id="the-code"&gt;The Code&lt;/h1&gt;
+&lt;p&gt;If you are interested in following along with the demos that I gave during this talk, you can find all the information in my &lt;a href="https://github.com/gep13/CakeDemos"&gt;GitHub Repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="the-slides"&gt;The Slides&lt;/h1&gt;
+&lt;p&gt;If you are interested in seeing the slides from the talk, you can find them displayed below, and also they are available as a download by clicking through to the slideshare site.&lt;/p&gt;
+&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/J0xArrI2be03dG" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="//www.slideshare.net/gep13/a-piece-of-cake-ddd11-reading" title="A Piece of Cake - DDD11 - Reading" target="_blank"&gt;A Piece of Cake - DDD11 - Reading&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target="_blank" href="//www.slideshare.net/gep13"&gt;Gary Park&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+&lt;h2 id="update"&gt;Update&lt;/h2&gt;
+&lt;p&gt;Thank you to everyone who attended the event on the day.  I have just received the speaker feedback, and I have to say that I am very happy with the results/comments:&lt;/p&gt;
+&lt;p&gt;Speaker Knowledge: 8.62/9
+Speaker Presentation: 7.85/9&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;"Tenet" is not "Tennant"&lt;/li&gt;
+&lt;li&gt;Brilliant!&lt;/li&gt;
+&lt;li&gt;Clearly not passionate enough about cake :) Great talk, good intro&lt;/li&gt;
+&lt;li&gt;Good product, talk needs a little more cheese/humour but good and informative&lt;/li&gt;
+&lt;li&gt;Hungry now! :)&lt;/li&gt;
+&lt;li&gt;Interesting - good demo nice intro to useful tools&lt;/li&gt;
+&lt;li&gt;Would be good to have more demo time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I will be taking on board some of these comments for my upcoming talk at DDD North.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-at-ddd-reading' + 'S/';
+    var disqus_title = 'Cake talk at DDD Reading';
+    var disqus_url = 'http://www.gep13.co.uk/blog/cake-at-ddd-reading' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
+		<item>
 			<title>Cake-Contrib organisation created on GitHub</title>
 			<link>http://www.gep13.co.uk/blog/cake-contrib-organisation</link>
 			<description>&lt;p&gt;Today I created the Cake-Contrib on GitHub:&lt;/p&gt;</description>
@@ -139,6 +296,155 @@
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
 		</item>
 		<item>
+			<title>Cake discussion on .Net Rocks!</title>
+			<link>http://www.gep13.co.uk/blog/cake-on-.net-rocks</link>
+			<description>&lt;p&gt;I am a big fan of the .Net Rocks podcast, I have been listening for longer than I can remember, and I was blown away when I was able to arrange an appearance on the show to discuss &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt;.  As some of you may know, Carl and Richard have a recording booth at &lt;a href="http://ndcoslo.com/"&gt;NDC Oslo&lt;/a&gt; where they are able to record a number of shows back to back, when everyone is in the same place, and I was lucky enough to get selected.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/cake-on-.net-rocks</guid>
+			<pubDate>Wed, 13 Jul 2016 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="achievement-unlocked"&gt;Achievement unlocked!&lt;/h1&gt;
+&lt;p&gt;I am a big fan of the .Net Rocks podcast, I have been listening for longer than I can remember, and I was blown away when I was able to arrange an appearance on the show to discuss &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt;.  As some of you may know, Carl and Richard have a recording booth at &lt;a href="http://ndcoslo.com/"&gt;NDC Oslo&lt;/a&gt; where they are able to record a number of shows back to back, when everyone is in the same place, and I was lucky enough to get selected.&lt;/p&gt;
+&lt;h1 id="the-show"&gt;The show&lt;/h1&gt;
+&lt;p&gt;The show has just been published, and you can find it &lt;a href="https://www.dotnetrocks.com/?show=1321"&gt;here&lt;/a&gt;.  All in all, it was great fun doing the show.  Both Carl and Richard are seasoned professionals, and make it very easy to talk about the topic at hand.  I had just finished presenting my talk at NDC Oslo, so I was already buzzing, so I might come across as a little over excited, but I hope you enjoy it.&lt;/p&gt;
+&lt;h1 id="the-5000-question"&gt;The $5000 question&lt;/h1&gt;
+&lt;p&gt;I had put a lot of thought into the question, but in the end I sort of wimped out, as I wasn't really able to think of anything.  In fairness though, everyone likes playing with toys, so it wouldn't be a complete waste of money!&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-on-.net-rocks' + 'S/';
+    var disqus_title = 'Cake discussion on .Net Rocks!';
+    var disqus_url = 'http://www.gep13.co.uk/blog/cake-on-.net-rocks' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
+		<item>
+			<title>Cake talk at NDC Oslo</title>
+			<link>http://www.gep13.co.uk/blog/cake-at-ndc-oslo</link>
+			<description>&lt;p&gt;Earlier this year, I was blown away by the fact that a talk I submitted to NDC Oslo was actually accepted, and today was the day that it actually happened!  To say that I was nervous would be an understatement, but I was very happy with how it went.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/cake-at-ndc-oslo</guid>
+			<pubDate>Thu, 09 Jun 2016 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="a-piece-of-cake"&gt;A Piece of Cake&lt;/h1&gt;
+&lt;h2 id="c-powered-cross-platform-build-automation"&gt;C# powered cross platform build automation&lt;/h2&gt;
+&lt;p&gt;Earlier this year, I was blown away by the fact that a talk I submitted to NDC Oslo was actually accepted, and today was the day that it actually happened!  To say that I was nervous would be an understatement, but I was very happy with how it went.&lt;/p&gt;
+&lt;p&gt;As you all may know, all the sessions at NDC Oslo are recorded, and are made available after the fact, so once the video is available, I will update this blog post with a link to the video.&lt;/p&gt;
+&lt;h1 id="the-code"&gt;The Code&lt;/h1&gt;
+&lt;p&gt;If you are interested in following along with the demos that I gave during this talk, you can find all the information in my &lt;a href="https://github.com/gep13/CakeDemos"&gt;GitHub Repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="the-slides"&gt;The Slides&lt;/h1&gt;
+&lt;p&gt;If you are interested in seeing the slides from the talk, you can find them displayed below, and also they are available as a download by clicking through to the slideshare site.&lt;/p&gt;
+&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/AGmAQTXpqmjkDo" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="//www.slideshare.net/gep13/having-your-cake-and-eating-it-too-ndc-oslo-2016" title="A Piece of Cake - NDC Oslo 2016" target="_blank"&gt;A Piece of Cake - NDC Oslo 2016&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target="_blank" href="//www.slideshare.net/gep13"&gt;Gary Park&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+&lt;h2 id="update"&gt;Update&lt;/h2&gt;
+&lt;p&gt;As promised, you can see the video of this presentation below:&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/171704581" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/171704581"&gt;A Piece of Cake - C# powered cross platform build automation - Gary Ewan Park&lt;/a&gt; from &lt;a href="https://vimeo.com/ndcconferences"&gt;NDC Conferences&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This was without question the highest profile event that I have spoken about, and I would love to hear any feedback that you might have about it.&lt;/p&gt;
+&lt;h2 id="update-2"&gt;Update 2&lt;/h2&gt;
+&lt;p&gt;I have just received the feedback for my presentation, and I am very happy with the results.  For those of you that don't know, NDC Oslo use a very simple scoring system, of green, yellow and red.  Green obviously being the preferred outcome.&lt;/p&gt;
+&lt;p&gt;My results were the following:&lt;/p&gt;
+&lt;p&gt;Green: 33
+Yellow: 7
+Red: 2&lt;/p&gt;
+&lt;p&gt;The one downside to the scoring system is that you don't get any feedback about what exactly wasn't liked, but overall, very happy with the results!&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-at-ndc-oslo' + 'S/';
+    var disqus_title = 'Cake talk at NDC Oslo';
+    var disqus_url = 'http://www.gep13.co.uk/blog/cake-at-ndc-oslo' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
+		<item>
+			<title>Cake talk at DDD Scotland</title>
+			<link>http://www.gep13.co.uk/blog/cake-at-ddd-scotland</link>
+			<description>&lt;p&gt;Today I gave a talk entitled "Having your Cake, and eating it too!" at &lt;a href="http://ddd.scot/"&gt;DDD Scotland&lt;/a&gt;.  This was the first year that DDD Scotland has been back for a long time, and I was particularly happy to be asked along to present at this event.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/cake-at-ddd-scotland</guid>
+			<pubDate>Sat, 14 May 2016 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="having-your-cake-and-eating-it-too"&gt;Having your cake, and eating it too!&lt;/h1&gt;
+&lt;p&gt;Today I gave a talk entitled "Having your Cake, and eating it too!" at &lt;a href="http://ddd.scot/"&gt;DDD Scotland&lt;/a&gt;.  This was the first year that DDD Scotland has been back for a long time, and I was particularly happy to be asked along to present at this event.&lt;/p&gt;
+&lt;p&gt;To add an additional level of pressure, the session was being recorded and should be available on the Channel 9 website once edited.&lt;/p&gt;
+&lt;h1 id="the-code"&gt;The Code&lt;/h1&gt;
+&lt;p&gt;If you are interested in following along with the demos that I gave during this talk, you can find all the information in my &lt;a href="https://github.com/gep13/CakeDemos"&gt;GitHub Repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="the-slides"&gt;The Slides&lt;/h1&gt;
+&lt;p&gt;If you are interested in seeing the slides from the talk, you can find them displayed below, and also they are available as a download by clicking through to the slideshare site.&lt;/p&gt;
+&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/cLIlxSEOstasFb" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="//www.slideshare.net/gep13/having-your-cake-and-eating-it-too-dddscotland" title="Having your cake, and eating it too! - DDDScotland" target="_blank"&gt;Having your cake, and eating it too! - DDDScotland&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target="_blank" href="//www.slideshare.net/gep13"&gt;Gary Park&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+&lt;h2 id="update"&gt;Update&lt;/h2&gt;
+&lt;p&gt;The Channel 9 website has been updated with some of the videos from the day, but it doesn't look like mine has been added yet.  If you are interested, keep an eye out &lt;a href="https://channel9.msdn.com/Events/DDD/Scotland/Having-your-Cake-and-eating-to-too"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-at-ddd-scotland' + 'S/';
+    var disqus_title = 'Cake talk at DDD Scotland';
+    var disqus_url = 'http://www.gep13.co.uk/blog/cake-at-ddd-scotland' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
+		<item>
+			<title>Cake talk at Aberdeen Developers</title>
+			<link>http://www.gep13.co.uk/blog/cake-at-aberdeen-developers</link>
+			<description>&lt;p&gt;Tonight I gave a talk entitled "Having your Cake, and eating it too!" at Aberdeen Developers .Net User Group.  You can find out more about this local .Net User Group on the &lt;a href="http://www.aberdeendevelopers.co.uk/"&gt;website&lt;/a&gt;.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/cake-at-aberdeen-developers</guid>
+			<pubDate>Thu, 21 Apr 2016 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="having-your-cake-and-eating-it-too"&gt;Having your cake, and eating it too!&lt;/h1&gt;
+&lt;p&gt;Tonight I gave a talk entitled "Having your Cake, and eating it too!" at Aberdeen Developers .Net User Group.  You can find out more about this local .Net User Group on the &lt;a href="http://www.aberdeendevelopers.co.uk/"&gt;website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This was really a dry run for the talk that I will be giving later in the year at &lt;a href="http://ndcoslo.com/"&gt;NDC Oslo&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="the-code"&gt;The Code&lt;/h1&gt;
+&lt;p&gt;If you are interested in following along with the demos that I gave during this talk, you can find all the information in my &lt;a href="https://github.com/gep13/CakeDemos"&gt;GitHub Repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="the-slides"&gt;The Slides&lt;/h1&gt;
+&lt;p&gt;If you are interested in seeing the slides from the talk, you can find them displayed below, and also they are available as a download by clicking through to the slideshare site.&lt;/p&gt;
+&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/bYclt37BPFM2Fu" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="//www.slideshare.net/gep13/having-your-cake-and-eating-it-too" title="Having your cake, and eating it too!" target="_blank"&gt;Having your cake, and eating it too!&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target="_blank" href="//www.slideshare.net/gep13"&gt;Gary Park&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-at-aberdeen-developers' + 'S/';
+    var disqus_title = 'Cake talk at Aberdeen Developers';
+    var disqus_url = 'http://www.gep13.co.uk/blog/cake-at-aberdeen-developers' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
+		<item>
 			<title>Invited to Wyam organisation on GitHub</title>
 			<link>http://www.gep13.co.uk/blog/wyam-organisation-on-github</link>
 			<description>&lt;p&gt;Today, &lt;a href="https://github.com/daveaglick"&gt;Dave&lt;/a&gt; made me a member of the Wyam Organisation on GitHub.&lt;/p&gt;</description>
@@ -158,6 +464,35 @@
     var disqus_identifier = 'http://www.gep13.co.uk/blog/wyam-organisation-on-github' + 'S/';
     var disqus_title = 'Invited to Wyam organisation on GitHub';
     var disqus_url = 'http://www.gep13.co.uk/blog/wyam-organisation-on-github' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
+		<item>
+			<title>Cake discussion on MS Dev Show</title>
+			<link>http://www.gep13.co.uk/blog/cake-on-msdev-show</link>
+			<description>&lt;p&gt;I have been a long time listener of the &lt;a href="http://msdevshow.com/"&gt;MS Dev Show&lt;/a&gt;, but I am very proud to announce that a recording of myself and Mattias has just been published.  You can listen to us discussing Cake on the &lt;a href="http://msdevshow.com/2016/04/cakebuild-with-mattias-karlsson-and-gary-ewan-park/"&gt;April 2nd&lt;/a&gt; show.  We were interviewed by the show's host Jason and Carl.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/cake-on-msdev-show</guid>
+			<pubDate>Sat, 02 Apr 2016 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="cakebuild-with-mattias-karlsson-and-gary-ewan-park"&gt;CakeBuild with Mattias Karlsson and Gary Ewan Park&lt;/h1&gt;
+&lt;p&gt;I have been a long time listener of the &lt;a href="http://msdevshow.com/"&gt;MS Dev Show&lt;/a&gt;, but I am very proud to announce that a recording of myself and Mattias has just been published.  You can listen to us discussing Cake on the &lt;a href="http://msdevshow.com/2016/04/cakebuild-with-mattias-karlsson-and-gary-ewan-park/"&gt;April 2nd&lt;/a&gt; show.  We were interviewed by the show's host Jason and Carl.&lt;/p&gt;
+&lt;p&gt;This was my first ever appearance on a Podcast, so I was a little bit nervous, but Jason and Carl very quickly put our nerves to rest, and the end result I was very happy with.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-on-msdev-show' + 'S/';
+    var disqus_title = 'Cake discussion on MS Dev Show';
+    var disqus_url = 'http://www.gep13.co.uk/blog/cake-on-msdev-show' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -388,452 +723,6 @@ Number of errors: 1
     var disqus_identifier = 'http://www.gep13.co.uk/blog/myget-organisation-on-github' + 'S/';
     var disqus_title = 'Invited to MyGet organisation on GitHub';
     var disqus_url = 'http://www.gep13.co.uk/blog/myget-organisation-on-github' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>Invited to Chocolatey organisation on GitHub</title>
-			<link>http://www.gep13.co.uk/blog/chocolatey-organisation-on-github</link>
-			<description>&lt;p&gt;Today was a HUGE day!  I was formally invited to join the Chocolatey Organisation on GitHub:&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/chocolatey-organisation-on-github</guid>
-			<pubDate>Thu, 20 Aug 2015 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="i-am-now-member-of-the-chocolatey-github-organisation"&gt;I am now member of the Chocolatey GitHub Organisation&lt;/h1&gt;
-&lt;p&gt;Today was a HUGE day!  I was formally invited to join the Chocolatey Organisation on GitHub:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2015/8/20/chocolatey-organisation.png" class="img-fluid" alt="Chocolatey Organisation on GitHub"&gt;&lt;/p&gt;
-&lt;p&gt;I have been interested in the Chocolatey project since raising my first &lt;a href="http://www.gep13.co.uk/blog/first-github-issue"&gt;GitHub issue&lt;/a&gt; back in 2012.  Since then, I have helped out where I can with Chocolatey from submitting Pull Requests into the project, answering questions on the forums, and helping out with GitHub issues.&lt;/p&gt;
-&lt;p&gt;Today shows a huge amount of trust in me from the Chocolatey creator Rob Reynolds, and I am very grateful for this trust that he has in me.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This is a retrospective blog post after GitHub announced a range of &lt;a href="https://github.com/blog/2256-a-whole-new-github-universe-announcing-new-tools-forums-and-features"&gt;new features&lt;/a&gt; including the option to see a history of your contributions.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/chocolatey-organisation-on-github' + 'S/';
-    var disqus_title = 'Invited to Chocolatey organisation on GitHub';
-    var disqus_url = 'http://www.gep13.co.uk/blog/chocolatey-organisation-on-github' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>GitTools organisation created on GitHub</title>
-			<link>http://www.gep13.co.uk/blog/gittools-organisation-on-github</link>
-			<description>&lt;p&gt;Today the &lt;a href="https://github.com/GitTools"&gt;GitTools organisation&lt;/a&gt; was created on GitHub.&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/gittools-organisation-on-github</guid>
-			<pubDate>Wed, 15 Apr 2015 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="new-gittools-organisation-created-on-github"&gt;New GitTools Organisation created on GitHub&lt;/h1&gt;
-&lt;p&gt;Today the &lt;a href="https://github.com/GitTools"&gt;GitTools organisation&lt;/a&gt; was created on GitHub.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2015/4/15/gittools-organisation.png" class="img-fluid" alt="GitTools GitHub Organisation"&gt;&lt;/p&gt;
-&lt;p&gt;This organisation houses several tools related to the git distributed source control system:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/GitTools/GitVersion"&gt;GitVersion&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/GitTools/GitLink"&gt;GitLink&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager"&gt;GitReleaseManager&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseNotes"&gt;GitReleaseNotes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;As well as some supporting libraries in other repositories&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Prior to this organisation being created, these projects existed in individual persons repositories.  However, given the overlap between the projects, it was decided that a central location was required, so that all projects could benefit from the shared knowledge.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This is a retrospective blog post after GitHub announced a range of &lt;a href="https://github.com/blog/2256-a-whole-new-github-universe-announcing-new-tools-forums-and-features"&gt;new features&lt;/a&gt; including the option to see a history of your contributions.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/gittools-organisation-on-github' + 'S/';
-    var disqus_title = 'GitTools organisation created on GitHub';
-    var disqus_url = 'http://www.gep13.co.uk/blog/gittools-organisation-on-github' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>Registration for DunDDD 2014 is now open</title>
-			<link>http://www.gep13.co.uk/blog/registration-for-dunddd-2014-is-now-open</link>
-			<description>&lt;p&gt;The call for speakers at the Scottish Community Event (organised by the &lt;a href="http://scottishdevelopers.com/"&gt;Scottish Developers&lt;/a&gt;) known as &lt;a href="http://dun.dddscotland.co.uk/speaker"&gt;DunDDD &lt;/a&gt;has now closed and the registration has opened.&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/registration-for-dunddd-2014-is-now-open</guid>
-			<pubDate>Sat, 01 Nov 2014 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="grab-your-ticket-for-dunddd-quickly-so-you-dont-miss-out"&gt;Grab your ticket for DunDDD quickly so you don't miss out!&lt;/h1&gt;
-&lt;p&gt;The call for speakers at the Scottish Community Event (organised by the &lt;a href="http://scottishdevelopers.com/"&gt;Scottish Developers&lt;/a&gt;) known as &lt;a href="http://dun.dddscotland.co.uk/speaker"&gt;DunDDD &lt;/a&gt;has now closed and the registration has opened.&lt;/p&gt;
-&lt;h1 id="dunddd-is-now-in-its-fourth-year"&gt;DunDDD is now in its fourth year&lt;/h1&gt;
-&lt;p&gt;This will be the 4th DunDDD, built on the popular foundation of the Developer! Developer! Developer! conference series which has spread to all corners of the UK and the international arena. &amp;nbsp;DDD conferences are community-run days where passionate and enthusiastic people come together to learn, share ideas, and to network within the many hubs of the development community. Best of all DDD events are &lt;strong&gt;free&lt;/strong&gt; to everyone!&lt;/p&gt;
-&lt;p&gt;This year DunDDD will be featuring an entire track dedicated to the &lt;strong&gt;Not Only SQL&lt;/strong&gt; movement and &lt;strong&gt;Big Data&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Go and grab your &lt;a href="http://dun.dddscotland.co.uk/registration"&gt;ticket now&lt;/a&gt;.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/registration-for-dunddd-2014-is-now-open' + 'S/';
-    var disqus_title = 'Registration for DunDDD 2014 is now open';
-    var disqus_url = 'http://www.gep13.co.uk/blog/registration-for-dunddd-2014-is-now-open' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>Improve AppVeyor build times using build cache</title>
-			<link>http://www.gep13.co.uk/blog/improve-appveyor-build-times-using-build-cache</link>
-			<description>&lt;p&gt;By making use of the &lt;a href="http://www.appveyor.com/docs/build-cache"&gt;build cache&lt;/a&gt; within &lt;a href="http://www.appveyor.com/"&gt;AppVeyor&lt;/a&gt;.  For both this blog, and also the &lt;a href="http://www.aberdeendevelopers.co.uk/"&gt;Aberdeen Developers .Net User Group&lt;/a&gt; blog, I was able to reduce the overall build time by over 3 minutes.  Find out how.&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/improve-appveyor-build-times-using-build-cache</guid>
-			<pubDate>Mon, 20 Oct 2014 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h2 id="take-minutes-off-overall-build-time"&gt;Take minutes off overall build time...&lt;/h2&gt;
-&lt;p&gt;By making use of the &lt;a href="http://www.appveyor.com/docs/build-cache"&gt;build cache&lt;/a&gt; within &lt;a href="http://www.appveyor.com/"&gt;AppVeyor&lt;/a&gt;.  For both this blog, and also the &lt;a href="http://www.aberdeendevelopers.co.uk/"&gt;Aberdeen Developers .Net User Group&lt;/a&gt; blog, I was able to reduce the overall build time by over 3 minutes.  Find out how.&lt;/p&gt;
-&lt;p&gt;In a recent &lt;a href="http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages"&gt;blog post&lt;/a&gt;, I described how I was able to use AppVeyor to generate and then deploy an Octopress site to GitHub Pages.  The process is very simple to setup, the only slight downside is the time that it takes to generate the site itself, which can take over 7 minutes.&lt;/p&gt;
-&lt;p&gt;In the grand scheme of things, this isn't a long time, but if you are pushing a quick change, and want to see whether it worked before moving onto something else, these 7 minutes can seem like an entirity.  Looking at the build log, it was clear that the thing that was taking the longest was this command:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yaml"&gt;  - cmd: bundle install
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The reason that this is required is due to the fact that each time a build on AppVeyor runs, it is using a brand new instance of the &lt;a href="http://www.appveyor.com/docs/installed-software"&gt;Build Worker Image&lt;/a&gt;.  This is both good and bad.  It means that you are always starting from a known point.  However, it also means that anything you installed to get your build to work, is no longer there the next time the build runs.&lt;/p&gt;
-&lt;p&gt;In my case, there are almost 50 rubygems that need to be installed in order for Octopress to work correctly.  This means that these gems have to be downloaded from the internet, installed and verified, and then used in the build process.&lt;/p&gt;
-&lt;p&gt;Thankfully, AppVeyor has the concept of using a build cache.  This basically means that, once setup, AppVeyor will first extract all the cached files back onto the Build Worker Image, and then start the build proper.  As a result, when I run:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yaml"&gt;  - cmd: bundle install
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The gems are already installed, and no longer need to be downloaded and installed.  Then, at the end of the build, the folders of interest are then re-cached, ready for extraction when the next build kicks off.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; There is a limit of 100MB applied to the build cache.  If you are trying to cache more files than this, you will have to get in contact with AppVeyor support to see if there is anything that can be done to increase this number.&lt;/p&gt;
-&lt;h2 id="enough-already-show-me-the-configuration"&gt;Enough already, show me the configuration&lt;/h2&gt;
-&lt;p&gt;Setting this up is as simple as this:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yaml"&gt;cache:
-  - C:\Ruby193\lib\ruby\gems\1.9.1
-  - C:\Ruby193\bin
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I originally started out trying to cache only the &lt;code&gt;gems&lt;/code&gt; folder, however, with the help of Feodor Fitsner over at the &lt;a href="http://help.appveyor.com/discussions/questions/585-what-setup-for-build-cache-is-require-for-bundle-install"&gt;AppVeyor Support&lt;/a&gt; pages it became apparent that I would also need to include the &lt;code&gt;bin&lt;/code&gt; folder, as during the installation of gems a number of them put their bash or CMD scripts into this folder so that they can make the tooling work correctly from the command line.&lt;/p&gt;
-&lt;p&gt;And there you have it!  With the build cache configured, I was able to reduce the build time for this blog from &lt;code&gt;5 min 37&lt;/code&gt; to &lt;code&gt;2 min 28 sec&lt;/code&gt;.  Not a bad effort!&lt;/p&gt;
-&lt;p&gt;This same approach can be used for other artefacts of a build process, for instance, restoring nuget packages.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/improve-appveyor-build-times-using-build-cache' + 'S/';
-    var disqus_title = 'Improve AppVeyor build times using build cache';
-    var disqus_url = 'http://www.gep13.co.uk/blog/improve-appveyor-build-times-using-build-cache' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>Chocolatey Kickstarter is now live</title>
-			<link>http://www.gep13.co.uk/blog/chocolatey-kickstarter-is-now-live</link>
-			<description>&lt;p&gt;Click &lt;a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum"&gt;here&lt;/a&gt; and back the brand new Chocolatey Kickstarter!&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/chocolatey-kickstarter-is-now-live</guid>
-			<pubDate>Wed, 15 Oct 2014 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h2 id="tldr"&gt;tl;dr&lt;/h2&gt;
-&lt;p&gt;Click &lt;a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum"&gt;here&lt;/a&gt; and back the brand new Chocolatey Kickstarter!&lt;/p&gt;
-&lt;h2 id="some-more-information"&gt;Some more information&lt;/h2&gt;
-&lt;p&gt;Earlier today, Rob Reynolds (&lt;a href="https://twitter.com/ferventcoder"&gt;@ferventcoder&lt;/a&gt;) pushed the button on a new &lt;a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum"&gt;Kickstarter&lt;/a&gt;, aimed at raising funds to:&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;move forward from the Chocolatey experiment to the Chocolatey experience!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This really is an exciting time for Chocolatey, and general application management on Windows.  You can find all the details that you will need to get started, including information about the rewards that you can back on the Kickstarter page (did I mention that one of them actually including actual chocolate?).  Head on &lt;a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum"&gt;over&lt;/a&gt; to check them out!&lt;/p&gt;
-&lt;h2 id="chocolatey-kickstarter-release-video"&gt;Chocolatey Kickstarter Release Video&lt;/h2&gt;
-&lt;p&gt;Here is the release video which explains some of the aims of the Chocolatey Kickstarter:&lt;/p&gt;
-&lt;div class="video-container"&gt;
-    &lt;iframe width="480" height="360" src="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum/widget/video.html" frameborder="0" scrolling="no"&gt; &lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id="new-chocolatey-features-video"&gt;New Chocolatey Features Video&lt;/h2&gt;
-&lt;p&gt;Check out the following video which shows some of the soon to be released new features in the C# rewrite of Chocolatey:&lt;/p&gt;
-&lt;div class="video-container"&gt;
-    &lt;iframe width="480" height="360" src="//www.youtube.com/embed/sm_U53sxt2c" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id="get-in-quick"&gt;Get in quick!&lt;/h2&gt;
-&lt;p&gt;At the time of writing, there is almost 40 people already signed up to the Kickstarter, so be sure to get in quick so you don't miss out of the exciting oppurtunity to help Chocolatey grow into &lt;strong&gt;the&lt;/strong&gt; application package manager for Windows.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/chocolatey-kickstarter-is-now-live' + 'S/';
-    var disqus_title = 'Chocolatey Kickstarter is now live';
-    var disqus_url = 'http://www.gep13.co.uk/blog/chocolatey-kickstarter-is-now-live' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>Our Daughter is 1 Year Old Today!</title>
-			<link>http://www.gep13.co.uk/blog/our-daughter-is-1-year-old-today</link>
-			<description>&lt;p&gt;As amazing as it sounds, our daughter is 1 year old today!&lt;/p&gt;</description>
-			<enclosure url="http://www.gep13.co.uk/images/birthday_collection.jpg" length="0" type="image" />
-			<guid>http://www.gep13.co.uk/blog/our-daughter-is-1-year-old-today</guid>
-			<pubDate>Sat, 13 Sep 2014 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h2 id="is-it-really-1-year"&gt;Is it really 1 year?&lt;/h2&gt;
-&lt;p&gt;As amazing as it sounds, our daughter is 1 year old today!&lt;/p&gt;
-&lt;p&gt;I was always told that time would start passing quickly as soon as you had your first child, but I honestly didn't expect that it would be this fast!&lt;/p&gt;
-&lt;p&gt;Today is Alivia's 1st Birthday!  I can remember being in the hospital holding for the first time as if it were yesterday!&lt;/p&gt;
-&lt;p&gt;So much as happened since Alivia came into our lives, but I wouldn't change anything, I love being a dad!&lt;/p&gt;
-&lt;p&gt;She has:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;learned to walk (well almost)&lt;/li&gt;
-&lt;li&gt;learned to swim&lt;/li&gt;
-&lt;li&gt;learned to say "dad"&lt;/li&gt;
-&lt;li&gt;learned to sign "mum"&lt;/li&gt;
-&lt;li&gt;learned to clap&lt;/li&gt;
-&lt;li&gt;learned to sleep through the night&lt;/li&gt;
-&lt;li&gt;learned to blow raspberries&lt;/li&gt;
-&lt;li&gt;and so much more!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Looking forward to teaching her so many new things in the next year!&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/our-daughter-is-1-year-old-today' + 'S/';
-    var disqus_title = 'Our Daughter is 1 Year Old Today!';
-    var disqus_url = 'http://www.gep13.co.uk/blog/our-daughter-is-1-year-old-today' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>Using a basic gallery plugin on Octopress Site</title>
-			<link>http://www.gep13.co.uk/blog/using-a-basic-gallery-plugin-on-octopress-site</link>
-			<description>&lt;p&gt;Over the years, I have collected a number of photos from various trips that I have been on, and I share them in various places, i.e. Facebook, Twitter, Flickr, etc.  However, from time to time, I want to include them easily into blog posts as well.  This is something that "should" be easy, but my experience over the last few days is that it isn't as simple as it should be.  This is especially useful when doing a tutorial blog post, and you want to capture a number of screen-shots and show them in order in a gallery.&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/using-a-basic-gallery-plugin-on-octopress-site</guid>
-			<pubDate>Mon, 08 Sep 2014 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h2 id="i-have-a-lot-of-photos-but-where-to-put-them"&gt;I have a lot of photos, but where to put them?&lt;/h2&gt;
-&lt;p&gt;Over the years, I have collected a number of photos from various trips that I have been on, and I share them in various places, i.e. Facebook, Twitter, Flickr, etc.  However, from time to time, I want to include them easily into blog posts as well.  This is something that "should" be easy, but my experience over the last few days is that it isn't as simple as it should be.  This is especially useful when doing a tutorial blog post, and you want to capture a number of screen-shots and show them in order in a gallery.&lt;/p&gt;
-&lt;p&gt;Having finally figured out how to get it working, I thought I would list the steps here for anyone else that might be running into the same problem.&lt;/p&gt;
-&lt;h2 id="what-do-i-want"&gt;What do I want?&lt;/h2&gt;
-&lt;p&gt;The requirements that I am looking for break down as follows:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;once set-up, I should be able to upload one or more images into a gallery folder and they should automatically added to associated blog post&lt;/li&gt;
-&lt;li&gt;thumbnail images should be automatically generated for photos uploaded into gallery folder&lt;/li&gt;
-&lt;li&gt;when clicked, thumbnail images should open a pop-up with a larger image&lt;/li&gt;
-&lt;li&gt;images in the same gallery should allow browsing left and right when an image is in popup window&lt;/li&gt;
-&lt;li&gt;should work in a range of devices, desktop, tablet, phone&lt;/li&gt;
-&lt;li&gt;should work as part of my AppVeyor build&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;After hunting around, and trying various different options, I finally settled on using this &lt;a href="https://github.com/yortz/octopress_gallery"&gt;plugin&lt;/a&gt;.  From it's description, it should have been easy to get set up and running, but unfortunately, it took a bit of head scratching.&lt;/p&gt;
-&lt;p&gt;In the description for the plugin there is no mention of the dependency on an application called &lt;code&gt;ImageMagick&lt;/code&gt;.  Now, in hindsight, it is clear that this will be required, but when I was reading through the simple steps of setting this up, it never occurred to me.  So first up, let's get &lt;code&gt;ImageMagick&lt;/code&gt; installed.  If you are using &lt;a href="http://chocolatey.org/"&gt;Chocolatey&lt;/a&gt; then this is as simple as:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;choco install imagemagick.tool&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;With that installed, step through the remaining instructions on the plugin page.&lt;/p&gt;
-&lt;p&gt;In addition to those steps, I also decided to add support for &lt;a href="http://fancybox.net/"&gt;Fancybox&lt;/a&gt; to make the experience a little nicer.  This involved the following:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Make a slight modification to the &lt;code&gt;gallery_tag.rb&lt;/code&gt; to work with Fancybox.  This basically involved adding a class definition to teh anchor tag, and also changing the rel attribute to be the gallery name, so that Fancybox groups the images in the gallery together.  The final version of the change can be seen &lt;a href="https://github.com/gep13/gep13.github.io/commit/8f597cd922ffc3556481e7148990bcaa675dcceb#diff-dc86fc94e212fa637e5f2689a8379e1fR10"&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Download &lt;a href="http://fancyapps.com/fancybox/#license"&gt;Fancybox&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Unblock/extract the zip file&lt;/li&gt;
-&lt;li&gt;Add the contents of the source folder to &lt;code&gt;source\fancybox&lt;/code&gt; as I have done &lt;a href="https://github.com/gep13/gep13.github.io/tree/source/source/fancybox"&gt;here&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Make the following additions to your &lt;code&gt;source\_includes\custom\head.html&lt;/code&gt; file&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class="language-javascript"&gt;    &amp;lt;script src="ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
-    &amp;lt;script type="text/javascript"&amp;gt;
-    jQuery.noConflict(); // ender.js conflicts with jQuery
-    &amp;lt;/script&amp;gt;
-
-    &amp;lt;link rel="stylesheet" href="/fancybox/jquery.fancybox.css" /&amp;gt;
-    &amp;lt;script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
-
-    &amp;lt;script language="Javascript" type="text/javascript"&amp;gt;
-    // ender.js gobbles jQuery's ready event: Use ender.js $ instead
-    $(document).ready(function() {
-        jQuery(".fancybox").fancybox();
-    });
-    &amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol&gt;
-&lt;li&gt;Create your gallery folder, and add the necessary changes to your config.yml file.  You can see the sample changes that I made &lt;a href="https://github.com/gep13/gep13.github.io/commit/8f597cd922ffc3556481e7148990bcaa675dcceb"&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Add the gallery tag to your blog post.  In my case, this was &lt;code&gt;{% raw %}{{ 'gallery_1' | image_list }}{% endraw %}&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Then do a &lt;code&gt;rake generate&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Assuming everything has worked, do a &lt;code&gt;rake preview&lt;/code&gt; and view your hard work&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="issue-when-doing-rake-generate"&gt;Issue when doing rake generate&lt;/h2&gt;
-&lt;p&gt;When I first tried to do the above, the issue that I ran into looked like this:&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;C:/projects/gep13-github-io/public/images/galleries/gallery_1/thumbs/6.jpg
-149jekyll 2.3.0 | Error:  No such file or directory - identify -ping C:/Users/appveyor/AppData/Local/Temp/mini_magick20140907-3000-6k90ct.jpg&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This translates as, you don't have &lt;code&gt;ImageMagick&lt;/code&gt; installed, go and get it.  I tried a few different installations, and ran into other issues with having the right developer DLL's and includes.  The upshot was, I couldn't find a solution to using the installed version of &lt;code&gt;ImageMagick&lt;/code&gt;.  If however, I used the portable version, it works fine.  Go figure!&lt;/p&gt;
-&lt;h2 id="setting-up-appveyor"&gt;Setting up AppVeyor&lt;/h2&gt;
-&lt;p&gt;So, the final piece of the puzzle, at least for me, was to get the same process working on AppVeyor, so that as part of the build process the thumbnails etc are generated.  Turns out again, thanks to AppVeyor extensibilty system, this is remarkably easy.  In fact, the changes that I need to make are exactly what I did on my own machine, i.e. install &lt;code&gt;ImageMagick&lt;/code&gt; using Chocolatey.  Now, unlike my machine, the AppVeyor build machines don't have Chocolatey already installed, so we need to get it onto them.  This can be done using the &lt;code&gt;install&lt;/code&gt; steps, as documented &lt;a href="http://www.appveyor.com/docs/appveyor-yml"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The final result was the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yaml"&gt;install:
-  - ps: iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
-  - ps: choco install imagemagick.tool
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Two simple steps.  The first to install Chocolatey, and the second to install &lt;code&gt;ImageMagick&lt;/code&gt; portable edition.  This will now happen each time my AppVeyor build runs, and it will generate the thumbnails for each of my galleries.&lt;/p&gt;
-&lt;p&gt;Job done!&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/using-a-basic-gallery-plugin-on-octopress-site' + 'S/';
-    var disqus_title = 'Using a basic gallery plugin on Octopress Site';
-    var disqus_url = 'http://www.gep13.co.uk/blog/using-a-basic-gallery-plugin-on-octopress-site' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>Setup AppVeyor to deploy Octopress site to GitHub Pages</title>
-			<link>http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages</link>
-			<description>&lt;p&gt;This blog has now been through a number of iterations.  It started out as a custom built blog application in ASP.NET, then it moved to BlogEngine.net for a very short period.  It then made an appearance as a WordPress Blog, and now, in it's current incarnation, it is using Octopress hosted on GitHub Pages.  This way of hosting my blog was very much inspired by the work of &lt;a href="http://hadihariri.com/2013/12/24/migrating-from-wordpress-to-jekyll/"&gt;Hadi&lt;/a&gt; and &lt;a href="http://jake.ginnivan.net/blog/2014/06/10/low-friction-octopress-github-pages-setup/"&gt;Jake&lt;/a&gt; in setting up their blogs, so thanks go to them for their help!  Hadi pointed me in the right direction in terms of migrating initially from Wordpress, and Jake showed how it was possible to deploy automagically to GitHub Pages.&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages</guid>
-			<pubDate>Fri, 05 Sep 2014 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h2 id="history-of-this-blog"&gt;History of this blog&lt;/h2&gt;
-&lt;p&gt;This blog has now been through a number of iterations.  It started out as a custom built blog application in ASP.NET, then it moved to BlogEngine.net for a very short period.  It then made an appearance as a WordPress Blog, and now, in it's current incarnation, it is using Octopress hosted on GitHub Pages.  This way of hosting my blog was very much inspired by the work of &lt;a href="http://hadihariri.com/2013/12/24/migrating-from-wordpress-to-jekyll/"&gt;Hadi&lt;/a&gt; and &lt;a href="http://jake.ginnivan.net/blog/2014/06/10/low-friction-octopress-github-pages-setup/"&gt;Jake&lt;/a&gt; in setting up their blogs, so thanks go to them for their help!  Hadi pointed me in the right direction in terms of migrating initially from Wordpress, and Jake showed how it was possible to deploy automagically to GitHub Pages.&lt;/p&gt;
-&lt;p&gt;The slightly different technique that I have used, and the reason for this post, is that I have used &lt;a href="http://www.appveyor.com/"&gt;AppVeyor&lt;/a&gt; to do the deployment of the generated static HTML to GitHub.  What follows are the steps to make this happen.&lt;/p&gt;
-&lt;h2 id="i-love-teamcity-but"&gt;I love TeamCity, but...&lt;/h2&gt;
-&lt;p&gt;In Jake's &lt;a href="http://jake.ginnivan.net/blog/2014/06/10/low-friction-octopress-github-pages-setup/"&gt;blog post&lt;/a&gt;, he shows how you can use &lt;a href="http://www.jetbrains.com/teamcity/"&gt;TeamCity&lt;/a&gt; to listen for changes in the &lt;code&gt;source&lt;/code&gt; branch of your Octopress Git Repository, generate the static html, and then push to the &lt;code&gt;master&lt;/code&gt; branch of the same repository.  This is incredibly simple to do with TeamCity, but it obviously needs an available instance of TeamCity.  Unfortunately, this is not something that I have access to for personal (i.e. outside of work) projects.  As a result, I had to look elsewhere for a solution.  And for me, the solution was &lt;a href="http://www.appveyor.com/"&gt;AppVeyor&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;After a &lt;a href="http://help.appveyor.com/discussions/questions/491-use-appveyor-to-deploy-changes-to-octopress-blog"&gt;small hiccup&lt;/a&gt; with setting up AppVeyor (which, by the way was resolved VERY quickly!), configuring AppVeyor to generate and deploy an Octopress site is very simple!&lt;/p&gt;
-&lt;h2 id="setting-up-continuous-deployment-from-appveyor"&gt;Setting up continuous deployment from AppVeyor&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;If you don't already have one, &lt;a href="https://ci.appveyor.com/signup/free"&gt;create an account&lt;/a&gt; with AppVeyor (which is completely free, assuming your repository is public), and authenticate with either GitHub, BitBucket, Visual Studio Online, or Kiln, depending on where your blog source code is going to be hosted.  Since I am using GitHub Pages, I will be referring to that for the rest of this post.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Click New Project&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2014/6/7/NewProject.png" class="img-fluid" alt="Click New Project"&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Select your blog source code repository, in my case gep13.github.io, and AppVeyor will set about provisioning a new Project, ready to accept build steps and configuration&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;At this point, you could start using the AppVeyor User Interface to setup the build, and this is what I started with.  However, I quickly realised that I would need to start using the &lt;a href="http://www.appveyor.com/docs/appveyor-yml"&gt;appveyor.yml&lt;/a&gt; file.  This was due to the fact that I wanted to be able to pass in a secure variables to the build process, namely my GitHub password, and this is not possible through the User Interface.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;In the same way that Jake did, I have setup my GitHub repository to use the source branch as the default.  This can be done through the settings page of your repository in GitHub&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2014/6/7/DefaultSourceBranch.png" class="img-fluid" alt="Set source branch as default in GitHub"&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Create an appveyor.yml file in the root of the source branch of your repository.  You can see mine &lt;a href="https://github.com/gep13/gep13.github.io/blob/source/appveyor.yml"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;There are four important things in this file.  Firstly, the init section.  In order to push changes back to GitHub, you need to let the newly created Virtual Machine that AppVeyor is running for you know the git credentials that you want to use.  This can be done using the standard &lt;code&gt;git config --global&lt;/code&gt; command.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class="language-yaml"&gt;init:
-- git config --global user.email "&amp;lt;Your Email Address&amp;gt;"
-- git config --global user.name "&amp;lt;Your User Name&amp;gt;"
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol&gt;
-&lt;li&gt;The next important section is environment.  This is where you can specify 1 or more vaiables that you want to have available during your build steps.  If required, you can use the &lt;a href="https://ci.appveyor.com/tools/encrypt"&gt;encrypt data tool&lt;/a&gt; within AppVeyor to encrypt sensitive information.  This is exactly what I did with my GitHub password.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class="language-yaml"&gt;environment:
-GithubUsername: gep13
-GithubPassword:
-  secure: XSuLygmr83zEpWcXIXMXGocN0QbooLud1eIMA3mQWKkT9LAU4TyrijLBcJIo7bD7
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol&gt;
-&lt;li&gt;Next up, we need to specify the actual operations that we want to perform.  These have been lifted exactly out of Jakes configuration.  The especically important thing to notice here is the &lt;code&gt;%GithubUsername%&lt;/code&gt; and &lt;code&gt;%GithubPassword%&lt;/code&gt; variables.  They refer to the environment variables that were configured above. &lt;strong&gt;NOTE:&lt;/strong&gt;  As I found out, the &lt;code&gt;gen_deploy&lt;/code&gt; rake task does both a generate and a deploy.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class="language-yaml"&gt;build_script:
-  - cmd: bundle install
-  - cmd: if not exist _deploy (git clone https://%GithubUsername%:%GithubPassword%@github.com/%GithubUsername%/%GithubUsername%.github.io.git _deploy)
-  - cmd: cd _deploy
-  - cmd: git checkout master
-  - cmd: cd ..
-  - cmd: rake gen_deploy
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start="0"&gt;
-&lt;li&gt;The final things that I needed to do was to specify that I didn't want to run any tests after the main build steps were completed.  This can be done using:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class="language-yaml"&gt;test: off
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;With the above file checked into your repository, AppVeyor will set about doing the build.  The output of which should hopefully look something like this (the full output can be seen &lt;a href="https://ci.appveyor.com/project/GaryEwanPark/gep13-github-io/build/1.0.22"&gt;here&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2014/6/7/SuccessfulBuild.png" class="img-fluid" alt="Successful AppVeyor Build"&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;And that, as they say, is that!&lt;/p&gt;
-&lt;p&gt;Now, everytime you make a change in the &lt;code&gt;source&lt;/code&gt; branch of your Octopress Repository, AppVeyor will collect all the changes, execute the build steps, and deploy your latest changes to the &lt;code&gt;master&lt;/code&gt; branch, ready for viewing on your site.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages' + 'S/';
-    var disqus_title = 'Setup AppVeyor to deploy Octopress site to GitHub Pages';
-    var disqus_url = 'http://www.gep13.co.uk/blog/setup-appveyor-to-deploy-octopress-site-to-github-pages' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>adnuguk organisation created on GitHub</title>
-			<link>http://www.gep13.co.uk/blog/adnuguk-organisation-on-github</link>
-			<description>&lt;p&gt;Today I created a &lt;a href="https://github.com/adnuguk"&gt;GitHub Organisation&lt;/a&gt; to support the Aberdeen Developers .Net User Group.&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/adnuguk-organisation-on-github</guid>
-			<pubDate>Tue, 05 Aug 2014 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="aberdeen-developers.net-user-group-github-organisation"&gt;Aberdeen Developers .Net User Group GitHub Organisation&lt;/h1&gt;
-&lt;p&gt;Today I created a &lt;a href="https://github.com/adnuguk"&gt;GitHub Organisation&lt;/a&gt; to support the Aberdeen Developers .Net User Group.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2014/8/5/adnuguk-organisation.png" class="img-fluid" alt="adnuguk GitHub Organisation"&gt;&lt;/p&gt;
-&lt;p&gt;Initially, this will house only the source code for the &lt;a href="http://www.aberdeendevelopers.co.uk/"&gt;Aberdeen Developers .Net User Group Website&lt;/a&gt;, however, it may grow to accommodate other things as well.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This is a retrospective blog post after GitHub announced a range of &lt;a href="https://github.com/blog/2256-a-whole-new-github-universe-announcing-new-tools-forums-and-features"&gt;new features&lt;/a&gt; including the option to see a history of your contributions.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/adnuguk-organisation-on-github' + 'S/';
-    var disqus_title = 'adnuguk organisation created on GitHub';
-    var disqus_url = 'http://www.gep13.co.uk/blog/adnuguk-organisation-on-github' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
