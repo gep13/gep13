@@ -31,3 +31,15 @@ As promised, you can see the video of this presentation below:
 <p><a href="https://vimeo.com/171704581">A Piece of Cake - C# powered cross platform build automation - Gary Ewan Park</a> from <a href="https://vimeo.com/ndcconferences">NDC Conferences</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 This was without question the highest profile event that I have spoken about, and I would love to hear any feedback that you might have about it.
+
+## Update 2
+
+I have just received the feedback for my presentation, and I am very happy with the results.  For those of you that don't know, NDC Oslo use a very simple scoring system, of green, yellow and red.  Green obviously being the preferred outcome.
+
+My results were the following:
+
+Green: 33
+Yellow: 7
+Red: 2
+
+The one downside to the scoring system is that you don't get any feedback about what exactly wasn't liked, but overall, very happy with the results!
