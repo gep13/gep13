@@ -75,17 +75,17 @@ For those of you that don't know, Hacktoberfest is an online event ran by [Digit
 
 24 Pull Requests is similar, with the exception being that the target is 24 Pull Requests, and it is in the month of December.  Unfortunately, there isn't any swag associated with this particular contest, but I wouldn't let that put you off taking part.  This year, I was a little bit late in getting all my Pull Requests in, working right up until the last day.  In 2015, I was able to make 40 Pull Requests and complete in plenty of time.  Going to have to pull my socks up in 2017!
 
-## Stackoverflow Contributions
+## Stack Overflow Contributions
 
-I have been an on/off user of Stackoverflow since joining in 2011.  Mainly as a consumer of answers, it is an invaluable resource.  In 2016 though, I made a concerted effort to try to provide answers to questions rather than simply use the existing answers.  This was mainly due to my increased involvement in the Open Source projects that I work on.  As a result, I have seen an significant increase in my Stackoverflow reputation this year:
+I have been an on/off user of Stack Overflow since joining in 2011.  Mainly as a consumer of answers, it is an invaluable resource.  In 2016 though, I made a concerted effort to try to provide answers to questions rather than simply use the existing answers.  This was mainly due to my increased involvement in the Open Source projects that I work on.  As a result, I have seen an significant increase in my Stack Overflow reputation this year:
 
-![Stackoverflow Reputation](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation.png)
+![Stack Overflow Reputation](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation.png)
 
 And having just logged in just now, I have just seen that I am now in the following:
 
-![Stackoverflow Reputation Top 14% overall](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation-top.png)
+![Stack Overflow Reputation Top 14% overall](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation-top.png)
 
-To date, my top answer on Stackoverflow is:
+To date, my top answer on Stack Overflow is:
 
 [Where is the Chocolatey installation path](http://stackoverflow.com/questions/28235388/where-is-the-chocolatey-installation-path/28239451#28239451)
 
@@ -93,13 +93,13 @@ and my top question is:
 
 [How to use Visual Studio Code as Default Editor for Git](http://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-default-editor-for-git)
 
-Since I have been using Stackoverflow more and more, I have started to see some of the issues that I have heard people talking about on places like Twitter.  i.e. people getting into arguments, questions getting quickly marked down, and deleted/removed, etc.  There is definitely an element of this, but I still think that the benefits far outweigh the negatives.
+Since I have been using Stack Overflow more and more, I have started to see some of the issues that I have heard people talking about on places like Twitter.  i.e. people getting into arguments, questions getting quickly marked down, and deleted/removed, etc.  There is definitely an element of this, but I still think that the benefits far outweigh the negatives.
 
 It is still annoying though when you spend [a lot of time on an answer](http://stackoverflow.com/questions/41294279/chocolatey-from-where-does-it-find-the-package) and then you get **nothing** back from the original author!
 
 On the plus side, you can get access to some funny hats!!
 
-![Stackoverflow Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-profile.png)
+![Stack Overflow Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-profile.png)
 
 ## TeamCity Plugin Contest
 
@@ -187,11 +187,11 @@ As I mentioned above, I have in 2016 continued to contribute to the Chocolatey p
 - work on the [Chocolatey Package Builder UI ](https://chocolatey.org/docs/features-create-packages-from-installers)
 - continued work on the [Chocolatey.org moderation queue](https://chocolatey.org/packages?q=&moderatorQueue=true&prerelease=false&sortOrder=package-download-count)
 - helping out on the Chocolatey [Gitter](https://gitter.im/chocolatey/choco) and [Google Forums](https://groups.google.com/forum/#!forum/chocolatey)
-- answering questions on the [chocolatey tag on Stackoverflow](http://stackoverflow.com/questions/tagged/chocolatey)
+- answering questions on the [chocolatey tag on Stack Overflow](http://stackoverflow.com/questions/tagged/chocolatey)
 
 However, the stand out for me this year has to be the work involved in the [Chocolatey Core Team Packages repository](https://github.com/chocolatey/chocolatey-coreteampackages).  
 
-In case you haven't heard about this, this repository is a place that houses over 100 Chocolatey Packages, almost all of which are continously monitored for new application versions every 6 hours, which means that almost as soon as a new application version is available, an associated Chocolatey Package is created and submitted to chocolatey.org, ready for installation on your machines.
+In case you haven't heard about this, this repository is a place that houses over 100 Chocolatey Packages, almost all of which are continuously monitored for new application versions every 6 hours, which means that almost as soon as a new application version is available, an associated Chocolatey Package is created and submitted to chocolatey.org, ready for installation on your machines.
 
 Since this repository was created, it has gone through a number of iterations, and intentions, but the most recent work has cemented the intention of this repository.  Namely, it is a place that any package maintainer can contribute their package (as long as it fits in with the [guidelines](https://github.com/chocolatey/chocolatey-coreteampackages/wiki/Contributing-guidelines)) and that package can immediately take advantage of the infrastructure that has already been setup, i.e. AppVeyor Continuous Integration Builds, etc.  As a result, a community maintainer can be more effective at maintaining a package, without having to worry about the initial, rather daunting setup, that is necessary for automatic packaging.
 
