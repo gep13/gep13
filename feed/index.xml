@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2017</rights>
-	<updated>2017-01-03T22:27:58Z</updated>
+	<updated>2017-01-03T22:31:21Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/2016-a-retrospective" />
@@ -56,19 +56,19 @@
 &lt;p&gt;For those of you that don't know, Hacktoberfest is an online event ran by &lt;a href="https://www.digitalocean.com/"&gt;DigitalOcean&lt;/a&gt;.  The idea is simple, in the month of October, submit 4 or more Pull Requests to a project on GitHub.  Simples!  If you do this, you get an awesome t-shirt, as well as some swag, and of course, some bragging rights and internet points.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/hacktoberfest-swag.jpg" class="img-fluid" alt="Hacktoberfest"&gt;&lt;/p&gt;
 &lt;p&gt;24 Pull Requests is similar, with the exception being that the target is 24 Pull Requests, and it is in the month of December.  Unfortunately, there isn't any swag associated with this particular contest, but I wouldn't let that put you off taking part.  This year, I was a little bit late in getting all my Pull Requests in, working right up until the last day.  In 2015, I was able to make 40 Pull Requests and complete in plenty of time.  Going to have to pull my socks up in 2017!&lt;/p&gt;
-&lt;h2 id="stackoverflow-contributions"&gt;Stackoverflow Contributions&lt;/h2&gt;
-&lt;p&gt;I have been an on/off user of Stackoverflow since joining in 2011.  Mainly as a consumer of answers, it is an invaluable resource.  In 2016 though, I made a concerted effort to try to provide answers to questions rather than simply use the existing answers.  This was mainly due to my increased involvement in the Open Source projects that I work on.  As a result, I have seen an significant increase in my Stackoverflow reputation this year:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation.png" class="img-fluid" alt="Stackoverflow Reputation"&gt;&lt;/p&gt;
+&lt;h2 id="stack-overflow-contributions"&gt;Stack Overflow Contributions&lt;/h2&gt;
+&lt;p&gt;I have been an on/off user of Stack Overflow since joining in 2011.  Mainly as a consumer of answers, it is an invaluable resource.  In 2016 though, I made a concerted effort to try to provide answers to questions rather than simply use the existing answers.  This was mainly due to my increased involvement in the Open Source projects that I work on.  As a result, I have seen an significant increase in my Stack Overflow reputation this year:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation.png" class="img-fluid" alt="Stack Overflow Reputation"&gt;&lt;/p&gt;
 &lt;p&gt;And having just logged in just now, I have just seen that I am now in the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation-top.png" class="img-fluid" alt="Stackoverflow Reputation Top 14% overall"&gt;&lt;/p&gt;
-&lt;p&gt;To date, my top answer on Stackoverflow is:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation-top.png" class="img-fluid" alt="Stack Overflow Reputation Top 14% overall"&gt;&lt;/p&gt;
+&lt;p&gt;To date, my top answer on Stack Overflow is:&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://stackoverflow.com/questions/28235388/where-is-the-chocolatey-installation-path/28239451#28239451"&gt;Where is the Chocolatey installation path&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;and my top question is:&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-default-editor-for-git"&gt;How to use Visual Studio Code as Default Editor for Git&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Since I have been using Stackoverflow more and more, I have started to see some of the issues that I have heard people talking about on places like Twitter.  i.e. people getting into arguments, questions getting quickly marked down, and deleted/removed, etc.  There is definitely an element of this, but I still think that the benefits far outweigh the negatives.&lt;/p&gt;
+&lt;p&gt;Since I have been using Stack Overflow more and more, I have started to see some of the issues that I have heard people talking about on places like Twitter.  i.e. people getting into arguments, questions getting quickly marked down, and deleted/removed, etc.  There is definitely an element of this, but I still think that the benefits far outweigh the negatives.&lt;/p&gt;
 &lt;p&gt;It is still annoying though when you spend &lt;a href="http://stackoverflow.com/questions/41294279/chocolatey-from-where-does-it-find-the-package"&gt;a lot of time on an answer&lt;/a&gt; and then you get &lt;strong&gt;nothing&lt;/strong&gt; back from the original author!&lt;/p&gt;
 &lt;p&gt;On the plus side, you can get access to some funny hats!!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-profile.png" class="img-fluid" alt="Stackoverflow Profile"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-profile.png" class="img-fluid" alt="Stack Overflow Profile"&gt;&lt;/p&gt;
 &lt;h2 id="teamcity-plugin-contest"&gt;TeamCity Plugin Contest&lt;/h2&gt;
 &lt;p&gt;This year, I was asked to be a judge in the annual &lt;a href="https://blog.jetbrains.com/teamcity/2016/10/teamcity-2016-plugin-contest-announcement/"&gt;TeamCity Plugin Contest&lt;/a&gt;, which was indeed an honour and a privelege.  The contest website can be seen &lt;a href="https://plugins.jetbrains.com/contest/teamcity/"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Along with the TeamCity Development Team, Wesley Higbee, Jeffrey Palermo and myself were asked to judge 26 different plugins, scoring them on:&lt;/p&gt;
@@ -127,10 +127,10 @@
 &lt;li&gt;work on the &lt;a href="https://chocolatey.org/docs/features-create-packages-from-installers"&gt;Chocolatey Package Builder UI &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;continued work on the &lt;a href="https://chocolatey.org/packages?q=&amp;amp;moderatorQueue=true&amp;amp;prerelease=false&amp;amp;sortOrder=package-download-count"&gt;Chocolatey.org moderation queue&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;helping out on the Chocolatey &lt;a href="https://gitter.im/chocolatey/choco"&gt;Gitter&lt;/a&gt; and &lt;a href="https://groups.google.com/forum/#!forum/chocolatey"&gt;Google Forums&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;answering questions on the &lt;a href="http://stackoverflow.com/questions/tagged/chocolatey"&gt;chocolatey tag on Stackoverflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;answering questions on the &lt;a href="http://stackoverflow.com/questions/tagged/chocolatey"&gt;chocolatey tag on Stack Overflow&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;However, the stand out for me this year has to be the work involved in the &lt;a href="https://github.com/chocolatey/chocolatey-coreteampackages"&gt;Chocolatey Core Team Packages repository&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In case you haven't heard about this, this repository is a place that houses over 100 Chocolatey Packages, almost all of which are continously monitored for new application versions every 6 hours, which means that almost as soon as a new application version is available, an associated Chocolatey Package is created and submitted to chocolatey.org, ready for installation on your machines.&lt;/p&gt;
+&lt;p&gt;In case you haven't heard about this, this repository is a place that houses over 100 Chocolatey Packages, almost all of which are continuously monitored for new application versions every 6 hours, which means that almost as soon as a new application version is available, an associated Chocolatey Package is created and submitted to chocolatey.org, ready for installation on your machines.&lt;/p&gt;
 &lt;p&gt;Since this repository was created, it has gone through a number of iterations, and intentions, but the most recent work has cemented the intention of this repository.  Namely, it is a place that any package maintainer can contribute their package (as long as it fits in with the &lt;a href="https://github.com/chocolatey/chocolatey-coreteampackages/wiki/Contributing-guidelines"&gt;guidelines&lt;/a&gt;) and that package can immediately take advantage of the infrastructure that has already been setup, i.e. AppVeyor Continuous Integration Builds, etc.  As a result, a community maintainer can be more effective at maintaining a package, without having to worry about the initial, rather daunting setup, that is necessary for automatic packaging.&lt;/p&gt;
 &lt;p&gt;This year, with the help of some amazing people:&lt;/p&gt;
 &lt;ul&gt;
