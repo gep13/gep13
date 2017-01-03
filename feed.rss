@@ -5,10 +5,10 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2017</copyright>
-		<pubDate>Tue, 03 Jan 2017 22:17:50 GMT</pubDate>
-		<lastBuildDate>Tue, 03 Jan 2017 22:17:50 GMT</lastBuildDate>
+		<pubDate>Tue, 03 Jan 2017 22:23:22 GMT</pubDate>
+		<lastBuildDate>Tue, 03 Jan 2017 22:23:22 GMT</lastBuildDate>
 		<item>
-			<title>2-16 - A Retrospective</title>
+			<title>2016 - A Retrospective</title>
 			<link>http://www.gep13.co.uk/blog/2016-a-retrospective</link>
 			<description>&lt;p&gt;Looking back on 2016 it has been full of personal high and lows, but all in all, it has been a great year, for lots of reasons.  This post is a very brief recap, in no particular order, of some of the highlights.&lt;/p&gt;</description>
 			<guid>http://www.gep13.co.uk/blog/2016-a-retrospective</guid>
@@ -168,7 +168,7 @@
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
     var disqus_identifier = 'http://www.gep13.co.uk/blog/2016-a-retrospective' + 'S/';
-    var disqus_title = '2-16 - A Retrospective';
+    var disqus_title = '2016 - A Retrospective';
     var disqus_url = 'http://www.gep13.co.uk/blog/2016-a-retrospective' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
@@ -847,15 +847,15 @@ Number of errors: 1
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
 		</item>
 		<item>
-			<title>Invited to MyGet organisation on GitHub</title>
-			<link>http://www.gep13.co.uk/blog/myget-organisation-on-github</link>
-			<description>&lt;p&gt;Today I was added as a member of the )&lt;a href="https://github.com/MyGet"&gt;MyGet Org:anisation&lt;/a&gt; on GitHub:&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/myget-organisation-on-github</guid>
+			<title>Invited to psake organisation on GitHub</title>
+			<link>http://www.gep13.co.uk/blog/psake-organisation-on-github</link>
+			<description>&lt;p&gt;I have been a long time user of the &lt;a href="https://github.com/psake"&gt;psake&lt;/a&gt; build system, and today I was added as a member of the organisation in order to help with the maintenance effort.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/psake-organisation-on-github</guid>
 			<pubDate>Thu, 10 Sep 2015 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="i-am-now-a-member-of-the-myget-organisation"&gt;I am now a member of the MyGet Organisation&lt;/h1&gt;
-&lt;p&gt;Today I was added as a member of the )&lt;a href="https://github.com/MyGet"&gt;MyGet Org:anisation&lt;/a&gt; on GitHub:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2015/9/10/myget-organisation.png" class="img-fluid" alt="MyGet Organisation on GitHub"&gt;&lt;/p&gt;
-&lt;p&gt;For those of you that don't know, &lt;a href="http://myget.org/"&gt;MyGet&lt;/a&gt; is a hosted package repository, which an incredible team behind it.  I have been helping out where/when I can in terms of adding/editing their documentation.  Being added to their Organisation is a recognition of this work, and I am very grateful to them for doing this.&lt;/p&gt;
+			<content:encoded>&lt;h1 id="i-am-now-a-member-of-the-psake-project"&gt;I am now a member of the psake project&lt;/h1&gt;
+&lt;p&gt;I have been a long time user of the &lt;a href="https://github.com/psake"&gt;psake&lt;/a&gt; build system, and today I was added as a member of the organisation in order to help with the maintenance effort.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2015/9/10/psake-organisation.png" class="img-fluid" alt="psake organisation on GitHub"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/psake"&gt;psake&lt;/a&gt;, as a product, is pretty much complete.  It does what it does, and it does it well, however, every so often, there are things that need to be added, fixed.  With this in mind, I am happy to help out where/when I can.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This is a retrospective blog post after GitHub announced a range of &lt;a href="https://github.com/blog/2256-a-whole-new-github-universe-announcing-new-tools-forums-and-features"&gt;new features&lt;/a&gt; including the option to see a history of your contributions.&lt;/p&gt;
 
 
@@ -863,9 +863,9 @@ Number of errors: 1
 &lt;script type="text/javascript"&gt;
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/myget-organisation-on-github' + 'S/';
-    var disqus_title = 'Invited to MyGet organisation on GitHub';
-    var disqus_url = 'http://www.gep13.co.uk/blog/myget-organisation-on-github' + '/';
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/psake-organisation-on-github' + 'S/';
+    var disqus_title = 'Invited to psake organisation on GitHub';
+    var disqus_url = 'http://www.gep13.co.uk/blog/psake-organisation-on-github' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
