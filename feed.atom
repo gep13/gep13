@@ -4,8 +4,182 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2017</rights>
-	<updated>2017-01-01T20:46:00Z</updated>
+	<updated>2017-01-03T22:15:49Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/2016-a-retrospective" />
+		<id>http://www.gep13.co.uk/blog/2016-a-retrospective</id>
+		<title>2-16 - A Retrospective</title>
+		<updated>2017-01-03T00:00:00Z</updated>
+		<content>&lt;h1 id="what-a-year-it-has-been"&gt;What a year it has been!&lt;/h1&gt;
+&lt;p&gt;Looking back on 2016 it has been full of personal high and lows, but all in all, it has been a great year, for lots of reasons.  This post is a very brief recap, in no particular order, of some of the highlights.&lt;/p&gt;
+&lt;h2 id="baby-park-2"&gt;Baby Park #2&lt;/h2&gt;
+&lt;p&gt;Early on in 2016, Lynn and I were very happy to announce the impedding arrival of our second child.  Baby Park #2 is due on February 16th.  Yes, that is only just over 6 weeks away!  We are trying to tell ourselves that we are ready for the arrival, but I am not sure if we are.  The last couple of days have been about getting things ready, making the cot, the moses basket, etc, but still loads to do.  Alivia is getting more and more excited about being a big sister, which is great to see, so definitely some fun times ahead here.&lt;/p&gt;
+&lt;h2 id="github-contributions"&gt;GitHub Contributions&lt;/h2&gt;
+&lt;p&gt;After taking part in &lt;a href="https://hacktoberfest.digitalocean.com/"&gt;Hacktoberfest&lt;/a&gt; and &lt;a href="https://24pullrequests.com/"&gt;24 Pull Requests&lt;/a&gt; in 2015, I had a renewed vigour for contributing to the Open Source Community, and this continued through the whole of 2016.  Which can be seen in the chart below:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/GitHub-Contributions.png" class="img-fluid" alt="2016 GitHub Contributions"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; The eagle eyed amongst you might notice a prolonged break at the end of June.  That was when I was on holiday in Portugal for my sister's wedding.&lt;/p&gt;
+&lt;p&gt;Yes, I think I do have a sort of addiction, but it has been great fun.&lt;/p&gt;
+&lt;p&gt;I have continued to contribute to the projects that I have a passion for, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/chocolatey/choco"&gt;Chocolatey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake"&gt;Cake&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager"&gt;GitReleaseManager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/GitTools/GitVersion"&gt;GitVersion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As well as helping out on other projects, where and when I can.  I can honestly say that I have learnt a lot through the contributions that I have been making, and I am looking forward to continuing the contributions through into this year.&lt;/p&gt;
+&lt;p&gt;A quick recap of the years events from a Cake perspective can be seen &lt;a href="http://cakebuild.net/blog/2016/12/icing-on-the-cake"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="podcasts"&gt;Podcasts&lt;/h2&gt;
+&lt;p&gt;In 2016 I was lucky enough to be invited onto a number of podcasts to discuss &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt;, the C# Build Automation system which I am a maintainer of.  These were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-on-msdev-show"&gt;MS Dev Show&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-on-.net-rocks"&gt;.Net Rocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-on-cynical-developer"&gt;Cynical Developer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-on-herding-code"&gt;Herding Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I have been a long time listener to all of these shows (with the exception of Cynical Developer which has really only just started, but is now on my playlist), and to get invited to talk on them was a huge privelege.  Thank you!&lt;/p&gt;
+&lt;p&gt;I was particulary necessary and excited about going on the .Net Rocks show, due to the fact that it was an in person interview with Carl and Richard while I was at &lt;a href="http://ndcoslo.com/"&gt;NDC Oslo&lt;/a&gt;.  I had also just came off stage from doing my presention.&lt;/p&gt;
+&lt;h2 id="talks"&gt;Talks&lt;/h2&gt;
+&lt;p&gt;In terms of speaking engagements, this year was by far by busiest.  With the arrival of our daughter Alivia a few years ago, I sort of stepped back from submitting talks to Developer Conferences, but this year that changed...&lt;/p&gt;
+&lt;p&gt;I did talks at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-at-aberdeen-developers"&gt;Aberdeen Developers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-at-ddd-scotland"&gt;DDD Scotland&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-at-ndc-oslo"&gt;NDC Oslo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-at-ddd-reading"&gt;DDD Reading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-at-ddd-north"&gt;DDD North&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The stand out of the above has to be NDC Oslo.  This is quite simply an amazing conference and I have been lucky enough to attend it for the last 3 years.  It was also the most nerve wracking one, as it was the largest audience that I have ever presented to.  Happy to say that I made it through, and the feedback that I received was remarkably positive, so I am very happy with how the talks went.&lt;/p&gt;
+&lt;p&gt;A huge thank you to all the Conference Organisers for these events!&lt;/p&gt;
+&lt;h2 id="hacktoberfest-and-24-pull-requests"&gt;Hacktoberfest and 24 Pull Requests&lt;/h2&gt;
+&lt;p&gt;In the same way as I did in 2015, I participated in both &lt;a href="https://hacktoberfest.digitalocean.com/"&gt;Hacktoberfest&lt;/a&gt; and &lt;a href="https://24pullrequests.com/"&gt;24 Pull Reuqests&lt;/a&gt; in 2016.&lt;/p&gt;
+&lt;p&gt;For those of you that don't know, Hacktoberfest is an online event ran by &lt;a href="https://www.digitalocean.com/"&gt;DigitalOcean&lt;/a&gt;.  The idea is simple, in the month of October, submit 4 or more Pull Requests to a project on GitHub.  Simples!  If you do this, you get an awesome t-shirt, as well as some swag, and of course, some bragging rights and internet points.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/hacktoberfest-swag.jpg" class="img-fluid" alt="Hacktoberfest"&gt;&lt;/p&gt;
+&lt;p&gt;24 Pull Requests is similar, with the exception being that the target is 24 Pull Requests, and it is in the month of December.  Unfortunately, there isn't any swag associated with this particular contest, but I wouldn't let that put you off taking part.  This year, I was a little bit late in getting all my Pull Requests in, working right up until the last day.  In 2015, I was able to make 40 Pull Requests and complete in plenty of time.  Going to have to pull my socks up in 2017!&lt;/p&gt;
+&lt;h2 id="stackoverflow-contributions"&gt;Stackoverflow Contributions&lt;/h2&gt;
+&lt;p&gt;I have been an on/off user of Stackoverflow since joining in 2011.  Mainly as a consumer of answers, it is an invaluable resource.  In 2016 though, I made a concerted effort to try to provide answers to questions rather than simply use the existing answers.  This was mainly due to my increased involvement in the Open Source projects that I work on.  As a result, I have seen an significant increase in my Stackoverflow reputation this year:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation.png" class="img-fluid" alt="Stackoverflow Reputation"&gt;&lt;/p&gt;
+&lt;p&gt;And having just logged in just now, I have just seen that I am now in the following:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation-top.png" class="img-fluid" alt="Stackoverflow Reputation Top 14% overall"&gt;&lt;/p&gt;
+&lt;p&gt;To date, my top answer on Stackoverflow is:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://stackoverflow.com/questions/28235388/where-is-the-chocolatey-installation-path/28239451#28239451"&gt;Where is the Chocolatey installation path&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;and my top question is:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-default-editor-for-git"&gt;How to use Visual Studio Code as Default Editor for Git&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Since I have been using Stackoverflow more and more, I have started to see some of the issues that I have heard people talking about on places like Twitter.  i.e. people getting into arguments, questions getting quickly marked down, and deleted/removed, etc.  There is definitely an element of this, but I still think that the benefits far outweigh the negatives.&lt;/p&gt;
+&lt;p&gt;It is still annoying though when you spend &lt;a href="http://stackoverflow.com/questions/41294279/chocolatey-from-where-does-it-find-the-package"&gt;a lot of time on an answer&lt;/a&gt; and then you get &lt;strong&gt;nothing&lt;/strong&gt; back from the original author!&lt;/p&gt;
+&lt;p&gt;On the plus side, you can get access to some funny hats!!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-profile.png" class="img-fluid" alt="Stackoverflow Profile"&gt;&lt;/p&gt;
+&lt;h2 id="teamcity-plugin-contest"&gt;TeamCity Plugin Contest&lt;/h2&gt;
+&lt;p&gt;This year, I was asked to be a judge in the annual &lt;a href="https://blog.jetbrains.com/teamcity/2016/10/teamcity-2016-plugin-contest-announcement/"&gt;TeamCity Plugin Contest&lt;/a&gt;, which was indeed an honour and a privelege.  The contest website can be seen &lt;a href="https://plugins.jetbrains.com/contest/teamcity/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Along with the TeamCity Development Team, Wesley Higbee, Jeffrey Palermo and myself were asked to judge 26 different plugins, scoring them on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Usefulness&lt;/li&gt;
+&lt;li&gt;Creativity and Elegance&lt;/li&gt;
+&lt;li&gt;Completeness&lt;/li&gt;
+&lt;li&gt;Code quality and documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/teamcity-plugin-contest.png" class="img-fluid" alt="TeamCity Coding Contest Judges"&gt;&lt;/p&gt;
+&lt;p&gt;I wasn't able to offer much in terms of judging Code Quality, as I have never done any Kotlin programming (although it is on my list of things to look at), but I was able to score the plugins in the other areas.  In all honesty, this was a lot of fun (although it did take quite a while to go through them all).  There were some amazing entries, and the end results can be seen &lt;a href="https://blog.jetbrains.com/teamcity/2016/12/teamcity-plugin-contest-2016-winners-announcement/"&gt;here&lt;/a&gt;.  Congratulations to the winners, and well done to everyone who took part!&lt;/p&gt;
+&lt;h2 id="winops-conf-2016"&gt;WinOps Conf 2016&lt;/h2&gt;
+&lt;p&gt;In May I was able to attend the WinOps Conference in London.  This is the second time that I have attended this conference, but this time I was there in a more official capacity.  &lt;a href="https://chocolatey.org/"&gt;Chocolatey&lt;/a&gt; was the lanyard sponsor for the event, and I was there to answer any questions that anyone had on Chocolatey.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/chocolatey-lanyard-sponsor.jpg" class="img-fluid" alt="Chocolatey Lanyard Sponsor"&gt;&lt;/p&gt;
+&lt;p&gt;I was able to hang out on the Puppet booth, and to hand out some of the new Chocolatey Icon stickers which were released this year.&lt;/p&gt;
+&lt;p&gt;I was also able to grab some time with Jeffrey Snover to discuss some of the newer features that have been coming out recently in Chocolatey.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/winops-chocolatey-jsnover.jpg" class="img-fluid" alt="WinOps 2016 Chocolatey Jeffrey Snover"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Image taken from Official WinOps Twitter Feed &lt;a href="https://twitter.com/winopsldn/status/735135079886950400"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The videos from this event can be seen on Channel 9 &lt;a href="https://channel9.msdn.com/Events/WinOps/WinOps-Conf-2016"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="microsoft-band-saga"&gt;Microsoft Band Saga&lt;/h2&gt;
+&lt;p&gt;Anyone who follows me on Twitter will be aware that I have had a number of ongoing problems with my Microsoft Band 2.  I genuinely, really like this device, it does everything that I need, and more, however, it keeps breaking!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/microsoft-band.jpg" class="img-fluid" alt="Microsoft Band strap split"&gt;&lt;/p&gt;
+&lt;p&gt;This year, I have had to return the device twice for the same problem, in the exact same location.  In December, the same thing happened again.  This time around though, after hearing that there are &lt;a href="https://www.thurrott.com/mobile/microsoft-band/82073/disbanded-microsoft-confirms-will-not-sell-band-3"&gt;no plans for Microsoft to continue with the device&lt;/a&gt;,  I have requested a refund from Microsoft, rather than a replacement.  I haven't yet heard whether this is going to go through or not, but I am hopeful.  A courier is picking up the device on the 4th January, so I should find out soon whether it will go through.  The next question is obviously what to replace it with?&lt;/p&gt;
+&lt;h2 id="aberdeen-developers"&gt;Aberdeen Developers&lt;/h2&gt;
+&lt;p&gt;Although I have taken a step backwards recently, through the help of &lt;a href="https://twitter.com/nyami"&gt;@nyami&lt;/a&gt;, I am very happy to say that &lt;a href="http://www.aberdeendevelopers.co.uk/"&gt;Aberdeen Developers .Net User Group&lt;/a&gt; is still going strong.  I was able to help out this year with a couple of the events, but lots of credit has to go to Doug for keeping it going!&lt;/p&gt;
+&lt;p&gt;This year the group hosted 8 events:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/october-2016-meeting-keith-davidson/"&gt;Keith Davidson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/september-2016-meeting-colin-mackay/"&gt;Colin Mackay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/august-2016-meeting-steven-chalmers/"&gt;Steven Chalmers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/july-2016-meeting-mike-taulty/"&gt;Mike Taulty&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/may-2016-meeting-kendall-miller/"&gt;Kendall Miller&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/april-2016-meeting-gary-ewan-park/"&gt;Gary Ewan Park&lt;/a&gt; - who is THAT guy!&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/march-2016-meeting-christos-matskas/"&gt;Christos Matskas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/scotnetrocks-aberdeen/"&gt;Carl Franklin and Richard Campbell&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The stand out event is &lt;del&gt;the one that I did&lt;/del&gt; obviously the aptly named ScotNetRocks tour!  This featured the amazing Carl Franklin and Richard Campbell from the &lt;a href="https://www.dotnetrocks.com/"&gt;.Net Rocks podcast&lt;/a&gt;.  This event was done in conjunction with the guys from &lt;a href="https://scottishdevelopers.com/"&gt;Scottish Developers&lt;/a&gt; and saw Carl and Richard visit Glasgow, Edinburgh, as well as Aberdeen.  The tour was a fantastic success, and the feedback that we got was amazing!  Once again, a huge thanks for the sponsors of the event, &lt;a href="http://www.codify.ltd.uk/"&gt;Codify&lt;/a&gt;, &lt;a href="http://www.evokeit.com/"&gt;Evoke IT&lt;/a&gt; and &lt;a href="http://www.lockheedmartin.co.uk/uk.html"&gt;Lockheed Martin&lt;/a&gt; without whom the event couldn't have happened!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/scotnetrocks.jpg" class="img-fluid" alt="ScotNetRocks Tour Aberdeen"&gt;&lt;/p&gt;
+&lt;h2 id="converted-blog-to-wyam"&gt;Converted Blog to Wyam&lt;/h2&gt;
+&lt;p&gt;For a very long time, this blog has suffered from a lack of updates.  The main excuse for this was that the workflow for creating a post (in my opinion) was significantly jarring, so although from time to time I had ideas for creating posts, this simply didn't happen.  This is now set to change though.  In December I converted this blog to use &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt; as the underlying blog engine, and in addition to switching to using &lt;a href="https://markdownmonster.west-wind.com/"&gt;Markdown Monster&lt;/a&gt;, the workflow is far smoother.  This is mainly down to the plugins that Markdown Monster comes with, namely:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Snagit Screen Capture&lt;/li&gt;
+&lt;li&gt;Paste Code as Gist&lt;/li&gt;
+&lt;li&gt;Save Image to Azure Blob Storage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;which means that the process of creating a post, including the images associated with the post, is far more streamlined.  This will be the content of another upcoming blog post, so stay tuned for that.&lt;/p&gt;
+&lt;p&gt;The best thing about Markdown Monster has to be the out of the box for support of Chocolatey.  You can simply do:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;choco install markdownmonster
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and you are off.&lt;/p&gt;
+&lt;p&gt;Ok, I might be a little biased here, but the fact that an application vendor is directly publishing to Chocolatey.org as a mechanism for distributing their application, is a testimony to how far Chocolatey has come.&lt;/p&gt;
+&lt;h2 id="chocolatey-contributions"&gt;Chocolatey Contributions&lt;/h2&gt;
+&lt;p&gt;As I mentioned above, I have in 2016 continued to contribute to the Chocolatey project.  This has included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;work on the &lt;a href="https://github.com/chocolatey/package-validator"&gt;package-validator&lt;/a&gt; (a tool which inspects all Chocolatey Package submissions prior to being published)&lt;/li&gt;
+&lt;li&gt;work on the &lt;a href="https://chocolatey.org/docs/features-create-packages-from-installers"&gt;Chocolatey Package Builder UI &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;continued work on the &lt;a href="https://chocolatey.org/packages?q=&amp;amp;moderatorQueue=true&amp;amp;prerelease=false&amp;amp;sortOrder=package-download-count"&gt;Chocolatey.org moderation queue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;helping out on the Chocolatey &lt;a href="https://gitter.im/chocolatey/choco"&gt;Gitter&lt;/a&gt; and &lt;a href="https://groups.google.com/forum/#!forum/chocolatey"&gt;Google Forums&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;answering questions on the &lt;a href="http://stackoverflow.com/questions/tagged/chocolatey"&gt;chocolatey tag on Stackoverflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;However, the stand out for me this year has to be the work involved in the &lt;a href="https://github.com/chocolatey/chocolatey-coreteampackages"&gt;Chocolatey Core Team Packages repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In case you haven't heard about this, this repository is a place that houses over 100 Chocolatey Packages, almost all of which are continously monitored for new application versions every 6 hours, which means that almost as soon as a new application version is available, an associated Chocolatey Package is created and submitted to chocolatey.org, ready for installation on your machines.&lt;/p&gt;
+&lt;p&gt;Since this repository was created, it has gone through a number of iterations, and intentions, but the most recent work has cemented the intention of this repository.  Namely, it is a place that any package maintainer can contribute their package (as long as it fits in with the &lt;a href="https://github.com/chocolatey/chocolatey-coreteampackages/wiki/Contributing-guidelines"&gt;guidelines&lt;/a&gt;) and that package can immediately take advantage of the infrastructure that has already been setup, i.e. AppVeyor Continuous Integration Builds, etc.  As a result, a community maintainer can be more effective at maintaining a package, without having to worry about the initial, rather daunting setup, that is necessary for automatic packaging.&lt;/p&gt;
+&lt;p&gt;This year, with the help of some amazing people:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/majkinetor"&gt;Miodrag Milić&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/AdmiringWorm"&gt;Kim Nordmo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/pascalberger"&gt;Pascal Berger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/dtgm"&gt;dtgm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We have started the process of switching from using ketarin to using &lt;a href="https://github.com/majkinetor/au"&gt;AU&lt;/a&gt; (which offers much better insights into what is going on with Automatic Packages), as well as pulling in more of the higher priority packages from other maintainers like &lt;a href="https://github.com/ferventcoder"&gt;Rob Reynolds&lt;/a&gt;.  Pulling in these high priority packages into a central repository, which is being monitored/updated by more people, means that they are more likely to continue to be updated when there are changes to the package, which is overall, a win for everyone!&lt;/p&gt;
+&lt;h2 id="cake-contributions"&gt;Cake Contributions&lt;/h2&gt;
+&lt;p&gt;As mentioned above, Cake has had a number of &lt;a href="http://cakebuild.net/blog/2016/12/icing-on-the-cake"&gt;success stories this year&lt;/a&gt;, but for me, the stand out one, and the one that I have been most involved in, is the &lt;a href="https://github.com/cake-contrib"&gt;Cake-Contrib Organisation&lt;/a&gt;.  This organisation is the sister organisation to the &lt;a href="https://github.com/cake-build"&gt;Cake-Build organisation&lt;/a&gt; and it is intended as a mechanism to ensure the longevity of the addins and modules that the Cake Community creates.&lt;/p&gt;
+&lt;p&gt;As we all know, open source is perilious in the sense that it relies on people's spare time to help out, and as a result, life can sometimes get in the way.  The Cake-Contrib organisation came about after a question was raised about an addin which hadn't been updated in a while, even though some PR's had been raised to correct some known issues.  In the end, this was resolved very quickly, but it did raise the question about &lt;em&gt;"what should be done if an addin/module that the Cake community relies on, stops being updated by the original creator?"&lt;/em&gt;.  This topic was discussed in length &lt;a href="http://cakebuild.net/blog/2016/08/cake-contribution-organization"&gt;here&lt;/a&gt;, but the upshot was this...&lt;/p&gt;
+&lt;p&gt;In the event that an addin/module was no longer being supported, and after every effort to contact the original maintainer has been exhausted, we the Cake maintainers wanted an ability to step in to help.&lt;/p&gt;
+&lt;p&gt;The end result of this was two fold.&lt;/p&gt;
+&lt;p&gt;We created the &lt;a href="https://www.nuget.org/profiles/cake-contrib"&gt;cake-contrib&lt;/a&gt; user on &lt;a href="https://www.nuget.org/"&gt;nuget.org&lt;/a&gt; and asked package maintainers to add the cake-contrib user as a co-maintainer of their nuget packages.  This would mean that should it be required, a member of the Cake Team &lt;em&gt;could&lt;/em&gt; push a new release to the same package id, without the need to create a new package id.  This is ideal, as it means that there is non duplication of packages, and therefore no ambiguity of which package is the official one.  At the time of writing this post, I am VERY happy to say that 91 of the 102 Cake addins/modules, have added the cake-contrib user as a co-maintainer.  I am personally very thankful to the Cake Community for getting behind this effort, as I really do feel that it is the best way to ensure the longevity of the packages that have been created.  Thank you!&lt;/p&gt;
+&lt;p&gt;In addition to the above, we also invited community members to add their repositories to the Cake-Contrib organisation, rather than maintain them in their own personal GitHub repos.  This is certainly NOT a requirement, just a suggestion.  The main reason to do this is again to easily allow other people to help out on a project, if/when required.  Once moved into the organisation, people can easily be added to the associated team within the repo, and start to help out on the project.&lt;/p&gt;
+&lt;p&gt;The process of adding a repository to the organisation looks like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;repo is transferred into the organisation (let's use Cake.Gem as an example)&lt;/li&gt;
+&lt;li&gt;a team called Cake.Gem is created, and given admin rights to the repo&lt;/li&gt;
+&lt;li&gt;the original maintainer/creator of the package is added to this team&lt;/li&gt;
+&lt;li&gt;AppVeyor Role is created and project created, and team is added to role&lt;/li&gt;
+&lt;li&gt;additional infracture like MyGet and NuGet is setup and configured&lt;/li&gt;
+&lt;li&gt;Coveralls is set up for project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So again, the main thing that is brought to the table here is the setup and maintenance of the additional infrastructure that comes with an Open Source project.  By alleviating the burden, we think we can better help the Cake Community.  To date, 27 addins/modules have moved to the Cake-Contrib Organisation.  I invite anyone else who is interested to reach out to me, and we can discuss moving additional repositories under this organisation.&lt;/p&gt;
+&lt;h2 id="thats-a-wrap"&gt;That's a wrap!&lt;/h2&gt;
+&lt;p&gt;So, all in all, it has been a very busy year!  Looking forward into 2017 I hope for more of the same, but with the arrival of Baby Park #2, it might not be quite as busy!&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/2016-a-retrospective' + 'S/';
+    var disqus_title = '2-16 - A Retrospective';
+    var disqus_url = 'http://www.gep13.co.uk/blog/2016-a-retrospective' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
+		<summary>&lt;p&gt;Looking back on 2016 it has been full of personal high and lows, but all in all, it has been a great year, for lots of reasons.  This post is a very brief recap, in no particular order, of some of the highlights.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-reaches-250000-downloads" />
 		<id>http://www.gep13.co.uk/blog/cake-reaches-250000-downloads</id>
@@ -670,37 +844,6 @@ Number of errors: 1
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>&lt;p&gt;On Thursday 17th September 2015, I presented a talk entitled "Semantic Versioning with GitVersion" at the first Developer Forum as part of the &lt;a href="http://www.scotlandis.com/scotsoft2015/"&gt;ScotlandIS ScotSoft2015&lt;/a&gt; event.  The abstract for the talk was as follows:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/psake-organisation-on-github" />
-		<id>http://www.gep13.co.uk/blog/psake-organisation-on-github</id>
-		<title>Invited to psake organisation on GitHub</title>
-		<updated>2015-09-10T00:00:00Z</updated>
-		<content>&lt;h1 id="i-am-now-a-member-of-the-psake-project"&gt;I am now a member of the psake project&lt;/h1&gt;
-&lt;p&gt;I have been a long time user of the &lt;a href="https://github.com/psake"&gt;psake&lt;/a&gt; build system, and today I was added as a member of the organisation in order to help with the maintenance effort.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2015/9/10/psake-organisation.png" class="img-fluid" alt="psake organisation on GitHub"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/psake"&gt;psake&lt;/a&gt;, as a product, is pretty much complete.  It does what it does, and it does it well, however, every so often, there are things that need to be added, fixed.  With this in mind, I am happy to help out where/when I can.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This is a retrospective blog post after GitHub announced a range of &lt;a href="https://github.com/blog/2256-a-whole-new-github-universe-announcing-new-tools-forums-and-features"&gt;new features&lt;/a&gt; including the option to see a history of your contributions.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/psake-organisation-on-github' + 'S/';
-    var disqus_title = 'Invited to psake organisation on GitHub';
-    var disqus_url = 'http://www.gep13.co.uk/blog/psake-organisation-on-github' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;I have been a long time user of the &lt;a href="https://github.com/psake"&gt;psake&lt;/a&gt; build system, and today I was added as a member of the organisation in order to help with the maintenance effort.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/myget-organisation-on-github" />
