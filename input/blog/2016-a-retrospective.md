@@ -47,7 +47,7 @@ In 2016 I was lucky enough to be invited onto a number of podcasts to discuss [C
 
 I have been a long time listener to all of these shows (with the exception of Cynical Developer which has really only just started, but is now on my playlist), and to get invited to talk on them was a huge privelege.  Thank you!
 
-I was particulary necessary and excited about going on the .Net Rocks show, due to the fact that it was an in person interview with Carl and Richard while I was at [NDC Oslo](http://ndcoslo.com/).  I had also just came off stage from doing my presention.
+I was particularly necessary and excited about going on the .Net Rocks show, due to the fact that it was an in person interview with Carl and Richard while I was at [NDC Oslo](http://ndcoslo.com/).  I had also just came off stage from doing my presentation.
 
 ## Talks
 
