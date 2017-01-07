@@ -50,7 +50,6 @@ Task("Deploy")
     .IsDependentOn("Build")
     .Does(() =>
     {
-        CleanDirectory("tools");
         RunCommand("git", "config --global credential.helper store");
         RunCommand("git", "config --global user.email \"gep13@gep13.co.uk\"");
         RunCommand("git", "config --global user.name \"Gary Ewan Park\"");
