@@ -1,7 +1,6 @@
 #tool nuget:?package=Wyam&prerelease
 #tool nuget:?package=KuduSync.NET
 #addin nuget:?package=Cake.Wyam&prerelease
-#addin nuget:?package=Cake.FileHelpers
 #addin nuget:?package=Cake.Git
 #addin nuget:?package=Cake.Kudu
 
