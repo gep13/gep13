@@ -53,7 +53,7 @@ Task("Build")
         {
             Recipe = "Blog",
             Theme = "CleanBlog",
-            OutputPath = outputPath
+            OutputPath = isRunningOnAppVeyor ? outputPath : null
         });        
     });
     
