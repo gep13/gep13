@@ -29,7 +29,6 @@ var accessToken = EnvironmentVariable("access_token");
 var deployRemote = EnvironmentVariable("git_deploy_remote");
 var deployBranch = EnvironmentVariable("git_deploy_branch");
 var outputPath = MakeAbsolute(Directory("./Output"));
-var wyamPath = MakeAbsolute(Directory("./Wyam"));
 var rootPublishFolder = MakeAbsolute(Directory("publish"));
 
 //////////////////////////////////////////////////////////////////////
@@ -41,7 +40,6 @@ Task("Clean")
     .Does(() =>
     {
         EnsureDirectoryExists(outputPath);
-        EnsureDirectoryExists(wyamPath);
         EnsureDirectoryExists(rootPublishFolder);
     });
 
@@ -53,7 +51,7 @@ Task("Build")
         {
             Recipe = "Blog",
             Theme = "CleanBlog",
-            OutputPath = isRunningOnAppVeyor ? outputPath : null
+            OutputPath = outputPath
         });        
     });
     
