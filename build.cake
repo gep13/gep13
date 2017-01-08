@@ -28,7 +28,7 @@ var isPullRequest = AppVeyor.Environment.PullRequest.IsPullRequest;
 var accessToken = EnvironmentVariable("access_token");
 var deployRemote = EnvironmentVariable("git_deploy_remote");
 var deployBranch = EnvironmentVariable("git_deploy_branch");
-var outputPath = MakeAbsolute(Directory("./Output"));
+var outputPath = MakeAbsolute(Directory("./output"));
 var rootPublishFolder = MakeAbsolute(Directory("publish"));
 
 //////////////////////////////////////////////////////////////////////
