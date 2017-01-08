@@ -2,4 +2,5 @@
 [Tt]ools/*
 ![Tt]ools/packages.config
 [Oo]utput/
+[Pp]ublish/
 nuget.exe
