@@ -22,7 +22,6 @@ var isPullRequest = AppVeyor.Environment.PullRequest.IsPullRequest;
 var accessToken = EnvironmentVariable("access_token");
 var deployRemote = EnvironmentVariable("git_deploy_remote");
 var deployBranch = EnvironmentVariable("git_deploy_branch");
-var userProfileFolder = Directory(EnvironmentVariable("USERPROFILE"));
 var outputPath = MakeAbsolute(Directory("./Output"));
 var wyamPath = MakeAbsolute(Directory("./Wyam"));
 
@@ -60,6 +59,7 @@ Task("Deploy")
     {
         var sourceCommit = GitLogTip("./");
         var publishFolder = MakeAbsolute(Directory("publish")).Combine(DateTime.Now.ToString("yyyyMMdd_HHmmss"));
+        EnsureDirectoryExists(publishFolder);
         Information("Getting publish branch...");
         GitClone(deployRemote, publishFolder, new GitCloneSettings{ BranchName = deployBranch });
 
