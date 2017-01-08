@@ -1,10 +1,6 @@
 branches:
   only:
     - master
-    
-environment:
-  access_token:
-    secure: 8nkd45DMSjFqay9ejGL2Eww79jHZW93WsTbBB2qbLmnsYKbtWTukpcrhzOkg7Rou
 
 build_script:
   - ps: .\build.ps1 -Target "AppVeyor"
