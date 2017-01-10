@@ -5,8 +5,8 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2017</copyright>
-		<pubDate>Tue, 10 Jan 2017 12:08:04 GMT</pubDate>
-		<lastBuildDate>Tue, 10 Jan 2017 12:08:04 GMT</lastBuildDate>
+		<pubDate>Tue, 10 Jan 2017 12:10:16 GMT</pubDate>
+		<lastBuildDate>Tue, 10 Jan 2017 12:10:16 GMT</lastBuildDate>
 		<item>
 			<title>How to skip AppVeyor builds</title>
 			<link>http://www.gep13.co.uk/blog/how-to-skip-appveyor-builds</link>
@@ -64,7 +64,7 @@ skip_commits:
 &lt;p&gt;then AppVeyor simply skips the build:&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/10/appveyor-builds-with-doc.png" class="img-fluid" alt="Resulting Builds on AppVeyor with doc commit message"&gt;&lt;/p&gt;
 &lt;h1 id="additional-options"&gt;Additional options&lt;/h1&gt;
-&lt;p&gt;The above configuration works perfectly for me, however, AppVeyor includes a number of other [configuration options])https://www.appveyor.com/docs/how-to/filtering-commits/) to skip builds.  This includes:&lt;/p&gt;
+&lt;p&gt;The above configuration works perfectly for me, however, AppVeyor includes a number of other &lt;a href="https://www.appveyor.com/docs/how-to/filtering-commits/"&gt;configuration options&lt;/a&gt; to skip builds.  This includes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;skipping and including commits based on author of commit&lt;/li&gt;
 &lt;li&gt;skipping and including commits based on file name&lt;/li&gt;
