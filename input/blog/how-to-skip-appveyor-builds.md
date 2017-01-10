@@ -98,7 +98,7 @@ then AppVeyor simply skips the build:
 
 # Additional options
 
-The above configuration works perfectly for me, however, AppVeyor includes a number of other [configuration options])https://www.appveyor.com/docs/how-to/filtering-commits/) to skip builds.  This includes:
+The above configuration works perfectly for me, however, AppVeyor includes a number of other [configuration options](https://www.appveyor.com/docs/how-to/filtering-commits/) to skip builds.  This includes:
 
 - skipping and including commits based on author of commit
 - skipping and including commits based on file name
