@@ -27,5 +27,10 @@
 <script type="text/javascript">
   anchors.options.placement = 'left';
   anchors.add();
-  new Clipboard('code');
+  
+  new Clipboard('code', {
+    target: function(trigger) {
+        return trigger.nextElementSibling;
+    }
+  });
 </script>
