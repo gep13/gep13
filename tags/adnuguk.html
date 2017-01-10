@@ -690,8 +690,14 @@
 <script type="text/javascript" src="/assets/js/anchor.min.js"></script>
 <script type="text/javascript" src="/assets/js/clipboard.min.js"></script>
 <script type="text/javascript">
+  anchors.options.placement = 'left';
   anchors.add();
-  new Clipboard('code');
+  
+  new Clipboard('code', {
+    target: function(trigger) {
+        return trigger.nextElementSibling;
+    }
+  });
 </script>
                 <script>hljs.initHighlightingOnLoad();</script>
 
@@ -712,18 +718,21 @@
         </body>
 </html>
 
-insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-20926037-1', 'auto');
+26037-1', 'auto');
     ga('send', 'pageview');
 </script>
 
 <script type="text/javascript" src="/assets/js/anchor.min.js"></script>
 <script type="text/javascript" src="/assets/js/clipboard.min.js"></script>
 <script type="text/javascript">
+  anchors.options.placement = 'left';
   anchors.add();
-  new Clipboard('code');
+  
+  new Clipboard('code', {
+    target: function(trigger) {
+        return trigger.nextElementSibling;
+    }
+  });
 </script>
                 <script>hljs.initHighlightingOnLoad();</script>
 

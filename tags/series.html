@@ -126,24 +126,6 @@
             <p class="post-meta">Posted on 04 January 2013</p>            
         </div>   
         <div class="post-list">
-            <a href="/blog/essential-visual-studio-addin-tfs-power-tools">
-                <h3 class="post-title">Essential Visual Studio Addin &#x2013; TFS Power Tools</h3>
-            </a>
-            <p class="post-meta">Posted on 18 July 2010</p>            
-        </div>   
-        <div class="post-list">
-            <a href="/blog/essential-visual-studio-2008-addin-series">
-                <h3 class="post-title">Essential Visual Studio 2008 Addin Series</h3>
-            </a>
-            <p class="post-meta">Posted on 18 July 2010</p>            
-        </div>   
-        <div class="post-list">
-            <a href="/blog/essential-visual-studio-addin-coderush-express">
-                <h3 class="post-title">Essential Visual Studio Addin &#x2013; CodeRush Express</h3>
-            </a>
-            <p class="post-meta">Posted on 18 July 2010</p>            
-        </div>   
-        <div class="post-list">
             <a href="/blog/essential-visual-studio-addin-copy-source-as-html">
                 <h3 class="post-title">Essential Visual Studio Addin &#x2013; Copy Source As HTML</h3>
             </a>
@@ -164,6 +146,24 @@
         <div class="post-list">
             <a href="/blog/essential-visual-studio-addin-stylecop">
                 <h3 class="post-title">Essential Visual Studio Addin - StyleCop</h3>
+            </a>
+            <p class="post-meta">Posted on 18 July 2010</p>            
+        </div>   
+        <div class="post-list">
+            <a href="/blog/essential-visual-studio-2008-addin-series">
+                <h3 class="post-title">Essential Visual Studio 2008 Addin Series</h3>
+            </a>
+            <p class="post-meta">Posted on 18 July 2010</p>            
+        </div>   
+        <div class="post-list">
+            <a href="/blog/essential-visual-studio-addin-coderush-express">
+                <h3 class="post-title">Essential Visual Studio Addin &#x2013; CodeRush Express</h3>
+            </a>
+            <p class="post-meta">Posted on 18 July 2010</p>            
+        </div>   
+        <div class="post-list">
+            <a href="/blog/essential-visual-studio-addin-tfs-power-tools">
+                <h3 class="post-title">Essential Visual Studio Addin &#x2013; TFS Power Tools</h3>
             </a>
             <p class="post-meta">Posted on 18 July 2010</p>            
         </div>   
@@ -750,8 +750,14 @@
 <script type="text/javascript" src="/assets/js/anchor.min.js"></script>
 <script type="text/javascript" src="/assets/js/clipboard.min.js"></script>
 <script type="text/javascript">
+  anchors.options.placement = 'left';
   anchors.add();
-  new Clipboard('code');
+  
+  new Clipboard('code', {
+    target: function(trigger) {
+        return trigger.nextElementSibling;
+    }
+  });
 </script>
                 <script>hljs.initHighlightingOnLoad();</script>
 

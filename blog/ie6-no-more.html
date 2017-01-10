@@ -201,8 +201,14 @@ Published on 14 March 2011<br>    </div>
 <script type="text/javascript" src="/assets/js/anchor.min.js"></script>
 <script type="text/javascript" src="/assets/js/clipboard.min.js"></script>
 <script type="text/javascript">
+  anchors.options.placement = 'left';
   anchors.add();
-  new Clipboard('code');
+  
+  new Clipboard('code', {
+    target: function(trigger) {
+        return trigger.nextElementSibling;
+    }
+  });
 </script>
                 <script>hljs.initHighlightingOnLoad();</script>
 
