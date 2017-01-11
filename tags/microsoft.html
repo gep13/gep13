@@ -126,14 +126,14 @@
             <p class="post-meta">Posted on 14 March 2011</p>            
         </div>   
         <div class="post-list">
-            <a href="/blog/a-review-of-ddd9-by-a-ddd-virgin">
-                <h3 class="post-title">A review of DDD9 by a DDD Virgin</h3>
+            <a href="/blog/new-coding4fun-site">
+                <h3 class="post-title">New Coding4Fun Site</h3>
             </a>
             <p class="post-meta">Posted on 31 January 2011</p>            
         </div>   
         <div class="post-list">
-            <a href="/blog/new-coding4fun-site">
-                <h3 class="post-title">New Coding4Fun Site</h3>
+            <a href="/blog/a-review-of-ddd9-by-a-ddd-virgin">
+                <h3 class="post-title">A review of DDD9 by a DDD Virgin</h3>
             </a>
             <p class="post-meta">Posted on 31 January 2011</p>            
         </div>   
@@ -150,14 +150,14 @@
             <p class="post-meta">Posted on 05 October 2010</p>            
         </div>   
         <div class="post-list">
-            <a href="/blog/hotmail-exchange-activesync">
-                <h3 class="post-title">Hotmail Exchange ActiveSync</h3>
+            <a href="/blog/uk-msdn-blog">
+                <h3 class="post-title">UK MSDN Blog</h3>
             </a>
             <p class="post-meta">Posted on 12 September 2010</p>            
         </div>   
         <div class="post-list">
-            <a href="/blog/uk-msdn-blog">
-                <h3 class="post-title">UK MSDN Blog</h3>
+            <a href="/blog/hotmail-exchange-activesync">
+                <h3 class="post-title">Hotmail Exchange ActiveSync</h3>
             </a>
             <p class="post-meta">Posted on 12 September 2010</p>            
         </div>   
@@ -768,14 +768,25 @@
 <script type="text/javascript" src="/assets/js/anchor.min.js"></script>
 <script type="text/javascript" src="/assets/js/clipboard.min.js"></script>
 <script type="text/javascript">
-  anchors.options.placement = 'left';
-  anchors.add();
-  
-  new Clipboard('code', {
-    target: function(trigger) {
-        return trigger.nextElementSibling;
-    }
-  });
+    anchors.options.placement = 'left';
+    anchors.add();
+
+    var snippets = document.querySelectorAll("pre > code");
+    [].forEach.call(snippets, function(snippet) {
+        snippet.insertAdjacentHTML("beforebegin", "<button class='btn-copy' data-clipboard-snippet><img class='clippy' width=13 src='/assets/images/clippy.svg' alt='Copy to clipboard'></button>");
+    });
+    var clipboardSnippets = new Clipboard('[data-clipboard-snippet]', {
+        target: function(trigger) {
+            return trigger.nextElementSibling;
+        }
+    });
+    clipboardSnippets.on('success', function(e) {
+        e.clearSelection();
+        showTooltip(e.trigger, "Copied!");
+    });
+    clipboardSnippets.on('error', function(e) {
+        showTooltip(e.trigger, fallbackMessage(e.action));
+    });
 </script>
                 <script>hljs.initHighlightingOnLoad();</script>
 

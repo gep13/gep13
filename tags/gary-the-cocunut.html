@@ -102,14 +102,14 @@
     <div class="row row-sm-height">
         <div class="col-sm-8 right-border col-sm-height">
                     <div class="post-list">
-            <a href="/blog/gary-the-coconut-joins-me-in-calgary">
-                <h3 class="post-title">Gary the Coconut joins me in Calgary</h3>
+            <a href="/blog/the-story-of-gary-the-coconut">
+                <h3 class="post-title">The Story of Gary The Coconut</h3>
             </a>
             <p class="post-meta">Posted on 12 July 2008</p>            
         </div>   
         <div class="post-list">
-            <a href="/blog/the-story-of-gary-the-coconut">
-                <h3 class="post-title">The Story of Gary The Coconut</h3>
+            <a href="/blog/gary-the-coconut-joins-me-in-calgary">
+                <h3 class="post-title">Gary the Coconut joins me in Calgary</h3>
             </a>
             <p class="post-meta">Posted on 12 July 2008</p>            
         </div>   
@@ -696,14 +696,25 @@
 <script type="text/javascript" src="/assets/js/anchor.min.js"></script>
 <script type="text/javascript" src="/assets/js/clipboard.min.js"></script>
 <script type="text/javascript">
-  anchors.options.placement = 'left';
-  anchors.add();
-  
-  new Clipboard('code', {
-    target: function(trigger) {
-        return trigger.nextElementSibling;
-    }
-  });
+    anchors.options.placement = 'left';
+    anchors.add();
+
+    var snippets = document.querySelectorAll("pre > code");
+    [].forEach.call(snippets, function(snippet) {
+        snippet.insertAdjacentHTML("beforebegin", "<button class='btn-copy' data-clipboard-snippet><img class='clippy' width=13 src='/assets/images/clippy.svg' alt='Copy to clipboard'></button>");
+    });
+    var clipboardSnippets = new Clipboard('[data-clipboard-snippet]', {
+        target: function(trigger) {
+            return trigger.nextElementSibling;
+        }
+    });
+    clipboardSnippets.on('success', function(e) {
+        e.clearSelection();
+        showTooltip(e.trigger, "Copied!");
+    });
+    clipboardSnippets.on('error', function(e) {
+        showTooltip(e.trigger, fallbackMessage(e.action));
+    });
 </script>
                 <script>hljs.initHighlightingOnLoad();</script>
 

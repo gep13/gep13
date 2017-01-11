@@ -102,8 +102,26 @@
     <div class="row row-sm-height">
         <div class="col-sm-8 right-border col-sm-height">
                     <div class="post-list">
+            <a href="/blog/essential-visual-studio-2008-addin-series">
+                <h3 class="post-title">Essential Visual Studio 2008 Addin Series</h3>
+            </a>
+            <p class="post-meta">Posted on 18 July 2010</p>            
+        </div>   
+        <div class="post-list">
+            <a href="/blog/essential-visual-studio-addin-coderush-express">
+                <h3 class="post-title">Essential Visual Studio Addin &#x2013; CodeRush Express</h3>
+            </a>
+            <p class="post-meta">Posted on 18 July 2010</p>            
+        </div>   
+        <div class="post-list">
             <a href="/blog/essential-visual-studio-addin-copy-source-as-html">
                 <h3 class="post-title">Essential Visual Studio Addin &#x2013; Copy Source As HTML</h3>
+            </a>
+            <p class="post-meta">Posted on 18 July 2010</p>            
+        </div>   
+        <div class="post-list">
+            <a href="/blog/essential-visual-studio-addin-tfs-power-tools">
+                <h3 class="post-title">Essential Visual Studio Addin &#x2013; TFS Power Tools</h3>
             </a>
             <p class="post-meta">Posted on 18 July 2010</p>            
         </div>   
@@ -122,24 +140,6 @@
         <div class="post-list">
             <a href="/blog/essential-visual-studio-addin-stylecop">
                 <h3 class="post-title">Essential Visual Studio Addin - StyleCop</h3>
-            </a>
-            <p class="post-meta">Posted on 18 July 2010</p>            
-        </div>   
-        <div class="post-list">
-            <a href="/blog/essential-visual-studio-2008-addin-series">
-                <h3 class="post-title">Essential Visual Studio 2008 Addin Series</h3>
-            </a>
-            <p class="post-meta">Posted on 18 July 2010</p>            
-        </div>   
-        <div class="post-list">
-            <a href="/blog/essential-visual-studio-addin-coderush-express">
-                <h3 class="post-title">Essential Visual Studio Addin &#x2013; CodeRush Express</h3>
-            </a>
-            <p class="post-meta">Posted on 18 July 2010</p>            
-        </div>   
-        <div class="post-list">
-            <a href="/blog/essential-visual-studio-addin-tfs-power-tools">
-                <h3 class="post-title">Essential Visual Studio Addin &#x2013; TFS Power Tools</h3>
             </a>
             <p class="post-meta">Posted on 18 July 2010</p>            
         </div>   
@@ -726,14 +726,25 @@
 <script type="text/javascript" src="/assets/js/anchor.min.js"></script>
 <script type="text/javascript" src="/assets/js/clipboard.min.js"></script>
 <script type="text/javascript">
-  anchors.options.placement = 'left';
-  anchors.add();
-  
-  new Clipboard('code', {
-    target: function(trigger) {
-        return trigger.nextElementSibling;
-    }
-  });
+    anchors.options.placement = 'left';
+    anchors.add();
+
+    var snippets = document.querySelectorAll("pre > code");
+    [].forEach.call(snippets, function(snippet) {
+        snippet.insertAdjacentHTML("beforebegin", "<button class='btn-copy' data-clipboard-snippet><img class='clippy' width=13 src='/assets/images/clippy.svg' alt='Copy to clipboard'></button>");
+    });
+    var clipboardSnippets = new Clipboard('[data-clipboard-snippet]', {
+        target: function(trigger) {
+            return trigger.nextElementSibling;
+        }
+    });
+    clipboardSnippets.on('success', function(e) {
+        e.clearSelection();
+        showTooltip(e.trigger, "Copied!");
+    });
+    clipboardSnippets.on('error', function(e) {
+        showTooltip(e.trigger, fallbackMessage(e.action));
+    });
 </script>
                 <script>hljs.initHighlightingOnLoad();</script>
 

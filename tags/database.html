@@ -102,6 +102,12 @@
     <div class="row row-sm-height">
         <div class="col-sm-8 right-border col-sm-height">
                     <div class="post-list">
+            <a href="/blog/how-to-install-mysql-workbench">
+                <h3 class="post-title">How to install MySQL Workbench</h3>
+            </a>
+            <p class="post-meta">Posted on 04 January 2013</p>            
+        </div>   
+        <div class="post-list">
             <a href="/blog/how-to-create-a-mysql-server-instance-profile-and-database">
                 <h3 class="post-title">How to create a MySQL Server Instance Profile and Database</h3>
             </a>
@@ -110,12 +116,6 @@
         <div class="post-list">
             <a href="/blog/how-to-install-mysql-community-server">
                 <h3 class="post-title">How to install MySQL Community Server</h3>
-            </a>
-            <p class="post-meta">Posted on 04 January 2013</p>            
-        </div>   
-        <div class="post-list">
-            <a href="/blog/how-to-install-mysql-workbench">
-                <h3 class="post-title">How to install MySQL Workbench</h3>
             </a>
             <p class="post-meta">Posted on 04 January 2013</p>            
         </div>   
@@ -702,14 +702,25 @@
 <script type="text/javascript" src="/assets/js/anchor.min.js"></script>
 <script type="text/javascript" src="/assets/js/clipboard.min.js"></script>
 <script type="text/javascript">
-  anchors.options.placement = 'left';
-  anchors.add();
-  
-  new Clipboard('code', {
-    target: function(trigger) {
-        return trigger.nextElementSibling;
-    }
-  });
+    anchors.options.placement = 'left';
+    anchors.add();
+
+    var snippets = document.querySelectorAll("pre > code");
+    [].forEach.call(snippets, function(snippet) {
+        snippet.insertAdjacentHTML("beforebegin", "<button class='btn-copy' data-clipboard-snippet><img class='clippy' width=13 src='/assets/images/clippy.svg' alt='Copy to clipboard'></button>");
+    });
+    var clipboardSnippets = new Clipboard('[data-clipboard-snippet]', {
+        target: function(trigger) {
+            return trigger.nextElementSibling;
+        }
+    });
+    clipboardSnippets.on('success', function(e) {
+        e.clearSelection();
+        showTooltip(e.trigger, "Copied!");
+    });
+    clipboardSnippets.on('error', function(e) {
+        showTooltip(e.trigger, fallbackMessage(e.action));
+    });
 </script>
                 <script>hljs.initHighlightingOnLoad();</script>
 

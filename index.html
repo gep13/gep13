@@ -136,11 +136,11 @@
                 <a role="button" href="/tags/calgary" class="btn btn-default btn-sm"> Calgary (33)</a>
                 <a role="button" href="/tags/windows-phone-7" class="btn btn-default btn-sm"> Windows Phone 7 (23)</a>
                 <a role="button" href="/tags/ddd" class="btn btn-default btn-sm"> DDD (19)</a>
-                <a role="button" href="/tags/microsoft" class="btn btn-default btn-sm"> Microsoft (14)</a>
                 <a role="button" href="/tags/github" class="btn btn-default btn-sm"> GitHub (14)</a>
+                <a role="button" href="/tags/microsoft" class="btn btn-default btn-sm"> Microsoft (14)</a>
+                <a role="button" href="/tags/general" class="btn btn-default btn-sm"> General (13)</a>
                 <a role="button" href="/tags/meetings" class="btn btn-default btn-sm"> Meetings (13)</a>
                 <a role="button" href="/tags/events" class="btn btn-default btn-sm"> Events (13)</a>
-                <a role="button" href="/tags/general" class="btn btn-default btn-sm"> General (13)</a>
                 <a role="button" href="/tags/cake" class="btn btn-default btn-sm"> Cake (12)</a>
                 <a role="button" href="/tags/open-source" class="btn btn-default btn-sm"> Open Source (12)</a>
         </div>
@@ -244,14 +244,25 @@
 <script type="text/javascript" src="/assets/js/anchor.min.js"></script>
 <script type="text/javascript" src="/assets/js/clipboard.min.js"></script>
 <script type="text/javascript">
-  anchors.options.placement = 'left';
-  anchors.add();
-  
-  new Clipboard('code', {
-    target: function(trigger) {
-        return trigger.nextElementSibling;
-    }
-  });
+    anchors.options.placement = 'left';
+    anchors.add();
+
+    var snippets = document.querySelectorAll("pre > code");
+    [].forEach.call(snippets, function(snippet) {
+        snippet.insertAdjacentHTML("beforebegin", "<button class='btn-copy' data-clipboard-snippet><img class='clippy' width=13 src='/assets/images/clippy.svg' alt='Copy to clipboard'></button>");
+    });
+    var clipboardSnippets = new Clipboard('[data-clipboard-snippet]', {
+        target: function(trigger) {
+            return trigger.nextElementSibling;
+        }
+    });
+    clipboardSnippets.on('success', function(e) {
+        e.clearSelection();
+        showTooltip(e.trigger, "Copied!");
+    });
+    clipboardSnippets.on('error', function(e) {
+        showTooltip(e.trigger, fallbackMessage(e.action));
+    });
 </script>
                 <script>hljs.initHighlightingOnLoad();</script>
 
