@@ -140,6 +140,10 @@ Anyone who follows me on Twitter will be aware that I have had a number of ongoi
 
 This year, I have had to return the device twice for the same problem, in the exact same location.  In December, the same thing happened again.  This time around though, after hearing that there are [no plans for Microsoft to continue with the device](https://www.thurrott.com/mobile/microsoft-band/82073/disbanded-microsoft-confirms-will-not-sell-band-3),  I have requested a refund from Microsoft, rather than a replacement.  I haven't yet heard whether this is going to go through or not, but I am hopeful.  A courier is picking up the device on the 4th January, so I should find out soon whether it will go through.  The next question is obviously what to replace it with?
 
+### Update
+
+I am very happy to announce that Microsoft have indeed refunded me for the Microsoft Band.  Now I just need to decide on what device to go with next.
+
 ## Aberdeen Developers
 
 Although I have taken a step backwards recently, through the help of [@nyami](https://twitter.com/nyami), I am very happy to say that [Aberdeen Developers .Net User Group](http://www.aberdeendevelopers.co.uk/) is still going strong.  I was able to help out this year with a couple of the events, but lots of credit has to go to Doug for keeping it going!
