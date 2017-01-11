@@ -4,8 +4,62 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2017</rights>
-	<updated>2017-01-11T07:53:55Z</updated>
+	<updated>2017-01-11T08:18:01Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/adding-clickable-links-for-headers" />
+		<id>http://www.gep13.co.uk/blog/adding-clickable-links-for-headers</id>
+		<title>Adding clickable links for headers</title>
+		<updated>2017-01-11T00:00:00Z</updated>
+		<content>&lt;h1 id="click-click-click"&gt;Click, click, click!&lt;/h1&gt;
+&lt;p&gt;After reading this &lt;a href="http://www.digitaltapestry.net/posts/markdig-cheat-sheet"&gt;blog post&lt;/a&gt; from &lt;a href="https://github.com/wekempf"&gt;William Kempf&lt;/a&gt;, specifically this &lt;a href="http://www.digitaltapestry.net/posts/markdig-cheat-sheet#auto-identifiers"&gt;section&lt;/a&gt;, it got me thinking...&lt;/p&gt;
+&lt;p&gt;It's great that Markdig is automatically creating those anchor points in the HTML that is rendered, however, they are not exactly discoverable.  If you look at what happens on a &lt;a href="https://github.com/chocolatey/choco/wiki"&gt;GitHub wiki&lt;/a&gt; that renders Markdown, you will see that it comes up with this really nice icon on hovering over the link:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/11/github-wiki-rendering.png" class="img-fluid" alt="How headers are rendered on GitHub"&gt;&lt;/p&gt;
+&lt;p&gt;Clicking on this icon navigates directly to the header, and makes it really easy to share that link with other people.&lt;/p&gt;
+&lt;h1 id="i-want-to-do-this-do"&gt;I want to do this do!&lt;/h1&gt;
+&lt;p&gt;When I write a blog post, I typically break the post into a number of sections, and I wanted to be able to do the same thing here.  So, I asked the question in the &lt;a href="https://gitter.im/Wyamio/Wyam?at=587544c9873d96e16d4f9b05"&gt;Wyam Gitter Room&lt;/a&gt; and almost immediately I got a response from &lt;a href="https://github.com/daveaglick"&gt;Dave Glick&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;There is - in fact strongly considering adding this and code block copy buttons to the themes (it's all frontend JS stuff) - here's the two libraries I like the best: https://github.com/bryanbraun/anchorjs (for anchor links) and https://github.com/zenorocha/clipboard.js (for clipboard copying)
+Adding them to your own site would just be a matter of putting the appropriate JS in the _Scripts.cshtml file&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id="the-implementation"&gt;The implementation&lt;/h1&gt;
+&lt;p&gt;With this information in hand, I set about adding it to my blog.  The only addition that was required was the following in my &lt;code&gt;input\_scripts.cshtml&lt;/code&gt; file:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-html"&gt;&amp;lt;script type="text/javascript" src="/assets/js/anchor.min.js"&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;script type="text/javascript"&amp;gt;
+    anchors.options.placement = 'left';
+    anchors.add();
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="alert alert-info"&gt;&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In order to match what GitHub does, I have explicitly set the &lt;code&gt;placement&lt;/code&gt; property to appear on the left of the header.  The default is to have it appear on the right of the header.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The end result of this &lt;del&gt;hard work&lt;/del&gt; can be seen here:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/11/anchorjs-in-action.png" class="img-fluid" alt="AnchorJs in action"&gt;&lt;/p&gt;
+&lt;p&gt;an easily discoverable way to link to section headers.&lt;/p&gt;
+&lt;h1 id="the-future"&gt;The future&lt;/h1&gt;
+&lt;p&gt;Sounds like Dave is planning on adding this functionality to the default Blog Recipe for Wyam, so at some point it is likely that you will not need to do the above, it should just happen auto-magically, but for now, I am more than happy with the end result.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/adding-clickable-links-for-headers' + 'S/';
+    var disqus_title = 'Adding clickable links for headers';
+    var disqus_url = 'http://www.gep13.co.uk/blog/adding-clickable-links-for-headers' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
+		<summary>&lt;p&gt;After reading this &lt;a href="http://www.digitaltapestry.net/posts/markdig-cheat-sheet"&gt;blog post&lt;/a&gt; from &lt;a href="https://github.com/wekempf"&gt;William Kempf&lt;/a&gt;, specifically this &lt;a href="http://www.digitaltapestry.net/posts/markdig-cheat-sheet#auto-identifiers"&gt;section&lt;/a&gt;, it got me thinking...&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/how-to-skip-appveyor-builds" />
 		<id>http://www.gep13.co.uk/blog/how-to-skip-appveyor-builds</id>
@@ -889,43 +943,5 @@ Number of errors: 1
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>&lt;p&gt;Today, &lt;a href="https://github.com/patriksvensson"&gt;Patrik&lt;/a&gt; and &lt;a href="https://github.com/devlead"&gt;Mattias&lt;/a&gt; invited me to join them on the Cake Team on GitHub.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/slides-from-talk-at-scotsoft2015" />
-		<id>http://www.gep13.co.uk/blog/slides-from-talk-at-scotsoft2015</id>
-		<title>Slides from Talk at ScotSoft2015</title>
-		<updated>2015-09-24T00:00:00Z</updated>
-		<content>&lt;h2 id="semantic-versioning-with-gitversion"&gt;Semantic Versioning with GitVersion&lt;/h2&gt;
-&lt;p&gt;On Thursday 17th September 2015, I presented a talk entitled "Semantic Versioning with GitVersion" at the first Developer Forum as part of the &lt;a href="http://www.scotlandis.com/scotsoft2015/"&gt;ScotlandIS ScotSoft2015&lt;/a&gt; event.  The abstract for the talk was as follows:&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;Have you ever needed to control the version number of your application?  If so, you will know that this isn't something that you "get for free".  It's hard!&lt;/p&gt;
-&lt;p&gt;You may have tried to use some form of auto incrementing number from your Continuous Integration Server, or store a text file in source control and update it each time the build happens.  Both of these approaches will work, but they don't account for more complicated scenarios where you are working on multiple releases at the same time, or you want to use multiple Continuous Integration Servers.&lt;/p&gt;
-&lt;p&gt;In this session, we will look at how we can improve the versioning of your application using a combination of branching strategies (either Gitflow or Githubflow) and an open source tool called GitVersion.&lt;/p&gt;
-&lt;p&gt;GitVersion is a tool which allows you to easy generate the Semantic Version number for your application, based on the current state of your code base in it's Git Repository.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I thoroughly enjoyed doing this presentation, and there were quite a few questions after the talk was finished, so I feel that people were able to get something from it.  If there are any follow-up questions, then please feel free to get in touch, and I will do my best to respond.&lt;/p&gt;
-&lt;h2 id="slides"&gt;Slides&lt;/h2&gt;
-&lt;p&gt;If you are interested in seeing the slide from the talk, you can find them displayed below, or you can find the full version on SlideShare &lt;a href="http://www.slideshare.net/gep13/semantic-versioning-with-gitversion"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/HzZm8AmIJpZ0Sf" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt;&lt;/div&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/slides-from-talk-at-scotsoft2015' + 'S/';
-    var disqus_title = 'Slides from Talk at ScotSoft2015';
-    var disqus_url = 'http://www.gep13.co.uk/blog/slides-from-talk-at-scotsoft2015' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;On Thursday 17th September 2015, I presented a talk entitled "Semantic Versioning with GitVersion" at the first Developer Forum as part of the &lt;a href="http://www.scotlandis.com/scotsoft2015/"&gt;ScotlandIS ScotSoft2015&lt;/a&gt; event.  The abstract for the talk was as follows:&lt;/p&gt;</summary>
 	</entry>
 </feed>
