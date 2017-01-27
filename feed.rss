@@ -5,8 +5,8 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2017</copyright>
-		<pubDate>Fri, 27 Jan 2017 13:08:42 GMT</pubDate>
-		<lastBuildDate>Fri, 27 Jan 2017 13:08:42 GMT</lastBuildDate>
+		<pubDate>Fri, 27 Jan 2017 21:50:07 GMT</pubDate>
+		<lastBuildDate>Fri, 27 Jan 2017 21:50:07 GMT</lastBuildDate>
 		<item>
 			<title>How to create gh-pages branch</title>
 			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
@@ -42,6 +42,112 @@ git push --set-upstream origin gh-pages
     var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + 'S/';
     var disqus_title = 'How to create gh-pages branch';
     var disqus_url = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
+		<item>
+			<title>Use Octokit to create labels</title>
+			<link>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</guid>
+			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="why-would-you-need-to-do-this"&gt;Why would you need to do this?&lt;/h1&gt;
+&lt;p&gt;Good question!  I have a small amount compulsive behaviour when it comes to labels that are associated with GitHub projects that I work on.  Both in terms of the colour that is used, as well as the text that is associated with the label.  Being consistent means that it is much easier to identity what an issue/pull request is about, before even reading anything about it.&lt;/p&gt;
+&lt;h1 id="so-what-is-the-problem"&gt;So what is the problem?&lt;/h1&gt;
+&lt;p&gt;By default, when you create a new repository on GitHub, this is what you get for labels:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/default-github-labels.png" class="img-fluid" alt="Default GitHub Labels"&gt;&lt;/p&gt;
+&lt;p&gt;Now, while some of you might be saying there is nothing wrong with this, I much prefer them to look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/my-github-labels.png" class="img-fluid" alt="My GitHub Labels"&gt;&lt;/p&gt;
+&lt;p&gt;Ah, much better!&lt;/p&gt;
+&lt;p&gt;Now, while I could make these changes manually through the GitHub User Interface, this is time consuming, and prone to mistakes.  Having done this more than two times, it was time to automate it!&lt;/p&gt;
+&lt;h1 id="enter-octokit"&gt;Enter Octokit&lt;/h1&gt;
+&lt;p&gt;Octokit is GitHub API Client, which means that you can do pretty much anything through it, that you can do through the GitHub User Interface, including the creation of labels.&lt;/p&gt;
+&lt;p&gt;After a small amount of hacking, this is what I came up with (&lt;strong&gt;NOTE:&lt;/strong&gt; I wouldn't really consider this production ready code, but it does serve my purpose).&lt;/p&gt;
+&lt;h2 id="run-the-program"&gt;Run the Program&lt;/h2&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;private static GitHubClient _githubClient;
+
+static void Main(string[] args)
+{
+    _githubClient = CreateGitHubClient();
+
+    GetLabels();
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="create-the-github-client"&gt;Create the GitHub Client&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This part requires you to input either the password or access token that you use for GitHub.  The ProductHeaderValue can really be anything.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;private static GitHubClient CreateGitHubClient()
+{
+    var credentials = new Credentials("gep13", "&amp;lt;your access token needs to go here&amp;gt;");
+    var github = new GitHubClient(new ProductHeaderValue("gep13")) { Credentials = credentials };
+    return github;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="setup-default-labels"&gt;Setup Default Labels&lt;/h2&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;private static List&amp;lt;NewLabel&amp;gt; _defaultLabels = new List&amp;lt;NewLabel&amp;gt;();
+
+private static void SetUpDefaultLabels()
+{
+    _defaultLabels.Add(new NewLabel("Breaking change", "b60205"));
+    _defaultLabels.Add(new NewLabel("Bug", "ee0701"));
+    _defaultLabels.Add(new NewLabel("Build", "009800"));
+    _defaultLabels.Add(new NewLabel("Documentation", "d4c5f9"));
+    _defaultLabels.Add(new NewLabel("Feature", "84b6eb"));
+    _defaultLabels.Add(new NewLabel("Improvement", "207de5"));
+    _defaultLabels.Add(new NewLabel("Up-for-grabs", "159818"));
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="create-and-delete-labels"&gt;Create and Delete Labels&lt;/h2&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;private static void CreateLabels()
+{
+    SetUpDefaultLabels();
+
+    try
+    {
+        var labels = _githubClient.Issue.Labels.GetAllForRepository("cake-contrib", "Cake.Ember").Result;
+
+        foreach (var label in labels)
+        {
+            _githubClient.Issue.Labels.Delete("cake-contrib", "Cake.Ember", label.Name).Wait();
+        }
+
+        foreach (var label in _defaultLabels)
+        {
+            _githubClient.Issue.Labels.Create("cake-contrib", "Cake.Ember", label).Wait();
+        }
+    }
+    catch (Exception)
+    {
+        Debug.Write("boom");
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id="so-what-are-you-doing-here"&gt;So what are you doing here?&lt;/h1&gt;
+&lt;p&gt;Essentially what this boils down to is...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a GitHub Client, which gives you access to the GitHub API&lt;/li&gt;
+&lt;li&gt;Configure the default labels that I want to create&lt;/li&gt;
+&lt;li&gt;Loop through and delete all the existing labels&lt;/li&gt;
+&lt;li&gt;Loop through and create the new default labels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With this in place, the total execution takes around 3 seconds to complete, as opposed to minutes of clicking the mouse.&lt;/p&gt;
+&lt;p&gt;Much better!&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/use-octokit-to-create-labels' + 'S/';
+    var disqus_title = 'Use Octokit to create labels';
+    var disqus_url = 'http://www.gep13.co.uk/blog/use-octokit-to-create-labels' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -888,68 +994,6 @@ Red: 2&lt;/p&gt;
     var disqus_identifier = 'http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open' + 'S/';
     var disqus_title = 'DDD Scotland 2016 Call For Speakers Is Now Open';
     var disqus_url = 'http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>Strange Error When Signing XAP File for Windows Phone 8.1. Silverlight Application</title>
-			<link>http://www.gep13.co.uk/blog/strange-error-when-signing-xap-file-for-windows-phone-8-1-silverlight-application</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/strange-error-when-signing-xap-file-for-windows-phone-8-1-silverlight-application</guid>
-			<pubDate>Fri, 29 Jan 2016 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h2 id="signtool-error-this-file-format-cannot-be-signed-because-it-is-not-recognized"&gt;SignTool Error: This file format cannot be signed because it is not recognized.&lt;/h2&gt;
-&lt;p&gt;For the best part of the last two days, I have been staring at various incarnations of error messages from the SignTool executable, most notably the one above.  What follows are some notes on what I was doing, and why, in the hope that if I run into this again, I will have a chance at remembering what to do.&lt;/p&gt;
-&lt;h2 id="tldr"&gt;TL/DR&lt;/h2&gt;
-&lt;p&gt;If you are seeing this error, check what version of Silverlight you have installed on your machine.  If you have this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2016/1/29/SilverlightVersionOne.png" class="img-fluid" alt="Silverlight Version 5.1.20513.0"&gt;&lt;/p&gt;
-&lt;p&gt;i.e. Silverlight version 5.1.20513.0, then this could very well be causing your issue.  Install the latest version, at the time of writing this was 5.1.41212.0, and try signing the XAP file again.  This worked for me, but I have no idea why.  Huge shout out to &lt;a href="http://stackoverflow.com/users/4550683/potricos"&gt;potricos&lt;/a&gt; on this &lt;a href="http://stackoverflow.com/a/28433317/671491"&gt;StackOverflow&lt;/a&gt; post where this suggestion was mentioned.  I honestly didn't see how this would ever solve the problem, but I thought I would give it a try, and I am glad I did!&lt;/p&gt;
-&lt;h2 id="so-what-was-i-doing"&gt;So, what was I doing?&lt;/h2&gt;
-&lt;p&gt;I have been working on a Windows Phone 8.1 Silverlight application, and development and deployment had been working without any problems whatsoever.  As these things have a tendency to do, the development work stopped on the project, waiting for testing with the client.  Some time passed, and eventually the application was tested, and as a result of that testing, some minor issues were identified.&lt;/p&gt;
-&lt;p&gt;So, I cracked open Visual Studio, made the necessary changes, checked in the code, updated the release notes, tagged the repository. generated the XAP file, and handed this over for testing.&lt;/p&gt;
-&lt;p&gt;Job done I hear you say?&lt;/p&gt;
-&lt;p&gt;Well, no!&lt;/p&gt;
-&lt;p&gt;When we tried to deploy the XAP file onto the Windows Phone (using an Enterprise Certificate) it simply wouldn't install.  There were no errors, no exceptions, no dialogues, no nothing.  When we went back and re-installed the old version of the application is worked fine.  So this told me that the Enterprise Certificate was good, and I wasn't running into any issues with certificate expiration.  So what did that leave?&lt;/p&gt;
-&lt;p&gt;What followed over the next two days were various trial/error approaches to get to the root cause.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Found another machine from colleague where the generation of the XAP file did result in a successful deployment&lt;/li&gt;
-&lt;li&gt;Created a Virtual Machine to try to mimic the functionality on the colleague machine&lt;/li&gt;
-&lt;li&gt;Breaking apart the build process trying to isolate what could be causing problems&lt;/li&gt;
-&lt;li&gt;Extracting the XAP files and doing comparisons between the working and non working versions to try to identify differences&lt;/li&gt;
-&lt;li&gt;Lots and lots of googling&lt;/li&gt;
-&lt;li&gt;Lots and lots of head scratching&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Eventually, after digging around in various log files, we stumbled across this error message:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-sh"&gt;Done Adding Additional Store
-Number of files successfully Signed: 0
-Number of warnings: 0
-Number of errors: 1
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Which was found when the build script was executing the MDILXAPCompile step that is described &lt;a href="http://gep13.me/20xBO6z"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;After extracting the actual command that was being run by the tool at this point in time, and directly running it, we got some more information returned which wasn't captured in the log:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2016/1/29/SignToolOutput.png" class="img-fluid" alt="Verbose Output from SignTool"&gt;&lt;/p&gt;
-&lt;p&gt;Once this was discovered, and some more hunting around, we were led to this &lt;a href="http://stackoverflow.com/a/28433317/671491"&gt;StackOverflow&lt;/a&gt; post, which was initially disregarded as not being relevant.  However, on checking, the laptop on which the build/deployment was working had a later version of Silverlight compared to the machines that it wasn't working on.&lt;/p&gt;
-&lt;p&gt;After installing the latest version, which took the Silverlight version to 5.1.41212.0:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2016/1/29/SilverlightVersionTwo.png" class="img-fluid" alt="Silverlight Version 5.1.41212.0"&gt;&lt;/p&gt;
-&lt;p&gt;The build/deployment then proceeded to work!&lt;/p&gt;
-&lt;p&gt;I still am no wiser on "why" this is now working, but I am happy that it is.  I could understand there being a difference if I had updated the Silverlight SDK, but seeing a difference after installing the Silverlight Runtime, doesn't really make any sense to me.&lt;/p&gt;
-&lt;p&gt;If anyone can shed any light on what is going on here, I would love to hear from you.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/strange-error-when-signing-xap-file-for-windows-phone-8-1-silverlight-application' + 'S/';
-    var disqus_title = 'Strange Error When Signing XAP File for Windows Phone 8.1. Silverlight Application';
-    var disqus_url = 'http://www.gep13.co.uk/blog/strange-error-when-signing-xap-file-for-windows-phone-8-1-silverlight-application' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
