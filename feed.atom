@@ -4,8 +4,54 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2017</rights>
-	<updated>2017-01-11T08:21:54Z</updated>
+	<updated>2017-01-27T13:08:42Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
+		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
+		<title>How to create gh-pages branch</title>
+		<updated>2017-01-27T00:00:00Z</updated>
+		<content>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
+&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
+&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
+&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
+git rm -rf .
+echo "My Page" &amp;gt; index.html
+git add index.html
+git commit -a -m "First pages commit"
+git push --set-upstream origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch"&gt;&lt;/p&gt;
+&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration"&gt;&lt;/p&gt;
+&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + 'S/';
+    var disqus_title = 'How to create gh-pages branch';
+    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/adding-clickable-links-for-headers" />
 		<id>http://www.gep13.co.uk/blog/adding-clickable-links-for-headers</id>
@@ -19,7 +65,7 @@
 &lt;h1 id="i-want-to-do-this-do"&gt;I want to do this do!&lt;/h1&gt;
 &lt;p&gt;When I write a blog post, I typically break the post into a number of sections, and I wanted to be able to do the same thing here.  So, I asked the question in the &lt;a href="https://gitter.im/Wyamio/Wyam?at=587544c9873d96e16d4f9b05"&gt;Wyam Gitter Room&lt;/a&gt; and almost immediately I got a response from &lt;a href="https://github.com/daveaglick"&gt;Dave Glick&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote class="blockquote"&gt;
-&lt;p&gt;There is - in fact strongly considering adding this and code block copy buttons to the themes (it's all frontend JS stuff) - here's the two libraries I like the best: https://github.com/bryanbraun/anchorjs (for anchor links) and https://github.com/zenorocha/clipboard.js (for clipboard copying)
+&lt;p&gt;There is - in fact strongly considering adding this and code block copy buttons to the themes (it's all frontend JS stuff) - here's the two libraries I like the best: &lt;a href="https://github.com/bryanbraun/anchorjs"&gt;https://github.com/bryanbraun/anchorjs&lt;/a&gt; (for anchor links) and &lt;a href="https://github.com/zenorocha/clipboard.js"&gt;https://github.com/zenorocha/clipboard.js&lt;/a&gt; (for clipboard copying)
 Adding them to your own site would just be a matter of putting the appropriate JS in the _Scripts.cshtml file&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1 id="the-implementation"&gt;The implementation&lt;/h1&gt;
@@ -58,7 +104,7 @@ Adding them to your own site would just be a matter of putting the appropriate J
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;After reading this &lt;a href="http://www.digitaltapestry.net/posts/markdig-cheat-sheet"&gt;blog post&lt;/a&gt; from &lt;a href="https://github.com/wekempf"&gt;William Kempf&lt;/a&gt;, specifically this &lt;a href="http://www.digitaltapestry.net/posts/markdig-cheat-sheet#auto-identifiers"&gt;section&lt;/a&gt;, it got me thinking...&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/how-to-skip-appveyor-builds" />
@@ -141,7 +187,7 @@ skip_commits:
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;9 times out of 10, there is actually no need to skip a build that is triggered on AppVeyor, or any Continuous Integration server.  The whole point is that you &lt;em&gt;want&lt;/em&gt; to trigger a build on every commit, so that you can see when things stopped working.  There are however those times when the change that you are making doesn't justify, or require a build.&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/2016-a-retrospective" />
@@ -317,7 +363,7 @@ skip_commits:
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;Looking back on 2016 it has been full of personal high and lows, but all in all, it has been a great year, for lots of reasons.  This post is a very brief recap, in no particular order, of some of the highlights.&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-reaches-250000-downloads" />
@@ -349,7 +395,7 @@ skip_commits:
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;When I was invited to join the &lt;a href="http://www.gep13.co.uk/blog/cake-organisation-on-github"&gt;Cake Organisation&lt;/a&gt; back in November last year, I had a really good feeling about it all.  Both &lt;a href="https://github.com/patriksvensson"&gt;Patrik&lt;/a&gt; and &lt;a href="https://github.com/devlead"&gt;Mattias&lt;/a&gt; are amazing developers, and I can honestly say that I have learnt a lot from them since joining the team!&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/gone-but-still-not-forgotten" />
@@ -377,7 +423,7 @@ skip_commits:
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;Happy Birthday.&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/happy-birthday-dad" />
@@ -416,7 +462,7 @@ skip_commits:
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;So today, I was surprised with an awesome present from Lynn, Alivia and Aiden.&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-on-herding-code" />
@@ -446,7 +492,7 @@ skip_commits:
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;Following on the heels of a few podcasts appearances, I am happy to announce that myself and Mattias were interviewed on the &lt;a href="http://herdingcode.com/"&gt;Herding Code&lt;/a&gt; talking about &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt;.&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-at-ddd-north" />
@@ -495,7 +541,7 @@ Speaker Presentation: 8.41/9&lt;/p&gt;
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;Following a run of Cake talks this year, today saw me presenting at &lt;a href="http://dddnorth.co.uk/"&gt;DDD North&lt;/a&gt;.  Today's event was very well organised, and I was priveledged to be part of it.  Thanks for inviting me!&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-on-cynical-developer" />
@@ -525,7 +571,7 @@ Speaker Presentation: 8.41/9&lt;/p&gt;
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;I am very happy to announce that a podcast appearance that I did has just been published.  You can find the show &lt;a href="http://cynicaldeveloper.com/podcast/1/"&gt;here&lt;/a&gt;.&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-at-ddd-reading" />
@@ -573,7 +619,7 @@ Speaker Presentation: 7.85/9&lt;/p&gt;
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;In the same way that DDD Scotland made a welcome return this year, the same was true of &lt;a href="http://developerdeveloperdeveloper.com/"&gt;DDD Reading&lt;/a&gt;.  A .Net Community event which is hosted in the Microsoft Offices in Thames Valley Park.  I have attended this event before, in fact, it was actually one of the first .Net Community events that I went to, and this year I was asked along to present my talk on Cake.&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-contrib-organisation" />
@@ -605,7 +651,7 @@ Speaker Presentation: 7.85/9&lt;/p&gt;
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;Today I created the Cake-Contrib on GitHub:&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-on-.net-rocks" />
@@ -637,7 +683,7 @@ Speaker Presentation: 7.85/9&lt;/p&gt;
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;I am a big fan of the .Net Rocks podcast, I have been listening for longer than I can remember, and I was blown away when I was able to arrange an appearance on the show to discuss &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt;.  As some of you may know, Carl and Richard have a recording booth at &lt;a href="http://ndcoslo.com/"&gt;NDC Oslo&lt;/a&gt; where they are able to record a number of shows back to back, when everyone is in the same place, and I was lucky enough to get selected.&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-at-ndc-oslo" />
@@ -684,7 +730,7 @@ Red: 2&lt;/p&gt;
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;Earlier this year, I was blown away by the fact that a talk I submitted to NDC Oslo was actually accepted, and today was the day that it actually happened!  To say that I was nervous would be an understatement, but I was very happy with how it went.&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-at-ddd-scotland" />
@@ -720,7 +766,7 @@ Red: 2&lt;/p&gt;
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;Today I gave a talk entitled "Having your Cake, and eating it too!" at &lt;a href="http://ddd.scot/"&gt;DDD Scotland&lt;/a&gt;.  This was the first year that DDD Scotland has been back for a long time, and I was particularly happy to be asked along to present at this event.&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-at-aberdeen-developers" />
@@ -754,7 +800,7 @@ Red: 2&lt;/p&gt;
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;Tonight I gave a talk entitled "Having your Cake, and eating it too!" at Aberdeen Developers .Net User Group.  You can find out more about this local .Net User Group on the &lt;a href="http://www.aberdeendevelopers.co.uk/"&gt;website&lt;/a&gt;.&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/wyam-organisation-on-github" />
@@ -785,7 +831,7 @@ Red: 2&lt;/p&gt;
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;Today, &lt;a href="https://github.com/daveaglick"&gt;Dave&lt;/a&gt; made me a member of the Wyam Organisation on GitHub.&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-on-msdev-show" />
@@ -814,7 +860,7 @@ Red: 2&lt;/p&gt;
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;I have been a long time listener of the &lt;a href="http://msdevshow.com/"&gt;MS Dev Show&lt;/a&gt;, but I am very proud to announce that a recording of myself and Mattias has just been published.  You can listen to us discussing Cake on the &lt;a href="http://msdevshow.com/2016/04/cakebuild-with-mattias-karlsson-and-gary-ewan-park/"&gt;April 2nd&lt;/a&gt; show.  We were interviewed by the show's host Jason and Carl.&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open" />
@@ -850,7 +896,7 @@ Red: 2&lt;/p&gt;
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;The Call For Speakers for DDD Scotland is now fully open.  If you have a topic that you would like to speak on, then now is your opportunity to register the talk for consideration.&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/strange-error-when-signing-xap-file-for-windows-phone-8-1-silverlight-application" />
@@ -912,38 +958,6 @@ Number of errors: 1
 &lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;For the best part of the last two days, I have been staring at various incarnations of error messages from the SignTool executable, most notably the one above.  What follows are some notes on what I was doing, and why, in the hope that if I run into this again, I will have a chance at remembering what to do.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-organisation-on-github" />
-		<id>http://www.gep13.co.uk/blog/cake-organisation-on-github</id>
-		<title>Invited to Cake organisation on GitHub</title>
-		<updated>2015-11-03T00:00:00Z</updated>
-		<content>&lt;h1 id="i-am-now-a-member-of-the-cake-github-organisation"&gt;I am now a member of the Cake GitHub Organisation&lt;/h1&gt;
-&lt;p&gt;Today, &lt;a href="https://github.com/patriksvensson"&gt;Patrik&lt;/a&gt; and &lt;a href="https://github.com/devlead"&gt;Mattias&lt;/a&gt; invited me to join them on the Cake Team on GitHub.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2015/11/3/cake-organisation.png" class="img-fluid" alt="Cake Organisation on GitHub"&gt;&lt;/p&gt;
-&lt;p&gt;I was truly blown away when they decided to do this.  I have been watching the &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; build system for a while now, and more recently I have started to use it in anger.  This has included creating Pull Requests to include tools within the GitTools Organisation as first class citizens in Cake.&lt;/p&gt;
-&lt;p&gt;Now as a full member of the team I will be helping with day to day running of the project, and helping shape the direction of the project.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This is a retrospective blog post after GitHub announced a range of &lt;a href="https://github.com/blog/2256-a-whole-new-github-universe-announcing-new-tools-forums-and-features"&gt;new features&lt;/a&gt; including the option to see a history of your contributions.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-organisation-on-github' + 'S/';
-    var disqus_title = 'Invited to Cake organisation on GitHub';
-    var disqus_url = 'http://www.gep13.co.uk/blog/cake-organisation-on-github' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>&lt;p&gt;Today, &lt;a href="https://github.com/patriksvensson"&gt;Patrik&lt;/a&gt; and &lt;a href="https://github.com/devlead"&gt;Mattias&lt;/a&gt; invited me to join them on the Cake Team on GitHub.&lt;/p&gt;</summary>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>
