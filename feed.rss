@@ -5,8 +5,81 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2017</copyright>
-		<pubDate>Fri, 27 Jan 2017 21:50:07 GMT</pubDate>
-		<lastBuildDate>Fri, 27 Jan 2017 21:50:07 GMT</lastBuildDate>
+		<pubDate>Sun, 29 Jan 2017 20:35:26 GMT</pubDate>
+		<lastBuildDate>Sun, 29 Jan 2017 20:35:26 GMT</lastBuildDate>
+		<item>
+			<title>How to rebase a PR branch</title>
+			<link>http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch</guid>
+			<pubDate>Sun, 29 Jan 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="why-on-earth-would-you-do-this"&gt;Why on earth would you do this?!?&lt;/h1&gt;
+&lt;p&gt;Back in September 2016, GitHub announced a very interesting feature, namely, the ability for a maintainer of a repository to push changes back to a remote repository (i.e. fork) from where a PR had been submitted.&lt;/p&gt;
+&lt;p&gt;You can find out more information about this &lt;a href="https://github.com/blog/2247-improving-collaboration-with-forks"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is particularly interesting for two reasons.&lt;/p&gt;
+&lt;p&gt;Firstly, during a PR review, the code that is being submitted might be almost exactly correct, and ready for inclusion in the repository, and there is only one tiny thing not quite right.  You, as the maintainer, could spend some time explaining what is required, or, with this new feature you can simply make the change yourself, push it back to the source branch, and then accept the PR.  Using this approach has a number of benefits.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All the changes associated with the PR are contained within the PR for later review&lt;/li&gt;
+&lt;li&gt;Any Continuous Integration checks performed on the PR can be run again with these changes in place&lt;/li&gt;
+&lt;li&gt;It is sometimes quicker to simply make the change, rather than trying to explain it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Secondly, the very nature of Open Source contributions means that there might be some time between when the PR was submitted, and when it is reviewed and ultimately merged.  On the projects that I work on, when this happens, there is a preference to have the changes in the PR branch rebased with the upstream branch, therefore bringing it up to date.  However, asking a contributor to an open source project to rebase a branch can sometimes be quite daunting.  I remember the first time that I was &lt;a href="https://github.com/chocolatey/chocolatey/pull/238"&gt;asked to do this&lt;/a&gt; on a PR into the Chocolatey Repository, and I literally had NO clue what I was doing.  Thankfully I had a lot of guidance from &lt;a href="https://github.com/rismoney"&gt;rismoney&lt;/a&gt; to help with this.  But again, rebasing can be quite daunting.  Being able to do this on behalf of the contributor opens up the potentially for a much quicker turn around on merging a PR.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Performing a rebase on someone else's fork is really only something that should be done if you intend to merge the PR straight away, once any CI builds have passed.  Doing anything else would leave their branch in a state that differs from their local copy of the truth, and quite simply, it would be bad form to leave it in this state, so don't do it!&lt;/p&gt;
+&lt;h1 id="the-contributor-has-to-allow-the-branch-to-be-updated"&gt;The contributor has to allow the branch to be updated&lt;/h1&gt;
+&lt;p&gt;As mentioned in the linked article, allow a PR branch to be updated is something that the contributor can choose not to allow, but it is enabled by default:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/29/allow-edit-from-maintainers.png" class="img-fluid" alt="Allow Edits from Maintainers"&gt;&lt;/p&gt;
+&lt;p&gt;I would encourage any contributor to leave this checkbox ticked when submitting a PR, as it does open up much more flexibility on the part of the maintainers of the project.&lt;/p&gt;
+&lt;h1 id="lets-see-this-in-action"&gt;Let's see this in action&lt;/h1&gt;
+&lt;p&gt;As an example of where this can be used, let's use this &lt;a href="https://github.com/cake-build/cake/pull/1360"&gt;PR&lt;/a&gt;.  Having reviewed the changes in this PR, I can say that it is good to go, however, this is the current state:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/29/this-branch-is-out-of-date-with-the-base-branch.png" class="img-fluid" alt="This branch is out of date with the base branch"&gt;&lt;/p&gt;
+&lt;p&gt;All the CI builds associated with the PR have passed, but it is now out of date with the base branch, meaning that it needs to be rebased.&lt;/p&gt;
+&lt;p&gt;If you look closely at the above screen shot, you will see the following text:&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;Add more commits by pushing to the wixheat-pog-fix branch on jnm2/cake&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This tells the maintainer of the project that when this PR was created, the box was checked to allow changes from the maintainer.  So, let's go ahead and rebase the PR branch with the latest from upstream, and push the changes back.  Then, once all the CI builds pass, we can get the PR merged in.&lt;/p&gt;
+&lt;p&gt;These are the steps that I follow:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;mkdir jnm2
+cd jnm2
+git clone https://github.com/jnm2/cake.git
+cd cake
+git checkout wixheat-pog-fix
+git remote add upstream https://github.com/cake-build/cake.git
+git fetch upstream develop
+git rebase upstream/develop
+git push -f
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Doing this last step causes the following to happen:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/29/git-push-force.png" class="img-fluid" alt="git push force"&gt;&lt;/p&gt;
+&lt;p&gt;i.e. all the CI builds for this PR are triggered again, but this time, the branch is up to date with the base branch.&lt;/p&gt;
+&lt;p&gt;Now, all you have to do is wait for these builds to finish, and assuming everything went well, you will see the following:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/29/all-ready-to-be-merged.png" class="img-fluid" alt="All ready to be merged"&gt;&lt;/p&gt;
+&lt;p&gt;At which point, you can merge the PR.  Job done!&lt;/p&gt;
+&lt;p&gt;Well, almost...&lt;/p&gt;
+&lt;p&gt;One of the most important things in Open Source is to be kind and courteous.  Someone has went out of their way to make a contribution into your project, so make sure that you say thank you!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/29/say-thank-you.png" class="img-fluid" alt="Say thank you"&gt;&lt;/p&gt;
+&lt;h1 id="thanks-to-mattias"&gt;Thanks to Mattias&lt;/h1&gt;
+&lt;p&gt;Huge thanks have to go to Mattias (a.k.a &lt;a href="https://twitter.com/devlead"&gt;devlead&lt;/a&gt;) for showing me that this was possible.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch' + 'S/';
+    var disqus_title = 'How to rebase a PR branch';
+    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
 		<item>
 			<title>How to create gh-pages branch</title>
 			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
@@ -958,42 +1031,6 @@ Red: 2&lt;/p&gt;
     var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-on-msdev-show' + 'S/';
     var disqus_title = 'Cake discussion on MS Dev Show';
     var disqus_url = 'http://www.gep13.co.uk/blog/cake-on-msdev-show' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>DDD Scotland 2016 Call For Speakers Is Now Open</title>
-			<link>http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open</guid>
-			<pubDate>Sat, 30 Jan 2016 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="call-for-speakers"&gt;Call For Speakers&lt;/h1&gt;
-&lt;p&gt;The Call For Speakers for DDD Scotland is now fully open.  If you have a topic that you would like to speak on, then now is your opportunity to register the talk for consideration.&lt;/p&gt;
-&lt;p&gt;For those of you who are not familiar with the format of DDD events, it goes a little something like this...&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Potential Speakers submit their sessions for consideration&lt;/li&gt;
-&lt;li&gt;Community Voting is then opened, and the Community decides on which talks they want to see&lt;/li&gt;
-&lt;li&gt;The speakers with the sessions with the most votes are then contacted, and the sessions are then scheduled&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you haven't been to a DDD event before, I thoroughly recommend to give one a try.  They really are great fun!&lt;/p&gt;
-&lt;p&gt;If you want more information about the event you can find information on the &lt;a href="http://ddd.scot"&gt;website&lt;/a&gt; or reach out on &lt;a href="https://twitter.com/dddscot"&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open' + 'S/';
-    var disqus_title = 'DDD Scotland 2016 Call For Speakers Is Now Open';
-    var disqus_url = 'http://www.gep13.co.uk/blog/ddd-scotland-call-for-speakers-now-open' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
