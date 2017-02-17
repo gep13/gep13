@@ -5,8 +5,40 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2017</copyright>
-		<pubDate>Sun, 29 Jan 2017 20:35:26 GMT</pubDate>
-		<lastBuildDate>Sun, 29 Jan 2017 20:35:26 GMT</lastBuildDate>
+		<pubDate>Fri, 17 Feb 2017 22:34:58 GMT</pubDate>
+		<lastBuildDate>Fri, 17 Feb 2017 22:34:58 GMT</lastBuildDate>
+		<item>
+			<title>Amelia Mabel Park</title>
+			<link>http://www.gep13.co.uk/blog/amelia-mabel-park</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/amelia-mabel-park</guid>
+			<pubDate>Fri, 17 Feb 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="amelia-mabel-park"&gt;Amelia Mabel Park&lt;/h1&gt;
+&lt;p&gt;Lynn and I are very proud to announce the arrival of our second daughter Amelia Mabel Park.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/02/17/amelia-mabel-park.jpg" class="img-fluid" alt="Amelia Mabel Park"&gt;&lt;/p&gt;
+&lt;p&gt;She was born at 02:02 at the Aberdeen Maternity Ward. She weighed 7 pounds, 8 and 1/2 ounces.  Both Mum and Baby are doing very well.&lt;/p&gt;
+&lt;p&gt;Like her &lt;a href="http://www.gep13.co.uk/blog/alivia-anne-park"&gt;sister&lt;/a&gt;, Amelia has a very special birthday, in the sense that it is symmetrical, 17/2/17, where Alivia's birthday is 13/9/13.  There is something magical to me in how this has happened.&lt;/p&gt;
+&lt;p&gt;I am very much looking forward to bringing my amazing wife and new daughter home from the hospital.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/amelia-mabel-park' + 'S/';
+    var disqus_title = 'Amelia Mabel Park';
+    var disqus_url = 'http://www.gep13.co.uk/blog/amelia-mabel-park' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
 		<item>
 			<title>How to rebase a PR branch</title>
 			<link>http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch</link>
@@ -69,52 +101,6 @@ git push -f
     var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch' + 'S/';
     var disqus_title = 'How to rebase a PR branch';
     var disqus_url = 'http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>How to create gh-pages branch</title>
-			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
-			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
-&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
-&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
-&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
-git rm -rf .
-echo "My Page" &amp;gt; index.html
-git add index.html
-git commit -a -m "First pages commit"
-git push --set-upstream origin gh-pages
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch"&gt;&lt;/p&gt;
-&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration"&gt;&lt;/p&gt;
-&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + 'S/';
-    var disqus_title = 'How to create gh-pages branch';
-    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -221,6 +207,52 @@ private static void SetUpDefaultLabels()
     var disqus_identifier = 'http://www.gep13.co.uk/blog/use-octokit-to-create-labels' + 'S/';
     var disqus_title = 'Use Octokit to create labels';
     var disqus_url = 'http://www.gep13.co.uk/blog/use-octokit-to-create-labels' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
+		<item>
+			<title>How to create gh-pages branch</title>
+			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
+			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
+&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
+&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
+&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
+git rm -rf .
+echo "My Page" &amp;gt; index.html
+git add index.html
+git commit -a -m "First pages commit"
+git push --set-upstream origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch"&gt;&lt;/p&gt;
+&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration"&gt;&lt;/p&gt;
+&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + 'S/';
+    var disqus_title = 'How to create gh-pages branch';
+    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -1002,35 +1034,6 @@ Red: 2&lt;/p&gt;
     var disqus_identifier = 'http://www.gep13.co.uk/blog/wyam-organisation-on-github' + 'S/';
     var disqus_title = 'Invited to Wyam organisation on GitHub';
     var disqus_url = 'http://www.gep13.co.uk/blog/wyam-organisation-on-github' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>Cake discussion on MS Dev Show</title>
-			<link>http://www.gep13.co.uk/blog/cake-on-msdev-show</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/cake-on-msdev-show</guid>
-			<pubDate>Sat, 02 Apr 2016 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="cakebuild-with-mattias-karlsson-and-gary-ewan-park"&gt;CakeBuild with Mattias Karlsson and Gary Ewan Park&lt;/h1&gt;
-&lt;p&gt;I have been a long time listener of the &lt;a href="http://msdevshow.com/"&gt;MS Dev Show&lt;/a&gt;, but I am very proud to announce that a recording of myself and Mattias has just been published.  You can listen to us discussing Cake on the &lt;a href="http://msdevshow.com/2016/04/cakebuild-with-mattias-karlsson-and-gary-ewan-park/"&gt;April 2nd&lt;/a&gt; show.  We were interviewed by the show's host Jason and Carl.&lt;/p&gt;
-&lt;p&gt;This was my first ever appearance on a Podcast, so I was a little bit nervous, but Jason and Carl very quickly put our nerves to rest, and the end result I was very happy with.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-on-msdev-show' + 'S/';
-    var disqus_title = 'Cake discussion on MS Dev Show';
-    var disqus_url = 'http://www.gep13.co.uk/blog/cake-on-msdev-show' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
