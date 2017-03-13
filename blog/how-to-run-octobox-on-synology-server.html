@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+        <title>Gary Ewan Park - How to run Octobox on Synology Server using Docker</title>
+        <meta name="description" content="Ramblings and Ponderings of a Microsoft Fan Boy..." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+
+        <link type="application/rss+xml" rel="alternate" title="Gary Ewan Park" href="/feed.rss" />
+                <link type="application/atom+xml" rel="alternate" title="Gary Ewan Park" href="/feed.atom" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/css/highlight.css" rel="stylesheet">
+        <link href="/assets/css/clean-blog.css" rel="stylesheet" />
+        <link href="/assets/css/master.css" rel="stylesheet" />
+        <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
+
+
+        <meta name="application-name" content="Gary Ewan Park" />
+        <meta name="msapplication-tooltip" content="Gary Ewan Park" />
+        <meta name="msapplication-starturl" content="/" />
+
+        <meta property="og:title" content="Gary Ewan Park - How to run Octobox on Synology Server using Docker" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.gep13.co.uk/blog/how-to-run-octobox-on-synology-server" />
+        <!-- TODO: More social graph meta tags -->
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>     
+        <script src="/assets/js/highlight.pack.js"></script>   
+        <script src="/assets/js/clean-blog.js"></script>
+        <script src="/assets/js/d3.v3.min.js"></script>
+        <script src="/assets/js/trianglify.min.js"></script>
+        <script src="/assets/js/Please-compressed.js"></script>
+                
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+                <script src="/assets/js/html5shiv.js"></script>
+                <script src="/assets/js/respond.min.js"></script>
+        <![endif]-->
+
+        
+        
+
+
+        </head>
+        <body>
+                
+                <!-- Navigation -->
+                <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+                        <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header page-scroll">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="/">Gary Ewan Park</a>
+                                </div>
+                        
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="navbar-collapse">
+                                        <ul class="nav navbar-nav navbar-right">
+                                                <li><a href="/about">About</a></li>
+<li><a href="/projects">Projects</a></li>
+<li><a href="/talks">Talks</a></li>
+<li><a href="/posts">Archive</a></li>
+<li><a href="/contact">Contact</a></li>
+<li><a href="/tags">Tags</a></li> 
+                                        </ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container -->
+                </nav>
+                
+                <!-- Page Header -->
+                <header class="intro-header" id="intro-header">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-md-12">
+
+    
+<div class="post-heading">
+    <h1>How to run Octobox on Synology Server using Docker</h1>
+    <div class="meta">        
+Published on 13 March 2017<br>    </div>
+        <div class="tags">
+                    <a role="button" href="/tags/github" class="btn btn-default btn-xs">GitHub</a>
+                    <a role="button" href="/tags/notifications" class="btn btn-default btn-xs">Notifications</a>
+                    <a role="button" href="/tags/octobox" class="btn btn-default btn-xs">Octobox</a>
+                    <a role="button" href="/tags/oss" class="btn btn-default btn-xs">OSS</a>
+                    <a role="button" href="/tags/synology" class="btn btn-default btn-xs">Synology</a>
+        </div>     
+</div>
+                                        </div>
+                                </div>
+                        </div>
+                </header>
+                
+                <!-- Main Content -->
+                <div class="container">
+                        <div class="row">
+                                <div id="content" class="col-md-12">
+                                        
+
+<h1 id="what-is-octobox">What is Octobox?</h1>
+<p>The short answer, it is amazing!  The main site can be found <a href="https://octobox.io/">here</a>, and the source code on GitHub can be found <a href="https://github.com/octobox/octobox">here</a>.</p>
+<p>The slightly longer answer, it is a UI that allows you to take back control over your GitHub Notifications, with functionality for:</p>
+<ul>
+<li>Archiving Notifications</li>
+<li>Starring issues/pull requests</li>
+<li>Getting an indication on the sort of subscription you have on the issue/pull request</li>
+<li>Loads of other features that will help you make sense of all the notifications</li>
+</ul>
+<h1 id="why-do-you-need-this">Why do you need this?</h1>
+<p>If like me, on a daily basis you will have a torrent of email notifications that come through for the different issues/pull requests that you have subscribed to on GitHub.  These could be for issues/pull requests that you have raised, and a response is required from you, or simply issues/pull requests that you have a vested interested in following along.  Whatever the reason, the amount of notifications is huge, and can be overwhelming.  The main problem with both email and web notifications, is that normally once you have looked at them, they are gone, never to be seen again.  If you get distracted and move onto something else, it is all to easy to forget what you were looking at.</p>
+<p>Octobox to the rescue...</p>
+<p>This is where, for me, Octobox shines!  Once configured, issues/pull requests that you are actively looking at remain in your &quot;Inbox&quot;, as can be seen here:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Octobox%20Inbox.png" class="img-fluid" alt="Octobox Inbox" /></p>
+<p>Once you are finished with an issue/pull request you have the option of archiving it, but have no fear, if another notification comes up for that issue/pull request, it will come back into your inbox.</p>
+<p>It is not a very difficult concept, but the way it is implemented is VERY compelling, and such an improvement on the current notification system in the GitHub UI.</p>
+<h1 id="enough-already-how-to-we-use-it">Enough already, how to we use it?</h1>
+<p>There are a couple options here...</p>
+<p>Firstly, you can use the shared instance at <a href="http://octobox.io,">http://octobox.io,</a> however, this is limited in some functionality due to not being able to use shared key.</p>
+<p>Secondly, you can deploy your own instance to Heroku, which seems like it would be very simple to set up and configure.</p>
+<p>Thirdly, you have the option of running Octobox in Docker.  I opted for this option for a couple reasons.  I have never really used Docker in anger, and I wanted to see what all the fuss is about.  And also I have a reasonably beefy Synology Server that really isn't doing anything, other then running <a href="http://www.hanselman.com/blog/UPDATED2014HowToSetupCrashPlanCloudBackupOnASynologyNASRunningDSM50.aspx">CrashPlan</a> and Plex.  So I thought I would take it for a spin.</p>
+<h1 id="setup-steps">Setup steps</h1>
+<h2 id="install-docker">1. Install Docker</h2>
+<p>This is a reasonably straight forward process.  Login to the DSM and select Package Center, and then search from Docker.  There should only be one result, with the option to Install.  <strong>NOTE:</strong> The screenshot below shows the Open option simply because it is already installed.</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Package_Center_Docker.png" class="img-fluid" alt="Package Center Docker" /></p>
+<h2 id="install-git-server">2. Install Git Server</h2>
+<p>In order to download the latest source code for Octobox, you are going to need to have git installed and running on your Synology Server.  The easiest way to do this is to install the Git Server Package.  Once again in the Package Center, search for git, and install the Git Server Package.</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Package_Center_Git.png" class="img-fluid" alt="Package Center Git" /></p>
+<h2 id="clone-the-octobox-repository">3. Clone the octobox repository</h2>
+<p>Next up, we are going to need to clone the octobox source code onto the Synology Server.  In order to do this, we are going to need to execute commands over SSH on the Synology Server.  To do this, you will need to make sure that the SSH Service is running, and then establish an SSH connection to the Server.  First things first... In the DSM, select Control Panel, and then search for SSH.  In the results, select Terminal and SNMP, and make sure that the following checkbox is ticked, and then click Apply:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Control_Panel_SSH.png" class="img-fluid" alt="Control Panel SSH" /></p>
+<p>Now, using an SSH Client application (I personally use kitty, which can be installed easily using <a href="https://chocolatey.org/packages/kitty">chocolatey</a>, <code>choco install kitty</code>), connect to the Synology Server.  This will require entering in your Synology Server IP address, and the same credentials you use to access the DSM.</p>
+<p>Once in, create a folder for cloning the repository:</p>
+<p><code>mkdir github/clones/octobox</code></p>
+<p>and navigate into that folder:</p>
+<p><code>cd github/clones/octobox</code></p>
+<p>and then clone the repository:</p>
+<p><code>git clone https://github.com/octobox/octobox.git</code></p>
+<p>and finally, navigate into that newly created repo:</p>
+<p><code>cd octobox</code></p>
+<h2 id="create-an-oauth-application-for-octobox">4. Create an OAuth Application for Octobox</h2>
+<p>In order to run the Octobox application, you are going to need a GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET.  These can be acquired by setting up a new OAuth Application within GitHub.  Go to the following <a href="https://github.com/settings/applications/new">URL</a> and set up the application using the IP Address of your device, in my case:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/GitHub_OAuth_Application.png" class="img-fluid" alt="GitHub OAuth Application Settings" /></p>
+<p>Take a note of the Client ID and Client Secret that will be generated for the application.</p>
+<h2 id="create-the-docker-containers">5. Create the Docker Containers</h2>
+<p>In order to run, Octobox needs two Docker images, namely a ruby and postgre image.  Once instantiated, these images will run together to execute and persist the various information within the application.  Octobox makes use of Docker Compose to orchestrate the creation and running of these Containers.  To start that process (which the first time you run it will take quite a while) you can run the following command:</p>
+<p><code>GITHUB_CLIENT_ID=yourclientid GITHUB_CLIENT_SECRET=yourclientsecret docker-compose up --build</code></p>
+<p><strong>NOTE:</strong> Replace the required sections with the client id and secret that you got in step 4</p>
+<p>Now, if like me, the first time you run this, you will get this:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/docker_error.png" class="img-fluid" alt="Docker Error" /></p>
+<p>However, if you run this again using <code>sudo</code> and accept the mandatory lecture, it should start running:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/sudo_ftw.png" class="img-fluid" alt="sudo FTW!" /></p>
+<h2 id="get-a-coffeetea">6. Get a coffee/tea</h2>
+<p>Now that this process is running it will take a while, so I would advise going to grab a beverage.  On my machine, it took about 30 minutes to complete.  During this process, if you look at the Docker UI within the Synology DSM, you will see it creating temporary Containers, which will ultimately be renamed:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/docker_temporary_containers.png" class="img-fluid" alt="Docker Temporary Containers" /></p>
+<p>The end result, once complete, should look like the following:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Completed_Docker_Images.png" class="img-fluid" alt="Completed Docker Images" /></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Completed_Docker_Containers.png" class="img-fluid" alt="Completed Docker Containers" /></p>
+<h2 id="doh">7. Doh!</h2>
+<p>Now, after all that waiting around, like me, you might end up with the following error message:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/things_not_looking_good.png" class="img-fluid" alt="When things go wrong..." /></p>
+<p>In all honesty, I have no real idea about what this error means, but, if you go to the <a href="https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers">URL</a> that is mentions, and run the command that is lists (which at the time of writing was the following):</p>
+<p><code>echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;&amp; sudo sysctl -p</code></p>
+<p>You should see the following:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/echo_output.png" class="img-fluid" alt="echo output" /></p>
+<p>Then, if you run the <code>docker compose</code> command again, which should take far less time the second time around, you should be met with the following:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/docker_compose_success.png" class="img-fluid" alt="Docker Compose Success" /></p>
+<h2 id="open-octobox">8. Open Octobox</h2>
+<p>Fire open your browser of choice, and point it at <a href="http://%3Csynology_server_ip_address%3E:3000">http://&lt;synology_server_ip_address&gt;:3000</a> and hopefully you will see the following:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/its_alive.png" class="img-fluid" alt="It's ALIVE!" /></p>
+<p>And you will be able to login to the application using your standard credentials.</p>
+<h2 id="run-docker-command-in-background">9. Run docker command in background</h2>
+<p>The command that we ran earlier run in process in the kitty session that we created.  As a result, hitting CTRL + C, or terminating the session will also terminate the Docker Containers, which is not really what we want.  Instead, go ahead and run the following command:</p>
+<p><code>GITHUB_CLIENT_ID=yourclientid GITHUB_CLIENT_SECRET=yourclientsecret docker-compose up --build -d</code></p>
+<p><strong>NOTE:</strong> The important <code>-d</code> switch at the end.  This will run the command in the background, and allow you to terminate the kitty session without stopping the containers.</p>
+<h2 id="and-that-is-that">10. And that is that!</h2>
+<p>And that is all there is to it!  I have been using Octobox for a couple days now, and I have to say that it is amazing!  I have been able to turn off all email notifications now, and I still feel that I am getting all the information that I need, and more.</p>
+<p>As one point of follow up, rather than typing out the above command, you might want to take a look at this <a href="https://blog.agchapman.com/using-variables-in-docker-compose-files/">blog post</a> which describes how to use an .env file to store the secure information. Big thanks to Alistair for his help here!</p>
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-run-octobox-on-synology-server' + 'S/';
+    var disqus_title = 'How to run Octobox on Synology Server using Docker';
+    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-run-octobox-on-synology-server' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                                </div>
+                        </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Footer -->
+                <footer>
+                        <div class="container">
+        <div class="row">
+                <div class="col-md-12">
+                <ul class="list-inline text-center">
+                        <li>
+                        <a href="https://twitter.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="https://github.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                </ul>
+                <p class="copyright text-muted">
+                        Copyright © 2017 by Gary Ewan Park. The opinions expressed herein are my own and do not represent those of my employer or any other third-party views in any way. This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
+                        <br />
+                        <a href="/feed.rss"><i class="fa fa-rss"></i> RSS Feed</a> | <a href="/feed.atom"><i class="fa fa-rss"></i> Atom Feed</a>
+                        <br />
+                        <a href="https://github.com/gep13/gep13.github.io"><i class="fa fa-github"></i> This Site on GitHub</a> | <strong><a href="http://wyam.io">Generated by Wyam</a></strong>
+                </p>
+                </div>
+        </div>
+</div>
+                </footer> 
+
+                <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+
+    // Google Analytics
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-20926037-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<script type="text/javascript" src="/assets/js/anchor.min.js"></script>
+<script type="text/javascript" src="/assets/js/clipboard.min.js"></script>
+<script type="text/javascript">
+    anchors.options.placement = 'left';
+    anchors.add();
+
+    var snippets = document.querySelectorAll("pre > code");
+    [].forEach.call(snippets, function(snippet) {
+        snippet.insertAdjacentHTML("beforebegin", "<button class='btn-copy' data-clipboard-snippet><img class='clippy' width=13 src='/assets/images/clippy.svg' alt='Copy to clipboard'></button>");
+    });
+    var clipboardSnippets = new Clipboard('[data-clipboard-snippet]', {
+        target: function(trigger) {
+            return trigger.nextElementSibling;
+        }
+    });
+    clipboardSnippets.on('success', function(e) {
+        e.clearSelection();
+        showTooltip(e.trigger, "Copied!");
+    });
+    clipboardSnippets.on('error', function(e) {
+        showTooltip(e.trigger, fallbackMessage(e.action));
+    });
+</script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+                        <script type="text/javascript">                
+                                // Header background                        
+                                var colors = Please.make_color({
+                                        colors_returned: 3,
+                                        saturation: .6
+                                });
+                                var t = new Trianglify({
+                                        x_gradient: colors,
+                                        y_gradient: ["#FFFFFF"]
+                                });
+                                var header = document.getElementById("intro-header");
+                                var pattern = t.generate(header.clientWidth, header.clientHeight);
+                                header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
+                        </script>
+        </body>
+</html>
+
