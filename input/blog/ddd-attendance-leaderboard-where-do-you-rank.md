@@ -86,35 +86,35 @@ The complete list is:
 
 We got to talking about this before and during the pre-conference dinner, and there was a wide ranging number of actual attendances, to the total number of 34 DDD events.  My own personal attendance count is 6, having really only started in the Developer Community in 2010.  However, on speaking to Chris Alcock (@[calcock](https://twitter.com/calcock)) he explained that be had attended an amazing 17 of the DDD events!  This got me thinking about how many other people had attended, hence this blog post.  Let me know how many you have attended and I will get you added to the leader board below.  Who will turn out to be the winner?  Maybe Craig Murphy?  Phil Winstanley?  Dave Sussman? Guy Smith-Ferrier? Who knows!  I will keep you posted when I hear from people.
 
-**Name** | **Number of events attended**
---- | ---
-[Colin Mackay](http://twitter.com/colinmackay) | 29
-[Craig Murphy](http://twitter.com/camurphy) | 26
-[Guy Smith-Ferrier](http://twitter.com/guysmithferrier) | 25
-[Nathan Gloyn](https://twitter.com/nathangloyn) | 23
-[Dave Sussman](https://twitter.com/DaveSussman) | 22
-[Andrew Westgarth](http://twitter.com/apwestgarth) | 21
-[Liam Westley](https://twitter.com/westleyl) | 18
-[Andy Gibson](http://twitter.com/ARGibson) | 18
-[Chris Alcock](http://twitter.com/calcock) | 17
-[John McLoughlin](https://twitter.com/Imaji) | 13
-[Adrian Banks](https://twitter.com/adrianbanks) | 12
-[Phil Pursglove](https://twitter.com/philpursglove) | 11
-[Tom Robinson](https://twitter.com/tjrobinson) | 11
-[Ross Scott](https://twitter.com/RossDScott) | 10
-[James Murphy](https://twitter.com/recumbent) | 9
-[Paul Stack](https://twitter.com/stack72) | 9
-[Phil Collins](https://twitter.com/fatherfil) | 9
-[Rory Becker](https://twitter.com/RoryBecker) | 9
-[Joel Hammond-Turner](https://twitter.com/rammesses) | 8
-[Alastair Smith](https://twitter.com/alastairs) | 6
-[Richard Dalton](https://twitter.com/richardadalton) | 6
-[Gary Ewan Park](https://twitter.com/gep13) | 6
-[Niall Merrigan](https://twitter.com/nmerrigan) | 5
-[Craig Nicol](https://twitter.com/craignicol) | 4
-[Peter Shaw](https://twitter.com/shawty_ds) | 4
-[Colin B](https://twitter.com/sacs) | 2
-[Gareth Bradley](https://twitter.com/garfbradaz) | 2
-[Hermit Dave](https://twitter.com/hermitdave) | 2
-[Richard Garside](https://twitter.com/_richardg) | 2
-[Sebastian Liszka](https://twitter.com/seblis27) | 2
+| **Name**                                                | **Number of events attended** |
+| ------------------------------------------------------- | ------------------------------|
+| [Colin Mackay](http://twitter.com/colinmackay)          | 29                            |
+| [Craig Murphy](http://twitter.com/camurphy)             | 26                            |
+| [Guy Smith-Ferrier](http://twitter.com/guysmithferrier) | 25                            |
+| [Nathan Gloyn](https://twitter.com/nathangloyn)         | 23                            |
+| [Dave Sussman](https://twitter.com/DaveSussman)         | 22                            |
+| [Andrew Westgarth](http://twitter.com/apwestgarth)      | 21                            |
+| [Liam Westley](https://twitter.com/westleyl)            | 18                            |
+| [Andy Gibson](http://twitter.com/ARGibson)              | 18                            |
+| [Chris Alcock](http://twitter.com/calcock)              | 17                            |
+| [John McLoughlin](https://twitter.com/Imaji)            | 13                            |
+| [Adrian Banks](https://twitter.com/adrianbanks)         | 12                            |
+| [Phil Pursglove](https://twitter.com/philpursglove)     | 11                            |
+| [Tom Robinson](https://twitter.com/tjrobinson)          | 11                            |
+| [Ross Scott](https://twitter.com/RossDScott)            | 10                            |
+| [James Murphy](https://twitter.com/recumbent)           | 9                             |
+| [Paul Stack](https://twitter.com/stack72)               | 9                             |
+| [Phil Collins](https://twitter.com/fatherfil)           | 9                             |
+| [Rory Becker](https://twitter.com/RoryBecker)           | 9                             |
+| [Joel Hammond-Turner](https://twitter.com/rammesses)    | 8                             |
+| [Alastair Smith](https://twitter.com/alastairs)         | 6                             |
+| [Richard Dalton](https://twitter.com/richardadalton)    | 6                             |
+| [Gary Ewan Park](https://twitter.com/gep13)             | 6                             |
+| [Niall Merrigan](https://twitter.com/nmerrigan)         | 5                             |
+| [Craig Nicol](https://twitter.com/craignicol)           | 4                             |
+| [Peter Shaw](https://twitter.com/shawty_ds)             | 4                             |
+| [Colin B](https://twitter.com/sacs)                     | 2                             |
+| [Gareth Bradley](https://twitter.com/garfbradaz)        | 2                             |
+| [Hermit Dave](https://twitter.com/hermitdave)           | 2                             |
+| [Richard Garside](https://twitter.com/_richardg)        | 2                             |
+| [Sebastian Liszka](https://twitter.com/seblis27)        | 2                             |
