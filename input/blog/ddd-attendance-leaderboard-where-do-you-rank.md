@@ -22,6 +22,12 @@ The complete list is:
 
 | **Event Name**           | **Event Date**       |
 | ------------------------ | -------------------- |
+| DDD East Anglia          | 16th September 2017  |
+| DDD Perth 3              | 16th September 2017  |
+| DDD Sydney 5             | 15th July 2017       |
+| DDD Reading 12           | 10th June 2017       |
+| DDD South West 7         | 6th May 2017         |
+| DDD Brisbane 6           | 3rd December 2016    |
 | DDD North 6              | 1st October 2016     |
 | DDD Reading 11           | 3rd September 2016   |
 | DDD Perth 2              | 27th August 2016     |
