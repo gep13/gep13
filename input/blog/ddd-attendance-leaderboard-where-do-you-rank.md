@@ -22,7 +22,7 @@ The complete list is:
 
 | **Event Name**           | **Event Date**       |
 | ------------------------ | -------------------- |
-| DDD East Anglia          | 16th September 2017  |
+| DDD East Anglia 2017     | 16th September 2017  |
 | DDD Perth 3              | 16th September 2017  |
 | DDD Sydney 5             | 15th July 2017       |
 | DDD Reading 12           | 10th June 2017       |
@@ -34,6 +34,7 @@ The complete list is:
 | DDD Melbourne 6          | 13th August 2016     |
 | DDD Sydney 4             | 28th May 2016        |
 | DDD Scotland 2016        | 14th May 2016        |
+| DDD Brisbane 5           | 5th December 2015    |
 | DDD North 5              | 24th October 2015    |
 | DDD East Anglia 2015     | 26th September 2015  |
 | DDD Perth 1              | 29th August 2015     |
@@ -103,8 +104,8 @@ We got to talking about this before and during the pre-conference dinner, and th
 | [Liam Westley](https://twitter.com/westleyl)            | 18                            |
 | [Andy Gibson](http://twitter.com/ARGibson)              | 18                            |
 | [Chris Alcock](http://twitter.com/calcock)              | 17                            |
+| [Adrian Banks](https://twitter.com/adrianbanks)         | 15                            |
 | [John McLoughlin](https://twitter.com/Imaji)            | 13                            |
-| [Adrian Banks](https://twitter.com/adrianbanks)         | 12                            |
 | [Phil Pursglove](https://twitter.com/philpursglove)     | 11                            |
 | [Tom Robinson](https://twitter.com/tjrobinson)          | 11                            |
 | [Ross Scott](https://twitter.com/RossDScott)            | 10                            |
