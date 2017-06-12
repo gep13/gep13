@@ -4,8 +4,52 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2017</rights>
-	<updated>2017-05-30T11:47:46Z</updated>
+	<updated>2017-06-12T12:09:22Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/talk-at-ddd12" />
+		<id>http://www.gep13.co.uk/blog/talk-at-ddd12</id>
+		<title>Talk at DDD 12</title>
+		<updated>2017-06-12T00:00:00Z</updated>
+		<content>&lt;p&gt;On the 10th June 2017, I had the privelege of being asked to present a session at &lt;a href="http://developerdeveloperdeveloper.com/"&gt;DDD 12&lt;/a&gt;.  This is a free full day conference that takes place in the Microsoft Offices at Thames Valley Park in Reading.&lt;/p&gt;
+&lt;p&gt;The talk that I presented was:&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;Control your GitHub releases with GitVersion and GitReleaseManager&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;and the abstract was as follows:&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;Have you ever needed to control the version number of your open source application on GitHub? If so, you will likely know that it can be hard! You may have tried to use some form of auto incrementing number, or stored the version in a text file hoping that someone will remember to update it. Both of these approaches (and there are plenty others) will work, but they are fragile, and don’t account for some of the more complicated scenarios.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;And then, after controlling the version number, you then want to generate Release Notes for that newly released version.  How can you do this without manually trawling through the revision history?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;In this session, we will look at how we can improve the versioning strategy of your application using a combination of branching strategy (Gitflow), Semantic Versioning, an open source tool called GitVersion, and the commit history of your Git repository.  With the version number in place, we will then use the Issue and Milestone tracking functionality in GitHub to automatically generate a set of concise release notes using a tool called GitReleaseManager.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This was the first time that I had presented this talk, and overall, I was very happy with how it went.  This time around, after seeing &lt;a href="https://twitter.com/fekberg"&gt;@fekberg&lt;/a&gt; doing the same thing at a DDD conference last year, I opted to record the session on my laptop, and also on an external microphone, so that there would be a record of it.  If you weren't able to attend the session, or are simply interested in checking it out, you can find the video on YouTube:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/SlM02V1tkSc" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+&lt;p&gt;The GitHub repository that the presentation is driven from can be found &lt;a href="https://github.com/gep13/GitHubReleaseDemos"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/talk-at-ddd12' + 'S/';
+    var disqus_title = 'Talk at DDD 12';
+    var disqus_url = 'http://www.gep13.co.uk/blog/talk-at-ddd12' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/Introducing%20Cake.Chocolatey.Module" />
 		<id>http://www.gep13.co.uk/blog/Introducing%20Cake.Chocolatey.Module</id>
@@ -206,50 +250,6 @@
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation" />
-		<id>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</id>
-		<title>An Update on Cake-Contrib User and Organisation</title>
-		<updated>2017-03-09T00:00:00Z</updated>
-		<content>&lt;h1 id="what-a-6-months-it-has-been"&gt;What a 6 months it has been!&lt;/h1&gt;
-&lt;p&gt;Back in August 2016, I (with the support of the rest of the Cake Team), put out a "call to arms" to the Cake Community.  What we were trying to address was the &lt;em&gt;potential&lt;/em&gt; stagnation of Addin's and Modules that were created by the Cake Community.  Full details of what we were trying to address can be found in this &lt;a href="http://cakebuild.net/blog/2016/08/cake-contribution-organization"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
-&lt;h1 id="current-status"&gt;Current Status&lt;/h1&gt;
-&lt;p&gt;6 months on, I am very proud to say that the Cake Community has come together in an amazing way.  As it currently stands, there are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;122&lt;/strong&gt; Cake Addin's and &lt;strong&gt;2&lt;/strong&gt; Modules are hosted on &lt;a href="https://www.nuget.org/packages?q=cake"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;35&lt;/strong&gt; Addin's and Modules have been moved under the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;87&lt;/strong&gt; Addin's have been documented and submitted to the &lt;a href="http://cakebuild.net/addins/"&gt;Cake Website&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Maintainers of &lt;strong&gt;101&lt;/strong&gt; Addin's have chosen to add the cake-contrib user as a co-maintainer of the package on &lt;a href="https://www.nuget.org/profiles/cake-contrib"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Thank you all very much!&lt;/p&gt;
-&lt;p&gt;This last point is important, and I am particularly happy that maintainers have chosen to do this.  What this means is that, if a maintainer were no longer able/willing to support an Addin, the Cake Team would be in a position to continue to push updates to the same package id on NuGet.org.  As a result, we can ensure the continuation of support for that particular package.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Again, I want to stress here that this would only ever happen after every effort was made to get in touch with the original creator of the Cake Addin.&lt;/p&gt;
-&lt;p&gt;A very useful site effect of the cake-contrib user being added to so many NuGet packages is that we get a clear indication of the usage of the Addin's.  As of today, the packages that have been added to the cake-contrib user have been downloaded 315,909 times!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/09/cake-contrib-downloads.png" class="img-fluid" alt="cake-contrib package downloads"&gt;&lt;/p&gt;
-&lt;h1 id="going-forward"&gt;Going Forward&lt;/h1&gt;
-&lt;p&gt;I am continuing to encourage Addin and Module creators to both document, and add the cake-contrib NuGet user to, packages that they create.  I am tracking this on this &lt;a href="https://github.com/cake-build/website/issues/149"&gt;GitHub issue&lt;/a&gt;.  From time to time I check NuGet.org for new packages that have been pushed, so don't be surprised if I raise some issues on your repository once I know about the existence of the package.  This is not meant has any form of harassment, so apologies if it feels like that, but rather, trying to do what is best for the larger Cake Community.&lt;/p&gt;
-&lt;p&gt;Once again, a huge thank you to all the Cake Community, we very much appreciate your time, and Cake wouldn't be where it is today without you.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation' + 'S/';
-    var disqus_title = 'An Update on Cake-Contrib User and Organisation';
-    var disqus_url = 'http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
 		<link href="http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio" />
 		<id>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</id>
 		<title>Signing GitHub Commits with Keybase.io</title>
@@ -295,6 +295,50 @@
     var disqus_identifier = 'http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio' + 'S/';
     var disqus_title = 'Signing GitHub Commits with Keybase.io';
     var disqus_url = 'http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation" />
+		<id>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</id>
+		<title>An Update on Cake-Contrib User and Organisation</title>
+		<updated>2017-03-09T00:00:00Z</updated>
+		<content>&lt;h1 id="what-a-6-months-it-has-been"&gt;What a 6 months it has been!&lt;/h1&gt;
+&lt;p&gt;Back in August 2016, I (with the support of the rest of the Cake Team), put out a "call to arms" to the Cake Community.  What we were trying to address was the &lt;em&gt;potential&lt;/em&gt; stagnation of Addin's and Modules that were created by the Cake Community.  Full details of what we were trying to address can be found in this &lt;a href="http://cakebuild.net/blog/2016/08/cake-contribution-organization"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="current-status"&gt;Current Status&lt;/h1&gt;
+&lt;p&gt;6 months on, I am very proud to say that the Cake Community has come together in an amazing way.  As it currently stands, there are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;122&lt;/strong&gt; Cake Addin's and &lt;strong&gt;2&lt;/strong&gt; Modules are hosted on &lt;a href="https://www.nuget.org/packages?q=cake"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;35&lt;/strong&gt; Addin's and Modules have been moved under the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;87&lt;/strong&gt; Addin's have been documented and submitted to the &lt;a href="http://cakebuild.net/addins/"&gt;Cake Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Maintainers of &lt;strong&gt;101&lt;/strong&gt; Addin's have chosen to add the cake-contrib user as a co-maintainer of the package on &lt;a href="https://www.nuget.org/profiles/cake-contrib"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you all very much!&lt;/p&gt;
+&lt;p&gt;This last point is important, and I am particularly happy that maintainers have chosen to do this.  What this means is that, if a maintainer were no longer able/willing to support an Addin, the Cake Team would be in a position to continue to push updates to the same package id on NuGet.org.  As a result, we can ensure the continuation of support for that particular package.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Again, I want to stress here that this would only ever happen after every effort was made to get in touch with the original creator of the Cake Addin.&lt;/p&gt;
+&lt;p&gt;A very useful site effect of the cake-contrib user being added to so many NuGet packages is that we get a clear indication of the usage of the Addin's.  As of today, the packages that have been added to the cake-contrib user have been downloaded 315,909 times!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/09/cake-contrib-downloads.png" class="img-fluid" alt="cake-contrib package downloads"&gt;&lt;/p&gt;
+&lt;h1 id="going-forward"&gt;Going Forward&lt;/h1&gt;
+&lt;p&gt;I am continuing to encourage Addin and Module creators to both document, and add the cake-contrib NuGet user to, packages that they create.  I am tracking this on this &lt;a href="https://github.com/cake-build/website/issues/149"&gt;GitHub issue&lt;/a&gt;.  From time to time I check NuGet.org for new packages that have been pushed, so don't be surprised if I raise some issues on your repository once I know about the existence of the package.  This is not meant has any form of harassment, so apologies if it feels like that, but rather, trying to do what is best for the larger Cake Community.&lt;/p&gt;
+&lt;p&gt;Once again, a huge thank you to all the Cake Community, we very much appreciate your time, and Cake wouldn't be where it is today without you.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation' + 'S/';
+    var disqus_title = 'An Update on Cake-Contrib User and Organisation';
+    var disqus_url = 'http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -468,6 +512,52 @@ git push -f
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
+		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
+		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
+		<title>How to create gh-pages branch</title>
+		<updated>2017-01-27T00:00:00Z</updated>
+		<content>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
+&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
+&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
+&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
+git rm -rf .
+echo "My Page" &amp;gt; index.html
+git add index.html
+git commit -a -m "First pages commit"
+git push --set-upstream origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch"&gt;&lt;/p&gt;
+&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration"&gt;&lt;/p&gt;
+&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + 'S/';
+    var disqus_title = 'How to create gh-pages branch';
+    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
+	<entry>
 		<link href="http://www.gep13.co.uk/blog/use-octokit-to-create-labels" />
 		<id>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</id>
 		<title>Use Octokit to create labels</title>
@@ -561,52 +651,6 @@ private static void SetUpDefaultLabels()
     var disqus_identifier = 'http://www.gep13.co.uk/blog/use-octokit-to-create-labels' + 'S/';
     var disqus_title = 'Use Octokit to create labels';
     var disqus_url = 'http://www.gep13.co.uk/blog/use-octokit-to-create-labels' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
-		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
-		<title>How to create gh-pages branch</title>
-		<updated>2017-01-27T00:00:00Z</updated>
-		<content>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
-&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
-&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
-&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
-git rm -rf .
-echo "My Page" &amp;gt; index.html
-git add index.html
-git commit -a -m "First pages commit"
-git push --set-upstream origin gh-pages
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch"&gt;&lt;/p&gt;
-&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration"&gt;&lt;/p&gt;
-&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + 'S/';
-    var disqus_title = 'How to create gh-pages branch';
-    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -1176,38 +1220,6 @@ Speaker Presentation: 7.85/9&lt;/p&gt;
     var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-at-ddd-reading' + 'S/';
     var disqus_title = 'Cake talk at DDD Reading';
     var disqus_url = 'http://www.gep13.co.uk/blog/cake-at-ddd-reading' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-contrib-organisation" />
-		<id>http://www.gep13.co.uk/blog/cake-contrib-organisation</id>
-		<title>Cake-Contrib organisation created on GitHub</title>
-		<updated>2016-08-17T00:00:00Z</updated>
-		<content>&lt;h1 id="cake-contrib-organisation-has-been-created-on-github"&gt;Cake-Contrib Organisation has been created on GitHub&lt;/h1&gt;
-&lt;p&gt;Today I created the Cake-Contrib on GitHub:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2016/8/17/cake-contrib-organisation.png" class="img-fluid" alt="Cake-Contrib Organisation on GitHub"&gt;&lt;/p&gt;
-&lt;p&gt;This has been created after the discussion that was had in this &lt;a href="http://cakebuild.net/blog/2016/08/cake-contribution-organization"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This will allow the development of addin's for Cake that can be more easily maintained by all members of the community.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This is a retrospective blog post after GitHub announced a range of &lt;a href="https://github.com/blog/2256-a-whole-new-github-universe-announcing-new-tools-forums-and-features"&gt;new features&lt;/a&gt; including the option to see a history of your contributions.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-contrib-organisation' + 'S/';
-    var disqus_title = 'Cake-Contrib organisation created on GitHub';
-    var disqus_url = 'http://www.gep13.co.uk/blog/cake-contrib-organisation' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
