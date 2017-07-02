@@ -4,8 +4,44 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2017</rights>
-	<updated>2017-06-12T12:09:23Z</updated>
+	<updated>2017-07-02T20:17:53Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/i-am-a-microsoft-mvp" />
+		<id>http://www.gep13.co.uk/blog/i-am-a-microsoft-mvp</id>
+		<title>I am a Microsoft MVP</title>
+		<updated>2017-07-02T00:00:00Z</updated>
+		<content>&lt;p&gt;I am very happy to announce that yesterday, &lt;a href="https://blogs.msdn.microsoft.com/mvpawardprogram/2017/07/01/congratulations-mvps-july-17/?utm_source=t.co&amp;amp;utm_medium=referral"&gt;along with 35 other new people, and nearly 1400 renewed people&lt;/a&gt;, I was awarded with a Microsoft MVP Award!&lt;/p&gt;
+&lt;p&gt;For those of you who don't know, the Microsoft MVP Award, it is...&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;our way of saying "Thanks!" to outstanding community leaders. The contributions MVPs make to the community, ranging from speaking engagements, to social media posts, to writing books, to helping others in online communities, have incredible impact.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you are interested, you can find out more about it &lt;a href="https://mvp.microsoft.com/en-us/Overview"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For a long time, I have often "thought" about being a Microsoft MVP, but I honestly never thought that I would be given one, so I am very happy to have recieved this.&lt;/p&gt;
+&lt;p&gt;When I found out the news yesterday, I was very excited.  I had literally just found out that a friend of mine, &lt;a href="https://twitter.com/devlead/status/881201782109728768"&gt;Mattias&lt;/a&gt;, had also been awarded with an MVP.  When I checked my email, I found that I too had recieved one.&lt;/p&gt;
+&lt;p&gt;I am looking forward to getting involved in the MVP Community, and continuing to contribute in the next year.&lt;/p&gt;
+&lt;p&gt;Congratulations to all the other new, and renewed, MVP's!&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/i-am-a-microsoft-mvp' + 'S/';
+    var disqus_title = 'I am a Microsoft MVP';
+    var disqus_url = 'http://www.gep13.co.uk/blog/i-am-a-microsoft-mvp' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/talk-at-ddd12" />
 		<id>http://www.gep13.co.uk/blog/talk-at-ddd12</id>
@@ -250,6 +286,50 @@
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
+		<link href="http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation" />
+		<id>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</id>
+		<title>An Update on Cake-Contrib User and Organisation</title>
+		<updated>2017-03-09T00:00:00Z</updated>
+		<content>&lt;h1 id="what-a-6-months-it-has-been"&gt;What a 6 months it has been!&lt;/h1&gt;
+&lt;p&gt;Back in August 2016, I (with the support of the rest of the Cake Team), put out a "call to arms" to the Cake Community.  What we were trying to address was the &lt;em&gt;potential&lt;/em&gt; stagnation of Addin's and Modules that were created by the Cake Community.  Full details of what we were trying to address can be found in this &lt;a href="http://cakebuild.net/blog/2016/08/cake-contribution-organization"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="current-status"&gt;Current Status&lt;/h1&gt;
+&lt;p&gt;6 months on, I am very proud to say that the Cake Community has come together in an amazing way.  As it currently stands, there are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;122&lt;/strong&gt; Cake Addin's and &lt;strong&gt;2&lt;/strong&gt; Modules are hosted on &lt;a href="https://www.nuget.org/packages?q=cake"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;35&lt;/strong&gt; Addin's and Modules have been moved under the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;87&lt;/strong&gt; Addin's have been documented and submitted to the &lt;a href="http://cakebuild.net/addins/"&gt;Cake Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Maintainers of &lt;strong&gt;101&lt;/strong&gt; Addin's have chosen to add the cake-contrib user as a co-maintainer of the package on &lt;a href="https://www.nuget.org/profiles/cake-contrib"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you all very much!&lt;/p&gt;
+&lt;p&gt;This last point is important, and I am particularly happy that maintainers have chosen to do this.  What this means is that, if a maintainer were no longer able/willing to support an Addin, the Cake Team would be in a position to continue to push updates to the same package id on NuGet.org.  As a result, we can ensure the continuation of support for that particular package.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Again, I want to stress here that this would only ever happen after every effort was made to get in touch with the original creator of the Cake Addin.&lt;/p&gt;
+&lt;p&gt;A very useful site effect of the cake-contrib user being added to so many NuGet packages is that we get a clear indication of the usage of the Addin's.  As of today, the packages that have been added to the cake-contrib user have been downloaded 315,909 times!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/09/cake-contrib-downloads.png" class="img-fluid" alt="cake-contrib package downloads"&gt;&lt;/p&gt;
+&lt;h1 id="going-forward"&gt;Going Forward&lt;/h1&gt;
+&lt;p&gt;I am continuing to encourage Addin and Module creators to both document, and add the cake-contrib NuGet user to, packages that they create.  I am tracking this on this &lt;a href="https://github.com/cake-build/website/issues/149"&gt;GitHub issue&lt;/a&gt;.  From time to time I check NuGet.org for new packages that have been pushed, so don't be surprised if I raise some issues on your repository once I know about the existence of the package.  This is not meant has any form of harassment, so apologies if it feels like that, but rather, trying to do what is best for the larger Cake Community.&lt;/p&gt;
+&lt;p&gt;Once again, a huge thank you to all the Cake Community, we very much appreciate your time, and Cake wouldn't be where it is today without you.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation' + 'S/';
+    var disqus_title = 'An Update on Cake-Contrib User and Organisation';
+    var disqus_url = 'http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
+	<entry>
 		<link href="http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio" />
 		<id>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</id>
 		<title>Signing GitHub Commits with Keybase.io</title>
@@ -295,50 +375,6 @@
     var disqus_identifier = 'http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio' + 'S/';
     var disqus_title = 'Signing GitHub Commits with Keybase.io';
     var disqus_url = 'http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation" />
-		<id>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</id>
-		<title>An Update on Cake-Contrib User and Organisation</title>
-		<updated>2017-03-09T00:00:00Z</updated>
-		<content>&lt;h1 id="what-a-6-months-it-has-been"&gt;What a 6 months it has been!&lt;/h1&gt;
-&lt;p&gt;Back in August 2016, I (with the support of the rest of the Cake Team), put out a "call to arms" to the Cake Community.  What we were trying to address was the &lt;em&gt;potential&lt;/em&gt; stagnation of Addin's and Modules that were created by the Cake Community.  Full details of what we were trying to address can be found in this &lt;a href="http://cakebuild.net/blog/2016/08/cake-contribution-organization"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
-&lt;h1 id="current-status"&gt;Current Status&lt;/h1&gt;
-&lt;p&gt;6 months on, I am very proud to say that the Cake Community has come together in an amazing way.  As it currently stands, there are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;122&lt;/strong&gt; Cake Addin's and &lt;strong&gt;2&lt;/strong&gt; Modules are hosted on &lt;a href="https://www.nuget.org/packages?q=cake"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;35&lt;/strong&gt; Addin's and Modules have been moved under the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;87&lt;/strong&gt; Addin's have been documented and submitted to the &lt;a href="http://cakebuild.net/addins/"&gt;Cake Website&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Maintainers of &lt;strong&gt;101&lt;/strong&gt; Addin's have chosen to add the cake-contrib user as a co-maintainer of the package on &lt;a href="https://www.nuget.org/profiles/cake-contrib"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Thank you all very much!&lt;/p&gt;
-&lt;p&gt;This last point is important, and I am particularly happy that maintainers have chosen to do this.  What this means is that, if a maintainer were no longer able/willing to support an Addin, the Cake Team would be in a position to continue to push updates to the same package id on NuGet.org.  As a result, we can ensure the continuation of support for that particular package.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Again, I want to stress here that this would only ever happen after every effort was made to get in touch with the original creator of the Cake Addin.&lt;/p&gt;
-&lt;p&gt;A very useful site effect of the cake-contrib user being added to so many NuGet packages is that we get a clear indication of the usage of the Addin's.  As of today, the packages that have been added to the cake-contrib user have been downloaded 315,909 times!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/09/cake-contrib-downloads.png" class="img-fluid" alt="cake-contrib package downloads"&gt;&lt;/p&gt;
-&lt;h1 id="going-forward"&gt;Going Forward&lt;/h1&gt;
-&lt;p&gt;I am continuing to encourage Addin and Module creators to both document, and add the cake-contrib NuGet user to, packages that they create.  I am tracking this on this &lt;a href="https://github.com/cake-build/website/issues/149"&gt;GitHub issue&lt;/a&gt;.  From time to time I check NuGet.org for new packages that have been pushed, so don't be surprised if I raise some issues on your repository once I know about the existence of the package.  This is not meant has any form of harassment, so apologies if it feels like that, but rather, trying to do what is best for the larger Cake Community.&lt;/p&gt;
-&lt;p&gt;Once again, a huge thank you to all the Cake Community, we very much appreciate your time, and Cake wouldn't be where it is today without you.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation' + 'S/';
-    var disqus_title = 'An Update on Cake-Contrib User and Organisation';
-    var disqus_url = 'http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -1172,54 +1208,6 @@ Speaker Presentation: 8.41/9&lt;/p&gt;
     var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-on-cynical-developer' + 'S/';
     var disqus_title = 'Cake discussion on Cynical Developer';
     var disqus_url = 'http://www.gep13.co.uk/blog/cake-on-cynical-developer' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-at-ddd-reading" />
-		<id>http://www.gep13.co.uk/blog/cake-at-ddd-reading</id>
-		<title>Cake talk at DDD Reading</title>
-		<updated>2016-09-03T00:00:00Z</updated>
-		<content>&lt;h1 id="a-piece-of-cake"&gt;A Piece of Cake&lt;/h1&gt;
-&lt;h2 id="c-powered-cross-platform-build-automation"&gt;C# powered cross platform build automation&lt;/h2&gt;
-&lt;p&gt;In the same way that DDD Scotland made a welcome return this year, the same was true of &lt;a href="http://developerdeveloperdeveloper.com/"&gt;DDD Reading&lt;/a&gt;.  A .Net Community event which is hosted in the Microsoft Offices in Thames Valley Park.  I have attended this event before, in fact, it was actually one of the first .Net Community events that I went to, and this year I was asked along to present my talk on Cake.&lt;/p&gt;
-&lt;h1 id="the-code"&gt;The Code&lt;/h1&gt;
-&lt;p&gt;If you are interested in following along with the demos that I gave during this talk, you can find all the information in my &lt;a href="https://github.com/gep13/CakeDemos"&gt;GitHub Repository&lt;/a&gt;.&lt;/p&gt;
-&lt;h1 id="the-slides"&gt;The Slides&lt;/h1&gt;
-&lt;p&gt;If you are interested in seeing the slides from the talk, you can find them displayed below, and also they are available as a download by clicking through to the slideshare site.&lt;/p&gt;
-&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/J0xArrI2be03dG" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="//www.slideshare.net/gep13/a-piece-of-cake-ddd11-reading" title="A Piece of Cake - DDD11 - Reading" target="_blank"&gt;A Piece of Cake - DDD11 - Reading&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target="_blank" href="//www.slideshare.net/gep13"&gt;Gary Park&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
-&lt;h2 id="update"&gt;Update&lt;/h2&gt;
-&lt;p&gt;Thank you to everyone who attended the event on the day.  I have just received the speaker feedback, and I have to say that I am very happy with the results/comments:&lt;/p&gt;
-&lt;p&gt;Speaker Knowledge: 8.62/9
-Speaker Presentation: 7.85/9&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;"Tenet" is not "Tennant"&lt;/li&gt;
-&lt;li&gt;Brilliant!&lt;/li&gt;
-&lt;li&gt;Clearly not passionate enough about cake :) Great talk, good intro&lt;/li&gt;
-&lt;li&gt;Good product, talk needs a little more cheese/humour but good and informative&lt;/li&gt;
-&lt;li&gt;Hungry now! :)&lt;/li&gt;
-&lt;li&gt;Interesting - good demo nice intro to useful tools&lt;/li&gt;
-&lt;li&gt;Would be good to have more demo time&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I will be taking on board some of these comments for my upcoming talk at DDD North.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-at-ddd-reading' + 'S/';
-    var disqus_title = 'Cake talk at DDD Reading';
-    var disqus_url = 'http://www.gep13.co.uk/blog/cake-at-ddd-reading' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
