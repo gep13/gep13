@@ -8,7 +8,8 @@ BuildParameters.SetParameters(context: Context,
                             repositoryOwner: "gep13",
                             repositoryName: "gep13",
                             appVeyorAccountName: "GaryEwanPark",
-                            webHost: "gep13.co.uk");
+                            webHost: "gep13.co.uk",
+                            shouldPurgeCloudflareCache: true);
 
 BuildParameters.PrintParameters(Context);
 
