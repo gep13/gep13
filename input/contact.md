@@ -2,7 +2,7 @@
 Title: "Contact"
 ---
 
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css">
 
 <script type="text/javascript">
   window.onload = (function(){
@@ -19,8 +19,8 @@ Feel free to use any of the social links on this <a href="http://www.gep13.co.uk
 </p>
 <hr />
 
-<form action="http://getsimpleform.com/messages?form_api_token=1d1302c59aefb2d17cab29b91f47bee9" method="post" class="contact pure-form pure-form-aligned">
-	<input type='hidden' name='redirect_to' value='http://www.gep13.co.uk/contact#thank-you' />
+<form action="https://getsimpleform.com/messages?form_api_token=1d1302c59aefb2d17cab29b91f47bee9" method="post" class="contact pure-form pure-form-aligned">
+	<input type='hidden' name='redirect_to' value='https://www.gep13.co.uk/contact#thank-you' />
     <fieldset class='pure-group'>
         <input autofocus='autofocus' class='pure-input-1' name='name' placeholder='Your Name' required='required' type='text' />
         <input class='pure-input-1' name='email' placeholder='Email Address' required='required' type='email' />
