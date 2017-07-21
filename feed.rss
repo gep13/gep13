@@ -5,8 +5,72 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2017</copyright>
-		<pubDate>Fri, 21 Jul 2017 20:23:06 GMT</pubDate>
-		<lastBuildDate>Fri, 21 Jul 2017 20:23:06 GMT</lastBuildDate>
+		<pubDate>Fri, 21 Jul 2017 22:35:13 GMT</pubDate>
+		<lastBuildDate>Fri, 21 Jul 2017 22:35:13 GMT</lastBuildDate>
+		<item>
+			<title>Version 0.8.0 of the Visual Studio Code extension for Cake</title>
+			<link>http://www.gep13.co.uk/blog/visual-studio-code-extension-for-cake-version-0.8.0</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/visual-studio-code-extension-for-cake-version-0.8.0</guid>
+			<pubDate>Fri, 21 Jul 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;p&gt;We are very happy to announce that a new version, 0.8.0, of the Visual Studio Code extension for Cake has just been released.  This release includes two main new features and one improvement.  These features really came about with the &lt;a href="https://code.visualstudio.com/updates/v1_14#_tasks"&gt;June release&lt;/a&gt; of Visual Studio Code, which brought with it a new Tasks API, making it possible for extension authors to "auto detect" tasks for execution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/27"&gt;&lt;strong&gt;#27&lt;/strong&gt;&lt;/a&gt; Support ability to setup/install debugging dependencies&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/14"&gt;&lt;strong&gt;#14&lt;/strong&gt;&lt;/a&gt; Add ability to parse cake file(s) for tasks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Improvement&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/3"&gt;&lt;strong&gt;#3&lt;/strong&gt;&lt;/a&gt; Support deactivation of extension&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="getting-help"&gt;Getting Help...&lt;/h1&gt;
+&lt;p&gt;This was my first real foray into Visual Studio Code Extension development, and also TypeScript, so to say that I was stumbling at the first hurdle would be an understatement.  I have to say though, the Visual Studio Code development team, in particular &lt;a href="https://twitter.com/erichgamma"&gt;Erich Gamma&lt;/a&gt;, are amazingly helpful.  As a result after:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3 Stack Overflow Questions
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://stackoverflow.com/questions/45159393"&gt;https://stackoverflow.com/questions/45159393&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://stackoverflow.com/questions/45111482"&gt;https://stackoverflow.com/questions/45111482&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://stackoverflow.com/questions/45090999"&gt;https://stackoverflow.com/questions/45090999&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GitHub conversations
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Microsoft/vscode/issues/11565"&gt;https://github.com/Microsoft/vscode/issues/11565&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Twitter Conversations
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/ErichGamma/status/885822561136803840"&gt;https://twitter.com/ErichGamma/status/885822561136803840&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/ErichGamma/status/887315128022159361"&gt;https://twitter.com/ErichGamma/status/887315128022159361&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I actually had something that worked!  Thank you to everyone on the team for their help with getting this release out!&lt;/p&gt;
+&lt;h1 id="how-does-the-version-help-me"&gt;How does the version help me?&lt;/h1&gt;
+&lt;p&gt;The features in this release are intended to help remove some of the manual steps that are required to both execute and debug tasks within your Cake scripts.  For example, rather than having to type out the build command, along with the target name, you can now simply click on the name for a list of all available targets.  In addition, rather than having to go through all the steps listed in this &lt;a href="http://cakebuild.net/blog/2016/09/debug-cake-vscode"&gt;blog post&lt;/a&gt; to configure debugging of Cake scripts, it is now simply 2 or 3 clicks away.&lt;/p&gt;
+&lt;h1 id="more-information"&gt;More information&lt;/h1&gt;
+&lt;p&gt;I have created a short video which walks through the new features that are included in this release.  If you have any comments, please feel to reach out to discuss.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zzZuysl3xSg" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/visual-studio-code-extension-for-cake-version-0.8.0' + 'S/';
+    var disqus_title = 'Version 0.8.0 of the Visual Studio Code extension for Cake';
+    var disqus_url = 'http://www.gep13.co.uk/blog/visual-studio-code-extension-for-cake-version-0.8.0' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
 		<item>
 			<title>I am a Microsoft MVP</title>
 			<link>http://www.gep13.co.uk/blog/i-am-a-microsoft-mvp</link>
@@ -549,6 +613,52 @@ git push -f
 &lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
 		</item>
 		<item>
+			<title>How to create gh-pages branch</title>
+			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
+			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
+&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
+&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
+&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
+git rm -rf .
+echo "My Page" &amp;gt; index.html
+git add index.html
+git commit -a -m "First pages commit"
+git push --set-upstream origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch"&gt;&lt;/p&gt;
+&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration"&gt;&lt;/p&gt;
+&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + 'S/';
+    var disqus_title = 'How to create gh-pages branch';
+    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
+		<item>
 			<title>Use Octokit to create labels</title>
 			<link>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
@@ -643,52 +753,6 @@ private static void SetUpDefaultLabels()
     var disqus_identifier = 'http://www.gep13.co.uk/blog/use-octokit-to-create-labels' + 'S/';
     var disqus_title = 'Use Octokit to create labels';
     var disqus_url = 'http://www.gep13.co.uk/blog/use-octokit-to-create-labels' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>How to create gh-pages branch</title>
-			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
-			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
-&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
-&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
-&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
-git rm -rf .
-echo "My Page" &amp;gt; index.html
-git add index.html
-git commit -a -m "First pages commit"
-git push --set-upstream origin gh-pages
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch"&gt;&lt;/p&gt;
-&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration"&gt;&lt;/p&gt;
-&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + 'S/';
-    var disqus_title = 'How to create gh-pages branch';
-    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -1180,36 +1244,6 @@ Speaker Presentation: 8.41/9&lt;/p&gt;
     var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-at-ddd-north' + 'S/';
     var disqus_title = 'Cake talk at DDD North';
     var disqus_url = 'http://www.gep13.co.uk/blog/cake-at-ddd-north' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>Cake discussion on Cynical Developer</title>
-			<link>http://www.gep13.co.uk/blog/cake-on-cynical-developer</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/cake-on-cynical-developer</guid>
-			<pubDate>Mon, 12 Sep 2016 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="let-them-build-with-cake"&gt;Let them build with Cake&lt;/h1&gt;
-&lt;p&gt;I am very happy to announce that a podcast appearance that I did has just been published.  You can find the show &lt;a href="http://cynicaldeveloper.com/podcast/1/"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This is a brand new podcast called &lt;a href="http://cynicaldeveloper.com/"&gt;Cynical Developer&lt;/a&gt; and the man behind it is &lt;a href="http://cynicaldeveloper.com/about/"&gt;James Studdart&lt;/a&gt;.  It was a great discussion about &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and I hope you enjoy it.&lt;/p&gt;
-&lt;p&gt;I wish James all the best with his future shows!&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-on-cynical-developer' + 'S/';
-    var disqus_title = 'Cake discussion on Cynical Developer';
-    var disqus_url = 'http://www.gep13.co.uk/blog/cake-on-cynical-developer' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
