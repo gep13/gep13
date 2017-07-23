@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2017</rights>
-	<updated>2017-07-23T16:57:22Z</updated>
+	<updated>2017-07-23T20:43:07Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection" />
@@ -27,6 +27,48 @@
     var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection' + 'S/';
     var disqus_title = 'How to use AppVeyor Remote Desktop Connection';
     var disqus_url = 'http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/how-to-use-appveyor-cache" />
+		<id>http://www.gep13.co.uk/blog/how-to-use-appveyor-cache</id>
+		<title>How to use AppVeyor Cache</title>
+		<updated>2017-07-23T00:00:00Z</updated>
+		<content>&lt;p&gt;Another important feature offered by AppVeyor is it's &lt;a href="https://www.appveyor.com/docs/build-cache/"&gt;Build Cache&lt;/a&gt;.  Due to the fact that every AppVeyor build uses a fresh copy of the Build Agent Virtual Machine, any files and folders that were created as part of the build are not persisted between project builds.&lt;/p&gt;
+&lt;p&gt;So for example, if as part of your build you restore lots of NuGet packages, or you install packages from Chocolatey, then these things will have to happen on every build.  This is problematic for two reasons.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It means that your builds are going to be slightly slower than they could be as they are having to restore these dependencies on every build&lt;/li&gt;
+&lt;li&gt;The success of your build is dependent on 3rd party websites being available.  So for example, if NuGet.org isn't working properly, your build is going to fail as those required packages can't be downloaded.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Making use of the AppVeyor Build Cache fixes both of these problems.&lt;/p&gt;
+&lt;p&gt;To set up the Build Cache is really simple:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cache:
+  - tools -&amp;gt; build.cake, tools/packages.config
+  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;With this entry in your &lt;code&gt;.appveyor.yml&lt;/code&gt; file, at the end of the build all files and folders within the &lt;code&gt;tools&lt;/code&gt; folder will be added to the Build Cache, and restored on the next build.  Additionally, if either of the &lt;code&gt;build.cake&lt;/code&gt; or &lt;code&gt;tools/packages.config&lt;/code&gt; file change between Project Builds, then the tools folder in the Build Cache will be invalidated and re-created during the build.&lt;/p&gt;
+&lt;p&gt;This configuration gives us full flexibility and control over the Build Cache, which results in a more resilient and re-producible build.&lt;/p&gt;
+&lt;p&gt;I have created a short video with walks through this entire process, and shows the Build Cache in action, in the context of a build which uses the &lt;a href="http://cakebuild.net/"&gt;Cake Build Automation tool&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/ELb8l9nvWok" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-use-appveyor-cache' + 'S/';
+    var disqus_title = 'How to use AppVeyor Cache';
+    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-use-appveyor-cache' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -1197,36 +1239,6 @@ skip_commits:
     var disqus_identifier = 'http://www.gep13.co.uk/blog/happy-birthday-dad' + 'S/';
     var disqus_title = 'Happy Birthday Dad';
     var disqus_url = 'http://www.gep13.co.uk/blog/happy-birthday-dad' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-on-herding-code" />
-		<id>http://www.gep13.co.uk/blog/cake-on-herding-code</id>
-		<title>Cake discussion on Herding Code!</title>
-		<updated>2016-10-17T00:00:00Z</updated>
-		<content>&lt;h1 id="herding-code-219-cake-with-gary-park-and-mattias-karlsson"&gt;Herding Code 219: Cake with Gary Park and Mattias Karlsson&lt;/h1&gt;
-&lt;p&gt;Following on the heels of a few podcasts appearances, I am happy to announce that myself and Mattias were interviewed on the &lt;a href="http://herdingcode.com/"&gt;Herding Code&lt;/a&gt; talking about &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can find the show &lt;a href="http://herdingcode.com/herding-code-219-cake-with-gary-park-and-mattias-karlsson/"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Once again, I have to give a lot of credit to the guys behind these podcasts, they really do know what they are doing, and make it very easy to talk about the topic.  Thanks for having us on!&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-on-herding-code' + 'S/';
-    var disqus_title = 'Cake discussion on Herding Code!';
-    var disqus_url = 'http://www.gep13.co.uk/blog/cake-on-herding-code' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
