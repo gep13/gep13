@@ -26,3 +26,7 @@ In addition to the typical “run-time” applications, I also use the following
 - [Auslogics Disk Defrag](http://www.auslogics.com/en/software/disk-defrag/) – A weekly scan with this package helps of make sure that my drive is running at it’s best
  
 Have I missed anything? Is there anything that my computer is still vulnerable to? The combination of the above packages has been honed over a good number of years of trying to fix other peoples computers, but I am curious to know if there is anything that I have missed.
+
+**Update**
+
+I was recently pointed at this article, [The jargon-free guide to computer and internet security](http://comparitech.net/securityguide), which goes into far more detail about staying safe online.
