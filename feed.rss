@@ -5,8 +5,8 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2017</copyright>
-		<pubDate>Thu, 28 Sep 2017 07:12:14 GMT</pubDate>
-		<lastBuildDate>Thu, 28 Sep 2017 07:12:14 GMT</lastBuildDate>
+		<pubDate>Thu, 28 Sep 2017 07:14:47 GMT</pubDate>
+		<lastBuildDate>Thu, 28 Sep 2017 07:14:47 GMT</lastBuildDate>
 		<item>
 			<title>Introducing a Postman Collection for AppVeyor</title>
 			<link>http://www.gep13.co.uk/blog/introducting-a-postman-collection-for-appveyor</link>
@@ -73,39 +73,6 @@
 &lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
 		</item>
 		<item>
-			<title>How to use AppVeyor Remote Desktop Connection</title>
-			<link>http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection</guid>
-			<pubDate>Sun, 23 Jul 2017 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;p&gt;One of the best things about AppVeyor is that it is a &lt;strong&gt;completely online Continuous Integration Server&lt;/strong&gt;.  You as a user don't have to worry about installing the latest version of it, or applying security patches, etc.  You can simply get on with the task at hand.  However, one of the worst things about AppVeyor is that it is a &lt;strong&gt;completely online Continuous Integration Server&lt;/strong&gt;.  Those times when the build isn't working, and you have no idea why, it can be difficult to figure it out solely based on the output logs.&lt;/p&gt;
-&lt;p&gt;That is where AppVeyor's unique ability to get a Remote Desktop Connection to the Build Agent is incredibly powerful!  You get complete administrator access to the VM for 60 minutes (either at the start of the build, or at the end of it), which gives to time to debug and figure out exactly what is going on.&lt;/p&gt;
-&lt;p&gt;All of this is explained in the AppVeyor &lt;a href="https://www.appveyor.com/docs/how-to/rdp-to-build-worker/"&gt;documentation site&lt;/a&gt; but I thought I would create a short video explaining exactly how it works.&lt;/p&gt;
-&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/5OHsXduezIw" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-&lt;h1 id="gotcha"&gt;Gotcha&lt;/h1&gt;
-&lt;p&gt;The only gotcha that I ran into while creating this video is that although it isn't mentioned, the password that you create for logging into the server is subject to the standard complexity rules, for example mixed upper and lower case letters, use of numbers and special characters, etc.  If you use a password that doesn't meet with these requirements, you will get a build error similar to this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/07/23/appveyor_rdp_password_error.png" class="img-fluid" alt="AppVeyor RDP Password Error"&gt;&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection' + 'S/';
-    var disqus_title = 'How to use AppVeyor Remote Desktop Connection';
-    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
 			<title>How to use AppVeyor Build Cache</title>
 			<link>http://www.gep13.co.uk/blog/how-to-use-appveyor-cache</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
@@ -135,6 +102,39 @@
     var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-use-appveyor-cache' + 'S/';
     var disqus_title = 'How to use AppVeyor Build Cache';
     var disqus_url = 'http://www.gep13.co.uk/blog/how-to-use-appveyor-cache' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
+		<item>
+			<title>How to use AppVeyor Remote Desktop Connection</title>
+			<link>http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection</guid>
+			<pubDate>Sun, 23 Jul 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;p&gt;One of the best things about AppVeyor is that it is a &lt;strong&gt;completely online Continuous Integration Server&lt;/strong&gt;.  You as a user don't have to worry about installing the latest version of it, or applying security patches, etc.  You can simply get on with the task at hand.  However, one of the worst things about AppVeyor is that it is a &lt;strong&gt;completely online Continuous Integration Server&lt;/strong&gt;.  Those times when the build isn't working, and you have no idea why, it can be difficult to figure it out solely based on the output logs.&lt;/p&gt;
+&lt;p&gt;That is where AppVeyor's unique ability to get a Remote Desktop Connection to the Build Agent is incredibly powerful!  You get complete administrator access to the VM for 60 minutes (either at the start of the build, or at the end of it), which gives to time to debug and figure out exactly what is going on.&lt;/p&gt;
+&lt;p&gt;All of this is explained in the AppVeyor &lt;a href="https://www.appveyor.com/docs/how-to/rdp-to-build-worker/"&gt;documentation site&lt;/a&gt; but I thought I would create a short video explaining exactly how it works.&lt;/p&gt;
+&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/5OHsXduezIw" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+&lt;h1 id="gotcha"&gt;Gotcha&lt;/h1&gt;
+&lt;p&gt;The only gotcha that I ran into while creating this video is that although it isn't mentioned, the password that you create for logging into the server is subject to the standard complexity rules, for example mixed upper and lower case letters, use of numbers and special characters, etc.  If you use a password that doesn't meet with these requirements, you will get a build error similar to this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/07/23/appveyor_rdp_password_error.png" class="img-fluid" alt="AppVeyor RDP Password Error"&gt;&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection' + 'S/';
+    var disqus_title = 'How to use AppVeyor Remote Desktop Connection';
+    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -491,50 +491,6 @@
 &lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
 		</item>
 		<item>
-			<title>An Update on Cake-Contrib User and Organisation</title>
-			<link>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</guid>
-			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="what-a-6-months-it-has-been"&gt;What a 6 months it has been!&lt;/h1&gt;
-&lt;p&gt;Back in August 2016, I (with the support of the rest of the Cake Team), put out a "call to arms" to the Cake Community.  What we were trying to address was the &lt;em&gt;potential&lt;/em&gt; stagnation of Addin's and Modules that were created by the Cake Community.  Full details of what we were trying to address can be found in this &lt;a href="http://cakebuild.net/blog/2016/08/cake-contribution-organization"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
-&lt;h1 id="current-status"&gt;Current Status&lt;/h1&gt;
-&lt;p&gt;6 months on, I am very proud to say that the Cake Community has come together in an amazing way.  As it currently stands, there are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;122&lt;/strong&gt; Cake Addin's and &lt;strong&gt;2&lt;/strong&gt; Modules are hosted on &lt;a href="https://www.nuget.org/packages?q=cake"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;35&lt;/strong&gt; Addin's and Modules have been moved under the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;87&lt;/strong&gt; Addin's have been documented and submitted to the &lt;a href="http://cakebuild.net/addins/"&gt;Cake Website&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Maintainers of &lt;strong&gt;101&lt;/strong&gt; Addin's have chosen to add the cake-contrib user as a co-maintainer of the package on &lt;a href="https://www.nuget.org/profiles/cake-contrib"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Thank you all very much!&lt;/p&gt;
-&lt;p&gt;This last point is important, and I am particularly happy that maintainers have chosen to do this.  What this means is that, if a maintainer were no longer able/willing to support an Addin, the Cake Team would be in a position to continue to push updates to the same package id on NuGet.org.  As a result, we can ensure the continuation of support for that particular package.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Again, I want to stress here that this would only ever happen after every effort was made to get in touch with the original creator of the Cake Addin.&lt;/p&gt;
-&lt;p&gt;A very useful site effect of the cake-contrib user being added to so many NuGet packages is that we get a clear indication of the usage of the Addin's.  As of today, the packages that have been added to the cake-contrib user have been downloaded 315,909 times!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/09/cake-contrib-downloads.png" class="img-fluid" alt="cake-contrib package downloads"&gt;&lt;/p&gt;
-&lt;h1 id="going-forward"&gt;Going Forward&lt;/h1&gt;
-&lt;p&gt;I am continuing to encourage Addin and Module creators to both document, and add the cake-contrib NuGet user to, packages that they create.  I am tracking this on this &lt;a href="https://github.com/cake-build/website/issues/149"&gt;GitHub issue&lt;/a&gt;.  From time to time I check NuGet.org for new packages that have been pushed, so don't be surprised if I raise some issues on your repository once I know about the existence of the package.  This is not meant has any form of harassment, so apologies if it feels like that, but rather, trying to do what is best for the larger Cake Community.&lt;/p&gt;
-&lt;p&gt;Once again, a huge thank you to all the Cake Community, we very much appreciate your time, and Cake wouldn't be where it is today without you.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation' + 'S/';
-    var disqus_title = 'An Update on Cake-Contrib User and Organisation';
-    var disqus_url = 'http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
 			<title>Signing GitHub Commits with Keybase.io</title>
 			<link>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
@@ -581,6 +537,50 @@
     var disqus_identifier = 'http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio' + 'S/';
     var disqus_title = 'Signing GitHub Commits with Keybase.io';
     var disqus_url = 'http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
+		<item>
+			<title>An Update on Cake-Contrib User and Organisation</title>
+			<link>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</guid>
+			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="what-a-6-months-it-has-been"&gt;What a 6 months it has been!&lt;/h1&gt;
+&lt;p&gt;Back in August 2016, I (with the support of the rest of the Cake Team), put out a "call to arms" to the Cake Community.  What we were trying to address was the &lt;em&gt;potential&lt;/em&gt; stagnation of Addin's and Modules that were created by the Cake Community.  Full details of what we were trying to address can be found in this &lt;a href="http://cakebuild.net/blog/2016/08/cake-contribution-organization"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="current-status"&gt;Current Status&lt;/h1&gt;
+&lt;p&gt;6 months on, I am very proud to say that the Cake Community has come together in an amazing way.  As it currently stands, there are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;122&lt;/strong&gt; Cake Addin's and &lt;strong&gt;2&lt;/strong&gt; Modules are hosted on &lt;a href="https://www.nuget.org/packages?q=cake"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;35&lt;/strong&gt; Addin's and Modules have been moved under the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;87&lt;/strong&gt; Addin's have been documented and submitted to the &lt;a href="http://cakebuild.net/addins/"&gt;Cake Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Maintainers of &lt;strong&gt;101&lt;/strong&gt; Addin's have chosen to add the cake-contrib user as a co-maintainer of the package on &lt;a href="https://www.nuget.org/profiles/cake-contrib"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you all very much!&lt;/p&gt;
+&lt;p&gt;This last point is important, and I am particularly happy that maintainers have chosen to do this.  What this means is that, if a maintainer were no longer able/willing to support an Addin, the Cake Team would be in a position to continue to push updates to the same package id on NuGet.org.  As a result, we can ensure the continuation of support for that particular package.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Again, I want to stress here that this would only ever happen after every effort was made to get in touch with the original creator of the Cake Addin.&lt;/p&gt;
+&lt;p&gt;A very useful site effect of the cake-contrib user being added to so many NuGet packages is that we get a clear indication of the usage of the Addin's.  As of today, the packages that have been added to the cake-contrib user have been downloaded 315,909 times!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/09/cake-contrib-downloads.png" class="img-fluid" alt="cake-contrib package downloads"&gt;&lt;/p&gt;
+&lt;h1 id="going-forward"&gt;Going Forward&lt;/h1&gt;
+&lt;p&gt;I am continuing to encourage Addin and Module creators to both document, and add the cake-contrib NuGet user to, packages that they create.  I am tracking this on this &lt;a href="https://github.com/cake-build/website/issues/149"&gt;GitHub issue&lt;/a&gt;.  From time to time I check NuGet.org for new packages that have been pushed, so don't be surprised if I raise some issues on your repository once I know about the existence of the package.  This is not meant has any form of harassment, so apologies if it feels like that, but rather, trying to do what is best for the larger Cake Community.&lt;/p&gt;
+&lt;p&gt;Once again, a huge thank you to all the Cake Community, we very much appreciate your time, and Cake wouldn't be where it is today without you.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation' + 'S/';
+    var disqus_title = 'An Update on Cake-Contrib User and Organisation';
+    var disqus_url = 'http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -753,6 +753,52 @@ git push -f
 &lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
 		</item>
 		<item>
+			<title>How to create gh-pages branch</title>
+			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
+			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
+&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
+&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
+&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
+git rm -rf .
+echo "My Page" &amp;gt; index.html
+git add index.html
+git commit -a -m "First pages commit"
+git push --set-upstream origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch"&gt;&lt;/p&gt;
+&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration"&gt;&lt;/p&gt;
+&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + 'S/';
+    var disqus_title = 'How to create gh-pages branch';
+    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
+		</item>
+		<item>
 			<title>Use Octokit to create labels</title>
 			<link>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
@@ -847,52 +893,6 @@ private static void SetUpDefaultLabels()
     var disqus_identifier = 'http://www.gep13.co.uk/blog/use-octokit-to-create-labels' + 'S/';
     var disqus_title = 'Use Octokit to create labels';
     var disqus_url = 'http://www.gep13.co.uk/blog/use-octokit-to-create-labels' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content:encoded>
-		</item>
-		<item>
-			<title>How to create gh-pages branch</title>
-			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
-			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
-&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
-&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
-&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
-git rm -rf .
-echo "My Page" &amp;gt; index.html
-git add index.html
-git commit -a -m "First pages commit"
-git push --set-upstream origin gh-pages
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch"&gt;&lt;/p&gt;
-&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration"&gt;&lt;/p&gt;
-&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + 'S/';
-    var disqus_title = 'How to create gh-pages branch';
-    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
