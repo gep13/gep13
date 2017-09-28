@@ -15,7 +15,7 @@ I went through a stage of being VERY paranoid about having everything from anti-
 
 On my Windows 7 Ultimate 64 bit edition, (in no particular order), I have:
   
-- The built in Windows 7 **Firewall. **I used to use the free ZoneAlarm Firewall, but with the release of Windows 7, and it’s improved Firewall capabilities, I decided to retire ZoneAlarm 
+- The built in Windows 7 Firewall. I used to use the free ZoneAlarm Firewall, but with the release of Windows 7, and it’s improved Firewall capabilities, I decided to retire ZoneAlarm 
 - [Spyware Blaster](http://www.javacoolsoftware.com/spywareblaster.html) – A very light weight package designed to prevent the installation of Spyware and other unwanted software 
 - [Microsoft Security Essentials](https://support.microsoft.com/en-us/help/14210/security-essentials-download) – I used to use a combination of AVG Free Edition and SpyBot Search and Destroy to cover the needs of Virus and Spyware Protection, but I have found that this package is up to both tasks. Very simple and easy to use, and updates simply come down as part of Windows Update 
 - [Malwarebytes](http://www.malwarebytes.org/) – Recently I have seen a number of Malware attacks that I have only been able to automatically remove using this package, and as a result, it has made it onto my list of packages to install on a new build. 
