@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2017</rights>
-	<updated>2017-09-29T20:00:07Z</updated>
+	<updated>2017-09-29T20:11:08Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducting-a-postman-collection-for-appveyor" />
@@ -328,32 +328,6 @@
 		<summary>&lt;p&gt;The short answer, it is amazing!  The main site can be found &lt;a href="https://octobox.io/"&gt;here&lt;/a&gt;, and the source code on GitHub can be found &lt;a href="https://github.com/octobox/octobox"&gt;here&lt;/a&gt;.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation" />
-		<id>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</id>
-		<title>An Update on Cake-Contrib User and Organisation</title>
-		<updated>2017-03-09T00:00:00Z</updated>
-		<content>&lt;h1 id="what-a-6-months-it-has-been"&gt;What a 6 months it has been!&lt;/h1&gt;
-&lt;p&gt;Back in August 2016, I (with the support of the rest of the Cake Team), put out a &amp;quot;call to arms&amp;quot; to the Cake Community.  What we were trying to address was the &lt;em&gt;potential&lt;/em&gt; stagnation of Addin's and Modules that were created by the Cake Community.  Full details of what we were trying to address can be found in this &lt;a href="http://cakebuild.net/blog/2016/08/cake-contribution-organization"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
-&lt;h1 id="current-status"&gt;Current Status&lt;/h1&gt;
-&lt;p&gt;6 months on, I am very proud to say that the Cake Community has come together in an amazing way.  As it currently stands, there are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;122&lt;/strong&gt; Cake Addin's and &lt;strong&gt;2&lt;/strong&gt; Modules are hosted on &lt;a href="https://www.nuget.org/packages?q=cake"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;35&lt;/strong&gt; Addin's and Modules have been moved under the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;87&lt;/strong&gt; Addin's have been documented and submitted to the &lt;a href="http://cakebuild.net/addins/"&gt;Cake Website&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Maintainers of &lt;strong&gt;101&lt;/strong&gt; Addin's have chosen to add the cake-contrib user as a co-maintainer of the package on &lt;a href="https://www.nuget.org/profiles/cake-contrib"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Thank you all very much!&lt;/p&gt;
-&lt;p&gt;This last point is important, and I am particularly happy that maintainers have chosen to do this.  What this means is that, if a maintainer were no longer able/willing to support an Addin, the Cake Team would be in a position to continue to push updates to the same package id on NuGet.org.  As a result, we can ensure the continuation of support for that particular package.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Again, I want to stress here that this would only ever happen after every effort was made to get in touch with the original creator of the Cake Addin.&lt;/p&gt;
-&lt;p&gt;A very useful site effect of the cake-contrib user being added to so many NuGet packages is that we get a clear indication of the usage of the Addin's.  As of today, the packages that have been added to the cake-contrib user have been downloaded 315,909 times!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/09/cake-contrib-downloads.png" class="img-fluid" alt="cake-contrib package downloads" /&gt;&lt;/p&gt;
-&lt;h1 id="going-forward"&gt;Going Forward&lt;/h1&gt;
-&lt;p&gt;I am continuing to encourage Addin and Module creators to both document, and add the cake-contrib NuGet user to, packages that they create.  I am tracking this on this &lt;a href="https://github.com/cake-build/website/issues/149"&gt;GitHub issue&lt;/a&gt;.  From time to time I check NuGet.org for new packages that have been pushed, so don't be surprised if I raise some issues on your repository once I know about the existence of the package.  This is not meant has any form of harassment, so apologies if it feels like that, but rather, trying to do what is best for the larger Cake Community.&lt;/p&gt;
-&lt;p&gt;Once again, a huge thank you to all the Cake Community, we very much appreciate your time, and Cake wouldn't be where it is today without you.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;Back in August 2016, I (with the support of the rest of the Cake Team), put out a "call to arms" to the Cake Community.  What we were trying to address was the &lt;em&gt;potential&lt;/em&gt; stagnation of Addin's and Modules that were created by the Cake Community.  Full details of what we were trying to address can be found in this &lt;a href="http://cakebuild.net/blog/2016/08/cake-contribution-organization"&gt;blog post&lt;/a&gt;.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
 		<link href="http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio" />
 		<id>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</id>
 		<title>Signing GitHub Commits with Keybase.io</title>
@@ -392,6 +366,32 @@
 &lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/09/additional-verification-information.png" class="img-fluid" alt="Additional Verification Information" /&gt;&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Yesterday, for the second time I had to sit down and figure out how to set up signing on my GitHub commits using the GPG Key which is provided by &lt;a href="https://keybase.io/"&gt;keybase.io&lt;/a&gt;, so it is time to write it down so that I don't forget how to do it again.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation" />
+		<id>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</id>
+		<title>An Update on Cake-Contrib User and Organisation</title>
+		<updated>2017-03-09T00:00:00Z</updated>
+		<content>&lt;h1 id="what-a-6-months-it-has-been"&gt;What a 6 months it has been!&lt;/h1&gt;
+&lt;p&gt;Back in August 2016, I (with the support of the rest of the Cake Team), put out a &amp;quot;call to arms&amp;quot; to the Cake Community.  What we were trying to address was the &lt;em&gt;potential&lt;/em&gt; stagnation of Addin's and Modules that were created by the Cake Community.  Full details of what we were trying to address can be found in this &lt;a href="http://cakebuild.net/blog/2016/08/cake-contribution-organization"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="current-status"&gt;Current Status&lt;/h1&gt;
+&lt;p&gt;6 months on, I am very proud to say that the Cake Community has come together in an amazing way.  As it currently stands, there are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;122&lt;/strong&gt; Cake Addin's and &lt;strong&gt;2&lt;/strong&gt; Modules are hosted on &lt;a href="https://www.nuget.org/packages?q=cake"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;35&lt;/strong&gt; Addin's and Modules have been moved under the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;87&lt;/strong&gt; Addin's have been documented and submitted to the &lt;a href="http://cakebuild.net/addins/"&gt;Cake Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Maintainers of &lt;strong&gt;101&lt;/strong&gt; Addin's have chosen to add the cake-contrib user as a co-maintainer of the package on &lt;a href="https://www.nuget.org/profiles/cake-contrib"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you all very much!&lt;/p&gt;
+&lt;p&gt;This last point is important, and I am particularly happy that maintainers have chosen to do this.  What this means is that, if a maintainer were no longer able/willing to support an Addin, the Cake Team would be in a position to continue to push updates to the same package id on NuGet.org.  As a result, we can ensure the continuation of support for that particular package.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Again, I want to stress here that this would only ever happen after every effort was made to get in touch with the original creator of the Cake Addin.&lt;/p&gt;
+&lt;p&gt;A very useful site effect of the cake-contrib user being added to so many NuGet packages is that we get a clear indication of the usage of the Addin's.  As of today, the packages that have been added to the cake-contrib user have been downloaded 315,909 times!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/09/cake-contrib-downloads.png" class="img-fluid" alt="cake-contrib package downloads" /&gt;&lt;/p&gt;
+&lt;h1 id="going-forward"&gt;Going Forward&lt;/h1&gt;
+&lt;p&gt;I am continuing to encourage Addin and Module creators to both document, and add the cake-contrib NuGet user to, packages that they create.  I am tracking this on this &lt;a href="https://github.com/cake-build/website/issues/149"&gt;GitHub issue&lt;/a&gt;.  From time to time I check NuGet.org for new packages that have been pushed, so don't be surprised if I raise some issues on your repository once I know about the existence of the package.  This is not meant has any form of harassment, so apologies if it feels like that, but rather, trying to do what is best for the larger Cake Community.&lt;/p&gt;
+&lt;p&gt;Once again, a huge thank you to all the Cake Community, we very much appreciate your time, and Cake wouldn't be where it is today without you.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;Back in August 2016, I (with the support of the rest of the Cake Team), put out a "call to arms" to the Cake Community.  What we were trying to address was the &lt;em&gt;potential&lt;/em&gt; stagnation of Addin's and Modules that were created by the Cake Community.  Full details of what we were trying to address can be found in this &lt;a href="http://cakebuild.net/blog/2016/08/cake-contribution-organization"&gt;blog post&lt;/a&gt;.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/granny-poem" />
@@ -500,6 +500,34 @@ git push -f
 		<summary>&lt;p&gt;Back in September 2016, GitHub announced a very interesting feature, namely, the ability for a maintainer of a repository to push changes back to a remote repository (i.e. fork) from where a PR had been submitted.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
+		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
+		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
+		<title>How to create gh-pages branch</title>
+		<updated>2017-01-27T00:00:00Z</updated>
+		<content>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
+&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
+&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
+&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
+git rm -rf .
+echo &amp;quot;My Page&amp;quot; &amp;gt; index.html
+git add index.html
+git commit -a -m &amp;quot;First pages commit&amp;quot;
+git push --set-upstream origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch" /&gt;&lt;/p&gt;
+&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration" /&gt;&lt;/p&gt;
+&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;</summary>
+	</entry>
+	<entry>
 		<link href="http://www.gep13.co.uk/blog/use-octokit-to-create-labels" />
 		<id>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</id>
 		<title>Use Octokit to create labels</title>
@@ -586,34 +614,6 @@ private static void SetUpDefaultLabels()
 &lt;p&gt;Much better!&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Good question!  I have a small amount compulsive behaviour when it comes to labels that are associated with GitHub projects that I work on.  Both in terms of the colour that is used, as well as the text that is associated with the label.  Being consistent means that it is much easier to identity what an issue/pull request is about, before even reading anything about it.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
-		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
-		<title>How to create gh-pages branch</title>
-		<updated>2017-01-27T00:00:00Z</updated>
-		<content>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
-&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
-&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
-&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
-git rm -rf .
-echo &amp;quot;My Page&amp;quot; &amp;gt; index.html
-git add index.html
-git commit -a -m &amp;quot;First pages commit&amp;quot;
-git push --set-upstream origin gh-pages
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch" /&gt;&lt;/p&gt;
-&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration" /&gt;&lt;/p&gt;
-&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/adding-clickable-links-for-headers" />
