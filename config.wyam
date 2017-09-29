@@ -4,7 +4,7 @@ Settings["Title"] = "Gary Ewan Park";
 Settings["Description"] = "Ramblings and Ponderings of a Microsoft Fan Boy...";
 Settings["Intro"] = "Hello, my name is Gary Ewan Park.  By day, I make a living as .Net Developer.  I am a husband and a father, and I enjoy contributing to Open Source projects.";
 Settings[BlogKeys.PostsPath] = "blog";
-Settings[Keys.LinkLowercase] = false;
+Settings[Keys.LinkLowercase] = true;
 
 Pipelines.Add("Feed2",
     Documents(Blog.BlogPosts),
