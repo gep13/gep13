@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -97,9 +97,9 @@
     <div class="meta">        
 Published on 22 November 2008<br>    </div>
         <div class="tags">
-                    <a role="button" href="/tags/guitar-hero" class="btn btn-default btn-xs">Guitar Hero</a>
-                    <a role="button" href="/tags/ps3" class="btn btn-default btn-xs">PS3</a>
-                    <a role="button" href="/tags/singstar" class="btn btn-default btn-xs">Singstar</a>
+                    <a role="button" href="/tags/Guitar-Hero" class="btn btn-default btn-xs">Guitar Hero</a>
+                    <a role="button" href="/tags/PS3" class="btn btn-default btn-xs">PS3</a>
+                    <a role="button" href="/tags/Singstar" class="btn btn-default btn-xs">Singstar</a>
         </div>     
 </div>
                                         </div>
@@ -239,6 +239,13 @@ Published on 22 November 2008<br>    </div>
                                 var pattern = t.generate(header.clientWidth, header.clientHeight);
                                 header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
                         </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 

@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -97,14 +97,14 @@
     <div class="meta">        
 Published on 06 March 2013<br>    </div>
         <div class="tags">
-                    <a role="button" href="/tags/async" class="btn btn-default btn-xs">Async</a>
-                    <a role="button" href="/tags/day-3" class="btn btn-default btn-xs">Day 3</a>
-                    <a role="button" href="/tags/devweek" class="btn btn-default btn-xs">DevWeek</a>
-                    <a role="button" href="/tags/javascript" class="btn btn-default btn-xs">JavaScript</a>
-                    <a role="button" href="/tags/k2" class="btn btn-default btn-xs">K2</a>
-                    <a role="button" href="/tags/review" class="btn btn-default btn-xs">Review</a>
-                    <a role="button" href="/tags/signalr" class="btn btn-default btn-xs">SignalR</a>
-                    <a role="button" href="/tags/web-api" class="btn btn-default btn-xs">Web API</a>
+                    <a role="button" href="/tags/Async" class="btn btn-default btn-xs">Async</a>
+                    <a role="button" href="/tags/Day-3" class="btn btn-default btn-xs">Day 3</a>
+                    <a role="button" href="/tags/DevWeek" class="btn btn-default btn-xs">DevWeek</a>
+                    <a role="button" href="/tags/JavaScript" class="btn btn-default btn-xs">JavaScript</a>
+                    <a role="button" href="/tags/K2" class="btn btn-default btn-xs">K2</a>
+                    <a role="button" href="/tags/Review" class="btn btn-default btn-xs">Review</a>
+                    <a role="button" href="/tags/SignalR" class="btn btn-default btn-xs">SignalR</a>
+                    <a role="button" href="/tags/Web-API" class="btn btn-default btn-xs">Web API</a>
         </div>     
 </div>
                                         </div>
@@ -348,6 +348,13 @@ In this talk we’ll discuss some of the patterns and anti-patterns of JavaScrip
                                 var pattern = t.generate(header.clientWidth, header.clientHeight);
                                 header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
                         </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 

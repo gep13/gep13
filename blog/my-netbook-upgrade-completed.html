@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -97,10 +97,10 @@
     <div class="meta">        
 Published on 12 August 2011<br>    </div>
         <div class="tags">
-                    <a role="button" href="/tags/asus" class="btn btn-default btn-xs">ASUS</a>
-                    <a role="button" href="/tags/netbook" class="btn btn-default btn-xs">NetBook</a>
-                    <a role="button" href="/tags/ram" class="btn btn-default btn-xs">RAM</a>
-                    <a role="button" href="/tags/upgrade" class="btn btn-default btn-xs">Upgrade</a>
+                    <a role="button" href="/tags/ASUS" class="btn btn-default btn-xs">ASUS</a>
+                    <a role="button" href="/tags/NetBook" class="btn btn-default btn-xs">NetBook</a>
+                    <a role="button" href="/tags/RAM" class="btn btn-default btn-xs">RAM</a>
+                    <a role="button" href="/tags/Upgrade" class="btn btn-default btn-xs">Upgrade</a>
         </div>     
 </div>
                                         </div>
@@ -248,6 +248,13 @@ Published on 12 August 2011<br>    </div>
                                 var pattern = t.generate(header.clientWidth, header.clientHeight);
                                 header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
                         </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 

@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -97,9 +97,9 @@
     <div class="meta">        
 Published on 05 October 2013<br>    </div>
         <div class="tags">
-                    <a role="button" href="/tags/conference" class="btn btn-default btn-xs">Conference</a>
-                    <a role="button" href="/tags/northern-lights-2013" class="btn btn-default btn-xs">Northern Lights 2013</a>
-                    <a role="button" href="/tags/tickets" class="btn btn-default btn-xs">Tickets</a>
+                    <a role="button" href="/tags/Conference" class="btn btn-default btn-xs">Conference</a>
+                    <a role="button" href="/tags/Northern-Lights-2013" class="btn btn-default btn-xs">Northern Lights 2013</a>
+                    <a role="button" href="/tags/Tickets" class="btn btn-default btn-xs">Tickets</a>
         </div>     
 </div>
                                         </div>
@@ -263,6 +263,13 @@ Published on 05 October 2013<br>    </div>
                                 var pattern = t.generate(header.clientWidth, header.clientHeight);
                                 header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
                         </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 

@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -97,10 +97,10 @@
     <div class="meta">        
 Published on 08 February 2012<br>    </div>
         <div class="tags">
-                    <a role="button" href="/tags/azure" class="btn btn-default btn-xs">Azure</a>
-                    <a role="button" href="/tags/blob" class="btn btn-default btn-xs">Blob</a>
-                    <a role="button" href="/tags/storage-account" class="btn btn-default btn-xs">Storage Account</a>
-                    <a role="button" href="/tags/wordpress" class="btn btn-default btn-xs">WordPress</a>
+                    <a role="button" href="/tags/Azure" class="btn btn-default btn-xs">Azure</a>
+                    <a role="button" href="/tags/Blob" class="btn btn-default btn-xs">Blob</a>
+                    <a role="button" href="/tags/Storage-Account" class="btn btn-default btn-xs">Storage Account</a>
+                    <a role="button" href="/tags/WordPress" class="btn btn-default btn-xs">WordPress</a>
         </div>     
 </div>
                                         </div>
@@ -345,6 +345,13 @@ Published on 08 February 2012<br>    </div>
                                 var pattern = t.generate(header.clientWidth, header.clientHeight);
                                 header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
                         </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 

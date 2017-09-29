@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -97,11 +97,11 @@
     <div class="meta">        
 Published on 15 May 2011<br>    </div>
         <div class="tags">
-                    <a role="button" href="/tags/dns" class="btn btn-default btn-xs">DNS</a>
-                    <a role="button" href="/tags/lync" class="btn btn-default btn-xs">Lync</a>
-                    <a role="button" href="/tags/office-365" class="btn btn-default btn-xs">Office 365</a>
-                    <a role="button" href="/tags/sharepoint" class="btn btn-default btn-xs">SharePoint</a>
-                    <a role="button" href="/tags/srv" class="btn btn-default btn-xs">SRV</a>
+                    <a role="button" href="/tags/DNS" class="btn btn-default btn-xs">DNS</a>
+                    <a role="button" href="/tags/Lync" class="btn btn-default btn-xs">Lync</a>
+                    <a role="button" href="/tags/Office-365" class="btn btn-default btn-xs">Office 365</a>
+                    <a role="button" href="/tags/SharePoint" class="btn btn-default btn-xs">SharePoint</a>
+                    <a role="button" href="/tags/SRV" class="btn btn-default btn-xs">SRV</a>
         </div>     
 </div>
                                         </div>
@@ -281,6 +281,13 @@ Published on 15 May 2011<br>    </div>
                                 var pattern = t.generate(header.clientWidth, header.clientHeight);
                                 header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
                         </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 

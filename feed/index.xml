@@ -4,40 +4,13 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2017</rights>
-	<updated>2017-09-28T07:14:47Z</updated>
+	<updated>2017-09-29T20:00:12Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducting-a-postman-collection-for-appveyor" />
 		<id>http://www.gep13.co.uk/blog/introducting-a-postman-collection-for-appveyor</id>
 		<title>Introducing a Postman Collection for AppVeyor</title>
 		<updated>2017-08-18T00:00:00Z</updated>
-		<content>&lt;p&gt;For a while now, I have been hacking on the AppVeyor API.  This has been in order to setup some automation between the various GitHub Teams that I have, and the AppVeyor Roles that allow access to the projects in AppVeyor.  This can of course be done manually, but when you start having over 30 teams, and over 70 projects, this becomes a bit of a problem.&lt;/p&gt;
-&lt;p&gt;While doing this, I found myself continually referring to the &lt;a href="https://www.appveyor.com/docs/api/"&gt;AppVeyor Documentation&lt;/a&gt; which is actually very good, and then doing little tests here and there using &lt;a href="https://www.getpostman.com/"&gt;Postman&lt;/a&gt; to verify things that I was trying to automate.&lt;/p&gt;
-&lt;p&gt;It got to the point where I had created the same request a couple of times on different days, so it was time to do something else, as this was wasted effort!&lt;/p&gt;
-&lt;p&gt;So, without further ado, let me introduce a &lt;a href="https://github.com/gep13/appveyor-postman"&gt;Postman Collection&lt;/a&gt; for all the requests that you can make against the AppVeyor API.&lt;/p&gt;
-&lt;p&gt;A video explaining what this is, and how you can use it, can be seen here:&lt;/p&gt;
-&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/U8mVjJxt_ts" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-&lt;p&gt;Going forward, I intend to keep this collection up to date with any new API requests that are added to AppVeyor.&lt;/p&gt;
-&lt;p&gt;Please let me know if you have any comments or suggestions on how this can be improved.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/introducting-a-postman-collection-for-appveyor' + 'S/';
-    var disqus_title = 'Introducing a Postman Collection for AppVeyor';
-    var disqus_url = 'http://www.gep13.co.uk/blog/introducting-a-postman-collection-for-appveyor' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -45,30 +18,6 @@
 		<id>http://www.gep13.co.uk/blog/mvp-award-kit</id>
 		<title>MVP Award Kit</title>
 		<updated>2017-07-25T00:00:00Z</updated>
-		<content>&lt;p&gt;At the end of last week, I received my MVP Award Kit from Microsoft, but I am really only just now getting a chance to sit down and have a proper look at it.&lt;/p&gt;
-&lt;p&gt;You can see photos of the unboxing below:&lt;/p&gt;
-&lt;div id="flickrembed"&gt;&lt;/div&gt;&lt;small style="display: block; text-align: center; margin: 0 auto;"&gt;Powered by &lt;a href="https://flickrembed.com"&gt;flickr embed&lt;/a&gt;.&lt;/small&gt;
-&lt;script src="https://flickrembed.com/embed_v2.js.php?source=flickr&amp;amp;layout=responsive&amp;amp;input=72157684028641824&amp;amp;sort=0&amp;amp;by=album&amp;amp;theme=default&amp;amp;scale=fit&amp;amp;skin=default&amp;amp;id=5850544461b40"&gt;&lt;/script&gt;
-&lt;p&gt;I have to say that I am very impressed with the kit.  It is a very nice gift to receive in addition to the recognition that goes with it.  Thank you!&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/mvp-award-kit' + 'S/';
-    var disqus_title = 'MVP Award Kit';
-    var disqus_url = 'http://www.gep13.co.uk/blog/mvp-award-kit' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -76,40 +25,6 @@
 		<id>http://www.gep13.co.uk/blog/how-to-use-appveyor-cache</id>
 		<title>How to use AppVeyor Build Cache</title>
 		<updated>2017-07-23T00:00:00Z</updated>
-		<content>&lt;p&gt;Another important feature offered by AppVeyor is it's &lt;a href="https://www.appveyor.com/docs/build-cache/"&gt;Build Cache&lt;/a&gt;.  Due to the fact that every AppVeyor build uses a fresh copy of the Build Agent Virtual Machine, any files and folders that were created as part of the build are not persisted between project builds.&lt;/p&gt;
-&lt;p&gt;So for example, if as part of your build you restore lots of NuGet packages, or you install packages from Chocolatey, then these things will have to happen on every build.  This is problematic for two reasons.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;It means that your builds are going to be slightly slower than they could be as they are having to restore these dependencies on every build&lt;/li&gt;
-&lt;li&gt;The success of your build is dependent on 3rd party websites being available.  So for example, if NuGet.org isn't working properly, your build is going to fail as those required packages can't be downloaded.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Making use of the AppVeyor Build Cache fixes both of these problems.&lt;/p&gt;
-&lt;p&gt;To set up the Build Cache is really simple:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;cache:
-  - tools -&amp;gt; build.cake, tools/packages.config
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;With this entry in your &lt;code&gt;.appveyor.yml&lt;/code&gt; file, at the end of the build all files and folders within the &lt;code&gt;tools&lt;/code&gt; folder will be added to the Build Cache, and restored on the next build.  Additionally, if either of the &lt;code&gt;build.cake&lt;/code&gt; or &lt;code&gt;tools/packages.config&lt;/code&gt; file change between Project Builds, then the tools folder in the Build Cache will be invalidated and re-created during the build.&lt;/p&gt;
-&lt;p&gt;This configuration gives us full flexibility and control over the Build Cache, which results in a more resilient and re-producible build.&lt;/p&gt;
-&lt;p&gt;I have created a short video with walks through this entire process, and shows the Build Cache in action, in the context of a build which uses the &lt;a href="http://cakebuild.net/"&gt;Cake Build Automation tool&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/ELb8l9nvWok" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-use-appveyor-cache' + 'S/';
-    var disqus_title = 'How to use AppVeyor Build Cache';
-    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-use-appveyor-cache' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -117,32 +32,6 @@
 		<id>http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection</id>
 		<title>How to use AppVeyor Remote Desktop Connection</title>
 		<updated>2017-07-23T00:00:00Z</updated>
-		<content>&lt;p&gt;One of the best things about AppVeyor is that it is a &lt;strong&gt;completely online Continuous Integration Server&lt;/strong&gt;.  You as a user don't have to worry about installing the latest version of it, or applying security patches, etc.  You can simply get on with the task at hand.  However, one of the worst things about AppVeyor is that it is a &lt;strong&gt;completely online Continuous Integration Server&lt;/strong&gt;.  Those times when the build isn't working, and you have no idea why, it can be difficult to figure it out solely based on the output logs.&lt;/p&gt;
-&lt;p&gt;That is where AppVeyor's unique ability to get a Remote Desktop Connection to the Build Agent is incredibly powerful!  You get complete administrator access to the VM for 60 minutes (either at the start of the build, or at the end of it), which gives to time to debug and figure out exactly what is going on.&lt;/p&gt;
-&lt;p&gt;All of this is explained in the AppVeyor &lt;a href="https://www.appveyor.com/docs/how-to/rdp-to-build-worker/"&gt;documentation site&lt;/a&gt; but I thought I would create a short video explaining exactly how it works.&lt;/p&gt;
-&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/5OHsXduezIw" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-&lt;h1 id="gotcha"&gt;Gotcha&lt;/h1&gt;
-&lt;p&gt;The only gotcha that I ran into while creating this video is that although it isn't mentioned, the password that you create for logging into the server is subject to the standard complexity rules, for example mixed upper and lower case letters, use of numbers and special characters, etc.  If you use a password that doesn't meet with these requirements, you will get a build error similar to this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/07/23/appveyor_rdp_password_error.png" class="img-fluid" alt="AppVeyor RDP Password Error"&gt;&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection' + 'S/';
-    var disqus_title = 'How to use AppVeyor Remote Desktop Connection';
-    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -150,64 +39,6 @@
 		<id>http://www.gep13.co.uk/blog/visual-studio-code-extension-for-cake-version-0.8.0</id>
 		<title>Version 0.8.0 of the Visual Studio Code extension for Cake</title>
 		<updated>2017-07-21T00:00:00Z</updated>
-		<content>&lt;p&gt;We are very happy to announce that a new version, 0.8.0, of the Visual Studio Code extension for Cake has just been released.  This release includes two main new features and one improvement.  These features really came about with the &lt;a href="https://code.visualstudio.com/updates/v1_14#_tasks"&gt;June release&lt;/a&gt; of Visual Studio Code, which brought with it a new Tasks API, making it possible for extension authors to "auto detect" tasks for execution.&lt;/p&gt;
-&lt;h1 id="more-information"&gt;More information...&lt;/h1&gt;
-&lt;p&gt;I have created a short video which walks through the new features that are included in this release.  If you have any comments, please feel to reach out to discuss.&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zzZuysl3xSg" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-&lt;h1 id="what-was-included-in-this-release"&gt;What was included in this release?&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/27"&gt;&lt;strong&gt;#27&lt;/strong&gt;&lt;/a&gt; Support ability to setup/install debugging dependencies&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/14"&gt;&lt;strong&gt;#14&lt;/strong&gt;&lt;/a&gt; Add ability to parse cake file(s) for tasks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Improvement&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/3"&gt;&lt;strong&gt;#3&lt;/strong&gt;&lt;/a&gt; Support deactivation of extension&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id="how-does-this-new-version-help-me"&gt;How does this new version help me?&lt;/h1&gt;
-&lt;p&gt;The features in this release are intended to help remove some of the manual steps that are required to both execute and debug tasks within your Cake scripts.  For example, rather than having to type out the build command, along with the target name, you can now simply click on the name for a list of all available targets.  In addition, rather than having to go through all the steps listed in this &lt;a href="http://cakebuild.net/blog/2016/09/debug-cake-vscode"&gt;blog post&lt;/a&gt; to configure debugging of Cake scripts, it is now simply 2 or 3 clicks away.&lt;/p&gt;
-&lt;h1 id="getting-help"&gt;Getting Help...&lt;/h1&gt;
-&lt;p&gt;This was my first real foray into Visual Studio Code Extension development, and also TypeScript, so to say that I was stumbling at the first hurdle would be an understatement.  I have to say though, the Visual Studio Code development team, in particular &lt;a href="https://twitter.com/erichgamma"&gt;Erich Gamma&lt;/a&gt;, are amazingly helpful.  As a result after:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;3 Stack Overflow Questions
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://stackoverflow.com/questions/45159393"&gt;https://stackoverflow.com/questions/45159393&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://stackoverflow.com/questions/45111482"&gt;https://stackoverflow.com/questions/45111482&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://stackoverflow.com/questions/45090999"&gt;https://stackoverflow.com/questions/45090999&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;GitHub conversations
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/Microsoft/vscode/issues/11565"&gt;https://github.com/Microsoft/vscode/issues/11565&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Twitter Conversations
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://twitter.com/ErichGamma/status/885822561136803840"&gt;https://twitter.com/ErichGamma/status/885822561136803840&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://twitter.com/ErichGamma/status/887315128022159361"&gt;https://twitter.com/ErichGamma/status/887315128022159361&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I actually had something that worked!  Thank you to everyone on the team for their help with getting this release out!&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/visual-studio-code-extension-for-cake-version-0.8.0' + 'S/';
-    var disqus_title = 'Version 0.8.0 of the Visual Studio Code extension for Cake';
-    var disqus_url = 'http://www.gep13.co.uk/blog/visual-studio-code-extension-for-cake-version-0.8.0' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -215,35 +46,6 @@
 		<id>http://www.gep13.co.uk/blog/i-am-a-microsoft-mvp</id>
 		<title>I am a Microsoft MVP</title>
 		<updated>2017-07-02T00:00:00Z</updated>
-		<content>&lt;p&gt;I am very happy to announce that yesterday, &lt;a href="https://blogs.msdn.microsoft.com/mvpawardprogram/2017/07/01/congratulations-mvps-july-17/?utm_source=t.co&amp;amp;utm_medium=referral"&gt;along with 35 other new people, and nearly 1400 renewed people&lt;/a&gt;, I was awarded with a Microsoft MVP Award!&lt;/p&gt;
-&lt;p&gt;For those of you who don't know, the Microsoft MVP Award, it is...&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;our way of saying "Thanks!" to outstanding community leaders. The contributions MVPs make to the community, ranging from speaking engagements, to social media posts, to writing books, to helping others in online communities, have incredible impact.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;If you are interested, you can find out more about it &lt;a href="https://mvp.microsoft.com/en-us/Overview"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;For a long time, I have often "thought" about being a Microsoft MVP, but I honestly never thought that I would be given one, so I am very happy to have recieved this.&lt;/p&gt;
-&lt;p&gt;When I found out the news yesterday, I was very excited.  I had literally just found out that a friend of mine, &lt;a href="https://twitter.com/devlead/status/881201782109728768"&gt;Mattias&lt;/a&gt;, had also been awarded with an MVP.  When I checked my email, I found that I too had recieved one.&lt;/p&gt;
-&lt;p&gt;I am looking forward to getting involved in the MVP Community, and continuing to contribute in the next year.&lt;/p&gt;
-&lt;p&gt;Congratulations to all the other new, and renewed, MVP's!&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/i-am-a-microsoft-mvp' + 'S/';
-    var disqus_title = 'I am a Microsoft MVP';
-    var disqus_url = 'http://www.gep13.co.uk/blog/i-am-a-microsoft-mvp' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -251,43 +53,6 @@
 		<id>http://www.gep13.co.uk/blog/talk-at-ddd12</id>
 		<title>Talk at DDD 12</title>
 		<updated>2017-06-12T00:00:00Z</updated>
-		<content>&lt;p&gt;On the 10th June 2017, I had the privelege of being asked to present a session at &lt;a href="http://developerdeveloperdeveloper.com/"&gt;DDD 12&lt;/a&gt;.  This is a free full day conference that takes place in the Microsoft Offices at Thames Valley Park in Reading.&lt;/p&gt;
-&lt;p&gt;The talk that I presented was:&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;Control your GitHub releases with GitVersion and GitReleaseManager&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;and the abstract was as follows:&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;Have you ever needed to control the version number of your open source application on GitHub? If so, you will likely know that it can be hard! You may have tried to use some form of auto incrementing number, or stored the version in a text file hoping that someone will remember to update it. Both of these approaches (and there are plenty others) will work, but they are fragile, and don’t account for some of the more complicated scenarios.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;And then, after controlling the version number, you then want to generate Release Notes for that newly released version.  How can you do this without manually trawling through the revision history?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;In this session, we will look at how we can improve the versioning strategy of your application using a combination of branching strategy (Gitflow), Semantic Versioning, an open source tool called GitVersion, and the commit history of your Git repository.  With the version number in place, we will then use the Issue and Milestone tracking functionality in GitHub to automatically generate a set of concise release notes using a tool called GitReleaseManager.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This was the first time that I had presented this talk, and overall, I was very happy with how it went.  This time around, after seeing &lt;a href="https://twitter.com/fekberg"&gt;@fekberg&lt;/a&gt; doing the same thing at a DDD conference last year, I opted to record the session on my laptop, and also on an external microphone, so that there would be a record of it.  If you weren't able to attend the session, or are simply interested in checking it out, you can find the video on YouTube:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/SlM02V1tkSc" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-&lt;p&gt;The GitHub repository that the presentation is driven from can be found &lt;a href="https://github.com/gep13/GitHubReleaseDemos"&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/talk-at-ddd12' + 'S/';
-    var disqus_title = 'Talk at DDD 12';
-    var disqus_url = 'http://www.gep13.co.uk/blog/talk-at-ddd12' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -295,94 +60,6 @@
 		<id>http://www.gep13.co.uk/blog/Introducing%20Cake.Chocolatey.Module</id>
 		<title>Introducing Cake.Chocolatey.Module</title>
 		<updated>2017-03-18T00:00:00Z</updated>
-		<content>&lt;h1 id="or-as-i-like-to-call-it"&gt;Or as I like to call it...&lt;/h1&gt;
-&lt;p&gt;The Chocolatey Cake Module!&lt;/p&gt;
-&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
-&lt;p&gt;Back in version &lt;a href="https://github.com/cake-build/cake/releases/tag/v0.13.0"&gt;0.13.0&lt;/a&gt; of Cake a feature known as &lt;a href="https://github.com/cake-build/cake/issues/646"&gt;Module Support&lt;/a&gt; was released.  This provided the ability to both extend and replace some of the built in functionality of Cake.&lt;/p&gt;
-&lt;p&gt;One of these extension points is the registration of &lt;a href="http://cakebuild.net/api/Cake.Core.Packaging/IPackageInstaller/"&gt;IPackageInstaller&lt;/a&gt;'s, which deal with installing tools and addins during the Cake Script execution.  The Chocolatey Cake Module provide the extension point to allow tools to be resolved using Chocolatey.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Chocolatey deals with the installation of applications.  As a result, it only makes sense for this module to deal with tools, and not addins.&lt;/p&gt;
-&lt;h1 id="why-is-this-needed"&gt;Why is this needed?&lt;/h1&gt;
-&lt;p&gt;Out of the box, Cake has the ability to install tools and addins from any NuGet source.  This is documented on the &lt;a href="http://cakebuild.net/docs/fundamentals/preprocessor-directives"&gt;Cake Website&lt;/a&gt;.  Recently, &lt;a href="https://github.com/larzw"&gt;Larz White&lt;/a&gt; &lt;a href="http://cakebuild.net/blog/2017/01/cake-paket"&gt;showed&lt;/a&gt; how it was possible to use an alternative package manager, namely &lt;a href="https://fsprojects.github.io/Paket/"&gt;Paket&lt;/a&gt; to install those tools and addins.&lt;/p&gt;
-&lt;p&gt;However, not all tools that you require for your build may be available as NuGet Packages.  This leaves you with two options (there are likely more, but for the purposes of this discussion, let's stick to two), you could either pre-install the required tools onto the build machine that you are using, or look to install those tools through a custom script, perhaps through something like &lt;a href="https://chocolatey.org/"&gt;Chocolatey&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;When I joined the Cake Team, one of the first things that I did was to add &lt;a href="http://cakebuild.net/dsl/chocolatey/"&gt;Chocolatey Aliases&lt;/a&gt; to Cake, so you have always been able to install Chocolatey packages as part of your build process, using something like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;ChocolateyInstall("MyChocolateyPackage");
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;For me, that removes an element of clarity over what tooling is required for the build.  I would much rather see all of the dependencies in one place, i.e. here:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;///////////////////////////////////////////////////////////////////////////////
-// TOOLS
-///////////////////////////////////////////////////////////////////////////////
-
-#tool nuget:?package=coveralls.io&amp;amp;version=1.3.4
-#tool nuget:?package=gitreleasemanager&amp;amp;version=0.5.0
-#tool nuget:?package=GitVersion.CommandLine&amp;amp;version=3.6.2
-#tool nuget:?package=JetBrains.ReSharper.CommandLineTools&amp;amp;version=2016.3.20161223.160402
-#tool nuget:?package=ReSharperReports&amp;amp;version=0.2.0
-#tool nuget:?package=KuduSync.NET&amp;amp;version=1.3.1
-#tool nuget:?package=Wyam&amp;amp;version=0.16.1
-#tool nuget:?package=gitlink&amp;amp;version=2.4.1
-#tool nuget:?package=MSBuild.Extension.Pack&amp;amp;version=1.9.0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Along with all the other tools that I use in my build.&lt;/p&gt;
-&lt;p&gt;And that is what this Cake Module allows you to do.  You can now add the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#tool choco:?package=nodejs.install&amp;amp;version=7.7.3
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Which would install version 7.7.3 of the &lt;a href="https://chocolatey.org/packages/nodejs.install"&gt;node.install package from chocolatey.org&lt;/a&gt;.&lt;/p&gt;
-&lt;h1 id="installation"&gt;Installation&lt;/h1&gt;
-&lt;p&gt;Due to the fact that Cake Modules are extending and altering the internals of the Cake, the Module Assembly needs to be loaded prior to the main Cake execution.  As a result, the only place that this can really happen is during the bootstrapping phase.  If you use the &lt;a href="https://github.com/cake-build/resources/commit/3d112812353d714dad142c41f170b949f4a2eb2f"&gt;latest version of the default bootstrapper&lt;/a&gt; this process is made very easy.  All you need to do is the following.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Add a modules folder into your tools folder&lt;/li&gt;
-&lt;li&gt;Add a packages.config file into the newly created modules folder&lt;/li&gt;
-&lt;li&gt;Add the name and version of the Module that you want to use.  &lt;strong&gt;NOTE:&lt;/strong&gt; At this point, the assumption is that you are hosting the Module on NuGet.org.  If this is not the case, then additional steps would be required.&lt;/li&gt;
-&lt;li&gt;An example packages.config file is shown below:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;?xml version="1.0" encoding="utf-8"?&amp;gt;
-&amp;lt;packages&amp;gt;
-	&amp;lt;package id="Cake.Chocolatey.Module" version="0.1.0" /&amp;gt;
-&amp;lt;/packages&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start="5"&gt;
-&lt;li&gt;Run the build as normal.  During the Cake Execution, it will recognise the Module Assembly which as been restored into the &lt;code&gt;tools/modules&lt;/code&gt; folder, and load it.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Similar to the recommendation &lt;a href="http://cakebuild.net/docs/tutorials/getting-started"&gt;here&lt;/a&gt; regarding only checking in your packages.config and not the entire contents of the Cake tools folder, the same recommendation is applied here.  Only check-in the packages.config file in the modules folder, and not the entire contents.&lt;/p&gt;
-&lt;h1 id="usage"&gt;Usage&lt;/h1&gt;
-&lt;p&gt;As mentioned above, installing a tool using the Chocolatey Cake Module is as simple as:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#tool choco:?package=nodejs.install&amp;amp;version=7.7.3
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If the tool in question comes from a different source, you can change that as follows:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#tool choco:https://www.myget.org/F/gep13/api/v2?package=gep13.gitConfig&amp;amp;version=1.0.6
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In this version 0.1.0 release of the Chocolatey Cake Module you can also specify whether the package in question is a pre-release or not:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#tool choco:?package=packageA&amp;amp;prerelease
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Future versions of the Chocolatey Cake Module will include additional options for installing the package, including things like &lt;code&gt;--forcex86&lt;/code&gt;, &lt;code&gt;--install-arguments&lt;/code&gt;, &lt;code&gt;--package-parameters&lt;/code&gt;, etc.  This initial release includes just the very basic of installation functionality.&lt;/p&gt;
-&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
-&lt;p&gt;You can find additional documentation for this module here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cake-contrib.github.io/Cake.Chocolatey.Module/"&gt;https://cake-contrib.github.io/Cake.Chocolatey.Module/&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
-&lt;p&gt;The source code for this Module can be found here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Chocolatey.Module"&gt;https://github.com/cake-contrib/Cake.Chocolatey.Module&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="chat-room"&gt;Chat Room&lt;/h2&gt;
-&lt;p&gt;If you have any questions about this Module, then please feel to drop into the Gitter Chat room for all the addins and modules which exist in the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation&lt;/a&gt; on GitHub:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gitter.im/cake-contrib/Lobby?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/cake-contrib/Lobby.svg" class="img-fluid" alt="Join the chat at https://gitter.im/cake-contrib/Lobby"&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/Introducing%20Cake.Chocolatey.Module' + 'S/';
-    var disqus_title = 'Introducing Cake.Chocolatey.Module';
-    var disqus_url = 'http://www.gep13.co.uk/blog/Introducing%20Cake.Chocolatey.Module' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -390,161 +67,6 @@
 		<id>http://www.gep13.co.uk/blog/how-to-run-octobox-on-synology-server</id>
 		<title>How to run Octobox on Synology Server using Docker</title>
 		<updated>2017-03-13T00:00:00Z</updated>
-		<content>&lt;h1 id="what-is-octobox"&gt;What is Octobox?&lt;/h1&gt;
-&lt;p&gt;The short answer, it is amazing!  The main site can be found &lt;a href="https://octobox.io/"&gt;here&lt;/a&gt;, and the source code on GitHub can be found &lt;a href="https://github.com/octobox/octobox"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The slightly longer answer, it is a UI that allows you to take back control over your GitHub Notifications, with functionality for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Archiving Notifications&lt;/li&gt;
-&lt;li&gt;Starring issues/pull requests&lt;/li&gt;
-&lt;li&gt;Getting an indication on the sort of subscription you have on the issue/pull request&lt;/li&gt;
-&lt;li&gt;Loads of other features that will help you make sense of all the notifications&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id="why-do-you-need-this"&gt;Why do you need this?&lt;/h1&gt;
-&lt;p&gt;If like me, on a daily basis you will have a torrent of email notifications that come through for the different issues/pull requests that you have subscribed to on GitHub.  These could be for issues/pull requests that you have raised, and a response is required from you, or simply issues/pull requests that you have a vested interested in following along.  Whatever the reason, the amount of notifications is huge, and can be overwhelming.  The main problem with both email and web notifications, is that normally once you have looked at them, they are gone, never to be seen again.  If you get distracted and move onto something else, it is all to easy to forget what you were looking at.&lt;/p&gt;
-&lt;p&gt;Octobox to the rescue...&lt;/p&gt;
-&lt;p&gt;This is where, for me, Octobox shines!  Once configured, issues/pull requests that you are actively looking at remain in your "Inbox", as can be seen here:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Octobox%20Inbox.png" class="img-fluid" alt="Octobox Inbox"&gt;&lt;/p&gt;
-&lt;p&gt;Once you are finished with an issue/pull request you have the option of archiving it, but have no fear, if another notification comes up for that issue/pull request, it will come back into your inbox.&lt;/p&gt;
-&lt;p&gt;It is not a very difficult concept, but the way it is implemented is VERY compelling, and such an improvement on the current notification system in the GitHub UI.&lt;/p&gt;
-&lt;h1 id="enough-already-how-to-we-use-it"&gt;Enough already, how to we use it?&lt;/h1&gt;
-&lt;p&gt;There are a couple options here...&lt;/p&gt;
-&lt;p&gt;Firstly, you can use the shared instance at &lt;a href="http://octobox.io,"&gt;http://octobox.io,&lt;/a&gt; however, this is limited in some functionality due to not being able to use shared key.&lt;/p&gt;
-&lt;p&gt;Secondly, you can deploy your own instance to Heroku, which seems like it would be very simple to set up and configure.&lt;/p&gt;
-&lt;p&gt;Thirdly, you have the option of running Octobox in Docker.  I opted for this option for a couple reasons.  I have never really used Docker in anger, and I wanted to see what all the fuss is about.  And also I have a reasonably beefy Synology Server that really isn't doing anything, other then running &lt;a href="http://www.hanselman.com/blog/UPDATED2014HowToSetupCrashPlanCloudBackupOnASynologyNASRunningDSM50.aspx"&gt;CrashPlan&lt;/a&gt; and Plex.  So I thought I would take it for a spin.&lt;/p&gt;
-&lt;h1 id="setup-steps"&gt;Setup steps&lt;/h1&gt;
-&lt;h2 id="install-docker"&gt;1. Install Docker&lt;/h2&gt;
-&lt;p&gt;This is a reasonably straight forward process.  Login to the DSM and select Package Center, and then search from Docker.  There should only be one result, with the option to Install.  &lt;strong&gt;NOTE:&lt;/strong&gt; The screenshot below shows the Open option simply because it is already installed.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Package_Center_Docker.png" class="img-fluid" alt="Package Center Docker"&gt;&lt;/p&gt;
-&lt;h2 id="install-git-server"&gt;2. Install Git Server&lt;/h2&gt;
-&lt;p&gt;In order to download the latest source code for Octobox, you are going to need to have git installed and running on your Synology Server.  The easiest way to do this is to install the Git Server Package.  Once again in the Package Center, search for git, and install the Git Server Package.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Package_Center_Git.png" class="img-fluid" alt="Package Center Git"&gt;&lt;/p&gt;
-&lt;h2 id="clone-the-octobox-repository"&gt;3. Clone the octobox repository&lt;/h2&gt;
-&lt;p&gt;Next up, we are going to need to clone the octobox source code onto the Synology Server.  In order to do this, we are going to need to execute commands over SSH on the Synology Server.  To do this, you will need to make sure that the SSH Service is running, and then establish an SSH connection to the Server.  First things first... In the DSM, select Control Panel, and then search for SSH.  In the results, select Terminal and SNMP, and make sure that the following checkbox is ticked, and then click Apply:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Control_Panel_SSH.png" class="img-fluid" alt="Control Panel SSH"&gt;&lt;/p&gt;
-&lt;p&gt;Now, using an SSH Client application (I personally use kitty, which can be installed easily using &lt;a href="https://chocolatey.org/packages/kitty"&gt;chocolatey&lt;/a&gt;, &lt;code&gt;choco install kitty&lt;/code&gt;), connect to the Synology Server.  This will require entering in your Synology Server IP address, and the same credentials you use to access the DSM.&lt;/p&gt;
-&lt;p&gt;Once in, create a folder for cloning the repository:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;mkdir github/clones/octobox&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;and navigate into that folder:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;cd github/clones/octobox&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;and then clone the repository:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;git clone https://github.com/octobox/octobox.git&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;and finally, navigate into that newly created repo:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;cd octobox&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id="create-an-oauth-application-for-octobox"&gt;4. Create an OAuth Application for Octobox&lt;/h2&gt;
-&lt;p&gt;In order to run the Octobox application, you are going to need a GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET.  These can be acquired by setting up a new OAuth Application within GitHub.  Go to the following &lt;a href="https://github.com/settings/applications/new"&gt;URL&lt;/a&gt; and set up the application using the IP Address of your device, in my case:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/GitHub_OAuth_Application.png" class="img-fluid" alt="GitHub OAuth Application Settings"&gt;&lt;/p&gt;
-&lt;p&gt;Take a note of the Client ID and Client Secret that will be generated for the application.&lt;/p&gt;
-&lt;h2 id="create-the-docker-containers"&gt;5. Create the Docker Containers&lt;/h2&gt;
-&lt;p&gt;In order to run, Octobox needs two Docker images, namely a ruby and postgre image.  Once instantiated, these images will run together to execute and persist the various information within the application.  Octobox makes use of Docker Compose to orchestrate the creation and running of these Containers.  To start that process (which the first time you run it will take quite a while) you can run the following command:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;GITHUB_CLIENT_ID=yourclientid GITHUB_CLIENT_SECRET=yourclientsecret docker-compose up --build&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Replace the required sections with the client id and secret that you got in step 4&lt;/p&gt;
-&lt;p&gt;Now, if like me, the first time you run this, you will get this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/docker_error.png" class="img-fluid" alt="Docker Error"&gt;&lt;/p&gt;
-&lt;p&gt;However, if you run this again using &lt;code&gt;sudo&lt;/code&gt; and accept the mandatory lecture, it should start running:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/sudo_ftw.png" class="img-fluid" alt="sudo FTW!"&gt;&lt;/p&gt;
-&lt;h2 id="get-a-coffeetea"&gt;6. Get a coffee/tea&lt;/h2&gt;
-&lt;p&gt;Now that this process is running it will take a while, so I would advise going to grab a beverage.  On my machine, it took about 30 minutes to complete.  During this process, if you look at the Docker UI within the Synology DSM, you will see it creating temporary Containers, which will ultimately be renamed:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/docker_temporary_containers.png" class="img-fluid" alt="Docker Temporary Containers"&gt;&lt;/p&gt;
-&lt;p&gt;The end result, once complete, should look like the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Completed_Docker_Images.png" class="img-fluid" alt="Completed Docker Images"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Completed_Docker_Containers.png" class="img-fluid" alt="Completed Docker Containers"&gt;&lt;/p&gt;
-&lt;h2 id="doh"&gt;7. Doh!&lt;/h2&gt;
-&lt;p&gt;Now, after all that waiting around, like me, you might end up with the following error message:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/things_not_looking_good.png" class="img-fluid" alt="When things go wrong..."&gt;&lt;/p&gt;
-&lt;p&gt;In all honesty, I have no real idea about what this error means, but, if you go to the &lt;a href="https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers"&gt;URL&lt;/a&gt; that is mentions, and run the command that is lists (which at the time of writing was the following):&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;&amp;amp; sudo sysctl -p&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;You should see the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/echo_output.png" class="img-fluid" alt="echo output"&gt;&lt;/p&gt;
-&lt;p&gt;Then, if you run the &lt;code&gt;docker compose&lt;/code&gt; command again, which should take far less time the second time around, you should be met with the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/docker_compose_success.png" class="img-fluid" alt="Docker Compose Success"&gt;&lt;/p&gt;
-&lt;h2 id="open-octobox"&gt;8. Open Octobox&lt;/h2&gt;
-&lt;p&gt;Fire open your browser of choice, and point it at &lt;a href="http://%3Csynology_server_ip_address%3E:3000"&gt;http://&amp;lt;synology_server_ip_address&amp;gt;:3000&lt;/a&gt; and hopefully you will see the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/its_alive.png" class="img-fluid" alt="It's ALIVE!"&gt;&lt;/p&gt;
-&lt;p&gt;And you will be able to login to the application using your standard credentials.&lt;/p&gt;
-&lt;h2 id="run-docker-command-in-background"&gt;9. Run docker command in background&lt;/h2&gt;
-&lt;p&gt;The command that we ran earlier run in process in the kitty session that we created.  As a result, hitting CTRL + C, or terminating the session will also terminate the Docker Containers, which is not really what we want.  Instead, go ahead and run the following command:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;GITHUB_CLIENT_ID=yourclientid GITHUB_CLIENT_SECRET=yourclientsecret docker-compose up --build -d&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; The important &lt;code&gt;-d&lt;/code&gt; switch at the end.  This will run the command in the background, and allow you to terminate the kitty session without stopping the containers.&lt;/p&gt;
-&lt;h2 id="and-that-is-that"&gt;10. And that is that!&lt;/h2&gt;
-&lt;p&gt;And that is all there is to it!  I have been using Octobox for a couple days now, and I have to say that it is amazing!  I have been able to turn off all email notifications now, and I still feel that I am getting all the information that I need, and more.&lt;/p&gt;
-&lt;p&gt;As one point of follow up, rather than typing out the above command, you might want to take a look at this &lt;a href="https://blog.agchapman.com/using-variables-in-docker-compose-files/"&gt;blog post&lt;/a&gt; which describes how to use an .env file to store the secure information. Big thanks to Alistair for his help here!&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-run-octobox-on-synology-server' + 'S/';
-    var disqus_title = 'How to run Octobox on Synology Server using Docker';
-    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-run-octobox-on-synology-server' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio" />
-		<id>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</id>
-		<title>Signing GitHub Commits with Keybase.io</title>
-		<updated>2017-03-09T00:00:00Z</updated>
-		<content>&lt;h1 id="tell-us-how-to-do-it-already"&gt;Tell us how to do it already!&lt;/h1&gt;
-&lt;p&gt;Yesterday, for the second time I had to sit down and figure out how to set up signing on my GitHub commits using the GPG Key which is provided by &lt;a href="https://keybase.io/"&gt;keybase.io&lt;/a&gt;, so it is time to write it down so that I don't forget how to do it again.&lt;/p&gt;
-&lt;h1 id="standing-on-the-shoulders-of-giants"&gt;Standing on the shoulders of giants...&lt;/h1&gt;
-&lt;p&gt;Almost all the steps that I follow are taken from this &lt;a href="https://www.herebedragons.io/sign-commits-keybase"&gt;blog post&lt;/a&gt; from Jan De Dobbeleer, so kudos to him for writing it up in the first place.&lt;/p&gt;
-&lt;h1 id="the-steps"&gt;The steps&lt;/h1&gt;
-&lt;p&gt;I already have a keybase.io account, and therefore the steps involved in setting that up are not covered here, but in truth, it is very simple.  Head on over to their site and walk through the process.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Install keybase.io CLI Tool&lt;/li&gt;
-&lt;li&gt;Install gpg4win-vanilla:&lt;br&gt;
-&lt;code&gt;choco install gpg4win-vanilla&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Add keybase folder to path:&lt;br&gt;
-&lt;code&gt;C:\Users\gary.park\AppData\Local\Keybase;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Export keybase keys and import into gpg4win:&lt;br&gt;
-&lt;code&gt;keybase pgp export | gpg --import&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Import private key:&lt;br&gt;
-&lt;code&gt;keybase pgp export --secret | gpg --allow-secret-key-import --import&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Find the ID for your key by using this command:&lt;br&gt;
-&lt;code&gt;gpg --list-secret-keys&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Using that ID, edit the key to make it trusted:&lt;br&gt;
-&lt;code&gt;gpg --edit-key F6993303&lt;/code&gt;&lt;br&gt;
-&lt;code&gt;trust&lt;/code&gt;&lt;br&gt;
-&lt;code&gt;5&lt;/code&gt;&lt;br&gt;
-&lt;code&gt;y&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;With these steps done, I am ready to continue with setting up git to use the new gpg key.  This is due to the fact that I have already imported the public key into GitHub.  If you haven't done that part yet, then I would encourage you to follow the steps on the linked blog post.&lt;/p&gt;
-&lt;p&gt;Rather than having to remember the various git configurations that I use, I have a chocolatey package that I use to set everything up.  As a result, I can simply run the following command:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;choco install gep13.gitConfig --source "'https://www.myget.org/F/gep13/api/v2;https://chocolatey.org/api/v2/'"&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;and all my git configuration will be applied, including setting up signing on commits, and my default merge/diff tools, etc.  If you are interested in the commands that I execute, you can find them all &lt;a href="https://github.com/gep13/ChocolateyPackages/blob/master/gep13.gitConfig/tools/ChocolateyInstall.ps1"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;And with all of that in place, the next time you do a commit on GitHub, you should see the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/09/verified-github-commit.png" class="img-fluid" alt="Verified GitHub Commit"&gt;&lt;/p&gt;
-&lt;p&gt;which, if you then drill into, will show additional information:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/09/additional-verification-information.png" class="img-fluid" alt="Additional Verification Information"&gt;&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio' + 'S/';
-    var disqus_title = 'Signing GitHub Commits with Keybase.io';
-    var disqus_url = 'http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -552,43 +74,13 @@
 		<id>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</id>
 		<title>An Update on Cake-Contrib User and Organisation</title>
 		<updated>2017-03-09T00:00:00Z</updated>
-		<content>&lt;h1 id="what-a-6-months-it-has-been"&gt;What a 6 months it has been!&lt;/h1&gt;
-&lt;p&gt;Back in August 2016, I (with the support of the rest of the Cake Team), put out a "call to arms" to the Cake Community.  What we were trying to address was the &lt;em&gt;potential&lt;/em&gt; stagnation of Addin's and Modules that were created by the Cake Community.  Full details of what we were trying to address can be found in this &lt;a href="http://cakebuild.net/blog/2016/08/cake-contribution-organization"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
-&lt;h1 id="current-status"&gt;Current Status&lt;/h1&gt;
-&lt;p&gt;6 months on, I am very proud to say that the Cake Community has come together in an amazing way.  As it currently stands, there are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;122&lt;/strong&gt; Cake Addin's and &lt;strong&gt;2&lt;/strong&gt; Modules are hosted on &lt;a href="https://www.nuget.org/packages?q=cake"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;35&lt;/strong&gt; Addin's and Modules have been moved under the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;87&lt;/strong&gt; Addin's have been documented and submitted to the &lt;a href="http://cakebuild.net/addins/"&gt;Cake Website&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Maintainers of &lt;strong&gt;101&lt;/strong&gt; Addin's have chosen to add the cake-contrib user as a co-maintainer of the package on &lt;a href="https://www.nuget.org/profiles/cake-contrib"&gt;NuGet.org&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Thank you all very much!&lt;/p&gt;
-&lt;p&gt;This last point is important, and I am particularly happy that maintainers have chosen to do this.  What this means is that, if a maintainer were no longer able/willing to support an Addin, the Cake Team would be in a position to continue to push updates to the same package id on NuGet.org.  As a result, we can ensure the continuation of support for that particular package.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Again, I want to stress here that this would only ever happen after every effort was made to get in touch with the original creator of the Cake Addin.&lt;/p&gt;
-&lt;p&gt;A very useful site effect of the cake-contrib user being added to so many NuGet packages is that we get a clear indication of the usage of the Addin's.  As of today, the packages that have been added to the cake-contrib user have been downloaded 315,909 times!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/09/cake-contrib-downloads.png" class="img-fluid" alt="cake-contrib package downloads"&gt;&lt;/p&gt;
-&lt;h1 id="going-forward"&gt;Going Forward&lt;/h1&gt;
-&lt;p&gt;I am continuing to encourage Addin and Module creators to both document, and add the cake-contrib NuGet user to, packages that they create.  I am tracking this on this &lt;a href="https://github.com/cake-build/website/issues/149"&gt;GitHub issue&lt;/a&gt;.  From time to time I check NuGet.org for new packages that have been pushed, so don't be surprised if I raise some issues on your repository once I know about the existence of the package.  This is not meant has any form of harassment, so apologies if it feels like that, but rather, trying to do what is best for the larger Cake Community.&lt;/p&gt;
-&lt;p&gt;Once again, a huge thank you to all the Cake Community, we very much appreciate your time, and Cake wouldn't be where it is today without you.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation' + 'S/';
-    var disqus_title = 'An Update on Cake-Contrib User and Organisation';
-    var disqus_url = 'http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio" />
+		<id>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</id>
+		<title>Signing GitHub Commits with Keybase.io</title>
+		<updated>2017-03-09T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -596,54 +88,6 @@
 		<id>http://www.gep13.co.uk/blog/granny-poem</id>
 		<title>Granny's Poem</title>
 		<updated>2017-02-21T00:00:00Z</updated>
-		<content>&lt;h1 id="the-broken-chain"&gt;The Broken Chain&lt;/h1&gt;
-&lt;p&gt;Today at my Granny's funeral, the following poem was read:&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;We little knew that morning&lt;br&gt;
-That God was going to call your name.&lt;br&gt;
-In life  we loved you dearly.&lt;br&gt;
-In death we do the same.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;It broke our hearts to lose you&lt;br&gt;
-You did not go alone,&lt;br&gt;
-For part of us went with you&lt;br&gt;
-The day God called you home.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;You left us peaceful memories&lt;br&gt;
-Your love is still our guide,&lt;br&gt;
-And though we cannot see you&lt;br&gt;
-You are always by our side.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;Our family chain is broken,&lt;br&gt;
-And nothing seems the same,&lt;br&gt;
-But as God calls us one by one&lt;br&gt;
-The chain will link again.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It was found hand written on the back of a card, in my Granny's handwriting.  It is a lovely poem, and one that seemed exactly right for her service.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/02/21/granny-poem.jpg" class="img-fluid" alt="Granny's Poem"&gt;&lt;/p&gt;
-&lt;p&gt;We are not sure exactly why my Granny had chosen to copy down the poem onto the card, but there must have been a reason.  A bit of research turned up the &lt;a href="http://www.rontranmer.com/broken-chain-revised"&gt;following website&lt;/a&gt;, which credits the poem (in a revised form) to Ron Trammer.  Thank you for your lovely words.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/granny-poem' + 'S/';
-    var disqus_title = 'Granny&amp;#x27;s Poem';
-    var disqus_url = 'http://www.gep13.co.uk/blog/granny-poem' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -651,31 +95,6 @@ The chain will link again.&lt;/p&gt;
 		<id>http://www.gep13.co.uk/blog/amelia-mabel-park</id>
 		<title>Amelia Mabel Park</title>
 		<updated>2017-02-17T00:00:00Z</updated>
-		<content>&lt;h1 id="amelia-mabel-park"&gt;Amelia Mabel Park&lt;/h1&gt;
-&lt;p&gt;Lynn and I are very proud to announce the arrival of our second daughter Amelia Mabel Park.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/02/17/amelia-mabel-park.jpg" class="img-fluid" alt="Amelia Mabel Park"&gt;&lt;/p&gt;
-&lt;p&gt;She was born at 02:02 at the Aberdeen Maternity Ward. She weighed 7 pounds, 8 and 1/2 ounces.  Both Mum and Baby are doing very well.&lt;/p&gt;
-&lt;p&gt;Like her &lt;a href="http://www.gep13.co.uk/blog/alivia-anne-park"&gt;sister&lt;/a&gt;, Amelia has a very special birthday, in the sense that it is symmetrical, 17/2/17, where Alivia's birthday is 13/9/13.  There is something magical to me in how this has happened.&lt;/p&gt;
-&lt;p&gt;I am very much looking forward to bringing my amazing wife and new daughter home from the hospital.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/amelia-mabel-park' + 'S/';
-    var disqus_title = 'Amelia Mabel Park';
-    var disqus_url = 'http://www.gep13.co.uk/blog/amelia-mabel-park' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -683,118 +102,6 @@ The chain will link again.&lt;/p&gt;
 		<id>http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch</id>
 		<title>How to rebase a PR branch</title>
 		<updated>2017-01-29T00:00:00Z</updated>
-		<content>&lt;h1 id="why-on-earth-would-you-do-this"&gt;Why on earth would you do this?!?&lt;/h1&gt;
-&lt;p&gt;Back in September 2016, GitHub announced a very interesting feature, namely, the ability for a maintainer of a repository to push changes back to a remote repository (i.e. fork) from where a PR had been submitted.&lt;/p&gt;
-&lt;p&gt;You can find out more information about this &lt;a href="https://github.com/blog/2247-improving-collaboration-with-forks"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This is particularly interesting for two reasons.&lt;/p&gt;
-&lt;p&gt;Firstly, during a PR review, the code that is being submitted might be almost exactly correct, and ready for inclusion in the repository, and there is only one tiny thing not quite right.  You, as the maintainer, could spend some time explaining what is required, or, with this new feature you can simply make the change yourself, push it back to the source branch, and then accept the PR.  Using this approach has a number of benefits.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;All the changes associated with the PR are contained within the PR for later review&lt;/li&gt;
-&lt;li&gt;Any Continuous Integration checks performed on the PR can be run again with these changes in place&lt;/li&gt;
-&lt;li&gt;It is sometimes quicker to simply make the change, rather than trying to explain it&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Secondly, the very nature of Open Source contributions means that there might be some time between when the PR was submitted, and when it is reviewed and ultimately merged.  On the projects that I work on, when this happens, there is a preference to have the changes in the PR branch rebased with the upstream branch, therefore bringing it up to date.  However, asking a contributor to an open source project to rebase a branch can sometimes be quite daunting.  I remember the first time that I was &lt;a href="https://github.com/chocolatey/chocolatey/pull/238"&gt;asked to do this&lt;/a&gt; on a PR into the Chocolatey Repository, and I literally had NO clue what I was doing.  Thankfully I had a lot of guidance from &lt;a href="https://github.com/rismoney"&gt;rismoney&lt;/a&gt; to help with this.  But again, rebasing can be quite daunting.  Being able to do this on behalf of the contributor opens up the potentially for a much quicker turn around on merging a PR.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Performing a rebase on someone else's fork is really only something that should be done if you intend to merge the PR straight away, once any CI builds have passed.  Doing anything else would leave their branch in a state that differs from their local copy of the truth, and quite simply, it would be bad form to leave it in this state, so don't do it!&lt;/p&gt;
-&lt;h1 id="the-contributor-has-to-allow-the-branch-to-be-updated"&gt;The contributor has to allow the branch to be updated&lt;/h1&gt;
-&lt;p&gt;As mentioned in the linked article, allow a PR branch to be updated is something that the contributor can choose not to allow, but it is enabled by default:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/29/allow-edit-from-maintainers.png" class="img-fluid" alt="Allow Edits from Maintainers"&gt;&lt;/p&gt;
-&lt;p&gt;I would encourage any contributor to leave this checkbox ticked when submitting a PR, as it does open up much more flexibility on the part of the maintainers of the project.&lt;/p&gt;
-&lt;h1 id="lets-see-this-in-action"&gt;Let's see this in action&lt;/h1&gt;
-&lt;p&gt;As an example of where this can be used, let's use this &lt;a href="https://github.com/cake-build/cake/pull/1360"&gt;PR&lt;/a&gt;.  Having reviewed the changes in this PR, I can say that it is good to go, however, this is the current state:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/29/this-branch-is-out-of-date-with-the-base-branch.png" class="img-fluid" alt="This branch is out of date with the base branch"&gt;&lt;/p&gt;
-&lt;p&gt;All the CI builds associated with the PR have passed, but it is now out of date with the base branch, meaning that it needs to be rebased.&lt;/p&gt;
-&lt;p&gt;If you look closely at the above screen shot, you will see the following text:&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;Add more commits by pushing to the wixheat-pog-fix branch on jnm2/cake&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This tells the maintainer of the project that when this PR was created, the box was checked to allow changes from the maintainer.  So, let's go ahead and rebase the PR branch with the latest from upstream, and push the changes back.  Then, once all the CI builds pass, we can get the PR merged in.&lt;/p&gt;
-&lt;p&gt;These are the steps that I follow:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;mkdir jnm2
-cd jnm2
-git clone https://github.com/jnm2/cake.git
-cd cake
-git checkout wixheat-pog-fix
-git remote add upstream https://github.com/cake-build/cake.git
-git fetch upstream develop
-git rebase upstream/develop
-git push -f
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Doing this last step causes the following to happen:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/29/git-push-force.png" class="img-fluid" alt="git push force"&gt;&lt;/p&gt;
-&lt;p&gt;i.e. all the CI builds for this PR are triggered again, but this time, the branch is up to date with the base branch.&lt;/p&gt;
-&lt;p&gt;Now, all you have to do is wait for these builds to finish, and assuming everything went well, you will see the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/29/all-ready-to-be-merged.png" class="img-fluid" alt="All ready to be merged"&gt;&lt;/p&gt;
-&lt;p&gt;At which point, you can merge the PR.  Job done!&lt;/p&gt;
-&lt;p&gt;Well, almost...&lt;/p&gt;
-&lt;p&gt;One of the most important things in Open Source is to be kind and courteous.  Someone has went out of their way to make a contribution into your project, so make sure that you say thank you!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/29/say-thank-you.png" class="img-fluid" alt="Say thank you"&gt;&lt;/p&gt;
-&lt;h1 id="thanks-to-mattias"&gt;Thanks to Mattias&lt;/h1&gt;
-&lt;p&gt;Huge thanks have to go to Mattias (a.k.a &lt;a href="https://twitter.com/devlead"&gt;devlead&lt;/a&gt;) for showing me that this was possible.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch' + 'S/';
-    var disqus_title = 'How to rebase a PR branch';
-    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
-		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
-		<title>How to create gh-pages branch</title>
-		<updated>2017-01-27T00:00:00Z</updated>
-		<content>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
-&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
-&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
-&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
-git rm -rf .
-echo "My Page" &amp;gt; index.html
-git add index.html
-git commit -a -m "First pages commit"
-git push --set-upstream origin gh-pages
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch"&gt;&lt;/p&gt;
-&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration"&gt;&lt;/p&gt;
-&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + 'S/';
-    var disqus_title = 'How to create gh-pages branch';
-    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -802,105 +109,13 @@ git push --set-upstream origin gh-pages
 		<id>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</id>
 		<title>Use Octokit to create labels</title>
 		<updated>2017-01-27T00:00:00Z</updated>
-		<content>&lt;h1 id="why-would-you-need-to-do-this"&gt;Why would you need to do this?&lt;/h1&gt;
-&lt;p&gt;Good question!  I have a small amount compulsive behaviour when it comes to labels that are associated with GitHub projects that I work on.  Both in terms of the colour that is used, as well as the text that is associated with the label.  Being consistent means that it is much easier to identity what an issue/pull request is about, before even reading anything about it.&lt;/p&gt;
-&lt;h1 id="so-what-is-the-problem"&gt;So what is the problem?&lt;/h1&gt;
-&lt;p&gt;By default, when you create a new repository on GitHub, this is what you get for labels:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/default-github-labels.png" class="img-fluid" alt="Default GitHub Labels"&gt;&lt;/p&gt;
-&lt;p&gt;Now, while some of you might be saying there is nothing wrong with this, I much prefer them to look like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/my-github-labels.png" class="img-fluid" alt="My GitHub Labels"&gt;&lt;/p&gt;
-&lt;p&gt;Ah, much better!&lt;/p&gt;
-&lt;p&gt;Now, while I could make these changes manually through the GitHub User Interface, this is time consuming, and prone to mistakes.  Having done this more than two times, it was time to automate it!&lt;/p&gt;
-&lt;h1 id="enter-octokit"&gt;Enter Octokit&lt;/h1&gt;
-&lt;p&gt;Octokit is GitHub API Client, which means that you can do pretty much anything through it, that you can do through the GitHub User Interface, including the creation of labels.&lt;/p&gt;
-&lt;p&gt;After a small amount of hacking, this is what I came up with (&lt;strong&gt;NOTE:&lt;/strong&gt; I wouldn't really consider this production ready code, but it does serve my purpose).&lt;/p&gt;
-&lt;h2 id="run-the-program"&gt;Run the Program&lt;/h2&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;private static GitHubClient _githubClient;
-
-static void Main(string[] args)
-{
-    _githubClient = CreateGitHubClient();
-
-    GetLabels();
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="create-the-github-client"&gt;Create the GitHub Client&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This part requires you to input either the password or access token that you use for GitHub.  The ProductHeaderValue can really be anything.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;private static GitHubClient CreateGitHubClient()
-{
-    var credentials = new Credentials("gep13", "&amp;lt;your access token needs to go here&amp;gt;");
-    var github = new GitHubClient(new ProductHeaderValue("gep13")) { Credentials = credentials };
-    return github;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="setup-default-labels"&gt;Setup Default Labels&lt;/h2&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;private static List&amp;lt;NewLabel&amp;gt; _defaultLabels = new List&amp;lt;NewLabel&amp;gt;();
-
-private static void SetUpDefaultLabels()
-{
-    _defaultLabels.Add(new NewLabel("Breaking change", "b60205"));
-    _defaultLabels.Add(new NewLabel("Bug", "ee0701"));
-    _defaultLabels.Add(new NewLabel("Build", "009800"));
-    _defaultLabels.Add(new NewLabel("Documentation", "d4c5f9"));
-    _defaultLabels.Add(new NewLabel("Feature", "84b6eb"));
-    _defaultLabels.Add(new NewLabel("Improvement", "207de5"));
-    _defaultLabels.Add(new NewLabel("Up-for-grabs", "159818"));
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="create-and-delete-labels"&gt;Create and Delete Labels&lt;/h2&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;private static void CreateLabels()
-{
-    SetUpDefaultLabels();
-
-    try
-    {
-        var labels = _githubClient.Issue.Labels.GetAllForRepository("cake-contrib", "Cake.Ember").Result;
-
-        foreach (var label in labels)
-        {
-            _githubClient.Issue.Labels.Delete("cake-contrib", "Cake.Ember", label.Name).Wait();
-        }
-
-        foreach (var label in _defaultLabels)
-        {
-            _githubClient.Issue.Labels.Create("cake-contrib", "Cake.Ember", label).Wait();
-        }
-    }
-    catch (Exception)
-    {
-        Debug.Write("boom");
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id="so-what-are-you-doing-here"&gt;So what are you doing here?&lt;/h1&gt;
-&lt;p&gt;Essentially what this boils down to is...&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Create a GitHub Client, which gives you access to the GitHub API&lt;/li&gt;
-&lt;li&gt;Configure the default labels that I want to create&lt;/li&gt;
-&lt;li&gt;Loop through and delete all the existing labels&lt;/li&gt;
-&lt;li&gt;Loop through and create the new default labels&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;With this in place, the total execution takes around 3 seconds to complete, as opposed to minutes of clicking the mouse.&lt;/p&gt;
-&lt;p&gt;Much better!&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/use-octokit-to-create-labels' + 'S/';
-    var disqus_title = 'Use Octokit to create labels';
-    var disqus_url = 'http://www.gep13.co.uk/blog/use-octokit-to-create-labels' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
+		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
+		<title>How to create gh-pages branch</title>
+		<updated>2017-01-27T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -908,53 +123,6 @@ private static void SetUpDefaultLabels()
 		<id>http://www.gep13.co.uk/blog/adding-clickable-links-for-headers</id>
 		<title>Adding clickable links for headers</title>
 		<updated>2017-01-11T00:00:00Z</updated>
-		<content>&lt;h1 id="click-click-click"&gt;Click, click, click!&lt;/h1&gt;
-&lt;p&gt;After reading this &lt;a href="http://www.digitaltapestry.net/posts/markdig-cheat-sheet"&gt;blog post&lt;/a&gt; from &lt;a href="https://github.com/wekempf"&gt;William Kempf&lt;/a&gt;, specifically this &lt;a href="http://www.digitaltapestry.net/posts/markdig-cheat-sheet#auto-identifiers"&gt;section&lt;/a&gt;, it got me thinking...&lt;/p&gt;
-&lt;p&gt;It's great that Markdig is automatically creating those anchor points in the HTML that is rendered, however, they are not exactly discoverable.  If you look at what happens on a &lt;a href="https://github.com/chocolatey/choco/wiki"&gt;GitHub wiki&lt;/a&gt; that renders Markdown, you will see that it comes up with this really nice icon on hovering over the link:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/11/github-wiki-rendering.png" class="img-fluid" alt="How headers are rendered on GitHub"&gt;&lt;/p&gt;
-&lt;p&gt;Clicking on this icon navigates directly to the header, and makes it really easy to share that link with other people.&lt;/p&gt;
-&lt;h1 id="i-want-to-do-this-do"&gt;I want to do this do!&lt;/h1&gt;
-&lt;p&gt;When I write a blog post, I typically break the post into a number of sections, and I wanted to be able to do the same thing here.  So, I asked the question in the &lt;a href="https://gitter.im/Wyamio/Wyam?at=587544c9873d96e16d4f9b05"&gt;Wyam Gitter Room&lt;/a&gt; and almost immediately I got a response from &lt;a href="https://github.com/daveaglick"&gt;Dave Glick&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;There is - in fact strongly considering adding this and code block copy buttons to the themes (it's all frontend JS stuff) - here's the two libraries I like the best: &lt;a href="https://github.com/bryanbraun/anchorjs"&gt;https://github.com/bryanbraun/anchorjs&lt;/a&gt; (for anchor links) and &lt;a href="https://github.com/zenorocha/clipboard.js"&gt;https://github.com/zenorocha/clipboard.js&lt;/a&gt; (for clipboard copying)
-Adding them to your own site would just be a matter of putting the appropriate JS in the _Scripts.cshtml file&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id="the-implementation"&gt;The implementation&lt;/h1&gt;
-&lt;p&gt;With this information in hand, I set about adding it to my blog.  The only addition that was required was the following in my &lt;code&gt;input\_scripts.cshtml&lt;/code&gt; file:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-html"&gt;&amp;lt;script type="text/javascript" src="/assets/js/anchor.min.js"&amp;gt;&amp;lt;/script&amp;gt;
-
-&amp;lt;script type="text/javascript"&amp;gt;
-    anchors.options.placement = 'left';
-    anchors.add();
-&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;div class="alert alert-info"&gt;&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In order to match what GitHub does, I have explicitly set the &lt;code&gt;placement&lt;/code&gt; property to appear on the left of the header.  The default is to have it appear on the right of the header.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;The end result of this &lt;del&gt;hard work&lt;/del&gt; can be seen here:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/11/anchorjs-in-action.png" class="img-fluid" alt="AnchorJs in action"&gt;&lt;/p&gt;
-&lt;p&gt;an easily discoverable way to link to section headers.&lt;/p&gt;
-&lt;h1 id="the-future"&gt;The future&lt;/h1&gt;
-&lt;p&gt;Sounds like Dave is planning on adding this functionality to the default Blog Recipe for Wyam, so at some point it is likely that you will not need to do the above, it should just happen auto-magically, but for now, I am more than happy with the end result.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/adding-clickable-links-for-headers' + 'S/';
-    var disqus_title = 'Adding clickable links for headers';
-    var disqus_url = 'http://www.gep13.co.uk/blog/adding-clickable-links-for-headers' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -962,82 +130,6 @@ Adding them to your own site would just be a matter of putting the appropriate J
 		<id>http://www.gep13.co.uk/blog/how-to-skip-appveyor-builds</id>
 		<title>How to skip AppVeyor builds</title>
 		<updated>2017-01-10T00:00:00Z</updated>
-		<content>&lt;h1 id="why-skip-builds"&gt;Why skip builds?&lt;/h1&gt;
-&lt;p&gt;9 times out of 10, there is actually no need to skip a build that is triggered on AppVeyor, or any Continuous Integration server.  The whole point is that you &lt;em&gt;want&lt;/em&gt; to trigger a build on every commit, so that you can see when things stopped working.  There are however those times when the change that you are making doesn't justify, or require a build.&lt;/p&gt;
-&lt;p&gt;For me, this is normally when I am making a small change, for example:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;correcting whitespace in a file&lt;/li&gt;
-&lt;li&gt;adding/correcting documentation&lt;/li&gt;
-&lt;li&gt;fixing a coding/style convention&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In these situations, running a build simply isn't needed, as it is highly unlikely that these changes will result in a failed build.&lt;/p&gt;
-&lt;p&gt;Now, purists out there will be saying that your Continuous Integration builds shouldn't take a long to run, therefore, you should simply run every build.  While I don't disagree that your Continuous Integration builds should be quick to run, I still think there is a need to control if/when a build executes.&lt;/p&gt;
-&lt;h1 id="why-not-simply-stop-the-build"&gt;Why not simply stop the build?&lt;/h1&gt;
-&lt;p&gt;Some people out there might be asking why not simply stop the build if not required.  There is nothing wrong with that approach, but for me, it would break me out of the coding workflow.  I would need to jump to the Continuous Integration server in order to stop the build, taking me away from what I was doing.  This for me is a show stopper, so there has to be another way.&lt;/p&gt;
-&lt;h1 id="appveyor-has-you-covered"&gt;AppVeyor has you covered!&lt;/h1&gt;
-&lt;p&gt;For the Open Source Projects that I work on, I use &lt;a href="https://www.appveyor.com/"&gt;AppVeyor&lt;/a&gt; as my default Continuous Integration system.  It is incredibly easy to setup and use, and it is completely free for Open Source projects.&lt;/p&gt;
-&lt;p&gt;Once you have configured AppVeyor to work with your source control repository, any time you create a commit into the repository, a build will be triggered on AppVeyor.&lt;/p&gt;
-&lt;div class="alert alert-info"&gt;&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Depending on your AppVeyor configuration, this might not be exactly correct.  For example, you might have corrected AppVeyor to only trigger on certain branches.  However, for the purposes of this blog post, let's assume that the above it correct.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Out of the box, a series of commits into your repository:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/10/appveyor-github-commits.png" class="img-fluid" alt="Series of commits into Source Control"&gt;&lt;/p&gt;
-&lt;p&gt;results in the following builds being triggered on AppVeyor:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/10/appveyor-builds.png" class="img-fluid" alt="Resulting Builds on AppVeyor"&gt;&lt;/p&gt;
-&lt;h2 id="skip-commits-using-direct-commits-messages"&gt;Skip commits using direct commits messages&lt;/h2&gt;
-&lt;p&gt;Let's imaginge the situation that I was away to make a commit into source control, if I add either &lt;code&gt;[skip ci]&lt;/code&gt; or &lt;code&gt;[ci skip]&lt;/code&gt; to the end of the commit message, then AppVeyor will ignore the commit, and &lt;em&gt;NOT&lt;/em&gt; run a build.&lt;/p&gt;
-&lt;p&gt;To show this, have a look at this series of commits:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/10/appveyor-github-commits-with-skip.png" class="img-fluid" alt="Series of commits into Source Control with skip commit message"&gt;&lt;/p&gt;
-&lt;p&gt;and the resulting builds on AppVeyor:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/10/appveyor-appveyor-builds-with-skip.png" class="img-fluid" alt="Resulting Builds on AppVeyor with skip commit"&gt;&lt;/p&gt;
-&lt;p&gt;Notice that there was not a build for the commit message of &lt;code&gt;Fourth commit [skip ci]&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id="its-good-but-not-quite-good-enough"&gt;It's good, but not quite good enough&lt;/h2&gt;
-&lt;p&gt;The above strategy works really well, however, it does rely on the end user, i.e. me, remembering to add the nomenclature at the end of the commit message.  Unfortunately, this is not something that is likely to happen, and would therefore invalidate the premise of this blog post.&lt;/p&gt;
-&lt;p&gt;In order to help with this, AppVeyor also helps by allowing the configuration of a regular expression, which examines the commit message, and based on finding a match, will skip the build.&lt;/p&gt;
-&lt;p&gt;The is ideal for the way that I work.  I use commit messages like the following:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;(GH-123) Added foo to bar&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;where the GitHub issue associated with the commit is housed within a set of parenthesis.&lt;/p&gt;
-&lt;p&gt;When I do a commit that is purely related to say documentation, then I use a commit message similar to the following:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;(doc) Corrected typo in bar class&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;If I can configure a regular expression that can match on this convention, then I can use my existing workflow, whilst also skipping builds that are not required.&lt;/p&gt;
-&lt;p&gt;The AppVeyor configurtion that I use to make this happen is the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yaml"&gt;#---------------------------------#
-#  Skip builds for doc changes    #
-#---------------------------------#
-skip_commits:
-  # Regex for matching commit message
-  message: /\(doc\).*/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;So, if I have a commit into source control like the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/10/appveyor-github-commits-with-doc.png" class="img-fluid" alt="Series of commits into Source Control with doc commit message"&gt;&lt;/p&gt;
-&lt;p&gt;then AppVeyor simply skips the build:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/10/appveyor-builds-with-doc.png" class="img-fluid" alt="Resulting Builds on AppVeyor with doc commit message"&gt;&lt;/p&gt;
-&lt;h1 id="additional-options"&gt;Additional options&lt;/h1&gt;
-&lt;p&gt;The above configuration works perfectly for me, however, AppVeyor includes a number of other &lt;a href="https://www.appveyor.com/docs/how-to/filtering-commits/"&gt;configuration options&lt;/a&gt; to skip builds.  This includes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;skipping and including commits based on author of commit&lt;/li&gt;
-&lt;li&gt;skipping and including commits based on file name&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I personally haven't had a need for this type of configuration, but I would encourage you to look at them, if they suit your particular workflow.&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/how-to-skip-appveyor-builds' + 'S/';
-    var disqus_title = 'How to skip AppVeyor builds';
-    var disqus_url = 'http://www.gep13.co.uk/blog/how-to-skip-appveyor-builds' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -1045,175 +137,6 @@ skip_commits:
 		<id>http://www.gep13.co.uk/blog/2016-a-retrospective</id>
 		<title>2016 - A Retrospective</title>
 		<updated>2017-01-03T00:00:00Z</updated>
-		<content>&lt;h1 id="what-a-year-it-has-been"&gt;What a year it has been!&lt;/h1&gt;
-&lt;p&gt;Looking back on 2016 it has been full of personal high and lows, but all in all, it has been a great year, for lots of reasons.  This post is a very brief recap, in no particular order, of some of the highlights.&lt;/p&gt;
-&lt;h2 id="baby-park-2"&gt;Baby Park #2&lt;/h2&gt;
-&lt;p&gt;Early on in 2016, Lynn and I were very happy to announce the impedding arrival of our second child.  Baby Park #2 is due on February 16th.  Yes, that is only just over 6 weeks away!  We are trying to tell ourselves that we are ready for the arrival, but I am not sure if we are.  The last couple of days have been about getting things ready, making the cot, the moses basket, etc, but still loads to do.  Alivia is getting more and more excited about being a big sister, which is great to see, so definitely some fun times ahead here.&lt;/p&gt;
-&lt;h2 id="github-contributions"&gt;GitHub Contributions&lt;/h2&gt;
-&lt;p&gt;After taking part in &lt;a href="https://hacktoberfest.digitalocean.com/"&gt;Hacktoberfest&lt;/a&gt; and &lt;a href="https://24pullrequests.com/"&gt;24 Pull Requests&lt;/a&gt; in 2015, I had a renewed vigour for contributing to the Open Source Community, and this continued through the whole of 2016.  Which can be seen in the chart below:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/GitHub-Contributions.png" class="img-fluid" alt="2016 GitHub Contributions"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; The eagle eyed amongst you might notice a prolonged break at the end of June.  That was when I was on holiday in Portugal for my sister's wedding.&lt;/p&gt;
-&lt;p&gt;Yes, I think I do have a sort of addiction, but it has been great fun.&lt;/p&gt;
-&lt;p&gt;I have continued to contribute to the projects that I have a passion for, including:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/chocolatey/choco"&gt;Chocolatey&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-build/cake"&gt;Cake&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager"&gt;GitReleaseManager&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/GitTools/GitVersion"&gt;GitVersion&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As well as helping out on other projects, where and when I can.  I can honestly say that I have learnt a lot through the contributions that I have been making, and I am looking forward to continuing the contributions through into this year.&lt;/p&gt;
-&lt;p&gt;A quick recap of the years events from a Cake perspective can be seen &lt;a href="http://cakebuild.net/blog/2016/12/icing-on-the-cake"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="podcasts"&gt;Podcasts&lt;/h2&gt;
-&lt;p&gt;In 2016 I was lucky enough to be invited onto a number of podcasts to discuss &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt;, the C# Build Automation system which I am a maintainer of.  These were:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-on-msdev-show"&gt;MS Dev Show&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-on-.net-rocks"&gt;.Net Rocks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-on-cynical-developer"&gt;Cynical Developer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-on-herding-code"&gt;Herding Code&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I have been a long time listener to all of these shows (with the exception of Cynical Developer which has really only just started, but is now on my playlist), and to get invited to talk on them was a huge privelege.  Thank you!&lt;/p&gt;
-&lt;p&gt;I was particularly necessary and excited about going on the .Net Rocks show, due to the fact that it was an in person interview with Carl and Richard while I was at &lt;a href="http://ndcoslo.com/"&gt;NDC Oslo&lt;/a&gt;.  I had also just came off stage from doing my presentation.&lt;/p&gt;
-&lt;h2 id="talks"&gt;Talks&lt;/h2&gt;
-&lt;p&gt;In terms of speaking engagements, this year was by far by busiest.  With the arrival of our daughter Alivia a few years ago, I sort of stepped back from submitting talks to Developer Conferences, but this year that changed...&lt;/p&gt;
-&lt;p&gt;I did talks at:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-at-aberdeen-developers"&gt;Aberdeen Developers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-at-ddd-scotland"&gt;DDD Scotland&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-at-ndc-oslo"&gt;NDC Oslo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-at-ddd-reading"&gt;DDD Reading&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.gep13.co.uk/blog/cake-at-ddd-north"&gt;DDD North&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The stand out of the above has to be NDC Oslo.  This is quite simply an amazing conference and I have been lucky enough to attend it for the last 3 years.  It was also the most nerve wracking one, as it was the largest audience that I have ever presented to.  Happy to say that I made it through, and the feedback that I received was remarkably positive, so I am very happy with how the talks went.&lt;/p&gt;
-&lt;p&gt;A huge thank you to all the Conference Organisers for these events!&lt;/p&gt;
-&lt;h2 id="hacktoberfest-and-24-pull-requests"&gt;Hacktoberfest and 24 Pull Requests&lt;/h2&gt;
-&lt;p&gt;In the same way as I did in 2015, I participated in both &lt;a href="https://hacktoberfest.digitalocean.com/"&gt;Hacktoberfest&lt;/a&gt; and &lt;a href="https://24pullrequests.com/"&gt;24 Pull Reuqests&lt;/a&gt; in 2016.&lt;/p&gt;
-&lt;p&gt;For those of you that don't know, Hacktoberfest is an online event ran by &lt;a href="https://www.digitalocean.com/"&gt;DigitalOcean&lt;/a&gt;.  The idea is simple, in the month of October, submit 4 or more Pull Requests to a project on GitHub.  Simples!  If you do this, you get an awesome t-shirt, as well as some swag, and of course, some bragging rights and internet points.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/hacktoberfest-swag.jpg" class="img-fluid" alt="Hacktoberfest"&gt;&lt;/p&gt;
-&lt;p&gt;24 Pull Requests is similar, with the exception being that the target is 24 Pull Requests, and it is in the month of December.  Unfortunately, there isn't any swag associated with this particular contest, but I wouldn't let that put you off taking part.  This year, I was a little bit late in getting all my Pull Requests in, working right up until the last day.  In 2015, I was able to make 40 Pull Requests and complete in plenty of time.  Going to have to pull my socks up in 2017!&lt;/p&gt;
-&lt;h2 id="stack-overflow-contributions"&gt;Stack Overflow Contributions&lt;/h2&gt;
-&lt;p&gt;I have been an on/off user of Stack Overflow since joining in 2011.  Mainly as a consumer of answers, it is an invaluable resource.  In 2016 though, I made a concerted effort to try to provide answers to questions rather than simply use the existing answers.  This was mainly due to my increased involvement in the Open Source projects that I work on.  As a result, I have seen an significant increase in my Stack Overflow reputation this year:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation.png" class="img-fluid" alt="Stack Overflow Reputation"&gt;&lt;/p&gt;
-&lt;p&gt;And having just logged in just now, I have just seen that I am now in the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation-top.png" class="img-fluid" alt="Stack Overflow Reputation Top 14% overall"&gt;&lt;/p&gt;
-&lt;p&gt;To date, my top answer on Stack Overflow is:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://stackoverflow.com/questions/28235388/where-is-the-chocolatey-installation-path/28239451#28239451"&gt;Where is the Chocolatey installation path&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;and my top question is:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-default-editor-for-git"&gt;How to use Visual Studio Code as Default Editor for Git&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Since I have been using Stack Overflow more and more, I have started to see some of the issues that I have heard people talking about on places like Twitter.  i.e. people getting into arguments, questions getting quickly marked down, and deleted/removed, etc.  There is definitely an element of this, but I still think that the benefits far outweigh the negatives.&lt;/p&gt;
-&lt;p&gt;It is still annoying though when you spend &lt;a href="http://stackoverflow.com/questions/41294279/chocolatey-from-where-does-it-find-the-package"&gt;a lot of time on an answer&lt;/a&gt; and then you get &lt;strong&gt;nothing&lt;/strong&gt; back from the original author!&lt;/p&gt;
-&lt;p&gt;On the plus side, you can get access to some funny hats!!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-profile.png" class="img-fluid" alt="Stack Overflow Profile"&gt;&lt;/p&gt;
-&lt;h2 id="teamcity-plugin-contest"&gt;TeamCity Plugin Contest&lt;/h2&gt;
-&lt;p&gt;This year, I was asked to be a judge in the annual &lt;a href="https://blog.jetbrains.com/teamcity/2016/10/teamcity-2016-plugin-contest-announcement/"&gt;TeamCity Plugin Contest&lt;/a&gt;, which was indeed an honour and a privelege.  The contest website can be seen &lt;a href="https://plugins.jetbrains.com/contest/teamcity/"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Along with the TeamCity Development Team, Wesley Higbee, Jeffrey Palermo and myself were asked to judge 26 different plugins, scoring them on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Usefulness&lt;/li&gt;
-&lt;li&gt;Creativity and Elegance&lt;/li&gt;
-&lt;li&gt;Completeness&lt;/li&gt;
-&lt;li&gt;Code quality and documentation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/teamcity-plugin-contest.png" class="img-fluid" alt="TeamCity Coding Contest Judges"&gt;&lt;/p&gt;
-&lt;p&gt;I wasn't able to offer much in terms of judging Code Quality, as I have never done any Kotlin programming (although it is on my list of things to look at), but I was able to score the plugins in the other areas.  In all honesty, this was a lot of fun (although it did take quite a while to go through them all).  There were some amazing entries, and the end results can be seen &lt;a href="https://blog.jetbrains.com/teamcity/2016/12/teamcity-plugin-contest-2016-winners-announcement/"&gt;here&lt;/a&gt;.  Congratulations to the winners, and well done to everyone who took part!&lt;/p&gt;
-&lt;h2 id="winops-conf-2016"&gt;WinOps Conf 2016&lt;/h2&gt;
-&lt;p&gt;In May I was able to attend the WinOps Conference in London.  This is the second time that I have attended this conference, but this time I was there in a more official capacity.  &lt;a href="https://chocolatey.org/"&gt;Chocolatey&lt;/a&gt; was the lanyard sponsor for the event, and I was there to answer any questions that anyone had on Chocolatey.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/chocolatey-lanyard-sponsor.jpg" class="img-fluid" alt="Chocolatey Lanyard Sponsor"&gt;&lt;/p&gt;
-&lt;p&gt;I was able to hang out on the Puppet booth, and to hand out some of the new Chocolatey Icon stickers which were released this year.&lt;/p&gt;
-&lt;p&gt;I was also able to grab some time with Jeffrey Snover to discuss some of the newer features that have been coming out recently in Chocolatey.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/winops-chocolatey-jsnover.jpg" class="img-fluid" alt="WinOps 2016 Chocolatey Jeffrey Snover"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Image taken from Official WinOps Twitter Feed &lt;a href="https://twitter.com/winopsldn/status/735135079886950400"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The videos from this event can be seen on Channel 9 &lt;a href="https://channel9.msdn.com/Events/WinOps/WinOps-Conf-2016"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="microsoft-band-saga"&gt;Microsoft Band Saga&lt;/h2&gt;
-&lt;p&gt;Anyone who follows me on Twitter will be aware that I have had a number of ongoing problems with my Microsoft Band 2.  I genuinely, really like this device, it does everything that I need, and more, however, it keeps breaking!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/microsoft-band.jpg" class="img-fluid" alt="Microsoft Band strap split"&gt;&lt;/p&gt;
-&lt;p&gt;This year, I have had to return the device twice for the same problem, in the exact same location.  In December, the same thing happened again.  This time around though, after hearing that there are &lt;a href="https://www.thurrott.com/mobile/microsoft-band/82073/disbanded-microsoft-confirms-will-not-sell-band-3"&gt;no plans for Microsoft to continue with the device&lt;/a&gt;,  I have requested a refund from Microsoft, rather than a replacement.  I haven't yet heard whether this is going to go through or not, but I am hopeful.  A courier is picking up the device on the 4th January, so I should find out soon whether it will go through.  The next question is obviously what to replace it with?&lt;/p&gt;
-&lt;h3 id="update"&gt;Update&lt;/h3&gt;
-&lt;p&gt;I am very happy to announce that Microsoft have indeed refunded me for the Microsoft Band.  Now I just need to decide on what device to go with next.&lt;/p&gt;
-&lt;h2 id="aberdeen-developers"&gt;Aberdeen Developers&lt;/h2&gt;
-&lt;p&gt;Although I have taken a step backwards recently, through the help of &lt;a href="https://twitter.com/nyami"&gt;@nyami&lt;/a&gt;, I am very happy to say that &lt;a href="http://www.aberdeendevelopers.co.uk/"&gt;Aberdeen Developers .Net User Group&lt;/a&gt; is still going strong.  I was able to help out this year with a couple of the events, but lots of credit has to go to Doug for keeping it going!&lt;/p&gt;
-&lt;p&gt;This year the group hosted 8 events:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/october-2016-meeting-keith-davidson/"&gt;Keith Davidson&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/september-2016-meeting-colin-mackay/"&gt;Colin Mackay&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/august-2016-meeting-steven-chalmers/"&gt;Steven Chalmers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/july-2016-meeting-mike-taulty/"&gt;Mike Taulty&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/may-2016-meeting-kendall-miller/"&gt;Kendall Miller&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/april-2016-meeting-gary-ewan-park/"&gt;Gary Ewan Park&lt;/a&gt; - who is THAT guy!&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/march-2016-meeting-christos-matskas/"&gt;Christos Matskas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/scotnetrocks-aberdeen/"&gt;Carl Franklin and Richard Campbell&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The stand out event is &lt;del&gt;the one that I did&lt;/del&gt; obviously the aptly named ScotNetRocks tour!  This featured the amazing Carl Franklin and Richard Campbell from the &lt;a href="https://www.dotnetrocks.com/"&gt;.Net Rocks podcast&lt;/a&gt;.  This event was done in conjunction with the guys from &lt;a href="https://scottishdevelopers.com/"&gt;Scottish Developers&lt;/a&gt; and saw Carl and Richard visit Glasgow, Edinburgh, as well as Aberdeen.  The tour was a fantastic success, and the feedback that we got was amazing!  Once again, a huge thanks for the sponsors of the event, &lt;a href="http://www.codify.ltd.uk/"&gt;Codify&lt;/a&gt;, &lt;a href="http://www.evokeit.com/"&gt;Evoke IT&lt;/a&gt; and &lt;a href="http://www.lockheedmartin.co.uk/uk.html"&gt;Lockheed Martin&lt;/a&gt; without whom the event couldn't have happened!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/scotnetrocks.jpg" class="img-fluid" alt="ScotNetRocks Tour Aberdeen"&gt;&lt;/p&gt;
-&lt;h2 id="converted-blog-to-wyam"&gt;Converted Blog to Wyam&lt;/h2&gt;
-&lt;p&gt;For a very long time, this blog has suffered from a lack of updates.  The main excuse for this was that the workflow for creating a post (in my opinion) was significantly jarring, so although from time to time I had ideas for creating posts, this simply didn't happen.  This is now set to change though.  In December I converted this blog to use &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt; as the underlying blog engine, and in addition to switching to using &lt;a href="https://markdownmonster.west-wind.com/"&gt;Markdown Monster&lt;/a&gt;, the workflow is far smoother.  This is mainly down to the plugins that Markdown Monster comes with, namely:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Snagit Screen Capture&lt;/li&gt;
-&lt;li&gt;Paste Code as Gist&lt;/li&gt;
-&lt;li&gt;Save Image to Azure Blob Storage&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;which means that the process of creating a post, including the images associated with the post, is far more streamlined.  This will be the content of another upcoming blog post, so stay tuned for that.&lt;/p&gt;
-&lt;p&gt;The best thing about Markdown Monster has to be the out of the box for support of Chocolatey.  You can simply do:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;choco install markdownmonster
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;and you are off.&lt;/p&gt;
-&lt;p&gt;Ok, I might be a little biased here, but the fact that an application vendor is directly publishing to Chocolatey.org as a mechanism for distributing their application, is a testimony to how far Chocolatey has come.&lt;/p&gt;
-&lt;h2 id="chocolatey-contributions"&gt;Chocolatey Contributions&lt;/h2&gt;
-&lt;p&gt;As I mentioned above, I have in 2016 continued to contribute to the Chocolatey project.  This has included:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;work on the &lt;a href="https://github.com/chocolatey/package-validator"&gt;package-validator&lt;/a&gt; (a tool which inspects all Chocolatey Package submissions prior to being published)&lt;/li&gt;
-&lt;li&gt;work on the &lt;a href="https://chocolatey.org/docs/features-create-packages-from-installers"&gt;Chocolatey Package Builder UI &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;continued work on the &lt;a href="https://chocolatey.org/packages?q=&amp;amp;moderatorQueue=true&amp;amp;prerelease=false&amp;amp;sortOrder=package-download-count"&gt;Chocolatey.org moderation queue&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;helping out on the Chocolatey &lt;a href="https://gitter.im/chocolatey/choco"&gt;Gitter&lt;/a&gt; and &lt;a href="https://groups.google.com/forum/#!forum/chocolatey"&gt;Google Forums&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;answering questions on the &lt;a href="http://stackoverflow.com/questions/tagged/chocolatey"&gt;chocolatey tag on Stack Overflow&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;However, the stand out for me this year has to be the work involved in the &lt;a href="https://github.com/chocolatey/chocolatey-coreteampackages"&gt;Chocolatey Core Team Packages repository&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In case you haven't heard about this, this repository is a place that houses over 100 Chocolatey Packages, almost all of which are continuously monitored for new application versions every 6 hours, which means that almost as soon as a new application version is available, an associated Chocolatey Package is created and submitted to chocolatey.org, ready for installation on your machines.&lt;/p&gt;
-&lt;p&gt;Since this repository was created, it has gone through a number of iterations, and intentions, but the most recent work has cemented the intention of this repository.  Namely, it is a place that any package maintainer can contribute their package (as long as it fits in with the &lt;a href="https://github.com/chocolatey/chocolatey-coreteampackages/wiki/Contributing-guidelines"&gt;guidelines&lt;/a&gt;) and that package can immediately take advantage of the infrastructure that has already been setup, i.e. AppVeyor Continuous Integration Builds, etc.  As a result, a community maintainer can be more effective at maintaining a package, without having to worry about the initial, rather daunting setup, that is necessary for automatic packaging.&lt;/p&gt;
-&lt;p&gt;This year, with the help of some amazing people:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/majkinetor"&gt;Miodrag Milić&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/AdmiringWorm"&gt;Kim Nordmo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/pascalberger"&gt;Pascal Berger&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/dtgm"&gt;dtgm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We have started the process of switching from using ketarin to using &lt;a href="https://github.com/majkinetor/au"&gt;AU&lt;/a&gt; (which offers much better insights into what is going on with Automatic Packages), as well as pulling in more of the higher priority packages from other maintainers like &lt;a href="https://github.com/ferventcoder"&gt;Rob Reynolds&lt;/a&gt;.  Pulling in these high priority packages into a central repository, which is being monitored/updated by more people, means that they are more likely to continue to be updated when there are changes to the package, which is overall, a win for everyone!&lt;/p&gt;
-&lt;h2 id="cake-contributions"&gt;Cake Contributions&lt;/h2&gt;
-&lt;p&gt;As mentioned above, Cake has had a number of &lt;a href="http://cakebuild.net/blog/2016/12/icing-on-the-cake"&gt;success stories this year&lt;/a&gt;, but for me, the stand out one, and the one that I have been most involved in, is the &lt;a href="https://github.com/cake-contrib"&gt;Cake-Contrib Organisation&lt;/a&gt;.  This organisation is the sister organisation to the &lt;a href="https://github.com/cake-build"&gt;Cake-Build organisation&lt;/a&gt; and it is intended as a mechanism to ensure the longevity of the addins and modules that the Cake Community creates.&lt;/p&gt;
-&lt;p&gt;As we all know, open source is perilious in the sense that it relies on people's spare time to help out, and as a result, life can sometimes get in the way.  The Cake-Contrib organisation came about after a question was raised about an addin which hadn't been updated in a while, even though some PR's had been raised to correct some known issues.  In the end, this was resolved very quickly, but it did raise the question about &lt;em&gt;"what should be done if an addin/module that the Cake community relies on, stops being updated by the original creator?"&lt;/em&gt;.  This topic was discussed in length &lt;a href="http://cakebuild.net/blog/2016/08/cake-contribution-organization"&gt;here&lt;/a&gt;, but the upshot was this...&lt;/p&gt;
-&lt;p&gt;In the event that an addin/module was no longer being supported, and after every effort to contact the original maintainer has been exhausted, we the Cake maintainers wanted an ability to step in to help.&lt;/p&gt;
-&lt;p&gt;The end result of this was two fold.&lt;/p&gt;
-&lt;p&gt;We created the &lt;a href="https://www.nuget.org/profiles/cake-contrib"&gt;cake-contrib&lt;/a&gt; user on &lt;a href="https://www.nuget.org/"&gt;nuget.org&lt;/a&gt; and asked package maintainers to add the cake-contrib user as a co-maintainer of their nuget packages.  This would mean that should it be required, a member of the Cake Team &lt;em&gt;could&lt;/em&gt; push a new release to the same package id, without the need to create a new package id.  This is ideal, as it means that there is non duplication of packages, and therefore no ambiguity of which package is the official one.  At the time of writing this post, I am VERY happy to say that 91 of the 102 Cake addins/modules, have added the cake-contrib user as a co-maintainer.  I am personally very thankful to the Cake Community for getting behind this effort, as I really do feel that it is the best way to ensure the longevity of the packages that have been created.  Thank you!&lt;/p&gt;
-&lt;p&gt;In addition to the above, we also invited community members to add their repositories to the Cake-Contrib organisation, rather than maintain them in their own personal GitHub repos.  This is certainly NOT a requirement, just a suggestion.  The main reason to do this is again to easily allow other people to help out on a project, if/when required.  Once moved into the organisation, people can easily be added to the associated team within the repo, and start to help out on the project.&lt;/p&gt;
-&lt;p&gt;The process of adding a repository to the organisation looks like this:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;repo is transferred into the organisation (let's use Cake.Gem as an example)&lt;/li&gt;
-&lt;li&gt;a team called Cake.Gem is created, and given admin rights to the repo&lt;/li&gt;
-&lt;li&gt;the original maintainer/creator of the package is added to this team&lt;/li&gt;
-&lt;li&gt;AppVeyor Role is created and project created, and team is added to role&lt;/li&gt;
-&lt;li&gt;additional infracture like MyGet and NuGet is setup and configured&lt;/li&gt;
-&lt;li&gt;Coveralls is set up for project&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;So again, the main thing that is brought to the table here is the setup and maintenance of the additional infrastructure that comes with an Open Source project.  By alleviating the burden, we think we can better help the Cake Community.  To date, 27 addins/modules have moved to the Cake-Contrib Organisation.  I invite anyone else who is interested to reach out to me, and we can discuss moving additional repositories under this organisation.&lt;/p&gt;
-&lt;h2 id="thats-a-wrap"&gt;That's a wrap!&lt;/h2&gt;
-&lt;p&gt;So, all in all, it has been a very busy year!  Looking forward into 2017 I hope for more of the same, but with the arrival of Baby Park #2, it might not be quite as busy!&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/2016-a-retrospective' + 'S/';
-    var disqus_title = '2016 - A Retrospective';
-    var disqus_url = 'http://www.gep13.co.uk/blog/2016-a-retrospective' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -1221,31 +144,6 @@ skip_commits:
 		<id>http://www.gep13.co.uk/blog/cake-reaches-250000-downloads</id>
 		<title>Cake reaches 250000 downloads</title>
 		<updated>2016-12-23T00:00:00Z</updated>
-		<content>&lt;h1 id="woo-hoo-over-250000-downloads"&gt;Woo hoo! Over 250000 downloads!&lt;/h1&gt;
-&lt;p&gt;When I was invited to join the &lt;a href="http://www.gep13.co.uk/blog/cake-organisation-on-github"&gt;Cake Organisation&lt;/a&gt; back in November last year, I had a really good feeling about it all.  Both &lt;a href="https://github.com/patriksvensson"&gt;Patrik&lt;/a&gt; and &lt;a href="https://github.com/devlead"&gt;Mattias&lt;/a&gt; are amazing developers, and I can honestly say that I have learnt a lot from them since joining the team!&lt;/p&gt;
-&lt;p&gt;Today marks a special milestone for Cake.  Today it has now been downloaded over 250000 times!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2016/12/23/250000-downloads.png" class="img-fluid" alt="250000 downloads"&gt;&lt;/p&gt;
-&lt;p&gt;As you can see from the screenshot, that means that it is downloaded, on average, 265 times every day.&lt;/p&gt;
-&lt;p&gt;We really do have an amazing community on the Cake project, and we are truly thankful for all the help and support that we get in order to make Cake the build automation system that you want.  I am very much looking forward to continuing to work on the Cake project, and the next blog post where we reach 1000000 downloads!&lt;/p&gt;
-
-
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/cake-reaches-250000-downloads' + 'S/';
-    var disqus_title = 'Cake reaches 250000 downloads';
-    var disqus_url = 'http://www.gep13.co.uk/blog/cake-reaches-250000-downloads' + '/';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="https://disqus.com" class="dsq-brlink"&gt;comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>

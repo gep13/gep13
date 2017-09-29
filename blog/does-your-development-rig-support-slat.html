@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -97,10 +97,10 @@
     <div class="meta">        
 Published on 14 September 2012<br>    </div>
         <div class="tags">
-                    <a role="button" href="/tags/desktop" class="btn btn-default btn-xs">Desktop</a>
-                    <a role="button" href="/tags/laptop" class="btn btn-default btn-xs">Laptop</a>
-                    <a role="button" href="/tags/slat" class="btn btn-default btn-xs">SLAT</a>
-                    <a role="button" href="/tags/windows-phone-8" class="btn btn-default btn-xs">Windows Phone 8</a>
+                    <a role="button" href="/tags/Desktop" class="btn btn-default btn-xs">Desktop</a>
+                    <a role="button" href="/tags/Laptop" class="btn btn-default btn-xs">Laptop</a>
+                    <a role="button" href="/tags/SLAT" class="btn btn-default btn-xs">SLAT</a>
+                    <a role="button" href="/tags/Windows-Phone-8" class="btn btn-default btn-xs">Windows Phone 8</a>
         </div>     
 </div>
                                         </div>
@@ -258,6 +258,13 @@ Published on 14 September 2012<br>    </div>
                                 var pattern = t.generate(header.clientWidth, header.clientHeight);
                                 header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
                         </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 

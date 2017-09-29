@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -97,10 +97,10 @@
     <div class="meta">        
 Published on 28 September 2010<br>    </div>
         <div class="tags">
-                    <a role="button" href="/tags/general" class="btn btn-default btn-xs">General</a>
-                    <a role="button" href="/tags/logmein" class="btn btn-default btn-xs">LogMeIn</a>
-                    <a role="button" href="/tags/remote-assistance" class="btn btn-default btn-xs">Remote Assistance</a>
-                    <a role="button" href="/tags/showmewhatswrong" class="btn btn-default btn-xs">ShowMeWhatsWrong</a>
+                    <a role="button" href="/tags/General" class="btn btn-default btn-xs">General</a>
+                    <a role="button" href="/tags/LogMeIn" class="btn btn-default btn-xs">LogMeIn</a>
+                    <a role="button" href="/tags/Remote-Assistance" class="btn btn-default btn-xs">Remote Assistance</a>
+                    <a role="button" href="/tags/ShowMeWhatsWrong" class="btn btn-default btn-xs">ShowMeWhatsWrong</a>
         </div>     
 </div>
                                         </div>
@@ -244,6 +244,13 @@ Published on 28 September 2010<br>    </div>
                                 var pattern = t.generate(header.clientWidth, header.clientHeight);
                                 header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
                         </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 

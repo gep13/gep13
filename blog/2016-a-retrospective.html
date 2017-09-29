@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -98,7 +98,7 @@
 Published on 03 January 2017<br>    </div>
         <div class="tags">
                     <a role="button" href="/tags/2016" class="btn btn-default btn-xs">2016</a>
-                    <a role="button" href="/tags/retrospective" class="btn btn-default btn-xs">Retrospective</a>
+                    <a role="button" href="/tags/Retrospective" class="btn btn-default btn-xs">Retrospective</a>
         </div>     
 </div>
                                         </div>
@@ -385,6 +385,13 @@ Published on 03 January 2017<br>    </div>
                                 var pattern = t.generate(header.clientWidth, header.clientHeight);
                                 header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
                         </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 

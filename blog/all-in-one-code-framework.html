@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -97,10 +97,10 @@
     <div class="meta">        
 Published on 16 July 2011<br>    </div>
         <div class="tags">
-                    <a role="button" href="/tags/extensions" class="btn btn-default btn-xs">Extensions</a>
-                    <a role="button" href="/tags/sample-application" class="btn btn-default btn-xs">Sample Application</a>
-                    <a role="button" href="/tags/visual-studio-2008" class="btn btn-default btn-xs">Visual Studio 2008</a>
-                    <a role="button" href="/tags/visual-studio-2010" class="btn btn-default btn-xs">Visual Studio 2010</a>
+                    <a role="button" href="/tags/Extensions" class="btn btn-default btn-xs">Extensions</a>
+                    <a role="button" href="/tags/Sample-Application" class="btn btn-default btn-xs">Sample Application</a>
+                    <a role="button" href="/tags/Visual-Studio-2008" class="btn btn-default btn-xs">Visual Studio 2008</a>
+                    <a role="button" href="/tags/Visual-Studio-2010" class="btn btn-default btn-xs">Visual Studio 2010</a>
         </div>     
 </div>
                                         </div>
@@ -263,6 +263,13 @@ If your answer is YES to any of these questions, the Microsoft All-In-One Code F
                                 var pattern = t.generate(header.clientWidth, header.clientHeight);
                                 header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
                         </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 

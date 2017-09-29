@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -97,11 +97,11 @@
     <div class="meta">        
 Published on 06 March 2011<br>    </div>
         <div class="tags">
-                    <a role="button" href="/tags/internet" class="btn btn-default btn-xs">Internet</a>
-                    <a role="button" href="/tags/malware" class="btn btn-default btn-xs">Malware</a>
-                    <a role="button" href="/tags/security" class="btn btn-default btn-xs">Security</a>
-                    <a role="button" href="/tags/spyware" class="btn btn-default btn-xs">Spyware</a>
-                    <a role="button" href="/tags/virus" class="btn btn-default btn-xs">Virus</a>
+                    <a role="button" href="/tags/Internet" class="btn btn-default btn-xs">Internet</a>
+                    <a role="button" href="/tags/Malware" class="btn btn-default btn-xs">Malware</a>
+                    <a role="button" href="/tags/Security" class="btn btn-default btn-xs">Security</a>
+                    <a role="button" href="/tags/Spyware" class="btn btn-default btn-xs">Spyware</a>
+                    <a role="button" href="/tags/Virus" class="btn btn-default btn-xs">Virus</a>
         </div>     
 </div>
                                         </div>
@@ -119,7 +119,7 @@ Published on 06 March 2011<br>    </div>
 <p>I went through a stage of being VERY paranoid about having everything from anti-virus, to anti-spyware, to anti-malware, to anti-freeze, running on my computer. Over the years, I have mellowed slightly, and don’t have as many packages running as I once did, but I still have a few.</p>
 <p>On my Windows 7 Ultimate 64 bit edition, (in no particular order), I have:</p>
 <ul>
-<li>The built in Windows 7 **Firewall. **I used to use the free ZoneAlarm Firewall, but with the release of Windows 7, and it’s improved Firewall capabilities, I decided to retire ZoneAlarm</li>
+<li>The built in Windows 7 Firewall. I used to use the free ZoneAlarm Firewall, but with the release of Windows 7, and it’s improved Firewall capabilities, I decided to retire ZoneAlarm</li>
 <li><a href="http://www.javacoolsoftware.com/spywareblaster.html">Spyware Blaster</a> – A very light weight package designed to prevent the installation of Spyware and other unwanted software</li>
 <li><a href="https://support.microsoft.com/en-us/help/14210/security-essentials-download">Microsoft Security Essentials</a> – I used to use a combination of AVG Free Edition and SpyBot Search and Destroy to cover the needs of Virus and Spyware Protection, but I have found that this package is up to both tasks. Very simple and easy to use, and updates simply come down as part of Windows Update</li>
 <li><a href="http://www.malwarebytes.org/">Malwarebytes</a> – Recently I have seen a number of Malware attacks that I have only been able to automatically remove using this package, and as a result, it has made it onto my list of packages to install on a new build.</li>
@@ -255,6 +255,13 @@ Published on 06 March 2011<br>    </div>
                                 var pattern = t.generate(header.clientWidth, header.clientHeight);
                                 header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
                         </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 

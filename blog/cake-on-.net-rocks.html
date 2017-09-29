@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -97,9 +97,9 @@
     <div class="meta">        
 Published on 13 July 2016<br>    </div>
         <div class="tags">
-                    <a role="button" href="/tags/net-rocks" class="btn btn-default btn-xs">.Net Rocks</a>
-                    <a role="button" href="/tags/cake" class="btn btn-default btn-xs">Cake</a>
-                    <a role="button" href="/tags/podcast" class="btn btn-default btn-xs">Podcast</a>
+                    <a role="button" href="/tags/Net-Rocks" class="btn btn-default btn-xs">.Net Rocks</a>
+                    <a role="button" href="/tags/Cake" class="btn btn-default btn-xs">Cake</a>
+                    <a role="button" href="/tags/Podcast" class="btn btn-default btn-xs">Podcast</a>
         </div>     
 </div>
                                         </div>
@@ -242,6 +242,13 @@ Published on 13 July 2016<br>    </div>
                                 var pattern = t.generate(header.clientWidth, header.clientHeight);
                                 header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
                         </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 
