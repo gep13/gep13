@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2017</rights>
-	<updated>2017-09-29T20:40:52Z</updated>
+	<updated>2017-09-29T20:51:36Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducting-a-postman-collection-for-appveyor" />
@@ -56,8 +56,8 @@
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/Introducing%20Cake.Chocolatey.Module" />
-		<id>http://www.gep13.co.uk/blog/Introducing%20Cake.Chocolatey.Module</id>
+		<link href="http://www.gep13.co.uk/blog/introducing%20cake.chocolatey.module" />
+		<id>http://www.gep13.co.uk/blog/introducing%20cake.chocolatey.module</id>
 		<title>Introducing Cake.Chocolatey.Module</title>
 		<updated>2017-03-18T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
@@ -105,16 +105,16 @@
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
-		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
-		<title>How to create gh-pages branch</title>
+		<link href="http://www.gep13.co.uk/blog/use-octokit-to-create-labels" />
+		<id>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</id>
+		<title>Use Octokit to create labels</title>
 		<updated>2017-01-27T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/use-octokit-to-create-labels" />
-		<id>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</id>
-		<title>Use Octokit to create labels</title>
+		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
+		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
+		<title>How to create gh-pages branch</title>
 		<updated>2017-01-27T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>

@@ -5,8 +5,8 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2017</copyright>
-		<pubDate>Fri, 29 Sep 2017 20:40:52 GMT</pubDate>
-		<lastBuildDate>Fri, 29 Sep 2017 20:40:52 GMT</lastBuildDate>
+		<pubDate>Fri, 29 Sep 2017 20:51:36 GMT</pubDate>
+		<lastBuildDate>Fri, 29 Sep 2017 20:51:36 GMT</lastBuildDate>
 		<item>
 			<title>Introducing a Postman Collection for AppVeyor</title>
 			<link>http://www.gep13.co.uk/blog/introducting-a-postman-collection-for-appveyor</link>
@@ -58,9 +58,9 @@
 		</item>
 		<item>
 			<title>Introducing Cake.Chocolatey.Module</title>
-			<link>http://www.gep13.co.uk/blog/Introducing%20Cake.Chocolatey.Module</link>
+			<link>http://www.gep13.co.uk/blog/introducing%20cake.chocolatey.module</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/Introducing%20Cake.Chocolatey.Module</guid>
+			<guid>http://www.gep13.co.uk/blog/introducing%20cake.chocolatey.module</guid>
 			<pubDate>Sat, 18 Mar 2017 00:00:00 GMT</pubDate>
 		</item>
 		<item>
@@ -106,17 +106,17 @@
 			<pubDate>Sun, 29 Jan 2017 00:00:00 GMT</pubDate>
 		</item>
 		<item>
-			<title>How to create gh-pages branch</title>
-			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
-			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
 			<title>Use Octokit to create labels</title>
 			<link>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</guid>
+			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>How to create gh-pages branch</title>
+			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
 			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
 		</item>
 		<item>
@@ -253,9 +253,9 @@
 		</item>
 		<item>
 			<title>Introducing Cake.Chocolatey.Module</title>
-			<link>http://www.gep13.co.uk/blog/Introducing%20Cake.Chocolatey.Module</link>
+			<link>http://www.gep13.co.uk/blog/introducing%20cake.chocolatey.module</link>
 			<description>&lt;p&gt;The Chocolatey Cake Module!&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/Introducing%20Cake.Chocolatey.Module</guid>
+			<guid>http://www.gep13.co.uk/blog/introducing%20cake.chocolatey.module</guid>
 			<pubDate>Sat, 18 Mar 2017 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;h1 id="or-as-i-like-to-call-it"&gt;Or as I like to call it...&lt;/h1&gt;
 &lt;p&gt;The Chocolatey Cake Module!&lt;/p&gt;
@@ -587,34 +587,6 @@ git push -f
 </content:encoded>
 		</item>
 		<item>
-			<title>How to create gh-pages branch</title>
-			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
-			<description>&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
-			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
-&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
-&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
-&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
-git rm -rf .
-echo &amp;quot;My Page&amp;quot; &amp;gt; index.html
-git add index.html
-git commit -a -m &amp;quot;First pages commit&amp;quot;
-git push --set-upstream origin gh-pages
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch" /&gt;&lt;/p&gt;
-&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration" /&gt;&lt;/p&gt;
-&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
-</content:encoded>
-		</item>
-		<item>
 			<title>Use Octokit to create labels</title>
 			<link>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</link>
 			<description>&lt;p&gt;Good question!  I have a small amount compulsive behaviour when it comes to labels that are associated with GitHub projects that I work on.  Both in terms of the colour that is used, as well as the text that is associated with the label.  Being consistent means that it is much easier to identity what an issue/pull request is about, before even reading anything about it.&lt;/p&gt;</description>
@@ -700,6 +672,34 @@ private static void SetUpDefaultLabels()
 &lt;/ul&gt;
 &lt;p&gt;With this in place, the total execution takes around 3 seconds to complete, as opposed to minutes of clicking the mouse.&lt;/p&gt;
 &lt;p&gt;Much better!&lt;/p&gt;
+</content:encoded>
+		</item>
+		<item>
+			<title>How to create gh-pages branch</title>
+			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
+			<description>&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
+			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
+&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
+&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
+&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
+git rm -rf .
+echo &amp;quot;My Page&amp;quot; &amp;gt; index.html
+git add index.html
+git commit -a -m &amp;quot;First pages commit&amp;quot;
+git push --set-upstream origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch" /&gt;&lt;/p&gt;
+&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration" /&gt;&lt;/p&gt;
+&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
 </content:encoded>
 		</item>
 		<item>
