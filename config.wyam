@@ -1,17 +1,17 @@
 System.Globalization.CultureInfo.DefaultThreadCurrentCulture = System.Globalization.CultureInfo.CreateSpecificCulture("en-GB");
-Settings.Host = "www.gep13.co.uk";
-GlobalMetadata["Title"] = "Gary Ewan Park";
-GlobalMetadata["Description"] = "Ramblings and Ponderings of a Microsoft Fan Boy...";
-GlobalMetadata["Intro"] = "Hello, my name is Gary Ewan Park.  By day, I make a living as .Net Developer.  I am a husband and a father, and I enjoy contributing to Open Source projects.";
-GlobalMetadata[BlogKeys.PostsPath] = "blog";
+Settings[Keys.Host] = "www.gep13.co.uk";
+Settings["Title"] = "Gary Ewan Park";
+Settings["Description"] = "Ramblings and Ponderings of a Microsoft Fan Boy...";
+Settings["Intro"] = "Hello, my name is Gary Ewan Park.  By day, I make a living as .Net Developer.  I am a husband and a father, and I enjoy contributing to Open Source projects.";
+Settings[BlogKeys.PostsPath] = "blog";
 
 Pipelines.Add("Feed2",
-    Documents(BlogPipelines.Posts),
+    Documents(Blog.BlogPosts),
     GenerateFeeds().WithAtomPath(_ => "feed/index.xml"),
     WriteFiles()
 );
 Pipelines.Add("Feed3",
-    Documents(BlogPipelines.Posts),
+    Documents(Blog.BlogPosts),
     GenerateFeeds().WithAtomPath(_ => "atom.xml"),
     WriteFiles()
 );
