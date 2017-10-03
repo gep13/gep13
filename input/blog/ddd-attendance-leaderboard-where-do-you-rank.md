@@ -22,6 +22,7 @@ The complete list is:
 
 | **Event Name**           | **Event Date**       |
 | ------------------------ | -------------------- |
+| DDD Brisbane 7           | 2nd December 2017    |
 | DDD North 7              | 14th October 2017    |
 | DDD East Anglia 2017     | 16th September 2017  |
 | DDD Perth 3              | 16th September 2017  |
