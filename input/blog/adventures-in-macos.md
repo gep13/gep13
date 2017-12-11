@@ -65,3 +65,11 @@ A quick google turned up a number of things, but this is the one that made most 
 https://github.com/keybase/keybase-issues/issues/2798
 
 After adding that to my `.profile` file (**NOTE**: I had to create this file first), the exporting and importing of the private key started working.
+
+Setting up Time Machine
+
+I wanted to start things off on the right foot, and I wanted to make sure that everything is backed up, otherwise I might lose things that I needed.  I already have a Synology NAS device, which is capable of acting as a destination for Time Machine.  I followed these steps:
+
+https://www.synology.com/en-uk/knowledgebase/DSM/tutorial/Backup_Restore/How_to_back_up_files_from_Mac_to_Synology_NAS_with_Time_Machine
+
+And everything was up and running.  Since I have a 1TB hard drive, I followed the recommendation, and provided a 3 TB quota for the Time Machine user.
