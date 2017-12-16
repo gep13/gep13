@@ -50,6 +50,8 @@ Another issue came up when trying to configure gpg signing of my commits using m
 
 https://github.com/pstadler/keybase-gpg-github
 
+**NOTE:** An equivalent blog post on how to do this for Windows can be found [here](https://www.herebedragons.io/sign-commits-keybase)
+
 To get the necessary applications installed, but then I switched to this article:
 
 https://iwader.co.uk/post/signing-git-commits-keybase-gpg-key
