@@ -14,13 +14,13 @@ As per the [post](https://www.gep13.co.uk/blog/2016-a-retrospective) that I did 
 
 ## Baby Park #2
 
-On the 17th February, we welcomed our second child, [Amelia Mabel Park](https://www.gep13.co.uk/blog/amelia-mabel-park) into the world.  To say that the last 10 months have just flown by would be an understatement.  My wife and I have had so much fun watching Amelia grow, and to form her own little personality.  Alivia has taken to being a big sister very well, and she loves her little sister.
+On the 17th February, we welcomed our second child, [Amelia Mabel Park](https://www.gep13.co.uk/blog/amelia-mabel-park) into the world.  To say that the last 10 months have just flown by would be an understatement.  My wife and I have had so much fun watching Amelia grow and form her own little personality.  Alivia has taken to being a big sister very well, and she loves her little sister.
 
 ![Alivia and Amelia](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/10/alivia-and-amelia.png)
 
 ## Microsoft MVP
 
-In July, I was awarded the [Microsoft MVP Award](https://www.gep13.co.uk/blog/i-am-a-microsoft-mvp).  Although I knew that I had been nominated for this award, it still came as a very nice surprise to actually be awarded it.  Unfortunately, I am not able to make it to the MVP Summit in 2018, but obviously, I am hoping to be renewed again next year so that I can make it along to the Summit, as I have heard that it is a very good experience!
+In July, I was awarded the [Microsoft MVP Award](https://www.gep13.co.uk/blog/i-am-a-microsoft-mvp).  Although I knew I had been nominated for this award, it still came as a very nice surprise to actually be awarded.  Unfortunately, I am not able to make it to the MVP Summit in 2018. I'm obviously hoping to be renewed again next year so that I can make it along to the Summit, as I have heard that it is a very good experience!
 
 ## GitHub Contributions
 
@@ -44,11 +44,11 @@ With the arrival of Amelia in the first part of the year, my ability to attend c
 
 The first was at [DDD Reading](http://developerdeveloperdeveloper.com) where I did a talk entitled "Control your GitHub releases with GitVersion and GitReleaseManager", where I talked about two tools that I use on almost all the Open Source Projects that I work on.  I also presented the same talk at [DDD East Anglia](https://www.dddeastanglia.com).  If you are interested in checking out this talk you can find a recording of it on [YouTube](https://youtu.be/SlM02V1tkSc).
 
-In 2018, I plan on doing a lot more talks, in fact, I already have 6 speaking engagements lined up.  I will have a follow up blog post with links to where I will be speaking in case you are able to make it along.
+In 2018 I plan on doing a lot more talks. In fact, I already have 6 speaking engagements lined up.  I will have a follow-up blog post with links to where I will be speaking in case you are able to make it along.
 
 ## Hacktoberfest
 
-In what is now turning into a yearly tradition, I once again took part in [Hacktoberfest](https://hacktoberfest.digitalocean.com/).  If you haven't heard about this event, I strongly encourage you to check it out.  It is a great bit of fun, and at the end of it, you get some quality swag.
+In what is now turning into a yearly tradition, I once again took part in [Hacktoberfest](https://hacktoberfest.digitalocean.com/).  If you haven't heard about this event, I strongly encourage you to check it out.  All it takes is 4 pull requests in the month of October. It is a great bit of fun and at the end of it, you get some quality swag.
 
 ## 24 Pull Requests
 
