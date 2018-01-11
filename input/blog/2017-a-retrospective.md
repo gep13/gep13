@@ -82,7 +82,7 @@ And according to the site, I have reached 87 thousand people:
 
 ## YouTube Videos
 
-In 2017 I ventured into an area which I had never been before, namely creating and publishing videos to YouTube.  This really came about after watching the work that [Geoffrey Huntely](https://twitter.com/GeoffreyHuntley) was doing, and I wanted to give it a try.
+In 2017 I ventured into an area which I had never been before, namely creating and publishing videos to YouTube.  This really came about after watching the work that [Geoffrey Huntley](https://twitter.com/GeoffreyHuntley) was doing, and I wanted to give it a try.
 
 You can find my YouTube Channel [here](https://www.youtube.com/c/GaryEwanPark).
 
@@ -108,7 +108,7 @@ Out of the blue, [Andreas](https://twitter.com/thecodejunkie) asked me if I want
 
 The format of the day was that there were a number of people from the Open Source Community there representing their projects, and different members of the Tretton37 team were assigned to each project.  With that part done, we then set about hacking on the project.  This included a brief overview of what the project is, and then jumping in to work on some issues that were currently open.  In the end, I think we had 9 Pull Requests submitted, across a number of the Cake Repositories.  Also included in the day was a panel discussion about Open Source.
 
-I have to say that I had an amazing day in Sweden (my first time visiting), and I was, and still am, amazed at the [Tretton37](https://tretton37.com/) Organisation for their commitment to Open Source and it's Community.  Thank you!
+I have to say that I had an amazing day in Sweden (my first time visiting), and I was, and still am, amazed at the [Tretton37](https://tretton37.com/) Organisation for their commitment to Open Source and its Community.  Thank you!
 
 ## Aberdeen Developers
 
@@ -154,7 +154,7 @@ There is still work to be done here, and I will continue to reach out to the mai
 
 ## Office Hours
 
-Once again, after watching the work that [Geoffrey Huntely](https://twitter.com/GeoffreyHuntley) has been doing, I signed up for [Officehours](https://officehours.io/people/gep13).  Put simply, I think this is a great idea, and a great service.  If you have anything you wanted to talk to me about, whether about Cake, or Chocolatey, Build System, or Open Source in general, feel free to reach out and we can get something scheduled.
+Once again, after watching the work that [Geoffrey Huntley](https://twitter.com/GeoffreyHuntley) has been doing, I signed up for [Officehours](https://officehours.io/people/gep13).  Put simply, I think this is a great idea, and a great service.  If you have anything you wanted to talk to me about, whether about Cake, or Chocolatey, Build System, or Open Source in general, feel free to reach out and we can get something scheduled.
 
 ## That's a wrap
 
