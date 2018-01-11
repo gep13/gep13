@@ -1,6 +1,6 @@
 ---
 Title: 2017 - A Retrospective
-Published: 01/01/2018
+Published: 11/01/2018
 Tags:
 - 2017
 - Retrospective
