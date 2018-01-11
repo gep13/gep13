@@ -50,6 +50,10 @@ In 2018 I plan on doing a lot more talks. In fact, I already have 6 speaking eng
 
 In what is now turning into a yearly tradition, I once again took part in [Hacktoberfest](https://hacktoberfest.digitalocean.com/).  If you haven't heard about this event, I strongly encourage you to check it out.  All it takes is 4 pull requests in the month of October. It is a great bit of fun and at the end of it, you get some quality swag.
 
+And here is the swag I mentioned:
+
+![Hacktoberfest 2017 Swag](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/11/hacktoberfest-2017-swag.png)
+
 ## 24 Pull Requests
 
 Although there is no swag involved in this contest, it is still great fun, and once again I encourage everyone to take part in [24 Pull Requests](https://24pullrequests.com/).  It is a great way to get involved in Open Source, and give back something to the community.
@@ -109,6 +113,10 @@ Out of the blue, [Andreas](https://twitter.com/thecodejunkie) asked me if I want
 The format of the day was that there were a number of people from the Open Source Community there representing their projects, and different members of the Tretton37 team were assigned to each project.  With that part done, we then set about hacking on the project.  This included a brief overview of what the project is, and then jumping in to work on some issues that were currently open.  In the end, I think we had 9 Pull Requests submitted, across a number of the Cake Repositories.  Also included in the day was a panel discussion about Open Source.
 
 I have to say that I had an amazing day in Sweden (my first time visiting), and I was, and still am, amazed at the [Tretton37](https://tretton37.com/) Organisation for their commitment to Open Source and its Community.  Thank you!
+
+This was me chatting with [Steve Murawski](https://twitter.com/stevenmurawski) at the Chocolatey booth:
+
+![Chatting with Steve Murawski](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/11/winops-steve-murawski.jpg)
 
 ## Aberdeen Developers
 
