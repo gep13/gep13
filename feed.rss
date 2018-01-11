@@ -4,9 +4,16 @@
 		<title>Gary Ewan Park</title>
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-		<copyright>2017</copyright>
-		<pubDate>Wed, 04 Oct 2017 06:35:40 GMT</pubDate>
-		<lastBuildDate>Wed, 04 Oct 2017 06:35:40 GMT</lastBuildDate>
+		<copyright>2018</copyright>
+		<pubDate>Thu, 11 Jan 2018 20:57:12 GMT</pubDate>
+		<lastBuildDate>Thu, 11 Jan 2018 20:57:12 GMT</lastBuildDate>
+		<item>
+			<title>2017 - A Retrospective</title>
+			<link>http://www.gep13.co.uk/blog/2017-a-retrospective</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/2017-a-retrospective</guid>
+			<pubDate>Thu, 11 Jan 2018 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>Introducing a Postman Collection for AppVeyor</title>
 			<link>http://www.gep13.co.uk/blog/introducting-a-postman-collection-for-appveyor</link>
@@ -106,17 +113,17 @@
 			<pubDate>Sun, 29 Jan 2017 00:00:00 GMT</pubDate>
 		</item>
 		<item>
-			<title>Use Octokit to create labels</title>
-			<link>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</guid>
-			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
 			<title>How to create gh-pages branch</title>
 			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
+			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Use Octokit to create labels</title>
+			<link>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</guid>
 			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
 		</item>
 		<item>
@@ -140,15 +147,115 @@
 			<guid>http://www.gep13.co.uk/blog/2016-a-retrospective</guid>
 			<pubDate>Tue, 03 Jan 2017 00:00:00 GMT</pubDate>
 		</item>
-		<item>
-			<title>Cake reaches 250000 downloads</title>
-			<link>http://www.gep13.co.uk/blog/cake-reaches-250000-downloads</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/cake-reaches-250000-downloads</guid>
-			<pubDate>Fri, 23 Dec 2016 00:00:00 GMT</pubDate>
-		</item>
 	</channel>
-</rss>  You can simply get on with the task at hand.  However, one of the worst things about AppVeyor is that it is a &lt;strong&gt;completely online Continuous Integration Server&lt;/strong&gt;.  Those times when the build isn't working, and you have no idea why, it can be difficult to figure it out solely based on the output logs.&lt;/p&gt;</description>
+</rss>nt visiting the site on 100 consecutive days), which sort of went hand in hand with my GitHub Contribution streak.&lt;/p&gt;
+&lt;p&gt;And according to the site, I have reached 87 thousand people:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/10/Impact%20-%202018-01-03_14-25-28.png" class="img-fluid" alt="Stack Overflow Impact" /&gt;&lt;/p&gt;
+&lt;h2 id="youtube-videos"&gt;YouTube Videos&lt;/h2&gt;
+&lt;p&gt;In 2017 I ventured into an area which I had never been before, namely creating and publishing videos to YouTube.  This really came about after watching the work that &lt;a href="https://twitter.com/GeoffreyHuntley"&gt;Geoffrey Huntley&lt;/a&gt; was doing, and I wanted to give it a try.&lt;/p&gt;
+&lt;p&gt;You can find my YouTube Channel &lt;a href="https://www.youtube.com/c/GaryEwanPark"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So far, I have created some videos on AppVeyor and Cake (mainly around releases of the VSCode Extension for Cake), but I am planning on expanding to include some more topics this year.  So be sure to subscribe to my channel to catch the new videos.&lt;/p&gt;
+&lt;h2 id="winops-conf-2017-and-powershell-dev-day"&gt;WinOps Conf 2017 and PowerShell Dev Day&lt;/h2&gt;
+&lt;p&gt;This was my third year in a row attending the WinOps Conf, and I am happy to say that it didn't disappoint.  Once again it was a great event, thank you to all the organisers and helpers for making it a great day.&lt;/p&gt;
+&lt;p&gt;This year was a slightly different experience, since I was helping out at the other side of the fence.  I was there representing Chocolatey, who were both a sponsor of the event, as well as doing a Full Day Workshop and Presentation.  This was the first time that I was able to meet &lt;a href="https://twitter.com/ferventcoder"&gt;Rob&lt;/a&gt; in person!&lt;/p&gt;
+&lt;p&gt;I had loads of great conversations across the two days, and it was great to see the excitement that people have for Chocolatey!&lt;/p&gt;
+&lt;p&gt;While in London, I was also able to attend the &lt;a href="https://psday.uk/"&gt;PowerShell Dev Day&lt;/a&gt;, which was also a great event.  I would encourage anyone to go to this!&lt;/p&gt;
+&lt;h2 id="tretton37-knowabunga"&gt;Tretton37 Knowabunga&lt;/h2&gt;
+&lt;p&gt;This was quite simply an AMAZING event!  For those of you that haven't heard of this before, you can find some information &lt;a href="http://thecodejunkie.com/2014/02/12/creating-value-by-sharing-knowledge/"&gt;here&lt;/a&gt; and &lt;a href="https://tretton37.com/blog/knowabunga-day-june"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So, the story goes like this...&lt;/p&gt;
+&lt;p&gt;Out of the blue, &lt;a href="https://twitter.com/thecodejunkie"&gt;Andreas&lt;/a&gt; asked me if I wanted an all expenses paid trip to Sweden, to spend the day representing Cake at their all day Open Source event.  Obviously, I said that I would love to go, so off I went!&lt;/p&gt;
+&lt;p&gt;The format of the day was that there were a number of people from the Open Source Community there representing their projects, and different members of the Tretton37 team were assigned to each project.  With that part done, we then set about hacking on the project.  This included a brief overview of what the project is, and then jumping in to work on some issues that were currently open.  In the end, I think we had 9 Pull Requests submitted, across a number of the Cake Repositories.  Also included in the day was a panel discussion about Open Source.&lt;/p&gt;
+&lt;p&gt;I have to say that I had an amazing day in Sweden (my first time visiting), and I was, and still am, amazed at the &lt;a href="https://tretton37.com/"&gt;Tretton37&lt;/a&gt; Organisation for their commitment to Open Source and its Community.  Thank you!&lt;/p&gt;
+&lt;h2 id="aberdeen-developers"&gt;Aberdeen Developers&lt;/h2&gt;
+&lt;p&gt;With one thing or another, I haven't been as active at Aberdeen Developers as I would have liked, but I am very happy to say that &lt;a href="https://twitter.com/nyami"&gt;Douglas&lt;/a&gt; has been keeping things ticking over nicely.  Thank you!&lt;/p&gt;
+&lt;p&gt;2017 saw events from:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/march-2017-mark-allan/"&gt;Mark Allen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/march-2017-microsoft-special/"&gt;Martin Kearn and Martin Beeby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/june-2017-donovan-brown-zero-to-devops/"&gt;Donovan Brown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.aberdeendevelopers.co.uk/jun-2017-richard-campbell-history-of-net/"&gt;Richard Campbell&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wow!  An amazing list of speakers.  Aberdeen is very lucky to have these people come and speak.  I am looking forward to getting more involved in Aberdeen Developers in 2018.&lt;/p&gt;
+&lt;h2 id="chocolatey-contributions"&gt;Chocolatey Contributions&lt;/h2&gt;
+&lt;p&gt;Throughout the year, I have been working on a number of things related to Chocolatey, but there are two things that stand out for me.&lt;/p&gt;
+&lt;p&gt;The first is the release of Chocolatey GUI 0.15.0.  There is more information about this release &lt;a href="https://chocolatey.org/blog/chocolatey-gui-0.15.0-released"&gt;here&lt;/a&gt;.  Put simply, this was a HUGE release, and saw essentially a complete re-write of major parts of the application.  There are loads more things planned for Chocolatey GUI (including a much awaited Tile View), so be sure to keep an eye out for that in the next release.&lt;/p&gt;
+&lt;p&gt;The second is with regard to &lt;a href="https://github.com/dtgm/chocolatey-packages"&gt;dtgm's Chocolatey Packages&lt;/a&gt;.  For those of you that don't know, dtgm has LOADS of Chocolatey packages, almost all of which are automated using ketarin.  However, dtgm hasn't been able to spend as much time maintaining these packages as he once did, and as a result, these packages have started to fail.  After a number of attempts to reach out to him, I was finally able to get access to his GitHub repository, and as a result, I have been able to start merging some of the long awaited PR's to fix some packages, and as well as to migrate some of his packages to the &lt;a href="https://github.com/chocolatey/chocolatey-coreteampackages"&gt;Core Team Packages repository&lt;/a&gt;.  Now that I have access to this repository, I am hoping to be able to fix more of the packages that require attention, as well as migrate more of his packages to the Core Team packages repository.  If you are interested in helping with this work, please feel free to reach out.&lt;/p&gt;
+&lt;h2 id="cake-contributions"&gt;Cake Contributions&lt;/h2&gt;
+&lt;p&gt;There have been loads of exciting announcements for Cake in 2017, not least &lt;a href="https://cakebuild.net/blog/2017/11/intellisense-vscode"&gt;Intellisense for Visual Studio Code&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However, my main focus this year has been growing the Cake-Contrib Organisation.  For those of you who know me, I am very passionate about the longevity and maintainability of Open Source Projects, and to that end, I am a HUGE advocate of not working in silos.  Instead, I much prefer to see projects being worked on within a GitHub Organisation, so that if the worst should happen or life gets in the way, other people can step in and help out.  That is what the Cake-Contrib Organisation is all about.  A place where Cake maintainers can place their repositories, knowing that they will still have full access to the repository, but also know that others can help out should the need arise.&lt;/p&gt;
+&lt;p&gt;Related to this, is the cake-contrib user on NuGet.org.  Whenever I see a new Cake Addin being released, one of the first things that I do is submit an issue to the maintainer to add the cake-contrib user as a co-owner of the package.  This is really for two reasons.  The first being that it increases the publicity of that package, as people as able to &lt;a href="https://www.nuget.org/profiles/cake-contrib"&gt;find it easier&lt;/a&gt; as all packages are in one place.  The second is that it means other people can push a new package version, rather than it being locked down to a single user.&lt;/p&gt;
+&lt;p&gt;In 2017, we were able to grow the Cake-Contrib Organisation to the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;43 People now a member of the Organisation on GitHub&lt;/li&gt;
+&lt;li&gt;110 Repositories now in the Organisation&lt;/li&gt;
+&lt;li&gt;202 Packages associated with the cake-contrib user on NuGet.org&lt;/li&gt;
+&lt;li&gt;3,397,862 downloads of addins and modules associated with the cake-contrib user&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Put simply, this is amazing, and I am grateful to all the Cake Contributors who have chosen to join this Organisation.&lt;/p&gt;
+&lt;p&gt;An interesting side effect of this work is the synchronisation of permissions and settings that needs to happen between GitHub and AppVeyor (our main CI platform).  For the longest time, I was doing this manually, but it got to the point that this was completely unmanageable.  As a result, I now have a set of scripts that helps with the synchronisation of permissions and settings between GitHub and AppVeyor.  This will likely be the topic of a YouTube video this year, so keep an eye out for that.&lt;/p&gt;
+&lt;p&gt;There is still work to be done here, and I will continue to reach out to the maintainers of addins and modules to see if they are interested in joining.&lt;/p&gt;
+&lt;h2 id="office-hours"&gt;Office Hours&lt;/h2&gt;
+&lt;p&gt;Once again, after watching the work that &lt;a href="https://twitter.com/GeoffreyHuntley"&gt;Geoffrey Huntley&lt;/a&gt; has been doing, I signed up for &lt;a href="https://officehours.io/people/gep13"&gt;Officehours&lt;/a&gt;.  Put simply, I think this is a great idea, and a great service.  If you have anything you wanted to talk to me about, whether about Cake, or Chocolatey, Build System, or Open Source in general, feel free to reach out and we can get something scheduled.&lt;/p&gt;
+&lt;h2 id="thats-a-wrap"&gt;That's a wrap&lt;/h2&gt;
+&lt;p&gt;And that as they say, is that!  Looking back, it has been a very busy, but very enjoyable year (aside for the sad times).  2018 is shaping up to be as busy, and I am truly excited to share some amazing news that will be happening at the end of January.  It is amazing!&lt;/p&gt;
+</content:encoded>
+		</item>
+		<item>
+			<title>Introducing a Postman Collection for AppVeyor</title>
+			<link>http://www.gep13.co.uk/blog/introducting-a-postman-collection-for-appveyor</link>
+			<description>&lt;p&gt;For a while now, I have been hacking on the AppVeyor API.  This has been in order to setup some automation between the various GitHub Teams that I have, and the AppVeyor Roles that allow access to the projects in AppVeyor.  This can of course be done manually, but when you start having over 30 teams, and over 70 projects, this becomes a bit of a problem.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/introducting-a-postman-collection-for-appveyor</guid>
+			<pubDate>Fri, 18 Aug 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;p&gt;For a while now, I have been hacking on the AppVeyor API.  This has been in order to setup some automation between the various GitHub Teams that I have, and the AppVeyor Roles that allow access to the projects in AppVeyor.  This can of course be done manually, but when you start having over 30 teams, and over 70 projects, this becomes a bit of a problem.&lt;/p&gt;
+&lt;p&gt;While doing this, I found myself continually referring to the &lt;a href="https://www.appveyor.com/docs/api/"&gt;AppVeyor Documentation&lt;/a&gt; which is actually very good, and then doing little tests here and there using &lt;a href="https://www.getpostman.com/"&gt;Postman&lt;/a&gt; to verify things that I was trying to automate.&lt;/p&gt;
+&lt;p&gt;It got to the point where I had created the same request a couple of times on different days, so it was time to do something else, as this was wasted effort!&lt;/p&gt;
+&lt;p&gt;So, without further ado, let me introduce a &lt;a href="https://github.com/gep13/appveyor-postman"&gt;Postman Collection&lt;/a&gt; for all the requests that you can make against the AppVeyor API.&lt;/p&gt;
+&lt;p&gt;A video explaining what this is, and how you can use it, can be seen here:&lt;/p&gt;
+&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/U8mVjJxt_ts" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Going forward, I intend to keep this collection up to date with any new API requests that are added to AppVeyor.&lt;/p&gt;
+&lt;p&gt;Please let me know if you have any comments or suggestions on how this can be improved.&lt;/p&gt;
+</content:encoded>
+		</item>
+		<item>
+			<title>MVP Award Kit</title>
+			<link>http://www.gep13.co.uk/blog/mvp-award-kit</link>
+			<description>&lt;p&gt;At the end of last week, I received my MVP Award Kit from Microsoft, but I am really only just now getting a chance to sit down and have a proper look at it.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/mvp-award-kit</guid>
+			<pubDate>Tue, 25 Jul 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;p&gt;At the end of last week, I received my MVP Award Kit from Microsoft, but I am really only just now getting a chance to sit down and have a proper look at it.&lt;/p&gt;
+&lt;p&gt;You can see photos of the unboxing below:&lt;/p&gt;
+&lt;div id="flickrembed"&gt;&lt;/div&gt;&lt;small style="display: block; text-align: center; margin: 0 auto;"&gt;Powered by &lt;a href="https://flickrembed.com"&gt;flickr embed&lt;/a&gt;.&lt;/small&gt;
+&lt;script src="https://flickrembed.com/embed_v2.js.php?source=flickr&amp;layout=responsive&amp;input=72157684028641824&amp;sort=0&amp;by=album&amp;theme=default&amp;scale=fit&amp;skin=default&amp;id=5850544461b40"&gt;&lt;/script&gt;
+&lt;p&gt;I have to say that I am very impressed with the kit.  It is a very nice gift to receive in addition to the recognition that goes with it.  Thank you!&lt;/p&gt;
+</content:encoded>
+		</item>
+		<item>
+			<title>How to use AppVeyor Build Cache</title>
+			<link>http://www.gep13.co.uk/blog/how-to-use-appveyor-cache</link>
+			<description>&lt;p&gt;Another important feature offered by AppVeyor is it's &lt;a href="https://www.appveyor.com/docs/build-cache/"&gt;Build Cache&lt;/a&gt;.  Due to the fact that every AppVeyor build uses a fresh copy of the Build Agent Virtual Machine, any files and folders that were created as part of the build are not persisted between project builds.&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/how-to-use-appveyor-cache</guid>
+			<pubDate>Sun, 23 Jul 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;p&gt;Another important feature offered by AppVeyor is it's &lt;a href="https://www.appveyor.com/docs/build-cache/"&gt;Build Cache&lt;/a&gt;.  Due to the fact that every AppVeyor build uses a fresh copy of the Build Agent Virtual Machine, any files and folders that were created as part of the build are not persisted between project builds.&lt;/p&gt;
+&lt;p&gt;So for example, if as part of your build you restore lots of NuGet packages, or you install packages from Chocolatey, then these things will have to happen on every build.  This is problematic for two reasons.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It means that your builds are going to be slightly slower than they could be as they are having to restore these dependencies on every build&lt;/li&gt;
+&lt;li&gt;The success of your build is dependent on 3rd party websites being available.  So for example, if NuGet.org isn't working properly, your build is going to fail as those required packages can't be downloaded.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Making use of the AppVeyor Build Cache fixes both of these problems.&lt;/p&gt;
+&lt;p&gt;To set up the Build Cache is really simple:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cache:
+  - tools -&amp;gt; build.cake, tools/packages.config
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;With this entry in your &lt;code&gt;.appveyor.yml&lt;/code&gt; file, at the end of the build all files and folders within the &lt;code&gt;tools&lt;/code&gt; folder will be added to the Build Cache, and restored on the next build.  Additionally, if either of the &lt;code&gt;build.cake&lt;/code&gt; or &lt;code&gt;tools/packages.config&lt;/code&gt; file change between Project Builds, then the tools folder in the Build Cache will be invalidated and re-created during the build.&lt;/p&gt;
+&lt;p&gt;This configuration gives us full flexibility and control over the Build Cache, which results in a more resilient and re-producible build.&lt;/p&gt;
+&lt;p&gt;I have created a short video with walks through this entire process, and shows the Build Cache in action, in the context of a build which uses the &lt;a href="http://cakebuild.net/"&gt;Cake Build Automation tool&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/ELb8l9nvWok" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+</content:encoded>
+		</item>
+		<item>
+			<title>How to use AppVeyor Remote Desktop Connection</title>
+			<link>http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection</link>
+			<description>&lt;p&gt;One of the best things about AppVeyor is that it is a &lt;strong&gt;completely online Continuous Integration Server&lt;/strong&gt;.  You as a user don't have to worry about installing the latest version of it, or applying security patches, etc.  You can simply get on with the task at hand.  However, one of the worst things about AppVeyor is that it is a &lt;strong&gt;completely online Continuous Integration Server&lt;/strong&gt;.  Those times when the build isn't working, and you have no idea why, it can be difficult to figure it out solely based on the output logs.&lt;/p&gt;</description>
 			<guid>http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection</guid>
 			<pubDate>Sun, 23 Jul 2017 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;p&gt;One of the best things about AppVeyor is that it is a &lt;strong&gt;completely online Continuous Integration Server&lt;/strong&gt;.  You as a user don't have to worry about installing the latest version of it, or applying security patches, etc.  You can simply get on with the task at hand.  However, one of the worst things about AppVeyor is that it is a &lt;strong&gt;completely online Continuous Integration Server&lt;/strong&gt;.  Those times when the build isn't working, and you have no idea why, it can be difficult to figure it out solely based on the output logs.&lt;/p&gt;
@@ -587,6 +694,34 @@ git push -f
 </content:encoded>
 		</item>
 		<item>
+			<title>How to create gh-pages branch</title>
+			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
+			<description>&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;</description>
+			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
+			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
+&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
+&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
+&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
+git rm -rf .
+echo &amp;quot;My Page&amp;quot; &amp;gt; index.html
+git add index.html
+git commit -a -m &amp;quot;First pages commit&amp;quot;
+git push --set-upstream origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch" /&gt;&lt;/p&gt;
+&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration" /&gt;&lt;/p&gt;
+&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
+</content:encoded>
+		</item>
+		<item>
 			<title>Use Octokit to create labels</title>
 			<link>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</link>
 			<description>&lt;p&gt;Good question!  I have a small amount compulsive behaviour when it comes to labels that are associated with GitHub projects that I work on.  Both in terms of the colour that is used, as well as the text that is associated with the label.  Being consistent means that it is much easier to identity what an issue/pull request is about, before even reading anything about it.&lt;/p&gt;</description>
@@ -672,34 +807,6 @@ private static void SetUpDefaultLabels()
 &lt;/ul&gt;
 &lt;p&gt;With this in place, the total execution takes around 3 seconds to complete, as opposed to minutes of clicking the mouse.&lt;/p&gt;
 &lt;p&gt;Much better!&lt;/p&gt;
-</content:encoded>
-		</item>
-		<item>
-			<title>How to create gh-pages branch</title>
-			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
-			<description>&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
-			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
-&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
-&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
-&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
-git rm -rf .
-echo &amp;quot;My Page&amp;quot; &amp;gt; index.html
-git add index.html
-git commit -a -m &amp;quot;First pages commit&amp;quot;
-git push --set-upstream origin gh-pages
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch" /&gt;&lt;/p&gt;
-&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration" /&gt;&lt;/p&gt;
-&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
 </content:encoded>
 		</item>
 		<item>
@@ -959,20 +1066,6 @@ skip_commits:
 &lt;p&gt;So again, the main thing that is brought to the table here is the setup and maintenance of the additional infrastructure that comes with an Open Source project.  By alleviating the burden, we think we can better help the Cake Community.  To date, 27 addins/modules have moved to the Cake-Contrib Organisation.  I invite anyone else who is interested to reach out to me, and we can discuss moving additional repositories under this organisation.&lt;/p&gt;
 &lt;h2 id="thats-a-wrap"&gt;That's a wrap!&lt;/h2&gt;
 &lt;p&gt;So, all in all, it has been a very busy year!  Looking forward into 2017 I hope for more of the same, but with the arrival of Baby Park #2, it might not be quite as busy!&lt;/p&gt;
-</content:encoded>
-		</item>
-		<item>
-			<title>Cake reaches 250000 downloads</title>
-			<link>http://www.gep13.co.uk/blog/cake-reaches-250000-downloads</link>
-			<description>&lt;p&gt;When I was invited to join the &lt;a href="http://www.gep13.co.uk/blog/cake-organisation-on-github"&gt;Cake Organisation&lt;/a&gt; back in November last year, I had a really good feeling about it all.  Both &lt;a href="https://github.com/patriksvensson"&gt;Patrik&lt;/a&gt; and &lt;a href="https://github.com/devlead"&gt;Mattias&lt;/a&gt; are amazing developers, and I can honestly say that I have learnt a lot from them since joining the team!&lt;/p&gt;</description>
-			<guid>http://www.gep13.co.uk/blog/cake-reaches-250000-downloads</guid>
-			<pubDate>Fri, 23 Dec 2016 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="woo-hoo-over-250000-downloads"&gt;Woo hoo! Over 250000 downloads!&lt;/h1&gt;
-&lt;p&gt;When I was invited to join the &lt;a href="http://www.gep13.co.uk/blog/cake-organisation-on-github"&gt;Cake Organisation&lt;/a&gt; back in November last year, I had a really good feeling about it all.  Both &lt;a href="https://github.com/patriksvensson"&gt;Patrik&lt;/a&gt; and &lt;a href="https://github.com/devlead"&gt;Mattias&lt;/a&gt; are amazing developers, and I can honestly say that I have learnt a lot from them since joining the team!&lt;/p&gt;
-&lt;p&gt;Today marks a special milestone for Cake.  Today it has now been downloaded over 250000 times!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2016/12/23/250000-downloads.png" class="img-fluid" alt="250000 downloads" /&gt;&lt;/p&gt;
-&lt;p&gt;As you can see from the screenshot, that means that it is downloaded, on average, 265 times every day.&lt;/p&gt;
-&lt;p&gt;We really do have an amazing community on the Cake project, and we are truly thankful for all the help and support that we get in order to make Cake the build automation system that you want.  I am very much looking forward to continuing to work on the Cake project, and the next blog post where we reach 1000000 downloads!&lt;/p&gt;
 </content:encoded>
 		</item>
 	</channel>
