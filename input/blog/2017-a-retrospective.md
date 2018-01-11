@@ -100,9 +100,13 @@ This year was a slightly different experience, since I was helping out at the ot
 
 I had loads of great conversations across the two days, and it was great to see the excitement that people have for Chocolatey!
 
+This was me chatting with [Steve Murawski](https://twitter.com/stevenmurawski) at the Chocolatey booth:
+
+![Chatting with Steve Murawski](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/11/winops-steve-murawski.jpg)
+
 While in London, I was also able to attend the [PowerShell Dev Day](https://psday.uk/), which was also a great event.  I would encourage anyone to go to this!
 
-## Tretton37 Knowabunga
+## tretton37 Knowabunga
 
 This was quite simply an AMAZING event!  For those of you that haven't heard of this before, you can find some information [here](http://thecodejunkie.com/2014/02/12/creating-value-by-sharing-knowledge/) and [here](https://tretton37.com/blog/knowabunga-day-june).
 
@@ -110,13 +114,9 @@ So, the story goes like this...
 
 Out of the blue, [Andreas](https://twitter.com/thecodejunkie) asked me if I wanted an all expenses paid trip to Sweden, to spend the day representing Cake at their all day Open Source event.  Obviously, I said that I would love to go, so off I went!
 
-The format of the day was that there were a number of people from the Open Source Community there representing their projects, and different members of the Tretton37 team were assigned to each project.  With that part done, we then set about hacking on the project.  This included a brief overview of what the project is, and then jumping in to work on some issues that were currently open.  In the end, I think we had 9 Pull Requests submitted, across a number of the Cake Repositories.  Also included in the day was a panel discussion about Open Source.
+The format of the day was that there were a number of people from the Open Source Community there representing their projects, and different members of the tretton37 team were assigned to each project.  With that part done, we then set about hacking on the project.  This included a brief overview of what the project is, and then jumping in to work on some issues that were currently open.  In the end, I think we had 9 Pull Requests submitted, across a number of the Cake Repositories.  Also included in the day was a panel discussion about Open Source.
 
-I have to say that I had an amazing day in Sweden (my first time visiting), and I was, and still am, amazed at the [Tretton37](https://tretton37.com/) Organisation for their commitment to Open Source and its Community.  Thank you!
-
-This was me chatting with [Steve Murawski](https://twitter.com/stevenmurawski) at the Chocolatey booth:
-
-![Chatting with Steve Murawski](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/11/winops-steve-murawski.jpg)
+I have to say that I had an amazing day in Sweden (my first time visiting), and I was, and still am, amazed at the [tretton37](https://tretton37.com/) Organisation for their commitment to Open Source and its Community.  Thank you!
 
 ## Aberdeen Developers
 
