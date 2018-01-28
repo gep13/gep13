@@ -29,6 +29,6 @@ As most of you reading this blog will know, I have been a long time contributor 
 
 During the time that I have been contributing, I have watched with pride as Chocolatey has grown in popularity, and also how it has expanded into the commercial side of things, by offering licensed versions that contain additional features.  
 
-It was around the middle of 2017 that I was approached to join this Chocolately adventure, and after some disccusion with family and friends, I decided that it really was too good an offer to pass up.  I am very excited about getting started contributing to Chocolatey in this new role.
+It was around the middle of 2017 that I was approached to join this Chocolately adventure, and after some discussion with family and friends, I decided that it really was too good an offer to pass up.  I am very excited about getting started contributing to Chocolatey in this new role.
 
 If you have any questions about my new role, or Chocolatey in general, then please feel to reach out.
