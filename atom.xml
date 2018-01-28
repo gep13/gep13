@@ -4,8 +4,15 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-01-14T21:37:32Z</updated>
+	<updated>2018-01-28T13:12:07Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/and-so-the-adventure-begins" />
+		<id>http://www.gep13.co.uk/blog/and-so-the-adventure-begins</id>
+		<title>And so the adventure begins...</title>
+		<updated>2018-01-28T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/2018-speaking-tour" />
 		<id>http://www.gep13.co.uk/blog/2018-speaking-tour</id>
@@ -84,16 +91,16 @@
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio" />
-		<id>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</id>
-		<title>Signing GitHub Commits with Keybase.io</title>
+		<link href="http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation" />
+		<id>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</id>
+		<title>An Update on Cake-Contrib User and Organisation</title>
 		<updated>2017-03-09T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation" />
-		<id>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</id>
-		<title>An Update on Cake-Contrib User and Organisation</title>
+		<link href="http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio" />
+		<id>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</id>
+		<title>Signing GitHub Commits with Keybase.io</title>
 		<updated>2017-03-09T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
@@ -137,13 +144,6 @@
 		<id>http://www.gep13.co.uk/blog/adding-clickable-links-for-headers</id>
 		<title>Adding clickable links for headers</title>
 		<updated>2017-01-11T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-skip-appveyor-builds" />
-		<id>http://www.gep13.co.uk/blog/how-to-skip-appveyor-builds</id>
-		<title>How to skip AppVeyor builds</title>
-		<updated>2017-01-10T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>
