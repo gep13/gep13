@@ -16,7 +16,7 @@ If you already have it installed, then simply do `choco upgrade chocolateygui`.
 
 The biggest addition to this release of Chocolatey GUI is the tile view.  You can now view packages in a tile format, which shows the icon of the underlying application, if there is one.  You can see an example of this here:
 
-![Chocolatey GUI Tile View](https://gep13wpstorage.blob.core.windows.net/gep13/2018/02/15/chocolatey_gui_tile_view.png
+![Chocolatey GUI Tile View](https://gep13wpstorage.blob.core.windows.net/gep13/2018/02/15/chocolatey_gui_tile_view.png)
 
 This has been a much sought after feature, so we are very happy to have this finally land.
 
