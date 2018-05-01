@@ -22,6 +22,13 @@ The complete list is:
 
 | **Event Name**           | **Event Date**       |
 | ------------------------ | -------------------- |
+| DDD Melbourne 8          | 15th September 2018  |
+| DDD Sydney 6             | 17th August 2018     |
+| DDD Perth 4              | 4th August 2018      |
+| DDD Reading 13           | 23rd June 2018       |
+| DDD South West 8         | 21st April 2018      |
+| DDD Wales 1              | 24th March 2018      |
+| DDD Scotland 2018        | 10th February 2018   |
 | DDD Brisbane 7           | 2nd December 2017    |
 | DDD North 7              | 14th October 2017    |
 | DDD East Anglia 2017     | 16th September 2017  |
