@@ -5,3 +5,4 @@
 [Pp]ublish/
 nuget.exe
 BuildArtifacts/
+.DS_Store
