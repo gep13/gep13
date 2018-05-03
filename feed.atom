@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-05-01T11:51:04Z</updated>
+	<updated>2018-05-03T20:26:43Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/chocolatey-gui-v0.16.0-released" />
@@ -362,8 +362,8 @@
 		<summary>&lt;p&gt;On the 10th June 2017, I had the privelege of being asked to present a session at &lt;a href="http://developerdeveloperdeveloper.com/"&gt;DDD 12&lt;/a&gt;.  This is a free full day conference that takes place in the Microsoft Offices at Thames Valley Park in Reading.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing%20cake.chocolatey.module" />
-		<id>http://www.gep13.co.uk/blog/introducing%20cake.chocolatey.module</id>
+		<link href="http://www.gep13.co.uk/blog/introducing-cake.chocolatey.module" />
+		<id>http://www.gep13.co.uk/blog/introducing-cake.chocolatey.module</id>
 		<title>Introducing Cake.Chocolatey.Module</title>
 		<updated>2017-03-18T00:00:00Z</updated>
 		<content>&lt;h1 id="or-as-i-like-to-call-it"&gt;Or as I like to call it...&lt;/h1&gt;
@@ -697,34 +697,6 @@ git push -f
 		<summary>&lt;p&gt;Back in September 2016, GitHub announced a very interesting feature, namely, the ability for a maintainer of a repository to push changes back to a remote repository (i.e. fork) from where a PR had been submitted.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
-		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
-		<title>How to create gh-pages branch</title>
-		<updated>2017-01-27T00:00:00Z</updated>
-		<content>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
-&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
-&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
-&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
-git rm -rf .
-echo &amp;quot;My Page&amp;quot; &amp;gt; index.html
-git add index.html
-git commit -a -m &amp;quot;First pages commit&amp;quot;
-git push --set-upstream origin gh-pages
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch" /&gt;&lt;/p&gt;
-&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration" /&gt;&lt;/p&gt;
-&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;</summary>
-	</entry>
-	<entry>
 		<link href="http://www.gep13.co.uk/blog/use-octokit-to-create-labels" />
 		<id>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</id>
 		<title>Use Octokit to create labels</title>
@@ -811,5 +783,33 @@ private static void SetUpDefaultLabels()
 &lt;p&gt;Much better!&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Good question!  I have a small amount compulsive behaviour when it comes to labels that are associated with GitHub projects that I work on.  Both in terms of the colour that is used, as well as the text that is associated with the label.  Being consistent means that it is much easier to identity what an issue/pull request is about, before even reading anything about it.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
+		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
+		<title>How to create gh-pages branch</title>
+		<updated>2017-01-27T00:00:00Z</updated>
+		<content>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
+&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
+&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
+&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
+git rm -rf .
+echo &amp;quot;My Page&amp;quot; &amp;gt; index.html
+git add index.html
+git commit -a -m &amp;quot;First pages commit&amp;quot;
+git push --set-upstream origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch" /&gt;&lt;/p&gt;
+&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration" /&gt;&lt;/p&gt;
+&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;</summary>
 	</entry>
 </feed>

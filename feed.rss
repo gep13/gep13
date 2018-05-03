@@ -5,8 +5,8 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Tue, 01 May 2018 11:51:09 GMT</pubDate>
-		<lastBuildDate>Tue, 01 May 2018 11:51:09 GMT</lastBuildDate>
+		<pubDate>Thu, 03 May 2018 20:26:49 GMT</pubDate>
+		<lastBuildDate>Thu, 03 May 2018 20:26:49 GMT</lastBuildDate>
 		<item>
 			<title>Chocolatey GUI v0.16.0 released</title>
 			<link>http://www.gep13.co.uk/blog/chocolatey-gui-v0.16.0-released</link>
@@ -86,9 +86,9 @@
 		</item>
 		<item>
 			<title>Introducing Cake.Chocolatey.Module</title>
-			<link>http://www.gep13.co.uk/blog/introducing%20cake.chocolatey.module</link>
+			<link>http://www.gep13.co.uk/blog/introducing-cake.chocolatey.module</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/introducing%20cake.chocolatey.module</guid>
+			<guid>http://www.gep13.co.uk/blog/introducing-cake.chocolatey.module</guid>
 			<pubDate>Sat, 18 Mar 2017 00:00:00 GMT</pubDate>
 		</item>
 		<item>
@@ -134,17 +134,17 @@
 			<pubDate>Sun, 29 Jan 2017 00:00:00 GMT</pubDate>
 		</item>
 		<item>
-			<title>How to create gh-pages branch</title>
-			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
-			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
 			<title>Use Octokit to create labels</title>
 			<link>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</guid>
+			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>How to create gh-pages branch</title>
+			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
 			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
