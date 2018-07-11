@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-07-11T07:28:40Z</updated>
+	<updated>2018-07-11T07:41:21Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/chocolatey-gui-v0.16.0-released" />
@@ -133,16 +133,16 @@
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/use-octokit-to-create-labels" />
-		<id>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</id>
-		<title>Use Octokit to create labels</title>
+		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
+		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
+		<title>How to create gh-pages branch</title>
 		<updated>2017-01-27T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
-		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
-		<title>How to create gh-pages branch</title>
+		<link href="http://www.gep13.co.uk/blog/use-octokit-to-create-labels" />
+		<id>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</id>
+		<title>Use Octokit to create labels</title>
 		<updated>2017-01-27T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
