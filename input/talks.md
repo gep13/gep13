@@ -37,6 +37,6 @@ Here is a list of the talks that I have given.
 
 * 13 October 2012 - DDD North
 
-## StyleCop - Breaking down the barriers to entry
+## StyleCop - Breaking down the barriers to entry - [repo](https://github.com/gep13/StyleCopDemos)
 
-* 26 May 2012 - DDDSW
+* 26 May 2012 - [DDD South West](https://dddsouthwest.com/)
