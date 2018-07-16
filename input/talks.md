@@ -20,10 +20,10 @@ Here is a list of the talks that I have given.
 * 8 February 2018 - [.Net Sheffield](https://www.meetup.com/dotnetsheff)
 * 9 February 2018 - [.Net York](https://www.meetup.com/dotnetYork)
 
-## Semantic Versioning with GitVersion
+## Semantic Versioning with GitVersion - [repo](https://github.com/gep13/GitVersionDemos)
 
-* 17 September 2015 - ScotSoft 2015
-* 22 October 2015 - Aberdeen Developers .Net User Group
+* 17 September 2015 - [ScotSoft 2015](https://scotsoft.scot/)
+* 22 October 2015 - [Aberdeen Developers .Net User Group](http://www.aberdeendevelopers.co.uk/)
 
 ## Mmmm, Chocolatey Goodness! - [repo](https://github.com/gep13/ChocolateyDemos)
 
