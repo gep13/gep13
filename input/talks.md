@@ -25,9 +25,11 @@ Here is a list of the talks that I have given.
 * 17 September 2015 - ScotSoft 2015
 * 22 October 2015 - Aberdeen Developers .Net User Group
 
-## Mmmm, Chocolatey Goodness!
+## Mmmm, Chocolatey Goodness! - [repo](https://github.com/gep13/ChocolateyDemos)
 
-* 28 March 2013 - Aberdeen Developers .Net User Group
+* 28 March 2013 - [Aberdeen Developers .Net User Group](http://www.aberdeendevelopers.co.uk/)
+* 10 February 2018 - [DDD Scotland](https://ddd.scot/)
+* 12 June 2018 - [DOUGH - DevOps UserGroup Gothenburg](https://www.meetup.com/DOUGH-DevOps-Usergroup-Gothenburg/)
 
 ## Continuous Integration 101 - [repo](https://github.com/gep13/ContinuousIntegrationDemos)
 
