@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-07-16T21:02:43Z</updated>
+	<updated>2018-07-16T21:11:26Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application" />
@@ -756,91 +756,31 @@ git push -f
 		<summary>&lt;p&gt;Back in September 2016, GitHub announced a very interesting feature, namely, the ability for a maintainer of a repository to push changes back to a remote repository (i.e. fork) from where a PR had been submitted.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/use-octokit-to-create-labels" />
-		<id>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</id>
-		<title>Use Octokit to create labels</title>
+		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
+		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
+		<title>How to create gh-pages branch</title>
 		<updated>2017-01-27T00:00:00Z</updated>
-		<content>&lt;h1 id="why-would-you-need-to-do-this"&gt;Why would you need to do this?&lt;/h1&gt;
-&lt;p&gt;Good question!  I have a small amount compulsive behaviour when it comes to labels that are associated with GitHub projects that I work on.  Both in terms of the colour that is used, as well as the text that is associated with the label.  Being consistent means that it is much easier to identity what an issue/pull request is about, before even reading anything about it.&lt;/p&gt;
-&lt;h1 id="so-what-is-the-problem"&gt;So what is the problem?&lt;/h1&gt;
-&lt;p&gt;By default, when you create a new repository on GitHub, this is what you get for labels:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/default-github-labels.png" class="img-fluid" alt="Default GitHub Labels" /&gt;&lt;/p&gt;
-&lt;p&gt;Now, while some of you might be saying there is nothing wrong with this, I much prefer them to look like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/my-github-labels.png" class="img-fluid" alt="My GitHub Labels" /&gt;&lt;/p&gt;
-&lt;p&gt;Ah, much better!&lt;/p&gt;
-&lt;p&gt;Now, while I could make these changes manually through the GitHub User Interface, this is time consuming, and prone to mistakes.  Having done this more than two times, it was time to automate it!&lt;/p&gt;
-&lt;h1 id="enter-octokit"&gt;Enter Octokit&lt;/h1&gt;
-&lt;p&gt;Octokit is GitHub API Client, which means that you can do pretty much anything through it, that you can do through the GitHub User Interface, including the creation of labels.&lt;/p&gt;
-&lt;p&gt;After a small amount of hacking, this is what I came up with (&lt;strong&gt;NOTE:&lt;/strong&gt; I wouldn't really consider this production ready code, but it does serve my purpose).&lt;/p&gt;
-&lt;h2 id="run-the-program"&gt;Run the Program&lt;/h2&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;private static GitHubClient _githubClient;
-
-static void Main(string[] args)
-{
-    _githubClient = CreateGitHubClient();
-
-    GetLabels();
-}
+		<content>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
+&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
+&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
+&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
+git rm -rf .
+echo &amp;quot;My Page&amp;quot; &amp;gt; index.html
+git add index.html
+git commit -a -m &amp;quot;First pages commit&amp;quot;
+git push --set-upstream origin gh-pages
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="create-the-github-client"&gt;Create the GitHub Client&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This part requires you to input either the password or access token that you use for GitHub.  The ProductHeaderValue can really be anything.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;private static GitHubClient CreateGitHubClient()
-{
-    var credentials = new Credentials(&amp;quot;gep13&amp;quot;, &amp;quot;&amp;lt;your access token needs to go here&amp;gt;&amp;quot;);
-    var github = new GitHubClient(new ProductHeaderValue(&amp;quot;gep13&amp;quot;)) { Credentials = credentials };
-    return github;
-}
+&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch" /&gt;&lt;/p&gt;
+&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="setup-default-labels"&gt;Setup Default Labels&lt;/h2&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;private static List&amp;lt;NewLabel&amp;gt; _defaultLabels = new List&amp;lt;NewLabel&amp;gt;();
-
-private static void SetUpDefaultLabels()
-{
-    _defaultLabels.Add(new NewLabel(&amp;quot;Breaking change&amp;quot;, &amp;quot;b60205&amp;quot;));
-    _defaultLabels.Add(new NewLabel(&amp;quot;Bug&amp;quot;, &amp;quot;ee0701&amp;quot;));
-    _defaultLabels.Add(new NewLabel(&amp;quot;Build&amp;quot;, &amp;quot;009800&amp;quot;));
-    _defaultLabels.Add(new NewLabel(&amp;quot;Documentation&amp;quot;, &amp;quot;d4c5f9&amp;quot;));
-    _defaultLabels.Add(new NewLabel(&amp;quot;Feature&amp;quot;, &amp;quot;84b6eb&amp;quot;));
-    _defaultLabels.Add(new NewLabel(&amp;quot;Improvement&amp;quot;, &amp;quot;207de5&amp;quot;));
-    _defaultLabels.Add(new NewLabel(&amp;quot;Up-for-grabs&amp;quot;, &amp;quot;159818&amp;quot;));
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="create-and-delete-labels"&gt;Create and Delete Labels&lt;/h2&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;private static void CreateLabels()
-{
-    SetUpDefaultLabels();
-
-    try
-    {
-        var labels = _githubClient.Issue.Labels.GetAllForRepository(&amp;quot;cake-contrib&amp;quot;, &amp;quot;Cake.Ember&amp;quot;).Result;
-
-        foreach (var label in labels)
-        {
-            _githubClient.Issue.Labels.Delete(&amp;quot;cake-contrib&amp;quot;, &amp;quot;Cake.Ember&amp;quot;, label.Name).Wait();
-        }
-
-        foreach (var label in _defaultLabels)
-        {
-            _githubClient.Issue.Labels.Create(&amp;quot;cake-contrib&amp;quot;, &amp;quot;Cake.Ember&amp;quot;, label).Wait();
-        }
-    }
-    catch (Exception)
-    {
-        Debug.Write(&amp;quot;boom&amp;quot;);
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id="so-what-are-you-doing-here"&gt;So what are you doing here?&lt;/h1&gt;
-&lt;p&gt;Essentially what this boils down to is...&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Create a GitHub Client, which gives you access to the GitHub API&lt;/li&gt;
-&lt;li&gt;Configure the default labels that I want to create&lt;/li&gt;
-&lt;li&gt;Loop through and delete all the existing labels&lt;/li&gt;
-&lt;li&gt;Loop through and create the new default labels&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;With this in place, the total execution takes around 3 seconds to complete, as opposed to minutes of clicking the mouse.&lt;/p&gt;
-&lt;p&gt;Much better!&lt;/p&gt;
+&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration" /&gt;&lt;/p&gt;
+&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
 </content>
-		<summary>&lt;p&gt;Good question!  I have a small amount compulsive behaviour when it comes to labels that are associated with GitHub projects that I work on.  Both in terms of the colour that is used, as well as the text that is associated with the label.  Being consistent means that it is much easier to identity what an issue/pull request is about, before even reading anything about it.&lt;/p&gt;</summary>
+		<summary>&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;</summary>
 	</entry>
 </feed>
