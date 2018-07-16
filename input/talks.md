@@ -33,9 +33,9 @@ Here is a list of the talks that I have given.
 
 * 23 November 2013 - DunDDD
 
-## Getting started with Caliburn.Micro and Windows Phone 7
+## Getting started with Caliburn.Micro and Windows Phone 7 - [repo](https://github.com/gep13/CaliburnMicroDemos)
 
-* 13 October 2012 - DDD North
+* 13 October 2012 - [DDD North](http://www.dddnorth.co.uk/)
 
 ## StyleCop - Breaking down the barriers to entry - [repo](https://github.com/gep13/StyleCopDemos)
 
