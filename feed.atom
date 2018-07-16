@@ -4,8 +4,67 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-07-16T20:28:11Z</updated>
+	<updated>2018-07-16T21:02:43Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application" />
+		<id>http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application</id>
+		<title>How to get console output from a WPF application</title>
+		<updated>2018-07-16T00:00:00Z</updated>
+		<content>&lt;p&gt;While implementing a recent feature addition to &lt;a href="https://github.com/chocolatey/ChocolateyGUI/pull/613"&gt;Chocolatey GUI&lt;/a&gt;, I stumbled across something that I thought was blog worthy, so I thought I would add some notes here for future me.&lt;/p&gt;
+&lt;h2 id="the-problem"&gt;The problem&lt;/h2&gt;
+&lt;p&gt;Chocolatey GUI is a WPF application, but the feature that was being added here was the ability to execute Chocolatey GUI from the command line in order to enable/disable features within the application.  i.e. you will be able to run commands like the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-powershell"&gt;chocolateygui feature enable -n=&amp;lt;featureName&amp;gt;
+chocolateygui feature disable -n=&amp;lt;featureName&amp;gt;
+chocolateygui feature list
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When I first started writing this feature, I thought that this was going to be simple.  What I didn't know is that when compiled with an &lt;code&gt;OutputType&lt;/code&gt; of &lt;code&gt;WinExe&lt;/code&gt;, which a WPF application is, it doesn't output anything to the console.  As a result, trying to do something like:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;Console.Write(&amp;quot;This is a test&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;results in nothing happening.  There are also no errors at runtime, so it is not immediately clear what is going on.&lt;/p&gt;
+&lt;h2 id="the-solution"&gt;The solution&lt;/h2&gt;
+&lt;p&gt;Thankfully, after searching around, it was clear that I wasn't the first person to stumble into this.  There are a number of different solutions out there (including attempting to attach to the existing console, creating a new console, etc.), however, none of them felt quite right until I found this article:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.rsuter.com/write-application-can-act-console-application-wpf-gui-application/"&gt;https://blog.rsuter.com/write-application-can-act-console-application-wpf-gui-application/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Huge thanks to Rico Suter for this!&lt;/p&gt;
+&lt;p&gt;The magic sauce that makes this work is this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;    [DllImport(&amp;quot;kernel32.dll&amp;quot;, SetLastError = true, ExactSpelling = true)]
+    static extern bool FreeConsole();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This pinvoke call is completely opposite to how I was originally thinking about it.  Rather than attempting to attach to an existing console, or create a new one, this technique starts out assuming that there is a console, and if that console isn't required, get rid of it.  i.e. &lt;code&gt;FreeConsole&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In order for this to work, it is necessary to change the output type of you WPF project to be a Console Application, and also add an &lt;code&gt;InitialzeComponent()&lt;/code&gt; call.&lt;/p&gt;
+&lt;p&gt;For Chocolatey GUI, the startup code then looks like the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;        public App()
+        {
+            InitializeComponent();
+        }
+
+        internal static SplashScreen SplashScreen { get; set; }
+
+        [STAThread]
+        public static void Main(string[] args)
+        {
+            if (args.Length != 0)
+            {
+                // Run as Console Application
+                ParseArgumentsAndRunCommand(args);
+            }
+            else
+            {
+                // Run as WPF Application
+                FreeConsole();
+
+                // Do Stuff
+            }
+        }
+
+        [DllImport(&amp;quot;kernel32.dll&amp;quot;, SetLastError = true, ExactSpelling = true)]
+        private static extern bool FreeConsole();
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Check the &lt;a href="https://github.com/chocolatey/ChocolateyGUI/pull/613"&gt;Pull Request&lt;/a&gt; to Chocolatey GUI for the complete implementation.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;While implementing a recent feature addition to &lt;a href="https://github.com/chocolatey/ChocolateyGUI/pull/613"&gt;Chocolatey GUI&lt;/a&gt;, I stumbled across something that I thought was blog worthy, so I thought I would add some notes here for future me.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/chocolatey-gui-v0.16.0-released" />
 		<id>http://www.gep13.co.uk/blog/chocolatey-gui-v0.16.0-released</id>
@@ -783,33 +842,5 @@ private static void SetUpDefaultLabels()
 &lt;p&gt;Much better!&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Good question!  I have a small amount compulsive behaviour when it comes to labels that are associated with GitHub projects that I work on.  Both in terms of the colour that is used, as well as the text that is associated with the label.  Being consistent means that it is much easier to identity what an issue/pull request is about, before even reading anything about it.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
-		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
-		<title>How to create gh-pages branch</title>
-		<updated>2017-01-27T00:00:00Z</updated>
-		<content>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
-&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
-&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
-&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
-git rm -rf .
-echo &amp;quot;My Page&amp;quot; &amp;gt; index.html
-git add index.html
-git commit -a -m &amp;quot;First pages commit&amp;quot;
-git push --set-upstream origin gh-pages
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch" /&gt;&lt;/p&gt;
-&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration" /&gt;&lt;/p&gt;
-&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;</summary>
 	</entry>
 </feed>

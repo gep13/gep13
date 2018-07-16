@@ -4,8 +4,15 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-07-16T20:28:17Z</updated>
+	<updated>2018-07-16T21:02:50Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application" />
+		<id>http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application</id>
+		<title>How to get console output from a WPF application</title>
+		<updated>2018-07-16T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/chocolatey-gui-v0.16.0-released" />
 		<id>http://www.gep13.co.uk/blog/chocolatey-gui-v0.16.0-released</id>
@@ -136,13 +143,6 @@
 		<link href="http://www.gep13.co.uk/blog/use-octokit-to-create-labels" />
 		<id>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</id>
 		<title>Use Octokit to create labels</title>
-		<updated>2017-01-27T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
-		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
-		<title>How to create gh-pages branch</title>
 		<updated>2017-01-27T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>

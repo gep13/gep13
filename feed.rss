@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Mon, 16 Jul 2018 20:28:17 GMT</pubDate>
-		<lastBuildDate>Mon, 16 Jul 2018 20:28:17 GMT</lastBuildDate>
+		<pubDate>Mon, 16 Jul 2018 21:02:50 GMT</pubDate>
+		<lastBuildDate>Mon, 16 Jul 2018 21:02:50 GMT</lastBuildDate>
+		<item>
+			<title>How to get console output from a WPF application</title>
+			<link>http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application</guid>
+			<pubDate>Mon, 16 Jul 2018 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>Chocolatey GUI v0.16.0 released</title>
 			<link>http://www.gep13.co.uk/blog/chocolatey-gui-v0.16.0-released</link>
@@ -138,13 +145,6 @@
 			<link>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/use-octokit-to-create-labels</guid>
-			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>How to create gh-pages branch</title>
-			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
 			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
