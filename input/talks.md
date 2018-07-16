@@ -20,6 +20,11 @@ Here is a list of the talks that I have given.
 * 8 February 2018 - [.Net Sheffield](https://www.meetup.com/dotnetsheff)
 * 9 February 2018 - [.Net York](https://www.meetup.com/dotnetYork)
 
+## Control your GitHub Releases with GitVersion and GitReleaseManager - [repo](https://github.com/gep13/GitHubReleaseDemos)
+
+* 10 June 2017 - [DDD Reading])(https://developerdeveloperdeveloper.com/)
+* 16 September 2017 - [DDD East Anglia](https://www.dddeastanglia.com/)
+
 ## Semantic Versioning with GitVersion - [repo](https://github.com/gep13/GitVersionDemos)
 
 * 17 September 2015 - [ScotSoft 2015](https://scotsoft.scot/)
