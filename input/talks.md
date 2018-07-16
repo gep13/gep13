@@ -29,7 +29,7 @@ Here is a list of the talks that I have given.
 
 * 28 March 2013 - Aberdeen Developers .Net User Group
 
-## Continuous Integration 101
+## Continuous Integration 101 - [repo](https://github.com/gep13/ContinuousIntegrationDemos)
 
 * 23 November 2013 - DunDDD
 
