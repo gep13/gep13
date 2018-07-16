@@ -7,13 +7,18 @@ I really like giving presentations to people about topics that I am interested i
 
 Here is a list of the talks that I have given.
 
-## A Piece of Cake - C# powered cross platform build automation
+## A Piece of Cake - C# powered cross platform build automation - [repo](https://github.com/gep13/CakeDemos)
 
-* 21 April 2016 - Aberdeen Developers .Net User Group
-* 14 May 2016 - DDD Scotland
-* 9 June 2016 - NDC Oslo ([video](https://vimeo.com/171704581))
-* 3 September 2016 - DDD Reading
-* 1 October 2016 - DDD North
+* 21 April 2016 - [Aberdeen Developers .Net User Group](https://www.aberdeendevelopers.co.uk/april-2016-meeting-gary-ewan-park/)
+* 14 May 2016 - [DDD Scotland](https://ddd.scot/)
+* 9 June 2016 - [NDC Oslo](https://ndcoslo.com/) ([video](https://vimeo.com/171704581))
+* 3 September 2016 - [DDD Reading](https://developerdeveloperdeveloper.com/)
+* 1 October 2016 - [DDD North](http://www.dddnorth.co.uk/)
+* 30 January 2018 - [KC .NET User Group](https://www.meetup.com/KC-NET-User-Group)
+* 6 February 2018 - [.Net Oxford](https://www.meetup.com/dotnetoxford)
+* 7 February 2018 - [London .NET User Group](https://www.meetup.com/London-NET-User-Group)
+* 8 February 2018 - [.Net Sheffield](https://www.meetup.com/dotnetsheff)
+* 9 February 2018 - [.Net York](https://www.meetup.com/dotnetYork)
 
 ## Semantic Versioning with GitVersion
 
