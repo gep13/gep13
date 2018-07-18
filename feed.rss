@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Mon, 16 Jul 2018 21:11:32 GMT</pubDate>
-		<lastBuildDate>Mon, 16 Jul 2018 21:11:32 GMT</lastBuildDate>
+		<pubDate>Wed, 18 Jul 2018 08:01:26 GMT</pubDate>
+		<lastBuildDate>Wed, 18 Jul 2018 08:01:26 GMT</lastBuildDate>
+		<item>
+			<title>Are you coming to Chocolatey Fest?</title>
+			<link>http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest</guid>
+			<pubDate>Wed, 18 Jul 2018 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>How to get console output from a WPF application</title>
 			<link>http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application</link>
@@ -139,13 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch</guid>
 			<pubDate>Sun, 29 Jan 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>How to create gh-pages branch</title>
-			<link>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</guid>
-			<pubDate>Fri, 27 Jan 2017 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>

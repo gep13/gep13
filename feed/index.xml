@@ -4,8 +4,15 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-07-16T21:11:32Z</updated>
+	<updated>2018-07-18T08:01:26Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest" />
+		<id>http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest</id>
+		<title>Are you coming to Chocolatey Fest?</title>
+		<updated>2018-07-18T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application" />
 		<id>http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application</id>
@@ -137,13 +144,6 @@
 		<id>http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch</id>
 		<title>How to rebase a PR branch</title>
 		<updated>2017-01-29T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
-		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
-		<title>How to create gh-pages branch</title>
-		<updated>2017-01-27T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>

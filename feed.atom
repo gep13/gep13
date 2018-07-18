@@ -4,8 +4,25 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-07-16T21:11:26Z</updated>
+	<updated>2018-07-18T08:01:20Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest" />
+		<id>http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest</id>
+		<title>Are you coming to Chocolatey Fest?</title>
+		<updated>2018-07-18T00:00:00Z</updated>
+		<content>&lt;p&gt;When I joined Chocolatey, I knew I was going to be in for an exciting ride, and so far, I have not been disappointed.  To date, I have been able to work on some exciting new features that are due out later this year, and I attended the PowerShell Summit, and interacted directly with people using Chocolatey.  Looking forward, the thing I am most looking forward to in 2018 is &lt;a href="https://chocolateyfest.com/"&gt;Chocolatey Fest&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="what-is-chocolatey-fest"&gt;What is Chocolatey Fest?&lt;/h2&gt;
+&lt;p&gt;Chocolatey Fest is the first ever independent conference in North America focused exclusively on Windows Automation (WinOps).  It is a one day event, which is going to be hosted at the Park Central Hotel in San Francisco, on the 8th October 2018.  I am planning on travelling to attend this event, and I very much looking forward to hearing about how people are using Chocolatey personally and in their Organisations, as well as the larger picture about Windows Automation.  I have a feeling that this is going to be a great event, and I would encourage you if you are in the area, to come along and join in.&lt;/p&gt;
+&lt;p&gt;If you are interested in attending, you can find the registration page &lt;a href="https://chocolateyfest.com/register"&gt;here&lt;/a&gt;.  Will yours be the Golden Ticket?&lt;/p&gt;
+&lt;h2 id="will-willy-wonka-make-an-appearance"&gt;Will Willy Wonka make an appearance?&lt;/h2&gt;
+&lt;p&gt;You never know who you might see at the event:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://pbs.twimg.com/media/Dd67CnHU0AAm11-.jpg" class="img-fluid" alt="Rob Reynolds dressed as Willy Wonka for Halloween" title="Rob Reynolds dressed as Willy Wonka for Halloween" /&gt;&lt;/p&gt;
+&lt;h2 id="announcement-blog-post"&gt;Announcement Blog Post&lt;/h2&gt;
+&lt;p&gt;For more information about the event, check out the official announcement blog post of &lt;a href="https://chocolatey.org/blog/chocolatey-fest-conference-coming-october-8"&gt;chocolatey.org&lt;/a&gt;.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;When I joined Chocolatey, I knew I was going to be in for an exciting ride, and so far, I have not been disappointed.  To date, I have been able to work on some exciting new features that are due out later this year, and I attended the PowerShell Summit, and interacted directly with people using Chocolatey.  Looking forward, the thing I am most looking forward to in 2018 is &lt;a href="https://chocolateyfest.com/"&gt;Chocolatey Fest&lt;/a&gt;.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application" />
 		<id>http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application</id>
@@ -754,33 +771,5 @@ git push -f
 &lt;p&gt;Huge thanks have to go to Mattias (a.k.a &lt;a href="https://twitter.com/devlead"&gt;devlead&lt;/a&gt;) for showing me that this was possible.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Back in September 2016, GitHub announced a very interesting feature, namely, the ability for a maintainer of a repository to push changes back to a remote repository (i.e. fork) from where a PR had been submitted.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch" />
-		<id>http://www.gep13.co.uk/blog/how-to-create-gh-pages-branch</id>
-		<title>How to create gh-pages branch</title>
-		<updated>2017-01-27T00:00:00Z</updated>
-		<content>&lt;h1 id="let-the-branching-commence"&gt;Let the branching commence!&lt;/h1&gt;
-&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;
-&lt;p&gt;With the aid of &lt;a href="http://cakebuild.net/"&gt;Cake&lt;/a&gt; and &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;, I am now generating documentation for some of the projects that I work on.  This is done by generating the documentation, and then pushing the result into a &lt;code&gt;gh-pages&lt;/code&gt; branch on the GitHub Repository where the source code is hosted.  This process is actually really simple, and it will be the topic of another blog post, but in order for it to work, we first need to create the gh-pages branch in the first place.&lt;/p&gt;
-&lt;p&gt;In order for this to work, we need to create an &lt;code&gt;orphan&lt;/code&gt; branch.  More details on what this is, and why we need it, can be found &lt;a href="https://help.github.com/articles/creating-project-pages-using-the-command-line/"&gt;here&lt;/a&gt;.  In fact, everything that you need to complete this process is in that article, it just isnt' specific to my needs.  So this is what I need...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git checkout --orphan gh-pages
-git rm -rf .
-echo &amp;quot;My Page&amp;quot; &amp;gt; index.html
-git add index.html
-git commit -a -m &amp;quot;First pages commit&amp;quot;
-git push --set-upstream origin gh-pages
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If all of that worked, you should now have something that looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/first-gh-pages-branch.png" class="img-fluid" alt="First gh-pages branch" /&gt;&lt;/p&gt;
-&lt;p&gt;By default, a new gh-pages branch, created on a repository is going to be accessible via:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;https://&amp;lt;organisation-name&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;i.e here: &lt;a href="https://cake-contrib.github.io/Cake.Ember/"&gt;https://cake-contrib.github.io/Cake.Ember/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This can be configured in the Settings for your repository:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/27/gh-pages-configuration.png" class="img-fluid" alt="gh-pages configuration" /&gt;&lt;/p&gt;
-&lt;p&gt;For example, you can configure a custom domain name for accessing the website that is hosted on GitHub.  For my purposes though, the default settings and configuration are all that I need.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;This is the third time that I have had to look this up, and tailor to my needs, so it's time to write it down, so that I don't forget again!&lt;/p&gt;</summary>
 	</entry>
 </feed>
