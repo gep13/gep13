@@ -4,8 +4,15 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-07-18T08:01:26Z</updated>
+	<updated>2018-07-27T08:22:47Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/problem-running-chocolatey-test-environment" />
+		<id>http://www.gep13.co.uk/blog/problem-running-chocolatey-test-environment</id>
+		<title>Problem Running Chocolatey Test Environment</title>
+		<updated>2018-07-27T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest" />
 		<id>http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest</id>
@@ -112,16 +119,16 @@
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio" />
-		<id>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</id>
-		<title>Signing GitHub Commits with Keybase.io</title>
+		<link href="http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation" />
+		<id>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</id>
+		<title>An Update on Cake-Contrib User and Organisation</title>
 		<updated>2017-03-09T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation" />
-		<id>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</id>
-		<title>An Update on Cake-Contrib User and Organisation</title>
+		<link href="http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio" />
+		<id>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</id>
+		<title>Signing GitHub Commits with Keybase.io</title>
 		<updated>2017-03-09T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
@@ -137,13 +144,6 @@
 		<id>http://www.gep13.co.uk/blog/amelia-mabel-park</id>
 		<title>Amelia Mabel Park</title>
 		<updated>2017-02-17T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch" />
-		<id>http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch</id>
-		<title>How to rebase a PR branch</title>
-		<updated>2017-01-29T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>

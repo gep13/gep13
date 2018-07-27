@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Wed, 18 Jul 2018 08:01:26 GMT</pubDate>
-		<lastBuildDate>Wed, 18 Jul 2018 08:01:26 GMT</lastBuildDate>
+		<pubDate>Fri, 27 Jul 2018 08:22:47 GMT</pubDate>
+		<lastBuildDate>Fri, 27 Jul 2018 08:22:47 GMT</lastBuildDate>
+		<item>
+			<title>Problem Running Chocolatey Test Environment</title>
+			<link>http://www.gep13.co.uk/blog/problem-running-chocolatey-test-environment</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/problem-running-chocolatey-test-environment</guid>
+			<pubDate>Fri, 27 Jul 2018 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>Are you coming to Chocolatey Fest?</title>
 			<link>http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest</link>
@@ -113,17 +120,17 @@
 			<pubDate>Mon, 13 Mar 2017 00:00:00 GMT</pubDate>
 		</item>
 		<item>
-			<title>Signing GitHub Commits with Keybase.io</title>
-			<link>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</guid>
-			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
 			<title>An Update on Cake-Contrib User and Organisation</title>
 			<link>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</guid>
+			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Signing GitHub Commits with Keybase.io</title>
+			<link>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</guid>
 			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
 		</item>
 		<item>
@@ -139,13 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/amelia-mabel-park</guid>
 			<pubDate>Fri, 17 Feb 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>How to rebase a PR branch</title>
-			<link>http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/how-to-rebase-a-pr-branch</guid>
-			<pubDate>Sun, 29 Jan 2017 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>
