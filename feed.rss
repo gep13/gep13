@@ -5,8 +5,8 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Fri, 27 Jul 2018 08:22:47 GMT</pubDate>
-		<lastBuildDate>Fri, 27 Jul 2018 08:22:47 GMT</lastBuildDate>
+		<pubDate>Sun, 19 Aug 2018 15:42:29 GMT</pubDate>
+		<lastBuildDate>Sun, 19 Aug 2018 15:42:29 GMT</lastBuildDate>
 		<item>
 			<title>Problem Running Chocolatey Test Environment</title>
 			<link>http://www.gep13.co.uk/blog/problem-running-chocolatey-test-environment</link>
@@ -120,17 +120,17 @@
 			<pubDate>Mon, 13 Mar 2017 00:00:00 GMT</pubDate>
 		</item>
 		<item>
-			<title>An Update on Cake-Contrib User and Organisation</title>
-			<link>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</guid>
-			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
 			<title>Signing GitHub Commits with Keybase.io</title>
 			<link>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</guid>
+			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>An Update on Cake-Contrib User and Organisation</title>
+			<link>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</guid>
 			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
 		</item>
 		<item>
