@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Sun, 19 Aug 2018 15:42:29 GMT</pubDate>
-		<lastBuildDate>Sun, 19 Aug 2018 15:42:29 GMT</lastBuildDate>
+		<pubDate>Wed, 26 Sep 2018 18:59:34 GMT</pubDate>
+		<lastBuildDate>Wed, 26 Sep 2018 18:59:34 GMT</lastBuildDate>
+		<item>
+			<title>Hacktoberfest Meetup 2018</title>
+			<link>http://www.gep13.co.uk/blog/hacktoberfest-meetup-2018</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/hacktoberfest-meetup-2018</guid>
+			<pubDate>Wed, 26 Sep 2018 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>Problem Running Chocolatey Test Environment</title>
 			<link>http://www.gep13.co.uk/blog/problem-running-chocolatey-test-environment</link>
@@ -120,17 +127,17 @@
 			<pubDate>Mon, 13 Mar 2017 00:00:00 GMT</pubDate>
 		</item>
 		<item>
-			<title>Signing GitHub Commits with Keybase.io</title>
-			<link>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</guid>
-			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
 			<title>An Update on Cake-Contrib User and Organisation</title>
 			<link>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</guid>
+			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Signing GitHub Commits with Keybase.io</title>
+			<link>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</guid>
 			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
 		</item>
 		<item>
@@ -139,13 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/granny-poem</guid>
 			<pubDate>Tue, 21 Feb 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Amelia Mabel Park</title>
-			<link>http://www.gep13.co.uk/blog/amelia-mabel-park</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/amelia-mabel-park</guid>
-			<pubDate>Fri, 17 Feb 2017 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>
