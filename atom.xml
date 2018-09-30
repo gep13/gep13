@@ -4,8 +4,15 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-09-26T18:59:34Z</updated>
+	<updated>2018-09-30T11:48:23Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/mvp-rd-wall-at-msignite" />
+		<id>http://www.gep13.co.uk/blog/mvp-rd-wall-at-msignite</id>
+		<title>MVP and RD Wall at Microsoft Ignite</title>
+		<updated>2018-09-30T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/hacktoberfest-meetup-2018" />
 		<id>http://www.gep13.co.uk/blog/hacktoberfest-meetup-2018</id>
@@ -126,13 +133,6 @@
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation" />
-		<id>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</id>
-		<title>An Update on Cake-Contrib User and Organisation</title>
-		<updated>2017-03-09T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
 		<link href="http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio" />
 		<id>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</id>
 		<title>Signing GitHub Commits with Keybase.io</title>
@@ -140,10 +140,10 @@
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/granny-poem" />
-		<id>http://www.gep13.co.uk/blog/granny-poem</id>
-		<title>Granny's Poem</title>
-		<updated>2017-02-21T00:00:00Z</updated>
+		<link href="http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation" />
+		<id>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</id>
+		<title>An Update on Cake-Contrib User and Organisation</title>
+		<updated>2017-03-09T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>

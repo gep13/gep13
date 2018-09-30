@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Wed, 26 Sep 2018 18:59:34 GMT</pubDate>
-		<lastBuildDate>Wed, 26 Sep 2018 18:59:34 GMT</lastBuildDate>
+		<pubDate>Sun, 30 Sep 2018 11:48:23 GMT</pubDate>
+		<lastBuildDate>Sun, 30 Sep 2018 11:48:23 GMT</lastBuildDate>
+		<item>
+			<title>MVP and RD Wall at Microsoft Ignite</title>
+			<link>http://www.gep13.co.uk/blog/mvp-rd-wall-at-msignite</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/mvp-rd-wall-at-msignite</guid>
+			<pubDate>Sun, 30 Sep 2018 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>Hacktoberfest Meetup 2018</title>
 			<link>http://www.gep13.co.uk/blog/hacktoberfest-meetup-2018</link>
@@ -127,13 +134,6 @@
 			<pubDate>Mon, 13 Mar 2017 00:00:00 GMT</pubDate>
 		</item>
 		<item>
-			<title>An Update on Cake-Contrib User and Organisation</title>
-			<link>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</guid>
-			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
 			<title>Signing GitHub Commits with Keybase.io</title>
 			<link>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
@@ -141,11 +141,11 @@
 			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
 		</item>
 		<item>
-			<title>Granny's Poem</title>
-			<link>http://www.gep13.co.uk/blog/granny-poem</link>
+			<title>An Update on Cake-Contrib User and Organisation</title>
+			<link>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/granny-poem</guid>
-			<pubDate>Tue, 21 Feb 2017 00:00:00 GMT</pubDate>
+			<guid>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</guid>
+			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>
