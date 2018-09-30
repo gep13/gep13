@@ -19,6 +19,6 @@ It was this picture:
 
 It was pointed out to me on Twitter by [Jan Karger](https://twitter.com/punker76/status/1044343384503209988) that my name was included in the wall.  A quick check, and indeed I could see my name:
 
-![My name on the wall](https://gep13wpstorage.blob.core.windows.net/gep13/2018/09/30/gep13_mvp_rd_wall.jpg)
+![My name on the wall](https://gep13wpstorage.blob.core.windows.net/gep13/2018/09/30/gep13_mvp_rd_wall.png)
 
 I had no idea that Microsoft did this, and I really think it is a nice touch, to show appreciation to all the MVP's and Regional Directors.
