@@ -4,8 +4,99 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-09-30T12:00:32Z</updated>
+	<updated>2018-10-12T12:58:08Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/introducing-cake.dotnettool.module" />
+		<id>http://www.gep13.co.uk/blog/introducing-cake.dotnettool.module</id>
+		<title>Introducing the Cake.DotNetTool.Module</title>
+		<updated>2018-10-12T00:00:00Z</updated>
+		<content>&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
+&lt;p&gt;Back in version &lt;a href="https://github.com/cake-build/cake/releases/tag/v0.13.0"&gt;0.13.0&lt;/a&gt; of Cake a feature known as &lt;a href="https://github.com/cake-build/cake/issues/646"&gt;Module Support&lt;/a&gt; was released.  This provided the ability to both extend and replace some of the built in functionality of Cake.&lt;/p&gt;
+&lt;p&gt;One of these extension points is the registration of &lt;a href="http://cakebuild.net/api/Cake.Core.Packaging/IPackageInstaller/"&gt;IPackageInstaller&lt;/a&gt;'s, which deal with installing tools and addins during the Cake Script execution.  The DotNet Tool Module utilizes this extension point to allow tools to be resolved using the &lt;a href="https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-tool-install"&gt;DotNet CLI&lt;/a&gt;, specifically, the &lt;code&gt;dotnet tool&lt;/code&gt; command.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; The &lt;code&gt;dotnet tool&lt;/code&gt; command deals with the installation of tools.  As a result, it only makes sense for this module to deal with tools, and not addins.&lt;/p&gt;
+&lt;h1 id="why-is-this-needed"&gt;Why is this needed?&lt;/h1&gt;
+&lt;p&gt;Out of the box, Cake has the ability to install tools and addins from any NuGet source.  This is documented on the &lt;a href="http://cakebuild.net/docs/fundamentals/preprocessor-directives"&gt;Cake Website&lt;/a&gt;.  Recently, &lt;a href="https://github.com/larzw"&gt;Larz White&lt;/a&gt; &lt;a href="http://cakebuild.net/blog/2017/01/cake-paket"&gt;showed&lt;/a&gt; how it was possible to use an alternative package manager, namely &lt;a href="https://fsprojects.github.io/Paket/"&gt;Paket&lt;/a&gt; to install those tools and addins.&lt;/p&gt;
+&lt;p&gt;However, there are a growing number of tools that can be installed as Global DotNet Tools (there is a list of these compiled &lt;a href="https://github.com/natemcmaster/dotnet-tools"&gt;here&lt;/a&gt; by Nate McMaster).  Cake itself, is actually published as a DotNet Global Tool.  As part of your build process, you might want to have these tools installed, ready to be used.  However, what I want to be able to do is to define the installation of these tools in the same way as I do my other tools and addins, so that everything is in the same place.  For example, I want to put them right here:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;///////////////////////////////////////////////////////////////////////////////
+// TOOLS
+///////////////////////////////////////////////////////////////////////////////
+
+#tool nuget:?package=coveralls.io&amp;amp;version=1.3.4
+#tool nuget:?package=gitreleasemanager&amp;amp;version=0.5.0
+#tool nuget:?package=GitVersion.CommandLine&amp;amp;version=3.6.2
+#tool nuget:?package=JetBrains.ReSharper.CommandLineTools&amp;amp;version=2016.3.20161223.160402
+#tool nuget:?package=ReSharperReports&amp;amp;version=0.2.0
+#tool nuget:?package=KuduSync.NET&amp;amp;version=1.3.1
+#tool nuget:?package=Wyam&amp;amp;version=0.16.1
+#tool nuget:?package=gitlink&amp;amp;version=2.4.1
+#tool nuget:?package=MSBuild.Extension.Pack&amp;amp;version=1.9.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Along with all the other tools that I use in my build.&lt;/p&gt;
+&lt;p&gt;And that is what this Cake Module allows you to do.  You can now add the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#tool dotnet:?package=Octopus.DotNet.Cli&amp;amp;version=4.41.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Which would install version 4.41.0 of the &lt;a href="https://www.nuget.org/packages/Octopus.DotNet.Cli/4.41.0"&gt;Octopus.DotNet.Cli package&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; What is different here is that &lt;code&gt;dotnet&lt;/code&gt; is being used, rather than &lt;code&gt;nuget&lt;/code&gt;.  This is what causes Cake to defer to the DotNet Tool Module, rather than using NuGet to resolve the tool installation.&lt;/p&gt;
+&lt;h1 id="installation"&gt;Installation&lt;/h1&gt;
+&lt;p&gt;Due to the fact that Cake Modules are extending and altering the internals of the Cake, the Module Assembly needs to be loaded prior to the main Cake execution.  As documented in the &lt;a href="https://cakebuild.net/docs/fundamentals/preprocessor-directives"&gt;Module section of this page&lt;/a&gt;, you simply have to do the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;./build.sh --bootstrap
+./build.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This means that the first execution of Cake will inspect your Cake script for any module inclusions in your script, and if there are any, download and install them.  And the second execution will then be able to use those modules, and complete the usage of the module.&lt;/p&gt;
+&lt;p&gt;An example of a Cake script which both includes the module definition for the DotNet Tool Module, and which also uses it, is shown below:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#module nuget:?package=Cake.DotNetTool.Module&amp;amp;version=0.1.0
+#tool &amp;quot;dotnet:?package=Octopus.DotNet.Cli&amp;amp;version=4.41.0&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id="usage"&gt;Usage&lt;/h1&gt;
+&lt;p&gt;As mentioned above, installing a tool using the DotNet Tool Module is as simple as:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#tool dotnet:?package=Octopus.DotNet.Cli&amp;amp;version=4.41.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If the tool in question comes from a different source, you can change that as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#tool dotnet:https://www.myget.org/F/gep13/api/v2?package=Octopus.DotNet.Cli&amp;amp;version=4.41.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;By default, the DotNet Tool Module will install a tool to the location of the defined Cake Tools folder (this is normally simply a &lt;code&gt;tools&lt;/code&gt; folder located beside the Cake Script that is being executed).  It is possible to control the location of this tools folder in the &lt;a href="https://cakebuild.net/docs/fundamentals/default-configuration-values"&gt;normal way&lt;/a&gt;, and additionally, you can opt to install the DotNet Tool globally using:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#tool dotnet:?package=Octopus.DotNet.Cli&amp;amp;version=4.41.0&amp;amp;global
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Additional parameters that can be passed to the pre-processor directive include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;configfile
+&lt;ul&gt;
+&lt;li&gt;Specifies which NuGet config file should be used during the execution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;framework
+&lt;ul&gt;
+&lt;li&gt;Specifies the &lt;a href="https://docs.microsoft.com/en-us/dotnet/standard/frameworks"&gt;target framework&lt;/a&gt; to install the tool for. By default, the .NET Core SDK tries to choose the most appropriate target framework.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finally, you can control the logging verbosity of the underlying &lt;code&gt;dotnet tool&lt;/code&gt; command by altering the overall verbosity of the Cake Script execution.  i.e. running:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;./build.sh --verbosity=diagnostic
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;will cause the &lt;code&gt;dotnet tool&lt;/code&gt; command to be ran with diagnostic verbosity as well.&lt;/p&gt;
+&lt;p&gt;The parameters that can be used in this pre-processor directive come from the documentation which is available &lt;a href="https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-tool-install"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
+&lt;p&gt;You can find additional documentation for this module here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cake-contrib.github.io/Cake.DotNetTool.Module/"&gt;https://cake-contrib.github.io/Cake.DotNetTool.Module/&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
+&lt;p&gt;The source code for this Module can be found here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.DotNetTool.Module"&gt;https://github.com/cake-contrib/Cake.DotNetTool.Module&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="chat-room"&gt;Chat Room&lt;/h2&gt;
+&lt;p&gt;If you have any questions about this Module, then please feel to drop into the Gitter Chat room for all the addins and modules which exist in the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation&lt;/a&gt; on GitHub:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gitter.im/cake-contrib/Lobby?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/cake-contrib/Lobby.svg" class="img-fluid" alt="Join the chat at https://gitter.im/cake-contrib/Lobby" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="other-cake-modules"&gt;Other Cake Modules&lt;/h2&gt;
+&lt;p&gt;There are a number of other Cake Modules that perform similar functionality for other Package Managers, for example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.nuget.org/packages/Cake.Paket.Module/"&gt;Cake.Paket.Module&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.nuget.org/packages/Cake.Chocolatey.Module/"&gt;Cake.Chocolatey.Module&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.nuget.org/packages/Cake.DNF.Module/"&gt;Cake.DNF.Module&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.nuget.org/packages/Cake.APT.Module/"&gt;Cake.APT.Module&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.nuget.org/packages/Cake.Npm.Module/0.1.0-unstable0014"&gt;Cake.Npm.Module&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>&lt;p&gt;Back in version &lt;a href="https://github.com/cake-build/cake/releases/tag/v0.13.0"&gt;0.13.0&lt;/a&gt; of Cake a feature known as &lt;a href="https://github.com/cake-build/cake/issues/646"&gt;Module Support&lt;/a&gt; was released.  This provided the ability to both extend and replace some of the built in functionality of Cake.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/mvp-rd-wall-at-msignite" />
 		<id>http://www.gep13.co.uk/blog/mvp-rd-wall-at-msignite</id>
@@ -738,45 +829,5 @@ chocolateygui feature list
 &lt;p&gt;Once again, a huge thank you to all the Cake Community, we very much appreciate your time, and Cake wouldn't be where it is today without you.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Back in August 2016, I (with the support of the rest of the Cake Team), put out a "call to arms" to the Cake Community.  What we were trying to address was the &lt;em&gt;potential&lt;/em&gt; stagnation of Addin's and Modules that were created by the Cake Community.  Full details of what we were trying to address can be found in this &lt;a href="http://cakebuild.net/blog/2016/08/cake-contribution-organization"&gt;blog post&lt;/a&gt;.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio" />
-		<id>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</id>
-		<title>Signing GitHub Commits with Keybase.io</title>
-		<updated>2017-03-09T00:00:00Z</updated>
-		<content>&lt;h1 id="tell-us-how-to-do-it-already"&gt;Tell us how to do it already!&lt;/h1&gt;
-&lt;p&gt;Yesterday, for the second time I had to sit down and figure out how to set up signing on my GitHub commits using the GPG Key which is provided by &lt;a href="https://keybase.io/"&gt;keybase.io&lt;/a&gt;, so it is time to write it down so that I don't forget how to do it again.&lt;/p&gt;
-&lt;h1 id="standing-on-the-shoulders-of-giants"&gt;Standing on the shoulders of giants...&lt;/h1&gt;
-&lt;p&gt;Almost all the steps that I follow are taken from this &lt;a href="https://www.herebedragons.io/sign-commits-keybase"&gt;blog post&lt;/a&gt; from Jan De Dobbeleer, so kudos to him for writing it up in the first place.&lt;/p&gt;
-&lt;h1 id="the-steps"&gt;The steps&lt;/h1&gt;
-&lt;p&gt;I already have a keybase.io account, and therefore the steps involved in setting that up are not covered here, but in truth, it is very simple.  Head on over to their site and walk through the process.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Install keybase.io CLI Tool&lt;/li&gt;
-&lt;li&gt;Install gpg4win-vanilla:&lt;br /&gt;
-&lt;code&gt;choco install gpg4win-vanilla&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Add keybase folder to path:&lt;br /&gt;
-&lt;code&gt;C:\Users\gary.park\AppData\Local\Keybase;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Export keybase keys and import into gpg4win:&lt;br /&gt;
-&lt;code&gt;keybase pgp export | gpg --import&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Import private key:&lt;br /&gt;
-&lt;code&gt;keybase pgp export --secret | gpg --allow-secret-key-import --import&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Find the ID for your key by using this command:&lt;br /&gt;
-&lt;code&gt;gpg --list-secret-keys&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Using that ID, edit the key to make it trusted:&lt;br /&gt;
-&lt;code&gt;gpg --edit-key F6993303&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;trust&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;5&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;y&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;With these steps done, I am ready to continue with setting up git to use the new gpg key.  This is due to the fact that I have already imported the public key into GitHub.  If you haven't done that part yet, then I would encourage you to follow the steps on the linked blog post.&lt;/p&gt;
-&lt;p&gt;Rather than having to remember the various git configurations that I use, I have a chocolatey package that I use to set everything up.  As a result, I can simply run the following command:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;choco install gep13.gitConfig --source &amp;quot;'https://www.myget.org/F/gep13/api/v2;https://chocolatey.org/api/v2/'&amp;quot;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;and all my git configuration will be applied, including setting up signing on commits, and my default merge/diff tools, etc.  If you are interested in the commands that I execute, you can find them all &lt;a href="https://github.com/gep13/ChocolateyPackages/blob/master/gep13.gitConfig/tools/ChocolateyInstall.ps1"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;And with all of that in place, the next time you do a commit on GitHub, you should see the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/09/verified-github-commit.png" class="img-fluid" alt="Verified GitHub Commit" /&gt;&lt;/p&gt;
-&lt;p&gt;which, if you then drill into, will show additional information:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/09/additional-verification-information.png" class="img-fluid" alt="Additional Verification Information" /&gt;&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;Yesterday, for the second time I had to sit down and figure out how to set up signing on my GitHub commits using the GPG Key which is provided by &lt;a href="https://keybase.io/"&gt;keybase.io&lt;/a&gt;, so it is time to write it down so that I don't forget how to do it again.&lt;/p&gt;</summary>
 	</entry>
 </feed>

@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Sun, 30 Sep 2018 12:00:38 GMT</pubDate>
-		<lastBuildDate>Sun, 30 Sep 2018 12:00:38 GMT</lastBuildDate>
+		<pubDate>Fri, 12 Oct 2018 12:58:15 GMT</pubDate>
+		<lastBuildDate>Fri, 12 Oct 2018 12:58:15 GMT</lastBuildDate>
+		<item>
+			<title>Introducing the Cake.DotNetTool.Module</title>
+			<link>http://www.gep13.co.uk/blog/introducing-cake.dotnettool.module</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/introducing-cake.dotnettool.module</guid>
+			<pubDate>Fri, 12 Oct 2018 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>MVP and RD Wall at Microsoft Ignite</title>
 			<link>http://www.gep13.co.uk/blog/mvp-rd-wall-at-msignite</link>
@@ -138,13 +145,6 @@
 			<link>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</guid>
-			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Signing GitHub Commits with Keybase.io</title>
-			<link>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/signing-github-commits-with-keybaseio</guid>
 			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
