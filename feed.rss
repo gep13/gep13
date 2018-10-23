@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Fri, 12 Oct 2018 12:58:15 GMT</pubDate>
-		<lastBuildDate>Fri, 12 Oct 2018 12:58:15 GMT</lastBuildDate>
+		<pubDate>Tue, 23 Oct 2018 21:41:25 GMT</pubDate>
+		<lastBuildDate>Tue, 23 Oct 2018 21:41:25 GMT</lastBuildDate>
+		<item>
+			<title>Installing macOS Mojave</title>
+			<link>http://www.gep13.co.uk/blog/installing-mojave</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/installing-mojave</guid>
+			<pubDate>Tue, 23 Oct 2018 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>Introducing the Cake.DotNetTool.Module</title>
 			<link>http://www.gep13.co.uk/blog/introducing-cake.dotnettool.module</link>
@@ -139,13 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/how-to-run-octobox-on-synology-server</guid>
 			<pubDate>Mon, 13 Mar 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>An Update on Cake-Contrib User and Organisation</title>
-			<link>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/an-update-on-cake-contrib-user-and-organisation</guid>
-			<pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>
