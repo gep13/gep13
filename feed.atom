@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-10-23T21:41:18Z</updated>
+	<updated>2018-10-24T06:37:22Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/installing-mojave" />
@@ -37,6 +37,12 @@
 &lt;p&gt;Having played with it for a little while now, everything seems to be working fine.  The only slight issue that I have noticed is that when starting up some applications, I see something that looks like the following:&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/access-the-microphone.png" class="img-fluid" alt="Access the microphone" /&gt;&lt;/p&gt;
 &lt;p&gt;I believe in this latest version of the Operating System there are some additional permissions that applications need to request in order to continue doing what they were doing before.  I have seen this also pop up on applications like VMWare Fusion, Slack, etc.  Seems to be anything that has the ability to interact with the hardware of the machine.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE: 24 Oct 2018&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;After switching on computer this morning, I was met with a slightly more scary warning from the Backblaze Application:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/backblaze-notification.png" class="img-fluid" alt="Backblaze notification" /&gt;&lt;/p&gt;
+&lt;p&gt;This was different from all the others as it required additional changes to the security settings to allow Backblaze to function as it had before.  Full details of this can be found in their blog post:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://help.backblaze.com/hc/en-us/articles/360009644134-MacOS-10-14-Mojave-FAQ-"&gt;https://help.backblaze.com/hc/en-us/articles/360009644134-MacOS-10-14-Mojave-FAQ-&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;With those changes made, everything seems to be working again.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;A few days ago, I got this notification on my Mac:&lt;/p&gt;</summary>
 	</entry>
