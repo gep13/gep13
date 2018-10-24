@@ -57,3 +57,16 @@ Having played with it for a little while now, everything seems to be working fin
 ![Access the microphone](https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/access-the-microphone.png)
 
 I believe in this latest version of the Operating System there are some additional permissions that applications need to request in order to continue doing what they were doing before.  I have seen this also pop up on applications like VMWare Fusion, Slack, etc.  Seems to be anything that has the ability to interact with the hardware of the machine.
+
+
+**UPDATE: 24 Oct 2018**
+
+After switching on computer this morning, I was met with a slightly more scary warning from the Backblaze Application:
+
+![Backblaze notification](https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/backblaze-notification.png)
+
+This was different from all the others as it required additional changes to the security settings to allow Backblaze to function as it had before.  Full details of this can be found in their blog post:
+
+https://help.backblaze.com/hc/en-us/articles/360009644134-MacOS-10-14-Mojave-FAQ-
+
+With those changes made, everything seems to be working again.
