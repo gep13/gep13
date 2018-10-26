@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-10-24T06:37:22Z</updated>
+	<updated>2018-10-26T10:38:33Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/installing-mojave" />
@@ -15,7 +15,8 @@
 &lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/should-i-do-this.jpg_large" class="img-fluid" alt="Should I do this" /&gt;&lt;/p&gt;
 &lt;p&gt;Since getting my Mac at the start of this year when I started working for Chocolatey Software, Inc, this is the first major operating system update that I have been presented with, so I was a little anxious.&lt;/p&gt;
 &lt;p&gt;I reached out to Twitter, and the overall responses seemed to be positive, so I thought I would go for it.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://twitter.com/gep13/status/1054355206048284672"&gt;https://twitter.com/gep13/status/1054355206048284672&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Should I do this?  Any known problems? &lt;a href="https://t.co/hk9900cYZG"&gt;pic.twitter.com/hk9900cYZG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gary Ewan Park (&amp;#64;gep13) &lt;a href="https://twitter.com/gep13/status/1054355206048284672?ref_src=twsrc%5Etfw"&gt;October 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 &lt;p&gt;After making sure that everything was backed up via Time Machine, and Backblaze, I clicked the install button...&lt;/p&gt;
 &lt;h2 id="how-did-it-go"&gt;How did it go?&lt;/h2&gt;
 &lt;p&gt;I am happy to say that overall, the process was fairly straight forward, as shown in the series to screenshots below.&lt;/p&gt;
