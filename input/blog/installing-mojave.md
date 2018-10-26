@@ -14,7 +14,8 @@ Since getting my Mac at the start of this year when I started working for Chocol
 
 I reached out to Twitter, and the overall responses seemed to be positive, so I thought I would go for it.
 
-https://twitter.com/gep13/status/1054355206048284672
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Should I do this?  Any known problems? <a href="https://t.co/hk9900cYZG">pic.twitter.com/hk9900cYZG</a></p>&mdash; Gary Ewan Park (@gep13) <a href="https://twitter.com/gep13/status/1054355206048284672?ref_src=twsrc%5Etfw">October 22, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 After making sure that everything was backed up via Time Machine, and Backblaze, I clicked the install button...
 
