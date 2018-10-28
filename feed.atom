@@ -4,12 +4,12 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-10-28T09:25:49Z</updated>
+	<updated>2018-10-28T10:44:33Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducing-cake.discord-addin" />
 		<id>http://www.gep13.co.uk/blog/introducing-cake.discord-addin</id>
-		<title>Introducing the Cake.Discord</title>
+		<title>Introducing the Cake.Discord Addin</title>
 		<updated>2018-10-28T00:00:00Z</updated>
 		<content>&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://www.nuget.org/packages/Cake.Discord/"&gt;Cake.Discord&lt;/a&gt; is an addin for Cake that allows you to send messages to a Discord Channel on a Server.  This allows for example sending a notification to a channel when a build fails, or succeeds.  Or perhaps when a new release of an application has been created.&lt;/p&gt;
