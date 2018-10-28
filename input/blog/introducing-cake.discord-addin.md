@@ -1,5 +1,5 @@
 ---
-Title: Introducing the Cake.Discord
+Title: Introducing the Cake.Discord Addin
 Published: 28/10/2018
 Tags:
 - Cake
