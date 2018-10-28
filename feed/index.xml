@@ -4,8 +4,15 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-10-26T10:38:41Z</updated>
+	<updated>2018-10-28T09:25:55Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/introducing-cake.discord-addin" />
+		<id>http://www.gep13.co.uk/blog/introducing-cake.discord-addin</id>
+		<title>Introducing the Cake.Discord</title>
+		<updated>2018-10-28T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/installing-mojave" />
 		<id>http://www.gep13.co.uk/blog/installing-mojave</id>
@@ -137,13 +144,6 @@
 		<id>http://www.gep13.co.uk/blog/introducing-cake.chocolatey.module</id>
 		<title>Introducing Cake.Chocolatey.Module</title>
 		<updated>2017-03-18T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-run-octobox-on-synology-server" />
-		<id>http://www.gep13.co.uk/blog/how-to-run-octobox-on-synology-server</id>
-		<title>How to run Octobox on Synology Server using Docker</title>
-		<updated>2017-03-13T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>

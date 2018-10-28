@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Fri, 26 Oct 2018 10:38:41 GMT</pubDate>
-		<lastBuildDate>Fri, 26 Oct 2018 10:38:41 GMT</lastBuildDate>
+		<pubDate>Sun, 28 Oct 2018 09:25:55 GMT</pubDate>
+		<lastBuildDate>Sun, 28 Oct 2018 09:25:55 GMT</lastBuildDate>
+		<item>
+			<title>Introducing the Cake.Discord</title>
+			<link>http://www.gep13.co.uk/blog/introducing-cake.discord-addin</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/introducing-cake.discord-addin</guid>
+			<pubDate>Sun, 28 Oct 2018 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>Installing macOS Mojave</title>
 			<link>http://www.gep13.co.uk/blog/installing-mojave</link>
@@ -139,13 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/introducing-cake.chocolatey.module</guid>
 			<pubDate>Sat, 18 Mar 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>How to run Octobox on Synology Server using Docker</title>
-			<link>http://www.gep13.co.uk/blog/how-to-run-octobox-on-synology-server</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/how-to-run-octobox-on-synology-server</guid>
-			<pubDate>Mon, 13 Mar 2017 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>

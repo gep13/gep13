@@ -4,8 +4,84 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-10-26T10:38:33Z</updated>
+	<updated>2018-10-28T09:25:49Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/introducing-cake.discord-addin" />
+		<id>http://www.gep13.co.uk/blog/introducing-cake.discord-addin</id>
+		<title>Introducing the Cake.Discord</title>
+		<updated>2018-10-28T00:00:00Z</updated>
+		<content>&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.nuget.org/packages/Cake.Discord/"&gt;Cake.Discord&lt;/a&gt; is an addin for Cake that allows you to send messages to a Discord Channel on a Server.  This allows for example sending a notification to a channel when a build fails, or succeeds.  Or perhaps when a new release of an application has been created.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; While it is possible to send much more complicated messages to a Discord server, this initial release of the addin only caters for the basic versions of the messages.&lt;/p&gt;
+&lt;h1 id="usage"&gt;Usage&lt;/h1&gt;
+&lt;p&gt;To get started using this addin, all you need to do is add the following to your Cake script:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;#addin &amp;quot;nuget:https://www.nuget.org/api/v2?package=Cake.Discord&amp;amp;version=0.1.0&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;With that done, you can then send a basic message using something like the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;Information(&amp;quot;This is a 'normal' message...&amp;quot;);
+
+var postMessageResult = Discord.Chat.PostMessage(
+    webHookUrl:&amp;quot;https://your_web_hook_url&amp;quot;,
+    content:&amp;quot;This is a normal message.&amp;quot;
+);
+
+if (postMessageResult.Ok)
+{
+    Information(&amp;quot;Message {0} successfully sent&amp;quot;, postMessageResult.TimeStamp);
+}
+else
+{
+    Error(&amp;quot;Failed to send message: {0}&amp;quot;, postMessageResult.Error);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It is also possible to send a more complex message using something like the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;Information(&amp;quot;This is a custom avatar and name message...&amp;quot;);
+
+var postMessageResult = Discord.Chat.PostMessage(
+    webHookUrl:&amp;quot;https://your_web_hook_url&amp;quot;,
+    content:&amp;quot;This is a custom avatar and name message.&amp;quot;,
+    messageSettings: new DiscordChatMessageSettings {
+        UserName = &amp;quot;gep13&amp;quot;,
+        AvatarUrl = new Uri(&amp;quot;https://avatars0.githubusercontent.com/u/1271146?s=400&amp;amp;v=4&amp;quot;)
+    }
+);
+
+if (postMessageResult.Ok)
+{
+    Information(&amp;quot;Message {0} successfully sent&amp;quot;, postMessageResult.TimeStamp);
+}
+else
+{
+    Error(&amp;quot;Failed to send message: {0}&amp;quot;, postMessageResult.Error);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
+&lt;p&gt;You can find additional documentation for this addin here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cake-contrib.github.io/Cake.Discord/"&gt;https://cake-contrib.github.io/Cake.Discord/&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
+&lt;p&gt;The source code for this addin can be found here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Discord"&gt;https://github.com/cake-contrib/Cake.Discord&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="chat-room"&gt;Chat Room&lt;/h2&gt;
+&lt;p&gt;If you have any questions about this addin, then please feel to drop into the Gitter Chat room for all the addins and modules which exist in the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation&lt;/a&gt; on GitHub:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gitter.im/cake-contrib/Lobby?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/cake-contrib/Lobby.svg" class="img-fluid" alt="Join the chat at https://gitter.im/cake-contrib/Lobby" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="other-notification-addins"&gt;Other Notification Addins&lt;/h2&gt;
+&lt;p&gt;This addin adds to the collection of addins which help with sending notifications out to the various platforms that exist.  For example, there are addins to help with sending notifications to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.CakeMail/"&gt;CakeMail&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Email/"&gt;Email&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Gitter/"&gt;Gitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.HipChat/"&gt;HipChat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Ninglin/Cake.Jira/"&gt;Jira&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.MicrosoftTeams/"&gt;Microsoft Teams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.SendGrid/"&gt;SendGrid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Slack/"&gt;Slack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Twitter/"&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Are there any other notification systems that you feel should be catered for in Cake?  If so, feel free to reach out, or create your own.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;&lt;a href="https://www.nuget.org/packages/Cake.Discord/"&gt;Cake.Discord&lt;/a&gt; is an addin for Cake that allows you to send messages to a Discord Channel on a Server.  This allows for example sending a notification to a channel when a build fails, or succeeds.  Or perhaps when a new release of an application has been created.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/installing-mojave" />
 		<id>http://www.gep13.co.uk/blog/installing-mojave</id>
@@ -758,91 +834,5 @@ chocolateygui feature list
 &lt;p&gt;&lt;a href="https://gitter.im/cake-contrib/Lobby?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/cake-contrib/Lobby.svg" class="img-fluid" alt="Join the chat at https://gitter.im/cake-contrib/Lobby" /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;The Chocolatey Cake Module!&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-run-octobox-on-synology-server" />
-		<id>http://www.gep13.co.uk/blog/how-to-run-octobox-on-synology-server</id>
-		<title>How to run Octobox on Synology Server using Docker</title>
-		<updated>2017-03-13T00:00:00Z</updated>
-		<content>&lt;h1 id="what-is-octobox"&gt;What is Octobox?&lt;/h1&gt;
-&lt;p&gt;The short answer, it is amazing!  The main site can be found &lt;a href="https://octobox.io/"&gt;here&lt;/a&gt;, and the source code on GitHub can be found &lt;a href="https://github.com/octobox/octobox"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The slightly longer answer, it is a UI that allows you to take back control over your GitHub Notifications, with functionality for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Archiving Notifications&lt;/li&gt;
-&lt;li&gt;Starring issues/pull requests&lt;/li&gt;
-&lt;li&gt;Getting an indication on the sort of subscription you have on the issue/pull request&lt;/li&gt;
-&lt;li&gt;Loads of other features that will help you make sense of all the notifications&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id="why-do-you-need-this"&gt;Why do you need this?&lt;/h1&gt;
-&lt;p&gt;If like me, on a daily basis you will have a torrent of email notifications that come through for the different issues/pull requests that you have subscribed to on GitHub.  These could be for issues/pull requests that you have raised, and a response is required from you, or simply issues/pull requests that you have a vested interested in following along.  Whatever the reason, the amount of notifications is huge, and can be overwhelming.  The main problem with both email and web notifications, is that normally once you have looked at them, they are gone, never to be seen again.  If you get distracted and move onto something else, it is all to easy to forget what you were looking at.&lt;/p&gt;
-&lt;p&gt;Octobox to the rescue...&lt;/p&gt;
-&lt;p&gt;This is where, for me, Octobox shines!  Once configured, issues/pull requests that you are actively looking at remain in your &amp;quot;Inbox&amp;quot;, as can be seen here:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Octobox%20Inbox.png" class="img-fluid" alt="Octobox Inbox" /&gt;&lt;/p&gt;
-&lt;p&gt;Once you are finished with an issue/pull request you have the option of archiving it, but have no fear, if another notification comes up for that issue/pull request, it will come back into your inbox.&lt;/p&gt;
-&lt;p&gt;It is not a very difficult concept, but the way it is implemented is VERY compelling, and such an improvement on the current notification system in the GitHub UI.&lt;/p&gt;
-&lt;h1 id="enough-already-how-to-we-use-it"&gt;Enough already, how to we use it?&lt;/h1&gt;
-&lt;p&gt;There are a couple options here...&lt;/p&gt;
-&lt;p&gt;Firstly, you can use the shared instance at &lt;a href="http://octobox.io,"&gt;http://octobox.io,&lt;/a&gt; however, this is limited in some functionality due to not being able to use shared key.&lt;/p&gt;
-&lt;p&gt;Secondly, you can deploy your own instance to Heroku, which seems like it would be very simple to set up and configure.&lt;/p&gt;
-&lt;p&gt;Thirdly, you have the option of running Octobox in Docker.  I opted for this option for a couple reasons.  I have never really used Docker in anger, and I wanted to see what all the fuss is about.  And also I have a reasonably beefy Synology Server that really isn't doing anything, other then running &lt;a href="http://www.hanselman.com/blog/UPDATED2014HowToSetupCrashPlanCloudBackupOnASynologyNASRunningDSM50.aspx"&gt;CrashPlan&lt;/a&gt; and Plex.  So I thought I would take it for a spin.&lt;/p&gt;
-&lt;h1 id="setup-steps"&gt;Setup steps&lt;/h1&gt;
-&lt;h2 id="install-docker"&gt;1. Install Docker&lt;/h2&gt;
-&lt;p&gt;This is a reasonably straight forward process.  Login to the DSM and select Package Center, and then search from Docker.  There should only be one result, with the option to Install.  &lt;strong&gt;NOTE:&lt;/strong&gt; The screenshot below shows the Open option simply because it is already installed.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Package_Center_Docker.png" class="img-fluid" alt="Package Center Docker" /&gt;&lt;/p&gt;
-&lt;h2 id="install-git-server"&gt;2. Install Git Server&lt;/h2&gt;
-&lt;p&gt;In order to download the latest source code for Octobox, you are going to need to have git installed and running on your Synology Server.  The easiest way to do this is to install the Git Server Package.  Once again in the Package Center, search for git, and install the Git Server Package.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Package_Center_Git.png" class="img-fluid" alt="Package Center Git" /&gt;&lt;/p&gt;
-&lt;h2 id="clone-the-octobox-repository"&gt;3. Clone the octobox repository&lt;/h2&gt;
-&lt;p&gt;Next up, we are going to need to clone the octobox source code onto the Synology Server.  In order to do this, we are going to need to execute commands over SSH on the Synology Server.  To do this, you will need to make sure that the SSH Service is running, and then establish an SSH connection to the Server.  First things first... In the DSM, select Control Panel, and then search for SSH.  In the results, select Terminal and SNMP, and make sure that the following checkbox is ticked, and then click Apply:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Control_Panel_SSH.png" class="img-fluid" alt="Control Panel SSH" /&gt;&lt;/p&gt;
-&lt;p&gt;Now, using an SSH Client application (I personally use kitty, which can be installed easily using &lt;a href="https://chocolatey.org/packages/kitty"&gt;chocolatey&lt;/a&gt;, &lt;code&gt;choco install kitty&lt;/code&gt;), connect to the Synology Server.  This will require entering in your Synology Server IP address, and the same credentials you use to access the DSM.&lt;/p&gt;
-&lt;p&gt;Once in, create a folder for cloning the repository:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;mkdir github/clones/octobox&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;and navigate into that folder:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;cd github/clones/octobox&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;and then clone the repository:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;git clone https://github.com/octobox/octobox.git&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;and finally, navigate into that newly created repo:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;cd octobox&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id="create-an-oauth-application-for-octobox"&gt;4. Create an OAuth Application for Octobox&lt;/h2&gt;
-&lt;p&gt;In order to run the Octobox application, you are going to need a GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET.  These can be acquired by setting up a new OAuth Application within GitHub.  Go to the following &lt;a href="https://github.com/settings/applications/new"&gt;URL&lt;/a&gt; and set up the application using the IP Address of your device, in my case:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/GitHub_OAuth_Application.png" class="img-fluid" alt="GitHub OAuth Application Settings" /&gt;&lt;/p&gt;
-&lt;p&gt;Take a note of the Client ID and Client Secret that will be generated for the application.&lt;/p&gt;
-&lt;h2 id="create-the-docker-containers"&gt;5. Create the Docker Containers&lt;/h2&gt;
-&lt;p&gt;In order to run, Octobox needs two Docker images, namely a ruby and postgre image.  Once instantiated, these images will run together to execute and persist the various information within the application.  Octobox makes use of Docker Compose to orchestrate the creation and running of these Containers.  To start that process (which the first time you run it will take quite a while) you can run the following command:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;GITHUB_CLIENT_ID=yourclientid GITHUB_CLIENT_SECRET=yourclientsecret docker-compose up --build&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Replace the required sections with the client id and secret that you got in step 4&lt;/p&gt;
-&lt;p&gt;Now, if like me, the first time you run this, you will get this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/docker_error.png" class="img-fluid" alt="Docker Error" /&gt;&lt;/p&gt;
-&lt;p&gt;However, if you run this again using &lt;code&gt;sudo&lt;/code&gt; and accept the mandatory lecture, it should start running:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/sudo_ftw.png" class="img-fluid" alt="sudo FTW!" /&gt;&lt;/p&gt;
-&lt;h2 id="get-a-coffeetea"&gt;6. Get a coffee/tea&lt;/h2&gt;
-&lt;p&gt;Now that this process is running it will take a while, so I would advise going to grab a beverage.  On my machine, it took about 30 minutes to complete.  During this process, if you look at the Docker UI within the Synology DSM, you will see it creating temporary Containers, which will ultimately be renamed:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/docker_temporary_containers.png" class="img-fluid" alt="Docker Temporary Containers" /&gt;&lt;/p&gt;
-&lt;p&gt;The end result, once complete, should look like the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Completed_Docker_Images.png" class="img-fluid" alt="Completed Docker Images" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/Completed_Docker_Containers.png" class="img-fluid" alt="Completed Docker Containers" /&gt;&lt;/p&gt;
-&lt;h2 id="doh"&gt;7. Doh!&lt;/h2&gt;
-&lt;p&gt;Now, after all that waiting around, like me, you might end up with the following error message:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/things_not_looking_good.png" class="img-fluid" alt="When things go wrong..." /&gt;&lt;/p&gt;
-&lt;p&gt;In all honesty, I have no real idea about what this error means, but, if you go to the &lt;a href="https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers"&gt;URL&lt;/a&gt; that is mentions, and run the command that is lists (which at the time of writing was the following):&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;&amp;amp; sudo sysctl -p&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;You should see the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/echo_output.png" class="img-fluid" alt="echo output" /&gt;&lt;/p&gt;
-&lt;p&gt;Then, if you run the &lt;code&gt;docker compose&lt;/code&gt; command again, which should take far less time the second time around, you should be met with the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/docker_compose_success.png" class="img-fluid" alt="Docker Compose Success" /&gt;&lt;/p&gt;
-&lt;h2 id="open-octobox"&gt;8. Open Octobox&lt;/h2&gt;
-&lt;p&gt;Fire open your browser of choice, and point it at &lt;a href="http://%3Csynology_server_ip_address%3E:3000"&gt;http://&amp;lt;synology_server_ip_address&amp;gt;:3000&lt;/a&gt; and hopefully you will see the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/its_alive.png" class="img-fluid" alt="It's ALIVE!" /&gt;&lt;/p&gt;
-&lt;p&gt;And you will be able to login to the application using your standard credentials.&lt;/p&gt;
-&lt;h2 id="run-docker-command-in-background"&gt;9. Run docker command in background&lt;/h2&gt;
-&lt;p&gt;The command that we ran earlier run in process in the kitty session that we created.  As a result, hitting CTRL + C, or terminating the session will also terminate the Docker Containers, which is not really what we want.  Instead, go ahead and run the following command:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;GITHUB_CLIENT_ID=yourclientid GITHUB_CLIENT_SECRET=yourclientsecret docker-compose up --build -d&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; The important &lt;code&gt;-d&lt;/code&gt; switch at the end.  This will run the command in the background, and allow you to terminate the kitty session without stopping the containers.&lt;/p&gt;
-&lt;h2 id="and-that-is-that"&gt;10. And that is that!&lt;/h2&gt;
-&lt;p&gt;And that is all there is to it!  I have been using Octobox for a couple days now, and I have to say that it is amazing!  I have been able to turn off all email notifications now, and I still feel that I am getting all the information that I need, and more.&lt;/p&gt;
-&lt;p&gt;As one point of follow up, rather than typing out the above command, you might want to take a look at this &lt;a href="https://blog.agchapman.com/using-variables-in-docker-compose-files/"&gt;blog post&lt;/a&gt; which describes how to use an .env file to store the secure information. Big thanks to Alistair for his help here!&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;The short answer, it is amazing!  The main site can be found &lt;a href="https://octobox.io/"&gt;here&lt;/a&gt;, and the source code on GitHub can be found &lt;a href="https://github.com/octobox/octobox"&gt;here&lt;/a&gt;.&lt;/p&gt;</summary>
 	</entry>
 </feed>
