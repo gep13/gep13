@@ -24,6 +24,8 @@ To get started using this addin, all you need to do is add the following to your
 #addin "nuget:https://www.nuget.org/api/v2?package=Cake.Discord&version=0.1.0"
 ```
 
+**NOTE:** Depending on the currently released version, you might want to change the above to reflect the current version number. The above is shown to ensure that the best practice of pinning your Cake Addin version numbers is adhered to.
+
 With that done, you can then send a basic message using something like the following:
 
 ```csharp
