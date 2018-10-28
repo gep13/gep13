@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-10-28T10:44:39Z</updated>
+	<updated>2018-10-28T22:09:10Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducing-cake.discord-addin" />
@@ -60,6 +60,13 @@
 		<id>http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application</id>
 		<title>How to get console output from a WPF application</title>
 		<updated>2018-07-16T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/introducing-cake.eazfuscator.net-addin" />
+		<id>http://www.gep13.co.uk/blog/introducing-cake.eazfuscator.net-addin</id>
+		<title>Introducing the Cake.Eazfuscator.Net Addin</title>
+		<updated>2018-06-20T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -137,13 +144,6 @@
 		<id>http://www.gep13.co.uk/blog/talk-at-ddd12</id>
 		<title>Talk at DDD 12</title>
 		<updated>2017-06-12T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-cake.chocolatey.module" />
-		<id>http://www.gep13.co.uk/blog/introducing-cake.chocolatey.module</id>
-		<title>Introducing Cake.Chocolatey.Module</title>
-		<updated>2017-03-18T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>

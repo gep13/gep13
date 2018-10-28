@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-10-28T10:44:33Z</updated>
+	<updated>2018-10-28T22:09:04Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducing-cake.discord-addin" />
@@ -18,6 +18,7 @@
 &lt;p&gt;To get started using this addin, all you need to do is add the following to your Cake script:&lt;/p&gt;
 &lt;pre&gt;&lt;code class="language-csharp"&gt;#addin &amp;quot;nuget:https://www.nuget.org/api/v2?package=Cake.Discord&amp;amp;version=0.1.0&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Depending on the currently released version, you might want to change the above to reflect the current version number. The above is shown to ensure that the best practice of pinning your Cake Addin version numbers is adhered to.&lt;/p&gt;
 &lt;p&gt;With that done, you can then send a basic message using something like the following:&lt;/p&gt;
 &lt;pre&gt;&lt;code class="language-csharp"&gt;Information(&amp;quot;This is a 'normal' message...&amp;quot;);
 
@@ -404,6 +405,50 @@ chocolateygui feature list
 		<summary>&lt;p&gt;While implementing a recent feature addition to &lt;a href="https://github.com/chocolatey/ChocolateyGUI/pull/613"&gt;Chocolatey GUI&lt;/a&gt;, I stumbled across something that I thought was blog worthy, so I thought I would add some notes here for future me.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
+		<link href="http://www.gep13.co.uk/blog/introducing-cake.eazfuscator.net-addin" />
+		<id>http://www.gep13.co.uk/blog/introducing-cake.eazfuscator.net-addin</id>
+		<title>Introducing the Cake.Eazfuscator.Net Addin</title>
+		<updated>2018-06-20T00:00:00Z</updated>
+		<content>&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Eazfuscator.Net"&gt;Cake.Eazfuscator.Net&lt;/a&gt; is a Cake Addin which provides the ability to execute the &lt;a href="https://www.gapotchenko.com/eazfuscator.net"&gt;Eazfuscator.Net.exe&lt;/a&gt;.  This is a tool that allows you to securely obfuscate your generated code, so that you can protect your investment in your code base.&lt;/p&gt;
+&lt;h1 id="usage"&gt;Usage&lt;/h1&gt;
+&lt;p&gt;To get started using this addin, all you need to do is add the following to your Cake script:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;#addin &amp;quot;nuget:https://www.nuget.org/api/v2?package=Cake.Eazfuscator.Net&amp;amp;version=0.1.0&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Depending on the currently released version, you might want to change the above to reflect the current version number. The above is shown to ensure that the best practice of pinning your Cake Addin version numbers is adhered to.&lt;/p&gt;
+&lt;p&gt;With that done, you can perform a basic obfuscation of your code base using the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;var CERT_PATH = EnvironmentVariable(&amp;quot;PATH_TO_CERTIFICATE&amp;quot;) ?? &amp;quot;&amp;quot;;
+
+Task(&amp;quot;ObfuscateExecutable&amp;quot;)
+    .WithCriteria(() =&amp;gt; {
+        return !string.IsNullOrWhiteSpace(CERT_PATH) &amp;amp;&amp;amp; FileExists(CERT_PATH);
+    })
+    .Does(() =&amp;gt;
+    {
+        var filesToObfuscate = new List&amp;lt;FilePath&amp;gt;();
+        filesToObfuscate.Add(&amp;quot;YourExecutable.exe&amp;quot;);
+
+        var settings = new EazfuscatorNetSettings();
+        settings.KeyFile = CERT_PATH;
+
+        EazfuscatorNet(filesToObfuscate, settings);
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will result in the selected file(s) being obfuscated, using the settings defined (most likely) in the AssemblyInfo.cs file for the project.&lt;/p&gt;
+&lt;p&gt;There are various settings available which can additionally control how the obfuscation is performed.&lt;/p&gt;
+&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
+&lt;p&gt;You can find additional documentation for this addin here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cake-contrib.github.io/Cake.Eazfuscator.Net/"&gt;https://cake-contrib.github.io/Cake.Eazfuscator.Net/&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
+&lt;p&gt;The source code for this addin can be found here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Eazfuscator.Net"&gt;https://github.com/cake-contrib/Cake.Eazfuscator.Net&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="chat-room"&gt;Chat Room&lt;/h2&gt;
+&lt;p&gt;If you have any questions about this addin, then please feel to drop into the Gitter Chat room for all the addins and modules which exist in the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation&lt;/a&gt; on GitHub:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gitter.im/cake-contrib/Lobby?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/cake-contrib/Lobby.svg" class="img-fluid" alt="Join the chat at https://gitter.im/cake-contrib/Lobby" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Eazfuscator.Net"&gt;Cake.Eazfuscator.Net&lt;/a&gt; is a Cake Addin which provides the ability to execute the &lt;a href="https://www.gapotchenko.com/eazfuscator.net"&gt;Eazfuscator.Net.exe&lt;/a&gt;.  This is a tool that allows you to securely obfuscate your generated code, so that you can protect your investment in your code base.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
 		<link href="http://www.gep13.co.uk/blog/chocolatey-gui-v0.16.0-released" />
 		<id>http://www.gep13.co.uk/blog/chocolatey-gui-v0.16.0-released</id>
 		<title>Chocolatey GUI v0.16.0 released</title>
@@ -757,82 +802,5 @@ chocolateygui feature list
 &lt;p&gt;The GitHub repository that the presentation is driven from can be found &lt;a href="https://github.com/gep13/GitHubReleaseDemos"&gt;here&lt;/a&gt;.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;On the 10th June 2017, I had the privelege of being asked to present a session at &lt;a href="http://developerdeveloperdeveloper.com/"&gt;DDD 12&lt;/a&gt;.  This is a free full day conference that takes place in the Microsoft Offices at Thames Valley Park in Reading.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-cake.chocolatey.module" />
-		<id>http://www.gep13.co.uk/blog/introducing-cake.chocolatey.module</id>
-		<title>Introducing Cake.Chocolatey.Module</title>
-		<updated>2017-03-18T00:00:00Z</updated>
-		<content>&lt;h1 id="or-as-i-like-to-call-it"&gt;Or as I like to call it...&lt;/h1&gt;
-&lt;p&gt;The Chocolatey Cake Module!&lt;/p&gt;
-&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
-&lt;p&gt;Back in version &lt;a href="https://github.com/cake-build/cake/releases/tag/v0.13.0"&gt;0.13.0&lt;/a&gt; of Cake a feature known as &lt;a href="https://github.com/cake-build/cake/issues/646"&gt;Module Support&lt;/a&gt; was released.  This provided the ability to both extend and replace some of the built in functionality of Cake.&lt;/p&gt;
-&lt;p&gt;One of these extension points is the registration of &lt;a href="http://cakebuild.net/api/Cake.Core.Packaging/IPackageInstaller/"&gt;IPackageInstaller&lt;/a&gt;'s, which deal with installing tools and addins during the Cake Script execution.  The Chocolatey Cake Module provide the extension point to allow tools to be resolved using Chocolatey.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Chocolatey deals with the installation of applications.  As a result, it only makes sense for this module to deal with tools, and not addins.&lt;/p&gt;
-&lt;h1 id="why-is-this-needed"&gt;Why is this needed?&lt;/h1&gt;
-&lt;p&gt;Out of the box, Cake has the ability to install tools and addins from any NuGet source.  This is documented on the &lt;a href="http://cakebuild.net/docs/fundamentals/preprocessor-directives"&gt;Cake Website&lt;/a&gt;.  Recently, &lt;a href="https://github.com/larzw"&gt;Larz White&lt;/a&gt; &lt;a href="http://cakebuild.net/blog/2017/01/cake-paket"&gt;showed&lt;/a&gt; how it was possible to use an alternative package manager, namely &lt;a href="https://fsprojects.github.io/Paket/"&gt;Paket&lt;/a&gt; to install those tools and addins.&lt;/p&gt;
-&lt;p&gt;However, not all tools that you require for your build may be available as NuGet Packages.  This leaves you with two options (there are likely more, but for the purposes of this discussion, let's stick to two), you could either pre-install the required tools onto the build machine that you are using, or look to install those tools through a custom script, perhaps through something like &lt;a href="https://chocolatey.org/"&gt;Chocolatey&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;When I joined the Cake Team, one of the first things that I did was to add &lt;a href="http://cakebuild.net/dsl/chocolatey/"&gt;Chocolatey Aliases&lt;/a&gt; to Cake, so you have always been able to install Chocolatey packages as part of your build process, using something like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;ChocolateyInstall(&amp;quot;MyChocolateyPackage&amp;quot;);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;For me, that removes an element of clarity over what tooling is required for the build.  I would much rather see all of the dependencies in one place, i.e. here:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;///////////////////////////////////////////////////////////////////////////////
-// TOOLS
-///////////////////////////////////////////////////////////////////////////////
-
-#tool nuget:?package=coveralls.io&amp;amp;version=1.3.4
-#tool nuget:?package=gitreleasemanager&amp;amp;version=0.5.0
-#tool nuget:?package=GitVersion.CommandLine&amp;amp;version=3.6.2
-#tool nuget:?package=JetBrains.ReSharper.CommandLineTools&amp;amp;version=2016.3.20161223.160402
-#tool nuget:?package=ReSharperReports&amp;amp;version=0.2.0
-#tool nuget:?package=KuduSync.NET&amp;amp;version=1.3.1
-#tool nuget:?package=Wyam&amp;amp;version=0.16.1
-#tool nuget:?package=gitlink&amp;amp;version=2.4.1
-#tool nuget:?package=MSBuild.Extension.Pack&amp;amp;version=1.9.0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Along with all the other tools that I use in my build.&lt;/p&gt;
-&lt;p&gt;And that is what this Cake Module allows you to do.  You can now add the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#tool choco:?package=nodejs.install&amp;amp;version=7.7.3
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Which would install version 7.7.3 of the &lt;a href="https://chocolatey.org/packages/nodejs.install"&gt;node.install package from chocolatey.org&lt;/a&gt;.&lt;/p&gt;
-&lt;h1 id="installation"&gt;Installation&lt;/h1&gt;
-&lt;p&gt;Due to the fact that Cake Modules are extending and altering the internals of the Cake, the Module Assembly needs to be loaded prior to the main Cake execution.  As a result, the only place that this can really happen is during the bootstrapping phase.  If you use the &lt;a href="https://github.com/cake-build/resources/commit/3d112812353d714dad142c41f170b949f4a2eb2f"&gt;latest version of the default bootstrapper&lt;/a&gt; this process is made very easy.  All you need to do is the following.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Add a modules folder into your tools folder&lt;/li&gt;
-&lt;li&gt;Add a packages.config file into the newly created modules folder&lt;/li&gt;
-&lt;li&gt;Add the name and version of the Module that you want to use.  &lt;strong&gt;NOTE:&lt;/strong&gt; At this point, the assumption is that you are hosting the Module on NuGet.org.  If this is not the case, then additional steps would be required.&lt;/li&gt;
-&lt;li&gt;An example packages.config file is shown below:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;
-&amp;lt;packages&amp;gt;
-	&amp;lt;package id=&amp;quot;Cake.Chocolatey.Module&amp;quot; version=&amp;quot;0.1.0&amp;quot; /&amp;gt;
-&amp;lt;/packages&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start="5"&gt;
-&lt;li&gt;Run the build as normal.  During the Cake Execution, it will recognise the Module Assembly which as been restored into the &lt;code&gt;tools/modules&lt;/code&gt; folder, and load it.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Similar to the recommendation &lt;a href="http://cakebuild.net/docs/tutorials/getting-started"&gt;here&lt;/a&gt; regarding only checking in your packages.config and not the entire contents of the Cake tools folder, the same recommendation is applied here.  Only check-in the packages.config file in the modules folder, and not the entire contents.&lt;/p&gt;
-&lt;h1 id="usage"&gt;Usage&lt;/h1&gt;
-&lt;p&gt;As mentioned above, installing a tool using the Chocolatey Cake Module is as simple as:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#tool choco:?package=nodejs.install&amp;amp;version=7.7.3
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If the tool in question comes from a different source, you can change that as follows:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#tool choco:https://www.myget.org/F/gep13/api/v2?package=gep13.gitConfig&amp;amp;version=1.0.6
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In this version 0.1.0 release of the Chocolatey Cake Module you can also specify whether the package in question is a pre-release or not:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#tool choco:?package=packageA&amp;amp;prerelease
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Future versions of the Chocolatey Cake Module will include additional options for installing the package, including things like &lt;code&gt;--forcex86&lt;/code&gt;, &lt;code&gt;--install-arguments&lt;/code&gt;, &lt;code&gt;--package-parameters&lt;/code&gt;, etc.  This initial release includes just the very basic of installation functionality.&lt;/p&gt;
-&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
-&lt;p&gt;You can find additional documentation for this module here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cake-contrib.github.io/Cake.Chocolatey.Module/"&gt;https://cake-contrib.github.io/Cake.Chocolatey.Module/&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
-&lt;p&gt;The source code for this Module can be found here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Chocolatey.Module"&gt;https://github.com/cake-contrib/Cake.Chocolatey.Module&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="chat-room"&gt;Chat Room&lt;/h2&gt;
-&lt;p&gt;If you have any questions about this Module, then please feel to drop into the Gitter Chat room for all the addins and modules which exist in the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation&lt;/a&gt; on GitHub:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gitter.im/cake-contrib/Lobby?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/cake-contrib/Lobby.svg" class="img-fluid" alt="Join the chat at https://gitter.im/cake-contrib/Lobby" /&gt;&lt;/a&gt;&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;The Chocolatey Cake Module!&lt;/p&gt;</summary>
 	</entry>
 </feed>

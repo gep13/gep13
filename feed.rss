@@ -5,8 +5,8 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Sun, 28 Oct 2018 10:44:39 GMT</pubDate>
-		<lastBuildDate>Sun, 28 Oct 2018 10:44:39 GMT</lastBuildDate>
+		<pubDate>Sun, 28 Oct 2018 22:09:10 GMT</pubDate>
+		<lastBuildDate>Sun, 28 Oct 2018 22:09:10 GMT</lastBuildDate>
 		<item>
 			<title>Introducing the Cake.Discord Addin</title>
 			<link>http://www.gep13.co.uk/blog/introducing-cake.discord-addin</link>
@@ -62,6 +62,13 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application</guid>
 			<pubDate>Mon, 16 Jul 2018 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Introducing the Cake.Eazfuscator.Net Addin</title>
+			<link>http://www.gep13.co.uk/blog/introducing-cake.eazfuscator.net-addin</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/introducing-cake.eazfuscator.net-addin</guid>
+			<pubDate>Wed, 20 Jun 2018 00:00:00 GMT</pubDate>
 		</item>
 		<item>
 			<title>Chocolatey GUI v0.16.0 released</title>
@@ -139,13 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/talk-at-ddd12</guid>
 			<pubDate>Mon, 12 Jun 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Introducing Cake.Chocolatey.Module</title>
-			<link>http://www.gep13.co.uk/blog/introducing-cake.chocolatey.module</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/introducing-cake.chocolatey.module</guid>
-			<pubDate>Sat, 18 Mar 2017 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>
