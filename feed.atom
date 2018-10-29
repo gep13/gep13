@@ -4,8 +4,70 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-10-28T22:09:04Z</updated>
+	<updated>2018-10-29T13:20:33Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/chocolatey-error-hashes-do-not-match" />
+		<id>http://www.gep13.co.uk/blog/chocolatey-error-hashes-do-not-match</id>
+		<title>Chocolatey Package Error - Checksums do not match</title>
+		<updated>2018-10-29T00:00:00Z</updated>
+		<content>&lt;p&gt;Earlier today on Twitter, I was asked this question:&lt;/p&gt;
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;&lt;a href="https://twitter.com/gep13?ref_src=twsrc%5Etfw"&gt;&amp;#64;gep13&lt;/a&gt; I tried installing &lt;a href="https://twitter.com/JuliaLanguage?ref_src=twsrc%5Etfw"&gt;&amp;#64;JuliaLanguage&lt;/a&gt; but I get this error: &lt;a href="https://t.co/QEvqqayjSU"&gt;https://t.co/QEvqqayjSU&lt;/a&gt;&lt;br&gt;I would appreciate if you could help&lt;/p&gt;&amp;mdash; Foad Sojoodi Farimani (&amp;#64;fsfarimani) &lt;a href="https://twitter.com/fsfarimani/status/1056873572344356864?ref_src=twsrc%5Etfw"&gt;October 29, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;I started to write a response, but I realised that it was going to take more than 240 characters to explain, so I thought I would write a blog post about it instead.&lt;/p&gt;
+&lt;h1 id="the-error"&gt;The Error&lt;/h1&gt;
+&lt;p&gt;The error that is being reported by Chocolatey is this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/29/checksums-do-not-match.png" class="img-fluid" alt="Checksums do not match" /&gt;&lt;/p&gt;
+&lt;p&gt;I verified that I was getting the same error message by testing the installation on the local Chocolatey Testing Environment.&lt;/p&gt;
+&lt;h1 id="what-does-this-mean"&gt;What does this mean?&lt;/h1&gt;
+&lt;p&gt;That's great, but what does that actually mean?  Let's break this log down a little bit...&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;Progress: 100% - Completed download of C:\Users\Administrator\AppData\Local\Temp\chocolatey\Julia\1.0.0\julia-1.0.0-win64.exe
+(52.83 MB).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This tells us that Chocolatey successfully went into the chocolateyInstall.ps1 file and found the download URL that the package maintainer put in there.  Notice that it has downloaded the 64-bit version of this installer, since I ran it on a 64-bit operating system.&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;Download of julia-1.0.0-win64.exe (52.83 MB) completed.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This tells us that Chocolatey was successfully able to download a file from the specified URL.&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;Error - hashes do not match. Actual value was '001874185A26F598ABE2E7FC287CACF66387C68CAA3251F5AA6EF97FB22020DD'.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is where things start to go wrong.  When the download of a file has been completed, Chocolatey will take a checksum (i.e. a hash) of the file.  This can then be compared to the checksum (if provided) by the package maintainer.  In this case, the package maintainer expected the checksum of the file to be &lt;code&gt;3bf5572cbcbc7848b235dcf21caf24ce26b9fb3839eb13db1a7170d20cdf834d&lt;/code&gt; but it was actually &lt;code&gt;001874185A26F598ABE2E7FC287CACF66387C68CAA3251F5AA6EF97FB22020DD&lt;/code&gt;.  Since Chocolatey is secure by default, the installation of the package immediately exits, and an error is thrown:&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;ERROR: Checksum for 'C:\Users\Administrator\AppData\Local\Temp\chocolatey\Julia\1.0.0\julia-1.0.0-win64.exe' did not meet '3b
+f5572cbcbc7848b235dcf21caf24ce26b9fb3839eb13db1a7170d20cdf834d' for checksum type 'sha256'.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id="why-do-we-need-checksums"&gt;Why do we need checksums?&lt;/h1&gt;
+&lt;p&gt;Chocolatey introduced the concept of checksums for package installation to provide some assurance to the end users of Chocolatey that the application installers that are being downloaded are correct/valid.  At the time of creating a package, we ask package maintainers to include the checksum for the files that are being downloaded, so that at installation time, this checksum can be asserted to ensure that what is being installed is what is expected.  This protects the user from any malicious tampering of the application installer.  When creating the package, the maintainer can sometimes find the published checksum of the files on the vendor website, or they can calculate the checksum of the file(s) themselves once they have tested to make sure that it is installed correctly.&lt;/p&gt;
+&lt;h1 id="so-why-did-this-go-wrong"&gt;So why did this go wrong?&lt;/h1&gt;
+&lt;p&gt;Now, all of this makes perfect sense, and will work flawlessly, until one of two common things happen.&lt;/p&gt;
+&lt;p&gt;Firstly, some packages (like Google Chrome) don't included versioned URL's for their application installer.  As a result, you can only ever download the Chrome installer from one location, namely &lt;code&gt;https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi&lt;/code&gt;.  As a result, whenever Google push out a new version of Chrome, which happens quite frequently, the most recent package version of Chrome on Chocolatey.org is immediately broken.  This is due to the fact that the checksum within the Chocolatey package is still the checksum for the old installer available at that URL, which has now been replaced with the new one.  In the case of the Google Chrome package, it is part of the &lt;a href="https://github.com/chocolatey/chocolatey-coreteampackages"&gt;Core Team Packages&lt;/a&gt; which checks for new package versions every 6 hours, and automatically pushes out a new package when detected.  As a result of this, the Google Chrome package is normally only &amp;quot;broken&amp;quot; for a short period of time.&lt;/p&gt;
+&lt;p&gt;The second way that checksums will break is if vendor &amp;quot;change&amp;quot; the application installer once it has been published, without changing the version number.  Unfortunately, this happens more often than you would think.  Let's walk this through...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A vendor creates a new version of their application, let's call it 1.0.0, and publishes it to their website.&lt;/li&gt;
+&lt;li&gt;A Chocolatey Package maintainer spots that there is a new version pf the application, and sets about creating the Chocolatey package.  They download the installer, test that it is all working, and then calculate the checksum, update their packaging scripts, run &lt;code&gt;choco pack&lt;/code&gt; and push the package version to Chocolatey.org&lt;/li&gt;
+&lt;li&gt;The automated checks on Chocolatey.org then kick in to make sure that the package does indeed download and install correctly, including verifying that the hashes match.&lt;/li&gt;
+&lt;li&gt;The package is then moved to human moderation, and the package is ultimately approved.&lt;/li&gt;
+&lt;li&gt;Some time later, the vendor then notices that there is a problem with the installer, and rather than increment the version number, they simply re-build the installer, and replace it on their website.&lt;/li&gt;
+&lt;li&gt;To anyone installing the application directly from the website, there are no problems.  However, to anyone installing the Chocolatey package, there will be error, as the checksum on the file which is downloaded, compared to the checksum in the Chocolatey package, will no longer match.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Since we know that the package in question completed the automated installation test, we know that at one point the checksum on the installer did match what is in the package, however, this installer no longer has this checksum.&lt;/p&gt;
+&lt;h1 id="what-can-i-do-about-it"&gt;What can I do about it?&lt;/h1&gt;
+&lt;p&gt;The best way to fix this problem would be to reach out to the maintainers of the package and ask them to push a new package version that includes the correct checksum.  In the case of this package, there is actually a new version of the application available, so this package is due to be updated.  If there wasn't a new version available, then the maintainer could push a new package version using what is known as the &lt;a href="https://chocolatey.org/docs/create-packages#package-fix-version-notation"&gt;package fix notation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If this isn't an option, or you need the installation &amp;quot;right&amp;quot; now, you have two options, both of which are mentioned in the error message above.  The first would be to run this command:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-powershell"&gt;choco install julia --checksum64 001874185A26F598ABE2E7FC287CACF66387C68CAA3251F5AA6EF97FB22020DD
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The checksum in question is actually reported from Chocolatey, so what you need to ascertain is whether you trust that checksum.  To be safe, you would probably want to go to the vendor download page and verify this yourself.&lt;/p&gt;
+&lt;p&gt;The final option would be to run the command:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-powershell"&gt;choco install julia --ignore-checksums
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is by far the least secure method, and it isn't one that I recommend.&lt;/p&gt;
+&lt;h1 id="summary"&gt;Summary&lt;/h1&gt;
+&lt;p&gt;Due to the fact that Chocolatey is secure by default, there are situations like this that do occur.  However, please bear in mind that Chocolatey is trying to protect you from what could be a malicious installer.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;Earlier today on Twitter, I was asked this question:&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducing-cake.discord-addin" />
 		<id>http://www.gep13.co.uk/blog/introducing-cake.discord-addin</id>
@@ -776,31 +838,5 @@ Task(&amp;quot;ObfuscateExecutable&amp;quot;)
 &lt;p&gt;Congratulations to all the other new, and renewed, MVP's!&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;I am very happy to announce that yesterday, &lt;a href="https://blogs.msdn.microsoft.com/mvpawardprogram/2017/07/01/congratulations-mvps-july-17/?utm_source=t.co&amp;amp;utm_medium=referral"&gt;along with 35 other new people, and nearly 1400 renewed people&lt;/a&gt;, I was awarded with a Microsoft MVP Award!&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/talk-at-ddd12" />
-		<id>http://www.gep13.co.uk/blog/talk-at-ddd12</id>
-		<title>Talk at DDD 12</title>
-		<updated>2017-06-12T00:00:00Z</updated>
-		<content>&lt;p&gt;On the 10th June 2017, I had the privelege of being asked to present a session at &lt;a href="http://developerdeveloperdeveloper.com/"&gt;DDD 12&lt;/a&gt;.  This is a free full day conference that takes place in the Microsoft Offices at Thames Valley Park in Reading.&lt;/p&gt;
-&lt;p&gt;The talk that I presented was:&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;Control your GitHub releases with GitVersion and GitReleaseManager&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;and the abstract was as follows:&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;Have you ever needed to control the version number of your open source application on GitHub? If so, you will likely know that it can be hard! You may have tried to use some form of auto incrementing number, or stored the version in a text file hoping that someone will remember to update it. Both of these approaches (and there are plenty others) will work, but they are fragile, and don’t account for some of the more complicated scenarios.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;And then, after controlling the version number, you then want to generate Release Notes for that newly released version.  How can you do this without manually trawling through the revision history?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;In this session, we will look at how we can improve the versioning strategy of your application using a combination of branching strategy (Gitflow), Semantic Versioning, an open source tool called GitVersion, and the commit history of your Git repository.  With the version number in place, we will then use the Issue and Milestone tracking functionality in GitHub to automatically generate a set of concise release notes using a tool called GitReleaseManager.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This was the first time that I had presented this talk, and overall, I was very happy with how it went.  This time around, after seeing &lt;a href="https://twitter.com/fekberg"&gt;&amp;#64;fekberg&lt;/a&gt; doing the same thing at a DDD conference last year, I opted to record the session on my laptop, and also on an external microphone, so that there would be a record of it.  If you weren't able to attend the session, or are simply interested in checking it out, you can find the video on YouTube:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/SlM02V1tkSc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;The GitHub repository that the presentation is driven from can be found &lt;a href="https://github.com/gep13/GitHubReleaseDemos"&gt;here&lt;/a&gt;.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;On the 10th June 2017, I had the privelege of being asked to present a session at &lt;a href="http://developerdeveloperdeveloper.com/"&gt;DDD 12&lt;/a&gt;.  This is a free full day conference that takes place in the Microsoft Offices at Thames Valley Park in Reading.&lt;/p&gt;</summary>
 	</entry>
 </feed>
