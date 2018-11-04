@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Mon, 29 Oct 2018 13:20:45 GMT</pubDate>
-		<lastBuildDate>Mon, 29 Oct 2018 13:20:45 GMT</lastBuildDate>
+		<pubDate>Sun, 04 Nov 2018 14:56:08 GMT</pubDate>
+		<lastBuildDate>Sun, 04 Nov 2018 14:56:08 GMT</lastBuildDate>
+		<item>
+			<title>Stack Overflow Reputation History</title>
+			<link>http://www.gep13.co.uk/blog/stack-overflow-reputation-history</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/stack-overflow-reputation-history</guid>
+			<pubDate>Sun, 04 Nov 2018 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>Chocolatey Package Error - Checksums do not match</title>
 			<link>http://www.gep13.co.uk/blog/chocolatey-error-hashes-do-not-match</link>
@@ -139,13 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/visual-studio-code-extension-for-cake-version-0.8.0</guid>
 			<pubDate>Fri, 21 Jul 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>I am a Microsoft MVP</title>
-			<link>http://www.gep13.co.uk/blog/i-am-a-microsoft-mvp</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/i-am-a-microsoft-mvp</guid>
-			<pubDate>Sun, 02 Jul 2017 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>

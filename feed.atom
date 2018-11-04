@@ -4,8 +4,32 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-10-29T13:20:33Z</updated>
+	<updated>2018-11-04T14:56:02Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/stack-overflow-reputation-history" />
+		<id>http://www.gep13.co.uk/blog/stack-overflow-reputation-history</id>
+		<title>Stack Overflow Reputation History</title>
+		<updated>2018-11-04T00:00:00Z</updated>
+		<content>&lt;p&gt;Anyone that knows me, knows that I like numbers.  I like to track numbers over time, and see how things are changing.  Are they getting better?  Worse?&lt;/p&gt;
+&lt;p&gt;So with this in mind, a couple months ago, I was looking at my Stack Overflow profile, and I was curious about how, if at all, my reputation points (you know, those Internet points, that don't really mean anything to anyone, but it is still nice to have them?!?), had changed over time.&lt;/p&gt;
+&lt;h1 id="the-problem"&gt;The Problem&lt;/h1&gt;
+&lt;p&gt;On the main Stack Overflow Profile page, you are met with this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/04/Stack-Overflow-Reputation.png" class="img-fluid" alt="Stack Overflow Reputation" /&gt;&lt;/p&gt;
+&lt;p&gt;Now, granted, I can hover over this little bar graph, and I see a tooltip for what is was at a particular point in time, but it isn't very clear on what date it correlates to.&lt;/p&gt;
+&lt;h1 id="what-did-you-do"&gt;What did you do?&lt;/h1&gt;
+&lt;p&gt;So, I went googling, thinking that this must be something that can be done better.  Stack Overflow is made by a bunch of developers, who likely also like numbers.  What I turned up was that there is a REST API for getting additional information back from Stack Overflow, but in all honesty, I didn't want to have to go to that length to have to get this information.  I even sent out a Tweet about it, as I thought that this &lt;strong&gt;must&lt;/strong&gt; be possible:&lt;/p&gt;
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;&lt;a href="https://twitter.com/jonskeet?ref_src=twsrc%5Etfw"&gt;&amp;#64;jonskeet&lt;/a&gt; random question for you... Do you know if this is possible? &lt;a href="https://t.co/pYggrm2lUv"&gt;https://t.co/pYggrm2lUv&lt;/a&gt; It was suggested that it was, but I didn&amp;#39;t get a follow up.  Thanks in advance!&lt;/p&gt;&amp;mdash; Gary Ewan Park (&amp;#64;gep13) &lt;a href="https://twitter.com/gep13/status/975662609176387584?ref_src=twsrc%5Etfw"&gt;March 19, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;h1 id="what-was-the-outcome"&gt;What was the outcome?&lt;/h1&gt;
+&lt;p&gt;After a bit of digging, I found that you can get MUCH more information on your Network Profile page, rather than simply your Stack Overflow Profile page.  For those that aren't aware, you can get to this from here:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/04/Link-To-Network-Profile.png" class="img-fluid" alt="Link to Network Profile" /&gt;&lt;/p&gt;
+&lt;p&gt;And once there, if you click on the reputation tab, you get a much larger line graph, with much more detail about your reputation, and on what day it changed, etc.  So now you can rejoice in more data than you will ever need on these particular Internet Points.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/04/Network-Profile-Reputation.png" class="img-fluid" alt="Network Profile Reputation" /&gt;&lt;/p&gt;
+&lt;p&gt;This post is mainly for me to remember where I can get this information again if I ever need it, and I thought that is might be useful to other like minded, numbers oriented people.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;Anyone that knows me, knows that I like numbers.  I like to track numbers over time, and see how things are changing.  Are they getting better?  Worse?&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/chocolatey-error-hashes-do-not-match" />
 		<id>http://www.gep13.co.uk/blog/chocolatey-error-hashes-do-not-match</id>
@@ -820,23 +844,5 @@ Task(&amp;quot;ObfuscateExecutable&amp;quot;)
 &lt;p&gt;I actually had something that worked!  Thank you to everyone on the team for their help with getting this release out!&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;We are very happy to announce that a new version, 0.8.0, of the Visual Studio Code extension for Cake has just been released.  This release includes two main new features and one improvement.  These features really came about with the &lt;a href="https://code.visualstudio.com/updates/v1_14#_tasks"&gt;June release&lt;/a&gt; of Visual Studio Code, which brought with it a new Tasks API, making it possible for extension authors to "auto detect" tasks for execution.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/i-am-a-microsoft-mvp" />
-		<id>http://www.gep13.co.uk/blog/i-am-a-microsoft-mvp</id>
-		<title>I am a Microsoft MVP</title>
-		<updated>2017-07-02T00:00:00Z</updated>
-		<content>&lt;p&gt;I am very happy to announce that yesterday, &lt;a href="https://blogs.msdn.microsoft.com/mvpawardprogram/2017/07/01/congratulations-mvps-july-17/?utm_source=t.co&amp;amp;utm_medium=referral"&gt;along with 35 other new people, and nearly 1400 renewed people&lt;/a&gt;, I was awarded with a Microsoft MVP Award!&lt;/p&gt;
-&lt;p&gt;For those of you who don't know, the Microsoft MVP Award, it is...&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;our way of saying &amp;quot;Thanks!&amp;quot; to outstanding community leaders. The contributions MVPs make to the community, ranging from speaking engagements, to social media posts, to writing books, to helping others in online communities, have incredible impact.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;If you are interested, you can find out more about it &lt;a href="https://mvp.microsoft.com/en-us/Overview"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;For a long time, I have often &amp;quot;thought&amp;quot; about being a Microsoft MVP, but I honestly never thought that I would be given one, so I am very happy to have recieved this.&lt;/p&gt;
-&lt;p&gt;When I found out the news yesterday, I was very excited.  I had literally just found out that a friend of mine, &lt;a href="https://twitter.com/devlead/status/881201782109728768"&gt;Mattias&lt;/a&gt;, had also been awarded with an MVP.  When I checked my email, I found that I too had recieved one.&lt;/p&gt;
-&lt;p&gt;I am looking forward to getting involved in the MVP Community, and continuing to contribute in the next year.&lt;/p&gt;
-&lt;p&gt;Congratulations to all the other new, and renewed, MVP's!&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;I am very happy to announce that yesterday, &lt;a href="https://blogs.msdn.microsoft.com/mvpawardprogram/2017/07/01/congratulations-mvps-july-17/?utm_source=t.co&amp;amp;utm_medium=referral"&gt;along with 35 other new people, and nearly 1400 renewed people&lt;/a&gt;, I was awarded with a Microsoft MVP Award!&lt;/p&gt;</summary>
 	</entry>
 </feed>
