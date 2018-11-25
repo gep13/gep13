@@ -4,8 +4,70 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-11-25T13:51:43Z</updated>
+	<updated>2018-11-25T14:35:02Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension" />
+		<id>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</id>
+		<title>Introducing the Chocolatey Azure DevOps Extension</title>
+		<updated>2018-11-25T00:00:00Z</updated>
+		<content>&lt;p&gt;Unlike my last &lt;a href="https://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension"&gt;blog post&lt;/a&gt;, this announcement is up to date!  Yesterday, I released the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops"&gt;Chocolatey Extension for Azure DevOps&lt;/a&gt; which helps to execute Chocolatey commands as part of your Azure DevOps Pipelines.&lt;/p&gt;
+&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
+&lt;p&gt;The &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops"&gt;Chocolatey Extension for Azure DevOpsVS Code&lt;/a&gt; helps with the execution of Chocolatey commands as part of your Azure DevOps Pipelines.  All of the main Chocolatey commands, including &lt;code&gt;pack&lt;/code&gt;, &lt;code&gt;push&lt;/code&gt;, &lt;code&gt;install&lt;/code&gt;, &lt;code&gt;upgrade&lt;/code&gt; are covered, and also the ability to run any custom Chocolatey commands.&lt;/p&gt;
+&lt;h1 id="why-is-this-needed"&gt;Why is this needed?&lt;/h1&gt;
+&lt;h2 id="isnt-there-already-some-chocolatey-azure-devops-extensions"&gt;Isn't there already some Chocolatey Azure DevOps Extensions?&lt;/h2&gt;
+&lt;p&gt;Yes, this is absolutely correct, there are.  Unfortunately, one of them doesn't currently work correctly and doesn't seem to be being maintained, and the other focuses on only a couple Chocolatey commands.  As a result, I decided that I would create another Chocolatey Extension, modelled on the existing NuGet Extension, which allows the execution of any Chocolatey Command.  In addition, creating a Azure DevOps extension for Chocolatey was one of those itches that had to be scratched, and I hope it is useful for you.  I also feel that this is a good compliment for the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode"&gt;Chocolatey VS Code Extension&lt;/a&gt; which I have also created.&lt;/p&gt;
+&lt;h2 id="isnt-chocolatey-already-installed-on-the-azure-build-agents"&gt;Isn't Chocolatey already installed on the Azure Build Agents?&lt;/h2&gt;
+&lt;p&gt;Yes, this is also absolutely true.  As a result, it is possible to use a normal PowerShell Task to execute Chocolatey.  This Extension simply makes that process a little easier, by showing you the expected inputs to each command.&lt;/p&gt;
+&lt;h1 id="installation"&gt;Installation&lt;/h1&gt;
+&lt;p&gt;Installing the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops"&gt;Chocolatey Extension for Azure DevOps&lt;/a&gt; is simple.  Go to the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops"&gt;extension page&lt;/a&gt; in the marketplace and click the &lt;code&gt;Get it free&lt;/code&gt; button:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Get-It-Free.png" class="img-fluid" alt="Chocolatey Get It Free" /&gt;&lt;/p&gt;
+&lt;p&gt;You will then be prompted which Organisation you would like to install the Extension into.&lt;/p&gt;
+&lt;h1 id="usage"&gt;Usage&lt;/h1&gt;
+&lt;p&gt;Once installed, create a Pipeline (if you don't already have one), and choose the option to add a new Task.  You will find the Chocolatey Task under the Build section, or you can use the search.  Once found, select the option to add the task:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Add-New-Task.png" class="img-fluid" alt="Chocolatey Add New Task" /&gt;&lt;/p&gt;
+&lt;p&gt;With that done, drill into the options for the task, and select what command you want to use:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Task.png" class="img-fluid" alt="Chocolatey Task" /&gt;&lt;/p&gt;
+&lt;p&gt;You have the option to pick from the following commands:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;apikey&lt;/li&gt;
+&lt;li&gt;config&lt;/li&gt;
+&lt;li&gt;custom&lt;/li&gt;
+&lt;li&gt;feature&lt;/li&gt;
+&lt;li&gt;install&lt;/li&gt;
+&lt;li&gt;pack&lt;/li&gt;
+&lt;li&gt;push&lt;/li&gt;
+&lt;li&gt;source&lt;/li&gt;
+&lt;li&gt;upgrade&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All required arguments for each command are marked as required, and the Azure DevOps Task will illustrate this in the usual way.&lt;/p&gt;
+&lt;h1 id="notes"&gt;Notes&lt;/h1&gt;
+&lt;p&gt;Currently, this extension assumes that Chocolatey is already installed on the Build Agent executing this build.  The Task will check to see if Chocolatey can be located before attempting to execute, however, if it is not there, it will throw an exception, which will fail the build.  There is an open issue &lt;a href="https://github.com/gep13/chocolatey-azuredevops/issues/13"&gt;here&lt;/a&gt;, for adding an additional task to install/upgrade Chocolatey, similar to the NuGet Tool Installer task.&lt;/p&gt;
+&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
+&lt;p&gt;You can find additional documentation for this extension here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gep13.github.io/chocolatey-azuredevops/"&gt;https://gep13.github.io/chocolatey-azuredevops/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;:  At the time of writing this blog post, there is little to no documentation, but the scaffolding is there to get some added, so if you are interested, please feel free to jump in and help.&lt;/p&gt;
+&lt;h1 id="resources"&gt;Resources&lt;/h1&gt;
+&lt;p&gt;If you are interested in hear about new functions that are being added into the Extension, I have a YouTube Playlist &lt;a href="https://www.youtube.com/playlist?list=PL84yg23i9GBhGahFf5-41vOJhn3D-6EUU"&gt;here&lt;/a&gt;, where I will push short videos of the new functionality as each version is released.&lt;/p&gt;
+&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
+&lt;p&gt;The source code for this Extension can be found here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gep13/chocolatey-azuredevops"&gt;https://github.com/gep13/chocolatey-azuredevops&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="chat-room"&gt;Chat Room&lt;/h1&gt;
+&lt;p&gt;If you have any questions about this Extension, then please feel to drop into the Gitter Chat room:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gitter.im/gep13/chocolatey-azuredevops?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/gep13/chocolatey-azuredevops.svg" class="img-fluid" alt="Join the chat at https://gitter.im/gep13/chocolatey-azuredevops" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="thanks"&gt;Thanks&lt;/h1&gt;
+&lt;p&gt;Huge thank you to the following people who helped review early versions of this extension, and provided feedback on how it can be improved:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/devlead"&gt;Mattias Karlsson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hereispascal"&gt;Pascal Berger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/onovotny"&gt;Oren Novotny&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As well as the creators of the &lt;a href="https://github.com/Microsoft/azure-pipelines-tasks/tree/master/Tasks/NuGetCommandV2"&gt;NuGet Extension for Azure DevOps&lt;/a&gt;, which provided a very solid basis on which to develop the Chocolatey version.&lt;/p&gt;
+&lt;p&gt;A special thanks to &lt;a href="https://twitter.com/camsoper"&gt;Cam Soper&lt;/a&gt; for helping out with some of the questions I had &lt;a href="https://twitter.com/camsoper/status/1061718818467274753"&gt;regarding some specifics&lt;/a&gt; around Azure Devops Tasks.&lt;/p&gt;
+&lt;p&gt;In addition, I would like to thank the authors of the existing Chocolatey Extensions for Azure DevOps, which also helped in shaping this implementation.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;Unlike my last &lt;a href="https://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension"&gt;blog post&lt;/a&gt;, this announcement is up to date!  Yesterday, I released the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops"&gt;Chocolatey Extension for Azure DevOps&lt;/a&gt; which helps to execute Chocolatey commands as part of your Azure DevOps Pipelines.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension" />
 		<id>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</id>
@@ -837,20 +899,5 @@ Task(&amp;quot;ObfuscateExecutable&amp;quot;)
 &lt;iframe width="853" height="480" src="https://www.youtube.com/embed/ELb8l9nvWok" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;Another important feature offered by AppVeyor is it's &lt;a href="https://www.appveyor.com/docs/build-cache/"&gt;Build Cache&lt;/a&gt;.  Due to the fact that every AppVeyor build uses a fresh copy of the Build Agent Virtual Machine, any files and folders that were created as part of the build are not persisted between project builds.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection" />
-		<id>http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection</id>
-		<title>How to use AppVeyor Remote Desktop Connection</title>
-		<updated>2017-07-23T00:00:00Z</updated>
-		<content>&lt;p&gt;One of the best things about AppVeyor is that it is a &lt;strong&gt;completely online Continuous Integration Server&lt;/strong&gt;.  You as a user don't have to worry about installing the latest version of it, or applying security patches, etc.  You can simply get on with the task at hand.  However, one of the worst things about AppVeyor is that it is a &lt;strong&gt;completely online Continuous Integration Server&lt;/strong&gt;.  Those times when the build isn't working, and you have no idea why, it can be difficult to figure it out solely based on the output logs.&lt;/p&gt;
-&lt;p&gt;That is where AppVeyor's unique ability to get a Remote Desktop Connection to the Build Agent is incredibly powerful!  You get complete administrator access to the VM for 60 minutes (either at the start of the build, or at the end of it), which gives to time to debug and figure out exactly what is going on.&lt;/p&gt;
-&lt;p&gt;All of this is explained in the AppVeyor &lt;a href="https://www.appveyor.com/docs/how-to/rdp-to-build-worker/"&gt;documentation site&lt;/a&gt; but I thought I would create a short video explaining exactly how it works.&lt;/p&gt;
-&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/5OHsXduezIw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h1 id="gotcha"&gt;Gotcha&lt;/h1&gt;
-&lt;p&gt;The only gotcha that I ran into while creating this video is that although it isn't mentioned, the password that you create for logging into the server is subject to the standard complexity rules, for example mixed upper and lower case letters, use of numbers and special characters, etc.  If you use a password that doesn't meet with these requirements, you will get a build error similar to this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/07/23/appveyor_rdp_password_error.png" class="img-fluid" alt="AppVeyor RDP Password Error" /&gt;&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;One of the best things about AppVeyor is that it is a &lt;strong&gt;completely online Continuous Integration Server&lt;/strong&gt;.  You as a user don't have to worry about installing the latest version of it, or applying security patches, etc.  You can simply get on with the task at hand.  However, one of the worst things about AppVeyor is that it is a &lt;strong&gt;completely online Continuous Integration Server&lt;/strong&gt;.  Those times when the build isn't working, and you have no idea why, it can be difficult to figure it out solely based on the output logs.&lt;/p&gt;</summary>
 	</entry>
 </feed>

@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Sun, 25 Nov 2018 13:51:59 GMT</pubDate>
-		<lastBuildDate>Sun, 25 Nov 2018 13:51:59 GMT</lastBuildDate>
+		<pubDate>Sun, 25 Nov 2018 14:35:20 GMT</pubDate>
+		<lastBuildDate>Sun, 25 Nov 2018 14:35:20 GMT</lastBuildDate>
+		<item>
+			<title>Introducing the Chocolatey Azure DevOps Extension</title>
+			<link>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</guid>
+			<pubDate>Sun, 25 Nov 2018 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>Introducing the Chocolatey VS Code Extension</title>
 			<link>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</link>
@@ -138,13 +145,6 @@
 			<link>http://www.gep13.co.uk/blog/how-to-use-appveyor-cache</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/how-to-use-appveyor-cache</guid>
-			<pubDate>Sun, 23 Jul 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>How to use AppVeyor Remote Desktop Connection</title>
-			<link>http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection</guid>
 			<pubDate>Sun, 23 Jul 2017 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
