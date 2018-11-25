@@ -4,8 +4,15 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-11-04T14:56:08Z</updated>
+	<updated>2018-11-25T13:51:59Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension" />
+		<id>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</id>
+		<title>Introducing the Chocolatey VS Code Extension</title>
+		<updated>2018-11-25T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/stack-overflow-reputation-history" />
 		<id>http://www.gep13.co.uk/blog/stack-overflow-reputation-history</id>
@@ -137,13 +144,6 @@
 		<id>http://www.gep13.co.uk/blog/how-to-use-appveyor-remote-desktop-connection</id>
 		<title>How to use AppVeyor Remote Desktop Connection</title>
 		<updated>2017-07-23T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/visual-studio-code-extension-for-cake-version-0.8.0" />
-		<id>http://www.gep13.co.uk/blog/visual-studio-code-extension-for-cake-version-0.8.0</id>
-		<title>Version 0.8.0 of the Visual Studio Code extension for Cake</title>
-		<updated>2017-07-21T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>
