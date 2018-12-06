@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Thu, 06 Dec 2018 21:33:39 GMT</pubDate>
-		<lastBuildDate>Thu, 06 Dec 2018 21:33:39 GMT</lastBuildDate>
+		<pubDate>Thu, 06 Dec 2018 22:54:10 GMT</pubDate>
+		<lastBuildDate>Thu, 06 Dec 2018 22:54:10 GMT</lastBuildDate>
+		<item>
+			<title>Introducing the Cake.Wyam.Recipe Package</title>
+			<link>http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe</guid>
+			<pubDate>Thu, 06 Dec 2018 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>Introducing the Chocolatey Azure DevOps Extension</title>
 			<link>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</link>
@@ -139,13 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/mvp-award-kit</guid>
 			<pubDate>Tue, 25 Jul 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>How to use AppVeyor Build Cache</title>
-			<link>http://www.gep13.co.uk/blog/how-to-use-appveyor-cache</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/how-to-use-appveyor-cache</guid>
-			<pubDate>Sun, 23 Jul 2017 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>

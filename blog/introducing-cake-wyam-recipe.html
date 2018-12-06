@@ -1,0 +1,350 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+        <title>Gary Ewan Park - Introducing the Cake.Wyam.Recipe Package</title>
+        <meta name="description" content="Ramblings and Ponderings of a Microsoft Fan Boy..." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+
+        <link type="application/rss+xml" rel="alternate" title="Gary Ewan Park" href="/feed.rss" />
+                <link type="application/atom+xml" rel="alternate" title="Gary Ewan Park" href="/feed.atom" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/css/highlight.css" rel="stylesheet">
+        <link href="/assets/css/clean-blog.css" rel="stylesheet" />
+        <link href="/assets/css/master.css" rel="stylesheet" />
+        <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
+
+
+        <meta name="application-name" content="Gary Ewan Park" />
+        <meta name="msapplication-tooltip" content="Gary Ewan Park" />
+        <meta name="msapplication-starturl" content="/" />
+
+        <meta property="og:title" content="Gary Ewan Park - Introducing the Cake.Wyam.Recipe Package" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe" />
+        <!-- TODO: More social graph meta tags -->
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>     
+        <script src="/assets/js/highlight.pack.js"></script>   
+        <script src="/assets/js/clean-blog.js"></script>
+        <script src="/assets/js/d3.v3.min.js"></script>
+        <script src="/assets/js/trianglify.min.js"></script>
+        <script src="/assets/js/please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
+                
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+                <script src="/assets/js/html5shiv.js"></script>
+                <script src="/assets/js/respond.min.js"></script>
+        <![endif]-->
+        
+        
+
+
+        </head>
+        <body>
+                
+                <!-- Navigation -->
+                <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+                        <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header page-scroll">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="/">Gary Ewan Park</a>
+                                </div>
+                        
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="navbar-collapse">
+                                        <ul class="nav navbar-nav navbar-right">
+                                                <li><a href="/about">About</a></li>
+<li><a href="/projects">Projects</a></li>
+<li><a href="/talks">Talks</a></li>
+<li><a href="/blog">Archive</a></li>
+<li><a href="/contact">Contact</a></li>
+<li><a href="/tags">Tags</a></li> 
+                                        </ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container -->
+                </nav>
+                
+                <!-- Page Header -->
+                <header class="intro-header" id="intro-header">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-md-12">
+
+    
+<div class="post-heading">
+    <h1>Introducing the Cake.Wyam.Recipe Package</h1>
+    <div class="meta">        
+Published on 06 December 2018<br>    </div>
+        <div class="tags">
+                    <a role="button" href="/tags/automation" class="btn btn-default btn-xs">Automation</a>
+                    <a role="button" href="/tags/cake" class="btn btn-default btn-xs">Cake</a>
+                    <a role="button" href="/tags/scripts" class="btn btn-default btn-xs">Scripts</a>
+                    <a role="button" href="/tags/wyam" class="btn btn-default btn-xs">Wyam</a>
+        </div>     
+</div>
+                                        </div>
+                                </div>
+                        </div>
+                </header>
+                
+                <!-- Main Content -->
+                <div class="container">
+                        <div class="row">
+                                <div id="content" class="col-md-12">
+                                        
+
+<p>This is another of those announcement blog posts that is a little on the &quot;late&quot; side.  This post is about the <a href="https://www.nuget.org/packages/Cake.Wyam.Recipe/">Cake.Wyam.Recipe</a> package, which was first released back in May 2017.  Now, in it's sixth release, I thought it was about time to tell people about it.  Better late than never...</p>
+<h2 id="what-is-it">What is it?</h2>
+<p>Cake.Wyam.Recipe, whose source code can be found <a href="https://github.com/cake-contrib/Cake.Wyam.Recipe">here</a> is an opinionated set of scripts for <a href="https://cakebuild.net/">Cake</a>, specifically around the automation, and usage of <a href="https://wyam.io/">Wyam</a>.  As most of you will be aware, I am a maintainer of the Cake project, and I have been a long time user of Wyam (in fact, Wyam is used to generate this blog), so it should come as no real surprise to you that I wanted a way to reliably, and consistently, generate documentation via Wyam.</p>
+<h2 id="why-is-this-needed">Why is this needed?</h2>
+<p>Across a number of projects that I work on, I found myself writing the same build steps over and over again for creating documentation for these projects.  This could be in the form of a blog where Wyam is being used to generate the content, or when documenting an API via the source code files for the project.  In each of these projects, I was writing almost EXACTLY the same code, but with simply a few changes here and there for project specific configuration.  After a few rounds of making a modification to one projects build scripts, only to have to duplicate that work in the other projects, I decided it was time to centralize these scripts into one location.  And that is where the Cake.Wyam.Recipe package comes in.</p>
+<h2 id="what-does-it-do">What does it do?</h2>
+<p>In addition to wrapping the calls to Wyam to actually generate the documentation, Cake.Wyam.Recipe encompasses the complete process of publishing the documentation.  In my case, this is GitHub Pages (however, there would be nothing to stop it being extended to publish to something like Netlify, I simply haven't had the need).  The tasks that are executed by Cake.Wyam.Recipe are:</p>
+<ul>
+<li>Print-AppVeyor-Environment-Variables
+<ul>
+<li>Really a helper task.  When running on AppVeyor, it will print out all the Environment Variables used by AppVeyor.  These can be useful when debugging issues with the build process.</li>
+</ul>
+</li>
+<li>Clear-AppVeyor-Cache
+<ul>
+<li>Another helper method.  In order to speed up build times, AppVeyor allows heavy caching of files.  From time to time, it is helpful to bust this cache, again for the purposes of debugging.</li>
+</ul>
+</li>
+<li>Show-Info
+<ul>
+<li>Similar to Print-AppVeyor-Environment-Variables, this task prints out information about the current configuration of Cake.Wyam.Recipe itself</li>
+</ul>
+</li>
+<li>Clean-Documentation
+<ul>
+<li>Tidies up the generated documentation folder, ready for re-building it</li>
+</ul>
+</li>
+<li>Build-Documentation
+<ul>
+<li>Uses Wyam to build the documentation, based on the configuration that has been applied</li>
+</ul>
+</li>
+<li>Publish-Documentation
+<ul>
+<li>Takes the generated documentation, and publishes it to GitHub Pages.  This will use KuduSync to verify that there are actually differences in the newly generated files, compared to what is already published, and will only publish if there are differences</li>
+</ul>
+</li>
+<li>Purge-Cloudflare-Cache
+<ul>
+<li>I normally always use Cloudflare in front of my documentation sites, and after pushing out new documentation, it is sometimes necessary to purge the cache, so that this new documentation can be seen immediately</li>
+</ul>
+</li>
+<li>Preview-Documentation
+<ul>
+<li>When running locally, Wyam has the ability to serve the content from a webserver, which can then be viewed.  In addition, when changes are made to the documentation, it will immediately re-build and show the changes.  This is very useful when iterating over a change</li>
+</ul>
+</li>
+</ul>
+<p>With all of these top level tasks taken care of, it is just a case of installing Cake.Wyam.Recipe into my build process for the project I am working on, and configuring the project specific details.</p>
+<h2 id="installation">Installation</h2>
+<p>Installing Cake.Wyam.Recipe into a build is done using Cake's <code>load</code> pre-processor directive.  It is as simple as this:</p>
+<pre><code>#load nuget:https://www.nuget.org/api/v2?package=Cake.Wyam.Recipe&amp;version=0.6.0
+</code></pre>
+<p>Here, I am telling Cake to go to NuGet and find version 0.6.0 of Cake.Wyam.Recipe, and load the scripts that it contains.  Cake will download the nupkg, extract the files into the tools folder, and then iterate through all of the <code>.cake</code> files contained within it, into the current build.  This saves a lot of time and effort by not having to do this manually.  Then, when a new version of Cake.Wyam.Recipe is released, all that has to be done is to change the version number, and a project has the latest and greatest scripts available.</p>
+<h2 id="usage">Usage</h2>
+<p>With that done, all that is required is to configure the project specific details.  For example:</p>
+<pre><code>Environment.SetVariableNames();
+
+BuildParameters.SetParameters(context: Context,
+                            buildSystem: BuildSystem,
+                            title: &quot;gep13&quot;,
+                            repositoryOwner: &quot;gep13&quot;,
+                            repositoryName: &quot;gep13&quot;,
+                            appVeyorAccountName: &quot;GaryEwanPark&quot;,
+                            webHost: &quot;gep13.co.uk&quot;,
+                            shouldPurgeCloudflareCache: true);
+
+BuildParameters.PrintParameters(Context);
+
+Build.Run();
+</code></pre>
+<p>A lot of things in Cake.Wyam.Recipe are done via Environment Variables.  For example, storing the credentials that are used to commit and push changes to GitHub Pages, purging CLoudflare cache, etc.  Out of the box, Cake.Wyam.Recipe expects these variables to be a certain name, but it is possible to override these to your own preferences.  In the script above, calling <code>Environment.SetVariableNames();</code> simply sets these to the default values.</p>
+<p>With that done, calling <code>SetParameters</code> allows setting up specific information, such as the name of the project, etc.  It would also be possible to specify the Theme and Recipe to use within the Wyam execution, however, in my case, the default values of Blog and CleanBlog, are exactly what I need, so these values don't need to be changed.</p>
+<p>Then it is simply a case of printing the parameters (purely optional), and then running the build, and job done.</p>
+<p>So, when testing locally, all that is required is to execute either:</p>
+<pre><code>./build.ps1
+</code></pre>
+<p>or</p>
+<pre><code>./build.sh
+</code></pre>
+<p>Doing either of these will cause the default Preview-Documentation task to be executed, and on completion, you will have a webserver running to preview your changes.</p>
+<p>In a CI context, you would do something like:</p>
+<pre><code>.\build.ps1 -Target &quot;AppVeyor&quot;
+</code></pre>
+<p>Which would execute a different path which would cause the Publish-Documentation Task to be called, rather than preview.</p>
+<h2 id="additional-example">Additional example</h2>
+<p>Another example of where Cake.Wyam.Recipe is used is on this website:</p>
+<p><a href="https://github.com/cake-contrib/Cake.Issues.Website/blob/develop/build.cake">https://github.com/cake-contrib/Cake.Issues.Website/blob/develop/build.cake</a></p>
+<p>Here, the Task Graph that is provided by Cake.Wyam.Recipe is extended to include some additional functionality, but the core components of it are still available.  They have simply been augmented to include additional tasks.</p>
+<h1 id="documentation">Documentation</h1>
+<p>You can find additional documentation for this package here:</p>
+<p><a href="https://cake-contrib.github.io/Cake.Wyam.Recipe/">https://cake-contrib.github.io/Cake.Wyam.Recipe/</a></p>
+<h1 id="source-code">Source Code</h1>
+<p>The source code for this Extension can be found here:</p>
+<p><a href="https://github.com/cake-contrib/Cake.Wyam.Recipe">https://github.com/cake-contrib/Cake.Wyam.Recipe</a></p>
+<h1 id="chat-room">Chat Room</h1>
+<p>If you have any questions about this package, then please feel to drop into the Gitter Chat room:</p>
+<p><a href="https://gitter.im/cake-contrib/Lobby?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://badges.gitter.im/cake-contrib/Lobby.svg" class="img-fluid" alt="Join the chat at https://gitter.im/cake-contrib/Lobby" /></a></p>
+<h1 id="thanks">Thanks</h1>
+<p>I have to say a huge thank you to <a href="https://twitter.com/hereispascal">Pascal Berger</a> who has helped out a LOT with the creation of this package.  Thank you!</p>
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe' + 'S/';
+    var disqus_title = 'Introducing the Cake.Wyam.Recipe Package';
+    var disqus_url = 'http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe' + '/';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                                </div>
+                        </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Footer -->
+                <footer>
+                        <div class="container">
+        <div class="row">
+                <div class="col-md-12">
+                <ul class="list-inline text-center">
+                        <li>
+                        <a href="https://twitter.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="https://github.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                </ul>
+                <p class="copyright text-muted">
+                        Copyright © 2018 by Gary Ewan Park. The opinions expressed herein are my own and do not represent those of my employer or any other third-party views in any way. This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
+                        <br />
+                        <a href="/feed.rss"><i class="fa fa-rss"></i> RSS Feed</a> | <a href="/feed.atom"><i class="fa fa-rss"></i> Atom Feed</a>
+                        <br />
+                        <a href="https://github.com/gep13/gep13.github.io"><i class="fa fa-github"></i> This Site on GitHub</a> | <strong><a href="https://wyam.io">Generated by Wyam</a></strong>
+                </p>
+                </div>
+        </div>
+</div>
+                </footer> 
+
+                <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+
+    // Google Analytics
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-20926037-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<script type="text/javascript" src="/assets/js/anchor.min.js"></script>
+<script type="text/javascript" src="/assets/js/clipboard.min.js"></script>
+<script type="text/javascript">
+    anchors.options.placement = 'left';
+    anchors.add();
+
+    var snippets = document.querySelectorAll("pre > code");
+    [].forEach.call(snippets, function(snippet) {
+        snippet.insertAdjacentHTML("beforebegin", "<button class='btn-copy' data-clipboard-snippet><img class='clippy' width=13 src='/assets/images/clippy.svg' alt='Copy to clipboard'></button>");
+    });
+    var clipboardSnippets = new Clipboard('[data-clipboard-snippet]', {
+        target: function(trigger) {
+            return trigger.nextElementSibling;
+        }
+    });
+    clipboardSnippets.on('success', function(e) {
+        e.clearSelection();
+        showTooltip(e.trigger, "Copied!");
+    });
+    clipboardSnippets.on('error', function(e) {
+        showTooltip(e.trigger, fallbackMessage(e.action));
+    });
+</script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+                        <script type="text/javascript">                
+                                // Header background                        
+                                var colors = Please.make_color({
+                                        colors_returned: 3,
+                                        saturation: .6
+                                });
+                                var t = new Trianglify({
+                                        x_gradient: colors,
+                                        y_gradient: ["#FFFFFF"]
+                                });
+                                var header = document.getElementById("intro-header");
+                                var pattern = t.generate(header.clientWidth, header.clientHeight);
+                                header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
+                        </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
+        </body>
+</html>
+

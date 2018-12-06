@@ -4,8 +4,15 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-12-06T21:33:39Z</updated>
+	<updated>2018-12-06T22:54:10Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe" />
+		<id>http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe</id>
+		<title>Introducing the Cake.Wyam.Recipe Package</title>
+		<updated>2018-12-06T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension" />
 		<id>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</id>
@@ -137,13 +144,6 @@
 		<id>http://www.gep13.co.uk/blog/mvp-award-kit</id>
 		<title>MVP Award Kit</title>
 		<updated>2017-07-25T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-use-appveyor-cache" />
-		<id>http://www.gep13.co.uk/blog/how-to-use-appveyor-cache</id>
-		<title>How to use AppVeyor Build Cache</title>
-		<updated>2017-07-23T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>

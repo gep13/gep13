@@ -4,8 +4,117 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-12-06T21:33:25Z</updated>
+	<updated>2018-12-06T22:53:53Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe" />
+		<id>http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe</id>
+		<title>Introducing the Cake.Wyam.Recipe Package</title>
+		<updated>2018-12-06T00:00:00Z</updated>
+		<content>&lt;p&gt;This is another of those announcement blog posts that is a little on the &amp;quot;late&amp;quot; side.  This post is about the &lt;a href="https://www.nuget.org/packages/Cake.Wyam.Recipe/"&gt;Cake.Wyam.Recipe&lt;/a&gt; package, which was first released back in May 2017.  Now, in it's sixth release, I thought it was about time to tell people about it.  Better late than never...&lt;/p&gt;
+&lt;h2 id="what-is-it"&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;Cake.Wyam.Recipe, whose source code can be found &lt;a href="https://github.com/cake-contrib/Cake.Wyam.Recipe"&gt;here&lt;/a&gt; is an opinionated set of scripts for &lt;a href="https://cakebuild.net/"&gt;Cake&lt;/a&gt;, specifically around the automation, and usage of &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;.  As most of you will be aware, I am a maintainer of the Cake project, and I have been a long time user of Wyam (in fact, Wyam is used to generate this blog), so it should come as no real surprise to you that I wanted a way to reliably, and consistently, generate documentation via Wyam.&lt;/p&gt;
+&lt;h2 id="why-is-this-needed"&gt;Why is this needed?&lt;/h2&gt;
+&lt;p&gt;Across a number of projects that I work on, I found myself writing the same build steps over and over again for creating documentation for these projects.  This could be in the form of a blog where Wyam is being used to generate the content, or when documenting an API via the source code files for the project.  In each of these projects, I was writing almost EXACTLY the same code, but with simply a few changes here and there for project specific configuration.  After a few rounds of making a modification to one projects build scripts, only to have to duplicate that work in the other projects, I decided it was time to centralize these scripts into one location.  And that is where the Cake.Wyam.Recipe package comes in.&lt;/p&gt;
+&lt;h2 id="what-does-it-do"&gt;What does it do?&lt;/h2&gt;
+&lt;p&gt;In addition to wrapping the calls to Wyam to actually generate the documentation, Cake.Wyam.Recipe encompasses the complete process of publishing the documentation.  In my case, this is GitHub Pages (however, there would be nothing to stop it being extended to publish to something like Netlify, I simply haven't had the need).  The tasks that are executed by Cake.Wyam.Recipe are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Print-AppVeyor-Environment-Variables
+&lt;ul&gt;
+&lt;li&gt;Really a helper task.  When running on AppVeyor, it will print out all the Environment Variables used by AppVeyor.  These can be useful when debugging issues with the build process.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Clear-AppVeyor-Cache
+&lt;ul&gt;
+&lt;li&gt;Another helper method.  In order to speed up build times, AppVeyor allows heavy caching of files.  From time to time, it is helpful to bust this cache, again for the purposes of debugging.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Show-Info
+&lt;ul&gt;
+&lt;li&gt;Similar to Print-AppVeyor-Environment-Variables, this task prints out information about the current configuration of Cake.Wyam.Recipe itself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Clean-Documentation
+&lt;ul&gt;
+&lt;li&gt;Tidies up the generated documentation folder, ready for re-building it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Build-Documentation
+&lt;ul&gt;
+&lt;li&gt;Uses Wyam to build the documentation, based on the configuration that has been applied&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Publish-Documentation
+&lt;ul&gt;
+&lt;li&gt;Takes the generated documentation, and publishes it to GitHub Pages.  This will use KuduSync to verify that there are actually differences in the newly generated files, compared to what is already published, and will only publish if there are differences&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Purge-Cloudflare-Cache
+&lt;ul&gt;
+&lt;li&gt;I normally always use Cloudflare in front of my documentation sites, and after pushing out new documentation, it is sometimes necessary to purge the cache, so that this new documentation can be seen immediately&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Preview-Documentation
+&lt;ul&gt;
+&lt;li&gt;When running locally, Wyam has the ability to serve the content from a webserver, which can then be viewed.  In addition, when changes are made to the documentation, it will immediately re-build and show the changes.  This is very useful when iterating over a change&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With all of these top level tasks taken care of, it is just a case of installing Cake.Wyam.Recipe into my build process for the project I am working on, and configuring the project specific details.&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Installing Cake.Wyam.Recipe into a build is done using Cake's &lt;code&gt;load&lt;/code&gt; pre-processor directive.  It is as simple as this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#load nuget:https://www.nuget.org/api/v2?package=Cake.Wyam.Recipe&amp;amp;version=0.6.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here, I am telling Cake to go to NuGet and find version 0.6.0 of Cake.Wyam.Recipe, and load the scripts that it contains.  Cake will download the nupkg, extract the files into the tools folder, and then iterate through all of the &lt;code&gt;.cake&lt;/code&gt; files contained within it, into the current build.  This saves a lot of time and effort by not having to do this manually.  Then, when a new version of Cake.Wyam.Recipe is released, all that has to be done is to change the version number, and a project has the latest and greatest scripts available.&lt;/p&gt;
+&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
+&lt;p&gt;With that done, all that is required is to configure the project specific details.  For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Environment.SetVariableNames();
+
+BuildParameters.SetParameters(context: Context,
+                            buildSystem: BuildSystem,
+                            title: &amp;quot;gep13&amp;quot;,
+                            repositoryOwner: &amp;quot;gep13&amp;quot;,
+                            repositoryName: &amp;quot;gep13&amp;quot;,
+                            appVeyorAccountName: &amp;quot;GaryEwanPark&amp;quot;,
+                            webHost: &amp;quot;gep13.co.uk&amp;quot;,
+                            shouldPurgeCloudflareCache: true);
+
+BuildParameters.PrintParameters(Context);
+
+Build.Run();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A lot of things in Cake.Wyam.Recipe are done via Environment Variables.  For example, storing the credentials that are used to commit and push changes to GitHub Pages, purging CLoudflare cache, etc.  Out of the box, Cake.Wyam.Recipe expects these variables to be a certain name, but it is possible to override these to your own preferences.  In the script above, calling &lt;code&gt;Environment.SetVariableNames();&lt;/code&gt; simply sets these to the default values.&lt;/p&gt;
+&lt;p&gt;With that done, calling &lt;code&gt;SetParameters&lt;/code&gt; allows setting up specific information, such as the name of the project, etc.  It would also be possible to specify the Theme and Recipe to use within the Wyam execution, however, in my case, the default values of Blog and CleanBlog, are exactly what I need, so these values don't need to be changed.&lt;/p&gt;
+&lt;p&gt;Then it is simply a case of printing the parameters (purely optional), and then running the build, and job done.&lt;/p&gt;
+&lt;p&gt;So, when testing locally, all that is required is to execute either:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;./build.ps1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;./build.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Doing either of these will cause the default Preview-Documentation task to be executed, and on completion, you will have a webserver running to preview your changes.&lt;/p&gt;
+&lt;p&gt;In a CI context, you would do something like:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.\build.ps1 -Target &amp;quot;AppVeyor&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Which would execute a different path which would cause the Publish-Documentation Task to be called, rather than preview.&lt;/p&gt;
+&lt;h2 id="additional-example"&gt;Additional example&lt;/h2&gt;
+&lt;p&gt;Another example of where Cake.Wyam.Recipe is used is on this website:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Issues.Website/blob/develop/build.cake"&gt;https://github.com/cake-contrib/Cake.Issues.Website/blob/develop/build.cake&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here, the Task Graph that is provided by Cake.Wyam.Recipe is extended to include some additional functionality, but the core components of it are still available.  They have simply been augmented to include additional tasks.&lt;/p&gt;
+&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
+&lt;p&gt;You can find additional documentation for this package here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cake-contrib.github.io/Cake.Wyam.Recipe/"&gt;https://cake-contrib.github.io/Cake.Wyam.Recipe/&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
+&lt;p&gt;The source code for this Extension can be found here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Wyam.Recipe"&gt;https://github.com/cake-contrib/Cake.Wyam.Recipe&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="chat-room"&gt;Chat Room&lt;/h1&gt;
+&lt;p&gt;If you have any questions about this package, then please feel to drop into the Gitter Chat room:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gitter.im/cake-contrib/Lobby?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/cake-contrib/Lobby.svg" class="img-fluid" alt="Join the chat at https://gitter.im/cake-contrib/Lobby" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="thanks"&gt;Thanks&lt;/h1&gt;
+&lt;p&gt;I have to say a huge thank you to &lt;a href="https://twitter.com/hereispascal"&gt;Pascal Berger&lt;/a&gt; who has helped out a LOT with the creation of this package.  Thank you!&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;This is another of those announcement blog posts that is a little on the "late" side.  This post is about the &lt;a href="https://www.nuget.org/packages/Cake.Wyam.Recipe/"&gt;Cake.Wyam.Recipe&lt;/a&gt; package, which was first released back in May 2017.  Now, in it's sixth release, I thought it was about time to tell people about it.  Better late than never...&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension" />
 		<id>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</id>
@@ -876,28 +985,5 @@ Task(&amp;quot;ObfuscateExecutable&amp;quot;)
 &lt;p&gt;I have to say that I am very impressed with the kit.  It is a very nice gift to receive in addition to the recognition that goes with it.  Thank you!&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;At the end of last week, I received my MVP Award Kit from Microsoft, but I am really only just now getting a chance to sit down and have a proper look at it.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-use-appveyor-cache" />
-		<id>http://www.gep13.co.uk/blog/how-to-use-appveyor-cache</id>
-		<title>How to use AppVeyor Build Cache</title>
-		<updated>2017-07-23T00:00:00Z</updated>
-		<content>&lt;p&gt;Another important feature offered by AppVeyor is it's &lt;a href="https://www.appveyor.com/docs/build-cache/"&gt;Build Cache&lt;/a&gt;.  Due to the fact that every AppVeyor build uses a fresh copy of the Build Agent Virtual Machine, any files and folders that were created as part of the build are not persisted between project builds.&lt;/p&gt;
-&lt;p&gt;So for example, if as part of your build you restore lots of NuGet packages, or you install packages from Chocolatey, then these things will have to happen on every build.  This is problematic for two reasons.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;It means that your builds are going to be slightly slower than they could be as they are having to restore these dependencies on every build&lt;/li&gt;
-&lt;li&gt;The success of your build is dependent on 3rd party websites being available.  So for example, if NuGet.org isn't working properly, your build is going to fail as those required packages can't be downloaded.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Making use of the AppVeyor Build Cache fixes both of these problems.&lt;/p&gt;
-&lt;p&gt;To set up the Build Cache is really simple:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;cache:
-  - tools -&amp;gt; build.cake, tools/packages.config
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;With this entry in your &lt;code&gt;.appveyor.yml&lt;/code&gt; file, at the end of the build all files and folders within the &lt;code&gt;tools&lt;/code&gt; folder will be added to the Build Cache, and restored on the next build.  Additionally, if either of the &lt;code&gt;build.cake&lt;/code&gt; or &lt;code&gt;tools/packages.config&lt;/code&gt; file change between Project Builds, then the tools folder in the Build Cache will be invalidated and re-created during the build.&lt;/p&gt;
-&lt;p&gt;This configuration gives us full flexibility and control over the Build Cache, which results in a more resilient and re-producible build.&lt;/p&gt;
-&lt;p&gt;I have created a short video with walks through this entire process, and shows the Build Cache in action, in the context of a build which uses the &lt;a href="http://cakebuild.net/"&gt;Cake Build Automation tool&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/ELb8l9nvWok" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-		<summary>&lt;p&gt;Another important feature offered by AppVeyor is it's &lt;a href="https://www.appveyor.com/docs/build-cache/"&gt;Build Cache&lt;/a&gt;.  Due to the fact that every AppVeyor build uses a fresh copy of the Build Agent Virtual Machine, any files and folders that were created as part of the build are not persisted between project builds.&lt;/p&gt;</summary>
 	</entry>
 </feed>
