@@ -133,7 +133,7 @@ Published on 13 March 2017<br>    </div>
 <p>It is not a very difficult concept, but the way it is implemented is VERY compelling, and such an improvement on the current notification system in the GitHub UI.</p>
 <h1 id="enough-already-how-to-we-use-it">Enough already, how to we use it?</h1>
 <p>There are a couple options here...</p>
-<p>Firstly, you can use the shared instance at <a href="http://octobox.io,">http://octobox.io,</a> however, this is limited in some functionality due to not being able to use shared key.</p>
+<p>Firstly, you can use the shared instance at <a href="http://octobox.io">http://octobox.io</a>, however, this is limited in some functionality due to not being able to use shared key.</p>
 <p>Secondly, you can deploy your own instance to Heroku, which seems like it would be very simple to set up and configure.</p>
 <p>Thirdly, you have the option of running Octobox in Docker.  I opted for this option for a couple reasons.  I have never really used Docker in anger, and I wanted to see what all the fuss is about.  And also I have a reasonably beefy Synology Server that really isn't doing anything, other then running <a href="http://www.hanselman.com/blog/UPDATED2014HowToSetupCrashPlanCloudBackupOnASynologyNASRunningDSM50.aspx">CrashPlan</a> and Plex.  So I thought I would take it for a spin.</p>
 <h1 id="setup-steps">Setup steps</h1>
@@ -183,7 +183,7 @@ Published on 13 March 2017<br>    </div>
 <p>Then, if you run the <code>docker compose</code> command again, which should take far less time the second time around, you should be met with the following:</p>
 <p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/docker_compose_success.png" class="img-fluid" alt="Docker Compose Success" /></p>
 <h2 id="open-octobox">8. Open Octobox</h2>
-<p>Fire open your browser of choice, and point it at <a href="http://%3Csynology_server_ip_address%3E:3000">http://&lt;synology_server_ip_address&gt;:3000</a> and hopefully you will see the following:</p>
+<p>Fire open your browser of choice, and point it at http://&lt;synology_server_ip_address&gt;:3000 and hopefully you will see the following:</p>
 <p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2017/03/13/its_alive.png" class="img-fluid" alt="It's ALIVE!" /></p>
 <p>And you will be able to login to the application using your standard credentials.</p>
 <h2 id="run-docker-command-in-background">9. Run docker command in background</h2>
