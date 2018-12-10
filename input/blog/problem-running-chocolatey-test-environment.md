@@ -14,7 +14,7 @@ Environment, although bear in mind that this might not have been tested by anyon
 
 ## The Problem
 
-When the Chocolatey Community member was trying to run the [Chocolatey Test Environment](https://github.com/chocolatey/chocolatey-test-environment)]
+When the Chocolatey Community member was trying to run the [Chocolatey Test Environment](https://github.com/chocolatey/chocolatey-test-environment)
 on his Windows 10 machine, they were running into the following error:
 
 ~~~sh
