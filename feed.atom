@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-12-06T22:53:53Z</updated>
+	<updated>2018-12-10T08:48:04Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe" />
@@ -577,7 +577,7 @@ point of discussion came up, so I thought I would capture it here in a blog post
 probably want to make sure that you are using the latest version of Vagrant when trying to use the Chocolatey Test
 Environment, although bear in mind that this might not have been tested by anyone, and may have other problems :-).&lt;/p&gt;
 &lt;h2 id="the-problem"&gt;The Problem&lt;/h2&gt;
-&lt;p&gt;When the Chocolatey Community member was trying to run the &lt;a href="https://github.com/chocolatey/chocolatey-test-environment"&gt;Chocolatey Test Environment&lt;/a&gt;]
+&lt;p&gt;When the Chocolatey Community member was trying to run the &lt;a href="https://github.com/chocolatey/chocolatey-test-environment"&gt;Chocolatey Test Environment&lt;/a&gt;
 on his Windows 10 machine, they were running into the following error:&lt;/p&gt;
 &lt;pre&gt;&lt;code class="language-sh"&gt;Bringing machine 'default' up with 'virtualbox' provider...
  ==&amp;gt; default: Box 'ferventcoder/win2012r2-x64-nocm' could not be found. Attempting to find and install...
