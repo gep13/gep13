@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Mon, 10 Dec 2018 08:48:23 GMT</pubDate>
-		<lastBuildDate>Mon, 10 Dec 2018 08:48:23 GMT</lastBuildDate>
+		<pubDate>Fri, 14 Dec 2018 23:43:40 GMT</pubDate>
+		<lastBuildDate>Fri, 14 Dec 2018 23:43:40 GMT</lastBuildDate>
+		<item>
+			<title>Getting started with GitHub Actions</title>
+			<link>http://www.gep13.co.uk/blog/getting-started-with-github-actions</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/getting-started-with-github-actions</guid>
+			<pubDate>Fri, 14 Dec 2018 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>Introducing the Cake.Wyam.Recipe Package</title>
 			<link>http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe</link>
@@ -139,13 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/introducting-a-postman-collection-for-appveyor</guid>
 			<pubDate>Fri, 18 Aug 2017 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>MVP Award Kit</title>
-			<link>http://www.gep13.co.uk/blog/mvp-award-kit</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/mvp-award-kit</guid>
-			<pubDate>Tue, 25 Jul 2017 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>

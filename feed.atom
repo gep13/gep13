@@ -4,8 +4,125 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-12-10T08:48:04Z</updated>
+	<updated>2018-12-14T23:43:25Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/getting-started-with-github-actions" />
+		<id>http://www.gep13.co.uk/blog/getting-started-with-github-actions</id>
+		<title>Getting started with GitHub Actions</title>
+		<updated>2018-12-14T00:00:00Z</updated>
+		<content>&lt;p&gt;On Wednesday evening, I got a very pleasant email from GitHub, telling me that I had been given access to the GitHub Actions Beta.  This is something that I have been looking forward to for a while now, ever since I signed up for it.  I am a big user of Continuous Integration Systems for building the various Open Source projects that I work on, but I really like the idea of doing smaller, precise actions, as a result of other &amp;quot;things&amp;quot; happening on a repository.&lt;/p&gt;
+&lt;p&gt;I was even more impatient to get started with the Beta when I saw &lt;a href="https://twitter.com/devblackops"&gt;Brandon Olin&lt;/a&gt; tweet this:&lt;/p&gt;
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Getting my feet wet with GitHub Actions and having some fun with psake.&lt;br&gt;&lt;br&gt;Check out my generic psake task runner here: &lt;a href="https://t.co/lNvKwmDasE"&gt;https://t.co/lNvKwmDasE&lt;/a&gt;&lt;br&gt;&lt;br&gt;Still WIP but making progress. &lt;a href="https://t.co/8tPnxxWmtR"&gt;pic.twitter.com/8tPnxxWmtR&lt;/a&gt;&lt;/p&gt;&amp;mdash; Brandon Olin (&amp;#64;devblackops) &lt;a href="https://twitter.com/devblackops/status/1072036355855671297?ref_src=twsrc%5Etfw"&gt;December 10, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;As I wanted to do the same thing for &lt;a href="https://cakebuild.net/"&gt;Cake&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; I have to give a huge thanks to Brandon for the work that he did in creating the psake GitHub Action, as I was able to use this as the starting point for Cake GitHub Action.&lt;/p&gt;
+&lt;h2 id="getting-started"&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;There is some fairly comprehensive documentation on getting started with GitHub Actions on &lt;a href="https://developer.github.com/actions"&gt;the site&lt;/a&gt;, so I am not going to repeat that here, but rather focus on what was necessary to specifically get a Cake script executing as a result of a GitHub Action.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; In addition to the above documentation site, you can also find the source code for the out of the box actions on &lt;a href="https://github.com/actions"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="docker-ftw"&gt;Docker FTW!&lt;/h2&gt;
+&lt;p&gt;The starting point for any new GitHub Action is a Dockerfile.  This is what is going to be used to actually execute the action.  In the case of the psake GitHub Action, it uses &lt;a href="https://hub.docker.com/r/microsoft/powershell/"&gt;Microsoft's PowerShell Docker Image&lt;/a&gt; as it already has PowerShell installed, so all that is left is to install and execute psake.  In the case of Cake, there is already an image on the Docker Hub that has &lt;a href="https://hub.docker.com/r/cakebuild/cake"&gt;Cake&lt;/a&gt; installed, and ready to be used.  As a result the &lt;a href="https://github.com/gep13/cake-actions/blob/master/task/Dockerfile"&gt;Dockerfile&lt;/a&gt; for the Cake GitHub Action is relatively straight forward:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; The following is likely to change.  What is shown here is from the initial proof of concept action, just to see how things work&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-shell"&gt;FROM cakebuild/cake:v0.30.0-2.1-sdk as base
+
+FROM base as cake-build
+LABEL &amp;quot;com.github.actions.name&amp;quot;         = &amp;quot;Cake task&amp;quot;
+LABEL &amp;quot;com.github.actions.description&amp;quot;  = &amp;quot;Run Cake task&amp;quot;
+LABEL &amp;quot;com.github.actions.icon&amp;quot;         = &amp;quot;box&amp;quot;
+LABEL &amp;quot;com.github.actions.color&amp;quot;        = &amp;quot;yellow&amp;quot;
+
+LABEL &amp;quot;repository&amp;quot; = &amp;quot;https://github.com/gep13/cake-actions&amp;quot;
+LABEL &amp;quot;homepage&amp;quot;   = &amp;quot;https://github.com/cake-build/cake&amp;quot;
+LABEL &amp;quot;maintainer&amp;quot; = &amp;quot;Gary Ewan Park &amp;lt;gep13&amp;#64;gep13.co.uk&amp;gt;&amp;quot;
+
+ADD entrypoint.sh  /entrypoint.sh
+
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT [&amp;quot;/entrypoint.sh&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;All that is really being done here is specifying the base image to use, and then configuring the information about the image, and then adding the entry point for when the container is executed.&lt;/p&gt;
+&lt;h2 id="entry-point"&gt;Entry Point&lt;/h2&gt;
+&lt;p&gt;With the Dockerfile defined, I then moved onto the entry point script for when the container is executed.  This ended up looking like the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-shell"&gt;#!/bin/sh
+
+set -eu
+
+cake --version
+
+cake $CAKE_SCRIPT --target=$*
+
+exit $?
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now, this really needs some work in terms of error handling, etc, but again, just a proof of concept to show how things work.&lt;/p&gt;
+&lt;p&gt;Since Cake is already available on the Docker image, it can be invoked directly.  So the first thing that is being done in this shell script is to run &lt;code&gt;cake --version&lt;/code&gt; so that information about what version of Cake is being used is output to the log.  After that, cake is being executed against a named script (which will be read from an Environment Variable &lt;code&gt;CAKE_SCRIPT&lt;/code&gt;), and then a specific target (which will come from an argument specified in the workflow).&lt;/p&gt;
+&lt;p&gt;With both of those things created, the Cake GitHub Action is complete, and ready to be tested.  You can see the complete action &lt;a href="https://github.com/gep13/cake-actions/tree/master/task"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="creating-the-workflow"&gt;Creating the workflow&lt;/h2&gt;
+&lt;p&gt;During the beta, GitHub Actions are only available on private repositories, so I can't link to the example repository that I am using, but I will walk you through what I did.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open the GitHub repository, and click on the new Actions tab.&lt;/li&gt;
+&lt;li&gt;Click the &lt;code&gt;Create a new workflow&lt;/code&gt; button.  This will create a file called &lt;code&gt;main.workflow&lt;/code&gt; in the &lt;code&gt;.github&lt;/code&gt; folder&lt;/li&gt;
+&lt;li&gt;Since we will be using a custom GitHub Action, switch away from the visual editor by clicking on &lt;code&gt;Edit new file&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Enter the following&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class="language-shell"&gt;workflow &amp;quot;New workflow&amp;quot; {
+  on = &amp;quot;push&amp;quot;
+  resolves = [&amp;quot;cake test&amp;quot;]
+}
+
+
+action &amp;quot;cake test&amp;quot; {
+    uses = &amp;quot;gep13/cake-actions/task&amp;#64;master&amp;quot;
+
+    env = {
+        CAKE_SCRIPT = &amp;quot;./build.cake&amp;quot;
+    }
+
+    args =[&amp;quot;Default&amp;quot;]
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;This defines a new &lt;code&gt;cake test&lt;/code&gt; action, which is triggered when a push happens on the repository&lt;/li&gt;
+&lt;li&gt;This action uses the custom action located at &lt;code&gt;gep13/cake-actions/task&amp;#64;master&lt;/code&gt; &lt;strong&gt;NOTE:&lt;/strong&gt; here master indicates that the contents of the current master branch should be used.  Once running properly, you are probably going to want to use a named tag, to pin to a specific version of the action, so that you know that is won't change over time.  For example, &lt;code&gt;gep13/cake-actions/task&amp;#64;0.1.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Then a new environment variable is defined called &lt;code&gt;CAKE_SCRIPT&lt;/code&gt; with a value of &lt;code&gt;./build.cake&lt;/code&gt;.  This correlates to a file called build.cake which needs to be located in the root of the repository where the action is being used&lt;/li&gt;
+&lt;li&gt;Finally, the arguments to pass into Cake are defined.  Here, we are setting this to Default.  When passed into Cake, this will be changed to &lt;code&gt;--target=Default&lt;/code&gt;  &lt;strong&gt;NOTE:&lt;/strong&gt; This part of the entrypoint.sh really needs some work, again, just a proof of concept&lt;/li&gt;
+&lt;li&gt;Save and commit the changes to the main.workflow&lt;/li&gt;
+&lt;li&gt;Now that these parts are in place, we need a build.cake file.  A simple one would be the following, which writes out Hello World! to the console output:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class="language-shell"&gt;var target = Argument(&amp;quot;target&amp;quot;, &amp;quot;Default&amp;quot;);
+
+Task(&amp;quot;Default&amp;quot;)
+  .Does(() =&amp;gt;
+{
+  Information(&amp;quot;Hello World!&amp;quot;);
+});
+
+RunTarget(target);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Switch back to the Visual Editor, and you should see something that looks like the following:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/14/workflow-in-visual-editor.png" class="img-fluid" alt="Workflow in Visual Editor" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make another change to the repository, and push the changes.  This will then trigger the workflow, and as a result, execute the action&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/14/workflow-execution-start.png" class="img-fluid" alt="Workflow execution state" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/14/workflow-execution-end.png" class="img-fluid" alt="Workflow execution end" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The action starts by downloading the Docker image that is required for it to execute the action, and then it executes the two Cake commands that are defined in the action.  i.e. &lt;code&gt;cake --version&lt;/code&gt; followed by &lt;code&gt;cake ./build.cake --target=Default&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;We can then see the &lt;code&gt;Hello World!&lt;/code&gt; being output within the Default task.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="chaining-actions"&gt;Chaining Actions&lt;/h2&gt;
+&lt;p&gt;As shown in Brandon's image above, it would be possible to chain multiple cake actions together to form the entire workflow, with each one executing a particular task within the Cake script.  However, it is more likely that I would put this orchestration into the Cake script itself.  However, both options are definitely possible, so the choice is up to the end user.&lt;/p&gt;
+&lt;h2 id="going-forward"&gt;Going forward&lt;/h2&gt;
+&lt;p&gt;As mentioned, some work is required to move this from a proof of concept to a hardened, re-usable, GitHub Action.  This will happen in due course, and the &lt;code&gt;cake-actions&lt;/code&gt; repository will likely move under the cake-build Organisation on GitHub.&lt;/p&gt;
+&lt;p&gt;I really like the idea of defining my &amp;quot;work&amp;quot; in a Cake script, and then being able to re-use them in various repositories, triggered off of a number of different triggers.  There are currently &lt;a href="https://developer.github.com/actions/creating-workflows/workflow-configuration-options/#events-supported-in-workflow-files"&gt;28 different events&lt;/a&gt; that your workflow can trigger off.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/14/workflow-triggers.png" class="img-fluid" alt="Workflow Event Triggers" /&gt;&lt;/p&gt;
+&lt;h2 id="overall-impression"&gt;Overall Impression&lt;/h2&gt;
+&lt;p&gt;Overall, I have to say that I am very impressed with GitHub Actions.  Things &amp;quot;just&amp;quot; worked, which is exactly what you want.  I can totally see how these small, precise actions, can be applied to the events being triggered on my repositories.  Right now, there are a number of manual steps for the Cake release process, and I can see a huge percentage of these being replaced with GitHub Actions.  I am very much looking forward to GitHub Actions coming out of beta.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;On Wednesday evening, I got a very pleasant email from GitHub, telling me that I had been given access to the GitHub Actions Beta.  This is something that I have been looking forward to for a while now, ever since I signed up for it.  I am a big user of Continuous Integration Systems for building the various Open Source projects that I work on, but I really like the idea of doing smaller, precise actions, as a result of other "things" happening on a repository.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe" />
 		<id>http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe</id>
@@ -972,18 +1089,5 @@ Task(&amp;quot;ObfuscateExecutable&amp;quot;)
 &lt;p&gt;Please let me know if you have any comments or suggestions on how this can be improved.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;For a while now, I have been hacking on the AppVeyor API.  This has been in order to setup some automation between the various GitHub Teams that I have, and the AppVeyor Roles that allow access to the projects in AppVeyor.  This can of course be done manually, but when you start having over 30 teams, and over 70 projects, this becomes a bit of a problem.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/mvp-award-kit" />
-		<id>http://www.gep13.co.uk/blog/mvp-award-kit</id>
-		<title>MVP Award Kit</title>
-		<updated>2017-07-25T00:00:00Z</updated>
-		<content>&lt;p&gt;At the end of last week, I received my MVP Award Kit from Microsoft, but I am really only just now getting a chance to sit down and have a proper look at it.&lt;/p&gt;
-&lt;p&gt;You can see photos of the unboxing below:&lt;/p&gt;
-&lt;div id="flickrembed"&gt;&lt;/div&gt;&lt;small style="display: block; text-align: center; margin: 0 auto;"&gt;Powered by &lt;a href="https://flickrembed.com"&gt;flickr embed&lt;/a&gt;.&lt;/small&gt;
-&lt;script src="https://flickrembed.com/embed_v2.js.php?source=flickr&amp;layout=responsive&amp;input=72157684028641824&amp;sort=0&amp;by=album&amp;theme=default&amp;scale=fit&amp;skin=default&amp;id=5850544461b40"&gt;&lt;/script&gt;
-&lt;p&gt;I have to say that I am very impressed with the kit.  It is a very nice gift to receive in addition to the recognition that goes with it.  Thank you!&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;At the end of last week, I received my MVP Award Kit from Microsoft, but I am really only just now getting a chance to sit down and have a proper look at it.&lt;/p&gt;</summary>
 	</entry>
 </feed>
