@@ -47,7 +47,7 @@ TwitterSendTweet("oAuthConsumerKey", "oAuthConsumerSecret", "accessToken", "acce
 :::{.alert .alert-info}
 **NOTE:**
 
-In order to get the above keys and tokens, you will need to create a develoepr account on Twitter.
+In order to get the above keys and tokens, you will need to create a developer account on Twitter.
 :::
 
 ## Event data
