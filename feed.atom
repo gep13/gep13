@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-12-15T20:42:57Z</updated>
+	<updated>2018-12-15T20:54:31Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/using-cake-github-action" />
@@ -36,7 +36,7 @@
 &lt;pre&gt;&lt;code class="language-csharp"&gt;TwitterSendTweet(&amp;quot;oAuthConsumerKey&amp;quot;, &amp;quot;oAuthConsumerSecret&amp;quot;, &amp;quot;accessToken&amp;quot;, &amp;quot;accessTokenSecret&amp;quot;, &amp;quot;The text for the Tweet you want to send&amp;quot;);
 &lt;/code&gt;&lt;/pre&gt;
 &lt;div class="alert alert-info"&gt;&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In order to get the above keys and tokens, you will need to create a develoepr account on Twitter.&lt;/p&gt;
+&lt;p&gt;In order to get the above keys and tokens, you will need to create a developer account on Twitter.&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id="event-data"&gt;Event data&lt;/h2&gt;
 &lt;p&gt;Based on the &lt;a href="https://developer.github.com/actions/creating-github-actions/accessing-the-runtime-environment/#environment-variables"&gt;documentation&lt;/a&gt; GitHub Actions provides an environment variable which contains the path to a file, which has all the JSON payload of the event which triggered the workflow.  By inspecting this environment variable, and reading the contents of the file, we can figure out whether the event was a milestone being closed.&lt;/p&gt;
