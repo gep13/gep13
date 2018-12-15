@@ -17,19 +17,31 @@ I was even more impatient to get started with the Beta when I saw [Brandon Olin]
 
 As I wanted to do the same thing for [Cake](https://cakebuild.net/).
 
-**NOTE:** I have to give a huge thanks to Brandon for the work that he did in creating the psake GitHub Action, as I was able to use this as the starting point for Cake GitHub Action.
+:::{.alert .alert-info}
+**NOTE:**
+
+I have to give a huge thanks to Brandon for the work that he did in creating the psake GitHub Action, as I was able to use this as the starting point for Cake GitHub Action.
+:::
 
 ## Getting Started
 
 There is some fairly comprehensive documentation on getting started with GitHub Actions on [the site](https://developer.github.com/actions), so I am not going to repeat that here, but rather focus on what was necessary to specifically get a Cake script executing as a result of a GitHub Action.
 
-**NOTE:** In addition to the above documentation site, you can also find the source code for the out of the box actions on [GitHub](https://github.com/actions).
+:::{.alert .alert-info}
+**NOTE:**
+
+In addition to the above documentation site, you can also find the source code for the out of the box actions on [GitHub](https://github.com/actions).
+:::
 
 ## Docker FTW!
 
 The starting point for any new GitHub Action is a Dockerfile.  This is what is going to be used to actually execute the action.  In the case of the psake GitHub Action, it uses [Microsoft's PowerShell Docker Image](https://hub.docker.com/r/microsoft/powershell/) as it already has PowerShell installed, so all that is left is to install and execute psake.  In the case of Cake, there is already an image on the Docker Hub that has [Cake](https://hub.docker.com/r/cakebuild/cake) installed, and ready to be used.  As a result the [Dockerfile](https://github.com/gep13/cake-actions/blob/master/task/Dockerfile) for the Cake GitHub Action is relatively straight forward:
 
-**NOTE:** The following is likely to change.  What is shown here is from the initial proof of concept action, just to see how things work
+:::{.alert .alert-info}
+**NOTE:**
+
+The following is likely to change.  What is shown here is from the initial proof of concept action, just to see how things work
+:::
 
 ```shell
 FROM cakebuild/cake:v0.30.0-2.1-sdk as base
