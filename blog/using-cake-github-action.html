@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 
-        <title>Gary Ewan Park - Getting started with GitHub Actions</title>
+        <title>Gary Ewan Park - Using Cake GitHub Action</title>
         <meta name="description" content="Ramblings and Ponderings of a Microsoft Fan Boy..." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">        
 
@@ -28,9 +28,9 @@
         <meta name="msapplication-tooltip" content="Gary Ewan Park" />
         <meta name="msapplication-starturl" content="/" />
 
-        <meta property="og:title" content="Gary Ewan Park - Getting started with GitHub Actions" />
+        <meta property="og:title" content="Gary Ewan Park - Using Cake GitHub Action" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://www.gep13.co.uk/blog/getting-started-with-github-actions" />
+        <meta property="og:url" content="http://www.gep13.co.uk/blog/using-cake-github-action" />
         <!-- TODO: More social graph meta tags -->
 
         <script src="/assets/js/jquery.min.js"></script>
@@ -93,9 +93,9 @@
 
     
 <div class="post-heading">
-    <h1>Getting started with GitHub Actions</h1>
+    <h1>Using Cake GitHub Action</h1>
     <div class="meta">        
-Published on 14 December 2018<br>    </div>
+Published on 15 December 2018<br>    </div>
         <div class="tags">
                     <a role="button" href="/tags/actions" class="btn btn-default btn-xs">Actions</a>
                     <a role="button" href="/tags/automation" class="btn btn-default btn-xs">Automation</a>
@@ -114,66 +114,37 @@ Published on 14 December 2018<br>    </div>
                                 <div id="content" class="col-md-12">
                                         
 
-<p>On Wednesday evening, I got a very pleasant email from GitHub, telling me that I had been given access to the GitHub Actions Beta.  This is something that I have been looking forward to for a while now, ever since I signed up for it.  I am a big user of Continuous Integration Systems for building the various Open Source projects that I work on, but I really like the idea of doing smaller, precise actions, as a result of other &quot;things&quot; happening on a repository.</p>
-<p>I was even more impatient to get started with the Beta when I saw <a href="https://twitter.com/devblackops">Brandon Olin</a> tweet this:</p>
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Getting my feet wet with GitHub Actions and having some fun with psake.<br><br>Check out my generic psake task runner here: <a href="https://t.co/lNvKwmDasE">https://t.co/lNvKwmDasE</a><br><br>Still WIP but making progress. <a href="https://t.co/8tPnxxWmtR">pic.twitter.com/8tPnxxWmtR</a></p>&mdash; Brandon Olin (&#64;devblackops) <a href="https://twitter.com/devblackops/status/1072036355855671297?ref_src=twsrc%5Etfw">December 10, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<p>As I wanted to do the same thing for <a href="https://cakebuild.net/">Cake</a>.</p>
-<div class="alert alert-info"><p><strong>NOTE:</strong></p>
-<p>I have to give a huge thanks to Brandon for the work that he did in creating the psake GitHub Action, as I was able to use this as the starting point for Cake GitHub Action.</p>
-</div>
-<h2 id="getting-started">Getting Started</h2>
-<p>There is some fairly comprehensive documentation on getting started with GitHub Actions on <a href="https://developer.github.com/actions">the site</a>, so I am not going to repeat that here, but rather focus on what was necessary to specifically get a Cake script executing as a result of a GitHub Action.</p>
-<div class="alert alert-info"><p><strong>NOTE:</strong></p>
-<p>In addition to the above documentation site, you can also find the source code for the out of the box actions on <a href="https://github.com/actions">GitHub</a>.</p>
-</div>
-<h2 id="docker-ftw">Docker FTW!</h2>
-<p>The starting point for any new GitHub Action is a Dockerfile.  This is what is going to be used to actually execute the action.  In the case of the psake GitHub Action, it uses <a href="https://hub.docker.com/r/microsoft/powershell/">Microsoft's PowerShell Docker Image</a> as it already has PowerShell installed, so all that is left is to install and execute psake.  In the case of Cake, there is already an image on the Docker Hub that has <a href="https://hub.docker.com/r/cakebuild/cake">Cake</a> installed, and ready to be used.  As a result the <a href="https://github.com/gep13/cake-actions/blob/master/task/Dockerfile">Dockerfile</a> for the Cake GitHub Action is relatively straight forward:</p>
-<div class="alert alert-info"><p><strong>NOTE:</strong></p>
-<p>The following is likely to change.  What is shown here is from the initial proof of concept action, just to see how things work</p>
-</div>
-<pre><code class="language-shell">FROM cakebuild/cake:v0.30.0-2.1-sdk as base
-
-FROM base as cake-build
-LABEL &quot;com.github.actions.name&quot;         = &quot;Cake task&quot;
-LABEL &quot;com.github.actions.description&quot;  = &quot;Run Cake task&quot;
-LABEL &quot;com.github.actions.icon&quot;         = &quot;box&quot;
-LABEL &quot;com.github.actions.color&quot;        = &quot;yellow&quot;
-
-LABEL &quot;repository&quot; = &quot;https://github.com/gep13/cake-actions&quot;
-LABEL &quot;homepage&quot;   = &quot;https://github.com/cake-build/cake&quot;
-LABEL &quot;maintainer&quot; = &quot;Gary Ewan Park &lt;gep13&#64;gep13.co.uk&gt;&quot;
-
-ADD entrypoint.sh  /entrypoint.sh
-
-RUN chmod +x /entrypoint.sh
-
-ENTRYPOINT [&quot;/entrypoint.sh&quot;]
-</code></pre>
-<p>All that is really being done here is specifying the base image to use, and then configuring the information about the image, and then adding the entry point for when the container is executed.</p>
-<h2 id="entry-point">Entry Point</h2>
-<p>With the Dockerfile defined, I then moved onto the entry point script for when the container is executed.  This ended up looking like the following:</p>
-<pre><code class="language-shell">#!/bin/sh
-
-set -eu
-
-cake --version
-
-cake $CAKE_SCRIPT --target=$*
-
-exit $?
-</code></pre>
-<p>Now, this really needs some work in terms of error handling, etc, but again, just a proof of concept to show how things work.</p>
-<p>Since Cake is already available on the Docker image, it can be invoked directly.  So the first thing that is being done in this shell script is to run <code>cake --version</code> so that information about what version of Cake is being used is output to the log.  After that, cake is being executed against a named script (which will be read from an Environment Variable <code>CAKE_SCRIPT</code>), and then a specific target (which will come from an argument specified in the workflow).</p>
-<p>With both of those things created, the Cake GitHub Action is complete, and ready to be tested.  You can see the complete action <a href="https://github.com/gep13/cake-actions/tree/master/task">here</a>.</p>
-<h2 id="creating-the-workflow">Creating the workflow</h2>
-<p>During the beta, GitHub Actions are only available on private repositories, so I can't link to the example repository that I am using, but I will walk you through what I did.</p>
+<p>In <a href="https://www.gep13.co.uk/blog/getting-started-with-github-actions">yesterdays blog post</a> I described how I had been able to create a custom GitHub Action to execute a target from a  <a href="https://cakebuild.net/">Cake</a> script.  To follow up on that, I thought it would be good to show how you can actually make use of this custom action, to achieve something useful in terms of a GitHub Action.</p>
+<h2 id="what-are-we-going-to-do">What are we going to do?</h2>
+<p>Almost exclusively on the Open Source projects that I work on, I use GitHub Milestones to collect the Issues/Pull Requests that are going to be included in any given release.  Once everything is ready, I release the &quot;bits&quot; of the project, and then I close the Milestone.  Wouldn't it be good if the act of closing a Milestone were to trigger a notification to Twitter, to let people know that the release is ready.  I think so...</p>
+<h2 id="milestone-event">Milestone event</h2>
+<p>Of the <a href="https://developer.github.com/actions/creating-workflows/workflow-configuration-options/#events-supported-in-workflow-files">28 events</a> that can trigger the workflow of a GitHub Action, one of them is the <a href="https://developer.github.com/v3/activity/events/types/#milestoneevent">milestone event</a>, which will trigger:</p>
+<blockquote class="blockquote">
+<p>Any time a milestone is created, closed, opened, edited, or deleted.</p>
+</blockquote>
+<p>Now, we only want the Tweet to be sent out when a milestone is closed, but based on the documentation, we should be able to inspect the event payload (which is a JSON file), to see more details about the event, specifically, the <code>action</code> property, which will either be:</p>
 <ul>
-<li>Open the GitHub repository, and click on the new Actions tab.</li>
-<li>Click the <code>Create a new workflow</code> button.  This will create a file called <code>main.workflow</code> in the <code>.github</code> folder</li>
-<li>Since we will be using a custom GitHub Action, switch away from the visual editor by clicking on <code>Edit new file</code></li>
-<li>Enter the following</li>
+<li>created</li>
+<li>closed</li>
+<li>opened</li>
+<li>edited</li>
+<li>deleted</li>
 </ul>
+<h2 id="parsing-the-json-file">Parsing the JSON file</h2>
+<p>When it comes to parsing JSON files in .NET, the obvious choice is to use <a href="https://www.nuget.org/packages/Newtonsoft.Json/">Newtonsoft.Json</a>.  And in terms of Cake, a community member, <a href="https://github.com/redth">redth</a> has already done the work of creating a Cake Addin (<a href="https://www.nuget.org/packages/Cake.Json/">Cake.Json</a>) to make this incredibly simple.  Parsing a JSON file is as simple as:</p>
+<pre><code class="language-csharp">var json = ParseJsonFromFile(&quot;&lt;path to JSON file&gt;&quot;);
+</code></pre>
+<h2 id="sending-a-tweet">Sending a Tweet</h2>
+<p>In the same way that parsing a JSON file in Cake is a one-liner, the same is true of sending a Tweet.  Using the <a href="https://www.nuget.org/packages/Cake.Twitter/">Cake.Twitter</a> addin, sending a tweet is as simple as:</p>
+<pre><code class="language-csharp">TwitterSendTweet(&quot;oAuthConsumerKey&quot;, &quot;oAuthConsumerSecret&quot;, &quot;accessToken&quot;, &quot;accessTokenSecret&quot;, &quot;The text for the Tweet you want to send&quot;);
+</code></pre>
+<div class="alert alert-info"><p><strong>NOTE:</strong></p>
+<p>In order to get the above keys and tokens, you will need to create a develoepr account on Twitter.</p>
+</div>
+<h2 id="event-data">Event data</h2>
+<p>Based on the <a href="https://developer.github.com/actions/creating-github-actions/accessing-the-runtime-environment/#environment-variables">documentation</a> GitHub Actions provides an environment variable which contains the path to a file, which has all the JSON payload of the event which triggered the workflow.  By inspecting this environment variable, and reading the contents of the file, we can figure out whether the event was a milestone being closed.</p>
+<h2 id="putting-it-all-together">Putting it all together...</h2>
+<p>In the previous blog post, we left the workflow of our action triggering off a <code>push</code> event, with a single environment variable and argument.  It was defined as follows:</p>
 <pre><code class="language-shell">workflow &quot;New workflow&quot; {
   on = &quot;push&quot;
   resolves = [&quot;cake test&quot;]
@@ -190,54 +161,117 @@ action &quot;cake test&quot; {
     args =[&quot;Default&quot;]
 }
 </code></pre>
+<p>To make our workflow trigger on a milestone event, we will need to change the <code>on</code> parameter, and we will also need to add some <a href="https://developer.github.com/actions/creating-workflows/storing-secrets/">secrets</a> to the definition, which will store the Twitter Keys and Tokens, so that we can actually send the Tweet.  After updating, the workflow then looks like the following:</p>
+<pre><code class="language-shell">workflow &quot;New workflow&quot; {
+  resolves = [&quot;cake test&quot;]
+  on = &quot;milestone&quot;
+}
+
+action &quot;cake test&quot; {
+  uses = &quot;gep13/cake-actions/task&#64;master&quot;
+  env = {
+    CAKE_SCRIPT = &quot;./build.cake&quot;
+  }
+  args = [&quot;Default&quot;]
+  secrets = [&quot;TWITTER_CONSUMER_KEY&quot;, &quot;TWITTER_CONSUMER_SECRET&quot;, &quot;TWITTER_ACCESS_TOKEN&quot;, &quot;TWITTER_ACCESS_TOKEN_SECRET&quot;]
+}
+</code></pre>
+<p>Which &quot;looks&quot; like the following:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/15/workflow-with-secrets.png" class="img-fluid" alt="Workflow with secrets" /></p>
+<h2 id="the-cake-script">The Cake Script</h2>
+<p>With the workflow defined, now we can turn our attention to the Cake Script itself.  This will need to:</p>
 <ul>
-<li>This defines a new <code>cake test</code> action, which is triggered when a push happens on the repository</li>
-<li>This action uses the custom action located at <code>gep13/cake-actions/task&#64;master</code> <strong>NOTE:</strong> here master indicates that the contents of the current master branch should be used.  Once running properly, you are probably going to want to use a named tag, to pin to a specific version of the action, so that you know that is won't change over time.  For example, <code>gep13/cake-actions/task&#64;0.1.0</code></li>
-<li>Then a new environment variable is defined called <code>CAKE_SCRIPT</code> with a value of <code>./build.cake</code>.  This correlates to a file called build.cake which needs to be located in the root of the repository where the action is being used</li>
-<li>Finally, the arguments to pass into Cake are defined.  Here, we are setting this to Default.  When passed into Cake, this will be changed to <code>--target=Default</code>  <strong>NOTE:</strong> This part of the entrypoint.sh really needs some work, again, just a proof of concept</li>
-<li>Save and commit the changes to the main.workflow</li>
-<li>Now that these parts are in place, we need a build.cake file.  A simple one would be the following, which writes out Hello World! to the console output:</li>
+<li>Add the Cake.Json and Cake.Twitter addins</li>
+<li>Grab the required environment variables</li>
+<li>Parse the event JSON file</li>
+<li>Inspect the action variable to see if the milestone is closed</li>
+<li>Send the tweet if required</li>
 </ul>
-<pre><code class="language-shell">var target = Argument(&quot;target&quot;, &quot;Default&quot;);
+<p>The end result (which likely needs some additional error checking, but which works for what is trying to be shown here) looks like the following:</p>
+<pre><code class="language-csharp">#addin &quot;nuget:https://www.nuget.org/api/v2?package=Cake.Twitter&amp;version=0.9.0&quot;
+#addin &quot;nuget:https://www.nuget.org/api/v2?package=Cake.Json&amp;version=3.0.1&quot;
+
+var target = Argument(&quot;target&quot;, &quot;Default&quot;);
 
 Task(&quot;Default&quot;)
   .Does(() =&gt;
 {
-  Information(&quot;Hello World!&quot;);
+  var oAuthConsumerKey        = EnvironmentVariable(&quot;TWITTER_CONSUMER_KEY&quot;);
+  var oAuthConsumerSecret     = EnvironmentVariable(&quot;TWITTER_CONSUMER_SECRET&quot;);
+  var accessToken             = EnvironmentVariable(&quot;TWITTER_ACCESS_TOKEN&quot;);
+  var accessTokenSecret       = EnvironmentVariable(&quot;TWITTER_ACCESS_TOKEN_SECRET&quot;);
+  var githubEventPath         = EnvironmentVariable(&quot;GITHUB_EVENT_PATH&quot;);
+
+  if(string.IsNullOrEmpty(githubEventPath))
+  {
+    throw new Exception(&quot;Unable to find GitHub Event Path&quot;);
+  }
+
+  try
+  {
+    var json = ParseJsonFromFile(githubEventPath);
+
+    Information(json);
+
+    JToken value;
+    if (json.TryGetValue(&quot;action&quot;, out value))
+    {
+      Information(value);
+
+      if(value.ToString() == &quot;closed&quot;)
+      {
+        TwitterSendTweet(oAuthConsumerKey, oAuthConsumerSecret, accessToken, accessTokenSecret, &quot;This tweet was sent as a result of a milestone being closed on a repository, thanks to &#64;gitHub Actions.  Blog post to follow later...&quot;);
+
+        Information(&quot;Tweet sent&quot;);
+      }
+      else
+      {
+        Information(&quot;No tweet sent, as milestone wasn't closed&quot;);
+      }
+    }
+  }
+  catch(Exception ex)
+  {
+      Error(&quot;{0}&quot;, ex);
+  }
 });
 
 RunTarget(target);
 </code></pre>
+<h2 id="lets-run-it">Let's run it...</h2>
+<p>With all of the above checked into my test repository, I went ahead and created a new milestone.  Looking at the logs, I saw the following:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/15/milestone-created-event-payload.png" class="img-fluid" alt="Milestone created event payload" /></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/15/milestone-created-no-tweet.png" class="img-fluid" alt="Milestone created no tweet" /></p>
+<p>I then went ahead and closed the milestone.  Checking the logs, I then saw the following:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/15/milestone-closed-event-payload.png" class="img-fluid" alt="Milestone closed event payload" /></p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/15/milestone-closed-tweet-sent.png" class="img-fluid" alt="Milestone closed tweet sent" /></p>
+<p>Too good to be true...</p>
+<p>Checking Twitter, I then saw the following:</p>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This tweet was sent as a result of a milestone being closed on a repository, thanks to <a href="https://twitter.com/github?ref_src=twsrc%5Etfw">&#64;gitHub</a> Actions.  Blog post to follow later...</p>&mdash; Gary Ewan Park (&#64;gep13) <a href="https://twitter.com/gep13/status/1073905256164077568?ref_src=twsrc%5Etfw">December 15, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>I honestly didn't think that this would &quot;just&quot; work the first time, but it did!  I am really starting to like this system, and the integration of Cake means that I have access to a huge library of addins for doing a huge number of things.</p>
+<h2 id="doing-more-stuff">Doing more stuff</h2>
+<p>This is just one example of what you can do as the result of an event coming from your repository.  At last count, there are <a href="https://github.com/cake-contrib/Home/blob/master/Audit_for_Cake_0.28.0.md">240 different addins for Cake</a> that means that there are lots of &quot;things&quot; that you can do based on these events being triggered.  When it comes to sending out notifications, there are addins for sending messages:</p>
 <ul>
-<li>Switch back to the Visual Editor, and you should see something that looks like the following:</li>
+<li>to Discord</li>
+<li>to Slack</li>
+<li>to Gitter</li>
+<li>via email</li>
+<li>via SendGrid</li>
+<li>the list goes on</li>
 </ul>
-<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/14/workflow-in-visual-editor.png" class="img-fluid" alt="Workflow in Visual Editor" /></p>
-<ul>
-<li>Make another change to the repository, and push the changes.  This will then trigger the workflow, and as a result, execute the action</li>
-</ul>
-<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/14/workflow-execution-start.png" class="img-fluid" alt="Workflow execution state" /></p>
-<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/14/workflow-execution-end.png" class="img-fluid" alt="Workflow execution end" /></p>
-<ul>
-<li>The action starts by downloading the Docker image that is required for it to execute the action, and then it executes the two Cake commands that are defined in the action.  i.e. <code>cake --version</code> followed by <code>cake ./build.cake --target=Default</code></li>
-<li>We can then see the <code>Hello World!</code> being output within the Default task.</li>
-</ul>
-<h2 id="chaining-actions">Chaining Actions</h2>
-<p>As shown in Brandon's image above, it would be possible to chain multiple cake actions together to form the entire workflow, with each one executing a particular task within the Cake script.  However, it is more likely that I would put this orchestration into the Cake script itself.  However, both options are definitely possible, so the choice is up to the end user.</p>
-<h2 id="going-forward">Going forward</h2>
-<p>As mentioned, some work is required to move this from a proof of concept to a hardened, re-usable, GitHub Action.  This will happen in due course, and the <code>cake-actions</code> repository will likely move under the cake-build Organisation on GitHub.</p>
-<p>I really like the idea of defining my &quot;work&quot; in a Cake script, and then being able to re-use them in various repositories, triggered off of a number of different triggers.  There are currently <a href="https://developer.github.com/actions/creating-workflows/workflow-configuration-options/#events-supported-in-workflow-files">28 different events</a> that your workflow can trigger off.</p>
-<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/14/workflow-triggers.png" class="img-fluid" alt="Workflow Event Triggers" /></p>
-<h2 id="overall-impression">Overall Impression</h2>
-<p>Overall, I have to say that I am very impressed with GitHub Actions.  Things &quot;just&quot; worked, which is exactly what you want.  I can totally see how these small, precise actions, can be applied to the events being triggered on my repositories.  Right now, there are a number of manual steps for the Cake release process, and I can see a huge percentage of these being replaced with GitHub Actions.  I am very much looking forward to GitHub Actions coming out of beta.</p>
+<p>I would encourage you to take a look at the list of addins, and have a think about the actions that you can add to your repository.</p>
+<h2 id="after-thoughts">After thoughts</h2>
+<p>After doing the above, I found the <a href="https://github.com/actions/bin/tree/master/filter">following</a> which I &quot;think&quot; I would be able to use to filter the milestone event to only trigger on closed events, but I haven't yet tested to see if this would be possible.  Part of me quite likes containing all the logic in the Cake script, but I guess there is a higher overhead to pay to use the Docker container for Cake if it isn't actually required.  Something to look into for future tests.</p>
 
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/getting-started-with-github-actions' + 'S/';
-    var disqus_title = 'Getting started with GitHub Actions';
-    var disqus_url = 'http://www.gep13.co.uk/blog/getting-started-with-github-actions' + '/';
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/using-cake-github-action' + 'S/';
+    var disqus_title = 'Using Cake GitHub Action';
+    var disqus_url = 'http://www.gep13.co.uk/blog/using-cake-github-action' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
