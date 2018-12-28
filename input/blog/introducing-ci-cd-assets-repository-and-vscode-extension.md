@@ -72,7 +72,11 @@ https://gep13.github.io/ci-cd-assets-vscode/
 
 # Resources
 
-If you are interested in hearing about new functions that are being added into the Extension, I will have a YouTube Playlist setup shortly, where I will push short videos of the new functionality as each version is released.
+If you are interested in hearing about new functions that are being added into the Extension, there is a YouTube [playlist](https://www.youtube.com/playlist?list=PL84yg23i9GBjZXVmLgZfNcc9Nhz4aGdto), where I will push short videos of the new functionality as each version is released.
+
+The introductury video for this first release is here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/libl83OBs6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Source Code
 
