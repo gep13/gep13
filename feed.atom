@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-12-28T13:56:20Z</updated>
+	<updated>2018-12-28T19:45:33Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducing-ci-cd-assets-repository-and-vscode-extension" />
@@ -49,7 +49,9 @@
 &lt;p&gt;&lt;a href="https://gep13.github.io/ci-cd-assets-vscode/"&gt;https://gep13.github.io/ci-cd-assets-vscode/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;:  At the time of writing this blog post, there is little to no documentation, but the scaffolding is there to get some added, so if you are interested, please feel free to jump in and help.&lt;/p&gt;
 &lt;h1 id="resources"&gt;Resources&lt;/h1&gt;
-&lt;p&gt;If you are interested in hearing about new functions that are being added into the Extension, I will have a YouTube Playlist setup shortly, where I will push short videos of the new functionality as each version is released.&lt;/p&gt;
+&lt;p&gt;If you are interested in hearing about new functions that are being added into the Extension, there is a YouTube &lt;a href="https://www.youtube.com/playlist?list=PL84yg23i9GBjZXVmLgZfNcc9Nhz4aGdto"&gt;playlist&lt;/a&gt;, where I will push short videos of the new functionality as each version is released.&lt;/p&gt;
+&lt;p&gt;The introductury video for this first release is here:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/libl83OBs6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
 &lt;p&gt;The source code for CI/CD Assets can be found here:&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/gep13/CI-CD-assets"&gt;https://github.com/gep13/CI-CD-assets&lt;/a&gt;&lt;/p&gt;
