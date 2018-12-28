@@ -80,7 +80,7 @@ https://gep13.github.io/chocolatey-vscode/
 
 # Resources
 
-If you are interested in hear about new functions that are being added into the Extension, I have a YouTube Playlist [here](https://www.youtube.com/playlist?list=PL84yg23i9GBhIhNG4LaeXNHwxZYJaSqgj), where I will push short videos of the new functionality as each version is released.
+If you are interested in hearing about new functions that are being added into the Extension, I have a YouTube Playlist [here](https://www.youtube.com/playlist?list=PL84yg23i9GBhIhNG4LaeXNHwxZYJaSqgj), where I will push short videos of the new functionality as each version is released.
 
 # Source Code
 
@@ -92,7 +92,7 @@ https://github.com/gep13/chocolatey-vscode
 
 If you have any questions about this Extension, then please feel to drop into the Gitter Chat room:
 
-[![Join the chat at https://gitter.im/gep13/chocolatey-vscode](https://badges.gitter.im/gep13/chocolatey-vscode.svg)](https://gitter.im/gep13/chocolatey-vscode?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/gep13-oss/community](https://badges.gitter.im/gep13-oss/community.svg)](https://gitter.im/gep13-oss/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # Thanks
 
