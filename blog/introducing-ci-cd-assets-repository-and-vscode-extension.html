@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 
-        <title>Gary Ewan Park - Introducing the Chocolatey Azure DevOps Extension</title>
+        <title>Gary Ewan Park - Introducing the CI/CD Assets Repository and VS Code Extension</title>
         <meta name="description" content="Ramblings and Ponderings of a Microsoft Fan Boy..." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">        
 
@@ -28,9 +28,9 @@
         <meta name="msapplication-tooltip" content="Gary Ewan Park" />
         <meta name="msapplication-starturl" content="/" />
 
-        <meta property="og:title" content="Gary Ewan Park - Introducing the Chocolatey Azure DevOps Extension" />
+        <meta property="og:title" content="Gary Ewan Park - Introducing the CI/CD Assets Repository and VS Code Extension" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension" />
+        <meta property="og:url" content="http://www.gep13.co.uk/blog/introducing-ci-cd-assets-repository-and-vscode-extension" />
         <!-- TODO: More social graph meta tags -->
 
         <script src="/assets/js/jquery.min.js"></script>
@@ -93,16 +93,15 @@
 
     
 <div class="post-heading">
-    <h1>Introducing the Chocolatey Azure DevOps Extension</h1>
+    <h1>Introducing the CI/CD Assets Repository and VS Code Extension</h1>
     <div class="meta">        
-Published on 25 November 2018<br>    </div>
+Published on 28 December 2018<br>    </div>
         <div class="tags">
-                    <a role="button" href="/tags/automation" class="btn btn-default btn-xs">Automation</a>
-                    <a role="button" href="/tags/azure-devops" class="btn btn-default btn-xs">Azure DevOps</a>
-                    <a role="button" href="/tags/chocolatey" class="btn btn-default btn-xs">Chocolatey</a>
+                    <a role="button" href="/tags/cd" class="btn btn-default btn-xs">CD</a>
+                    <a role="button" href="/tags/ci" class="btn btn-default btn-xs">CI</a>
                     <a role="button" href="/tags/extension" class="btn btn-default btn-xs">Extension</a>
-                    <a role="button" href="/tags/pipelines" class="btn btn-default btn-xs">Pipelines</a>
-                    <a role="button" href="/tags/windows" class="btn btn-default btn-xs">Windows</a>
+                    <a role="button" href="/tags/github" class="btn btn-default btn-xs">GitHub</a>
+                    <a role="button" href="/tags/vs-code" class="btn btn-default btn-xs">VS Code</a>
         </div>     
 </div>
                                         </div>
@@ -116,69 +115,62 @@ Published on 25 November 2018<br>    </div>
                                 <div id="content" class="col-md-12">
                                         
 
-<p>Unlike my last <a href="https://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension">blog post</a>, this announcement is up to date!  Yesterday, I released the <a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops">Chocolatey Extension for Azure DevOps</a> which helps to execute Chocolatey commands as part of your Azure DevOps Pipelines.</p>
+<p>This is an announcement blog post for the <a href="https://github.com/gep13/CI-CD-assets">repository</a> and <a href="https://marketplace.visualstudio.com/items?itemName=gep13.ci-cd-assets-vscode">VS Code Extension</a> that I created yesterday.</p>
 <h1 id="what-is-it">What is it?</h1>
-<p>The <a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops">Chocolatey Extension for Azure DevOpsVS Code</a> helps with the execution of Chocolatey commands as part of your Azure DevOps Pipelines.  All of the main Chocolatey commands, including <code>pack</code>, <code>push</code>, <code>install</code>, <code>upgrade</code> are covered, and also the ability to run any custom Chocolatey commands.</p>
-<h1 id="why-is-this-needed">Why is this needed?</h1>
-<h2 id="isnt-there-already-some-chocolatey-azure-devops-extensions">Isn't there already some Chocolatey Azure DevOps Extensions?</h2>
-<p>Yes, this is absolutely correct, there are.  Unfortunately, one of them doesn't currently work correctly and doesn't seem to be being maintained, and the other focuses on only a couple Chocolatey commands.  As a result, I decided that I would create another Chocolatey Extension, modelled on the existing NuGet Extension, which allows the execution of any Chocolatey Command.  In addition, creating a Azure DevOps extension for Chocolatey was one of those itches that had to be scratched, and I hope it is useful for you.  I also feel that this is a good compliment for the <a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode">Chocolatey VS Code Extension</a> which I have also created.</p>
-<h2 id="isnt-chocolatey-already-installed-on-the-azure-build-agents">Isn't Chocolatey already installed on the Azure Build Agents?</h2>
-<p>Yes, this is also absolutely true.  As a result, it is possible to use a normal PowerShell Task to execute Chocolatey.  This Extension simply makes that process a little easier, by showing you the expected inputs to each command.</p>
+<p>Every time I setup a new repository, I have to try to remember what steps I took to get everything up and running last time I created a project.  This includes setting up Continuous Integration, Documentation, Releases, etc.  All the things that we don't want to think about when we are actually writing code, and excited about getting something shipped.  Normally, what I do is look at the last project that I created, and copy pretty much everything from there.  This is &quot;ok&quot;, but not ideal.  After giving it some thought, I decided to create a <a href="https://github.com/gep13/CI-CD-assets">repository</a>, which will house all the assets that I typically include in a new project.  That way, as things change over time, I can keep them updated in one place, ready for starting a new project.  With that done, I decided that I needed an &quot;easy&quot; way to get these into my new project.  I have seen people use things like yeoman to do this sort of thing, but I wanted something that wasn't quite as involved, and simply let's me grab the things that I need (as these may change on a per project basis).  What I settled on was a <a href="https://marketplace.visualstudio.com/items?itemName=gep13.ci-cd-assets-vscode">VS Code Extension</a>, that can provide some commands that can download these assets into the current working directory.</p>
 <h1 id="installation">Installation</h1>
-<p>Installing the <a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops">Chocolatey Extension for Azure DevOps</a> is simple.  Go to the <a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops">extension page</a> in the marketplace and click the <code>Get it free</code> button:</p>
-<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Get-It-Free.png" class="img-fluid" alt="Chocolatey Get It Free" /></p>
-<p>You will then be prompted which Organisation you would like to install the Extension into.</p>
+<p>Installing the <a href="https://marketplace.visualstudio.com/items?itemName=gep13.ci-cd-assets-vscode">CI/CD Assets Extension for VS Code</a> is simple, it installs in the same way as any other extension.  Open Extensions from the left hand side section of VS Code, or select View | Extensions.  Then do a search for &quot;CI/CD&quot; and the extension with an author of &quot;Gary Ewan Park&quot; should be returned.  Go ahead and install the extension:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/28/CI-CD-Assets-Extension-Install.png" class="img-fluid" alt="CI/CD Assets Extension Install" /></p>
+<p>When prompted, click the Reload button.</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/28/CI-CD-Assets-Extension-Reload.png" class="img-fluid" alt="CI/CD Assets Extension Reload" /></p>
 <h1 id="usage">Usage</h1>
-<p>Once installed, create a Pipeline (if you don't already have one), and choose the option to add a new Task.  You will find the Chocolatey Task under the Build section, or you can use the search.  Once found, select the option to add the task:</p>
-<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Add-New-Task.png" class="img-fluid" alt="Chocolatey Add New Task" /></p>
-<p>With that done, drill into the options for the task, and select what command you want to use:</p>
-<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Task.png" class="img-fluid" alt="Chocolatey Task" /></p>
-<p>You have the option to pick from the following commands:</p>
+<h2 id="commands">Commands</h2>
+<p>In this initial release, there are 10 commands available:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/28/CI-CD-Assets-Extension-Commands.png" class="img-fluid" alt="CI/CD Assets Extension Commands" /></p>
 <ul>
-<li>apikey</li>
-<li>config</li>
-<li>custom</li>
-<li>feature</li>
-<li>install</li>
-<li>pack</li>
-<li>push</li>
-<li>source</li>
-<li>upgrade</li>
+<li>CICD: Download .editorconfig file</li>
+<li>CICD: Download .appveyor.yml file</li>
+<li>CICD: Download .gitattributes file</li>
+<li>CICD: Download .gitignore file</li>
+<li>CICD: Download .mergify.yml file</li>
+<li>CICD: Download .travis.yml file</li>
+<li>CICD: Download GitReleaseManager.yaml file</li>
+<li>CICD: Download config.wyam file</li>
+<li>CICD: Download .github files</li>
+<li>CICD: Download all files</li>
 </ul>
-<p>All required arguments for each command are marked as required, and the Azure DevOps Task will illustrate this in the usual way.</p>
-<h1 id="notes">Notes</h1>
-<p>Currently, this extension assumes that Chocolatey is already installed on the Build Agent executing this build.  The Task will check to see if Chocolatey can be located before attempting to execute, however, if it is not there, it will throw an exception, which will fail the build.  There is an open issue <a href="https://github.com/gep13/chocolatey-azuredevops/issues/13">here</a>, for adding an additional task to install/upgrade Chocolatey, similar to the NuGet Tool Installer task.</p>
+<p>Each one of these commands (with the exception of the final two), download a single file on the root of the current workspace.  For example, executing the <code>CICD: Download .appveyor.yml file</code> command results in the file at this <a href="https://github.com/gep13/CI-CD-assets/blob/master/.appveyor.yml">URL</a> being downloaded into the current workspace.  If a file with that name already exists in the current workspace, you will be prompted whether it should be overwritten or not:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/28/CI-CD-Assets-Extension-Overwrite.png" class="img-fluid" alt="CI/CD Assets Extension Overwrite" /></p>
+<p>At this point, you can choose to cancel the operation by clicking the small cross at the top of the pop-up, or you can continue the operation by clicking the Overwrite button.  If you choose to proceed, you should see the following when completed:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/28/CI-CD-Assets-Extension-Download-Complete.png" class="img-fluid" alt="CI/CD Assets Extension Download Complete" /></p>
+<p>The final two commands are slightly different.  <code>CICD: Download .github files</code> will download all the files in the .github folder <a href="https://github.com/gep13/CI-CD-assets/tree/master/.github">here</a> and also create the .github folder if it doesn't exist, and the final command downloads all the files from the repository.  This latter command is useful if you want to grab everything and get started.</p>
+<h1 id="settings">Settings</h1>
+<p>Now, the files that I have placed into the CI/CD Assets are very much configured to the way that I operate, and they are unlikely to fit exactly what &quot;you&quot; want.  I will happily accept PR's to the files if they fit with how I want to operate, but more likely, you are going to want to use your own files.  This is possible via the settings for this VS Code Extension.  By default, each of the commands use the URL's which are pointed at the CI/CD Assets Repository:</p>
+<p><img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/28/CI-CD-Assets-Extension-Settings.png" class="img-fluid" alt="CI/CD Assets Extension Settings" /></p>
+<p>However, you can override these download URL's with your own, and continue to use the Commands that are included within this extension.</p>
 <h1 id="documentation">Documentation</h1>
 <p>You can find additional documentation for this extension here:</p>
-<p><a href="https://gep13.github.io/chocolatey-azuredevops/">https://gep13.github.io/chocolatey-azuredevops/</a></p>
+<p><a href="https://gep13.github.io/ci-cd-assets-vscode/">https://gep13.github.io/ci-cd-assets-vscode/</a></p>
 <p><strong>NOTE</strong>:  At the time of writing this blog post, there is little to no documentation, but the scaffolding is there to get some added, so if you are interested, please feel free to jump in and help.</p>
 <h1 id="resources">Resources</h1>
-<p>If you are interested in hearing about new functions that are being added into the Extension, I have a YouTube Playlist <a href="https://www.youtube.com/playlist?list=PL84yg23i9GBhGahFf5-41vOJhn3D-6EUU">here</a>, where I will push short videos of the new functionality as each version is released.</p>
+<p>If you are interested in hearing about new functions that are being added into the Extension, I will have a YouTube Playlist setup shortly, where I will push short videos of the new functionality as each version is released.</p>
 <h1 id="source-code">Source Code</h1>
-<p>The source code for this Extension can be found here:</p>
-<p><a href="https://github.com/gep13/chocolatey-azuredevops">https://github.com/gep13/chocolatey-azuredevops</a></p>
+<p>The source code for CI/CD Assets can be found here:</p>
+<p><a href="https://github.com/gep13/CI-CD-assets">https://github.com/gep13/CI-CD-assets</a></p>
+<p>This houses all the assets that are intended to be consumed when starting a new project.  The source code for the CI/CD Assets VS Code Extension can be found here:</p>
+<p><a href="https://github.com/gep13/CI-CD-assets-vscode">https://github.com/gep13/CI-CD-assets-vscode</a></p>
 <h1 id="chat-room">Chat Room</h1>
-<p>If you have any questions about this Extension, then please feel to drop into the Gitter Chat room:</p>
+<p>If you have any questions about this Extension (or any of the other OSS work that I do), then please feel to drop into the Gitter Chat room:</p>
 <p><a href="https://gitter.im/gep13-oss/community?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://badges.gitter.im/gep13-oss/community.svg" class="img-fluid" alt="Join the chat at https://gitter.im/gep13-oss/community" /></a></p>
-<h1 id="thanks">Thanks</h1>
-<p>Huge thank you to the following people who helped review early versions of this extension, and provided feedback on how it can be improved:</p>
-<ul>
-<li><a href="https://twitter.com/devlead">Mattias Karlsson</a></li>
-<li><a href="https://twitter.com/hereispascal">Pascal Berger</a></li>
-<li><a href="https://twitter.com/onovotny">Oren Novotny</a></li>
-</ul>
-<p>As well as the creators of the <a href="https://github.com/Microsoft/azure-pipelines-tasks/tree/master/Tasks/NuGetCommandV2">NuGet Extension for Azure DevOps</a>, which provided a very solid basis on which to develop the Chocolatey version.</p>
-<p>A special thanks to <a href="https://twitter.com/camsoper">Cam Soper</a> for helping out with some of the questions I had <a href="https://twitter.com/camsoper/status/1061718818467274753">regarding some specifics</a> around Azure Devops Tasks.</p>
-<p>In addition, I would like to thank the authors of the existing Chocolatey Extensions for Azure DevOps, which also helped in shaping this implementation.</p>
 
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'gep13'; // required: replace example with your forum shortname
-    var disqus_identifier = 'http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension' + 'S/';
-    var disqus_title = 'Introducing the Chocolatey Azure DevOps Extension';
-    var disqus_url = 'http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension' + '/';
+    var disqus_identifier = 'http://www.gep13.co.uk/blog/introducing-ci-cd-assets-repository-and-vscode-extension' + 'S/';
+    var disqus_title = 'Introducing the CI/CD Assets Repository and VS Code Extension';
+    var disqus_url = 'http://www.gep13.co.uk/blog/introducing-ci-cd-assets-repository-and-vscode-extension' + '/';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
