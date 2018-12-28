@@ -66,7 +66,7 @@ However, you can override these download URL's with your own, and continue to us
 
 You can find additional documentation for this extension here:
 
-https://gep13.github.io/ci-cd-assets-vscode/
+https://gep13.github.io/CI-CD-assets-vscode/
 
 **NOTE**:  At the time of writing this blog post, there is little to no documentation, but the scaffolding is there to get some added, so if you are interested, please feel free to jump in and help.
 
