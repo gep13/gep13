@@ -4,8 +4,57 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-12-28T20:27:54Z</updated>
+	<updated>2018-12-29T21:53:51Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/introducing-cake-recipe-vscode-extension" />
+		<id>http://www.gep13.co.uk/blog/introducing-cake-recipe-vscode-extension</id>
+		<title>Introducing the Cake.Recipe VS Code Extension</title>
+		<updated>2018-12-29T00:00:00Z</updated>
+		<content>&lt;p&gt;This is an announcement blog post for the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.cakerecipe-vscode"&gt;Cake.Recipe VS Code Extension&lt;/a&gt; that I created recently.&lt;/p&gt;
+&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe"&gt;Cake.Recipe&lt;/a&gt; is a very opinionated set of &lt;a href="https://cakebuild.net/"&gt;Cake&lt;/a&gt; scripts that are intended to be used across multiple projects.  Making use of a set of conventions, and project specific information, it is possible to run common build tasks over and over again, without the need to re-define them each time, for each project.  These scripts are housed within a NuGet package, that is restored into the local tools folder when Cake executes.&lt;/p&gt;
+&lt;p&gt;In order to make this happen, it is necessary to create a small entry script (I refer to it as the recipe.cake file), which defines the project specific information.  In the past, I have simply copied this file from a previous project, and changed it as necessary.  This new VS Code extension creates this file on the fly, after you have provided some information.&lt;/p&gt;
+&lt;h1 id="installation"&gt;Installation&lt;/h1&gt;
+&lt;p&gt;Installing the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.cakerecipe-vscode"&gt;Cake.Recipe Extension for VS Code&lt;/a&gt; is simple, it installs in the same way as any other extension.  Open Extensions from the left hand side section of VS Code, or select View | Extensions.  Then do a search for &amp;quot;Cake.Recipe&amp;quot; and the extension with an author of &amp;quot;Gary Ewan Park&amp;quot; should be returned.  Go ahead and install the extension:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Extension-Install.png" class="img-fluid" alt="Cake.Recipe Extension Install" /&gt;&lt;/p&gt;
+&lt;p&gt;When prompted, click the Reload button.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Extension-Reload.png" class="img-fluid" alt="Cake.Recipe Extension Reload" /&gt;&lt;/p&gt;
+&lt;h1 id="usage"&gt;Usage&lt;/h1&gt;
+&lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
+&lt;p&gt;In this initial release, there is only 1 command available:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Extension-Commands.png" class="img-fluid" alt="Cake.Recipe Extension Commands" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cake.Recipe: Add default recipe.cake file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Executing this command will prompt you for some information.  Firstly, the name that you want to give to the script (which defaults to &lt;code&gt;recipe.cake&lt;/code&gt;, but which can be anything):&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Command-Build-Script.png" class="img-fluid" alt="Cake.Recipe Command Build Script" /&gt;&lt;/p&gt;
+&lt;p&gt;Then you will be asked for the name of the folder that contains the Source Code that is to be built with Cake.Recipe.  This is one of the conventions that Cake.Recipe is based off of.  This defaults to a folder called &lt;code&gt;Source&lt;/code&gt; but again, it can be anything that you like:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Command-Source-Folder.png" class="img-fluid" alt="Cake.Recipe Command Source Folder" /&gt;&lt;/p&gt;
+&lt;p&gt;The third piece of information is the name of the GitHub Owner/Organisation that houses the repository that your project lives in.  Again, this is a convention, but it is assumed that you are using source control, and at the minute, Cake.Recipe has really only be tested against GitHub.  That is not to say that it wouldn't work, if you housed the code elsewhere, I just can't say that it will:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Command-GitHub-Owner.png" class="img-fluid" alt="Cake.Recipe Command GitHub Owner" /&gt;&lt;/p&gt;
+&lt;p&gt;The final piece of information is the name of the repository where the code is hosted on GitHub:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Command-GitHub-Repository.png" class="img-fluid" alt="Cake.Recipe Command GitHub Repository" /&gt;&lt;/p&gt;
+&lt;p&gt;With all of these pieces of information, the recipe.cake file is generated (here, I used a value of &lt;code&gt;cake-contrib&lt;/code&gt; and &lt;code&gt;Cake.Twitter&lt;/code&gt; and the GitHub information):&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Command-Generated-File.png" class="img-fluid" alt="Cake.Recipe Command Generated File" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; The generated file, like Cake.Recipe itself, it quite opinionated, and it is how I normally build a project using Cake.Recipe.  There are likely things that you will need to change depending on how you need to execute the build, but this is intended as a place to start.&lt;/p&gt;
+&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
+&lt;p&gt;You can find additional documentation for this extension here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gep13.github.io/cakerecipe-vscode/"&gt;https://gep13.github.io/cakerecipe-vscode/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;:  At the time of writing this blog post, there is little to no documentation, but the scaffolding is there to get some added, so if you are interested, please feel free to jump in and help.&lt;/p&gt;
+&lt;h1 id="resources"&gt;Resources&lt;/h1&gt;
+&lt;p&gt;If you are interested in hearing about new functions that are being added into the Extension, there is a YouTube &lt;a href="https://www.youtube.com/playlist?list=PL84yg23i9GBgVQXtp9G2BEkcR6v-nCsoH"&gt;playlist&lt;/a&gt;, where I will push short videos of the new functionality as each version is released.&lt;/p&gt;
+&lt;p&gt;The introductory video for this first release is here:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/f7Ogy05im4M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
+&lt;p&gt;The source code for the Cake.Recipe VS Code Extension can be found here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gep13/cakerecipe-vscode"&gt;https://github.com/gep13/cakerecipe-vscode&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="chat-room"&gt;Chat Room&lt;/h1&gt;
+&lt;p&gt;If you have any questions about this Extension (or any of the other OSS work that I do), then please feel to drop into the Gitter Chat room:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gitter.im/gep13-oss/community?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/gep13-oss/community.svg" class="img-fluid" alt="Join the chat at https://gitter.im/gep13-oss/community" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;This is an announcement blog post for the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.cakerecipe-vscode"&gt;Cake.Recipe VS Code Extension&lt;/a&gt; that I created recently.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducing-ci-cd-assets-repository-and-vscode-extension" />
 		<id>http://www.gep13.co.uk/blog/introducing-ci-cd-assets-repository-and-vscode-extension</id>
@@ -50,7 +99,7 @@
 &lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;:  At the time of writing this blog post, there is little to no documentation, but the scaffolding is there to get some added, so if you are interested, please feel free to jump in and help.&lt;/p&gt;
 &lt;h1 id="resources"&gt;Resources&lt;/h1&gt;
 &lt;p&gt;If you are interested in hearing about new functions that are being added into the Extension, there is a YouTube &lt;a href="https://www.youtube.com/playlist?list=PL84yg23i9GBjZXVmLgZfNcc9Nhz4aGdto"&gt;playlist&lt;/a&gt;, where I will push short videos of the new functionality as each version is released.&lt;/p&gt;
-&lt;p&gt;The introductury video for this first release is here:&lt;/p&gt;
+&lt;p&gt;The introductory video for this first release is here:&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/libl83OBs6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
 &lt;p&gt;The source code for CI/CD Assets can be found here:&lt;/p&gt;
@@ -1152,47 +1201,5 @@ Task(&amp;quot;ObfuscateExecutable&amp;quot;)
 &lt;p&gt;If you have any questions about my new role, or Chocolatey in general, then please feel to reach out.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/28/and-so-the-adventure-begins.png" class="img-fluid" alt="And so the adventure begins..."&gt;&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/2018-speaking-tour" />
-		<id>http://www.gep13.co.uk/blog/2018-speaking-tour</id>
-		<title>2018 Speaking Tour</title>
-		<updated>2018-01-14T00:00:00Z</updated>
-		<content>&lt;h2 id="going-on-the-road"&gt;Going on the road&lt;/h2&gt;
-&lt;p&gt;Starting in January, and I am going to be doing something that I have never done before...  Visting a number of User Groups around the world doing talks.&lt;/p&gt;
-&lt;p&gt;I have done the odd talk here and there over the years, but this tour will see me hitting 6 different venues in just under 2 weeks.  As you might well imagine, I am really looking forward to this!&lt;/p&gt;
-&lt;p&gt;The following are the list of places that you can find me, along with some stickers to give away!  (Who doesn't like stickers!)&lt;/p&gt;
-&lt;h3 id="kc.net-user-group"&gt;KC .NET User Group&lt;/h3&gt;
-&lt;p&gt;While visting the States for a week, I am going to be attending the Kansas City .NET User Group on the 30th January 2018 to do a presentation on &lt;a href="https://cakebuild.net/"&gt;Cake&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The registration website is here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.meetup.com/KC-NET-User-Group/events/245865487/"&gt;https://www.meetup.com/KC-NET-User-Group/events/245865487/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Thanks to Rob and Duane for helping to set this up!&lt;/p&gt;
-&lt;h3 id="net-oxford"&gt;.NET Oxford&lt;/h3&gt;
-&lt;p&gt;This is the first of a series of visits to .NET User Groups in England.  On the 6th February I will be visiting .NET Oxford to do a presentation on &lt;a href="https://cakebuild.net/"&gt;Cake&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The registration website is here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.meetup.com/dotnetoxford/events/245316949/"&gt;https://www.meetup.com/dotnetoxford/events/245316949/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Thanks to Dan for helping to set this up!&lt;/p&gt;
-&lt;h3 id="london.net-user-group"&gt;London .NET User Group&lt;/h3&gt;
-&lt;p&gt;The second stop in this series of events sees me visiting the London .NET User Group on the 7th February 2018, again, to present a talk on &lt;a href="https://cakebuild.net"&gt;Cake&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The registration website is here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.meetup.com/London-NET-User-Group/events/245941127/"&gt;https://www.meetup.com/London-NET-User-Group/events/245941127/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Thanks to Dylan for helping to set this up!&lt;/p&gt;
-&lt;h3 id="dotnetsheff"&gt;dotnetsheff&lt;/h3&gt;
-&lt;p&gt;The next stop in the series has me visiting Sheffield on the 8th February 2018, to do another talk on &lt;a href="https://cakebuild.net"&gt;Cake&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The registration website is here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.meetup.com/dotnetsheff/events/244481731/"&gt;https://www.meetup.com/dotnetsheff/events/244481731/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Thanks to Kevin for helping to set this up!&lt;/p&gt;
-&lt;h3 id="dotnetyork"&gt;dotnetYork&lt;/h3&gt;
-&lt;p&gt;The last in the series of User Group visits has me in York on the 9th February 2018, with a final talk on &lt;a href="https://cakebuild.net"&gt;Cake&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The registration website is here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.meetup.com/dotnetYork/events/244481648/"&gt;https://www.meetup.com/dotnetYork/events/244481648/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Thanks to Kevin for helping to set this up!&lt;/p&gt;
-&lt;h3 id="ddd-scotland"&gt;DDD Scotland&lt;/h3&gt;
-&lt;p&gt;The final stop on this tour before heading home is to present a talk at DDD Scotland.  I submitted a few sessions to this event, and the one that was voted in by the Community was my talk entitled &amp;quot;Adding a layer of Chocolate(y)&amp;quot;, which is a talk all about &lt;a href="https://chocolatey.org/"&gt;Chocolatey&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;More information about the event can be found here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://ddd.scot/Home"&gt;https://ddd.scot/Home&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Big thanks to Christos, Carole and Andrew for organising this event, and thanks again to everyone who voted for it!&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;Starting in January, and I am going to be doing something that I have never done before...  Visting a number of User Groups around the world doing talks.&lt;/p&gt;</summary>
 	</entry>
 </feed>
