@@ -4,8 +4,59 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2018</rights>
-	<updated>2018-12-29T21:53:51Z</updated>
+	<updated>2018-12-30T23:19:58Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/gitreleasemanager-release-0.8.0" />
+		<id>http://www.gep13.co.uk/blog/gitreleasemanager-release-0.8.0</id>
+		<title>GitReleaseManager Release 0.8.0</title>
+		<updated>2018-12-30T00:00:00Z</updated>
+		<content>&lt;p&gt;I am very happy to announce the 0.8.0 Release of the &lt;a href="https://github.com/GitTools/GitReleaseManager"&gt;GitReleaseManager&lt;/a&gt;.  This is an important release as it brings with it a .Net Global Tool version of the tool.  Now, you can install it using:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-shell"&gt;dotnet tool install GitReleaseManager.Tool -g
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id="installation"&gt;Installation&lt;/h1&gt;
+&lt;p&gt;You can now install GitReleaseManager on Windows as follows:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/30/GitReleaseManager-Windows-Install.png" class="img-fluid" alt="GitReleaseManager Windows Install" /&gt;&lt;/p&gt;
+&lt;p&gt;And also on Mac as the following:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/30/GitReleaseManager-Mac-Install.png" class="img-fluid" alt="GitReleaseManager Mac Install" /&gt;&lt;/p&gt;
+&lt;p&gt;In addition, it is still possible to install GitReleaseManager using Chocolatey with the command:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-shell"&gt;choco install gitreleasemanager.portable
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id="update-labels"&gt;Update Labels&lt;/h1&gt;
+&lt;p&gt;In addition to the .Net Global Tool, another feature was added to GitReleaseManager.  It is now possible to update a GitHub Repository with a pre-defined set of labels.  In this release, that pre-defined list is hard-coded into GitReleaseManager, however, in a future release, it will be possible to provide a file with the labels to use.&lt;/p&gt;
+&lt;h2 id="why-is-this-needed"&gt;Why is this needed?&lt;/h2&gt;
+&lt;p&gt;While a new GitHub repository comes with a set of existing labels:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/30/GitHub-Default-Labels.png" class="img-fluid" alt="GitHub Default Labels" /&gt;&lt;/p&gt;
+&lt;p&gt;These are not quite to my liking, and everytime I created a new Repository, I found I had to change them.  This ultimately resulted in a script which I would run to change them.  I then decided that this would make a sensible addition to GitReleaseManager.  As a result, you can now run the following command:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-shell"&gt;gitreleasemanager.exe label -o cake-contrib -r Cake.Twitter -u bob -p password
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To update the set of labels on the repository to the following:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/30/GitReleaseManager-Labels.png" class="img-fluid" alt="GitReleaseManager Labels" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This is a destructive operation, in the sense that it will delete all the existing labels on your repository.&lt;/p&gt;
+&lt;h1 id="thanks"&gt;Thanks&lt;/h1&gt;
+&lt;p&gt;I have to say a huge thank you to Artur (&lt;a href="https://github.com/arturcic"&gt;&amp;#64;arturcic&lt;/a&gt;) who worked on this release, and who was responsible for the creation of the .Net Global Tool.  Thank you!&lt;/p&gt;
+&lt;h1 id="release-information"&gt;Release Information&lt;/h1&gt;
+&lt;p&gt;Release notes for all GitReleaseManager releases can be found on the &lt;a href="https://github.com/GitTools/GitReleaseManager/releases"&gt;GitHub Repository Release Page&lt;/a&gt; but the specific additions for the 0.8.0 release are shown below:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bugs&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/120"&gt;&lt;strong&gt;#120&lt;/strong&gt;&lt;/a&gt; URL parts incorrectly identifies the user and repository parts&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/119"&gt;&lt;strong&gt;#119&lt;/strong&gt;&lt;/a&gt; Correct issue with casing of label name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/124"&gt;&lt;strong&gt;#124&lt;/strong&gt;&lt;/a&gt; Add support for adding default labels to issues on a repository&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/117"&gt;&lt;strong&gt;#117&lt;/strong&gt;&lt;/a&gt; Add Token option for CLI as alternative to user/password&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/116"&gt;&lt;strong&gt;#116&lt;/strong&gt;&lt;/a&gt; Add GitReleaseManager as Global Tool&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Improvements&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/121"&gt;&lt;strong&gt;#121&lt;/strong&gt;&lt;/a&gt; Include link to closed issues in milestone link&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/115"&gt;&lt;strong&gt;#115&lt;/strong&gt;&lt;/a&gt; Switch to new csproj format&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/110"&gt;&lt;strong&gt;#110&lt;/strong&gt;&lt;/a&gt; Update project NuGet packages&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>&lt;p&gt;I am very happy to announce the 0.8.0 Release of the &lt;a href="https://github.com/GitTools/GitReleaseManager"&gt;GitReleaseManager&lt;/a&gt;.  This is an important release as it brings with it a .Net Global Tool version of the tool.  Now, you can install it using:&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducing-cake-recipe-vscode-extension" />
 		<id>http://www.gep13.co.uk/blog/introducing-cake-recipe-vscode-extension</id>
@@ -1175,31 +1226,5 @@ Task(&amp;quot;ObfuscateExecutable&amp;quot;)
 &lt;p&gt;If you are interested in seeing the complete set of release notes for v0.16.0, then you can check them out &lt;a href="https://github.com/chocolatey/ChocolateyGUI/releases/tag/0.16.0"&gt;here&lt;/a&gt;.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;You can find the latest release of Chocolatey GUI, version 0.16.0, in the useful &lt;a href="https://chocolatey.org/packages/ChocolateyGUI"&gt;place&lt;/a&gt;.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/and-so-the-adventure-begins" />
-		<id>http://www.gep13.co.uk/blog/and-so-the-adventure-begins</id>
-		<title>And so the adventure begins...</title>
-		<updated>2018-01-28T00:00:00Z</updated>
-		<content>&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/28/and-so-the-adventure-begins.png" class="img-fluid" alt="And so the adventure begins..." /&gt;&lt;/p&gt;
-&lt;p&gt;In my &lt;a href="https://www.gep13.co.uk/blog/2017-a-retrospective"&gt;2017 retrospective blog post&lt;/a&gt;, I mentioned that there was going to be some amazing news at the end of January.  Well, now it is time to announce that news...&lt;/p&gt;
-&lt;h3 id="i-am-joining-chocolatey-software-inc"&gt;I am joining Chocolatey Software, Inc.&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/28/logo_long.png" class="img-fluid" alt="Chocolatey" /&gt;&lt;/p&gt;
-&lt;p&gt;That's right!  I am joining &lt;a href="https://twitter.com/ferventcoder"&gt;Rob Reynolds&lt;/a&gt; and the rest of the &lt;a href="https://chocolatey.org/"&gt;Chocolatey&lt;/a&gt; team, delivering the best package manager for Windows.&lt;/p&gt;
-&lt;p&gt;As most of you reading this blog will know, I have been a long time contributor to the Chocolatey project.  In actual fact, my first foray into the world of Open Source Software was a &lt;a href="https://github.com/chocolatey/chocolatey/pull/238"&gt;pull request&lt;/a&gt; into the original Chocolatey GitHub repository.  Since that pull request, I have worked on various parts of the Chocolatey Project including:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Answering questions on GitHub, Stack Overflow and Gitter&lt;/li&gt;
-&lt;li&gt;Becoming a moderator of packages which are pushed to chocolatey.org&lt;/li&gt;
-&lt;li&gt;Speaking about Chocolatey at local User Group events&lt;/li&gt;
-&lt;li&gt;Helping triage and fixing issues with the core Chocolatey project&lt;/li&gt;
-&lt;li&gt;Maintaining and contributing to the Chocolatey GUI project&lt;/li&gt;
-&lt;li&gt;Contributing to the package validator and verifier projects&lt;/li&gt;
-&lt;li&gt;In August 2015 I was invited to join the Chocolatey Organisation on GitHub&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;During the time that I have been contributing, I have watched with pride as Chocolatey has grown in popularity, and also how it has expanded into the commercial side of things, by offering licensed versions that contain additional features.&lt;/p&gt;
-&lt;p&gt;It was around the middle of 2017 that I was approached to join this Chocolately adventure, and after some discussion with family and friends, I decided that it really was too good an offer to pass up.  I am very excited about getting started contributing to Chocolatey in this new role.&lt;/p&gt;
-&lt;p&gt;If you have any questions about my new role, or Chocolatey in general, then please feel to reach out.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/28/and-so-the-adventure-begins.png" class="img-fluid" alt="And so the adventure begins..."&gt;&lt;/p&gt;</summary>
 	</entry>
 </feed>

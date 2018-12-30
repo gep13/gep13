@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2018</copyright>
-		<pubDate>Sat, 29 Dec 2018 21:54:09 GMT</pubDate>
-		<lastBuildDate>Sat, 29 Dec 2018 21:54:09 GMT</lastBuildDate>
+		<pubDate>Sun, 30 Dec 2018 23:20:12 GMT</pubDate>
+		<lastBuildDate>Sun, 30 Dec 2018 23:20:12 GMT</lastBuildDate>
+		<item>
+			<title>GitReleaseManager Release 0.8.0</title>
+			<link>http://www.gep13.co.uk/blog/gitreleasemanager-release-0.8.0</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/gitreleasemanager-release-0.8.0</guid>
+			<pubDate>Sun, 30 Dec 2018 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>Introducing the Cake.Recipe VS Code Extension</title>
 			<link>http://www.gep13.co.uk/blog/introducing-cake-recipe-vscode-extension</link>
@@ -139,13 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/chocolatey-gui-v0.16.0-released</guid>
 			<pubDate>Thu, 15 Feb 2018 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>And so the adventure begins...</title>
-			<link>http://www.gep13.co.uk/blog/and-so-the-adventure-begins</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/and-so-the-adventure-begins</guid>
-			<pubDate>Sun, 28 Jan 2018 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>
