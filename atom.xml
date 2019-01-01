@@ -3,9 +3,16 @@
 	<link rel="self" href="http://www.gep13.co.uk/" />
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
-	<rights>2018</rights>
-	<updated>2018-12-30T23:20:12Z</updated>
+	<rights>2019</rights>
+	<updated>2019-01-01T23:26:12Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/2018-a-retrospective" />
+		<id>http://www.gep13.co.uk/blog/2018-a-retrospective</id>
+		<title>2018 - A Retrospective</title>
+		<updated>2019-01-01T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/gitreleasemanager-release-0.8.0" />
 		<id>http://www.gep13.co.uk/blog/gitreleasemanager-release-0.8.0</id>
@@ -137,13 +144,6 @@
 		<id>http://www.gep13.co.uk/blog/introducing-cake.eazfuscator.net-addin</id>
 		<title>Introducing the Cake.Eazfuscator.Net Addin</title>
 		<updated>2018-06-20T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/chocolatey-gui-v0.16.0-released" />
-		<id>http://www.gep13.co.uk/blog/chocolatey-gui-v0.16.0-released</id>
-		<title>Chocolatey GUI v0.16.0 released</title>
-		<updated>2018-02-15T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>
