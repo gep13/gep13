@@ -131,6 +131,12 @@ This year I am very happy to say that I shipped quite a few things (some which h
 
 In addition, I also got access to the [GitHub Actions Beta](https://developer.github.com/actions/), and I was able to create an [action specifically for Cake](https://www.gep13.co.uk/blog/getting-started-with-github-actions), which allows you to run a Cake script as a result of an action on your repository.  I showed an example of how you could [send out a Tweet](https://www.gep13.co.uk/blog/using-cake-github-action), based on a milestone being closed on your repository.
 
+I seem to be on a little bit of a run of creating Visual Studio Code extensions.  They are very easy to create, and can be as complicated or simple as you want.  I have at least one more idea for another extension that I am going to try to find time for in 2019.  In terms of download numbers for the extensions, these can be seen here:
+
+![Visual Studio Marketplace](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Visual-Studio-Marketplace.png)
+
+I was secretly hoping to get to 3000 downloads for the Chocolatey VS Code Extension, but didn't quite get there in 2018, but hopefully this year!  I am very happy with the download number for the Chocolatey Azure DevOps Extension.  This was an "itch" that I had been wanting to scratch for a while to get a fully working Chocolatey implementation for Azure DevOps, and I was very happy to get it released.
+
 ### Cake
 
 Cake continued to go from strength to strength in 2018.  With 11 releases, which included the release of a [.Net Global Tool version of Cake](https://www.nuget.org/packages/Cake.Tool/), there was plenty of things to be excited about.  Since releasing this in August, it has been downloaded over 100000 times.  There are now also official [Docker images available for Cake](https://hub.docker.com/r/cakebuild/cake)
