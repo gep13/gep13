@@ -11,7 +11,7 @@ Tags:
 
 ## Going on the road
 
-Starting in January, and I am going to be doing something that I have never done before...  Visting a number of User Groups around the world doing talks.
+Starting in January, and I am going to be doing something that I have never done before...  Visiting a number of User Groups around the world doing talks.
 
 I have done the odd talk here and there over the years, but this tour will see me hitting 6 different venues in just under 2 weeks.  As you might well imagine, I am really looking forward to this!
 
