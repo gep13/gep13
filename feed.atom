@@ -4,8 +4,167 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2019</rights>
-	<updated>2019-01-02T09:47:29Z</updated>
+	<updated>2019-01-11T15:08:56Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/what-are-all-the-chocolatey-repositories-for" />
+		<id>http://www.gep13.co.uk/blog/what-are-all-the-chocolatey-repositories-for</id>
+		<title>What are all the Chocolatey repositories for?</title>
+		<updated>2019-01-11T00:00:00Z</updated>
+		<content>&lt;p&gt;I recently received a Tweet:&lt;/p&gt;
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;I hope you don&amp;#39;t mind me saying, but Chocolatey has a pretty confusing structure. one of the reasons I feel hesitant to report issues on github repos is that I&amp;#39;m not sure were to put them. the one I have just opened is for example in the wrong place :(&lt;/p&gt;&amp;mdash; Foad Sojoodi Farimani (&amp;#64;fsfarimani) &lt;a href="https://twitter.com/fsfarimani/status/1083460818929360896?ref_src=twsrc%5Etfw"&gt;January 10, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;Which got me thinking... There are 35 repositories in the &lt;a href="https://github.com/chocolatey"&gt;GitHub Organisation for Chocolatey&lt;/a&gt;, and if you are new to Chocolatey, it can daunting to know which repository is for what.  So I thought I would go through each repository, providing a short description about what it is.  In the absence of anything better, I have ordered the list based on how many stars it has on GitHub.&lt;/p&gt;
+&lt;p&gt;Let's get started...&lt;/p&gt;
+&lt;h2 id="choco"&gt;&lt;a href="https://github.com/chocolatey/choco"&gt;choco&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is the main GitHub Repository for Chocolatey.
+It contains the source code for the Chocolatey CLI, which can be downloaded and installed using the &lt;a href="https://chocolatey.org/install"&gt;instructions on this page&lt;/a&gt;.
+If you encounter any problems with Chocolatey, this is likely the first place to come to see if it is a known issue, or to create a new one.
+If you are going to raise an issue, please ensure that you read the issue templates to see where the best place to get an answer to your question is.&lt;/p&gt;
+&lt;h2 id="chocolatey"&gt;&lt;a href="https://github.com/chocolatey/chocolatey"&gt;chocolatey&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is the original GitHub Repository for the Chocolatey project.
+The first version of Chocolatey was written using PowerShell.
+In 2014, Chocolatey was rewritten in C# and the decision was taken to create a new repository.
+In all likelihood, you should never need to use this repository, and likely any issue that is created on this repository will need to be moved to the other repository mentioned above.
+It has been left active/visible for reference only.&lt;/p&gt;
+&lt;h2 id="boxstarter"&gt;&lt;a href="https://github.com/chocolatey/boxstarter"&gt;boxstarter&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository houses the source code for the Boxstarter project.
+&lt;a href="https://boxstarter.org/"&gt;Boxstarter&lt;/a&gt; is built on top of Chocolatey, and it brings with it repeatable, reboot resilient Windows environment installations.
+This project was originally started in 2012 by &lt;a href="https://twitter.com/mwrockx"&gt;Matt Wrock&lt;/a&gt;, but in 2018 this project &lt;a href="https://chocolatey.org/blog/boxstarter-moves-under-chocolatey-github-organization"&gt;moved&lt;/a&gt; under the Chocolatey GitHub Organisation.
+You would use this repository for anything related to the Boxstarter project.&lt;/p&gt;
+&lt;h2 id="chocolateygui"&gt;&lt;a href="https://github.com/chocolatey/ChocolateyGUI"&gt;ChocolateyGUI&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository houses the source code for the Chocolatey GUI project.
+Chocolatey GUI is a WPF application that works alongside Chocolatey, and provides a visual interface to interact with Chocolatey.
+This includes the ability to list/install/upgrade/uninstall Chocolatey Packages.
+As well as the ability to add/remove Chocolatey Sources, and enable/disable Chocolatey features.&lt;/p&gt;
+&lt;h2 id="chocolatey.org"&gt;&lt;a href="https://github.com/chocolatey/chocolatey.org"&gt;chocolatey.org&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository houses the source code for the Chocolatey Community Repository, i.e. &lt;a href="https://chocolatey.org/"&gt;chocolatey.org&lt;/a&gt;.
+This is an ASP.NET MVC application, and you would use this repository to ask any questions about the website itself.
+&lt;strong&gt;NOTE:&lt;/strong&gt; You should not use this repository to report problems with a particular Chocolatey package.
+That should be done by following up with the package maintainer directly.&lt;/p&gt;
+&lt;h2 id="chocolatey-coreteampackages"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-coreteampackages"&gt;chocolatey-coreteampackages&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository houses the source code for all the packages on chocolatey.org that are maintained by the &lt;a href="https://chocolatey.org/profiles/chocolatey"&gt;chocolatey&lt;/a&gt; user.
+This repository is maintained by a dedicated set of volunteers.
+It makes use of the &lt;a href="https://github.com/majkinetor/au"&gt;AU&lt;/a&gt; updating system.
+As a result, all packages in this repository are checked for new versions every 6 hours, meaning that hundreds of packages are constantly kept up to date.&lt;/p&gt;
+&lt;h2 id="chocolatey-cookbook"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-cookbook"&gt;chocolatey-cookbook&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository houses the source code for the &lt;a href="https://www.chef.io/"&gt;Chef&lt;/a&gt; Cookbook.
+This allows the installation and maintenance of Chocolatey Packages using Chef.
+You can find out more information about using this &lt;a href="https://docs.chef.io/resource_chocolatey_package.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="cchoco"&gt;&lt;a href="https://github.com/chocolatey/cChoco"&gt;cChoco&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository houses the source code for the Chocolatey DSC Resource.
+This allows you to easy install Chocolatey packages while making use of DSC.&lt;/p&gt;
+&lt;h2 id="puppet-chocolatey"&gt;&lt;a href="https://github.com/chocolatey/puppet-chocolatey"&gt;puppet-chocolatey&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository houses the official module for working with Chocolatey in Puppet.
+This module allow the installation of Chocolatey, management of Chocolatey config and features, and also install/update of packages.&lt;/p&gt;
+&lt;h2 id="choco-wiki"&gt;&lt;a href="https://github.com/chocolatey/choco-wiki"&gt;choco-wiki&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository is a clone of the Wiki that is available &lt;a href="https://github.com/chocolatey/choco/wiki"&gt;here&lt;/a&gt;.
+This allows us to accept contributions to the Wiki in a way that can be administrated.
+The contents of this repository are ultimately rendered in the website &lt;a href="https://chocolatey.org/docs"&gt;here&lt;/a&gt;.
+If you want/need to change any documentation in this section of the website, this is where a PR would be raised, or issue created.&lt;/p&gt;
+&lt;h2 id="chocolatey-test-environment"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-test-environment"&gt;chocolatey-test-environment&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository houses the local Chocolatey Test Environment, which is essentially a vagrant setup which allows you to test your Chocolatey packages.
+This is the same test environment that is used by the automated moderation process when you submit a package to chocolatey.org.
+If you are running into any issues with packages failing when you push them to chocolatey.org, this is the recommended way to figure out what is going on.
+For more information about the moderation process for chocolatey.org you can watch this video:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/35JiK0AdGqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id="chocolatey-oneget"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-oneget"&gt;chocolatey-oneget&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository houses the source code for the OneGet (a.k.a Package Management) Provider for Chocolatey.
+If you are interested in helping with this provider, this is where you would start, as we are looking for help with this provider.
+Please take note of the warnings in the readme of this repository.&lt;/p&gt;
+&lt;h2 id="shimgen"&gt;&lt;a href="https://github.com/chocolatey/shimgen"&gt;shimgen&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One of the tools that ships with Chocolatey is called shimgen.
+Shimgen is a tool that makes batch redirection not suck so much by generating shims that point to target executable files.
+Shimgen is a commercial tool provided by RealDimensions Software, LLC (RDS) for free use with the Chocolatey client.
+This repository serves as a location to raise any issues with the shimgen tool.
+It does not house the source code for this tool.&lt;/p&gt;
+&lt;h2 id="chocolatey-package-requests"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-package-requests"&gt;chocolatey-package-requests&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The is no source code in this repository.
+Rather, this repository houses a list of issues for software applications that people would like to see added to chocolatey.org.
+The idea is that anyone interested in helping with the creation of a Chocolatey package can select one from this list.&lt;/p&gt;
+&lt;h2 id="chocolateytemplates"&gt;&lt;a href="https://github.com/chocolatey/chocolateytemplates"&gt;chocolateytemplates&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The is an older repository that houses a set of warmup templates for creating Chocolatey packages.
+As of today, creating a Chocolatey package is best done using the &lt;a href="https://chocolatey.org/docs/commands-new"&gt;choco new&lt;/a&gt;, so most likely you will not need to use it.&lt;/p&gt;
+&lt;h2 id="simple-server"&gt;&lt;a href="https://github.com/chocolatey/simple-server"&gt;simple-server&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository houses the source code for a website known as the Chocolatey Simple Server, which is also known as chocolatey.server.
+This is an application that you can use to house Chocolatey packages locally in your environment, rather than using chocolatey.org.
+This is similar to applications like Nexus, Artifactory or ProGet.
+However, this is a very basic application, that doesn't have all the features of these other applications.&lt;/p&gt;
+&lt;h2 id="chocolatey-packages-template"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-packages-template"&gt;chocolatey-packages-template&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you are interested in maintaining your own Chocolatey Packages, this repository houses a sample for how to setup your own repository.
+The idea would be that you fork this repository, and tailor it to your own needs.
+This repository has the suggested setup for both ketarin and AU, both of which are described &lt;a href="https://chocolatey.org/docs/automatic-packages"&gt;here&lt;/a&gt;.
+As of today, the main recommendation for automatic packaging is AU, as such, if you are starting your own repository, perhaps best to start with this &lt;a href="https://github.com/majkinetor/au-packages-template"&gt;template&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="package-validator"&gt;&lt;a href="https://github.com/chocolatey/package-validator"&gt;package-validator&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository houses the source code for the package-validator windows service.
+This is one of the automatic moderation processes that all packages submitted to chocolatey.org go through.
+For more information on this, see the video further up in this blog post.
+You would raise issues here if you find any problems with this service.&lt;/p&gt;
+&lt;h2 id="package-verifier"&gt;&lt;a href="https://github.com/chocolatey/package-verifier"&gt;package-verifier&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository houses the source code for the package-verifier windows service.
+This is one of the automatic moderation processes that all packages submitted to chocolatey.org go through.
+For more information on this, see the video further up in this blog post.
+You would raise issues here if you find any problems with this service.&lt;/p&gt;
+&lt;h2 id="nuget-chocolatey"&gt;&lt;a href="https://github.com/chocolatey/nuget-chocolatey"&gt;nuget-chocolatey&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository houses a copy of the NuGet Source Code.
+Chocolatey is built on top of the NuGet Client libraries, and as such, it maintains a copy of those libraries, as some changes had to be made to make it work for Chocolatey.
+As changes are made in the upstream NuGet Source Code, the relevant changes will be pulled into this repository so that they can be used in Chocolatey.&lt;/p&gt;
+&lt;h2 id="puppet-chocolatey_server"&gt;&lt;a href="https://github.com/chocolatey/puppet-chocolatey_server"&gt;puppet-chocolatey_server&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository houses the source code for a Puppet Module that can be used to automatically install/configure the chocolatey.server package.
+This means, assuming you are using Puppet, you can very quickly get up and running with this application.&lt;/p&gt;
+&lt;h2 id="puppet-chocolatey-handsonlab"&gt;&lt;a href="https://github.com/chocolatey/puppet-chocolatey-handsonlab"&gt;puppet-chocolatey-handsonlab&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is the source code for a hands on lab that was hosted at PuppetConf 2013 regarding the chocolatey provider.&lt;/p&gt;
+&lt;h2 id="chocolatey-licensed-issues"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-licensed-issues"&gt;chocolatey-licensed-issues&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There is no source code in this repository.
+Instead, this houses a list of issues that have been raised against the licensed versions of Chocolatey.
+This gives a means of allowing people interested in issues raised with the licensed versions to follow when these issues have been resolved.&lt;/p&gt;
+&lt;h2 id="chocobot-gitter"&gt;&lt;a href="https://github.com/chocolatey/chocobot-gitter"&gt;chocobot-gitter&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Within the various Gitter rooms that exist for Chocolatey, for example the &lt;a href="https://gitter.im/chocolatey/choco"&gt;main one&lt;/a&gt;, there is a Hubot instance running.
+This is really just a little bit of fun, as the Hubot instance doesn't actually have any automation capabilities.
+This repository contains the source code for the Hubot instance.&lt;/p&gt;
+&lt;h2 id="chocolatey-packages-recipes"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-package-recipes"&gt;chocolatey-packages-recipes&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Have you ever had to deal with a really hard application to package as a Chocolatey Package?
+Or, have you ever been very happy with the outcome of a package that you created?
+If so, and you are willing to share that work with others, this repository is a place to show them off.
+At the time of writing, this repository houses examples of house to package Office 365 and Visual Studio 2017.&lt;/p&gt;
+&lt;h2 id="package-cleanup"&gt;&lt;a href="https://github.com/chocolatey/package-cleanup"&gt;package-cleanup&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository houses the source code for the package-cleanup windows service.
+This is one of the automatic moderation processes that all packages submitted to chocolatey.org go through.
+For more information on this, see the video further up in this blog post.
+You would raise issues here if you find any problems with this service.&lt;/p&gt;
+&lt;h2 id="chocolatey-package-updater"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-package-updater"&gt;chocolatey-package-updater&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Similar to the shimgen repository, this repository houses an issues list for the chocolatey-package-updater tool.
+This tool is closed source, but free to use for maintaining Chocolatey packages.
+This is normally used when using the ketarin application to update packages.&lt;/p&gt;
+&lt;h2 id="chocolatey.github.com"&gt;&lt;a href="https://github.com/chocolatey/chocolatey.github.com"&gt;chocolatey.github.com&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is a deprecated repository, that no longer is used, and is kept around for reference only.
+It used to house the source code for a documentation site for Chocolatey, however, this is replaced with the &lt;a href="https://chocolatey.org/docs"&gt;docs site&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="chocolatey-book"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-book"&gt;chocolatey-book&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This repository hasn't really seen much traffic yet.
+The idea was that this repository would house a walkthrough book on house to use Chocolatey.
+If you are interested in helping with this effort, then definitely reach out.&lt;/p&gt;
+&lt;h2 id="chocolatey.web"&gt;&lt;a href="https://github.com/chocolatey/chocolatey.web"&gt;chocolatey.web&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In all honesty, I am not entirely sure what this repository is for.
+If I find out, I will update this section with more information.&lt;/p&gt;
+&lt;h2 id="chocolatey-environments"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-environments"&gt;chocolatey-environments&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is a reasonably new repository.
+The intention is that this will house example vagrant environments that can be used to testing out the various parts of Chocolatey.
+The first example environment in this repository shows how to setup a system for automated package internalization in your own environment.&lt;/p&gt;
+&lt;h2 id="nuget.server-chocolatey"&gt;&lt;a href="https://github.com/chocolatey/NuGet.Server-chocolatey"&gt;NuGet.Server-chocolatey&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is a fork of the NuGet.Server that was made by the NuGet team.
+It was updated to work with Chocolatey.
+This is &amp;quot;similar&amp;quot; to the simple.server repository, but there are some distinct differences.&lt;/p&gt;
+&lt;h2 id="chocobot-slack"&gt;&lt;a href="https://github.com/chocolatey/chocobot-slack"&gt;chocobot-slack&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is similar to the chocobot-gitter repository.
+The only difference being that this Hubot instance is for Slack, rather than Gitter.&lt;/p&gt;
+&lt;h2 id="cla-assistant"&gt;&lt;a href="https://github.com/chocolatey/cla-assistant"&gt;cla-assistant&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In order to ensure that everyone that contributes to Chocolatey has signed the CLA that we have in place, we run this CLA assistant.&lt;/p&gt;
+&lt;h2 id="chocolatey-webhooks"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-webhooks"&gt;chocolatey-webhooks&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;chocolatey-webhooks acts as a relay from GitHub and other services to Jira and Trello, so that events on a Github project automatically create and update Jira issues or Trello cards.
+This is a work in progress repository, and isn't currently actively being used.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;I recently received a Tweet:&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/2018-a-retrospective" />
 		<id>http://www.gep13.co.uk/blog/2018-a-retrospective</id>
@@ -1299,49 +1458,5 @@ chocolateygui feature list
 &lt;p&gt;Check the &lt;a href="https://github.com/chocolatey/ChocolateyGUI/pull/613"&gt;Pull Request&lt;/a&gt; to Chocolatey GUI for the complete implementation.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;While implementing a recent feature addition to &lt;a href="https://github.com/chocolatey/ChocolateyGUI/pull/613"&gt;Chocolatey GUI&lt;/a&gt;, I stumbled across something that I thought was blog worthy, so I thought I would add some notes here for future me.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-cake.eazfuscator.net-addin" />
-		<id>http://www.gep13.co.uk/blog/introducing-cake.eazfuscator.net-addin</id>
-		<title>Introducing the Cake.Eazfuscator.Net Addin</title>
-		<updated>2018-06-20T00:00:00Z</updated>
-		<content>&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Eazfuscator.Net"&gt;Cake.Eazfuscator.Net&lt;/a&gt; is a Cake Addin which provides the ability to execute the &lt;a href="https://www.gapotchenko.com/eazfuscator.net"&gt;Eazfuscator.Net.exe&lt;/a&gt;.  This is a tool that allows you to securely obfuscate your generated code, so that you can protect your investment in your code base.&lt;/p&gt;
-&lt;h1 id="usage"&gt;Usage&lt;/h1&gt;
-&lt;p&gt;To get started using this addin, all you need to do is add the following to your Cake script:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;#addin &amp;quot;nuget:https://www.nuget.org/api/v2?package=Cake.Eazfuscator.Net&amp;amp;version=0.1.0&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Depending on the currently released version, you might want to change the above to reflect the current version number. The above is shown to ensure that the best practice of pinning your Cake Addin version numbers is adhered to.&lt;/p&gt;
-&lt;p&gt;With that done, you can perform a basic obfuscation of your code base using the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;var CERT_PATH = EnvironmentVariable(&amp;quot;PATH_TO_CERTIFICATE&amp;quot;) ?? &amp;quot;&amp;quot;;
-
-Task(&amp;quot;ObfuscateExecutable&amp;quot;)
-    .WithCriteria(() =&amp;gt; {
-        return !string.IsNullOrWhiteSpace(CERT_PATH) &amp;amp;&amp;amp; FileExists(CERT_PATH);
-    })
-    .Does(() =&amp;gt;
-    {
-        var filesToObfuscate = new List&amp;lt;FilePath&amp;gt;();
-        filesToObfuscate.Add(&amp;quot;YourExecutable.exe&amp;quot;);
-
-        var settings = new EazfuscatorNetSettings();
-        settings.KeyFile = CERT_PATH;
-
-        EazfuscatorNet(filesToObfuscate, settings);
-});
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This will result in the selected file(s) being obfuscated, using the settings defined (most likely) in the AssemblyInfo.cs file for the project.&lt;/p&gt;
-&lt;p&gt;There are various settings available which can additionally control how the obfuscation is performed.&lt;/p&gt;
-&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
-&lt;p&gt;You can find additional documentation for this addin here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cake-contrib.github.io/Cake.Eazfuscator.Net/"&gt;https://cake-contrib.github.io/Cake.Eazfuscator.Net/&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
-&lt;p&gt;The source code for this addin can be found here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Eazfuscator.Net"&gt;https://github.com/cake-contrib/Cake.Eazfuscator.Net&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="chat-room"&gt;Chat Room&lt;/h2&gt;
-&lt;p&gt;If you have any questions about this addin, then please feel to drop into the Gitter Chat room for all the addins and modules which exist in the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation&lt;/a&gt; on GitHub:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gitter.im/cake-contrib/Lobby?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/cake-contrib/Lobby.svg" class="img-fluid" alt="Join the chat at https://gitter.im/cake-contrib/Lobby" /&gt;&lt;/a&gt;&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Eazfuscator.Net"&gt;Cake.Eazfuscator.Net&lt;/a&gt; is a Cake Addin which provides the ability to execute the &lt;a href="https://www.gapotchenko.com/eazfuscator.net"&gt;Eazfuscator.Net.exe&lt;/a&gt;.  This is a tool that allows you to securely obfuscate your generated code, so that you can protect your investment in your code base.&lt;/p&gt;</summary>
 	</entry>
 </feed>
