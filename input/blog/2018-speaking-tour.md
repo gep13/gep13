@@ -2,7 +2,7 @@
 Title: 2018 Speaking Tour
 Published: 14/01/2018
 Tags:
-- 2017
+- 2018
 - Talks
 - Cake
 - Chocolatey
