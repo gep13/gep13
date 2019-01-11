@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2019</rights>
-	<updated>2019-01-11T15:08:56Z</updated>
+	<updated>2019-01-11T15:35:27Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/what-are-all-the-chocolatey-repositories-for" />
@@ -37,6 +37,7 @@ You would use this repository for anything related to the Boxstarter project.&lt
 Chocolatey GUI is a WPF application that works alongside Chocolatey, and provides a visual interface to interact with Chocolatey.
 This includes the ability to list/install/upgrade/uninstall Chocolatey Packages.
 As well as the ability to add/remove Chocolatey Sources, and enable/disable Chocolatey features.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/11/chocolatey-gui.png" class="img-fluid" alt="Chocolatey GUI" /&gt;&lt;/p&gt;
 &lt;h2 id="chocolatey.org"&gt;&lt;a href="https://github.com/chocolatey/chocolatey.org"&gt;chocolatey.org&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This repository houses the source code for the Chocolatey Community Repository, i.e. &lt;a href="https://chocolatey.org/"&gt;chocolatey.org&lt;/a&gt;.
 This is an ASP.NET MVC application, and you would use this repository to ask any questions about the website itself.
