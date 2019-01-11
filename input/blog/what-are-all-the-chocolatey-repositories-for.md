@@ -45,6 +45,8 @@ Chocolatey GUI is a WPF application that works alongside Chocolatey, and provide
 This includes the ability to list/install/upgrade/uninstall Chocolatey Packages.
 As well as the ability to add/remove Chocolatey Sources, and enable/disable Chocolatey features.
 
+![Chocolatey GUI](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/11/chocolatey-gui.png)
+
 ## [chocolatey.org](https://github.com/chocolatey/chocolatey.org)
 
 This repository houses the source code for the Chocolatey Community Repository, i.e. [chocolatey.org](https://chocolatey.org/).
