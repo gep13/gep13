@@ -4,8 +4,45 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2019</rights>
-	<updated>2019-01-12T19:49:47Z</updated>
+	<updated>2019-01-12T20:15:34Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/2019-speaking-tour" />
+		<id>http://www.gep13.co.uk/blog/2019-speaking-tour</id>
+		<title>2019 Speaking Tour</title>
+		<updated>2019-01-12T00:00:00Z</updated>
+		<content>&lt;p&gt;Hot on the heels of the speaking tour that I did &lt;a href="https://www.gep13.co.uk/blog/2018-speaking-tour"&gt;this time last year&lt;/a&gt;, I have decided that I am going to do it all over again!  I was approached by the organisers of the HaintonDotNet User Groups to see if I would be interested in doing my Cake talk at their User Groups in Newcastle and Middlesborough.  I said that I would be, and off the back of that I was able to secure another talk at Sheffield again, and then on the way home, a stop at Glasgow.&lt;/p&gt;
+&lt;h2 id="dates-and-venues"&gt;Dates and venues&lt;/h2&gt;
+&lt;p&gt;All the details of the talks are shown below.&lt;/p&gt;
+&lt;h3 id="dotnetsheff-sheffield"&gt;dotnetsheff - Sheffield&lt;/h3&gt;
+&lt;p&gt;The first stop in the series has me visiting Sheffield on the 28th January 2019, to do a talk on &lt;a href="https://chocolatey.org"&gt;Chocolatey&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The registration website is here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.meetup.com/dotnetsheff/events/254791420/"&gt;https://www.meetup.com/dotnetsheff/events/254791420/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks to Kevin for helping to set this up!&lt;/p&gt;
+&lt;h3 id="haintondotnet-north-east-newcastle"&gt;HaintonDotNet - North East - Newcastle&lt;/h3&gt;
+&lt;p&gt;The second stop has me visiting Newcastle to present a talk on &lt;a href="https://cakebuild.net"&gt;Cake&lt;/a&gt; on the 29th January 2019.&lt;/p&gt;
+&lt;p&gt;The registration website is here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.meetup.com/HaintonDotNetNE/events/srwglqyzcbmc/"&gt;https://www.meetup.com/HaintonDotNetNE/events/srwglqyzcbmc/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks to Tom for helping to set this up!&lt;/p&gt;
+&lt;h3 id="haintondotnet-north-east-middlesborough"&gt;HaintonDotNet - North East - Middlesborough&lt;/h3&gt;
+&lt;p&gt;The third stop of the tour is Middlesborough to present the same talk on &lt;a href="https://cakebuild.net"&gt;Cake&lt;/a&gt; on the 30th January 2019.&lt;/p&gt;
+&lt;p&gt;The registration website is here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.meetup.com/HaintonDotNetNE/events/256030029/"&gt;https://www.meetup.com/HaintonDotNetNE/events/256030029/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks again to Tom for helping to set this up!&lt;/p&gt;
+&lt;h3 id="scottish-powershell-and-devops-user-groups-glasgow"&gt;Scottish PowerShell and DevOps User Groups - Glasgow&lt;/h3&gt;
+&lt;p&gt;The final stop on the tour has me travelling to Glasgow to do a new talk on using &lt;a href="https://www.packer.io/"&gt;Packer&lt;/a&gt; and &lt;a href="https://www.terraform.io/"&gt;Terraform&lt;/a&gt; on the 31st January 2019.&lt;/p&gt;
+&lt;p&gt;The registration website is here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.meetup.com/Scottish-PowerShell-User-Group/events/256369105/"&gt;https://www.meetup.com/Scottish-PowerShell-User-Group/events/256369105/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks to Paul for helping to set this up!&lt;/p&gt;
+&lt;h2 id="the-map"&gt;The Map&lt;/h2&gt;
+&lt;p&gt;Roughly speaking, this will be around 900 miles of driving, and should take around 16 hours.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/12/google-map.png" class="img-fluid" alt="Google Map of the Tour" /&gt;&lt;/p&gt;
+&lt;p&gt;It's a good thing that I have just bought a couple new Audible books!&lt;/p&gt;
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Happy days!  Just used up two of my credits on two new &lt;a href="https://twitter.com/audible_com?ref_src=twsrc%5Etfw"&gt;&amp;#64;audible_com&lt;/a&gt; books!  Looking forward to listening to these! &lt;a href="https://t.co/ehjJ913bpX"&gt;pic.twitter.com/ehjJ913bpX&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gary Ewan Park (&amp;#64;gep13) &lt;a href="https://twitter.com/gep13/status/1082993766053629953?ref_src=twsrc%5Etfw"&gt;January 9, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content>
+		<summary>&lt;p&gt;Hot on the heels of the speaking tour that I did &lt;a href="https://www.gep13.co.uk/blog/2018-speaking-tour"&gt;this time last year&lt;/a&gt;, I have decided that I am going to do it all over again!  I was approached by the organisers of the HaintonDotNet User Groups to see if I would be interested in doing my Cake talk at their User Groups in Newcastle and Middlesborough.  I said that I would be, and off the back of that I was able to secure another talk at Sheffield again, and then on the way home, a stop at Glasgow.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/what-are-all-the-chocolatey-repositories-for" />
 		<id>http://www.gep13.co.uk/blog/what-are-all-the-chocolatey-repositories-for</id>
@@ -1400,64 +1437,5 @@ Environment, although bear in mind that this might not have been tested by anyon
 &lt;p&gt;For more information about the event, check out the official announcement blog post of &lt;a href="https://chocolatey.org/blog/chocolatey-fest-conference-coming-october-8"&gt;chocolatey.org&lt;/a&gt;.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;When I joined Chocolatey, I knew I was going to be in for an exciting ride, and so far, I have not been disappointed.  To date, I have been able to work on some exciting new features that are due out later this year, and I attended the PowerShell Summit, and interacted directly with people using Chocolatey.  Looking forward, the thing I am most looking forward to in 2018 is &lt;a href="https://chocolateyfest.com/"&gt;Chocolatey Fest&lt;/a&gt;.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application" />
-		<id>http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application</id>
-		<title>How to get console output from a WPF application</title>
-		<updated>2018-07-16T00:00:00Z</updated>
-		<content>&lt;p&gt;While implementing a recent feature addition to &lt;a href="https://github.com/chocolatey/ChocolateyGUI/pull/613"&gt;Chocolatey GUI&lt;/a&gt;, I stumbled across something that I thought was blog worthy, so I thought I would add some notes here for future me.&lt;/p&gt;
-&lt;h2 id="the-problem"&gt;The problem&lt;/h2&gt;
-&lt;p&gt;Chocolatey GUI is a WPF application, but the feature that was being added here was the ability to execute Chocolatey GUI from the command line in order to enable/disable features within the application.  i.e. you will be able to run commands like the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-powershell"&gt;chocolateygui feature enable -n=&amp;lt;featureName&amp;gt;
-chocolateygui feature disable -n=&amp;lt;featureName&amp;gt;
-chocolateygui feature list
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;When I first started writing this feature, I thought that this was going to be simple.  What I didn't know is that when compiled with an &lt;code&gt;OutputType&lt;/code&gt; of &lt;code&gt;WinExe&lt;/code&gt;, which a WPF application is, it doesn't output anything to the console.  As a result, trying to do something like:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;Console.Write(&amp;quot;This is a test&amp;quot;);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;results in nothing happening.  There are also no errors at runtime, so it is not immediately clear what is going on.&lt;/p&gt;
-&lt;h2 id="the-solution"&gt;The solution&lt;/h2&gt;
-&lt;p&gt;Thankfully, after searching around, it was clear that I wasn't the first person to stumble into this.  There are a number of different solutions out there (including attempting to attach to the existing console, creating a new console, etc.), however, none of them felt quite right until I found this article:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://blog.rsuter.com/write-application-can-act-console-application-wpf-gui-application/"&gt;https://blog.rsuter.com/write-application-can-act-console-application-wpf-gui-application/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Huge thanks to Rico Suter for this!&lt;/p&gt;
-&lt;p&gt;The magic sauce that makes this work is this:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;    [DllImport(&amp;quot;kernel32.dll&amp;quot;, SetLastError = true, ExactSpelling = true)]
-    static extern bool FreeConsole();
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This pinvoke call is completely opposite to how I was originally thinking about it.  Rather than attempting to attach to an existing console, or create a new one, this technique starts out assuming that there is a console, and if that console isn't required, get rid of it.  i.e. &lt;code&gt;FreeConsole&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;In order for this to work, it is necessary to change the output type of you WPF project to be a Console Application, and also add an &lt;code&gt;InitialzeComponent()&lt;/code&gt; call.&lt;/p&gt;
-&lt;p&gt;For Chocolatey GUI, the startup code then looks like the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;        public App()
-        {
-            InitializeComponent();
-        }
-
-        internal static SplashScreen SplashScreen { get; set; }
-
-        [STAThread]
-        public static void Main(string[] args)
-        {
-            if (args.Length != 0)
-            {
-                // Run as Console Application
-                ParseArgumentsAndRunCommand(args);
-            }
-            else
-            {
-                // Run as WPF Application
-                FreeConsole();
-
-                // Do Stuff
-            }
-        }
-
-        [DllImport(&amp;quot;kernel32.dll&amp;quot;, SetLastError = true, ExactSpelling = true)]
-        private static extern bool FreeConsole();
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Check the &lt;a href="https://github.com/chocolatey/ChocolateyGUI/pull/613"&gt;Pull Request&lt;/a&gt; to Chocolatey GUI for the complete implementation.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;While implementing a recent feature addition to &lt;a href="https://github.com/chocolatey/ChocolateyGUI/pull/613"&gt;Chocolatey GUI&lt;/a&gt;, I stumbled across something that I thought was blog worthy, so I thought I would add some notes here for future me.&lt;/p&gt;</summary>
 	</entry>
 </feed>

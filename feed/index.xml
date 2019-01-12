@@ -4,8 +4,15 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2019</rights>
-	<updated>2019-01-12T19:50:02Z</updated>
+	<updated>2019-01-12T20:15:52Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/2019-speaking-tour" />
+		<id>http://www.gep13.co.uk/blog/2019-speaking-tour</id>
+		<title>2019 Speaking Tour</title>
+		<updated>2019-01-12T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/what-are-all-the-chocolatey-repositories-for" />
 		<id>http://www.gep13.co.uk/blog/what-are-all-the-chocolatey-repositories-for</id>
@@ -137,13 +144,6 @@
 		<id>http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest</id>
 		<title>Are you coming to Chocolatey Fest?</title>
 		<updated>2018-07-18T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application" />
-		<id>http://www.gep13.co.uk/blog/how-to-get-console-output-from-wpf-application</id>
-		<title>How to get console output from a WPF application</title>
-		<updated>2018-07-16T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>
