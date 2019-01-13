@@ -74,7 +74,8 @@ This allows you to easy install Chocolatey packages while making use of DSC.
 
 ## [puppet-chocolatey](https://github.com/chocolatey/puppet-chocolatey)
 
-This repository houses the official module for working with Chocolatey in Puppet.
+This repository used to house the official module for working with Chocolatey in Puppet, however, this has since been forked and is now maintained [here](https://github.com/puppetlabs/puppetlabs-chocolatey).
+As a result, there should be no need to interact with this repository, and at some point, it will likely be archived.
 This module allow the installation of Chocolatey, management of Chocolatey config and features, and also install/update of packages.
 
 ## [choco-wiki](https://github.com/chocolatey/choco-wiki)
@@ -206,8 +207,9 @@ If you are interested in helping with this effort, then definitely reach out.
 
 ## [chocolatey.web](https://github.com/chocolatey/chocolatey.web)
 
-In all honesty, I am not entirely sure what this repository is for.
-If I find out, I will update this section with more information.
+Prior to making the decision to fork the NuGet Gallery to create the Chocolatey Community Repository, this repository was going to hold the source code for it.
+Originally, FubuMVC was being considered as the basis for the Chocolatey Community Repository.
+As you can see, it doesn't house much and is probably something we should move into an archive.
 
 ## [chocolatey-environments](https://github.com/chocolatey/chocolatey-environments)
 
@@ -217,9 +219,8 @@ The first example environment in this repository shows how to setup a system for
 
 ## [NuGet.Server-chocolatey](https://github.com/chocolatey/NuGet.Server-chocolatey)
 
-This is a fork of the NuGet.Server that was made by the NuGet team.
-It was updated to work with Chocolatey.
-This is "similar" to the simple.server repository, but there are some distinct differences.
+Simple Server actually needs this repository for building up the binaries that it uses.
+This is a Chocolatey-specific fork to add enhancements to that repository so they can be used with Chocolatey Simple Server.
 
 ## [chocobot-slack](https://github.com/chocolatey/chocobot-slack)
 
