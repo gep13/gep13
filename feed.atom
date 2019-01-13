@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2019</rights>
-	<updated>2019-01-12T20:15:34Z</updated>
+	<updated>2019-01-13T21:27:22Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/2019-speaking-tour" />
@@ -93,7 +93,8 @@ You can find out more information about using this &lt;a href="https://docs.chef
 &lt;p&gt;This repository houses the source code for the Chocolatey DSC Resource.
 This allows you to easy install Chocolatey packages while making use of DSC.&lt;/p&gt;
 &lt;h2 id="puppet-chocolatey"&gt;&lt;a href="https://github.com/chocolatey/puppet-chocolatey"&gt;puppet-chocolatey&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository houses the official module for working with Chocolatey in Puppet.
+&lt;p&gt;This repository used to house the official module for working with Chocolatey in Puppet, however, this has since been forked and is now maintained &lt;a href="https://github.com/puppetlabs/puppetlabs-chocolatey"&gt;here&lt;/a&gt;.
+As a result, there should be no need to interact with this repository, and at some point, it will likely be archived.
 This module allow the installation of Chocolatey, management of Chocolatey config and features, and also install/update of packages.&lt;/p&gt;
 &lt;h2 id="choco-wiki"&gt;&lt;a href="https://github.com/chocolatey/choco-wiki"&gt;choco-wiki&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This repository is a clone of the Wiki that is available &lt;a href="https://github.com/chocolatey/choco/wiki"&gt;here&lt;/a&gt;.
@@ -182,16 +183,16 @@ It used to house the source code for a documentation site for Chocolatey, howeve
 The idea was that this repository would house a walkthrough book on house to use Chocolatey.
 If you are interested in helping with this effort, then definitely reach out.&lt;/p&gt;
 &lt;h2 id="chocolatey.web"&gt;&lt;a href="https://github.com/chocolatey/chocolatey.web"&gt;chocolatey.web&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;In all honesty, I am not entirely sure what this repository is for.
-If I find out, I will update this section with more information.&lt;/p&gt;
+&lt;p&gt;Prior to making the decision to fork the NuGet Gallery to create the Chocolatey Community Repository, this repository was going to hold the source code for it.
+Originally, FubuMVC was being considered as the basis for the Chocolatey Community Repository.
+As you can see, it doesn't house much and is probably something we should move into an archive.&lt;/p&gt;
 &lt;h2 id="chocolatey-environments"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-environments"&gt;chocolatey-environments&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This is a reasonably new repository.
 The intention is that this will house example vagrant environments that can be used to testing out the various parts of Chocolatey.
 The first example environment in this repository shows how to setup a system for automated package internalization in your own environment.&lt;/p&gt;
 &lt;h2 id="nuget.server-chocolatey"&gt;&lt;a href="https://github.com/chocolatey/NuGet.Server-chocolatey"&gt;NuGet.Server-chocolatey&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This is a fork of the NuGet.Server that was made by the NuGet team.
-It was updated to work with Chocolatey.
-This is &amp;quot;similar&amp;quot; to the simple.server repository, but there are some distinct differences.&lt;/p&gt;
+&lt;p&gt;Simple Server actually needs this repository for building up the binaries that it uses.
+This is a Chocolatey-specific fork to add enhancements to that repository so they can be used with Chocolatey Simple Server.&lt;/p&gt;
 &lt;h2 id="chocobot-slack"&gt;&lt;a href="https://github.com/chocolatey/chocobot-slack"&gt;chocobot-slack&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This is similar to the chocobot-gitter repository.
 The only difference being that this Hubot instance is for Slack, rather than Gitter.&lt;/p&gt;
