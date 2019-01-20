@@ -193,6 +193,8 @@ You would raise issues here if you find any problems with this service.
 Similar to the shimgen repository, this repository houses an issues list for the chocolatey-package-updater tool.
 This tool is closed source, but free to use for maintaining Chocolatey packages.
 This is normally used when using the ketarin application to update packages.
+**NOTE:** Currently, the recommended way to create automatically updating Chocolatey packages is to use [AU](https://github.com/majkinetor/au).
+As a result, it is unlikely, unless you are already using ketarin, that you will need to use this repository.
 
 ## [chocolatey.github.com](https://github.com/chocolatey/chocolatey.github.com)
 
