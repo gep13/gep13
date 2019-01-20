@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2019</rights>
-	<updated>2019-01-13T21:27:22Z</updated>
+	<updated>2019-01-20T11:12:56Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/2019-speaking-tour" />
@@ -174,7 +174,9 @@ You would raise issues here if you find any problems with this service.&lt;/p&gt
 &lt;h2 id="chocolatey-package-updater"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-package-updater"&gt;chocolatey-package-updater&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Similar to the shimgen repository, this repository houses an issues list for the chocolatey-package-updater tool.
 This tool is closed source, but free to use for maintaining Chocolatey packages.
-This is normally used when using the ketarin application to update packages.&lt;/p&gt;
+This is normally used when using the ketarin application to update packages.
+&lt;strong&gt;NOTE:&lt;/strong&gt; Currently, the recommended way to create automatically updating Chocolatey packages is to use &lt;a href="https://github.com/majkinetor/au"&gt;AU&lt;/a&gt;.
+As a result, it is unlikely, unless you are already using ketarin, that you will need to use this repository.&lt;/p&gt;
 &lt;h2 id="chocolatey.github.com"&gt;&lt;a href="https://github.com/chocolatey/chocolatey.github.com"&gt;chocolatey.github.com&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This is a deprecated repository, that no longer is used, and is kept around for reference only.
 It used to house the source code for a documentation site for Chocolatey, however, this is replaced with the &lt;a href="https://chocolatey.org/docs"&gt;docs site&lt;/a&gt;.&lt;/p&gt;
