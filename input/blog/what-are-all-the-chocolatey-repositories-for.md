@@ -110,13 +110,13 @@ It does not house the source code for this tool.
 
 ## [chocolatey-package-requests](https://github.com/chocolatey/chocolatey-package-requests)
 
-The is no source code in this repository.
+There is no source code in this repository.
 Rather, this repository houses a list of issues for software applications that people would like to see added to chocolatey.org.
 The idea is that anyone interested in helping with the creation of a Chocolatey package can select one from this list.
 
 ## [chocolateytemplates](https://github.com/chocolatey/chocolateytemplates)
 
-The is an older repository that houses a set of warmup templates for creating Chocolatey packages.
+This is an older repository that houses a set of warmup templates for creating Chocolatey packages.
 As of today, creating a Chocolatey package is best done using the [choco new](https://chocolatey.org/docs/commands-new), so most likely you will not need to use it.
 
 ## [simple-server](https://github.com/chocolatey/simple-server)
@@ -179,7 +179,7 @@ This repository contains the source code for the Hubot instance.
 Have you ever had to deal with a really hard application to package as a Chocolatey Package?
 Or, have you ever been very happy with the outcome of a package that you created?
 If so, and you are willing to share that work with others, this repository is a place to show them off.
-At the time of writing, this repository houses examples of house to package Office 365 and Visual Studio 2017.
+At the time of writing, this repository houses examples of how to package Office 365 and Visual Studio 2017.
 
 ## [package-cleanup](https://github.com/chocolatey/package-cleanup)
 
@@ -216,8 +216,8 @@ As you can see, it doesn't house much and is probably something we should move i
 ## [chocolatey-environments](https://github.com/chocolatey/chocolatey-environments)
 
 This is a reasonably new repository.
-The intention is that this will house example vagrant environments that can be used to testing out the various parts of Chocolatey.
-The first example environment in this repository shows how to setup a system for automated package internalization in your own environment.
+The intention is that this will house example vagrant environments that can be used to test out the various parts of Chocolatey.
+The first example environment in this repository shows you how to setup a system for automated package internalization in your own environment.
 
 ## [NuGet.Server-chocolatey](https://github.com/chocolatey/NuGet.Server-chocolatey)
 
