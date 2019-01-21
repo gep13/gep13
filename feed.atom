@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2019</rights>
-	<updated>2019-01-20T11:12:56Z</updated>
+	<updated>2019-01-21T11:18:52Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/2019-speaking-tour" />
@@ -118,11 +118,11 @@ Shimgen is a commercial tool provided by RealDimensions Software, LLC (RDS) for 
 This repository serves as a location to raise any issues with the shimgen tool.
 It does not house the source code for this tool.&lt;/p&gt;
 &lt;h2 id="chocolatey-package-requests"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-package-requests"&gt;chocolatey-package-requests&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The is no source code in this repository.
+&lt;p&gt;There is no source code in this repository.
 Rather, this repository houses a list of issues for software applications that people would like to see added to chocolatey.org.
 The idea is that anyone interested in helping with the creation of a Chocolatey package can select one from this list.&lt;/p&gt;
 &lt;h2 id="chocolateytemplates"&gt;&lt;a href="https://github.com/chocolatey/chocolateytemplates"&gt;chocolateytemplates&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The is an older repository that houses a set of warmup templates for creating Chocolatey packages.
+&lt;p&gt;This is an older repository that houses a set of warmup templates for creating Chocolatey packages.
 As of today, creating a Chocolatey package is best done using the &lt;a href="https://chocolatey.org/docs/commands-new"&gt;choco new&lt;/a&gt;, so most likely you will not need to use it.&lt;/p&gt;
 &lt;h2 id="simple-server"&gt;&lt;a href="https://github.com/chocolatey/simple-server"&gt;simple-server&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This repository houses the source code for a website known as the Chocolatey Simple Server, which is also known as chocolatey.server.
@@ -165,7 +165,7 @@ This repository contains the source code for the Hubot instance.&lt;/p&gt;
 &lt;p&gt;Have you ever had to deal with a really hard application to package as a Chocolatey Package?
 Or, have you ever been very happy with the outcome of a package that you created?
 If so, and you are willing to share that work with others, this repository is a place to show them off.
-At the time of writing, this repository houses examples of house to package Office 365 and Visual Studio 2017.&lt;/p&gt;
+At the time of writing, this repository houses examples of how to package Office 365 and Visual Studio 2017.&lt;/p&gt;
 &lt;h2 id="package-cleanup"&gt;&lt;a href="https://github.com/chocolatey/package-cleanup"&gt;package-cleanup&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This repository houses the source code for the package-cleanup windows service.
 This is one of the automatic moderation processes that all packages submitted to chocolatey.org go through.
@@ -190,8 +190,8 @@ Originally, FubuMVC was being considered as the basis for the Chocolatey Communi
 As you can see, it doesn't house much and is probably something we should move into an archive.&lt;/p&gt;
 &lt;h2 id="chocolatey-environments"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-environments"&gt;chocolatey-environments&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This is a reasonably new repository.
-The intention is that this will house example vagrant environments that can be used to testing out the various parts of Chocolatey.
-The first example environment in this repository shows how to setup a system for automated package internalization in your own environment.&lt;/p&gt;
+The intention is that this will house example vagrant environments that can be used to test out the various parts of Chocolatey.
+The first example environment in this repository shows you how to setup a system for automated package internalization in your own environment.&lt;/p&gt;
 &lt;h2 id="nuget.server-chocolatey"&gt;&lt;a href="https://github.com/chocolatey/NuGet.Server-chocolatey"&gt;NuGet.Server-chocolatey&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Simple Server actually needs this repository for building up the binaries that it uses.
 This is a Chocolatey-specific fork to add enhancements to that repository so they can be used with Chocolatey Simple Server.&lt;/p&gt;
