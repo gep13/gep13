@@ -4,8 +4,15 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2019</rights>
-	<updated>2019-01-21T11:19:15Z</updated>
+	<updated>2019-02-17T15:34:21Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/introducing-cake-vscode-recipe" />
+		<id>http://www.gep13.co.uk/blog/introducing-cake-vscode-recipe</id>
+		<title>Introducing the Cake.VsCode.Recipe Package</title>
+		<updated>2019-02-17T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/2019-speaking-tour" />
 		<id>http://www.gep13.co.uk/blog/2019-speaking-tour</id>
@@ -70,16 +77,16 @@
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension" />
-		<id>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</id>
-		<title>Introducing the Chocolatey Azure DevOps Extension</title>
+		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension" />
+		<id>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</id>
+		<title>Introducing the Chocolatey VS Code Extension</title>
 		<updated>2018-11-25T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension" />
-		<id>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</id>
-		<title>Introducing the Chocolatey VS Code Extension</title>
+		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension" />
+		<id>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</id>
+		<title>Introducing the Chocolatey Azure DevOps Extension</title>
 		<updated>2018-11-25T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
@@ -137,13 +144,6 @@
 		<id>http://www.gep13.co.uk/blog/problem-running-chocolatey-test-environment</id>
 		<title>Problem Running Chocolatey Test Environment</title>
 		<updated>2018-07-27T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest" />
-		<id>http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest</id>
-		<title>Are you coming to Chocolatey Fest?</title>
-		<updated>2018-07-18T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>

@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2019</copyright>
-		<pubDate>Mon, 21 Jan 2019 11:19:15 GMT</pubDate>
-		<lastBuildDate>Mon, 21 Jan 2019 11:19:15 GMT</lastBuildDate>
+		<pubDate>Sun, 17 Feb 2019 15:34:21 GMT</pubDate>
+		<lastBuildDate>Sun, 17 Feb 2019 15:34:21 GMT</lastBuildDate>
+		<item>
+			<title>Introducing the Cake.VsCode.Recipe Package</title>
+			<link>http://www.gep13.co.uk/blog/introducing-cake-vscode-recipe</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/introducing-cake-vscode-recipe</guid>
+			<pubDate>Sun, 17 Feb 2019 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>2019 Speaking Tour</title>
 			<link>http://www.gep13.co.uk/blog/2019-speaking-tour</link>
@@ -71,17 +78,17 @@
 			<pubDate>Thu, 06 Dec 2018 00:00:00 GMT</pubDate>
 		</item>
 		<item>
-			<title>Introducing the Chocolatey Azure DevOps Extension</title>
-			<link>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</guid>
-			<pubDate>Sun, 25 Nov 2018 00:00:00 GMT</pubDate>
-		</item>
-		<item>
 			<title>Introducing the Chocolatey VS Code Extension</title>
 			<link>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</guid>
+			<pubDate>Sun, 25 Nov 2018 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Introducing the Chocolatey Azure DevOps Extension</title>
+			<link>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</guid>
 			<pubDate>Sun, 25 Nov 2018 00:00:00 GMT</pubDate>
 		</item>
 		<item>
@@ -139,13 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/problem-running-chocolatey-test-environment</guid>
 			<pubDate>Fri, 27 Jul 2018 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Are you coming to Chocolatey Fest?</title>
-			<link>http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest</guid>
-			<pubDate>Wed, 18 Jul 2018 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>

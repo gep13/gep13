@@ -4,8 +4,165 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2019</rights>
-	<updated>2019-01-21T11:18:52Z</updated>
+	<updated>2019-02-17T15:34:07Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/introducing-cake-vscode-recipe" />
+		<id>http://www.gep13.co.uk/blog/introducing-cake-vscode-recipe</id>
+		<title>Introducing the Cake.VsCode.Recipe Package</title>
+		<updated>2019-02-17T00:00:00Z</updated>
+		<content>&lt;p&gt;This post is about the newly released &lt;a href="https://www.nuget.org/packages/Cake.VsCode.Recipe/"&gt;Cake.VsCode.Recipe&lt;/a&gt; package.&lt;/p&gt;
+&lt;h2 id="what-is-it"&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;Cake.VsCode.Recipe, whose source code can be found &lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe"&gt;here&lt;/a&gt; is an opinionated set of scripts for &lt;a href="https://cakebuild.net/"&gt;Cake&lt;/a&gt;, specifically around the creation and publishing of an extension to the &lt;a href="https://marketplace.visualstudio.com/vscode"&gt;Visual Studio Code Marketplace&lt;/a&gt;.  As most of you will be aware, I am a maintainer of the Cake project, and I have a growing &lt;a href="https://marketplace.visualstudio.com/publishers/gep13"&gt;collection of extensions&lt;/a&gt; for Visual Studio Code, so it should come as no real surprise to you that I wanted a way to reliably, and consistently, build and publish these extensions.&lt;/p&gt;
+&lt;h2 id="why-is-this-needed"&gt;Why is this needed?&lt;/h2&gt;
+&lt;p&gt;Across the Visual Studio Code extensions that I have created, and work on, I found myself writing the same build steps over and over again for building and publishing them.  In each of these projects, I was writing almost EXACTLY the same code, but with simply a few changes here and there for project specific configuration.  After a few rounds of making a modification to one projects build scripts, only to have to duplicate that work in the other projects, I decided it was time to centralize these scripts into one location.  And that is where the Cake.VsCode.Recipe package comes in.&lt;/p&gt;
+&lt;h2 id="what-does-it-do"&gt;What does it do?&lt;/h2&gt;
+&lt;p&gt;In addition to wrapping the calls to build a Visual Studio Code extension, Cake.VsCode.Recipe encompasses the complete process of publishing the extension.  In my case, this includes the creation of a Chocolatey package, which makes it incredible simple to get the extension installed on a new machine in an automated way.  The tasks that are executed by Cake.VsCode.Recipe are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Print-AppVeyor-Environment-Variables
+&lt;ul&gt;
+&lt;li&gt;Really a helper task.  When running on AppVeyor, it will print out all the Environment Variables used by AppVeyor.  These can be useful when debugging issues with the build process.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Export-Release-Notes
+&lt;ul&gt;
+&lt;li&gt;Can be used to export the set of generated release notes for the project, and include in the released artifacts.  This isn't enabled by default.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Clear-AppVeyor-Cache
+&lt;ul&gt;
+&lt;li&gt;Another helper method.  In order to speed up build times, AppVeyor allows heavy caching of files.  From time to time, it is helpful to bust this cache, again for the purposes of debugging.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Show-Info
+&lt;ul&gt;
+&lt;li&gt;Similar to Print-AppVeyor-Environment-Variables, this task prints out information about the current configuration of Cake.VsCode.Recipe itself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Clean
+&lt;ul&gt;
+&lt;li&gt;Tidies up the generated artifacts, ready for re-building it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Update-Project-Json-Version
+&lt;ul&gt;
+&lt;li&gt;This uses the output from GitVersion, to update the projects Json file with the asserted version number.  This is ultimately used to version the generated vsix and nupkg file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Npm-Install
+&lt;ul&gt;
+&lt;li&gt;Based on the contents of the package.json file, run &lt;code&gt;npm install&lt;/code&gt; to install all required dependencies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Install-TypeScript
+&lt;ul&gt;
+&lt;li&gt;In order to successfully build the Visual Studio Code extension, it is necessary to have the tsc tool installed.  This task uses npm to install this tool globally.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Install-Vsce
+&lt;ul&gt;
+&lt;li&gt;vsce is the tool that is used to actually publish an extension to the Visual Studio Code Marketplace.  Again, use npm to install this globally.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Package-Extension
+&lt;ul&gt;
+&lt;li&gt;This task builds and packages the Visual Studio Code extension.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Create-Chocolatey-Package
+&lt;ul&gt;
+&lt;li&gt;Once the vsix file is generated, create an embedded Chocolatey Package, with the vsix file contained within it, making it very simple to install it on a new machine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Upload-AppVeyor-Artifacts
+&lt;ul&gt;
+&lt;li&gt;All artifacts from the build, i.e. the vsix and nupkg files, are uploaded to AppVeyor for later usage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Publish-GitHub-Release
+&lt;ul&gt;
+&lt;li&gt;When a release of the extension is made, upload assets to the created GitHub release, again, for later usage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Publish-Extension
+&lt;ul&gt;
+&lt;li&gt;When a release of the extension is made, publish the generated vsix file to the Visual Studio Code Marketplace.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Publish-Chocolatey-Package
+&lt;ul&gt;
+&lt;li&gt;When a release of the extension is made, publish the genereated nupkg file to Chocolatey.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Clean-Documentation
+&lt;ul&gt;
+&lt;li&gt;Clean any/all documentation for the project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Deploy-Graph-Documentation
+&lt;ul&gt;
+&lt;li&gt;Scan the Cake dependency graph and generate some documentation around what tasks are included in the Recipe.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Publish-Documentation
+&lt;ul&gt;
+&lt;li&gt;Takes the generated documentation, and publishes it to GitHub Pages.  This will use KuduSync to verify that there are actually differences in the newly generated files, compared to what is already published, and will only publish if there are differences&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Preview-Documentation
+&lt;ul&gt;
+&lt;li&gt;When running locally, Wyam has the ability to serve the content from a webserver, which can then be viewed.  In addition, when changes are made to the documentation, it will immediately re-build and show the changes.  This is very useful when iterating over a change&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With all of these top level tasks taken care of, it is just a case of installing Cake.VsCode.Recipe into my build process for the project I am working on, and configuring the project specific details&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Installing Cake.VsCode.Recipe into a build is done using Cake's &lt;code&gt;load&lt;/code&gt; pre-processor directive.  It is as simple as this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#load nuget:https://www.nuget.org/api/v2?package=Cake.VsCode.Recipe&amp;amp;version=0.1.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here, I am telling Cake to go to NuGet and find version 0.1.0 of Cake.VsCode.Recipe, and load the scripts that it contains.  Cake will download the nupkg, extract the files into the tools folder, and then iterate through all of the &lt;code&gt;.cake&lt;/code&gt; files contained within it, into the current build.  This saves a lot of time and effort by not having to do this manually.  Then, when a new version of Cake.VsCode.Recipe is released, all that has to be done is to change the version number, and a project has the latest and greatest scripts available.&lt;/p&gt;
+&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
+&lt;p&gt;With that done, all that is required is to configure the project specific details.  For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Environment.SetVariableNames();
+
+BuildParameters.SetParameters(context: Context,
+                            buildSystem: BuildSystem,
+                            title: &amp;quot;CI-CD-assets-vscode&amp;quot;,
+                            repositoryOwner: &amp;quot;gep13&amp;quot;,
+                            repositoryName: &amp;quot;CI-CD-assets-vscode&amp;quot;,
+                            appVeyorAccountName: &amp;quot;GaryEwanPark&amp;quot;,
+                            shouldRunGitVersion: true);
+
+BuildParameters.PrintParameters(Context);
+
+Build.Run();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A lot of things in Cake.VsCode.Recipe are done via Environment Variables.  For example, storing the credentials that are used to commit and push changes to GitHub Pages, publishing to Chocolatey and Visual Studio Code Marketplace, etc.  Out of the box, Cake.VsCode.Recipe expects these variables to be a certain name, but it is possible to override these to your own preferences.  In the script above, calling &lt;code&gt;Environment.SetVariableNames();&lt;/code&gt; simply sets these to the default values.&lt;/p&gt;
+&lt;p&gt;With that done, calling &lt;code&gt;SetParameters&lt;/code&gt; allows setting up specific information, such as the name of the project, etc.&lt;/p&gt;
+&lt;p&gt;Then it is simply a case of printing the parameters (purely optional), and then running the build, and job done.&lt;/p&gt;
+&lt;p&gt;So, when testing locally, all that is required is to execute either:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;./build.ps1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;./build.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Doing either of these will cause the default Package-Extension task to be executed, and on completion, you will have a generated vsix file, that can be loaded into Visual Studio Code for testing.&lt;/p&gt;
+&lt;p&gt;In a CI context, you would do something like:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.\build.ps1 -Target &amp;quot;AppVeyor&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Which would execute a different path which would cause the Publish Tasks to be called, which would, assuming it is a tagged release, result in publishing to both Chocolatey and Visual Studio Code Marketplace.&lt;/p&gt;
+&lt;h2 id="documentation"&gt;Documentation&lt;/h2&gt;
+&lt;p&gt;You can find additional documentation for this package here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cake-contrib.github.io/Cake.VsCode.Recipe/"&gt;https://cake-contrib.github.io/Cake.VsCode.Recipe/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="source-code"&gt;Source Code&lt;/h2&gt;
+&lt;p&gt;The source code for this Extension can be found here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe"&gt;https://github.com/cake-contrib/Cake.VsCode.Recipe&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="chat-room"&gt;Chat Room&lt;/h2&gt;
+&lt;p&gt;If you have any questions about this package, then please feel to drop into the Gitter Chat room:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gitter.im/cake-contrib/Lobby?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/cake-contrib/Lobby.svg" class="img-fluid" alt="Join the chat at https://gitter.im/cake-contrib/Lobby" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;This post is about the newly released &lt;a href="https://www.nuget.org/packages/Cake.VsCode.Recipe/"&gt;Cake.VsCode.Recipe&lt;/a&gt; package.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/2019-speaking-tour" />
 		<id>http://www.gep13.co.uk/blog/2019-speaking-tour</id>
@@ -867,7 +1024,7 @@ BuildParameters.PrintParameters(Context);
 
 Build.Run();
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;A lot of things in Cake.Wyam.Recipe are done via Environment Variables.  For example, storing the credentials that are used to commit and push changes to GitHub Pages, purging CLoudflare cache, etc.  Out of the box, Cake.Wyam.Recipe expects these variables to be a certain name, but it is possible to override these to your own preferences.  In the script above, calling &lt;code&gt;Environment.SetVariableNames();&lt;/code&gt; simply sets these to the default values.&lt;/p&gt;
+&lt;p&gt;A lot of things in Cake.Wyam.Recipe are done via Environment Variables.  For example, storing the credentials that are used to commit and push changes to GitHub Pages, purging Cloudflare cache, etc.  Out of the box, Cake.Wyam.Recipe expects these variables to be a certain name, but it is possible to override these to your own preferences.  In the script above, calling &lt;code&gt;Environment.SetVariableNames();&lt;/code&gt; simply sets these to the default values.&lt;/p&gt;
 &lt;p&gt;With that done, calling &lt;code&gt;SetParameters&lt;/code&gt; allows setting up specific information, such as the name of the project, etc.  It would also be possible to specify the Theme and Recipe to use within the Wyam execution, however, in my case, the default values of Blog and CleanBlog, are exactly what I need, so these values don't need to be changed.&lt;/p&gt;
 &lt;p&gt;Then it is simply a case of printing the parameters (purely optional), and then running the build, and job done.&lt;/p&gt;
 &lt;p&gt;So, when testing locally, all that is required is to execute either:&lt;/p&gt;
@@ -885,19 +1042,74 @@ Build.Run();
 &lt;p&gt;Another example of where Cake.Wyam.Recipe is used is on this website:&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Issues.Website/blob/develop/build.cake"&gt;https://github.com/cake-contrib/Cake.Issues.Website/blob/develop/build.cake&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Here, the Task Graph that is provided by Cake.Wyam.Recipe is extended to include some additional functionality, but the core components of it are still available.  They have simply been augmented to include additional tasks.&lt;/p&gt;
-&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
+&lt;h2 id="documentation"&gt;Documentation&lt;/h2&gt;
 &lt;p&gt;You can find additional documentation for this package here:&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://cake-contrib.github.io/Cake.Wyam.Recipe/"&gt;https://cake-contrib.github.io/Cake.Wyam.Recipe/&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
+&lt;h2 id="source-code"&gt;Source Code&lt;/h2&gt;
 &lt;p&gt;The source code for this Extension can be found here:&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Wyam.Recipe"&gt;https://github.com/cake-contrib/Cake.Wyam.Recipe&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="chat-room"&gt;Chat Room&lt;/h1&gt;
+&lt;h2 id="chat-room"&gt;Chat Room&lt;/h2&gt;
 &lt;p&gt;If you have any questions about this package, then please feel to drop into the Gitter Chat room:&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://gitter.im/cake-contrib/Lobby?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/cake-contrib/Lobby.svg" class="img-fluid" alt="Join the chat at https://gitter.im/cake-contrib/Lobby" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="thanks"&gt;Thanks&lt;/h1&gt;
+&lt;h2 id="thanks"&gt;Thanks&lt;/h2&gt;
 &lt;p&gt;I have to say a huge thank you to &lt;a href="https://twitter.com/hereispascal"&gt;Pascal Berger&lt;/a&gt; who has helped out a LOT with the creation of this package.  Thank you!&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;This is another of those announcement blog posts that is a little on the "late" side.  This post is about the &lt;a href="https://www.nuget.org/packages/Cake.Wyam.Recipe/"&gt;Cake.Wyam.Recipe&lt;/a&gt; package, which was first released back in May 2017.  Now, in it's sixth release, I thought it was about time to tell people about it.  Better late than never...&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension" />
+		<id>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</id>
+		<title>Introducing the Chocolatey VS Code Extension</title>
+		<updated>2018-11-25T00:00:00Z</updated>
+		<content>&lt;p&gt;This announcement blog post is a &amp;quot;little&amp;quot; late.  The first version of this &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode"&gt;VS Code Extension&lt;/a&gt; was created back in January 2016, however, it is only recently that it has been given a new lease of life, with some additional functionality around executing Chocolatey commands from within VS Code.  As a result, I thought this was a good time to introduce it properly.&lt;/p&gt;
+&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
+&lt;p&gt;The &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode"&gt;Chocolatey Extension for VS Code&lt;/a&gt; brings with it a number of commands and snippets to help with the creation and packaging of Chocolatey packages.  There are plans for adding more commands into the extension as time permits, and if you are interested in helping out with adding more functionality, please feel free to get in touch.&lt;/p&gt;
+&lt;h1 id="why-is-this-needed"&gt;Why is this needed?&lt;/h1&gt;
+&lt;p&gt;When getting started with Chocolatey, it can be a little daunting to get up to speed with the various commands that are required to create, pack and push, Chocolatey packages.  While there is extensive documentation to guide you through this process, it can be a little overwhelming.  This extension is an attempt to help with some of these tasks, to help guide you through this process, via the use of snippets, and most recently, commands.&lt;/p&gt;
+&lt;h1 id="installation"&gt;Installation&lt;/h1&gt;
+&lt;p&gt;Installing the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode"&gt;Chocolatey Extension for VS Code&lt;/a&gt; is simple, it installs in the same way as any other extension.  Open Extensions from the left hand side section of VS Code, or select View | Extensions.  Then do a search for &amp;quot;chocolatey&amp;quot; and the extension with an author of &amp;quot;Gary Ewan Park&amp;quot; should be returned.  Go ahead and install the extension:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Extension-Install.png" class="img-fluid" alt="Chocolatey Extension Install" /&gt;&lt;/p&gt;
+&lt;p&gt;When prompted, click the Reload button.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Extension-Reload.png" class="img-fluid" alt="Chocolatey Extension Reload" /&gt;&lt;/p&gt;
+&lt;h1 id="usage"&gt;Usage&lt;/h1&gt;
+&lt;h2 id="snippets"&gt;Snippets&lt;/h2&gt;
+&lt;p&gt;While you are editing your Chocolatey Packaging scripts, you can begin typing the word &lt;code&gt;choco&lt;/code&gt; and it will bring up some snippets to help with the creation of some of the Chocolatey Helper methods, as shown here:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Snippets.png" class="img-fluid" alt="Chocolatey Snippets" /&gt;&lt;/p&gt;
+&lt;p&gt;After selecting one, you will then have the option of pressing the tab key on your keyboard, to start stepping through the various parameters, filling in the ones that are required.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Snippet-Output.png" class="img-fluid" alt="Chocolatey Snippet Output" /&gt;&lt;/p&gt;
+&lt;p&gt;The snippets that are generated are based on the Chocolatey Best Practices from the output of the default template from the &lt;code&gt;choco new&lt;/code&gt; command.&lt;/p&gt;
+&lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
+&lt;p&gt;If you open the command palette for VS Code, and type &lt;code&gt;choco&lt;/code&gt;, you will be met with two commands:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create new Chocolatey Package&lt;/li&gt;
+&lt;li&gt;Pack Chocolatey Package(s)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Commands.png" class="img-fluid" alt="Chocolatey Commands" /&gt;&lt;/p&gt;
+&lt;p&gt;The first will take as an input the name of the Chocolatey Package that you want to create, and it will then execute the &lt;code&gt;choco new&lt;/code&gt; command, placing the output into the root of the current workspace which is open in VS Code.  You can see the output here:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-New-Output.png" class="img-fluid" alt="Chocolatey New Output" /&gt;&lt;/p&gt;
+&lt;p&gt;The second command will look through the current workspace, and find any &lt;code&gt;*.nuspec&lt;/code&gt; files that are contained with it.  Then, you can either select an individual nuspec file, or all of them, to then execute the &lt;code&gt;choco pack&lt;/code&gt; command on them.  You will be prompted for any additional arguments that you would like to pass into this command.  For example, you might want to pass something like the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-sh"&gt;--output-directory=&amp;quot;'c:/temp'&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To have the generated &lt;code&gt;*.nupkg&lt;/code&gt; files placed into a different directory, rather than being generated next to the nuspec file.&lt;/p&gt;
+&lt;h1 id="notes"&gt;Notes&lt;/h1&gt;
+&lt;p&gt;While you can install this extension in VS Code running on other operating systems, it will only work in its entirity on a Windows Machine.  Attempting to run the commands on another operating system, will result in the following:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Not-Installed.png" class="img-fluid" alt="Chocolatey Not Installed" /&gt;&lt;/p&gt;
+&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
+&lt;p&gt;You can find additional documentation for this extension here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gep13.github.io/chocolatey-vscode/"&gt;https://gep13.github.io/chocolatey-vscode/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;:  At the time of writing this blog post, there is little to no documentation, but the scaffolding is there to get some added, so if you are interested, please feel free to jump in and help.&lt;/p&gt;
+&lt;h1 id="resources"&gt;Resources&lt;/h1&gt;
+&lt;p&gt;If you are interested in hearing about new functions that are being added into the Extension, I have a YouTube Playlist &lt;a href="https://www.youtube.com/playlist?list=PL84yg23i9GBhIhNG4LaeXNHwxZYJaSqgj"&gt;here&lt;/a&gt;, where I will push short videos of the new functionality as each version is released.&lt;/p&gt;
+&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
+&lt;p&gt;The source code for this Extension can be found here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gep13/chocolatey-vscode"&gt;https://github.com/gep13/chocolatey-vscode&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="chat-room"&gt;Chat Room&lt;/h1&gt;
+&lt;p&gt;If you have any questions about this Extension, then please feel to drop into the Gitter Chat room:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gitter.im/gep13-oss/community?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/gep13-oss/community.svg" class="img-fluid" alt="Join the chat at https://gitter.im/gep13-oss/community" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="thanks"&gt;Thanks&lt;/h1&gt;
+&lt;p&gt;The execution of the Chocolatey commands in this extension would not have been possible without the amazing work of the &lt;a href="https://github.com/felixrieseberg/vsc-ember-cli"&gt;Ember CLI VS Code extension&lt;/a&gt;, as this was used as the basis for creating this feature in this extension. Huge thanks to &lt;a href="Fhttps://github.com/felixrieseber"&gt;Felix Rieseberg&lt;/a&gt;.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;This announcement blog post is a "little" late.  The first version of this &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode"&gt;VS Code Extension&lt;/a&gt; was created back in January 2016, however, it is only recently that it has been given a new lease of life, with some additional functionality around executing Chocolatey commands from within VS Code.  As a result, I thought this was a good time to introduce it properly.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension" />
@@ -960,61 +1172,6 @@ Build.Run();
 &lt;p&gt;In addition, I would like to thank the authors of the existing Chocolatey Extensions for Azure DevOps, which also helped in shaping this implementation.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Unlike my last &lt;a href="https://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension"&gt;blog post&lt;/a&gt;, this announcement is up to date!  Yesterday, I released the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops"&gt;Chocolatey Extension for Azure DevOps&lt;/a&gt; which helps to execute Chocolatey commands as part of your Azure DevOps Pipelines.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension" />
-		<id>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</id>
-		<title>Introducing the Chocolatey VS Code Extension</title>
-		<updated>2018-11-25T00:00:00Z</updated>
-		<content>&lt;p&gt;This announcement blog post is a &amp;quot;little&amp;quot; late.  The first version of this &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode"&gt;VS Code Extension&lt;/a&gt; was created back in January 2016, however, it is only recently that it has been given a new lease of life, with some additional functionality around executing Chocolatey commands from within VS Code.  As a result, I thought this was a good time to introduce it properly.&lt;/p&gt;
-&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
-&lt;p&gt;The &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode"&gt;Chocolatey Extension for VS Code&lt;/a&gt; brings with it a number of commands and snippets to help with the creation and packaging of Chocolatey packages.  There are plans for adding more commands into the extension as time permits, and if you are interested in helping out with adding more functionality, please feel free to get in touch.&lt;/p&gt;
-&lt;h1 id="why-is-this-needed"&gt;Why is this needed?&lt;/h1&gt;
-&lt;p&gt;When getting started with Chocolatey, it can be a little daunting to get up to speed with the various commands that are required to create, pack and push, Chocolatey packages.  While there is extensive documentation to guide you through this process, it can be a little overwhelming.  This extension is an attempt to help with some of these tasks, to help guide you through this process, via the use of snippets, and most recently, commands.&lt;/p&gt;
-&lt;h1 id="installation"&gt;Installation&lt;/h1&gt;
-&lt;p&gt;Installing the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode"&gt;Chocolatey Extension for VS Code&lt;/a&gt; is simple, it installs in the same way as any other extension.  Open Extensions from the left hand side section of VS Code, or select View | Extensions.  Then do a search for &amp;quot;chocolatey&amp;quot; and the extension with an author of &amp;quot;Gary Ewan Park&amp;quot; should be returned.  Go ahead and install the extension:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Extension-Install.png" class="img-fluid" alt="Chocolatey Extension Install" /&gt;&lt;/p&gt;
-&lt;p&gt;When prompted, click the Reload button.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Extension-Reload.png" class="img-fluid" alt="Chocolatey Extension Reload" /&gt;&lt;/p&gt;
-&lt;h1 id="usage"&gt;Usage&lt;/h1&gt;
-&lt;h2 id="snippets"&gt;Snippets&lt;/h2&gt;
-&lt;p&gt;While you are editing your Chocolatey Packaging scripts, you can begin typing the word &lt;code&gt;choco&lt;/code&gt; and it will bring up some snippets to help with the creation of some of the Chocolatey Helper methods, as shown here:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Snippets.png" class="img-fluid" alt="Chocolatey Snippets" /&gt;&lt;/p&gt;
-&lt;p&gt;After selecting one, you will then have the option of pressing the tab key on your keyboard, to start stepping through the various parameters, filling in the ones that are required.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Snippet-Output.png" class="img-fluid" alt="Chocolatey Snippet Output" /&gt;&lt;/p&gt;
-&lt;p&gt;The snippets that are generated are based on the Chocolatey Best Practices from the output of the default template from the &lt;code&gt;choco new&lt;/code&gt; command.&lt;/p&gt;
-&lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
-&lt;p&gt;If you open the command palette for VS Code, and type &lt;code&gt;choco&lt;/code&gt;, you will be met with two commands:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Create new Chocolatey Package&lt;/li&gt;
-&lt;li&gt;Pack Chocolatey Package(s)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Commands.png" class="img-fluid" alt="Chocolatey Commands" /&gt;&lt;/p&gt;
-&lt;p&gt;The first will take as an input the name of the Chocolatey Package that you want to create, and it will then execute the &lt;code&gt;choco new&lt;/code&gt; command, placing the output into the root of the current workspace which is open in VS Code.  You can see the output here:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-New-Output.png" class="img-fluid" alt="Chocolatey New Output" /&gt;&lt;/p&gt;
-&lt;p&gt;The second command will look through the current workspace, and find any &lt;code&gt;*.nuspec&lt;/code&gt; files that are contained with it.  Then, you can either select an individual nuspec file, or all of them, to then execute the &lt;code&gt;choco pack&lt;/code&gt; command on them.  You will be prompted for any additional arguments that you would like to pass into this command.  For example, you might want to pass something like the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-sh"&gt;--output-directory=&amp;quot;'c:/temp'&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To have the generated &lt;code&gt;*.nupkg&lt;/code&gt; files placed into a different directory, rather than being generated next to the nuspec file.&lt;/p&gt;
-&lt;h1 id="notes"&gt;Notes&lt;/h1&gt;
-&lt;p&gt;While you can install this extension in VS Code running on other operating systems, it will only work in its entirity on a Windows Machine.  Attempting to run the commands on another operating system, will result in the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Not-Installed.png" class="img-fluid" alt="Chocolatey Not Installed" /&gt;&lt;/p&gt;
-&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
-&lt;p&gt;You can find additional documentation for this extension here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gep13.github.io/chocolatey-vscode/"&gt;https://gep13.github.io/chocolatey-vscode/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;:  At the time of writing this blog post, there is little to no documentation, but the scaffolding is there to get some added, so if you are interested, please feel free to jump in and help.&lt;/p&gt;
-&lt;h1 id="resources"&gt;Resources&lt;/h1&gt;
-&lt;p&gt;If you are interested in hearing about new functions that are being added into the Extension, I have a YouTube Playlist &lt;a href="https://www.youtube.com/playlist?list=PL84yg23i9GBhIhNG4LaeXNHwxZYJaSqgj"&gt;here&lt;/a&gt;, where I will push short videos of the new functionality as each version is released.&lt;/p&gt;
-&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
-&lt;p&gt;The source code for this Extension can be found here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/gep13/chocolatey-vscode"&gt;https://github.com/gep13/chocolatey-vscode&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="chat-room"&gt;Chat Room&lt;/h1&gt;
-&lt;p&gt;If you have any questions about this Extension, then please feel to drop into the Gitter Chat room:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gitter.im/gep13-oss/community?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/gep13-oss/community.svg" class="img-fluid" alt="Join the chat at https://gitter.im/gep13-oss/community" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="thanks"&gt;Thanks&lt;/h1&gt;
-&lt;p&gt;The execution of the Chocolatey commands in this extension would not have been possible without the amazing work of the &lt;a href="https://github.com/felixrieseberg/vsc-ember-cli"&gt;Ember CLI VS Code extension&lt;/a&gt;, as this was used as the basis for creating this feature in this extension. Huge thanks to &lt;a href="Fhttps://github.com/felixrieseber"&gt;Felix Rieseberg&lt;/a&gt;.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;This announcement blog post is a "little" late.  The first version of this &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode"&gt;VS Code Extension&lt;/a&gt; was created back in January 2016, however, it is only recently that it has been given a new lease of life, with some additional functionality around executing Chocolatey commands from within VS Code.  As a result, I thought this was a good time to introduce it properly.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/stack-overflow-reputation-history" />
@@ -1423,22 +1580,5 @@ information, so that other people don't also run into this problem.&lt;/p&gt;
 point of discussion came up, so I thought I would capture it here in a blog post.  The short version is that you
 probably want to make sure that you are using the latest version of Vagrant when trying to use the Chocolatey Test
 Environment, although bear in mind that this might not have been tested by anyone, and may have other problems :-).&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest" />
-		<id>http://www.gep13.co.uk/blog/are-you-coming-to-chocolateyfest</id>
-		<title>Are you coming to Chocolatey Fest?</title>
-		<updated>2018-07-18T00:00:00Z</updated>
-		<content>&lt;p&gt;When I joined Chocolatey, I knew I was going to be in for an exciting ride, and so far, I have not been disappointed.  To date, I have been able to work on some exciting new features that are due out later this year, and I attended the PowerShell Summit, and interacted directly with people using Chocolatey.  Looking forward, the thing I am most looking forward to in 2018 is &lt;a href="https://chocolateyfest.com/"&gt;Chocolatey Fest&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="what-is-chocolatey-fest"&gt;What is Chocolatey Fest?&lt;/h2&gt;
-&lt;p&gt;Chocolatey Fest is the first ever independent conference in North America focused exclusively on Windows Automation (WinOps).  It is a one day event, which is going to be hosted at the Park Central Hotel in San Francisco, on the 8th October 2018.  I am planning on travelling to attend this event, and I very much looking forward to hearing about how people are using Chocolatey personally and in their Organisations, as well as the larger picture about Windows Automation.  I have a feeling that this is going to be a great event, and I would encourage you if you are in the area, to come along and join in.&lt;/p&gt;
-&lt;p&gt;If you are interested in attending, you can find the registration page &lt;a href="https://chocolateyfest.com/register"&gt;here&lt;/a&gt;.  Will yours be the Golden Ticket?&lt;/p&gt;
-&lt;h2 id="will-willy-wonka-make-an-appearance"&gt;Will Willy Wonka make an appearance?&lt;/h2&gt;
-&lt;p&gt;You never know who you might see at the event:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://pbs.twimg.com/media/Dd67CnHU0AAm11-.jpg" class="img-fluid" alt="Rob Reynolds dressed as Willy Wonka for Halloween" title="Rob Reynolds dressed as Willy Wonka for Halloween" /&gt;&lt;/p&gt;
-&lt;h2 id="announcement-blog-post"&gt;Announcement Blog Post&lt;/h2&gt;
-&lt;p&gt;For more information about the event, check out the official announcement blog post of &lt;a href="https://chocolatey.org/blog/chocolatey-fest-conference-coming-october-8"&gt;chocolatey.org&lt;/a&gt;.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;When I joined Chocolatey, I knew I was going to be in for an exciting ride, and so far, I have not been disappointed.  To date, I have been able to work on some exciting new features that are due out later this year, and I attended the PowerShell Summit, and interacted directly with people using Chocolatey.  Looking forward, the thing I am most looking forward to in 2018 is &lt;a href="https://chocolateyfest.com/"&gt;Chocolatey Fest&lt;/a&gt;.&lt;/p&gt;</summary>
 	</entry>
 </feed>
