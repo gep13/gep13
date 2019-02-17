@@ -73,7 +73,7 @@ BuildParameters.PrintParameters(Context);
 Build.Run();
 ```
 
-A lot of things in Cake.Wyam.Recipe are done via Environment Variables.  For example, storing the credentials that are used to commit and push changes to GitHub Pages, purging CLoudflare cache, etc.  Out of the box, Cake.Wyam.Recipe expects these variables to be a certain name, but it is possible to override these to your own preferences.  In the script above, calling `Environment.SetVariableNames();` simply sets these to the default values.
+A lot of things in Cake.Wyam.Recipe are done via Environment Variables.  For example, storing the credentials that are used to commit and push changes to GitHub Pages, purging Cloudflare cache, etc.  Out of the box, Cake.Wyam.Recipe expects these variables to be a certain name, but it is possible to override these to your own preferences.  In the script above, calling `Environment.SetVariableNames();` simply sets these to the default values.
 
 With that done, calling `SetParameters` allows setting up specific information, such as the name of the project, etc.  It would also be possible to specify the Theme and Recipe to use within the Wyam execution, however, in my case, the default values of Blog and CleanBlog, are exactly what I need, so these values don't need to be changed.
 
@@ -109,24 +109,24 @@ https://github.com/cake-contrib/Cake.Issues.Website/blob/develop/build.cake
 
 Here, the Task Graph that is provided by Cake.Wyam.Recipe is extended to include some additional functionality, but the core components of it are still available.  They have simply been augmented to include additional tasks.
 
-# Documentation
+## Documentation
 
 You can find additional documentation for this package here:
 
 https://cake-contrib.github.io/Cake.Wyam.Recipe/
 
-# Source Code
+## Source Code
 
 The source code for this Extension can be found here:
 
 https://github.com/cake-contrib/Cake.Wyam.Recipe
 
-# Chat Room
+## Chat Room
 
 If you have any questions about this package, then please feel to drop into the Gitter Chat room:
 
 [![Join the chat at https://gitter.im/cake-contrib/Lobby](https://badges.gitter.im/cake-contrib/Lobby.svg)](https://gitter.im/cake-contrib/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-# Thanks
+## Thanks
 
 I have to say a huge thank you to [Pascal Berger](https://twitter.com/hereispascal) who has helped out a LOT with the creation of this package.  Thank you!
