@@ -3,7 +3,7 @@ Title: 2017 - A Retrospective
 Published: 11/01/2018
 Tags:
 - 2017
-- Retrospective
+- retrospective
 ---
 
 ## Looking back on 2017

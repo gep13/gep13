@@ -2,8 +2,8 @@
 Title: Cake talk at NDC Oslo
 Published: 9/6/2016
 Tags:
-- Cake
-- NDC Oslo
+- cake
+- ndc oslo
 ---
 
 # A Piece of Cake

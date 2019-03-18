@@ -2,9 +2,9 @@
 Title: A tool to synchronise Visual Studio 2010 Extensions
 Published: 27/3/2011
 Tags:
-- Extensions
-- Live Mesh
-- Visual Studio 2010
+- extensions
+- live mesh
+- visual studio 2010
 ---
 
 A while back on Twitter I was having a conversation with Paul Stack (@stack72), in which Paul suggested that there was a fundamental ability missing from the Visual Studio 2010 Extension Manager. Namely, the ability to synchronise Extensions across multiple Visual Studio 2010 instances. The upshot of this conversation was a blog post from Paul which you can see [here](http://paulstack.co.uk/blog/post/Visual-Studio-2010-Extension-Required.aspx).

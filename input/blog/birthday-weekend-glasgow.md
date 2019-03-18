@@ -3,8 +3,8 @@ Title: Birthday Weekend - Glasgow
 Published: 1/12/2008
 Tags:
 - 28th
-- Birthday
-- Glasgow
+- birthday
+- glasgow
 ---
 
 This weekend was my birthday, and Lynn and myself spent the weekend together with a number of different activities.

@@ -2,8 +2,8 @@
 Title: A review of DDDScot by a DDDScot Virgin
 Published: 8/5/2011
 Tags:
-- DDD
-- DDDSCOT
+- ddd
+- dddscot
 ---
 
 Hot of the heels of [DDD9](http://developerdeveloperdeveloper.com/ddd9/) which I [attended in January](http://www.gep13.co.uk/blog/a-review-of-ddd9-by-a-ddd-virgin), this weekend was the turn of [DDD Scotland](http://developerdeveloperdeveloper.com/scotland2011/).
@@ -36,7 +36,7 @@ By Chris’s own omission, this was the first time that he had given this talk, 
 
 **Presenter – Seb Rose ([@sebrose](http://twitter.com/#!/sebrose))**
 
-I have been hearing a lot about Unit Testing and TDD lately, both from fellow developers as well as online. TDD is not a philosophy that we have adapted at my work, but I was keen to learn more about it, and see how it could be applied. Seb gave a very enlightening talk, which I have to say that I enjoyed very much. (Although, he has pointed me at another couple books which I think I have to add to my growing collection, I have no idea when I am going to get round to reading them all). I especially like the myths that Seb dispelled during his talk, including “Why should I fix it? It’s not my code!”. 
+I have been hearing a lot about Unit Testing and TDD lately, both from fellow developers as well as online. TDD is not a philosophy that we have adapted at my work, but I was keen to learn more about it, and see how it could be applied. Seb gave a very enlightening talk, which I have to say that I enjoyed very much. (Although, he has pointed me at another couple books which I think I have to add to my growing collection, I have no idea when I am going to get round to reading them all). I especially like the myths that Seb dispelled during his talk, including “Why should I fix it? It’s not my code!”.
 
 **Grok Talks**
 

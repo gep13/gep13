@@ -2,10 +2,10 @@
 Title: An interesting Windows Phone 7 build error
 Published: 12/10/2012
 Tags:
-- AppManifestInvalidAuthor
-- Build Error
-- Character Limit
-- WMAppManifest
+- appmanifestinvalidauthor
+- build error
+- character limit
+- wmappmanifest
 RedirectFrom: blog/an-interesting-windows-phone-7-build-error/index.html
 ---
 

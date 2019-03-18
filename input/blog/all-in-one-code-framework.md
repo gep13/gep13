@@ -2,10 +2,10 @@
 Title: All-In-One Code Framework
 Published: 16/7/2011
 Tags:
-- Extensions
-- Sample Application
-- Visual Studio 2008
-- Visual Studio 2010
+- extensions
+- sample application
+- visual studio 2008
+- visual studio 2010
 ---
 
 This afternoon, while trying to find a sample that would help me create a Shell Extension for Windows Explorer, I stumbled across the All-In-One Code Framework on CodePlex:

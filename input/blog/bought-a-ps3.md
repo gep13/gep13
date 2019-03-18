@@ -2,9 +2,9 @@
 Title: Bought a PS3
 Published: 1/11/2008
 Tags:
-- PS3
-- Wii
-- XBox 360
+- ps3
+- wii
+- xbox 360
 ---
 
 Today I bought myself a PlayStation 3!!!

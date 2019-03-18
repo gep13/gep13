@@ -2,9 +2,9 @@
 Title: Calgary Stampede Parade
 Published: 4/7/2008
 Tags:
-- Calgary
-- Parade
-- Stampede
+- calgary
+- parade
+- stampede
 ---
 
 Today was the first day of activities for the Calgary Stampede, and it started with the Parade. We were given this morning off so we could enjoy it, so I took full advantage of it. The prelude to the parade started at 0730, so I made sure that I got there early so I could get a good spot. Ended up standing behind the embankment at the bridge at 8th and 9th Avenue, which turned out to be a really good spot. You could see everything as they came over the brow of the hill.

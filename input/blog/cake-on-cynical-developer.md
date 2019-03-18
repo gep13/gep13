@@ -2,9 +2,9 @@
 Title: Cake discussion on Cynical Developer
 Published: 12/9/2016
 Tags:
-- Cake
-- Podcast
-- Cynical Developer
+- cake
+- podcast
+- cynical developer
 ---
 
 # Let them build with Cake

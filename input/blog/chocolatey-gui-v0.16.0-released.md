@@ -2,8 +2,8 @@
 Title: Chocolatey GUI v0.16.0 released
 Published: 15/02/2018
 Tags:
-- Chocolatey GUI
-- Release
+- chocolateygui
+- release
 ---
 
 ### Get it while it's hot!

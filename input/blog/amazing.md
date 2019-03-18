@@ -2,9 +2,9 @@
 Title: Amazing...
 Published: 27/7/2010
 Tags:
-- BSOD
-- Virtual Machine
-- VMWare
+- bsod
+- virtual machine
+- vmware
 ---
 
 Didn’t even know that this was possible, but I just got a BSOD on a Virtual Machine!!!

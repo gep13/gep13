@@ -2,8 +2,8 @@
 Title: Amelia Mabel Park
 Published: 17/2/2017
 Tags:
-- Family
-- Amelia
+- family
+- amelia
 ---
 
 # Amelia Mabel Park

@@ -2,10 +2,10 @@
 Title: Creating a Google search shortcut for sites
 Published: 31/1/2012
 Tags:
-- Custom Enginer
-- Google
-- Google Chrome
-- Search
+- custom engine
+- google
+- google chrome
+- search
 ---
 
 I have just read a very interesting blog post from Barry Mooring regarding using the [Web Applications website](http://webapps.stackexchange.com/) when you have questions about a particular application. In case you missed it, you can see the blog post [here](http://blog.codingbadger.com/blog/2012/january/web-applications-you-are-looking-in-the-wrong-place/).
@@ -40,6 +40,6 @@ For sites that don’t have a their search page available on the query string, y
 |----------------|----------------------------------------------------------------------------------------------------------------|
 | Name:          | VBForums                                                                                                       |
 | Keyword:       | vbforums                                                                                                       |
-| URL:           | [http://www.google.co.uk/search?q=site:vbforums.com+%s](http://www.google.co.uk/search?q=site:vbforums.com+%s) | 
+| URL:           | [http://www.google.co.uk/search?q=site:vbforums.com+%s](http://www.google.co.uk/search?q=site:vbforums.com+%s) |
 
 Hope this helps!

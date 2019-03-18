@@ -2,8 +2,8 @@
 Title: A modification to my use of ExtensionSync
 Published: 15/7/2011
 Tags:
-- Extensions
-- ExtensionSync
+- extensions
+- extensionSync
 ---
 
 In an earlier [blog post](http://www.gep13.co.uk/blog/a-tool-to-synchronise-visual-studio-2010-extensions) I mentioned how I am now using a very clever Visual Studio 2010 extension called [ExtensionSync](http://visualstudiogallery.msdn.microsoft.com/dbaf0ac9-fb7b-4fb3-b34d-ea2269276d3c) (a complete list of all the Visual Studio 2010 extensions that I am currently using can be found [here](http://www.gep13.co.uk/blog/visual-studio-2010-extensions)).

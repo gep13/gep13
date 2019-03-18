@@ -2,8 +2,8 @@
 Title: Becoming a better developer...
 Published: 30/7/2011
 Tags:
-- Better Developer
-- Inspiration
+- better developer
+- inspiration
 ---
 
 While I was at [DDD South West](http://www.gep13.co.uk/blog/a-review-of-dddsw-by-a-dddsw-virgin) I had the pleasure of listening to a number of 20-20 presentations (20 slides, each one timed to last 20 seconds) and one that really stood out for me was [Mark Rendle’s](http://twitter.com/#!/markrendle) “Kaizen For Coders”.
@@ -19,11 +19,11 @@ Some of the main points of the presentation were:
 > “Learn something new every day”
 
 I am finding that I am doing this more and more now. Now, this might sound a little bit weird, but it’s true. I have been developing in .Net for around 8 years now, and it is only lately that I feel I am truly, regularly, learning new things. I don’t know if this is as a result of my increased involvement in the .Net Community, or whether data is simply more readily available, through mediums such as Twitter, but it is happening. It is all too easy to become complacent about things, but going out of your way to learn new things is a great way to inject some life back into your development.
- 
+
 > “Always, always be learning a new language”
 
 Now this is something that I don’t do, but something that I am looking to change. I guess you could say that I am “stuck in a rut” in this regard. During my time as a .Net Developer I have done both Windows and Web Development, using both VB.Net and C#, and over the years I have picked up other things like SharePoint and Silverlight, but predominantly, this has all been using C#. In order to become a more “rounded” developer it is clear to me now that I have to start learning other languages and frameworks. The problem that I now face is deciding on which ones, as there are quite a lot out there!
- 
+
 > “Possibly the most important part of this entire presentation, read books!”
 
 My work colleagues will testify to the fact that I have this one covered! I own a lot of books, and since purchasing my [Kindle](http://www.gep13.co.uk/blog/my-new-kindle), I now own a few more. The problem here, as Mark points out, is that it is not enough just to own books, you also have to read them to. For a while there I was guilty of doing that, buying a book and never reading it, but I have learnt the error of my ways.

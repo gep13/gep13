@@ -2,12 +2,12 @@
 Title: Consultant Job Opportunity – Aberdeen
 Published: 21/9/2011
 Tags:
-- Aberdeen
-- Job Oppurtunity
+- aberdeen
+- job opportunity
 ---
 
 Through [ADNUGUK](http://www.aberdeendevelopers.co.uk) I have been made aware about the following job opportunity in Aberdeen so I thought I would post in here in case anyone is interested.
- 
+
 
 Job title: Consultant
 Pay: Up to £40,000 + benefits
@@ -23,18 +23,18 @@ Day-to-Day Requirements:
 - Work flow solutions for clients
 - Technical support
 - Client training
- 
+
 Person Required:
- 
-- Experience in C#.Net or VB.Net is essential, with at least a working knowledge of SQL Server or similar database structures (Oracle etc) 
-- Candidates must be amiable and keen to communicate with clients 
+
+- Experience in C#.Net or VB.Net is essential, with at least a working knowledge of SQL Server or similar database structures (Oracle etc)
+- Candidates must be amiable and keen to communicate with clients
 - Candidates should be prepared to learn about the Upstream Oil and Gas industry
 - A willingness to travel at short notice and work remotely for a couple of weeks is a must, but travel is unlikely to be very frequent
- 
+
 Qualifications Required
 
 - Degree qualified in a numerate or IT discipline
- 
+
 Interested? Contact Gillies Kleboe on 0131 608 0008/07825 182 815, also [gk@kleboe.co.uk](mailto:gk@kleboe.co.uk)
 
 Kleboe is an independent recruitment consultancy acting on behalf of the client. All applications are treated with complete confidentiality.

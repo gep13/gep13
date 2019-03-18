@@ -2,10 +2,10 @@
 Title: BSOD on Windows 8.1 when using Internet Connection Sharing on Windows Phone 8
 Published: 7/11/2013
 Tags:
-- BSOD
-- Internet Connection Sharing
-- Windows 8.1
-- Windows Phone 8
+- bsod
+- internet connection sharing
+- windows 8.1
+- windows phone 8
 ---
 
 # But there is a fix...

@@ -2,9 +2,9 @@
 Title: Check out google.co.uk
 Published: 7/9/2010
 Tags:
-- General
-- Google
-- Personal
+- general
+- google
+- personal
 ---
 
 If you haven’t already, check out [google.co.uk](http://www.google.co.uk/):

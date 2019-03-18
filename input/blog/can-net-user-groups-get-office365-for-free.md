@@ -2,9 +2,8 @@
 Title: Can .Net User Groups get @Office365 for free?
 Published: 29/6/2011
 Tags:
-- ADNUG
-- ADNUGUK
-- User Groups
+- adnuguk
+- user groups
 ---
 
 For a few months now I have been using the Office365 Beta to run the email accounts for the [Aberdeen Developers .Net User Group](http://www.aberdeendevelopers.co.uk/) and I am happy to say that it has been working really well, and in all honesty, it “just” works.

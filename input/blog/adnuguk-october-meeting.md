@@ -2,8 +2,8 @@
 Title: ADNUGUK – October Meeting
 Published: 1/9/2011
 Tags:
-- Mark Rendle
-- Meetings
+- mark rendle
+- meetings
 ---
 
 And the announcements for the Aberdeen Developers .Net User Group keep coming!

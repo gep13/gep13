@@ -2,9 +2,9 @@
 Title: Cake reaches 250000 downloads
 Published: 23/12/2016
 Tags:
-- Cake
-- NuGet
-- Downloads
+- cake
+- nuget
+- downloads
 ---
 
 # Woo hoo! Over 250000 downloads!

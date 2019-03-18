@@ -2,11 +2,11 @@
 Title: Configure DNS Settings for Office 365
 Published: 15/5/2011
 Tags:
-- DNS
-- Lync
-- Office 365
-- SharePoint
-- SRV
+- dns
+- lync
+- office 365
+- sharepoint
+- srv
 ---
 
 For the last few weeks I have been trying to sort of my installation of the [Office 365 Beta](http://www.microsoft.com/en-us/office365/online-software.aspx). I am not a business, but the Beta is open to individuals as well as corporate people. There are several reasons that I wanted to play with it:
@@ -42,7 +42,7 @@ However, when it came to Lync 2010, I just couldn’t get it to work!
 
 **_Manual Lync 2010 Configuration_**
 
-With the help of Ian, I was able to set up Lync 2010 manually, to prove that it worked at all. This was done by going into Lync and selecting Tools | Options, and from there click “Advanced...” 
+With the help of Ian, I was able to set up Lync 2010 manually, to prove that it worked at all. This was done by going into Lync and selecting Tools | Options, and from there click “Advanced...”
 
 ![Lync Options](https://gep13wpstorage.blob.core.windows.net/gep13/2011/5/15/image5.png)
 

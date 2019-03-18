@@ -2,8 +2,8 @@
 Title: Cake talk at DDD Scotland
 Published: 14/5/2016
 Tags:
-- Cake
-- DDD Scotland
+- cake
+- dddscot
 ---
 
 # Having your cake, and eating it too!

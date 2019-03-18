@@ -3,8 +3,8 @@ Title: 2011 – My Year in Review
 Published: 30/12/2011
 Tags:
 - '2011'
-- Retrospective
-- Review
+- retrospective
+- review
 RedirectFrom: blog/2011-my-year-in-review/index.html
 ---
 

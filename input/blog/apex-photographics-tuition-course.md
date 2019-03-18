@@ -2,9 +2,9 @@
 Title: Apex Photographics – Tuition course
 Published: 27/1/2012
 Tags:
-- Apex
-- Birthday
-- Tuition
+- apex
+- birthday
+- tuition
 RedirectFrom: blog/apex-photographics-tuition-course/index.html
 ---
 

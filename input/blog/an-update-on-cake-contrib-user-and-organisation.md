@@ -2,11 +2,11 @@
 Title: An Update on Cake-Contrib User and Organisation
 Published: 9/3/2017
 Tags:
-- Cake
-- Cake-Contrib
-- OSS
-- Addins
-- Modules
+- cake
+- cake-contrib
+- oss
+- addins
+- modules
 ---
 
 # What a 6 months it has been!
@@ -24,7 +24,7 @@ Back in August 2016, I (with the support of the rest of the Cake Team), put out 
 
 Thank you all very much!
 
-This last point is important, and I am particularly happy that maintainers have chosen to do this.  What this means is that, if a maintainer were no longer able/willing to support an Addin, the Cake Team would be in a position to continue to push updates to the same package id on NuGet.org.  As a result, we can ensure the continuation of support for that particular package.  
+This last point is important, and I am particularly happy that maintainers have chosen to do this.  What this means is that, if a maintainer were no longer able/willing to support an Addin, the Cake Team would be in a position to continue to push updates to the same package id on NuGet.org.  As a result, we can ensure the continuation of support for that particular package.
 
 **NOTE:** Again, I want to stress here that this would only ever happen after every effort was made to get in touch with the original creator of the Cake Addin.
 

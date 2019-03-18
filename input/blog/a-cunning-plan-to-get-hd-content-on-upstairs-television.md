@@ -2,11 +2,11 @@
 Title: A cunning plan to get HD content on upstairs television
 Published: 16/8/2011
 Tags:
-- HDMI
-- Media
-- PS3
-- Sky+ HD
-- Synology Server
+- hdmi
+- media
+- ps3
+- sky+ hd
+- synology server
 ---
 
 A few months back I [blogged](http://www.gep13.co.uk/blog/using-a-wp7-to-automate-my-house) about how I was using a custom application on my Windows Phone 7 to control the wireless antenna in my ADSL router.  This was required because if the antenna was on while we were trying to watch Sky television upstairs via a wireless media sender, we would get interference on the screen upstairs.

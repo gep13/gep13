@@ -2,10 +2,10 @@
 Title: Caliburn.Micro session accepted for DDD North
 Published: 27/8/2012
 Tags:
-- Caliburn.Micro
-- DDD North
-- Events
-- Speaking
+- caliburn.micro
+- dddnorth
+- events
+- speaking
 ---
 
 # session submission has been accepted for DDD North

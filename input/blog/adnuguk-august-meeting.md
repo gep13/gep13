@@ -2,9 +2,9 @@
 Title: ADNUGUK – August Meeting
 Published: 10/8/2011
 Tags:
-- Meeting
-- SharePoint
-- SharePoint Online
+- meeting
+- sharepoint
+- sharepoint online
 ---
 
 It seems like ages since the last Aberdeen Developers .Net User Group meeting, but I am happy to say that our next event, scheduled for the 25th August, has now been confirmed.

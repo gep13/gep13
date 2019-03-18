@@ -3,8 +3,8 @@ Title: Birthday Night Out
 Published: 22/11/2008
 Tags:
 - 28th
-- Birthday
-- Night out
+- birthday
+- night out
 ---
 
 Had my birthday night out tonight, and I have to say, I had a great time.

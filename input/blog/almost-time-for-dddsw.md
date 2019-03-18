@@ -2,10 +2,10 @@
 Title: Almost time for DDDSW...
 Published: 5/6/2011
 Tags:
-- Bristol
-- DDD
-- DDDSW
-- Windows Phone 7
+- bristol
+- ddd
+- dddsw
+- windows phone 7
 ---
 
 There are now only 5 sleeps until I start my travel down to [DDD South West](http://www.dddsouthwest.com/)!!
@@ -19,7 +19,7 @@ I debated for a long time as to whether I was actually going to attend this even
 Rather naively, I thought that getting to Bristol was as easy as getting to London, and I left the organisation of the hotel and travel to the last minute (two weeks ago). When I came to try to book travel I was shocked by how much a flight was going to cost. It was going to cost something like £350-400 to get from Aberdeen to Bristol, and Train’s were not much better. As good as the sessions were, travel costs of that much was a bit steep and I started to wonder whether I was going to be able to make it at all.
 
 Then I spoke to Craig ([@camurphy](http://twitter.com/#!/camurphy)) and Colin ([@ColinMackay](http://twitter.com/#!/colinmackay)) and found out that they were planning on driving down, so I asked if I could grab a lift, and luckily for me, they said that I could. As the driver, Craig did mention that he would have to:
- 
+
 > adopt a RyanAir baggage policy
 
 Sorted! So, now all I have to do is travel down to meet Craig for the first leg of the journey to DDD South West.

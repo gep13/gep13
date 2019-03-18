@@ -2,8 +2,9 @@
 Title: A great day out at Phoenix Falconry
 Published: 11/10/2012
 Tags:
-- Day Out
-- Phoenix Falconry. Birds of Prey
+- day out
+- phoenix falconry
+- birds of prey
 RedirectFrom: blog/a-great-day-out-at-phoenix-falconry/index.html
 ---
 

@@ -2,9 +2,9 @@
 Title: Blacknight–Can’t say enough good things about them!
 Published: 30/3/2011
 Tags:
-- Blacknight
-- Exchange Hosting
-- Web Hosting
+- blacknight
+- exchange hosting
+- web hosting
 ---
 
 About two weeks ago, I was having a chat with @deanvmc, and one of the things that we discussed was the setting up of a Hosted Exchange account for our email. At the time, I had POP3 and IMAP account for my gep13.co.uk and aberdeendevelopers.co.uk domains, and I was quite happy with them, I had never considered using anything else.
@@ -12,12 +12,12 @@ About two weeks ago, I was having a chat with @deanvmc, and one of the things th
 However, the conversation led me to investigate further, and I decided that I wanted a Hosted Exchange account for the gep13.co.uk. This would allow me to easily hook it up to my Windows Phone 7, as well as provide Outlook Web Access, and all the associated goodies such as Calendars, Contacts, Tasks, etc.
 
 After looking around for a bit I went back to the original company that Dean had mentioned, a company called [Blacknight](http://www.blacknight.com/). I decided their package a try, for a numbers of reasons:
-  
+
 1. Reasonably well priced
 1. Geographically close (they are based in Ireland)
 1. Support for Exchange 2010
 1. 30 day money back guarantee is not satisfied
- 
+
 A couple emails to support later, as well as chatting to [@blacknight](http://twitter.com/blacknight) on twitter, and my Hosted Exchange account was up and running. I had access to Webmail, I was connected to it via my Windows Phone 7, and I was connected to it via Outlook on my desktop. Things really did “just work”, and I really can’t recommend them enough!!
 
 After a couple days, I was on the [Blacknight](http://www.blacknight.com/) website again, and I happened to look at their [web hosting packages](http://www.blacknight.com/shared-hosting.html), and I was quite literally stunned!! Hosting for 30 domains, and 30 of each kind of database, or that price?!? I felt sure something must be wrong!!

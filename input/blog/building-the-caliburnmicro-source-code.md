@@ -2,9 +2,9 @@
 Title: Building the Caliburn.Micro source code
 Published: 10/10/2012
 Tags:
-- Caliburn.Micro
-- Nuget
-- Source Code
+- caliburn.micro
+- nuget
+- source code
 ---
 
 # Caliburn.Micro Nuget Package doesn’t work

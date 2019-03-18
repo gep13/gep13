@@ -2,10 +2,10 @@
 Title: Invited to Cake organisation on GitHub
 Published: 3/11/2015
 Tags:
-- GitHub
-- Open Source
-- Organisation
-- Cake
+- github
+- open source
+- organisation
+- cake
 ---
 
 # I am now a member of the Cake GitHub Organisation

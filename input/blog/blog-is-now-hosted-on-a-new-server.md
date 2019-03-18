@@ -2,9 +2,9 @@
 Title: Blog is now hosted on a new server
 Published: 28/12/2012
 Tags:
-- Blog
+- blog
 - moved
-- Virtual Private Server
+- virtual private server
 ---
 
 I hope that everyone has had a great Christmas, and are looking forward to celebrating at New Year.

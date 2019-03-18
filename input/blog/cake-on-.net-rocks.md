@@ -2,9 +2,9 @@
 Title: Cake discussion on .Net Rocks!
 Published: 13/7/2016
 Tags:
-- Cake
-- Podcast
-- .Net Rocks
+- cake
+- podcast
+- .net rocks
 ---
 
 # Achievement unlocked!

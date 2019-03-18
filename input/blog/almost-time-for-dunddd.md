@@ -2,9 +2,9 @@
 Title: Almost time for DunDDD
 Published: 16/11/2011
 Tags:
-- DDD
-- DDDScot
-- DunDDD
+- ddd
+- dddscot
+- dunddd
 ---
 
 ![](http://www.craigmurphy.com/blog/wp-content/uploads/2011/11/ddds-logo-banner.gif)

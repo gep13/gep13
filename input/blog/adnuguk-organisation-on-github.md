@@ -2,9 +2,9 @@
 Title: adnuguk organisation created on GitHub
 Published: 5/8/2014
 Tags:
-- GitHub
-- Open Source
-- Organisation
+- github
+- open source
+- organisation
 - adnuguk
 ---
 

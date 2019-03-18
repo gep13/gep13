@@ -2,8 +2,8 @@
 Title: A review of DDDSW by a DDDSW Virgin
 Published: 13/6/2011
 Tags:
-- DDD
-- DDDSW
+- ddd
+- dddsw
 ---
 
 Following on from the very good [DDD Scotland](http://www.gep13.co.uk/blog/a-review-of-dddscot-by-a-dddscot-virgin), this past weekend, I attended the 3rd [DDD South West](http://www.dddsouthwest.com/). This event was organised by [@GuySmithFerrier](http://www.twitter.com/guysmithferrier), [@RossDScott](http://www.twitter.com/RossDScott), Martyn Fewtrell, [Jose Simas](http://codefornothing.wordpress.com/) and [Chris Myhill](http://cmyhill.blogspot.com/), and a lot of credit has to be given to all of them for the amazing work that they did!
@@ -51,7 +51,7 @@ Overall, a very good talk!
 **Micro Presentations**
 
 At lunch time there were a set of Micro Presentations. The format of which was 20 slides, each one lasting 20 seconds. To ensure that this was adhered to, each slide automatically transitioned to the next after 20 seconds! This made for some very interesting presentations, as each presenter tried to cram as much information as possible into 6 minutes and 40 seconds!
- 
+
 The presenters were [@benjaminarroyo](http://twitter.com/#!/benjaminarroyo) (an introduction to NCrunch), [@Costall](http://twitter.com/#!/Costall) (a talk on Silverlight functionality), [@FatherFil](http://twitter.com/#!/FatherFil) (Continuous Integration Build Monitors), [@garyshort](http://twitter.com/#!/garyshort) (Asymptotics and Algorithms), [@markrendle](http://twitter.com/#!/markrendle) (what you as a developer should be doing, i.e. reading books, blogs etc), and [@RossDScott](http://twitter.com/#!/RossDScott) (the making of the PocketDDD.com web site).
 
 What was great about the Micro Presentations was the variety in which they were delivered. Everyone had a different take on how to best use the 20 seconds for each slide.

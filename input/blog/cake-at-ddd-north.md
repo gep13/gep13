@@ -2,8 +2,8 @@
 Title: Cake talk at DDD North
 Published: 1/10/2016
 Tags:
-- Cake
-- DDD North
+- cake
+- dddnorth
 ---
 
 # A Piece of Cake

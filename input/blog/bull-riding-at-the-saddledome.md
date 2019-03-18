@@ -2,8 +2,8 @@
 Title: Bull Riding at the SaddleDome
 Published: 12/6/2008
 Tags:
-- Bull Riding
-- Calgary
+- bull riding
+- calgary
 ---
 
 As part of the Global Petroleum Show which is going on in Calgary this week, there was a Professional Bull Riding event at the Saddledome last night. I went along with another guy from the office, and had a great time!!!!

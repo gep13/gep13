@@ -2,8 +2,8 @@
 Title: Back to work
 Published: 23/10/2008
 Tags:
-- Back To Work
-- Calgary
+- back to work
+- calgary
 ---
 
 Well, that is me back to work, couldn't escape it for long.

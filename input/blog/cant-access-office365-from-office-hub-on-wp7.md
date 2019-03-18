@@ -2,9 +2,9 @@
 Title: 'Can’t access #Office365 from Office Hub on #WP7'
 Published: 20/8/2011
 Tags:
-- Office Hub
-- SharePoint Online
-- Windows Phone 7
+- office hub
+- sharePoint online
+- windows phone 7
 ---
 
 As some of you may know, I have been using the [Office365](http://www.gep13.co.uk/blog/configure-dns-settings-for-office-365) for some time now. I use it both for my personal email accounts, as well as the email accounts for the [Aberdeen Developers .Net User Group](http://www.aberdeendevelopers.co.uk/). Personally, I think it is a great product, however, I have recently found out something rather _**annoying**_ (that was the polite version of the word I wanted to use).
@@ -16,7 +16,7 @@ As advertised here:
 one of the biggest selling points is the integration with mobile devices such as Windows Phone 7. Notice in the above link that I should be able to:
 
 
-> Access and view files in high fidelity from your mobile device. 
+> Access and view files in high fidelity from your mobile device.
 
 Now, during the Office365 Beta, it was well understood that this functionality wasn’t available, however, when Office365 rolled out, it was going to be available to both the Professional and Small Business Plans for Office365.
 

@@ -2,8 +2,8 @@
 Title: Cake talk at DDD Reading
 Published: 3/9/2016
 Tags:
-- Cake
-- DDD Reading
+- cake
+- dddreading
 ---
 
 # A Piece of Cake
@@ -31,9 +31,9 @@ Speaker Presentation: 7.85/9
 - "Tenet" is not "Tennant"
 - Brilliant!
 - Clearly not passionate enough about cake :) Great talk, good intro
-- Good product, talk needs a little more cheese/humour but good and informative 
+- Good product, talk needs a little more cheese/humour but good and informative
 - Hungry now! :)
-- Interesting - good demo nice intro to useful tools 
+- Interesting - good demo nice intro to useful tools
 - Would be good to have more demo time
 
 I will be taking on board some of these comments for my upcoming talk at DDD North.

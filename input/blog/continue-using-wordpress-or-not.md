@@ -2,9 +2,9 @@
 Title: Continue using WordPress, or not?
 Published: 15/1/2012
 Tags:
-- Decisions
+- decisions
 - gep13
-- WordPress
+- wordpress
 ---
 
 In one way or another, I have had a blog since the start of 2008. This started out as a custom blog with I created in ASP.Net. This was hosted on my own server in the house, using Red Hat Linux, MySQL and Mono (using the mod_mono Apache Module). This was set up as more of an experiment than anything, just to prove that you could happily run an ASP.Net application on top of Linux, and by the start of 2009 I wasn’t really using the blog anymore. Back in May 2011, I decided that I wanted to start blogging “properly” again. This decision was taken for a number of reasons, but mainly due to the fact that I had started getting more involved in the UK .Net Development Community and I wanted somewhere to record what was going on, and so this WordPress blog was born.
@@ -19,7 +19,7 @@ However, recently, a number of things have happened that are making me to rethin
 1. I found an amazing Metro WordPress Theme thanks to [Pedro Lamas](http://www.pedrolamas.com/2011/12/21/metro-cimbalino-wordpress-theme/)
 1. [WordPress 3.3.1](http://www.gep13.co.uk/blog/wordpress-3-3-1-released) was released and it is quite simply, amazing!
 1. I installed a few new WordPress Plugins that contained the last remaining functionality that I was looking for on my blog, namely [BackUpWordPress](http://wordpress.org/extend/plugins/backupwordpress/), [Disqus Comment System](http://wordpress.org/extend/plugins/disqus-comment-system/), [FeedBurner FeedSmith Extend](http://wordpress.org/extend/plugins/feedburner-setting/), [NextGen Gallery](http://alexrabe.de/wordpress-plugins/nextgen-gallery/), and [Now Reading Reloaded](http://wordpress.org/extend/plugins/now-reading-reloaded/), (If you are interested in seeing all the WordPress plugins that I currently use, take a look at this [blog post](http://www.gep13.co.uk/blog/wordpress-plugins-used-on-blog)).
- 
+
 The Now Reading plugin doesn’t “quite” do exactly what I want, but I think I am now prepared to invest the time to get it working the way I want it.
 
 So what does all this mean?

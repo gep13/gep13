@@ -2,9 +2,9 @@
 Title: Calgary Zoo
 Published: 31/5/2008
 Tags:
-- Calgary
-- Photos
-- Zoo
+- calgary
+- photos
+- zoo
 ---
 
 Today I visited the Calgary Zoo. Really enjoyed myself there!! Must have spent about 5 hours just wandering round the place trying to see all the animals.

@@ -3,7 +3,7 @@ Title: 2016 - A Retrospective
 Published: 03/01/2017
 Tags:
 - 2016
-- Retrospective
+- retrospective
 ---
 
 # What a year it has been!
@@ -23,7 +23,7 @@ After taking part in [Hacktoberfest](https://hacktoberfest.digitalocean.com/) an
 
 **NOTE:** The eagle eyed amongst you might notice a prolonged break at the end of June.  That was when I was on holiday in Portugal for my sister's wedding.
 
-Yes, I think I do have a sort of addiction, but it has been great fun.  
+Yes, I think I do have a sort of addiction, but it has been great fun.
 
 I have continued to contribute to the projects that I have a passion for, including:
 
@@ -61,13 +61,13 @@ I did talks at:
 - [DDD Reading](http://www.gep13.co.uk/blog/cake-at-ddd-reading)
 - [DDD North](http://www.gep13.co.uk/blog/cake-at-ddd-north)
 
-The stand out of the above has to be NDC Oslo.  This is quite simply an amazing conference and I have been lucky enough to attend it for the last 3 years.  It was also the most nerve wracking one, as it was the largest audience that I have ever presented to.  Happy to say that I made it through, and the feedback that I received was remarkably positive, so I am very happy with how the talks went. 
+The stand out of the above has to be NDC Oslo.  This is quite simply an amazing conference and I have been lucky enough to attend it for the last 3 years.  It was also the most nerve wracking one, as it was the largest audience that I have ever presented to.  Happy to say that I made it through, and the feedback that I received was remarkably positive, so I am very happy with how the talks went.
 
 A huge thank you to all the Conference Organisers for these events!
 
 ## Hacktoberfest and 24 Pull Requests
 
-In the same way as I did in 2015, I participated in both [Hacktoberfest](https://hacktoberfest.digitalocean.com/) and [24 Pull Reuqests](https://24pullrequests.com/) in 2016.  
+In the same way as I did in 2015, I participated in both [Hacktoberfest](https://hacktoberfest.digitalocean.com/) and [24 Pull Reuqests](https://24pullrequests.com/) in 2016.
 
 For those of you that don't know, Hacktoberfest is an online event ran by [DigitalOcean](https://www.digitalocean.com/).  The idea is simple, in the month of October, submit 4 or more Pull Requests to a project on GitHub.  Simples!  If you do this, you get an awesome t-shirt, as well as some swag, and of course, some bragging rights and internet points.
 
@@ -118,7 +118,7 @@ I wasn't able to offer much in terms of judging Code Quality, as I have never do
 
 ## WinOps Conf 2016
 
-In May I was able to attend the WinOps Conference in London.  This is the second time that I have attended this conference, but this time I was there in a more official capacity.  [Chocolatey](https://chocolatey.org/) was the lanyard sponsor for the event, and I was there to answer any questions that anyone had on Chocolatey.  
+In May I was able to attend the WinOps Conference in London.  This is the second time that I have attended this conference, but this time I was there in a more official capacity.  [Chocolatey](https://chocolatey.org/) was the lanyard sponsor for the event, and I was there to answer any questions that anyone had on Chocolatey.
 
 ![Chocolatey Lanyard Sponsor](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/chocolatey-lanyard-sponsor.jpg)
 
@@ -179,7 +179,7 @@ The best thing about Markdown Monster has to be the out of the box for support o
 choco install markdownmonster
 ```
 
-and you are off.  
+and you are off.
 
 Ok, I might be a little biased here, but the fact that an application vendor is directly publishing to Chocolatey.org as a mechanism for distributing their application, is a testimony to how far Chocolatey has come.
 
@@ -193,7 +193,7 @@ As I mentioned above, I have in 2016 continued to contribute to the Chocolatey p
 - helping out on the Chocolatey [Gitter](https://gitter.im/chocolatey/choco) and [Google Forums](https://groups.google.com/forum/#!forum/chocolatey)
 - answering questions on the [chocolatey tag on Stack Overflow](http://stackoverflow.com/questions/tagged/chocolatey)
 
-However, the stand out for me this year has to be the work involved in the [Chocolatey Core Team Packages repository](https://github.com/chocolatey/chocolatey-coreteampackages).  
+However, the stand out for me this year has to be the work involved in the [Chocolatey Core Team Packages repository](https://github.com/chocolatey/chocolatey-coreteampackages).
 
 In case you haven't heard about this, this repository is a place that houses over 100 Chocolatey Packages, almost all of which are continuously monitored for new application versions every 6 hours, which means that almost as soon as a new application version is available, an associated Chocolatey Package is created and submitted to chocolatey.org, ready for installation on your machines.
 
@@ -216,7 +216,7 @@ As we all know, open source is perilious in the sense that it relies on people's
 
 In the event that an addin/module was no longer being supported, and after every effort to contact the original maintainer has been exhausted, we the Cake maintainers wanted an ability to step in to help.
 
-The end result of this was two fold.  
+The end result of this was two fold.
 
 We created the [cake-contrib](https://www.nuget.org/profiles/cake-contrib) user on [nuget.org](https://www.nuget.org/) and asked package maintainers to add the cake-contrib user as a co-maintainer of their nuget packages.  This would mean that should it be required, a member of the Cake Team *could* push a new release to the same package id, without the need to create a new package id.  This is ideal, as it means that there is non duplication of packages, and therefore no ambiguity of which package is the official one.  At the time of writing this post, I am VERY happy to say that 91 of the 102 Cake addins/modules, have added the cake-contrib user as a co-maintainer.  I am personally very thankful to the Cake Community for getting behind this effort, as I really do feel that it is the best way to ensure the longevity of the packages that have been created.  Thank you!
 

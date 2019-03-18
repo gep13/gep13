@@ -2,10 +2,10 @@
 Title: Chocolatey Package Error - Checksums do not match
 Published: 29/10/2018
 Tags:
-- Chocolatey
-- Install
-- Error
-- Checksums
+- chocolatey
+- install
+- error
+- checksums
 ---
 
 Earlier today on Twitter, I was asked this question:

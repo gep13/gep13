@@ -2,10 +2,10 @@
 Title: A review of DDD9 by a DDD Virgin
 Published: 31/1/2011
 Tags:
-- DDD
-- DDD9
-- Microsoft
-- Reading
+- ddd
+- ddd9
+- microsoft
+- reading
 ---
 
 In all honesty, I wasn’t sure what to expect from DDD9.

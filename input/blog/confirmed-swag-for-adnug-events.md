@@ -2,9 +2,9 @@
 Title: Confirmed swag for ADNUG events
 Published: 11/3/2011
 Tags:
-- ADNUG
-- Meetings
-- Swag
+- adnuguk
+- meetings
+- swag
 ---
 
 For the last few weeks, I have been getting in contact with various companies to try to drum up some support for the [Aberdeen Developers .Net User Group](http://www.aberdeendevelopers.co.uk/).

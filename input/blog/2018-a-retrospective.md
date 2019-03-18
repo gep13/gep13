@@ -3,7 +3,7 @@ Title: 2018 - A Retrospective
 Published: 01/01/2019
 Tags:
 - 2018
-- Retrospective
+- retrospective
 ---
 
 When I was growing up, I always thought it was a cliché to hear people say that `the year has passed SO quickly`, but this year, I got to witness this first hand.  2018 passed VERY quickly!

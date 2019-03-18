@@ -3,12 +3,12 @@ Title: 2019 Speaking Tour
 Published: 12/01/2019
 Tags:
 - 2019
-- Talks
-- Cake
-- Chocolatey
-- Packer
-- Terraform
-- Presentations
+- talks
+- cake
+- chocolatey
+- packer
+- terraform
+- presentations
 ---
 
 Hot on the heels of the speaking tour that I did [this time last year](https://www.gep13.co.uk/blog/2018-speaking-tour), I have decided that I am going to do it all over again!  I was approached by the organisers of the HaintonDotNet User Groups to see if I would be interested in doing my Cake talk at their User Groups in Newcastle and Middlesborough.  I said that I would be, and off the back of that I was able to secure another talk at Sheffield again, and then on the way home, a stop at Glasgow.

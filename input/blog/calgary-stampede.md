@@ -2,9 +2,9 @@
 Title: Calgary Stampede
 Published: 8/7/2008
 Tags:
-- Calgary
-- Rodeo
-- Stampede
+- calgary
+- rodeo
+- stampede
 ---
 
 Well, I have to say that the Calgary Stampede lived up to its expectations!! Had a really good day!!

@@ -2,9 +2,9 @@
 Title: An interesting Kindle cover
 Published: 10/10/2012
 Tags:
-- Cover
-- GearZap
-- Kindle
+- cover
+- gearzap
+- kindle
 ---
 
 _DISCLAIMER:_ I was recently approached by [GearZap.com](http://www.gearzap.com/) to do an unbiased review of one of the products from their site.  The following is the result of that review.

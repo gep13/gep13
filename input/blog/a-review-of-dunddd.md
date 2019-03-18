@@ -2,9 +2,9 @@
 Title: A review of DunDDD
 Published: 19/11/2011
 Tags:
-- Community
-- DDD
-- DunDDD
+- community
+- ddd
+- dunddd
 ---
 
 The [DDD](http://developerdeveloperdeveloper.com/home/) series of conferences in the UK is growing!  Firstly, with a new conference in Sunderland called [DDDNorth](http://developerdeveloperdeveloper.com/north/).  Unfortunately, I was not able to attend that one this year, however, I was able to attend the other new conference; namely [DunDDD](http://dundee.dddscotland.co.uk/).
@@ -123,7 +123,7 @@ During the talk, Andy also asked another question, “_What does a developer in 
 - Problem solving tools (whiteboards, post it notes, etc.)
 
 For me, a couple of take away points were:
-	
+
 - Record your estimates.  Even if you don’t have a formal process, record them for your own records.  That way, when you have to estimate something else, you can look at this estimate, compare it against how long it actually took, and that way you will make a better estimate.
 - What it boils down to is... Respect.  Respect is earned in both directions. Much the same as trust.
 

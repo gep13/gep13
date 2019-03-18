@@ -2,9 +2,9 @@
 Title: Cake discussion on Herding Code!
 Published: 17/10/2016
 Tags:
-- Cake
-- Podcast
-- Herding Code
+- cake
+- podcast
+- herding code
 ---
 
 # Herding Code 219: Cake with Gary Park and Mattias Karlsson

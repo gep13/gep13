@@ -2,9 +2,9 @@
 Title: Are you coming to Chocolatey Fest?
 Published: 18/7/2018
 Tags:
-- Chocolatey
-- Chocolatey Fest
-- San Francisco
+- chocolatey
+- chocolatey fest
+- san francisco
 ---
 
 When I joined Chocolatey, I knew I was going to be in for an exciting ride, and so far, I have not been disappointed.  To date, I have been able to work on some exciting new features that are due out later this year, and I attended the PowerShell Summit, and interacted directly with people using Chocolatey.  Looking forward, the thing I am most looking forward to in 2018 is [Chocolatey Fest](https://chocolateyfest.com/).

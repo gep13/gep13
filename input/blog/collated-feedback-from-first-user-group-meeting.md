@@ -2,10 +2,10 @@
 Title: Collated Feedback from First User Group Meeting
 Published: 23/8/2010
 Tags:
-- ADNUG
-- Feedback
-- General
-- Meetings
+- adnuguk
+- feedback
+- general
+- meetings
 ---
 
 I have just collated all the feedback from the first Aberdeen Developers .Net User Group meeting. Thank you to everyone who took the time to respond. The results of the survey can be found here:

@@ -2,10 +2,10 @@
 Title: Calgary Tower and the Casino
 Published: 31/7/2008
 Tags:
-- Calgary
-- Calgary Tower
-- Casino
-- Lynn
+- calgary
+- calgary tower
+- casino
+- lynn
 ---
 
 After meeting up with the people from my work at Atlas for lunch, me and Lynn headed to the Calgary Tower. I had wanted to take Lynn for a meal at the top in the revolving restaurant, however, it was going through some renovation while she was here. You can check out the pictures from the top of the tower below:

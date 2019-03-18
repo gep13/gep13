@@ -2,12 +2,11 @@
 Title: Bill Wagner Scotland Tour
 Published: 6/6/2013
 Tags:
-- ADNUGUK
-- Async
+- adnuguk
+- async
 - await
-- Bill Wagner
-- C
-- Scotland Tour
+- bill wagner
+- scotland tour
 ---
 
 # Bill Wagner - Taking a break from Golf

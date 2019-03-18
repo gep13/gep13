@@ -2,9 +2,9 @@
 Title: Comprehensive list of applications/configurations for new PC
 Published: 27/3/2011
 Tags:
-- Applications
-- Installation
-- PC
+- applications
+- installation
+- pc
 ---
 
 In the last 3 months, I have had to rebuild 3 separate PC’s, from scratch, i.e. re-format the hard drive, re-install OS, and put all applications back on again.  All of them have been development rigs, my home desktop, my personal laptop, and work development machine.

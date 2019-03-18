@@ -2,8 +2,8 @@
 Title: Cake talk at Aberdeen Developers
 Published: 21/4/2016
 Tags:
-- Cake
-- ADNUGUK
+- cake
+- adnuguk
 ---
 
 # Having your cake, and eating it too!

@@ -2,8 +2,8 @@
 Title: ADNUGUK – September Meeting
 Published: 20/8/2011
 Tags:
-- Meeting
-- Real-Time Web
+- meeting
+- real-time web
 ---
 
 Hot on the heels of the announcement of our [August Meeting](http://www.gep13.co.uk/blog/adnuguk-august-meeting), I am pleased to announce our upcoming September Meeting.

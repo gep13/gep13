@@ -2,11 +2,11 @@
 Title: Cake-Contrib organisation created on GitHub
 Published: 17/8/2016
 Tags:
-- GitHub
-- Open Source
-- Organisation
-- Cake
-- Cake-Contrib
+- github
+- open source
+- organisation
+- cake
+- cake-contrib
 ---
 
 # Cake-Contrib Organisation has been created on GitHub

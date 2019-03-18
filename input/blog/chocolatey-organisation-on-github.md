@@ -2,10 +2,10 @@
 Title: Invited to Chocolatey organisation on GitHub
 Published: 20/8/2015
 Tags:
-- GitHub
-- Open Source
-- Organisation
-- Chocolatey
+- github
+- open source
+- organisation
+- chocolatey
 ---
 
 # I am now member of the Chocolatey GitHub Organisation
