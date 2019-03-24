@@ -3,9 +3,9 @@ Title: 'Day 2 – Morning Session #prognet11 @skillsmatter @simonbrown'
 Published: 6/9/2011
 Tags:
 - jmeter
-- Load Testing
+- load testing
 - prognet11
-- SkillsMatter
+- skillsmatter
 ---
 
 The second day of the Progressive .Net Tutorials got off to a flying start thanks to Simon Brown ([@simonbrown](http://twitter.com/#!/simonbrown)) and his “[Load Testing for Developers](http://skillsmatter.com/podcast/open-source-dot-net/load-testing-for-developers)” session.
@@ -27,7 +27,7 @@ From there, the rest of the session centred around extending the simple log in t
 - regular expression extraction of parameters
 - running in head less mode
 - logging the output of the test to file
- 
+
 With all of these things in place it is a small jump to see how you could include these into a Continuous Integration cycle, to get immediate feedback on how your site is reacting to the load testing.
 
 Simon did make a distinction between Load Testing and Integration Testing. Although you “could” use jmeter to do rudimentary Integration Testing, there are other tools on the market that do a better job of this, such as [Selenium](http://seleniumhq.org/) and [Cucumber](http://cukes.info/). The take away from this was use each tool for what it is designed for.

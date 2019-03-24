@@ -2,10 +2,10 @@
 Title: 'Day 3–Morning Session #prognet11 @skillsmatter @jonskeet'
 Published: 7/9/2011
 Tags:
-- Async
-- C#5
+- async
+- c#5
 - prognet
-- SkillsMatter
+- skillsmatter
 ---
 
 First up on this last day of the Progressive .Net Tutorials was Jon Skeet ([@jonskeet](http://twitter.com/#!/jonskeet)) and his “[Async Methods in C# 5](http://skillsmatter.com/podcast/ajax-ria/async-methods-in-c-sharp-5-2389)” talk.

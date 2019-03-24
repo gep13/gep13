@@ -2,10 +2,10 @@
 Title: Does your development rig support SLAT?
 Published: 14/9/2012
 Tags:
-- Desktop
-- Laptop
-- SLAT
-- Windows Phone 8
+- desktop
+- laptop
+- slat
+- windows phone 8
 ---
 
 Have you checked to make sure that your development rig supports SLAT?  Do you even know what SLAT is?  I didn’t until today, and it looks like I am going to have to upgrade at least one of my machines.

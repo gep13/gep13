@@ -2,11 +2,11 @@
 Title: DDD Scotland 2016 Call For Speakers Is Now Open
 Published: 30/1/2016
 Tags:
-  - Conference
-  - DDD
-  - Scotland
-  - Edinburgh
-  - Event
+  - conference
+  - ddd
+  - scotland
+  - edinburgh
+  - event
 ---
 
 # Call For Speakers

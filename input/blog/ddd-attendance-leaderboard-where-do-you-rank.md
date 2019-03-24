@@ -2,18 +2,18 @@
 Title: DDD attendance leaderboard, where do you rank?
 Published: 15/10/2012
 Tags:
-- DDD
-- DDDAdelaide
-- DDDBelfast
-- DDDBrisbane
-- DDDGalway
-- DDDMelbourne
-- DDDNorth
-- DDDSCOT
-- DDDSW
-- DDDSydney
-- DunDDD
-- DDDEastAnglia
+- ddd
+- dddadelaide
+- dddbelfast
+- dddbrisbane
+- dddgalway
+- dddmelbourne
+- dddnorth
+- dddscot
+- dddsw
+- dddsydney
+- dunddd
+- dddeastanglia
 ---
 
 On the reverse of the DDD North 2 Speaker and Helper t-shirts, Andy Westgarth ([@apwestgarth](http://twitter.com/apwestgarth)) had compiled a list of all the DDD events, starting back on the 15th May 2005.

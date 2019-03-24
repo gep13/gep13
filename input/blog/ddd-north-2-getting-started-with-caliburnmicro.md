@@ -2,11 +2,11 @@
 Title: DDD North 2 – Getting Started with Caliburn.Micro and Windows Phone 7
 Published: 15/10/2012
 Tags:
-- Caliburn.Micro
-- Code
-- DDDNorth
-- Presentation
-- Slides
+- caliburn.micro
+- code
+- dddnorth
+- presentation
+- slides
 RedirectFrom: blog/ddd-north-2-getting-started-with-caliburnmicro/index.html
 ---
 

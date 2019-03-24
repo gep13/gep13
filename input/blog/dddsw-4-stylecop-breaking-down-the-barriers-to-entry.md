@@ -2,11 +2,11 @@
 Title: 'DDDSW 4 - StyleCop: Breaking down the barriers to entry'
 Published: 28/5/2012
 Tags:
-- Code
-- DDDSW
-- Presentation
-- Slides
-- StyleCop
+- code
+- dddsw
+- presentation
+- slides
+- stylecop
 RedirectFrom: blog/dddsw-4-stylecop-breaking-down-the-barriers-to-entry/index.html
 ---
 

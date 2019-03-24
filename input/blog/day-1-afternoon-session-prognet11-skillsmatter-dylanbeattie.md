@@ -2,10 +2,10 @@
 Title: 'Day 1 – Afternoon Session #prognet11 @skillsmatter @dylanbeattie'
 Published: 5/9/2011
 Tags:
-- CSS
-- HTML5
+- css
+- html5
 - prognet11
-- SkillsMatter
+- skillsmatter
 ---
 
 Wow!
@@ -36,9 +36,9 @@ Dylan described the concept of taking traditional CSS and turning it inside out.
 
 Dylan suggested three main rules to follow when applying this principle:
 
-- Don’t use !Important 
-- Don’t use classes 
-- Don’t use ID’s 
+- Don’t use !Important
+- Don’t use classes
+- Don’t use ID’s
 
 Although, he did concede that in some places, the latter two HAD to be broken.
 

@@ -2,9 +2,9 @@
 Title: DDD North 2 Windows Phone 7 Agenda application
 Published: 12/10/2012
 Tags:
-- Agenda
-- DDDNorth
-- Windows Phone 7
+- agenda
+- dddnorth
+- windows phone 7
 ---
 
 **_UPDATE: _**I am happy to report that the DDD North 2 Agenda Application is now available on the Marketplace.  You can find it [here](http://windowsphone.com/s?appid=7364a248-8439-4795-b276-809f00af9775).  This link seems to work when browsing the marketplace on your phone, but it doesn't seem to work when doing it from my laptop just now.

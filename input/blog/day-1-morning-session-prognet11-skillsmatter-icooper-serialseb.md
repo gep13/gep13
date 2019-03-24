@@ -2,9 +2,9 @@
 Title: 'Day 1 – Morning Session #prognet11 @skillsmatter @ICooper @serialseb'
 Published: 5/9/2011
 Tags:
-- Package Management
+- package management
 - prognet11
-- SkillsMatter
+- skillsmatter
 ---
 
 As per my earlier [blog post](http://www.gep13.co.uk/blog/progressive-net-tutorials-a-review-skillsmatter-prognet11), this morning I attended the “[Solving the Packaging Puzzle](http://skillsmatter.com/podcast/open-source-dot-net/patterns-and-practices-of-package-management)” featuring Ian Cooper ([@ICooper](https://twitter.com/#!/icooper)) and Sebastian Lambla ([@serialseb](https://twitter.com/#!/serialseb)).
