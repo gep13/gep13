@@ -2,8 +2,8 @@
 Title: 'The X Files: I Want to Believe'
 Published: 8/8/2008
 Tags:
-- Calgary
-- Movies
+- calgary
+- movies
 ---
 
 Ok, let me just state that I have been a great man of the X Files, ever since it came out, and I have watched every episode, watched the film, and read the books, so needless to say, I was really looking forward to this new [film](http://www.imdb.com/title/tt0443701/).

@@ -2,10 +2,10 @@
 Title: Update 7.10.7740.16 for Windows Phone 7 (#WP7)
 Published: 3/12/2011
 Tags:
-- Exchange
-- Update
-- Voice Mail
-- Windows Phone 7
+- exchange
+- update
+- voice mail
+- windows phone 7
 ---
 
 This morning, I switched on my phone, and it told me that there was an update available. It has only been a couple weeks since the [last update](http://www.gep13.co.uk/blog/update-7-10-7710-68-for-windows-phone-7-wp7), which provided me with the must needed ability to tether my phone to my laptop.

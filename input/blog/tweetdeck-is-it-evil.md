@@ -2,11 +2,11 @@
 Title: TweetDeck... Is it evil?
 Published: 28/6/2010
 Tags:
-- General
-- Twitter
+- general
+- twitter
 ---
 
-Since setting up my personal Twitter account and an account for Aberdeen Developers, I have been playing with an application called TweetDeck, available [here](http://www.tweetdeck.com/beta/). 
+Since setting up my personal Twitter account and an account for Aberdeen Developers, I have been playing with an application called TweetDeck, available [here](http://www.tweetdeck.com/beta/).
 
 I have set it up so that it has both these Twitter accounts, as well as my Facebook and LinkedIn accounts. There is also the option of adding a Foursqaure account, a Google Buzz account and a MySpace account, none of which I have. But now the question, do I need one...
 

@@ -3,9 +3,9 @@ Title: UK Developer Events for 2012
 Published: 6/1/2012
 Tags:
 - '2012'
-- Developer
-- Events
-- UK
+- developer
+- events
+- uk
 ---
 
 As part of my work goals, I have been compiling a list of UK Developer Conferences/Events that are happening this year, and trying to decide which, if any, I can attend.  Note, I am not saying that this is a complete list of events.  In fact, this is just the opposite.  This is a list of events that I am aware of, and I would like to know about any that I have not listed here, see note at the end of the blog post.  I have not included any Local User Group Events in this list, as that would make for a very long list.  This list is limited to upcoming conferences which are between 1 and 5 days in duration.  If you are interested in finding Local User Group Events, you might want to check out this [calendar](http://www.aberdeendevelopers.co.uk/page/Scottish-Meetings.aspx) which posts a number of upcoming events.

@@ -2,10 +2,10 @@
 Title: Use a Windows Azure Blob Storage account with your WordPress blog
 Published: 8/2/2012
 Tags:
-- Azure
-- Blob
-- Storage Account
-- WordPress
+- azure
+- blob
+- storage account
+- wordpress
 ---
 
 Hot on the heels of the [Windows Azure Bootcamp](http://www.gep13.co.uk/blog/windows-azure-bootcamp-uk-tech-days) that I did this weekend, I decided that I wanted to do _something_ with Windows Azure, that way I could practice what I had learnt, and begin to increase my exposure to what Windows Azure brings to the table. I decided that I wanted to use the Windows Azure Blob Storage to host all of the static content of my WordPress Blog, thus, _hopefully, _increasing the performance of my blog. What follows is a list of instructions for setting up your WordPress Blog, as well as your Windows Azure account, and also your domain registrar (in order to apply a shortened domain name to your Blob Storage Account).
@@ -39,69 +39,69 @@ So, let's get started!
     The next piece of information is the _region or affinity group_ that you want your Blob Storage Account to be located. Microsoft has several Data Centers located across the world, including Anywhere US, South Central US, Anywhere Europe, West Europe, Anywhere Asia, Southeast Asia, East Asia, North Central US, North Europe. Simply pick the region that makes most sense to your location. Click OK.
 
 1. Your Storage Account will now get created. There will be a slight delay as your Account is first "Creating..."
- 
+
     ![Storage Account Creating](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Storage_Account_Creating.png)
 
     Then "Resolving DNS..."
-    
+
     ![Storage Account Resolving DNS](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Storage_Account_Resolving_DNS.png)
-    
+
     But the end result will be your Storage Account will be "Created"
-    
+
     ![Storage Account Created](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Storage_Account_Created.png)
-    
+
 1. If you select your new Storage Account, on the right hand side of the Windows Azure Portal you will see all of the properties for this new Storage Account:
 
     ![Storage Account Properties](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Storage_Account_Properties.png)
-    
+
     The main ones of interest are the "Keys", which we will use later to connect to the Blob Storage Account from WordPress, and the Blob URL. The Blob URL is the publicly routable URL for accessing your Blob Storage account. Any files you upload to the Blob Storage Account will be accessible using this URL as a prefix. As you can see though, this URL is slightly long, and when used in the context of existing website, say gep13.co.uk, it bears no relation to it. However, this is something we can change by applying a Custom Domain to the Storage Account.
 
 1. Select your Storage Account, and then press _Add Domain_, as shown below:
 
     ![Add Custom Domain](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Add_Custom_Domain.png)
-    
+
 1. In the _Add a Custom Domain _Dialog, enter the domain name that you would like to use for this Storage Account. In my case, I wanted to use cdn.gep13.co.uk:
 
     ![Add Custom Domain Name](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Add_Custom_Domain_Name.png)
-    
+
     Press OK.
-    
+
 1. At this point, Windows Azure will begin to create the Custom Domain name:
 
     ![Custom Domain Name being created](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Custom_Domain_Name_being_created.png)
-    
+
 1. Once the initial process for the Custom Domain creation has completed, you will then have to validate that the domain name that you want to use actually belongs to you:
 
     ![Validate Custom Domain Name](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Validate_Custom_Domain_Name.png)
-    
+
     In order to do this, you will need to log into your Domain Registrar and alter the DNS Records for your domain to include a new CNAME record. The details for this record are provided for you, as per the above screenshot, so simply enter these details into your Domain Registrar site. As an example, this is what I had to do:
-    
+
     ![Add Verify Domain to Registrar](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Add_Verify_Domain_to_Registrar.png)
-    
+
     Depending on how your Domain Registrar user interface works, remember to include the "." at the end of the Canonical name, otherwise the DNS Record will not be accepted. Your new DNS record will take a while to propagate across the internet, so in the meantime, simply close the above _Validate Custom Domain_ window, and you will see that your Custom Domain creation is in a _Pending _state:
-    
+
     ![Custom Domain Name Pending](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Custom_Domain_Name_Pending.png)
-    
+
 At this point, you might want to jump to Step 11.
 
 1. Once enough time has passed (I waited a couple of hours) return to the Windows Azure portal and select your domain and click Validate Domain:
 
     ![Validate Custom Domain Name](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Validate_Custom_Domain_Name_001.png)
-    
+
     If everything worked correctly you will see:
-    
+
     ![Domain Validated](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Domain_validated.png)
-    
+
     However, depending on how long you waited, you might see this:
-    
+
     ![Validation Failed](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Validation_Failed.png)
-    
+
     If you do, don’t worry, this simply means that the DNS Settings haven’t finished propagating, so try again later.
 
 1. The only other thing left to do on this side of things is to create another CNAME record which will do the work of redirecting any requests to your Custom Domain, to your Blob Storage Account. All this means is that you need a CNAME record that has something like the following:
 
     ![CNAME for redirect](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/CNAME_for_redirect.png)
-    
+
     This is a redirect from the Custom Domain Name that you created, to the Blob URL for your storage account that was highlighted in Step 5 above. In order to say time, you might want to think about creating this CNAME record at the same time as you create the verify CNAME, that way you won’t have to wait a second lot of propagation time.
 
 # Configure your Blob Storage Account
@@ -110,31 +110,31 @@ At this point, you might want to jump to Step 11.
 1. Open CloudXplorer and select File | Accounts and the _Manage accounts_window opens:
 
     ![Manage Accounts](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Manage_Accounts.png)
-    
+
 1. Click the New... button and then select Windows Azure Account... and the _Windows Azure account _window will open:
 
     ![New Windows Azure Account](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/New_Windows_Azure_Account.png)
-    
+
 1. Using the information from step 5 above, enter the details of the Blob Storage Account that we created, where "Secret Key:" equates to the "Primary Access Key" (simply click View button to bring this up) and Name: is the Name of your Blob Storage Account, i.e. in my case gep13wpstorage.
 
     ![Windows Azure Account Window](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Windows_Azure_Account_Window.png)
-    
+
 1. With the account in place, the first thing we need to do is to create a container within the Blob Storage Account. This will let us compartmentalise files into the correct location. Right click in the right hand window of CloudXplorer and select New | Container...
 
     ![CloudXplorer Create Container](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/CloudXplorer_Create_Container.png)
-    
+
 1. In the _Create directory/container _window, enter the name for your container. I went for "myuploads".
 
     ![Create New Container](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Create_New_Container.png)
-    
+
 1. Now we need to set the properties of the container to allow public access. Right click on the container that you just created and select Properties.
 
     ![Container Properties](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Container_Properties.png)
-    
+
 1. In the myloads Properties window, select the Policies tab and then select "_Full public read access_" in the Access control drop down list, then select ok.
 
     ![Container Policies](https://gep13wpstorage.blob.core.windows.net/gep13/2012/2/8/Container_Policies.png)
-    
+
 # Configure WordPress
 
 At this point, you have a number of options to set up your WordPress site to use Windows Azure as it’s repository for static content. Microsoft have actually released their own WordPress plugin which does just that. If you are interested, you can find this [here](http://wordpress.org/extend/plugins/windows-azure-storage/). I ended up not using this particular plugin. As far as I could see, the onus was on you to manually move the files into your Azure container. Now, this isn’t hard to do, using the CloudXplorer I showed earlier, files can easily be copied into the container, but I wanted something a little more integrated.

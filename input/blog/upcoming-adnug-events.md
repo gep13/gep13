@@ -2,8 +2,8 @@
 Title: Upcoming ADNUG events
 Published: 27/6/2010
 Tags:
-- ADNUG
-- Meetings
+- adnug
+- meetings
 ---
 
 I am happy to inform you that I have been able to confirm another meeting on the 23rd September. Colin Mackay, of Scottish Developers will be doing a talk on SQL Injection, and how to prevent it. Full details of the event can be found here:

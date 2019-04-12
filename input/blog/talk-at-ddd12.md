@@ -2,12 +2,12 @@
 Title: Talk at DDD 12
 Published: 12/6/2017
 Tags:
-- DDD
-- Reading
-- GitHub
-- GitVersion
-- GitReleaseManager
-- Semantic Versioning
+- ddd
+- reading
+- github
+- gitversion
+- gitreleasemanager
+- semantic versioning
 ---
 
 On the 10th June 2017, I had the privelege of being asked to present a session at [DDD 12](http://developerdeveloperdeveloper.com/).  This is a free full day conference that takes place in the Microsoft Offices at Thames Valley Park in Reading.

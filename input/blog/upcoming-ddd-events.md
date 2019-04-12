@@ -2,10 +2,10 @@
 Title: Upcoming DDD Events
 Published: 15/2/2011
 Tags:
-- DDD
-- DDDSCOT
-- DDDSW
-- Events
+- ddd
+- dddscot
+- dddsw
+- events
 ---
 
 Hot on the heels of DDD9 in Reading, there are other DDD related events coming up in the near future.

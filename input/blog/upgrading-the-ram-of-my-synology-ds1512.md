@@ -2,9 +2,9 @@
 Title: Upgrading the RAM of my Synology DS1512+
 Published: 25/4/2013
 Tags:
-- RAM
-- Synology
-- Upgrade
+- ram
+- synology
+- upgrade
 ---
 
 # Increasing my Synology DS1512+ RAM to 3GB

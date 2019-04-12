@@ -2,8 +2,8 @@
 Title: The Feeling Concert
 Published: 14/11/2008
 Tags:
-- Concert
-- The Feeling
+- concert
+- the feeling
 ---
 
 Went along to The Feeling Concert last night at the Music Hall, had a great time, they put on a really good show that had the whole crowd jumping.

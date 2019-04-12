@@ -2,9 +2,9 @@
 Title: VMWare Workstation troubles
 Published: 13/5/2011
 Tags:
-- Virtual Machine
-- Virtual PC
-- VMWare
+- virtual machine
+- virtual pc
+- vmware
 ---
 
 At work, I use Windows 7 as the base operating system for my Desktop machine. It is a reasonably beefy machine, with an Intel i7 CPU and 8GB of RAM. The idea is that we can host multiple VM’s at the same time for development purposes.

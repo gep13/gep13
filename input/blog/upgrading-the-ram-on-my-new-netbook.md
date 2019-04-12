@@ -2,10 +2,10 @@
 Title: Upgrading the RAM on my new NetBook
 Published: 11/8/2011
 Tags:
-- ASUS
-- NetBook
-- RAM
-- Upgrade
+- asus
+- netbook
+- ram
+- upgrade
 ---
 
 Following a comment on a recent [blog post](http://www.gep13.co.uk/blog/my-new-netbook), I went on over to the Crucial website and confirmed that my NetBook was capable of handling 2 GB of RAM, and I was happy to find out that it could. I was even more happy to find out that it was only going to cost me £9.99, plus £2 for shipping bargain.

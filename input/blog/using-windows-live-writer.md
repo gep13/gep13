@@ -2,17 +2,17 @@
 Title: Using Windows Live Writer
 Published: 26/6/2010
 Tags:
-- Microsoft
-- Windows Live Writer
+- microsoft
+- windows live writer
 ---
 
 I have just discovered the Windows Live Writer package which is distributed as one of the Windows Live Essentials packages, along with:
 
-- Photo Gallery 
-- Movie Maker 
-- Mail 
-- Messenger 
-- Family Safety 
+- Photo Gallery
+- Movie Maker
+- Mail
+- Messenger
+- Family Safety
 - Toolbar
 
 You can find more information about it [here](http://explore.live.com/windows-live-writer) and Windows Live Essentials [here](http://explore.live.com/windows-live-essentials?os=other).

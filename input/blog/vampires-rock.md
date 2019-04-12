@@ -2,8 +2,8 @@
 Title: Vampires Rock
 Published: 14/11/2008
 Tags:
-- Meatloaf
-- Vampire Rock
+- meatloaf
+- vampires rock
 ---
 
 Lynn had organised tickets to go and see [Vampires Rock](http://www.vampiresrock.com/index.htm) tonight. I had no idea what it was all about, so had no idea what to expect, but I have to say that it was really good!!!

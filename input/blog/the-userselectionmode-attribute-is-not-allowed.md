@@ -2,10 +2,10 @@
 Title: The UserSelectionMode attribute is not allowed
 Published: 20/7/2010
 Tags:
-- Installation
-- MOSS
-- SharePoint
-- WSS
+- installation
+- moss
+- sharepoint
+- wss
 ---
 
 Yesterday, when trying to deploy a SharePoint Solution onto a server, I was created with an interesting error message:
@@ -20,7 +20,7 @@ Some more googling (or in my case binging) turned up the following MSDN support 
 
 [http://support.microsoft.com/kb/934613](http://support.microsoft.com/kb/934613)
 
-Wow, that sounds exactly like the error that I am currently seeing, but that HotFix was released in 2007, surely that is installed on the server. Long story short, turns out that it wasn’t! 
+Wow, that sounds exactly like the error that I am currently seeing, but that HotFix was released in 2007, surely that is installed on the server. Long story short, turns out that it wasn’t!
 
 On checking the server, Service Pack 2 for Microsoft Windows SharePoint Services was not installed, which as described [here](http://support.microsoft.com/kb/953338) rolls up all the updates (including the HotFix that was required) up to February 2009.
 

@@ -2,8 +2,8 @@
 Title: The Story of Gary The Coconut
 Published: 12/7/2008
 Tags:
-- Birth
-- Gary The Cocunut
+- birth
+- gary the coconut
 ---
 
 Due to the fact that our business Headquarters are in Canada, there are a fair number of Canadians in our Scottish Office. One Friday evening, the Canadians decided that they were going to have a night of Nintendo Wii fun round at the company flat, and I was invited to come along. Initially, I thought that this would be a great idea, so I said that I would come along. However, later that night, my plans changed, and I wasn't able to come along, so I text them to let them know that I wouldn't be attending.

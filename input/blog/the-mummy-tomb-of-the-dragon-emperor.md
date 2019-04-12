@@ -2,8 +2,8 @@
 Title: 'The Mummy: Tomb of the Dragon Emperor'
 Published: 9/8/2008
 Tags:
-- Calgary
-- Movies
+- calgary
+- movies
 ---
 
 Again, let me state, this I am a huge fan of this franchise. Absolutely loved the first two films and even enjoyed the spin off The Scorpion King. However, the new [Mummy](http://www.imdb.com/title/tt0443701/) film was a little bit of a let down.

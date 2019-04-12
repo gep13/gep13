@@ -2,8 +2,8 @@
 Title: VBForums Moderator
 Published: 9/12/2010
 Tags:
-- Moderator
-- VBForums
+- moderator
+- vbforums
 ---
 
 As some of you may know, I have been hanging out at [VB Forums](http://www.vbforums.com/) for a while now, mainly posting in the ASP.Net Forum, and trying to help out where I can. I have been a standard member there since 2004, but I have now become a Moderator on the Forums.

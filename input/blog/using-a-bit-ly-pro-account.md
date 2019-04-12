@@ -4,8 +4,8 @@ Published: 4/2/2011
 Tags:
 - bit.ly
 - bit.ly pro
-- Seesmic
-- URL Shortening
+- seesmic
+- url shortening
 ---
 
 I recently found out (thanks @stack72) that it was possible to register for a bit.ly pro account, which would allow you to set up a custom short domain for shortening url's in things like twitter and blogs posts.

@@ -4,8 +4,8 @@ Published: 9/5/2011
 Tags:
 - build
 - crash
-- Team Foundation Server 2008
-- Visual Studio 2010
+- team foundation server 2008
+- visual studio 2010
 ---
 
 For that last few weeks I have noticed that every time I try to open a build details screen from my Team Foundation Server within Visual Studio 2010 I was greeted with this:

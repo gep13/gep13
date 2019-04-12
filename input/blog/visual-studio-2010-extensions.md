@@ -2,19 +2,19 @@
 Title: Visual Studio 2010 Extensions
 Published: 15/1/2011
 Tags:
-- Extensions
-- Microsoft
-- Visual Studio 2010
+- extensions
+- microsoft
+- visual studio 2010
 ---
 
 Having completed a new install of Visual Studio 2010 I thought I would keep a note of the Extensions that I have added to the default installation, that way I won’t have to try and remember them all if I have to do another install. My memory is bad enough as it is without having to remember anything else!!
 
-- [All-In-One Code Framework Sample Browser](http://visualstudiogallery.msdn.microsoft.com/4934b087-e6cc-44dd-b992-a71f00a2a6df) (more info can be found [here](http://www.gep13.co.uk/blog/all-in-one-code-framework)) 
+- [All-In-One Code Framework Sample Browser](http://visualstudiogallery.msdn.microsoft.com/4934b087-e6cc-44dd-b992-a71f00a2a6df) (more info can be found [here](http://www.gep13.co.uk/blog/all-in-one-code-framework))
 - [Amazon Web Services Toolkit for Visual Studio](http://visualstudiogallery.msdn.microsoft.com/175787af-a563-4306-957b-686b4ee9b497)
 - [CKS - Development Tools Edition (Foundation)](http://visualstudiogallery.msdn.microsoft.com/a346880f-2d29-47a6-84a2-f2d568dd6997)
 - [Color Printing](http://visualstudiogallery.msdn.microsoft.com/00ec88c2-1553-47d2-8170-3c5baa0c6e44/)
 - [CSSCop](http://visualstudiogallery.msdn.microsoft.com/a921b98e-9430-4be2-bf53-1169e12bdb50)
-- [ExtensionSync](http://visualstudiogallery.msdn.microsoft.com/dbaf0ac9-fb7b-4fb3-b34d-ea2269276d3c) (more info can be found [here](http://www.gep13.co.uk/blog/a-tool-to-synchronise-visual-studio-2010-extensions)) 
+- [ExtensionSync](http://visualstudiogallery.msdn.microsoft.com/dbaf0ac9-fb7b-4fb3-b34d-ea2269276d3c) (more info can be found [here](http://www.gep13.co.uk/blog/a-tool-to-synchronise-visual-studio-2010-extensions))
 - [GhostDoc](http://visualstudiogallery.msdn.microsoft.com/46A20578-F0D5-4B1E-B55D-F001A6345748/)
 - [GoOffline](http://visualstudiogallery.msdn.microsoft.com/425f09d8-d070-4ab1-84c1-68fa326190f4?SRC=Home)
 - [Hide Main Menu](http://visualstudiogallery.msdn.microsoft.com/bdbcffca-32a6-4034-8e89-c31b86ad4813)
@@ -35,7 +35,7 @@ Having completed a new install of Visual Studio 2010 I thought I would keep a no
 - [Windows Phone Test Project](http://visualstudiogallery.msdn.microsoft.com/6819514d-4bd6-4f31-a231-48c6530ed03b)
 - [World of VS Default Browser Switcher](http://visualstudiogallery.msdn.microsoft.com/bb424812-f742-41ef-974a-cdac607df921)
 - [World of VS Quick Add Reference](http://visualstudiogallery.msdn.microsoft.com/dc06b54c-b6c4-4cf5-8203-a09c6979e881)
- 
+
 Are there any others that I should get?
 
 Note: I will be updating this blog post as and when I add any other extensions.

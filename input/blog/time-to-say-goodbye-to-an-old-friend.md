@@ -2,11 +2,11 @@
 Title: Time to say goodbye to an old friend
 Published: 2/10/2012
 Tags:
-- Car
-- Elle
-- Focus
-- Ford
-- Zetec S
+- car
+- elle
+- focus
+- ford
+- zetec S
 RedirectFrom: blog/time-to-say-goodbye-to-an-old-friend/index.html
 ---
 

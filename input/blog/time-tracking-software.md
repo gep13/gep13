@@ -2,8 +2,8 @@
 Title: Time Tracking Software
 Published: 1/12/2011
 Tags:
-- Software Packages
-- Time Tracking
+- software packages
+- time tracking
 ---
 
 A few weeks ago I put out a [tweet](https://twitter.com/#!/gep13/status/130396530136981505) asking for recommendations for a piece of software for time tracking:
@@ -27,14 +27,14 @@ What I got back was a wealth of options, including:
 
 My requirements for this are quite simple. The piece of software needed to be:
 
-- **Simple and non-intrusive to use**              
-  - If it is overly complicated to use, or takes a long time to do anything with it, it defies the point what I am trying to achieve 
-- **It has to be free**              
-  - I am doing this as an experiment to track various different tasks, and at the minute, I don’t want to have to fork out money. That doesn’t mean that at some point I wouldn’t transition to a paid service 
-- **It has to be able to provide a report on the time I have spent**             
-  - In order to be useful, I need to be able to produce reports (in preferably multiple formats) of all the hours that I have worked on a task. Preferably, this would be selectable which regard to which projects to add to the report, which days to report on, etc. 
-- **Usable from my mobile**              
-  - It would be good to be able to start and stop timing while on the move and not on my main machine, so having a mobile phone application would be a bonus. 
+- **Simple and non-intrusive to use**
+  - If it is overly complicated to use, or takes a long time to do anything with it, it defies the point what I am trying to achieve
+- **It has to be free**
+  - I am doing this as an experiment to track various different tasks, and at the minute, I don’t want to have to fork out money. That doesn’t mean that at some point I wouldn’t transition to a paid service
+- **It has to be able to provide a report on the time I have spent**
+  - In order to be useful, I need to be able to produce reports (in preferably multiple formats) of all the hours that I have worked on a task. Preferably, this would be selectable which regard to which projects to add to the report, which days to report on, etc.
+- **Usable from my mobile**
+  - It would be good to be able to start and stop timing while on the move and not on my main machine, so having a mobile phone application would be a bonus.
 
 Having looked at the above suggestions, it was clear that it was going to be hard to pick which one to go with. Some I ruled out straight away, based on price and features, others I actually played with before making the final decision.
 

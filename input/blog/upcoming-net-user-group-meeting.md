@@ -2,10 +2,10 @@
 Title: Upcoming .Net User Group Meeting
 Published: 24/9/2010
 Tags:
-- ADNUG
-- General
-- Meetings
-- News
+- adnug
+- general
+- meetings
+- news
 ---
 
 At last nights .Net User Group Meeting, I announced details of our upcoming meeting in November, so I thought I would follow up with additional details here.

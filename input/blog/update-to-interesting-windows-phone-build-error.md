@@ -2,10 +2,10 @@
 Title: Update to interesting Windows Phone Build Error
 Published: 15/1/2013
 Tags:
-- Build Error
-- Windows Phone 7
-- Windows Phone 8
-- WMAppManifest.xml
+- build error
+- windows phone 7
+- windows phone 8
+- wmappmanifest.xml
 ---
 
 # Windows Phone 8 handling of WPAppmanifest.xml has changed in Visual Studio 2012

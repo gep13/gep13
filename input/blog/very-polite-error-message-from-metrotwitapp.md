@@ -2,9 +2,9 @@
 Title: Very polite error message from @metrotwitapp
 Published: 6/6/2011
 Tags:
-- Error
-- MetroTwit
-- Twitter
+- error
+- metrotwit
+- twitter
 ---
 
 Just tried to open MetroTwit this morning and I was greeted with what can only be described as one of the nicest looking, and most polite error messages that I have seen in a while. Here it is:

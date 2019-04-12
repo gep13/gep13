@@ -2,8 +2,8 @@
 Title: Update 7.10.8107.79 for Windows Phone 7 (#WP7)
 Published: 19/1/2012
 Tags:
-- Update
-- Windows Phone 7
+- update
+- windows phone 7
 ---
 
 Today I saw some tweets on Twitter hinting at the fact that a new update was available for Windows Phone, so when I got home tonight I plugged my HTC HD7 phone into my laptop, and sure enough, there was an update available!
@@ -22,7 +22,7 @@ In case it is not clear from the picture this update includes:
 - Revokes digital certificates from DigiCert Sdn Bhd to address an encryption issue.
 - Fixes an email issue related to Microsoft Exchange Server 2003. With this fix, when you reply to or forward a message, the original message is now included in your response.
 - Fixes a voicemail notification issue.
- 
+
 For full information about this update, be sure to check out the site [here](http://www.microsoft.com/windowsphone/en-us/howto/wp7/basics/update-history.aspx).
 
 After doing a quick check that everything was ready to go, I opted to start the update. Thankfully, the installer reminded me of this important fact:

@@ -2,9 +2,9 @@
 Title: VBForums Photography Contest–Results
 Published: 25/2/2011
 Tags:
-- Contest
-- Photography
-- VBForums
+- contest
+- photography
+- vbforums
 ---
 
 The results for the seventh VBForums Photography Contest are now in...

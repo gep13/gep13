@@ -2,10 +2,10 @@
 Title: Trip to Edmonton with Lynn
 Published: 6/8/2008
 Tags:
-- Calgary
-- Edmonton
-- Lynn
-- Mustang
+- calgary
+- edmonton
+- lynn
+- mustang
 ---
 
 Today me and Lynn headed up to Edmonton to check out the West Edmonton Mall. The mall itself was absolutely massive!! I haven't been to anything like it in the UK, it quite simply has everything!! Shops (probably 2-3 of each kind), Ice Skating, Swimming Pool, Roller-Coasters, Food Stalls, Sea Lion shows, everything. You can check out some pictures of the trip below:

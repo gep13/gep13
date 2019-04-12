@@ -2,9 +2,9 @@
 Title: UK MSDN Blog
 Published: 12/9/2010
 Tags:
-- General
-- Microsoft
-- MSDN
+- general
+- microsoft
+- msdn
 ---
 
 Here is a link for your favourites:

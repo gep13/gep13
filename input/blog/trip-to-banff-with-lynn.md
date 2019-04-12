@@ -2,11 +2,11 @@
 Title: Trip to Banff with Lynn
 Published: 30/7/2008
 Tags:
-- Banff
-- Calgary
-- Helicopter
-- Lake Louise
-- Lynn
+- banff
+- calgary
+- helicopter
+- lake louise
+- lynn
 ---
 
 Me and Lynn took a few days to travel up to Banff to do some of the touristy things.

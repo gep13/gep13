@@ -2,9 +2,9 @@
 Title: These things are addictive...
 Published: 22/8/2011
 Tags:
-- Focus
-- Magnets
-- Stress
+- focus
+- magnets
+- stress
 ---
 
 I don’t know about you, but I am the kind of person that when I am thinking things through, I have to be “playing” with something.

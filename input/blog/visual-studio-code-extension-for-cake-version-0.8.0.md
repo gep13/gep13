@@ -2,9 +2,9 @@
 Title: Version 0.8.0 of the Visual Studio Code extension for Cake
 Published: 21/7/2017
 Tags:
-- Extension
-- Visual Studio Code
-- Cake
+- extension
+- visual studio code
+- cake
 ---
 
 We are very happy to announce that a new version, 0.8.0, of the Visual Studio Code extension for Cake has just been released.  This release includes two main new features and one improvement.  These features really came about with the [June release](https://code.visualstudio.com/updates/v1_14#_tasks) of Visual Studio Code, which brought with it a new Tasks API, making it possible for extension authors to "auto detect" tasks for execution.

@@ -2,8 +2,8 @@
 Title: techmeetup in Aberdeen
 Published: 21/11/2010
 Tags:
-- Aberdeen
-- Meetings
+- aberdeen
+- meetings
 - techmeetup
 ---
 

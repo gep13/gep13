@@ -2,8 +2,8 @@
 Title: The Happening and The Incredible Hulk
 Published: 14/6/2008
 Tags:
-- Calgary
-- Movies
+- calgary
+- movies
 ---
 
 I went to see two films today....

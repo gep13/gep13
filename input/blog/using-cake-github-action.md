@@ -2,10 +2,10 @@
 Title: Using Cake GitHub Action
 Published: 15/12/2018
 Tags:
-- GitHub
-- Actions
-- Cake
-- Automation
+- github
+- actions
+- cake
+- automation
 ---
 
 In [yesterdays blog post](https://www.gep13.co.uk/blog/getting-started-with-github-actions) I described how I had been able to create a custom GitHub Action to execute a target from a  [Cake](https://cakebuild.net/) script.  To follow up on that, I thought it would be good to show how you can actually make use of this custom action, to achieve something useful in terms of a GitHub Action.

@@ -2,9 +2,9 @@
 Title: Using a WP7 to automate my house...
 Published: 14/5/2011
 Tags:
-- HttpWebRequest
-- Windows Phone 7
-- Wireless Router
+- httpwebrequest
+- windows phone 7
+- wireless router
 ---
 
 Ok, that is clearly a little bit of an exaggeration, I haven’t automated my whole house, but I have automated a very small portion of it. What am I talking about? And why am I writing a blog about it? Read on, and all will be revealed :)

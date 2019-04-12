@@ -2,8 +2,8 @@
 Title: Very much looking forward to @GiveCampUK...
 Published: 4/7/2011
 Tags:
-- Community
-- GiveCampUK
+- community
+- givecampuk
 ---
 
 In case you haven’t heard about it, there is a very exciting event coming up on the weekend of the 21st October 2011. It’s called GiveCampUK:

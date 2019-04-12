@@ -2,9 +2,9 @@
 Title: Use the Cloud9 online IDE to hack on WordPress
 Published: 31/1/2012
 Tags:
-- Cloud9
-- Online IDE
-- WordPress
+- cloud9
+- online ide
+- wordpress
 ---
 
 As some of you may know, I have been _hacking_ on this WordPress blog site recently.  The decision to "improve" this site has really come from the realisation that WordPress is actually very good at what it does, and I am going to [continue using it for the foreseeable future](http://www.gep13.co.uk/blog/continue-using-wordpress-or-not).  With that in mind, there were a few things that were annoying me about the site, so I started digging around the innards of WordPress to figure out what could be changed, and more importantly, how to do it.  To start with, this was done using the always useful FTP application, [FileZilla](http://filezilla-project.org/).  I would download a .php file locally, make some changes to it, and then upload it again.  This cycle repeated for a few iterations, until I realised that there _must_ be a better way to do this!

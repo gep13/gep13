@@ -2,9 +2,9 @@
 Title: Time to vote for the VB Forums Photography Contest
 Published: 15/2/2011
 Tags:
-- Contest
-- Photography
-- VBForums
+- contest
+- photography
+- vbforums
 ---
 
 All of the entries are now in for the VB Forums photography contest.  You can see all the entries here:

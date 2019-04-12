@@ -2,10 +2,10 @@
 Title: Update 7.10.7720.68 for Windows Phone 7 (#WP7)
 Published: 22/11/2011
 Tags:
-- Internet
-- Tether
-- Update
-- Windows Phone 7
+- internet
+- tether
+- update
+- windows phone 7
 ---
 
 With one thing and another (mainly work), I have not been keeping up with news about my beloved HTC HD7, running Windows Phone 7.  So last Friday when a message popped up on my phone to say that there was an update available for it, I was a bit surprised.  I turned to Twitter to ask a question about what the update was for (ok, I was being lazy), and the answer that I got back was it was a [bug fix release for Exchange and Voicemail](http://www.winrumors.com/microsoft-rolling-out-windows-phone-update-to-fix-exchange-and-voicemail-bugs/).
