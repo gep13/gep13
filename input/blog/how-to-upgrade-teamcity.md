@@ -2,8 +2,8 @@
 Title: How to upgrade TeamCity
 Published: 7/2/2013
 Tags:
-- TeamCity
-- Upgrade
+- teamcity
+- upgrade
 ---
 
 # It's a snap!

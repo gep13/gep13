@@ -2,10 +2,10 @@
 Title: Introducing a Postman Collection for AppVeyor
 Published: 18/8/2017
 Tags:
-- AppVeyor
-- API
-- Postman
-- JSON
+- appveyor
+- api
+- postman
+- json
 ---
 
 For a while now, I have been hacking on the AppVeyor API.  This has been in order to setup some automation between the various GitHub Teams that I have, and the AppVeyor Roles that allow access to the projects in AppVeyor.  This can of course be done manually, but when you start having over 30 teams, and over 70 projects, this becomes a bit of a problem.

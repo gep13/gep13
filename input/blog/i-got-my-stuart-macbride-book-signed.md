@@ -2,10 +2,10 @@
 Title: I got my Stuart MacBride book signed
 Published: 17/1/2012
 Tags:
-- Aberdeen
-- Crime
-- Signing
-- Stuart MacBride
+- aberdeen
+- crime
+- signing
+- stuart macbride
 ---
 
 As most of you will know, I have been a long time fan of the author Stuart MacBride. As shown [here](http://www.gep13.co.uk/blog/stuart-macbride-broken-skin), [here](http://www.gep13.co.uk/blog/stuart-macbride-flesh-house) and [here](http://www.gep13.co.uk/blog/new-stuartmacbride-book-available-for-pre-order).

@@ -2,8 +2,8 @@
 Title: Installing macOS Mojave
 Published: 23/10/2018
 Tags:
-- macOS
-- Mojave
+- macos
+- mojave
 ---
 
 A few days ago, I got this notification on my Mac:

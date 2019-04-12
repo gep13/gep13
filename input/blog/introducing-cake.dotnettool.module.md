@@ -2,12 +2,12 @@
 Title: Introducing the Cake.DotNetTool.Module
 Published: 12/10/2018
 Tags:
-- Cake
-- Cake-Contrib
-- DotNet
-- Modules
-- Automation
-- Build
+- cake
+- cake-contrib
+- dotNet
+- modules
+- automation
+- build
 ---
 
 # What is it?

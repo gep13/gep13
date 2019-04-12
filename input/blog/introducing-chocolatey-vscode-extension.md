@@ -2,11 +2,11 @@
 Title: Introducing the Chocolatey VS Code Extension
 Published: 25/11/2018
 Tags:
-- Chocolatey
-- VS Code
-- Extension
-- Automation
-- Windows
+- chocolatey
+- vs code
+- extension
+- automation
+- windows
 ---
 
 This announcement blog post is a "little" late.  The first version of this [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode) was created back in January 2016, however, it is only recently that it has been given a new lease of life, with some additional functionality around executing Chocolatey commands from within VS Code.  As a result, I thought this was a good time to introduce it properly.

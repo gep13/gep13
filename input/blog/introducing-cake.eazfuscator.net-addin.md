@@ -2,12 +2,12 @@
 Title: Introducing the Cake.Eazfuscator.Net Addin
 Published: 20/06/2018
 Tags:
-- Cake
-- Cake-Contrib
-- Eazfuscator.Net
-- Addins
-- Automation
-- Build
+- aake
+- cake-contrib
+- eazfuscator.net
+- addins
+- automation
+- build
 ---
 
 # What is it?

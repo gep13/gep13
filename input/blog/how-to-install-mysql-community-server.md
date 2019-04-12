@@ -5,7 +5,7 @@ Tags:
 - chocolatey
 - database
 - mysql
-- Series
+- series
 RedirectFrom: blog/how-to-install-mysql-community-server/index.html
 ---
 

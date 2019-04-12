@@ -2,9 +2,9 @@
 Title: How many spam comments do you get on your blog?
 Published: 11/12/2011
 Tags:
-- Blog
-- Comments
-- Spam
+- blog
+- comments
+- spam
 ---
 
 For the last three months, the about of spam comments that I have been getting on my blog has been steadily increasing, as you can see here.

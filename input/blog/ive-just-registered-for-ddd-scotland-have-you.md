@@ -2,12 +2,12 @@
 Title: I’ve just registered for DDD Scotland, have you?
 Published: 14/3/2011
 Tags:
-- DDD
-- DDDSCOT
-- Events
+- ddd
+- dddscot
+- events
 ---
 
-![](http://www.dddsouthwest.com/images/DDDScotland.png)  
+![](http://www.dddsouthwest.com/images/DDDScotland.png)
 
 I have just secured my place at the upcoming DDD Scotland Event, which is taking place at the Glasgow Caledonian University on Saturday, 7th May 2011. If you haven’t already done so, you can register for the event [here](http://developerdeveloperdeveloper.com/scotland2011/Register.aspx).
 

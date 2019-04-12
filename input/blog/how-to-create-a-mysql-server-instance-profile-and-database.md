@@ -8,7 +8,7 @@ Tags:
 - mysql
 - permissions
 - schema
-- Series
+- series
 - user
 RedirectFrom: blog/how-to-create-a-mysql-server-instance-profile-and-database/index.html
 ---

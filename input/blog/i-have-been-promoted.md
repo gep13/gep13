@@ -2,9 +2,9 @@
 Title: I have been promoted...
 Published: 22/2/2011
 Tags:
-- Moderator
-- News
-- VBForums
+- moderator
+- news
+- vbforums
 ---
 
 Unfortunately, it is not at work, and it also doesn’t involved a pay rise, but...
@@ -13,4 +13,4 @@ I have been promoted from a “Moderator” to a “Super Moderator” over at [
 
 I was given the title of Moderator back in December, and I guess I have been doing a good job, as I have been given the role of Super Moderator (admittedly, I had asked to become a Moderator in the above mentioned Forums, but I wasn’t expecting to be given the elevated title).
 
-Still trying to work out exactly what additional capabilities this gives me on the site, but I am sure that I will figure it out as I go. 
+Still trying to work out exactly what additional capabilities this gives me on the site, but I am sure that I will figure it out as I go.

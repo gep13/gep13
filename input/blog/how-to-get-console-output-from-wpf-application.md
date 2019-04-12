@@ -2,9 +2,9 @@
 Title: How to get console output from a WPF application
 Published: 16/7/2018
 Tags:
-- WPF
-- Console
-- Chocolatey GUI
+- wpf
+- console
+- chocolatey gui
 ---
 
 While implementing a recent feature addition to [Chocolatey GUI](https://github.com/chocolatey/ChocolateyGUI/pull/613), I stumbled across something that I thought was blog worthy, so I thought I would add some notes here for future me.

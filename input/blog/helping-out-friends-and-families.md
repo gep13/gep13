@@ -2,10 +2,10 @@
 Title: Helping out friends and families
 Published: 28/9/2010
 Tags:
-- General
-- LogMeIn
-- Remote Assistance
-- ShowMeWhatsWrong
+- general
+- logmein
+- remote assistance
+- showmewhatswrong
 ---
 
 For a long time, I have been an avid user of logmein, and I love it!!

@@ -2,12 +2,12 @@
 Title: Introducing the Chocolatey Azure DevOps Extension
 Published: 25/11/2018
 Tags:
-- Chocolatey
-- Azure DevOps
-- Pipelines
-- Extension
-- Automation
-- Windows
+- chocolatey
+- azure devops
+- pipelines
+- extension
+- automation
+- windows
 ---
 
 Unlike my last [blog post](https://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension), this announcement is up to date!  Yesterday, I released the [Chocolatey Extension for Azure DevOps](https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops) which helps to execute Chocolatey commands as part of your Azure DevOps Pipelines.

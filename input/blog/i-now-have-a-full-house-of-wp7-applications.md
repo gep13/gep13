@@ -2,8 +2,8 @@
 Title: I now have a full house of WP7 applications!
 Published: 18/12/2011
 Tags:
-- Applications
-- Windows Phone 7
+- applications
+- windows phone 7
 ---
 
 ![Full House of Applications](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/18/DSCF5126.jpg)

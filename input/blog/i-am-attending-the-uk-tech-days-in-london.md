@@ -2,18 +2,18 @@
 Title: I am attending the UK Tech days in London
 Published: 18/1/2012
 Tags:
-- UK Tech Days
-- Windows Azure
-- Windows Phone 7
+- uk Tech days
+- windows azure
+- windows phone 7
 ---
 
 With reference to my [list of events here](http://www.gep13.co.uk/blog/uk-developer-events-for-2012), I am happy to say that today I finished getting everything booked for attending the UK Tech Days, in London in February.
- 
+
 Microsoft are putting on two events:
 
 - [Windows Azure Bootcamp – 3rd February 2012](http://uktechdays.cloudapp.net/upcoming-events/windows-azure-bootcamp-(london).aspx)
 - [Windows Phone Camp – 4th February 2012](http://uktechdays.cloudapp.net/upcoming-events/windows-phone-camp-(london).aspx)
- 
+
 **NOTE: If you can’t make the London events, the events are being repeated in Bristol the following week. Information [here](http://uktechdays.cloudapp.net/upcoming-events/windows-azure-bootcamp-(bristol).aspx) and [here](http://uktechdays.cloudapp.net/upcoming-events/windows-phone-camp-(bristol).aspx).**
 
 Now that the hassle of getting the flights etc. booked has passed, I am very much looking forward to both of these events!

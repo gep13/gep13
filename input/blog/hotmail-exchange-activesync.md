@@ -2,10 +2,10 @@
 Title: Hotmail Exchange ActiveSync
 Published: 12/9/2010
 Tags:
-- General
-- Microsoft
-- Outlook
-- Windows Mobile
+- general
+- microsoft
+- outlook
+- windows mobile
 ---
 
 For a while now, I have been trying to find a way to become more organized. I tend to use Outlook on my work computer as the central hub of all my information, from tasks, to mail, to contacts, to my calendar. With that in place, I then synchronized all of this information to my phone using an ActiveSync connection to my works Exchange Server.

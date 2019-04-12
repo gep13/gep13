@@ -2,11 +2,11 @@
 Title: Introducing the CI/CD Assets Repository and VS Code Extension
 Published: 28/12/2018
 Tags:
-- CI
-- CD
-- GitHub
-- VS Code
-- Extension
+- ci
+- cd
+- github
+- vs code
+- extension
 ---
 
 This is an announcement blog post for the [repository](https://github.com/gep13/CI-CD-assets) and [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=gep13.ci-cd-assets-vscode) that I created yesterday.

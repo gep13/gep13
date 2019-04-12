@@ -2,8 +2,8 @@
 Title: I feel I am missing some applications...
 Published: 10/12/2011
 Tags:
-- Applications
-- Windows Phone 7
+- applications
+- windows phone 7
 ---
 
 ![Missing Applications](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/10/DSCF5120.jpg)

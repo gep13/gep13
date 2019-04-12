@@ -3,9 +3,9 @@ Title: How to keep Chocolatey Pull Request tidy, and up to date
 Published: 26/4/2013
 Tags:
 - chocolatey
-- Git
-- GitHub
-- Rebase
+- git
+- github
+- rebase
 ---
 
 # My adventures in updating my Chocolatey Pull Request

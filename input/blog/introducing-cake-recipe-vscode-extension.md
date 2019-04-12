@@ -2,11 +2,11 @@
 Title: Introducing the Cake.Recipe VS Code Extension
 Published: 29/12/2018
 Tags:
-- Cake.Recipe
-- Cake
-- GitHub
-- VS Code
-- Extension
+- cake.recipe
+- cake
+- github
+- vs code
+- extension
 ---
 
 This is an announcement blog post for the [Cake.Recipe VS Code Extension](https://marketplace.visualstudio.com/items?itemName=gep13.cakerecipe-vscode) that I created recently.

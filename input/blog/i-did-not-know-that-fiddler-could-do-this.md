@@ -2,10 +2,10 @@
 Title: I did not know that Fiddler could do this...
 Published: 7/7/2011
 Tags:
-- Features
-- Fiddler
-- HTTP
-- Process
+- features
+- fiddler
+- http
+- process
 ---
 
 One of the most essential tools for working on web development is Fiddler:
@@ -13,7 +13,7 @@ One of the most essential tools for working on web development is Fiddler:
 [http://www.fiddler2.com/fiddler2/](http://www.fiddler2.com/fiddler2/)
 
 For those who don’t know:
- 
+
 > Fiddler is a Web Debugging Proxy which logs all HTTP(S) traffic between your computer and the Internet. Fiddler allows you to inspect all HTTP(S) traffic, set breakpoints, and "fiddle" with incoming or outgoing data. Fiddler includes a powerful event-based scripting subsystem, and can be extended using any .NET language.
 
 This tool has helped me out in a number of situations, and it is actually one of the first things that I [install on my machine](http://www.gep13.co.uk/blog/comprehensive-list-of-applicationsconfigurations-for-new-pc) if I ever need to rebuild it.
@@ -24,17 +24,17 @@ The other day when using Fiddler I was blown away by a feature that I had not se
 
 1. Open your web browser ready for inspecting traffic
 1. Open Fiddler
-1. Find the “Process Filter” toolbar item in the main toolbar       
+1. Find the “Process Filter” toolbar item in the main toolbar
 
-    ![Fiddler Process Filter](https://gep13wpstorage.blob.core.windows.net/gep13/2011/7/7/image.png)       
+    ![Fiddler Process Filter](https://gep13wpstorage.blob.core.windows.net/gep13/2011/7/7/image.png)
 
-1. Hover your mouse hover this and you will see the following tooltip which pretty much explains it all. Click your mouse on the “Process Filter” button and the text will change to say “pick target...” and the icon will change to be a cross hair.       
+1. Hover your mouse hover this and you will see the following tooltip which pretty much explains it all. Click your mouse on the “Process Filter” button and the text will change to say “pick target...” and the icon will change to be a cross hair.
 
-    ![Click and Drag](https://gep13wpstorage.blob.core.windows.net/gep13/2011/7/7/image1.png)       
+    ![Click and Drag](https://gep13wpstorage.blob.core.windows.net/gep13/2011/7/7/image1.png)
 
-1. With the left mouse button still held down, move the mouse to the window (process) that you want to filter the HTTP target from. In this case, it is the web browser that you opened in step 1, but it could equally be any other application that is communicating over HTTP. 
-1. The “Process Filter” button will change again to show the process id that it is filtering HTTP traffic from       
-    ![Filter in place](https://gep13wpstorage.blob.core.windows.net/gep13/2011/7/7/image2.png)       
+1. With the left mouse button still held down, move the mouse to the window (process) that you want to filter the HTTP target from. In this case, it is the web browser that you opened in step 1, but it could equally be any other application that is communicating over HTTP.
+1. The “Process Filter” button will change again to show the process id that it is filtering HTTP traffic from
+    ![Filter in place](https://gep13wpstorage.blob.core.windows.net/gep13/2011/7/7/image2.png)
 
 1. Once you are finished, simply left click the “Process Filter” toolbar item again and the filter will be removed.
 

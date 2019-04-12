@@ -2,10 +2,10 @@
 Title: Hacktoberfest Meetup 2018
 Published: 26/09/2018
 Tags:
-- Aberdeen Developers
-- Meetup
-- Hacktoberfest
-- OSS
+- aberdeen developers
+- meetup
+- hacktoberfest
+- oss
 ---
 
 Aberdeen Developers .Net User Group are proud to be hosting a Hacktoberfest event on the 4th October 2018.  Full details of the event can be found on the [Meetup page](https://www.meetup.com/Aberdeen-Developers-NET-User-Group/events/254881639/).

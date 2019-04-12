@@ -2,10 +2,10 @@
 Title: Introducing the Cake.VsCode.Recipe Package
 Published: 17/02/2019
 Tags:
-- Cake
-- VsCode
-- Scripts
-- Automation
+- cake
+- vs code
+- scripts
+- automation
 ---
 
 This post is about the newly released [Cake.VsCode.Recipe](https://www.nuget.org/packages/Cake.VsCode.Recipe/) package.

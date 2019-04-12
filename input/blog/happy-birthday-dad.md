@@ -2,8 +2,8 @@
 Title: Happy Birthday Dad
 Published: 30/11/2016
 Tags:
-- Birthday
-- Family
+- birthday
+- family
 ---
 
 # Best present ever!

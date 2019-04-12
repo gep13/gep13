@@ -2,11 +2,11 @@
 Title: How to run Octobox on Synology Server using Docker
 Published: 13/3/2017
 Tags:
-- GitHub
-- Notifications
-- OSS
-- Octobox
-- Synology
+- github
+- notifications
+- oss
+- octobox
+- synology
 ---
 
 # What is Octobox?
@@ -36,7 +36,7 @@ It is not a very difficult concept, but the way it is implemented is VERY compel
 
 # Enough already, how to we use it?
 
-There are a couple options here...  
+There are a couple options here...
 
 Firstly, you can use the shared instance at http://octobox.io, however, this is limited in some functionality due to not being able to use shared key.
 

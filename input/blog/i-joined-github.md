@@ -2,8 +2,8 @@
 Title: I joined GitHub
 Published: 18/12/2011
 Tags:
-- GitHub
-- Open Source
+- github
+- open source
 ---
 
 # Starting my foray into Open Source

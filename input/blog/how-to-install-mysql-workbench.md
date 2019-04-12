@@ -5,7 +5,7 @@ Tags:
 - chocolatey
 - database
 - mysql
-- Series
+- series
 - workbench
 RedirectFrom: blog/how-to-install-mysql-workbench/index.html
 ---

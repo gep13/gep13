@@ -2,9 +2,9 @@
 Title: I am a Microsoft MVP
 Published: 02/07/2017
 Tags:
-- Microsoft
-- MVP
-- Award
+- microsoft
+- mvp
+- award
 ---
 
 I am very happy to announce that yesterday, [along with 35 other new people, and nearly 1400 renewed people](https://blogs.msdn.microsoft.com/mvpawardprogram/2017/07/01/congratulations-mvps-july-17/?utm_source=t.co&utm_medium=referral), I was awarded with a Microsoft MVP Award!

@@ -2,12 +2,12 @@
 Title: Introducing Cake.Chocolatey.Module
 Published: 18/3/2017
 Tags:
-- Cake
-- Cake-Contrib
-- Chocolatey
-- Modules
-- Automation
-- Build
+- cake
+- cake-contrib
+- chocolatey
+- modules
+- automation
+- build
 ---
 
 # Or as I like to call it...
@@ -16,7 +16,7 @@ The Chocolatey Cake Module!
 
 # What is it?
 
-Back in version [0.13.0](https://github.com/cake-build/cake/releases/tag/v0.13.0) of Cake a feature known as [Module Support](https://github.com/cake-build/cake/issues/646) was released.  This provided the ability to both extend and replace some of the built in functionality of Cake.  
+Back in version [0.13.0](https://github.com/cake-build/cake/releases/tag/v0.13.0) of Cake a feature known as [Module Support](https://github.com/cake-build/cake/issues/646) was released.  This provided the ability to both extend and replace some of the built in functionality of Cake.
 
 One of these extension points is the registration of [IPackageInstaller](http://cakebuild.net/api/Cake.Core.Packaging/IPackageInstaller/)'s, which deal with installing tools and addins during the Cake Script execution.  The Chocolatey Cake Module provide the extension point to allow tools to be resolved using Chocolatey.
 
@@ -24,7 +24,7 @@ One of these extension points is the registration of [IPackageInstaller](http://
 
 # Why is this needed?
 
-Out of the box, Cake has the ability to install tools and addins from any NuGet source.  This is documented on the [Cake Website](http://cakebuild.net/docs/fundamentals/preprocessor-directives).  Recently, [Larz White](https://github.com/larzw) [showed](http://cakebuild.net/blog/2017/01/cake-paket) how it was possible to use an alternative package manager, namely [Paket](https://fsprojects.github.io/Paket/) to install those tools and addins.  
+Out of the box, Cake has the ability to install tools and addins from any NuGet source.  This is documented on the [Cake Website](http://cakebuild.net/docs/fundamentals/preprocessor-directives).  Recently, [Larz White](https://github.com/larzw) [showed](http://cakebuild.net/blog/2017/01/cake-paket) how it was possible to use an alternative package manager, namely [Paket](https://fsprojects.github.io/Paket/) to install those tools and addins.
 
 However, not all tools that you require for your build may be available as NuGet Packages.  This leaves you with two options (there are likely more, but for the purposes of this discussion, let's stick to two), you could either pre-install the required tools onto the build machine that you are using, or look to install those tools through a custom script, perhaps through something like [Chocolatey](https://chocolatey.org/).
 

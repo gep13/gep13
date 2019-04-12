@@ -2,9 +2,9 @@
 Title: Helicopter flying lesson
 Published: 26/7/2010
 Tags:
-- General
-- Helicopter
-- Personal
+- general
+- helicopter
+- personal
 ---
 
 For my birthday last year I got a helicopter trial flying lesson from my girlfriend, now fiance, (best birthday present ever!!), and yesterday was the day when I finally took it.

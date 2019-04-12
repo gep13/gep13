@@ -3,8 +3,8 @@ Title: How to use AppVeyor Build Cache
 Published: 23/7/2017
 Tags:
 - how to
-- AppVeyor
-- Build Cache
+- appveyor
+- build cache
 ---
 
 Another important feature offered by AppVeyor is it's [Build Cache](https://www.appveyor.com/docs/build-cache/).  Due to the fact that every AppVeyor build uses a fresh copy of the Build Agent Virtual Machine, any files and folders that were created as part of the build are not persisted between project builds.

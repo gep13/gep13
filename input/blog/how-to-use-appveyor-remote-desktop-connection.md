@@ -3,10 +3,10 @@ Title: How to use AppVeyor Remote Desktop Connection
 Published: 23/7/2017
 Tags:
 - how to
-- AppVeyor
-- RDP
-- Remote Desktop Connection
-- Build
+- appveyor
+- rdp
+- remote desktop connection
+- build
 ---
 
 One of the best things about AppVeyor is that it is a **completely online Continuous Integration Server**.  You as a user don't have to worry about installing the latest version of it, or applying security patches, etc.  You can simply get on with the task at hand.  However, one of the worst things about AppVeyor is that it is a **completely online Continuous Integration Server**.  Those times when the build isn't working, and you have no idea why, it can be difficult to figure it out solely based on the output logs.

@@ -2,12 +2,12 @@
 Title: Hell Boy 2 and Dark Knight
 Published: 19/7/2008
 Tags:
-- Calgary
-- Movies
+- calgary
+- movies
 ---
 
 Had a little bit of a movie marathon today, went to see both:
-  
+
 - [Hell Boy II: The Golden Army](http://www.imdb.com/title/tt0411477/)
 - [The Dark Knight](http://www.imdb.com/title/tt0468569/)
 

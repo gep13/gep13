@@ -3,14 +3,14 @@ Title: How to configure TeamCity NuGet Server
 Published: 5/2/2013
 Tags:
 - chocolatey
-- Nuget
-- TeamCity
+- nuget
+- teamcity
 ---
 
 # What is TeamCity NuGet Server?
 
 Within TeamCity, it is possible to integrate the NuGet Package Manager, which then allows you to:
-	
+
 > - Install and update packages: [NuGet Installer](http://confluence.jetbrains.com/display/TCD7/NuGet+Installer) build runner;
 > - Pack packages: [NuGet Pack](http://confluence.jetbrains.com/display/TCD7/NuGet+Pack) build runner;
 > - Publish packages to a feed of your choice: [NuGet Publish](http://confluence.jetbrains.com/display/TCD7/NuGet+Publish) build runner. Alternatively you can use TeamCity as NuGet server.

@@ -2,12 +2,12 @@
 Title: Introducing the Cake.Discord Addin
 Published: 28/10/2018
 Tags:
-- Cake
-- Cake-Contrib
-- Discord
-- Addins
-- Automation
-- Build
+- cake
+- cake-contrib
+- discord
+- addins
+- automation
+- build
 ---
 
 # What is it?

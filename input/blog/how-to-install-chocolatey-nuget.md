@@ -3,9 +3,9 @@ Title: How to install chocolatey nuget
 Published: 4/1/2013
 Tags:
 - chocolatey
-- Installation
+- installation
 - package manager
-- Series
+- series
 RedirectFrom: blog/how-to-install-chocolatey-nuget/index.html
 ---
 

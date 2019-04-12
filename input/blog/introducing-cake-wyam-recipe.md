@@ -2,10 +2,10 @@
 Title: Introducing the Cake.Wyam.Recipe Package
 Published: 06/12/2018
 Tags:
-- Cake
-- Wyam
-- Scripts
-- Automation
+- cake
+- wyam
+- scripts
+- automation
 ---
 
 This is another of those announcement blog posts that is a little on the "late" side.  This post is about the [Cake.Wyam.Recipe](https://www.nuget.org/packages/Cake.Wyam.Recipe/) package, which was first released back in May 2017.  Now, in it's sixth release, I thought it was about time to tell people about it.  Better late than never...

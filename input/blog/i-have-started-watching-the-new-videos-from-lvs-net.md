@@ -2,7 +2,7 @@
 Title: I have started watching the new videos from LVS.Net
 Published: 9/1/2011
 Tags:
-- LearnVisualStudio
+- learnvisualstudio
 ---
 
 As some of you will know, I have a lifetime subscription to the following site:

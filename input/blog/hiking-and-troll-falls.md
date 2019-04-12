@@ -2,8 +2,8 @@
 Title: Hiking and Troll Falls
 Published: 15/6/2008
 Tags:
-- Calgary
-- Hiking
+- calgary
+- hiking
 ---
 
 I was invited to go hiking today with Nick from the office.
