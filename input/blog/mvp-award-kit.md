@@ -2,9 +2,9 @@
 Title: MVP Award Kit
 Published: 25/7/2017
 Tags:
-- MVP
-- Award
-- Kit
+- mvp
+- award
+- kit
 ---
 
 At the end of last week, I received my MVP Award Kit from Microsoft, but I am really only just now getting a chance to sit down and have a proper look at it.

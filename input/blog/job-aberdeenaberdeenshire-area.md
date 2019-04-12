@@ -2,9 +2,9 @@
 Title: 'Job: Aberdeen/Aberdeenshire area'
 Published: 27/4/2011
 Tags:
-- Aberdeen
-- Delphi
-- Job Oppurtunity
+- aberdeen
+- delphi
+- job opportunity
 ---
 
 Through the [Aberdeen Developers website](http://www.aberdeendevelopers.co.uk/) I have been made aware of a job vacancy in the Aberdeen area.

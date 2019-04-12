@@ -2,15 +2,15 @@
 Title: Lloyds TSB scam email
 Published: 9/11/2010
 Tags:
-- Email
-- Scams
-- Tips and Tricks
+- email
+- scams
+- tips and tricks
 ---
 
 In the last two weeks, I have had two emails claiming to be from my Lloyds TSB online account. In them, they tell me that due to “suspicious” activity on my online account (log ins from multiple IP addresses) my account has been temporarily limited, and I need to take one of two courses of action:
 
-1. Click on the provided link to log into my account and re-enable it. 
-1. Complete the attachment 
+1. Click on the provided link to log into my account and re-enable it.
+1. Complete the attachment
 
 Now, both of the above things made me a little suspicious, but looking at the email closer, there were a few tell tale signs that this was a scam email, and that it should be deleted and not looked at.
 
@@ -20,9 +20,9 @@ Firstly, the “from” address of the email:
 
 You should notice a couple things from the above:
 
-1. It is from “Loyds TSB”. This is a spelling mistake, and would unlikely happen on a legitimate email. 
-1. The registered domain name is also incorrect @loydstsb.com 
-1. The user name for the email is “supporti”. Again, this is unlikely in a legitimate email. 
+1. It is from “Loyds TSB”. This is a spelling mistake, and would unlikely happen on a legitimate email.
+1. The registered domain name is also incorrect @loydstsb.com
+1. The user name for the email is “supporti”. Again, this is unlikely in a legitimate email.
 
 Looking in to the body of the email, I was then presented with:
 

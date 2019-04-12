@@ -2,9 +2,9 @@
 Title: Matrikon Christmas Party
 Published: 6/12/2008
 Tags:
-- Christmas
-- Matrikon
-- Party
+- christmas
+- matrikon
+- party
 ---
 
 Last night was the Matrikon Christmas Party, and it was at the Ardoe House Hotel. We had 7 tables, and there were a number of other companies there as well, so it was a good atmosphere.

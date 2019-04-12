@@ -3,8 +3,8 @@ Title: Just updated this blog to WordPress 3.3
 Published: 13/12/2011
 Tags:
 - '3.3'
-- Updates
-- WordPress
+- updates
+- wordpress
 ---
 
 Thanks to a tweet from Richard Hay ([@WinObs](https://twitter.com/#!/WinObs)), I have just updated this WordPress blog to WordPress 3.3.  As always the installation was painless, and the new look and feel is very nice!  Might take a bit of getting used to, but in a good way.

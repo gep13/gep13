@@ -2,9 +2,9 @@
 Title: Mouse without Borders
 Published: 13/10/2011
 Tags:
-- Computer
-- Desktop
-- Laptop
+- computer
+- desktop
+- laptop
 ---
 
 Like most geeks, I have both a desktop PC and a laptop (if I am being honest, I also have a NetBook as well). From time to time, I will be using these at the same time. Whether it is to do the monthly virus scans and updates, or whether it is transferring files between the two, etc.

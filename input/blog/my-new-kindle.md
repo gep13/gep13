@@ -2,9 +2,9 @@
 Title: My New Kindle
 Published: 23/2/2011
 Tags:
-- Amazon
-- Gadgets
-- Kindle
+- amazon
+- gadgets
+- kindle
 ---
 
 Yesterday I got my shiny new Amazon Kindle!
@@ -25,7 +25,7 @@ I opted to go for the standard wifi version, rather than the 3G one. This was fo
 
 - I have heard reports about significant differences in battery life between the two.
 - I don’t think I would ever be in a situation where I was somewhere where I “had” to buy a book. I could happily wait to get back to the house/work where I could hook up to the wireless
- 
+
 After powering the device on, I hooked it up to the wireless and made sure that it was registered to me (when you purchase the Kindle, it is automatically registered to the Amazon account that is purchased by, this can be changed though), and it was.
 
 With that in place, I set about trying to get some of my existing eBooks on to the device. The question is, how do you do that? Short answer, easily!!
@@ -35,7 +35,7 @@ You can either:
 - plug the Kindle into your computer and copy files onto the device
 - send an email with the book as an attachment to the Kindles built in email address (you can find this address in the “Manage My Kindle” section of the Amazon website
 - purchase a book directly from the Amazon store and “send” it to the device
- 
+
 Because I wanted to see how it would work, I opted to go for the second option. I fired up Outlook, attached the book and sent it. Within a few minutes, the book was on the Kindle, so very clever!! I sent a few eBooks with a couple different formats, namely PDF and mobi, as I wanted to see how both would work. The results are shown here:
 
 ![Showing book on Kindle](https://gep13wpstorage.blob.core.windows.net/gep13/2011/2/23/b7.jpg)

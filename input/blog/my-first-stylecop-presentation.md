@@ -2,10 +2,10 @@
 Title: My first StyleCop presentation
 Published: 27/3/2011
 Tags:
-- Demo
-- Meetings
-- StyleCop
-- Talk
+- demo
+- meetings
+- stylecop
+- talk
 ---
 
 On the 24th March 2011, I gave what I am considering to be my first “proper” community presentation at the [Aberdeen Developers .Net User Group](http://www.aberdeendevelopers.co.uk/Home.aspx) ([#ADNUG](http://twitter.com/#search?q=%23ADNUG)). When the user group first started, I also did a presentation entitled [“Visual Studio 2010 – An Introduction”](http://www.aberdeendevelopers.co.uk/Meetings/Visual-Studio-2010---An-Introduction.aspx), but I regarded this as a demonstration of Visual Studio 2010, and the great tooling support that had been added to this release, rather than a full talk on a subject.

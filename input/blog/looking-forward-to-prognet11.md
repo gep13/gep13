@@ -2,9 +2,9 @@
 Title: 'Looking forward to #prognet11'
 Published: 24/8/2011
 Tags:
-- Progressive .Net Tutorials
-- Skills Matter
-- Training
+- progressive .net tutorials
+- skills matter
+- training
 ---
 
 In a recent [blog post](http://www.gep13.co.uk/blog/becoming-a-better-developer) I spoke about how we (as developers) all have to strive to become a “better developer”. From a personal stand point, I decided that I was going to try to attend the [Progressive .Net Tutorials](http://skillsmatter.com/event/open-source-dot-net/progressive-dot-net-tutorials-2011), because in my opinion, the sessions were just too good to miss. After making this decision, I heard a rumour that Paul Stack (one of the speakers at the Tutorials) was in a position to [give away two tickets to the event](http://www.paulstack.co.uk/blog/post/win-a-ticket-to-progressivenet-tutorials.aspx).

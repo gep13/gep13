@@ -2,9 +2,9 @@
 Title: 'Job Vacancy: Aberdeen University'
 Published: 30/11/2011
 Tags:
-- Aberdeen
-- Job Oppurtunity
-- Web
+- aberdeen
+- job opportunity
+- web
 ---
 
 An Aberdeen Developers .Net User Group member has informed me about a job opening at the University of Aberdeen.  Details of the job are as follows:
@@ -18,7 +18,7 @@ An Aberdeen Developers .Net User Group member has informed me about a job openin
 >
 > Criteria:
 >   * First degree in computing or a relevant subject
->   * Experience which demonstrates the skills and capabilities to operate at this level	
+>   * Experience which demonstrates the skills and capabilities to operate at this level
 >   * Experience of creating dynamic web applications using ASP.NET
 >   * Experience of database design within SQL Server
 >   * Experience of Microsoft Office and knowledge of full software development cycle

@@ -2,8 +2,8 @@
 Title: My Windows Phone 7 Applications
 Published: 9/7/2011
 Tags:
-- Applications
-- Windows Phone 7
+- applications
+- windows phone 7
 ---
 
 The following is a list of the applications that I currently have installed on my HTC HD7 running Windows Phone 7. This is not intended to be a comprehensive list of “essential” Windows Phone 7 Applications, but rather a list that I will use for my own purposes (as a gentle reminder of what I have installed in case something ever goes wrong) and which will likely change over time as more applications are found.

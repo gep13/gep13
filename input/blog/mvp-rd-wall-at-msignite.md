@@ -2,9 +2,9 @@
 Title: MVP and RD Wall at Microsoft Ignite
 Published: 30/09/2018
 Tags:
-- MVP
-- RD
-- Microsoft Ignite
+- mvp
+- rd
+- microsoft ignite
 ---
 
 Last week there was a flurry of pictures on Twitter and Facebook from the [Microsoft Ignite](https://www.microsoft.com/en-us/ignite) Conference, and one in particular caught my eye.

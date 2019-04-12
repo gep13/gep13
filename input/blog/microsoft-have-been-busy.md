@@ -2,9 +2,9 @@
 Title: Microsoft have been busy
 Published: 7/7/2010
 Tags:
-- ASP.Net
-- Beta
-- Microsoft
+- asp.net
+- beta
+- microsoft
 ---
 
 Over the last week or so, there have been a number of interesting announcements coming out of the Microsoft camp.

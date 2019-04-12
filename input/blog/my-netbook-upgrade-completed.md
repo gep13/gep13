@@ -2,10 +2,10 @@
 Title: My NetBook Upgrade – Completed
 Published: 12/8/2011
 Tags:
-- ASUS
-- NetBook
-- RAM
-- Upgrade
+- asus
+- netbook
+- ram
+- upgrade
 ---
 
 In yesterdays [blog post](http://www.gep13.co.uk/blog/upgrading-the-ram-on-my-new-netbook) I mentioned how I was having some problems getting my shiny new 2 GB RAM for my ASUS 1015 PX working. I am happy to report that I now have it working!

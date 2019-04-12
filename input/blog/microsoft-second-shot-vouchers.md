@@ -2,9 +2,9 @@
 Title: Microsoft Second Shot Vouchers
 Published: 22/6/2010
 Tags:
-- Microsoft
-- Prometric
-- Training
+- microsoft
+- prometric
+- training
 ---
 
 If anyone is thinking about sitting a Microsoft Exam in the near future, you might want to think about taking advantage of the Microsoft Second Shot Voucher scheme.  Details can be found here:

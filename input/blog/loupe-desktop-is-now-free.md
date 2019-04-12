@@ -2,11 +2,11 @@
 Title: Loupe Desktop is now Free
 Published: 26/4/2013
 Tags:
-- Free
-- Gibraltar
-- Loupe
-- Loupe Desktop
-- Software
+- free
+- gibraltar
+- loupe
+- loupe desktop
+- software
 ---
 
 # ...that's right, Loupe Desktop is now free!

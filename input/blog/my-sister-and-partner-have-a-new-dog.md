@@ -2,9 +2,9 @@
 Title: My sister and partner have a new dog
 Published: 15/12/2008
 Tags:
-- German Shepherd
-- Harlo
-- Sister
+- german shepherd
+- harlo
+- sister
 ---
 
 I am very jealous!!! My sister and her partner have just got a new dog, a German Shepherd. Her name is Harlo, and she is 7 weeks old. You can see some pictures of her below:

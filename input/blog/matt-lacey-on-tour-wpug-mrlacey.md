@@ -2,9 +2,9 @@
 Title: Matt Lacey on Tour
 Published: 10/1/2012
 Tags:
-- Events
-- Matt Lacey Tour
-- Tours
+- events
+- matt lacey tour
+- tours
 RedirectFrom: blog/matt-lacey-on-tour-wpug-mrlacey/index.html
 ---
 

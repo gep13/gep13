@@ -2,8 +2,8 @@
 Title: Microsoft App Hub Registration
 Published: 13/11/2010
 Tags:
-- App Hub
-- Windows Phone 7
+- app hub
+- windows phone 7
 ---
 
 Having got the new [HTC HD7](http://www.htc.com/uk/product/hd7/overview.html) a couple weeks ago, I decided that I wanted to create an account with the [App Hub](http://create.msdn.com/). Doing so means that I can unlock the handset and make it a developer handset.

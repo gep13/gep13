@@ -2,9 +2,9 @@
 Title: Me and Lynn at the Zoo
 Published: 27/7/2008
 Tags:
-- Calgary
-- Lynn
-- Zoo
+- calgary
+- lynn
+- zoo
 ---
 
 Since I had such a good time at the zoo the first time, I thought it would be a good idea to take Lynn there as well!!

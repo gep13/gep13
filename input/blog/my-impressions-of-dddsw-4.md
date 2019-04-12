@@ -2,9 +2,9 @@
 Title: My impressions of dddsw 4
 Published: 28/5/2012
 Tags:
-- DDD
-- DDDSW
-- Events
+- ddd
+- dddsw
+- events
 RedirectFrom: blog/my-impressions-of-dddsw-4/index.html
 ---
 

@@ -2,9 +2,9 @@
 Title: 'My impressions of #GiveCampUK'
 Published: 29/10/2011
 Tags:
-- Charity
-- GiveCampUK
-- TheYouCanHub
+- charity
+- givecampuk
+- theyoucanhub
 RedirectFrom: blog/my-impressions-of-givecampuk/index.html
 ---
 

@@ -3,9 +3,9 @@ Title: '"Mmmm, Chocolatey Goodness!" at Aberdeen Developers'
 Published: 24/4/2013
 Tags:
 - chocolatey
-- Demonstrations
-- Presentation
-- Slides
+- demonstrations
+- presentation
+- slides
 ---
 
 # My Chocolatey Talk at Aberdeen Developers .Net User Group

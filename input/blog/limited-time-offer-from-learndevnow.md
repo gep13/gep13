@@ -2,9 +2,9 @@
 Title: Limited time offer from LearnDevNow
 Published: 28/7/2010
 Tags:
-- ASP.Net
-- Free
-- Reference
+- asp.net
+- free
+- reference
 ---
 
 Just heard about this offer from LearnDevNow:

@@ -2,10 +2,10 @@
 Title: Microsoft Certification Offer
 Published: 20/8/2010
 Tags:
-- Certification
-- Microsoft
-- Prometric
-- Training
+- certification
+- microsoft
+- prometric
+- training
 ---
 
 Microsoft are now offering “Microsoft Certification Exam Packs” which provide you with up to 20% off the cost of the exams, plus a Second Shot Voucher thrown in for good measure. The packs come in 2, 3, 4, and 5 variants.

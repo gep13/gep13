@@ -2,11 +2,11 @@
 Title: Jon Skeet Scotland Tour
 Published: 7/6/2013
 Tags:
-- Abusing
-- ADNUGUK
-- C
-- Jon Skeet
-- Scotland Tour
+- abusing
+- adnuguk
+- c
+- jon skeet
+- scotland tour
 ---
 
 # Jon Skeet - Taking a quick break from Stack Overflow

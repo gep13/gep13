@@ -2,8 +2,8 @@
 Title: My impressions of DDD North 2
 Published: 14/10/2012
 Tags:
-- DDD North
-- DDD
+- ddd north
+- ddd
 RedirectFrom: blog/my-impressions-of-ddd-north-2/index.html
 ---
 

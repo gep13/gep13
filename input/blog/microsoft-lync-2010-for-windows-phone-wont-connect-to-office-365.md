@@ -2,10 +2,10 @@
 Title: Microsoft Lync 2010 for Windows Phone – won’t connect to Office 365
 Published: 12/12/2011
 Tags:
-- DNS
-- Lync
-- Office 365
-- Windows Phone 7
+- dns
+- lync
+- office 365
+- windows phone 7
 ---
 
 ![Twitter News about Lync Mobile](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/12/clip_image002.jpg)
@@ -30,7 +30,7 @@ After logging into my Office 365 account, I selected:
 - Admin
 - Management | Domains
 - Selected the domain of interest, and then click “Manage DNS”
- 
+
 And sure enough, the required DNS Records for Office 365 had changed since I last looked at it:
 
 ![DNS Records](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/12/clip_image0024.jpg)

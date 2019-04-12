@@ -2,8 +2,8 @@
 Title: Moved into my apartment
 Published: 1/5/2008
 Tags:
-- Apartment
-- Calgary
+- apartment
+- calgary
 ---
 
 Moved into the apartment that Matrikon are providing for me while I am in Calgary. Woo Hoo!!

@@ -2,7 +2,7 @@
 Title: Merry Christmas everyone!
 Published: 25/12/2011
 Tags:
-- Christmas Wishes
+- christmas wishes
 ---
 
 ![Merry Christmas](https://gep13wpstorage.blob.core.windows.net/gep13/2011/12/25/51904w4lb2o5ndv.jpg)

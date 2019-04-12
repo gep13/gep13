@@ -2,9 +2,9 @@
 Title: Looking forward to Calgary Stampede
 Published: 26/6/2008
 Tags:
-- Calgary
-- Rodeo
-- Stampede
+- calgary
+- rodeo
+- stampede
 ---
 
 So I have booked tickets to go and see the Calgary Stampede!! Really looking forward to it, I have heard lots of good things about it.

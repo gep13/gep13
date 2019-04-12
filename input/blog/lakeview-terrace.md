@@ -2,8 +2,8 @@
 Title: Lakeview Terrace
 Published: 21/9/2008
 Tags:
-- Calgary
-- Movies
+- calgary
+- movies
 ---
 
 Went to see the new Samuel L Jackson film, [Lakeview Terrace](http://www.imdb.com/title/tt0947802/), last night. Have to say that it was very good.

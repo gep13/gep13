@@ -2,9 +2,9 @@
 Title: LearnVisualStudio.Net 9th Anniversary Discount
 Published: 22/2/2011
 Tags:
-- Anniversary
-- Discount
-- LearnVisualStudio
+- anniversary
+- discount
+- learnvisualstudio
 ---
 
 As some of you may know, I have been a big fan of [LearnVisualStudio.net](http://learnvisualstudio.net/) for some time now, and I have a Lifetime Subscription with them. Basically, this means that every time a new video gets created, I can download them free of charge.

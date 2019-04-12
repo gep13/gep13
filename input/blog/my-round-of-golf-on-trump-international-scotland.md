@@ -2,8 +2,8 @@
 Title: My round of golf on Trump International Scotland
 Published: 22/8/2012
 Tags:
-- Golf
-- Trump
+- golf
+- trump
 RedirectFrom: blog/my-round-of-golf-on-trump-international-scotland/index.html
 ---
 

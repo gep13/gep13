@@ -2,9 +2,9 @@
 Title: LEGO Mindstorms 8547 has arrived!!
 Published: 7/12/2011
 Tags:
-- LEGO
-- Mindstorms
-- Rubik Cube
+- lego
+- mindstorms
+- rubik cube
 ---
 
 I am happy to say that I am now the proud owner of a [LEGO Mindstorms NXT 2.0 8547](http://www.amazon.co.uk/gp/product/B001V7RF9U/ref=as_li_ss_tl?ie=UTF8&tag=www6thprimeco-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=B001V7RF9U) set.  I [blogged](http://www.gep13.co.uk/blog/what-to-get-a-geek-for-christmas) about this set last month, when I was suggesting that it would make an ideal Christmas present for a geek, however, after getting some Amazon vouchers for my birthday, I decided to go ahead and order it.

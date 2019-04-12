@@ -2,11 +2,11 @@
 Title: Mike Taulty and Andy Wigley coming to Scotland!
 Published: 23/4/2013
 Tags:
-- Edinburgh
-- Scottish Developers
-- Windows 8
-- Windows Azure
-- Windows Phone 8
+- edinburgh
+- scottish developers
+- windows 8
+- windows azure
+- windows phone 8
 ---
 
 # Full day developer session in Scotland
