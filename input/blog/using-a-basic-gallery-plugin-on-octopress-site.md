@@ -1,13 +1,13 @@
 ---
 Title: Using a basic gallery plugin on Octopress Site
 Published: 8/9/2014
-Tags: 
-  - octopress
-  - jekyll
-  - gallery
-  - imagemagick
-  - "mini-magick"
-  - appveyor
+Tags:
+- octopress
+- jekyll
+- gallery
+- imagemagick
+- "mini-magick"
+- appveyor
 ---
 
 ## I have a lot of photos, but where to put them?
@@ -69,7 +69,7 @@ In addition to those steps, I also decided to add support for [Fancybox](http://
 
 When I first tried to do the above, the issue that I ran into looked like this:
 
-> C:/projects/gep13-github-io/public/images/galleries/gallery_1/thumbs/6.jpg 
+> C:/projects/gep13-github-io/public/images/galleries/gallery_1/thumbs/6.jpg
 149jekyll 2.3.0 | Error:  No such file or directory - identify -ping C:/Users/appveyor/AppData/Local/Temp/mini_magick20140907-3000-6k90ct.jpg
 
 This translates as, you don't have ```ImageMagick``` installed, go and get it.  I tried a few different installations, and ran into other issues with having the right developer DLL's and includes.  The upshot was, I couldn't find a solution to using the installed version of ```ImageMagick```.  If however, I used the portable version, it works fine.  Go figure!

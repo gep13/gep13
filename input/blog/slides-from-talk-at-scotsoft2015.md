@@ -2,10 +2,10 @@
 Title: Slides from Talk at ScotSoft2015
 Published: 24/9/2015
 Tags:
-  - gitversion
-  - scotsoft2015
-  - scotlandis
-  - semver
+- gitversion
+- scotsoft2015
+- scotlandis
+- semver
 ---
 
 ## Semantic Versioning with GitVersion

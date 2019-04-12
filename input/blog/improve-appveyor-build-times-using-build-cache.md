@@ -2,9 +2,9 @@
 Title: Improve AppVeyor build times using build cache
 Published: 20/10/2014
 Tags:
-  - appveyor
-  - octopress
-  - build cache
+- appveyor
+- octopress
+- build cache
 ---
 
 ## Take minutes off overall build time...

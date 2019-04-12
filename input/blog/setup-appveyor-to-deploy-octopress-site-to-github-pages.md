@@ -2,9 +2,9 @@
 Title: Setup AppVeyor to deploy Octopress site to GitHub Pages
 Published: 5/9/2014
 Tags:
-  - octopress
-  - appveyor
-  - github pages
+- octopress
+- appveyor
+- github pages
 ---
 
 ## History of this blog

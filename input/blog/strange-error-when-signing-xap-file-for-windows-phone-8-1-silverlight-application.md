@@ -2,9 +2,9 @@
 Title: Strange Error When Signing XAP File for Windows Phone 8.1. Silverlight Application
 Published: 29/1/2016
 Tags:
-  - windows phone
-  - silverlight
-  - signtool
+- windows phone
+- silverlight
+- signtool
 ---
 
 ## SignTool Error: This file format cannot be signed because it is not recognized.
