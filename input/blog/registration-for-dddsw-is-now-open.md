@@ -2,9 +2,9 @@
 Title: 'Registration for #DDDSW is now open'
 Published: 10/4/2012
 Tags:
-- Bristol
-- DDD
-- DDDSW
+- bristol
+- ddd
+- dddsw
 ---
 
 # DDDSW Registration is now open

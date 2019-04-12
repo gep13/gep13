@@ -2,8 +2,8 @@
 Title: Red Bull gives you wings....
 Published: 3/9/2008
 Tags:
-- Calgary
-- Red Bull
+- calgary
+- red bull
 ---
 
 Well, that was what I thought at least. But, no, no, no, that is not the way things are in Canada...

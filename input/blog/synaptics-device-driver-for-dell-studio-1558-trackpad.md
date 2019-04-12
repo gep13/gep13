@@ -2,10 +2,10 @@
 Title: Synaptics Device Driver for Dell Studio 1558 Trackpad
 Published: 14/1/2013
 Tags:
-- Dell Studio 1558
-- Synaptics
-- Trackpad
-- Windows 8 Gestures
+- dell studio 1558
+- synaptics
+- trackpad
+- windows 8 gestures
 ---
 
 # New Synaptics Driver means Windows 8 Gestures now work on my Dell Studio 1558

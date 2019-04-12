@@ -2,10 +2,10 @@
 Title: Signing GitHub Commits with Keybase.io
 Published: 9/3/2017
 Tags:
-- Keybase
-- GitHub
-- Signing
-- Commits
+- keybase
+- github
+- signing
+- commits
 ---
 
 # Tell us how to do it already!
@@ -21,21 +21,21 @@ Almost all the steps that I follow are taken from this [blog post](https://www.h
 I already have a keybase.io account, and therefore the steps involved in setting that up are not covered here, but in truth, it is very simple.  Head on over to their site and walk through the process.
 
 1. Install keybase.io CLI Tool
-1. Install gpg4win-vanilla:  
+1. Install gpg4win-vanilla:
     `choco install gpg4win-vanilla`
-1. Add keybase folder to path:  
+1. Add keybase folder to path:
     `C:\Users\gary.park\AppData\Local\Keybase;`
-1. Export keybase keys and import into gpg4win:  
+1. Export keybase keys and import into gpg4win:
     `keybase pgp export | gpg --import`
-1. Import private key:  
+1. Import private key:
     `keybase pgp export --secret | gpg --allow-secret-key-import --import`
-1. Find the ID for your key by using this command:  
+1. Find the ID for your key by using this command:
     `gpg --list-secret-keys`
-1. Using that ID, edit the key to make it trusted:  
-    `gpg --edit-key F6993303`  
-    `trust`  
-    `5`  
-    `y`  
+1. Using that ID, edit the key to make it trusted:
+    `gpg --edit-key F6993303`
+    `trust`
+    `5`
+    `y`
 
 With these steps done, I am ready to continue with setting up git to use the new gpg key.  This is due to the fact that I have already imported the public key into GitHub.  If you haven't done that part yet, then I would encourage you to follow the steps on the linked blog post.
 

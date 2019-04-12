@@ -2,10 +2,10 @@
 Title: Review of Day 5 of DevWeek 2013
 Published: 8/3/2013
 Tags:
-- Continuous Delivery
-- Day 5
-- DevWeek
-- Review
+- continuous delivery
+- day 5
+- devweek
+- review
 RedirectFrom: blog/review-of-day-5-of-devweek-2013/index.html
 ---
 

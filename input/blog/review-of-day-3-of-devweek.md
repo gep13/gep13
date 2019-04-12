@@ -2,10 +2,10 @@
 Title: Review of Day 3 of DevWeek
 Published: 31/3/2012
 Tags:
-- Day 3
-- Developer
-- DevWeek
-- Events
+- day 3
+- developer
+- devweek
+- events
 ---
 
 What follows is a brief summary of the sessions that I attended at the 3rd overall day of DevWeek (the second day of actual sessions).  Reviews of the other days of DevWeek can be seen here:

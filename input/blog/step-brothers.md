@@ -2,9 +2,9 @@
 Title: Step Brothers
 Published: 3/8/2008
 Tags:
-- Calgary
-- Lynn
-- Movies
+- calgary
+- lynn
+- movies
 ---
 
 If I had to sum up this film in one word, what would it be?

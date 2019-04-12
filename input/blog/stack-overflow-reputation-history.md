@@ -2,10 +2,10 @@
 Title: Stack Overflow Reputation History
 Published: 04/11/2018
 Tags:
-- Stack Overflow
-- Reputation
-- History
-- Graph
+- stack overflow
+- reputation
+- history
+- graph
 ---
 
 Anyone that knows me, knows that I like numbers.  I like to track numbers over time, and see how things are changing.  Are they getting better?  Worse?

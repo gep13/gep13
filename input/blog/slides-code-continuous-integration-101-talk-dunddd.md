@@ -2,10 +2,10 @@
 Title: Slides and code from Continuous Integration 101 talk at DunDDD
 Published: 2/12/2013
 Tags:
-- CI
-- Continuous Integration
-- DunDDD
-- TeamCity
+- ci
+- continuous integration
+- dunddd
+- teamcity
 ---
 
 # Continuous Integration 101

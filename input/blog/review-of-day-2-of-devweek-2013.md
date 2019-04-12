@@ -2,23 +2,23 @@
 Title: Review of Day 2 of DevWeek 2013
 Published: 5/3/2013
 Tags:
-- Async
+- async
 - await
-- CSS3
-- Day 2
-- DevWeek
-- HTML 5
+- css3
+- day 2
+- devweek
+- html 5
 - keynote
 - knockout.js
-- London
-- Review
+- london
+- review
 RedirectFrom: blog/review-of-day-2-of-devweek-2013/index.html
 ---
 
 # A busy second day at DevWeek...
 
 What follows is a brief summary of the sessions that I attended at the 2nd overall day of DevWeek 2013 (the first day of actual sessions).  Review of the other days of DevWeek can be seen here:
-	
+
 - [Day 1 - Pre-Conference Workshop](http://gep13.me/W0AJEP)
 - [Day 2 - Conference Sessions](http://gep13.me/YuOPy2) (this post)
 - [Day 3 - Conference Sessions](http://gep13.me/ZqTHU1)
@@ -40,7 +40,7 @@ Personally, I thought that these were two very good sessions.  Kevlin's gave a v
 While leaving the room, I heard some mumblings from some other delegates that the second talk was a sales pitch, but I really don't think that this was how it was intended.  I guess you can't please everyone!
 
 **Takeaways**
-	
+
 - Is code art?
 - Well it can be - [Qlobe from Yusuke Endoh](http://mamememo.blogspot.co.uk/2010/09/qlobe.html)
 - [Tag Cloud generator for code](http://sourcecodecloud.codeplex.com/)
@@ -86,7 +86,7 @@ At one point, Kevin seemed to go off on a bit of tangent when trying to describe
 - I believe that the code used in this session will be put [here](https://github.com/kevinrjones/DevWeek2013) in Kevin's github repo
 
 **Quotes**
-	
+
 - "jQuery is non trivial to use, but I love it like a brother"
 - "If your heart gives out, I am not responsible" - when discussing the amazing HTML interface that he was creating
 
@@ -150,7 +150,7 @@ There were actually some really interesting takeaways from this session.
 - I am expecting that the code for the presentation will be available [here](http://rocksolidknowledge.com/Conferences.mvc/)
 
 **Quotes**
-	
+
 - "If an application doesn't respond, hit it harder, just like the kids, they respond to that" - said jokingly when discussing the lack of response from the UI when blocked by executing code
 - "She can crack an iPhone screen with her finger" - again, when discussing the frustration felt by users when waiting on a non-responsive UI
 

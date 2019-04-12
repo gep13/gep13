@@ -2,10 +2,10 @@
 Title: Review of DevOpsDays London 2013
 Published: 16/3/2013
 Tags:
-- Conference
-- DevOps
-- DevOpsDays
-- London
+- conference
+- devops
+- devopsdays
+- london
 ---
 
 # DevOpsDays has now finished, but had a great time...

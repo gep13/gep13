@@ -2,9 +2,9 @@
 Title: Scott Hanselman doing user group tour of scotland
 Published: 15/5/2012
 Tags:
-- Scotland
-- Scott Hanselman
-- Tour
+- scotland
+- scott hanselman
+- tour
 RedirectFrom: blog/scott-hanselman-doing-user-group-tour-of-scotland/index.html
 ---
 

@@ -2,9 +2,10 @@
 Title: Scott Guthrie coming to London
 Published: 23/5/2011
 Tags:
-- DDD
-- Guathon
-- ScottGu. London
+- ddd
+- guathon
+- scottgu
+- london
 ---
 
 I have just seen on Twitter via [@Plip](http://www.twitter.com/#!/Plip) that [Scott Guthrie](http://www.weblogs.asp.net/scottgu/) (aka [@scottgu](http://www.twitter.com/#!/scottgu)) will be coming to London on the 6th June 2011. Full details of the event can be found here:

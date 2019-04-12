@@ -2,10 +2,10 @@
 Title: Streaming movies from Synology Server to PS3
 Published: 5/2/2011
 Tags:
-- Blu-Ray
-- DVD
-- PS3
-- Synology Server
+- blu-ray
+- dvd
+- ps3
+- synology server
 ---
 
 _NOTE: I am not advocating the illegal ripping of DVDs.  Every DVD that I rip onto my server I own, and I am simply using this approach to make the watching of DVDs easier across the various TVs and computers that I have in my house._

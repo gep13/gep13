@@ -2,13 +2,13 @@
 Title: Sessions that I have submitted for DDD North 2012
 Published: 18/8/2012
 Tags:
-- Caliburn.Micro
-- DDD North
-- Events
-- Nuget
-- Sessions
-- Speaking
-- StyleCop
+- caliburn.micro
+- ddd north
+- events
+- nuget
+- sessions
+- speaking
+- stylecop
 ---
 
 Hot on the heels of [DDD South West](http://www.gep13.co.uk/blog/my-impressions-of-dddsw-4), it is now almost time for [DDD North](http://developerdeveloperdeveloper.com/north2/Default.aspx).  All of the proposed sessions have been submitted, and it is now time for the community to vote for which sessions they would like to see.
@@ -26,7 +26,7 @@ Here are my session submissions...
 # Getting started with Caliburn.Micro and Windows Phone 7
 
 > Getting started with the Windows Phone 7 Development Platform is relatively simple, however, using a Framework like Caliburn.Micro takes away some of the more mundane tasks, and allows you to focus on what you are trying to achieve.  In this session we will start with a blank Windows Phone 7 project, and start to create our first Windows Phone 7 application using features such as:
->	
+>
 >   * ActionMessages
 >   * Action Conventions
 >   * Binding Conventions

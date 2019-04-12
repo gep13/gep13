@@ -2,8 +2,8 @@
 Title: Shaganappi Golf Course - Part 1
 Published: 15/8/2008
 Tags:
-- Calgary
-- Golf
+- calgary
+- golf
 ---
 
 Ok, first of all, no, I am not making that name up!! This place actually [exists](http://www.golf-courses.ca/detail-golf-course-7228.html).

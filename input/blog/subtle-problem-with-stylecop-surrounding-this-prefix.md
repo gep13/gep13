@@ -2,10 +2,10 @@
 Title: Subtle problem with StyleCop surrounding this. prefix
 Published: 30/5/2012
 Tags:
-- SA1101
-- SA1126
-- StyleCop
-- StyleCop for ReSharper
+- sa1101
+- sa1126
+- stylecop
+- stylecop for resharper
 - this.
 ---
 

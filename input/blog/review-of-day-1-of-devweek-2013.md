@@ -2,11 +2,11 @@
 Title: Review of Day 1 of DevWeek 2013
 Published: 4/3/2013
 Tags:
-- Day 1
-- DevWeek
-- London
-- Review
-- SharePoint 2013
+- day 1
+- devweek
+- london
+- review
+- sharepoint 2013
 RedirectFrom: blog/review-of-day-1-of-devweek-2013/index.html
 ---
 

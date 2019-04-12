@@ -2,11 +2,11 @@
 Title: 'Secrets of a .Net Ninja Talk at #ADNUGUK by @KodefuGuru'
 Published: 8/7/2011
 Tags:
-- Chris Eargle
-- Meetings
-- Ninjas
-- Secrets
-- Telerik
+- chris eargle
+- meetings
+- ninjas
+- secrets
+- telerik
 ---
 
 On Thursday 7th July, the Aberdeen Developers .Net User Group was lucky enough to welcome [Chris Eargle](http://www.kodefuguru.com/) ([@KodefuGuru](http://twitter.com/kodefuguru)), a Telerik Developer Evangelist from Columbia, South Carolina, to do a talk entitled “[Secrets of a .Net Ninja](http://aberdeendevelopers.co.uk/Meetings/Secrets-of-a--Net-Ninja.aspx)”.
@@ -16,13 +16,13 @@ Due to the format of this presentation, primarily focused around code demonstrat
 However, all of the code (and much, much more) that Chris talked through on the night is available at his CodePlex Project which you can find [here](http://kodefu.codeplex.com/). I am in the process of downloading the latest version as I type.
 
 There was no messing around in this talk, we jumped straight into talking about:
-  
+
 - Private Member Inheritance
 - Removing the use of Out Parameters
 - Extension Method Refactoring
 - Advanced use of LINQ, Lambdas and Anonymous Methods
- 
-There was a lot of content in this presentation, and there was certainly a lot of food for thought. The sample code helps in cementing how these techniques can be used in your day-to-day programming activities.  
+
+There was a lot of content in this presentation, and there was certainly a lot of food for thought. The sample code helps in cementing how these techniques can be used in your day-to-day programming activities.
 
 Unfortunately I wasn’t able to go, but some of the guys took Chris to the [BrewDog](http://www.brewdog.com/) bar for a round of [Sink The Bismarck](http://www.brewdog.com/sink_the_bismark) after the meeting, I hope he doesn’t miss his flight back home to the states today!
 

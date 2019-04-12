@@ -2,21 +2,21 @@
 Title: Review of Day 3 of DevWeek 2013
 Published: 6/3/2013
 Tags:
-- Async
-- Day 3
-- DevWeek
-- JavaScript
-- K2
-- Review
-- SignalR
-- Web API
+- async
+- day 3
+- devweek
+- javascript
+- k2
+- review
+- signalr
+- web api
 RedirectFrom: blog/review-of-day-3-of-devweek-2013/index.html
 ---
 
 # Today, I won a Surface at DevWeek...
 
 What follow is a brief summary of the session that I attended at the 3rd overall day of DevWeek 2013 (the second day of actual sessions).  Review of the other days of DevWeek can be seen here
-	
+
 - [Day 1 - Pre-Conference Workshop](http://gep13.me/W0AJEP)
 - [Day 2 - Conference Sessions](http://gep13.me/YuOPy2)
 - [Day 3 - Conference Sessions](http://gep13.me/ZqTHU1) (this post)
@@ -72,7 +72,7 @@ Ok, so Hadi asked me to say that, but seriously, I felt that it was a very good 
 **Quotes**
 
 Due to Hadi's style of presentation, there are quite a few quotes here, many of which I believe were said in jest, so please don't take them out of context:
-	
+
 - "Feel free to get up and leave"
 - "The aim of this talk is to show you how utterly crap JavaScript"
 - "As though JavaScript of the client isn't bad enough, now we have it on the server!"
@@ -80,7 +80,7 @@ Due to Hadi's style of presentation, there are quite a few quotes here, many of 
 - "Hopefully I will convert you, and you will all hate JavaScript"
 
 **Book Recommendations**
-	
+
 - [JavaScript Patterns](http://www.amazon.co.uk/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752/ref=sr_1_1?ie=UTF8&qid=1362598412&sr=8-1)
 - [JavaScript: The Good Parts](http://www.amazon.co.uk/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=sr_1_1?ie=UTF8&qid=1362598427&sr=8-1)
 
@@ -135,7 +135,7 @@ Great job!
 - Regardless of browser, long polling will always work and will be used as fall back connection with SignalR
 
 **Quotes**
-	
+
 - "If your software doesn't contain a DataGrid, you have failed!"
 - "Dynamic! Ah, can you feel this?" - you had to be there to appreciate this one!
 

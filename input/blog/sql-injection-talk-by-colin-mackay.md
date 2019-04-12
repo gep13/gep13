@@ -2,8 +2,8 @@
 Title: SQL Injection Talk by Colin Mackay
 Published: 24/9/2010
 Tags:
-- ADNUG
-- Meetings
+- adnug
+- meetings
 ---
 
 Last night was the second Aberdeen .Net User Group Meeting.  The presenter was Colin Mackay, and he gave a very interesting introduction into the vulnerabilities that can arise from SQL Injection Attacks.

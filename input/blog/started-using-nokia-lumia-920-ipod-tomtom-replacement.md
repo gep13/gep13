@@ -2,10 +2,10 @@
 Title: Started using my Nokia Lumia 920 as an iPod and TomTom replacement
 Published: 13/10/2013
 Tags:
-- iPod Replacement
-- Nokia Lumia 920
-- Nokia Lumia 925
-- TomTom replacement
+- ipod replacement
+- nokia kumia 920
+- nokia lumia 925
+- tomtom replacement
 RedirectFrom: blog/started-using-nokia-lumia-920-ipod-tomtom-replacement/index.html
 ---
 

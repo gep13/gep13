@@ -2,13 +2,13 @@
 Title: Review of Day 4 of DevWeek 2013
 Published: 7/3/2013
 Tags:
-- ASP.NET MVC
-- Day 4
-- DevWeek
-- MongoDB
-- NoSql
-- Review
-- Security
+- asp.net mvc
+- day 4
+- devweek
+- mongodb
+- nosql
+- review
+- security
 RedirectFrom: blog/review-of-day-4-of-devweek-2013/index.html
 ---
 
@@ -45,7 +45,7 @@ As per Brock's talk yesterday, this was another very well executed presentation,
 - The Authorize Attribute can be used to secure on both Roles and Users
 
 **Quotes**
-	
+
 - "If you are not doing SSL, you are not taking this serious!"
 - "We've been gabbing and gabbing about authentication, what about authorization?"
 

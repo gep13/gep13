@@ -2,7 +2,7 @@
 Title: Quantum of Solace
 Published: 8/11/2008
 Tags:
-- Movies
+- movies
 ---
 
 Went to see the new Bond Film, [Quantum of Solace](http://www.imdb.com/title/tt0830515/), this morning. I was down in Glasgow with Lynn, and after not being able to go on the Tour that I wanted to, decided to go to the cinema instead. And I am glad that I did!! I really enjoyed the film!!

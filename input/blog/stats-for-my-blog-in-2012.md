@@ -2,7 +2,7 @@
 Title: stats for my blog in 2012
 Published: 31/12/2012
 Tags:
-- Blog
+- blog
 - gep13
 - stats
 ---

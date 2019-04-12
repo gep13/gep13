@@ -3,7 +3,7 @@ Title: Stats for my blog in 2011
 Published: 1/1/2012
 Tags:
 - '2011'
-- Site Stats
+- site stats
 ---
 
 2011 was my first year of doing what I would class as “proper” blogging.  I have had a blog for several years now, but it is only recently, with my increased involvement in the community, that I have been doing more blog posts.  I have every intention of continuing this in 2012, and with that in mind, I wanted to capture the stats for my blog in 2011, so that I can compare them next year.

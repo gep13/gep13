@@ -2,9 +2,9 @@
 Title: Sebastien Lambla on Tour
 Published: 8/1/2012
 Tags:
-- Events
-- Sebastien Lambla Tour
-- Tours
+- events
+- sebastien lambla tour
+- tours
 RedirectFrom: blog/sebastien-lambla-on-tour/index.html
 ---
 

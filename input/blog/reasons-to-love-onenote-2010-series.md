@@ -2,9 +2,9 @@
 Title: Reasons to love OneNote 2010 Series
 Published: 8/2/2011
 Tags:
-- Features
-- Microsoft Office
-- OneNote 2010
+- features
+- microsoft office
+- onenote 2010
 ---
 
 Following an introduction to Microsoft OneNote 2007 by a colleague at work, I find myself using OneNote more and more things within my work day. Taking minutes of meetings, writing ToDo lists, capturing information about products that I am using, bugs that I am finding, etc. There are so many things that OneNote “just does”, that I now find invaluable.

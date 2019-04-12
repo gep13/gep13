@@ -2,9 +2,9 @@
 Title: Scottish Developers have a new Committee Member... me!
 Published: 15/8/2012
 Tags:
-- ADNUGUK
-- Scottish Developers
-- SCOTTISHDEVS
+- adnuguk
+- scottish developers
+- scottishdevs
 RedirectFrom: blog/scottish-developers-have-a-new-committee-member-me/index.html
 ---
 

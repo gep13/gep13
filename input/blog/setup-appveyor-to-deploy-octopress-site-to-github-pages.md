@@ -1,10 +1,10 @@
 ---
 Title: Setup AppVeyor to deploy Octopress site to GitHub Pages
 Published: 5/9/2014
-Tags: 
-  - Octopress
-  - AppVeyor
-  - Github Pages
+Tags:
+  - octopress
+  - appveyor
+  - github pages
 ---
 
 ## History of this blog
@@ -71,7 +71,7 @@ test: off
 1. With the above file checked into your repository, AppVeyor will set about doing the build.  The output of which should hopefully look something like this (the full output can be seen [here](https://ci.appveyor.com/project/GaryEwanPark/gep13-github-io/build/1.0.22))
 
     ![Successful AppVeyor Build](https://gep13wpstorage.blob.core.windows.net/gep13/2014/6/7/SuccessfulBuild.png)
-    
+
 And that, as they say, is that!
 
 Now, everytime you make a change in the ```source``` branch of your Octopress Repository, AppVeyor will collect all the changes, execute the build steps, and deploy your latest changes to the ```master``` branch, ready for viewing on your site.

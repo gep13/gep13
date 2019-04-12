@@ -2,11 +2,11 @@
 Title: Registration for DunDDD 2013 is now open
 Published: 14/10/2013
 Tags:
-- Conference
-- DDD
-- DunDDD
-- Dundee
-- Event
+- conference
+- ddd
+- dunddd
+- dundee
+- event
 ---
 
 # Grab your ticket for DunDDD quickly so you don't miss out!

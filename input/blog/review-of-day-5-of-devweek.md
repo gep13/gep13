@@ -2,10 +2,10 @@
 Title: Review of Day 5 of DevWeek
 Published: 30/3/2012
 Tags:
-- Day 5
-- Developer
-- DevWeek
-- Events
+- day 5
+- developer
+- devweek
+- events
 ---
 
 What follows is a brief summary of the final day of [DevWeek 2012](http://www.devweek.com/).  It has been a very long, but also a very enjoyable, week and I have to give a lot of credit of all of the organisers, speakers and sponsors for putting on a great conference.  Congratulations to Nick Payne of [Bearkpark Publishing](http://www.bearpark.co.uk/) for organising everything!  Reviews of the other days of DevWeek can be seen here:

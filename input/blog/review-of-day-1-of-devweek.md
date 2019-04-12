@@ -2,10 +2,10 @@
 Title: Review of Day 1 of DevWeek
 Published: 26/3/2012
 Tags:
-- Day 1
-- Developer
-- DevWeek
-- Events
+- day 1
+- developer
+- devweek
+- events
 RedirectFrom: blog/review-of-day-1-of-devweek/index.html
 ---
 

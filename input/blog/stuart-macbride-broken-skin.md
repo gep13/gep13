@@ -2,9 +2,9 @@
 Title: 'Stuart MacBride: Broken Skin'
 Published: 16/8/2008
 Tags:
-- Book
-- Review
-- Stuart MacBride
+- book
+- review
+- stuart macbride
 ---
 
 I finally got round to finishing reading the [third in the series of books from Stuart MacBride](http://www.amazon.co.uk/Broken-Skin-Stuart-MacBride/dp/0007193173/ref=sr_1_2?ie=UTF8&amp;s=books&amp;qid=1220410166&amp;sr=8-2). I have had this book for ages, and I have started reading it a couple of times, but I just haven't been able to finish it.
