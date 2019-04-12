@@ -2,9 +2,9 @@
 Title: Git/GitHub/BitBucket Series
 Published: 27/1/2012
 Tags:
-- Git
-- GitHub
-- BitBucket
+- git
+- github
+- bitbucket
 ---
 
 - Introduction

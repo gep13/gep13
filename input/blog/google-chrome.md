@@ -2,9 +2,9 @@
 Title: Google Chrome
 Published: 3/9/2008
 Tags:
-- Google
-- Google Chrome
-- Random Geek
+- google
+- google chrome
+- random geek
 ---
 
 Had a quick play with the new Web Browser from Google today, and so far so good!!
@@ -15,8 +15,8 @@ First impressions are very good. Opening up of the application is very quick, an
 
 A couple of things that didn't work in the quick play that I had were as follows:
 
-- The new version of Hotmail Live refused to work in the browser. It actually suggested that I should update to either IE, FF or Safari 
-- On my dual screen set up, when I tried to maximize the window, there was a weird error where part of the window spread onto the second monitor. Not sure what was going on there 
+- The new version of Hotmail Live refused to work in the browser. It actually suggested that I should update to either IE, FF or Safari
+- On my dual screen set up, when I tried to maximize the window, there was a weird error where part of the window spread onto the second monitor. Not sure what was going on there
 - Oh, and I am not overly convicted about the “brown” colour that surrounds any input boxes, seems like a weird colour choice.
 
 Will have a proper play with it when I get a chance, and will report back with any other findings.

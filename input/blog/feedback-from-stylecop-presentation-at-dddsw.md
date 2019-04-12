@@ -2,9 +2,9 @@
 Title: Feedback from StyleCop presentation at DDDSW
 Published: 7/6/2012
 Tags:
-- DDDSW
-- Feedback
-- StyleCop
+- dddsw
+- feedback
+- stylecop
 ---
 
 # DDDSW Speaker Feedback Results are in

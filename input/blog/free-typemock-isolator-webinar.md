@@ -2,9 +2,9 @@
 Title: Free TypeMock Isolator Webinar
 Published: 22/6/2011
 Tags:
-- Sponsors
-- TypeMock
-- Webinar
+- sponsors
+- typemock
+- webinar
 ---
 
 In case you haven’t seen it, TypeMock are running a free Webinar entitled:
@@ -17,10 +17,10 @@ TypeMock Isloator is one of the licenses that we are able to give away at the [A
 
 The agenda for the meeting is as follows:
 
-- Common problems with unit testing, and how to solve them      
-- Applying unit testing patterns to legacy code       
-- How to test the untestable       
-- Cutting fluff with Typemock Isolator’s powerful mocking capabilities       
+- Common problems with unit testing, and how to solve them
+- Applying unit testing patterns to legacy code
+- How to test the untestable
+- Cutting fluff with Typemock Isolator’s powerful mocking capabilities
 - How to mock (fake) any dependency (SharePoint, databases, file systems)
 
 One attendee will receive a free license of Typemock Isolator and one attendee will receive a free unit testing t-shirt!

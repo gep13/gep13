@@ -2,8 +2,8 @@
 Title: Follow up from first User Group meeting
 Published: 23/7/2010
 Tags:
-- ADNUG
-- Meetings
+- adnug
+- meetings
 ---
 
 Thanks again to everyone who turned up to the first Aberdeen Developers .Net User Group meeting last night, it was great to see so many people there.

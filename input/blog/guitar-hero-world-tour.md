@@ -2,9 +2,9 @@
 Title: Guitar Hero World Tour
 Published: 22/11/2008
 Tags:
-- Guitar Hero
-- PS3
-- Singstar
+- guitar hero
+- ps3
+- singstar
 ---
 
 Me and Lynn were out shopping yesterday, and I ended up buying Guitar Hero World Tour, I couldn't resist it!!! Bought it for the PS3, and I have to say, so far, it is looking very good!! Has got a good range of songs, and if I can ever get my wireless connection to the PS3 working properly, I will be able to download more songs to it as well.

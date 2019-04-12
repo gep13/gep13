@@ -2,9 +2,9 @@
 Title: First Issue on GitHub
 Published: 3/7/2012
 Tags:
-- GitHub
-- Open Source
-- Issue
+- github
+- open source
+- issue
 ---
 
 # First issue created on GitHub

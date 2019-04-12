@@ -2,9 +2,9 @@
 Title: First impressions of Windows 8 and Office 365 Home Premium Preview
 Published: 1/10/2012
 Tags:
-- Installation
-- Office 365
-- Windows 8
+- installation
+- office 365
+- windows 8
 RedirectFrom: blog/first-impressions-of-windows-8-and-office-365-home-premium-preview/index.html
 ---
 

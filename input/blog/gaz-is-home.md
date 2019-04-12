@@ -2,8 +2,8 @@
 Title: Gaz is home
 Published: 19/10/2008
 Tags:
-- Calgary
-- Safely Home
+- calgary
+- safely home
 ---
 
 Flew into Aberdeen today, so good to be home!!

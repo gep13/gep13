@@ -2,9 +2,9 @@
 Title: Essential Visual Studio Addin - StyleCop
 Published: 18/7/2010
 Tags:
-- Addin
-- Series
-- Visual Studio 2008
+- addin
+- series
+- visual studio 2008
 ---
 
 This blog post is one of a series of blogs on Visual Studio Addins that I use. To go back to the series index page, click [here](http://www.gep13.co.uk/blog/essential-visual-studio-2008-addin-series).

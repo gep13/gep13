@@ -2,9 +2,9 @@
 Title: First Aberdeen Developers .Net User Group Meeting
 Published: 22/7/2010
 Tags:
-- ADNUG
-- General
-- Meetings
+- adnug
+- general
+- meetings
 ---
 
 It has come round quicker then I thought it was going to, but we are here.

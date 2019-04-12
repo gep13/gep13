@@ -2,10 +2,10 @@
 Title: GitReleaseManager Release 0.8.0
 Published: 30/12/2018
 Tags:
-- GitTools
-- GitReleaseManager
-- Global Tool
-- .NET
+- gittools
+- gitreleasemanager
+- global tool
+- .net
 ---
 
 I am very happy to announce the 0.8.0 Release of the [GitReleaseManager](https://github.com/GitTools/GitReleaseManager).  This is an important release as it brings with it a .Net Global Tool version of the tool.  Now, you can install it using:

@@ -2,8 +2,8 @@
 Title: Gone, but still not forgotten...
 Published: 17/12/2016
 Tags:
-- Birthday
-- Family
+- birthday
+- family
 ---
 
 Happy Birthday.

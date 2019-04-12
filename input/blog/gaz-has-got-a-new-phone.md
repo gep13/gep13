@@ -2,9 +2,9 @@
 Title: Gaz has got a new phone
 Published: 2/11/2008
 Tags:
-- Phone
-- Sony Ericsson
-- X1
+- phone
+- sony ericsson
+- x1
 ---
 
 Just picked up my new phone.

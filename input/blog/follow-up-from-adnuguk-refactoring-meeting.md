@@ -2,10 +2,10 @@
 Title: Follow up from ADNUGUK Refactoring Meeting
 Published: 2/6/2011
 Tags:
-- Gary Short
-- Meetings
-- Refactoring
-- Slides
+- gary short
+- meetings
+- refactoring
+- slides
 ---
 
 On Thursday 26th May, the Aberdeen Developers .Net User Group was fortunate enough to welcome [Gary Short](http://garyshort.org/) ([@garyshort](http://twitter.com/garyshort)) of [DevExpress](http://www.devexpress.com/) to do a talk entitled “[Refactoring – Everything you wanted to know but were afraid to ask](http://aberdeendevelopers.co.uk/Meetings/Refactoring-%E2%80%93-Everything-you-Wanted-to-Know-but-we.aspx)”.

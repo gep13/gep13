@@ -2,8 +2,8 @@
 Title: Ejecting an iPod
 Published: 9/1/2011
 Tags:
-- iPod
-- iTunes
+- ipod
+- itunes
 ---
 
 Now that I have fully consolidated my music collection onto my VERY impressive [Synology Server](http://www.synology.com/us/products/ds410/index.php), I thought it was about time that I dug out my classic iPod so that I could stand listening to music at work.  Whilst doing this, I was introduced to a very useful tip.

@@ -2,8 +2,8 @@
 Title: Gary the Coconut joins me in Calgary
 Published: 12/7/2008
 Tags:
-- Calgary
-- Gary The Cocunut
+- calgary
+- gary the coconut
 ---
 
 Yesterday I got a very strange parcel delivered to me at work. I had no idea what it was, as I wasn't expecting any parcels, but on opening, I discovered that it was my friend, Gary the Coconut. He had decided that he wanted to join me on my adventure in Calgary, so he posted himself all the way from Aberdeen!! (This is true, he was helped on his way by Wes and Nicole, who posted him from Edmonton, but it was still a long trip!!) I am sure he will have a great time here in Calgary, and I will keep you posted on his antics.

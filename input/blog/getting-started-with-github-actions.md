@@ -2,10 +2,10 @@
 Title: Getting started with GitHub Actions
 Published: 14/12/2018
 Tags:
-- GitHub
-- Actions
-- Cake
-- Automation
+- github
+- actions
+- cake
+- automation
 ---
 
 On Wednesday evening, I got a very pleasant email from GitHub, telling me that I had been given access to the GitHub Actions Beta.  This is something that I have been looking forward to for a while now, ever since I signed up for it.  I am a big user of Continuous Integration Systems for building the various Open Source projects that I work on, but I really like the idea of doing smaller, precise actions, as a result of other "things" happening on a repository.

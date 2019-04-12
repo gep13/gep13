@@ -2,9 +2,9 @@
 Title: First Pull Request on GitHub
 Published: 21/12/2011
 Tags:
-- GitHub
-- Open Source
-- Pull Request
+- github
+- open source
+- pull request
 ---
 
 # First Pull Request has been submitted on GitHub

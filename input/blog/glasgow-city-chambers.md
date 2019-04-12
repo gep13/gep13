@@ -2,8 +2,8 @@
 Title: Glasgow City Chambers
 Published: 8/11/2008
 Tags:
-- City Chambers
-- Glasgow
+- city chambers
+- glasgow
 ---
 
 Whilst waiting to try to get into the tour of the Glasgow City Chambers (which ended up not happening, only runs on week days) I took some photos with my new phone. I was quite surprised by the quality of some of the photos. I have added them below,so feel free to have a look.

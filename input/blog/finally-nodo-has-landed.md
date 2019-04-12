@@ -2,9 +2,9 @@
 Title: Finally, Nodo has landed!!
 Published: 6/4/2011
 Tags:
-- Nodo
-- Updates
-- Windows Phone 7
+- nodo
+- updates
+- windows phone 7
 ---
 
 So, after weeks of waiting, the Nodo update has finally landed on my HTC HD7.

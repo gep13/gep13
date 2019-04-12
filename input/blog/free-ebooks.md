@@ -2,9 +2,9 @@
 Title: Free eBooks
 Published: 5/2/2011
 Tags:
-- .Net
-- eBooks
-- Free
+- .net
+- ebooks
+- free
 ---
 
 There have been a number of free eBooks making the rounds lately, so rather than forget where I got them from, I thought I would start a list here.  I will update this blog post with any new eBooks that I find.

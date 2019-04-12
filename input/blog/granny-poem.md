@@ -2,33 +2,33 @@
 Title: Granny's Poem
 Published: 21/2/2017
 Tags:
-- Granny
-- Funeral
-- Poem
+- granny
+- funeral
+- poem
 ---
 
 # The Broken Chain
 
 Today at my Granny's funeral, the following poem was read:
 
-> We little knew that morning  
-That God was going to call your name.  
-In life  we loved you dearly.  
+> We little knew that morning
+That God was going to call your name.
+In life  we loved you dearly.
 In death we do the same.
 
-> It broke our hearts to lose you  
-You did not go alone,  
-For part of us went with you  
+> It broke our hearts to lose you
+You did not go alone,
+For part of us went with you
 The day God called you home.
 
-> You left us peaceful memories  
-Your love is still our guide,  
-And though we cannot see you  
+> You left us peaceful memories
+Your love is still our guide,
+And though we cannot see you
 You are always by our side.
 
-> Our family chain is broken,  
-And nothing seems the same,  
-But as God calls us one by one  
+> Our family chain is broken,
+And nothing seems the same,
+But as God calls us one by one
 The chain will link again.
 
 It was found hand written on the back of a card, in my Granny's handwriting.  It is a lovely poem, and one that seemed exactly right for her service.
