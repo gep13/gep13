@@ -2,9 +2,9 @@
 Title: What to get a geek for Christmas?
 Published: 9/11/2011
 Tags:
-- Christmas Presents
-- Geek
-- Ideas
+- christmas presents
+- geek
+- ideas
 ---
 
 With the run up to Christmas I keep getting asked the same question...

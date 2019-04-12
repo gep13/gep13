@@ -2,10 +2,10 @@
 Title: Windows Phone 7 updating the Nokia Lumia Firmware to 1750.0805.8773.12220
 Published: 24/8/2012
 Tags:
-- Lumia 800
-- Nokia
-- Update
-- Windows Phone 7
+- lumia 800
+- nokia
+- update
+- windows phone 7
 ---
 
 I have been meaning to post this for a while, but with one thing and another, I just haven’t had time.  However, as some of you will know, I have been banging on about this update for a LONG time!  What feels like ages ago now, Nokia finally announced that they were going to bring internet tethering to the Nokia Lumia 800 (a feature that I have been sorely missing since I moved from my beloved HTC HD7 to the Nokia Lumia 800), however, it took over a month to get the update onto my phone.

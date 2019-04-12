@@ -2,10 +2,10 @@
 Title: Invited to Wyam organisation on GitHub
 Published: 18/4/2016
 Tags:
-- GitHub
-- Open Source
-- Organisation
-- Wyam
+- github
+- open source
+- organisation
+- wyam
 ---
 
 # I am now a member of the Wyam Organisation on GitHub

@@ -2,9 +2,9 @@
 Title: Windows Phone 8 GDR2 Update finally arrives for my Nokia Lumia 925 on the 3 network
 Published: 3/10/2013
 Tags:
-- GDR2
-- Nokia Lumia 925
-- Windows Phone 8
+- gdr2
+- nokia lumia 925
+- windows phone 8
 ---
 
 I am happy to report that the GDR2 update for my Nokia Lumia 925 has finally arrived.  I say finally because it is almost 1 month after it arrived for my wife's phone!  We are not on the same operator, so this is obviously showing the difference in turning around the updates for the Windows Phone eco-system, and it has to be said that this really is a sad state of affairs!  I really hope that this turn around time for pushing out the updates improves, as getting the latest features for my handset is very important to me.  Almost important enough to consider switching mobile phone providers.

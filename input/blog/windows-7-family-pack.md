@@ -2,9 +2,9 @@
 Title: Windows 7 Family Pack
 Published: 5/10/2010
 Tags:
-- Microsoft
-- Operating System
-- Windows 7
+- microsoft
+- operating system
+- windows 7
 ---
 
 Just found out about the existence of this pack, so I thought I would share:

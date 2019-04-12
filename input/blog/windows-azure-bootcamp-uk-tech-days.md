@@ -2,10 +2,10 @@
 Title: Windows Azure Bootcamp, UK Tech Days
 Published: 3/2/2012
 Tags:
-- London
-- Microsoft
-- UK Tech Days
-- Windows Azure
+- london
+- microsoft
+- uk tech days
+- windows azure
 RedirectFrom: blog/windows-azure-bootcamp-uk-tech-days/index.html
 ---
 

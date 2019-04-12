@@ -2,10 +2,10 @@
 Title: Windows Phone 7 Bootcamp, UK Tech Days
 Published: 4/2/2012
 Tags:
-- London
-- Microsoft
-- UK Tech Days
-- Windows Phone 7
+- london
+- microsoft
+- uk tech days
+- windows phone 7
 RedirectFrom: blog/windows-phone-7-bootcamp-uk-tech-days/index.html
 ---
 

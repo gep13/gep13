@@ -2,9 +2,9 @@
 Title: What are all the Chocolatey repositories for?
 Published: 11/01/2019
 Tags:
-- Chocolatey
-- GitHub
-- Repositories
+- chocolatey
+- github
+- repositories
 ---
 
 I recently received a Tweet:

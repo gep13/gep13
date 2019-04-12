@@ -2,9 +2,9 @@
 Title: Windows Phone 7 Updating the Nokia Lumia Firmware to 1600.2483.8106.11500
 Published: 9/3/2012
 Tags:
-- Nokia. Lumia 800
-- Update
-- Windows Phone 7
+- nokia lumia 800
+- update
+- windows phone 7
 ---
 
 I woke up this morning to find that my shiny new Windows Phone 7, the Nokia Lumia 800, was telling me that I had a new update.

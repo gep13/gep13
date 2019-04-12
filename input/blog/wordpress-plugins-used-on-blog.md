@@ -2,9 +2,9 @@
 Title: WordPress Plugins used on blog
 Published: 14/3/2011
 Tags:
-- Blog
-- Plugins
-- WordPress
+- blog
+- plugins
+- wordpress
 ---
 
 On this site, I am starting to use a large number of WordPress plugins.  These range from plugins for SMTP configuration to showing my Tweets.  To aid an aging brain, I am going to note these plugins here, and will update this post as I add/remove plugins from my blog.

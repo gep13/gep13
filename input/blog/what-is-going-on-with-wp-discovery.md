@@ -2,9 +2,9 @@
 Title: What is going on with WP Discovery?
 Published: 29/12/2012
 Tags:
-- Giveaway
-- Scam
-- WP Discovery
+- giveaway
+- scam
+- wp discovery
 RedirectFrom: blog/what-is-going-on-with-wp-discovery/index.html
 ---
 

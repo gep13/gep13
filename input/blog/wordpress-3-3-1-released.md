@@ -3,8 +3,8 @@ Title: WordPress 3.3.1 Released
 Published: 4/1/2012
 Tags:
 - 3.3.1
-- Updates
-- WordPress
+- updates
+- wordpress
 ---
 
 Having logged into my Blog this morning, I was informed that a new release of WordPress was available; Version 3.3.1.

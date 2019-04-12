@@ -2,10 +2,10 @@
 Title: Where did the assemblies from my Global Assembly Cache (GAC) go?
 Published: 24/11/2010
 Tags:
-- Development
-- Error
-- GAC
-- SharePoint
+- development
+- error
+- gac
+- sharepoint
 ---
 
 I have recently been working on a SharePoint Web Part, and while trying to retract the solution from SharePoint, I got an error message, shown here:

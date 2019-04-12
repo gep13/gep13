@@ -2,9 +2,9 @@
 Title: Websites are now being blacked out
 Published: 18/1/2012
 Tags:
-- SOPA
-- Wikipedia
-- WordPress
+- sopa
+- wikipedia
+- wordpress
 ---
 
 In case you haven’t heard, there are a number of websites/companies that have decided to black out their web pages today. This is in order to join the protest against the U.S. Congress legislation which is being proposed called SOPA, or Stop Online Piracy Act. You can find out more information about SOPA [here](http://en.wikipedia.org/wiki/Stop_Online_Piracy_Act) (which strangely enough is a Wikipedia page, so obviously, not all of their pages are going dark).
