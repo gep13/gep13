@@ -2,9 +2,9 @@
 Title: O’Reilly Media – FTW!!
 Published: 15/4/2011
 Tags:
-- eBooks
-- Kindle
-- O'Reilly
+- ebooks
+- kindle
+- o'reilly
 ---
 
 If like me, you have a LOT of books, then I would highly suggest that you take a look at the O’Reilly Media website:

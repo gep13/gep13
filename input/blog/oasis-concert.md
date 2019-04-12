@@ -2,9 +2,9 @@
 Title: Oasis Concert
 Published: 2/11/2008
 Tags:
-- Concert
-- Music
-- Oasis
+- concert
+- music
+- oasis
 ---
 
 Went to see Oasis at the Exhibition Centre last night, it was an amazing concert!!!

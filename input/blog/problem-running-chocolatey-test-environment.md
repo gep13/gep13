@@ -2,9 +2,9 @@
 Title: Problem Running Chocolatey Test Environment
 Published: 27/07/2018
 Tags:
-- Chocolatey
-- Test Environment
-- Vagrant
+- chocolatey
+- test environment
+- vagrant
 ---
 
 During a [Gitter discussion](https://gitter.im/chocolatey/choco?at=5b59cf471be9bb57bcc5a6e4) yesterday, an interesting

@@ -3,7 +3,7 @@ Title: 'Progressive .Net Tutorials – A Review @skillsmatter #prognet11'
 Published: 8/9/2011
 Tags:
 - prognet11
-- SkillsMatter
+- skillsmatter
 ---
 
 Sadly, the Progressive .Net Tutorials 2011 have come to an end, but I am happy to report that I have had a great time. The quality and content of the sessions has been amazing, and the guys at Skills Matter do a great job in making sure that everything ticked over correctly.

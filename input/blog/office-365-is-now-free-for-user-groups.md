@@ -2,10 +2,10 @@
 Title: Office 365 is now free for User Groups
 Published: 20/3/2012
 Tags:
-- ADNUGUK
-- Office 365
-- UGSS
-- User Groups
+- adnuguk
+- office 365
+- ugss
+- user groups
 ---
 
 Back in June 2011, I asked an [open question](http://www.gep13.co.uk/blog/can-net-user-groups-get-office365-for-free) to the community regarding Office 365.  The question was simple...

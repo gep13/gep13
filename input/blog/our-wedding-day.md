@@ -2,9 +2,9 @@
 Title: Mr and Mrs Park
 Published: 15/10/2010
 Tags:
-- Family
-- Wedding
-- Lynn
+- family
+- wedding
+- lynn
 ---
 
 Today was a very special day, it was the day that I was made the happiest man alive.  Today, Lynn and I got married.

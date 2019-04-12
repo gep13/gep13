@@ -2,9 +2,9 @@
 Title: OneNote 2010 – Make Text in Image Searchable
 Published: 8/2/2011
 Tags:
-- Features
-- Microsoft Office
-- OneNote 2010
+- features
+- microsoft office
+- onenote 2010
 ---
 
 _This is the first in a _[_series of blog posts_](http://www.gep13.co.uk/blog/reasons-to-love-onenote-2010-series)_ I’m doing on the features that I now find invaluable within Microsoft OneNote 2010._

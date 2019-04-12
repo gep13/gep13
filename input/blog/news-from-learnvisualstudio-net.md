@@ -2,9 +2,9 @@
 Title: News from LearnVisualStudio.Net
 Published: 4/8/2010
 Tags:
-- General
-- LearnVisualStudio
-- TrainingSpot
+- general
+- learnvisualstudio
+- trainingspot
 ---
 
 If you aren’t already using [LearnVisualStudio.Net](http://www.learnvisualstudio.net/), then I would highly recommend that you give it a try.  I have had the lifetime membership for some years now, and I love it.

@@ -2,9 +2,9 @@
 Title: New @StuartMacBride Book available for pre-order
 Published: 14/10/2011
 Tags:
-- Aberdeen
-- Crime
-- Stuart MacBride
+- aberdeen
+- crime
+- stuart macbride
 ---
 
 [![](http://ws.assoc-amazon.co.uk/widgets/q?_encoding=UTF8&Format=_SL110_&ASIN=0007344171&MarketPlace=GB&ID=AsinImage&WS=1&tag=www6thprimeco-21&ServiceVersion=20070822)](http://www.amazon.co.uk/gp/product/0007344171/ref=as_li_ss_il?ie=UTF8&tag=www6thprimeco-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0007344171)

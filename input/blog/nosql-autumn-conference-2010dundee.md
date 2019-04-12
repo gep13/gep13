@@ -2,9 +2,9 @@
 Title: NoSql Autumn Conference 2010–Dundee
 Published: 21/11/2010
 Tags:
-- DDD
-- Meetings
-- NoSql
+- ddd
+- meetings
+- nosql
 ---
 
 Yesterday I attended the NoSql Autumn Conference at Dundee University:

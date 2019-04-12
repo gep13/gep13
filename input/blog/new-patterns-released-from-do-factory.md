@@ -2,9 +2,9 @@
 Title: New Patterns released from DO Factory
 Published: 9/8/2010
 Tags:
-- Design Patterns
-- General
-- Reference
+- design patterns
+- general
+- reference
 ---
 
 If you haven’t heard of these guys before, then I would suggest that you check them out:

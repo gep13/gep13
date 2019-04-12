@@ -2,9 +2,9 @@
 Title: Peterhead Panto - Snow White
 Published: 7/12/2008
 Tags:
-- Panto
-- Peterhead
-- Snow White
+- panto
+- peterhead
+- snow white
 ---
 
 We went along to the Peterhead Panto last night with it's production of Snow White and the 7 Normal Sized people Brainy, Fussy, Forgetful, Wabbit, Bossy, Lanky and Gypit.

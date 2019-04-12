@@ -2,9 +2,9 @@
 Title: Opening and editing an Adobe Illustrator file using Expression Design
 Published: 24/5/2013
 Tags:
-- Adobe Illustrator
-- Export
-- Expression Design
+- adobe illustrator
+- export
+- expression design
 ---
 
 # Open and edit a .ai file using Expression Design

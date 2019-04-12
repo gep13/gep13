@@ -2,9 +2,9 @@
 Title: Our new kitten
 Published: 7/7/2010
 Tags:
-- Aiden
-- Kitten
-- Pet
+- aiden
+- kitten
+- pet
 ---
 
 Okay, this is about as far away from a .Net post as you can get, but I felt it had to be done.

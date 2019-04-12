@@ -2,10 +2,10 @@
 Title: New MSDN Subscription
 Published: 4/8/2010
 Tags:
-- General
-- MSDN
-- Personal
-- VBForums
+- general
+- msdn
+- personal
+- vbforums
 ---
 
 Wow!!!

@@ -2,10 +2,10 @@
 Title: Out with the old, in with the new - Microsoft Sculpt Ergonomic
 Published: 7/6/2014
 Tags:
-- Ergonomic
-- Keyboard
-- Microsoft
-- Sculpt
+- ergonomic
+- keyboard
+- microsoft
+- sculpt
 ---
 
 # tl;dr

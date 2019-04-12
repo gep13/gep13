@@ -2,9 +2,9 @@
 Title: Northern Lights 2013 Conference
 Published: 5/10/2013
 Tags:
-- Conference
-- Northern Lights 2013
-- Tickets
+- conference
+- northern lights 2013
+- tickets
 ---
 
 # Get your tickets now!

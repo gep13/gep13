@@ -2,9 +2,9 @@
 Title: Invited to psake organisation on GitHub
 Published: 10/9/2015
 Tags:
-- GitHub
-- Open Source
-- Organisation
+- github
+- open source
+- organisation
 - psake
 ---
 

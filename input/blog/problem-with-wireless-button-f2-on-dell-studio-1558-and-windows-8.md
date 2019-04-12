@@ -2,10 +2,10 @@
 Title: Problem with Wireless Button (F2) on Dell Studio 1558 and Windows 8
 Published: 4/2/2013
 Tags:
-- Dell Studio 1558
-- F2
-- Windows 8
-- Wireless
+- dell studio 1558
+- f2
+- windows 8
+- wireless
 ---
 
 # How I finally got the Wireless Button (F2) on my Dell Studio 1558 working...

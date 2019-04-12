@@ -2,10 +2,10 @@
 Title: Nokia Lumia 800 to get tethering support, “soon”
 Published: 24/3/2012
 Tags:
-- Internet
-- Nokia Lumia 800
-- Tether
-- Update
+- internet
+- nokia lumia 800
+- tether
+- update
 ---
 
 I have just found out that the much-needed internet tethering feature for my Nokia Lumia 800 is coming, it just hasn’t been announced when it will be arriving.  The only hint that we get is via an online [Q&A blog post on the Nokia Connects site](http://nokiaconnects.com/2012/03/13/nokia-lumia-900-your-questions-answered/), which states:
