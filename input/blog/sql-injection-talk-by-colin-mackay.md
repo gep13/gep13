@@ -2,7 +2,7 @@
 Title: SQL Injection Talk by Colin Mackay
 Published: 24/9/2010
 Tags:
-- adnug
+- adnuguk
 - meetings
 ---
 

@@ -3,7 +3,7 @@ Title: Sessions that I have submitted for DDD North 2012
 Published: 18/8/2012
 Tags:
 - caliburn.micro
-- ddd north
+- dddnorth
 - events
 - nuget
 - sessions
