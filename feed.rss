@@ -5,8 +5,8 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2019</copyright>
-		<pubDate>Sun, 17 Feb 2019 15:34:21 GMT</pubDate>
-		<lastBuildDate>Sun, 17 Feb 2019 15:34:21 GMT</lastBuildDate>
+		<pubDate>Sat, 13 Apr 2019 08:11:48 GMT</pubDate>
+		<lastBuildDate>Sat, 13 Apr 2019 08:11:48 GMT</lastBuildDate>
 		<item>
 			<title>Introducing the Cake.VsCode.Recipe Package</title>
 			<link>http://www.gep13.co.uk/blog/introducing-cake-vscode-recipe</link>
@@ -78,17 +78,17 @@
 			<pubDate>Thu, 06 Dec 2018 00:00:00 GMT</pubDate>
 		</item>
 		<item>
-			<title>Introducing the Chocolatey VS Code Extension</title>
-			<link>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</guid>
-			<pubDate>Sun, 25 Nov 2018 00:00:00 GMT</pubDate>
-		</item>
-		<item>
 			<title>Introducing the Chocolatey Azure DevOps Extension</title>
 			<link>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</guid>
+			<pubDate>Sun, 25 Nov 2018 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Introducing the Chocolatey VS Code Extension</title>
+			<link>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</guid>
 			<pubDate>Sun, 25 Nov 2018 00:00:00 GMT</pubDate>
 		</item>
 		<item>

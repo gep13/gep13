@@ -97,10 +97,10 @@
     <div class="meta">        
 Published on 09 March 2017<br>    </div>
         <div class="tags">
-                    <a role="button" href="/tags/commits" class="btn btn-default btn-xs">Commits</a>
-                    <a role="button" href="/tags/github" class="btn btn-default btn-xs">GitHub</a>
-                    <a role="button" href="/tags/keybase" class="btn btn-default btn-xs">Keybase</a>
-                    <a role="button" href="/tags/signing" class="btn btn-default btn-xs">Signing</a>
+                    <a role="button" href="/tags/commits" class="btn btn-default btn-xs">commits</a>
+                    <a role="button" href="/tags/github" class="btn btn-default btn-xs">github</a>
+                    <a role="button" href="/tags/keybase" class="btn btn-default btn-xs">keybase</a>
+                    <a role="button" href="/tags/signing" class="btn btn-default btn-xs">signing</a>
         </div>     
 </div>
                                         </div>
@@ -122,20 +122,20 @@ Published on 09 March 2017<br>    </div>
 <p>I already have a keybase.io account, and therefore the steps involved in setting that up are not covered here, but in truth, it is very simple.  Head on over to their site and walk through the process.</p>
 <ol>
 <li>Install keybase.io CLI Tool</li>
-<li>Install gpg4win-vanilla:<br />
+<li>Install gpg4win-vanilla:
 <code>choco install gpg4win-vanilla</code></li>
-<li>Add keybase folder to path:<br />
+<li>Add keybase folder to path:
 <code>C:\Users\gary.park\AppData\Local\Keybase;</code></li>
-<li>Export keybase keys and import into gpg4win:<br />
+<li>Export keybase keys and import into gpg4win:
 <code>keybase pgp export | gpg --import</code></li>
-<li>Import private key:<br />
+<li>Import private key:
 <code>keybase pgp export --secret | gpg --allow-secret-key-import --import</code></li>
-<li>Find the ID for your key by using this command:<br />
+<li>Find the ID for your key by using this command:
 <code>gpg --list-secret-keys</code></li>
-<li>Using that ID, edit the key to make it trusted:<br />
-<code>gpg --edit-key F6993303</code><br />
-<code>trust</code><br />
-<code>5</code><br />
+<li>Using that ID, edit the key to make it trusted:
+<code>gpg --edit-key F6993303</code>
+<code>trust</code>
+<code>5</code>
 <code>y</code></li>
 </ol>
 <p>With these steps done, I am ready to continue with setting up git to use the new gpg key.  This is due to the fact that I have already imported the public key into GitHub.  If you haven't done that part yet, then I would encourage you to follow the steps on the linked blog post.</p>
