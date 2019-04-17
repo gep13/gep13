@@ -28,7 +28,7 @@ Some of the most recent repositories that I have been working on are focused on 
 * [chocolatey-vscode](https://github.com/gep13/chocolatey-vscode)
 * [chocolatey-azuredevops](https://github.com/gep13/chocolatey-azuredevops)
 
-While these started out as my own "pet" projects, they are starting to gain more traction and contributions, and it makes sense to move them into the correct Organisation.  This will likely ultimately be the [chocolatey](https://github/chocolatey) Organisation on GitHub, but it started a discussion between myself and Chocolatey Founder, [Rob Reynolds](https://twitter.com/ferventcoder).
+While these started out as my own "pet" projects, they are starting to gain more traction and contributions, and it makes sense to move them into the correct Organisation.  This will likely ultimately be the [chocolatey](https://github.com/chocolatey) Organisation on GitHub, but it started a discussion between myself and Chocolatey Founder, [Rob Reynolds](https://twitter.com/ferventcoder).
 
 The repositories in the chocolatey GitHub Organisation fall into three distinct categories:
 
