@@ -4,8 +4,58 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2019</rights>
-	<updated>2019-04-13T08:11:34Z</updated>
+	<updated>2019-04-17T20:08:07Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/new-chocolatey-github-organisations" />
+		<id>http://www.gep13.co.uk/blog/new-chocolatey-github-organisations</id>
+		<title>New Chocolatey GitHub Organisations</title>
+		<updated>2019-04-17T00:00:00Z</updated>
+		<content>&lt;p&gt;I have been thinking a LOT about GitHub Organisations lately.  These thought processes are related to the sustainability and maintainability of GitHub repositories/projects.&lt;/p&gt;
+&lt;p&gt;The most recent thing that spurred this was detailed in a Twitter thread that I created here:&lt;/p&gt;
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Thread on OSS... A couple weeks ago, I was contacted about a couple &lt;a href="https://twitter.com/cakebuildnet?ref_src=twsrc%5Etfw"&gt;&amp;#64;cakebuildnet&lt;/a&gt; addins, which appeared to have stopped being maintained.  It was suggested that we could fork the addin&amp;#39;s into the &lt;a href="https://twitter.com/cakecontrib?ref_src=twsrc%5Etfw"&gt;&amp;#64;cakecontrib&lt;/a&gt; Organisation and continue development there.  I was hesitant to... 1/n&lt;/p&gt;&amp;mdash; Gary Ewan Park (&amp;#64;gep13) &lt;a href="https://twitter.com/gep13/status/1115340392197709824?ref_src=twsrc%5Etfw"&gt;April 8, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;The upshot of this was a successful outcome, where the repository in question was transferred into a GitHub Organisation, which is maintained by multiple people, meaning that more people can help out with ongoing changes to these repositories.&lt;/p&gt;
+&lt;p&gt;This got me thinking about my own GitHub profile, as I have a growing number of my own repositories that are starting to get more and more contributions from other people.  I have added these contributors as collaborators on the repository, but they don't have full access to the repositories.  The ability to add this access, to the best of my knowledge, only comes with adding the contributors to an organisation.&lt;/p&gt;
+&lt;h2 id="what-does-this-have-to-do-with-chocolatey"&gt;What does this have to do with Chocolatey?&lt;/h2&gt;
+&lt;p&gt;Some of the most recent repositories that I have been working on are focused on Chocolatey, specifically:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13/chocolatey-vs"&gt;chocolatey-vs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13/chocolatey-vscode"&gt;chocolatey-vscode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13/chocolatey-azuredevops"&gt;chocolatey-azuredevops&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While these started out as my own &amp;quot;pet&amp;quot; projects, they are starting to gain more traction and contributions, and it makes sense to move them into the correct Organisation.  This will likely ultimately be the &lt;a href="https://github/chocolatey"&gt;chocolatey&lt;/a&gt; Organisation on GitHub, but it started a discussion between myself and Chocolatey Founder, &lt;a href="https://twitter.com/ferventcoder"&gt;Rob Reynolds&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The repositories in the chocolatey GitHub Organisation fall into three distinct categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;repositories that are actively being worked on by the core Chocolatey Contributors&lt;/li&gt;
+&lt;li&gt;repositories that are actively being worked on by the wider Chocolatey Community&lt;/li&gt;
+&lt;li&gt;repositories that are no longer being worked on&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Having identified these distinctions, the following changes are going to happen...&lt;/p&gt;
+&lt;h2 id="new-github-organisations"&gt;New GitHub Organisations&lt;/h2&gt;
+&lt;p&gt;Two new GitHub Organisations have been created:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/chocolatey-archive"&gt;chocolatey-archive&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;This is going to house all Chocolatey repositories that are no longer being worked on, but which are being kept around for reference purposes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/chocolatey-community"&gt;chocolatey-community&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;This is going to house all Chocolatey repositories that are being worked on by the wider Chocolatey Community&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The existing &lt;a href="https://github.com/chocolatey"&gt;chocolatey&lt;/a&gt; Organisation will remain, and will house all the repositories that are actively being developed by the core Chocolatey Contributors.&lt;/p&gt;
+&lt;h2 id="what-is-going-to-happen-now"&gt;What is going to happen now?&lt;/h2&gt;
+&lt;p&gt;I have already moved all the required repositories into the &lt;a href="https://github.com/chocolatey-archive"&gt;chocolatey-archive&lt;/a&gt; Organisation.&lt;/p&gt;
+&lt;p&gt;Over the next week or so, I will begin moving repositories into the new &lt;a href="https://github.com/chocolatey-community"&gt;chocolatey-community&lt;/a&gt; Organisation.  To facilitate this, I will also be sending out invitations to Chocolatey Community members to join the new Organisation, and assigning them into teams in the new organisation.  If you are already a member of the chocolatey Organisation, you will likely be invited to the new Organisation as well.  If I can ask you to keep an eye out for this invitation so that I can assign members into the various teams I will create, I would appreciate it.&lt;/p&gt;
+&lt;p&gt;We hope that this re-organisation of the repositories associated with Chocolatey will help to explain what they are for, and who is actively working on the various projects.&lt;/p&gt;
+&lt;p&gt;For more information about the Chocolatey repositories that exist, you can read an earlier &lt;a href="https://www.gep13.co.uk/blog/what-are-all-the-chocolatey-repositories-for"&gt;blog post&lt;/a&gt; that I wrote on this subject.&lt;/p&gt;
+&lt;p&gt;Please feel free to reach out if you have any questions about any of these changes.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;I have been thinking a LOT about GitHub Organisations lately.  These thought processes are related to the sustainability and maintainability of GitHub repositories/projects.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/introducing-cake-vscode-recipe" />
 		<id>http://www.gep13.co.uk/blog/introducing-cake-vscode-recipe</id>
@@ -1507,78 +1557,5 @@ else
 &lt;p&gt;Hopefully see you there, and feel free to reach out with any questions you might have.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Aberdeen Developers .Net User Group are proud to be hosting a Hacktoberfest event on the 4th October 2018.  Full details of the event can be found on the &lt;a href="https://www.meetup.com/Aberdeen-Developers-NET-User-Group/events/254881639/"&gt;Meetup page&lt;/a&gt;.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/problem-running-chocolatey-test-environment" />
-		<id>http://www.gep13.co.uk/blog/problem-running-chocolatey-test-environment</id>
-		<title>Problem Running Chocolatey Test Environment</title>
-		<updated>2018-07-27T00:00:00Z</updated>
-		<content>&lt;p&gt;During a &lt;a href="https://gitter.im/chocolatey/choco?at=5b59cf471be9bb57bcc5a6e4"&gt;Gitter discussion&lt;/a&gt; yesterday, an interesting
-point of discussion came up, so I thought I would capture it here in a blog post.  The short version is that you
-probably want to make sure that you are using the latest version of Vagrant when trying to use the Chocolatey Test
-Environment, although bear in mind that this might not have been tested by anyone, and may have other problems :-).&lt;/p&gt;
-&lt;h2 id="the-problem"&gt;The Problem&lt;/h2&gt;
-&lt;p&gt;When the Chocolatey Community member was trying to run the &lt;a href="https://github.com/chocolatey/chocolatey-test-environment"&gt;Chocolatey Test Environment&lt;/a&gt;
-on his Windows 10 machine, they were running into the following error:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-sh"&gt;Bringing machine 'default' up with 'virtualbox' provider...
- ==&amp;gt; default: Box 'ferventcoder/win2012r2-x64-nocm' could not be found. Attempting to find and install...
-    default: Box Provider: virtualbox
-    default: Box Version: &amp;gt;= 0
-The box 'ferventcoder/win2012r2-x64-nocm' could not be found or
-could not be accessed in the remote catalog. If this is a private
-box on HashiCorp's Atlas, please verify you're logged in via
-`vagrant login`. Also, please double-check the name. The expanded
-URL and error message are shown below:
-
-URL: [&amp;quot;https://atlas.hashicorp.com/ferventcoder/win2012r2-x64-nocm&amp;quot;]
-Error: The requested URL returned error: 404 Not Found
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Going to the URL shown in the output above, it did indeed result in a 404.  However, a quick
-search of the Vagrant Cloud showed that the base box did in fact exist.  You can find it here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://app.vagrantup.com/ferventcoder/boxes/win2012r2-x64-nocm"&gt;https://app.vagrantup.com/ferventcoder/boxes/win2012r2-x64-nocm&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;A further test on my own machine, resulted in the following output:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-sh"&gt;Bringing machine 'default' up with 'virtualbox' provider...
-==&amp;gt; default: Box 'ferventcoder/win2012r2-x64-nocm' could not be found. Attempting to find and install...
-default: Box Provider: virtualbox
-default: Box Version: &amp;gt;= 0
-==&amp;gt; default: Loading metadata for box 'ferventcoder/win2012r2-x64-nocm'
-default: URL: https://vagrantcloud.com/ferventcoder/win2012r2-x64-nocm
-==&amp;gt; default: Adding box 'ferventcoder/win2012r2-x64-nocm' (v1.0.0) for provider: virtualbox
-default: Downloading: https://vagrantcloud.com/ferventcoder/boxes/win2012r2-x64-nocm/versions/1.0.0/providers/virtualbox.box
-default: Progress: 1% (Rate: 2764k/s, Estimated time remaining: 0:30:03)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Which correctly worked.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; The difference in the download URL's.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://atlas.hashicorp.com/ferventcoder/win2012r2-x64-nocm"&gt;https://atlas.hashicorp.com/ferventcoder/win2012r2-x64-nocm&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;compared to:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://vagrantcloud.com/ferventcoder/win2012r2-x64-nocm"&gt;https://vagrantcloud.com/ferventcoder/win2012r2-x64-nocm&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="the-solution"&gt;The Solution&lt;/h2&gt;
-&lt;p&gt;After a bit of digging, it turns out that the Chocolatey Community Member was following the
-instructions in the README.md of the linked repository, which suggests using 1.8.1 of vagrant,
-where as I was using version 2.0.1.  My guess was that there was &amp;quot;something&amp;quot; in the earlier
-version of the vagrant client which no longer worked, i.e. a URL redirect was no longer in place.&lt;/p&gt;
-&lt;p&gt;Turns out that this &amp;quot;guess&amp;quot; was pretty much spot on.  Rob Reynolds was able to confirm this by
-pointing out this Google Groups post:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://groups.google.com/forum/#!msg/vagrant-up/H8C68UTkosU/qz4YUmAgBAAJ"&gt;https://groups.google.com/forum/#!msg/vagrant-up/H8C68UTkosU/qz4YUmAgBAAJ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;So bascially, if you are wanting to run an earlier version of the Vagrant client, you are going
-to need to set the following environment variable:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-sh"&gt;# macOS and Linux
-export VAGRANT_SERVER_URL=&amp;quot;https://vagrantcloud.com&amp;quot;
-
-# Windows (CMD)
-set VAGRANT_SERVER_URL=&amp;quot;https://vagrantcloud.com&amp;quot;
-
-# Windows (Powershell)
-$env:VAGRANT_SERVER_URL=&amp;quot;https://vagrantcloud.com&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Or, upgrade to a newer version of Vagrant.&lt;/p&gt;
-&lt;h2 id="the-outcome"&gt;The Outcome&lt;/h2&gt;
-&lt;p&gt;I am going to update the Chocolatey Test Environment repository to include some of this
-information, so that other people don't also run into this problem.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;During a &lt;a href="https://gitter.im/chocolatey/choco?at=5b59cf471be9bb57bcc5a6e4"&gt;Gitter discussion&lt;/a&gt; yesterday, an interesting
-point of discussion came up, so I thought I would capture it here in a blog post.  The short version is that you
-probably want to make sure that you are using the latest version of Vagrant when trying to use the Chocolatey Test
-Environment, although bear in mind that this might not have been tested by anyone, and may have other problems :-).&lt;/p&gt;</summary>
 	</entry>
 </feed>

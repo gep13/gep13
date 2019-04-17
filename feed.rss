@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2019</copyright>
-		<pubDate>Sat, 13 Apr 2019 08:11:48 GMT</pubDate>
-		<lastBuildDate>Sat, 13 Apr 2019 08:11:48 GMT</lastBuildDate>
+		<pubDate>Wed, 17 Apr 2019 20:08:22 GMT</pubDate>
+		<lastBuildDate>Wed, 17 Apr 2019 20:08:22 GMT</lastBuildDate>
+		<item>
+			<title>New Chocolatey GitHub Organisations</title>
+			<link>http://www.gep13.co.uk/blog/new-chocolatey-github-organisations</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/new-chocolatey-github-organisations</guid>
+			<pubDate>Wed, 17 Apr 2019 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>Introducing the Cake.VsCode.Recipe Package</title>
 			<link>http://www.gep13.co.uk/blog/introducing-cake-vscode-recipe</link>
@@ -139,13 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/hacktoberfest-meetup-2018</guid>
 			<pubDate>Wed, 26 Sep 2018 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Problem Running Chocolatey Test Environment</title>
-			<link>http://www.gep13.co.uk/blog/problem-running-chocolatey-test-environment</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/problem-running-chocolatey-test-environment</guid>
-			<pubDate>Fri, 27 Jul 2018 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>
