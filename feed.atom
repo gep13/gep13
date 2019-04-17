@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2019</rights>
-	<updated>2019-04-17T20:08:07Z</updated>
+	<updated>2019-04-17T20:58:35Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/new-chocolatey-github-organisations" />
@@ -24,7 +24,7 @@
 &lt;li&gt;&lt;a href="https://github.com/gep13/chocolatey-vscode"&gt;chocolatey-vscode&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/gep13/chocolatey-azuredevops"&gt;chocolatey-azuredevops&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;While these started out as my own &amp;quot;pet&amp;quot; projects, they are starting to gain more traction and contributions, and it makes sense to move them into the correct Organisation.  This will likely ultimately be the &lt;a href="https://github/chocolatey"&gt;chocolatey&lt;/a&gt; Organisation on GitHub, but it started a discussion between myself and Chocolatey Founder, &lt;a href="https://twitter.com/ferventcoder"&gt;Rob Reynolds&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;While these started out as my own &amp;quot;pet&amp;quot; projects, they are starting to gain more traction and contributions, and it makes sense to move them into the correct Organisation.  This will likely ultimately be the &lt;a href="https://github.com/chocolatey"&gt;chocolatey&lt;/a&gt; Organisation on GitHub, but it started a discussion between myself and Chocolatey Founder, &lt;a href="https://twitter.com/ferventcoder"&gt;Rob Reynolds&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The repositories in the chocolatey GitHub Organisation fall into three distinct categories:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;repositories that are actively being worked on by the core Chocolatey Contributors&lt;/li&gt;
