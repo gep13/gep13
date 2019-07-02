@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2019</copyright>
-		<pubDate>Wed, 17 Apr 2019 20:58:55 GMT</pubDate>
-		<lastBuildDate>Wed, 17 Apr 2019 20:58:55 GMT</lastBuildDate>
+		<pubDate>Tue, 02 Jul 2019 07:24:19 GMT</pubDate>
+		<lastBuildDate>Tue, 02 Jul 2019 07:24:19 GMT</lastBuildDate>
+		<item>
+			<title>MVP Renewal 2019</title>
+			<link>http://www.gep13.co.uk/blog/mvp-renewal-2019</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/mvp-renewal-2019</guid>
+			<pubDate>Tue, 02 Jul 2019 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>New Chocolatey GitHub Organisations</title>
 			<link>http://www.gep13.co.uk/blog/new-chocolatey-github-organisations</link>
@@ -139,13 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/mvp-rd-wall-at-msignite</guid>
 			<pubDate>Sun, 30 Sep 2018 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Hacktoberfest Meetup 2018</title>
-			<link>http://www.gep13.co.uk/blog/hacktoberfest-meetup-2018</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/hacktoberfest-meetup-2018</guid>
-			<pubDate>Wed, 26 Sep 2018 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>

@@ -4,8 +4,27 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2019</rights>
-	<updated>2019-04-17T20:58:35Z</updated>
+	<updated>2019-07-02T07:24:03Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/mvp-renewal-2019" />
+		<id>http://www.gep13.co.uk/blog/mvp-renewal-2019</id>
+		<title>MVP Renewal 2019</title>
+		<updated>2019-07-02T00:00:00Z</updated>
+		<content>&lt;p&gt;I am very happy to announce that I have been renewed as a Microsoft MVP.&lt;/p&gt;
+&lt;!--excerpt--&gt;
+&lt;p&gt;Yesterday was sort of a weird day for me.  I had no expectations of being renewed as a Microsoft MVP, and I was very happy to receive the email from the MVP Global Administator to say that I was being renewed.&lt;/p&gt;
+&lt;p&gt;Watching Twitter throughout the day, and talking to some OSS colleagues who were also waiting to see if they were being renewed, the tension grew throughout the day.&lt;/p&gt;
+&lt;p&gt;At 13:39 I received the following email:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/07/02/mvp_renewal_2019.png" class="img-fluid" alt="MVP Renewal 2019" /&gt;&lt;/p&gt;
+&lt;p&gt;This will be my third year as a Microsoft MVP.  It was also this year that I was able to attend the MVP Summit in Redmond, and I am looking forward to attending this Summit again next year.&lt;/p&gt;
+&lt;p&gt;I just wanted to say congratulations to all the MVP's who were renewed this year, and to any MVP's who were no renewed &lt;strong&gt;thank you&lt;/strong&gt; for your contributions to the Community, they are very much appreciated!&lt;/p&gt;
+&lt;p&gt;I tweeted about this here:&lt;/p&gt;
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Very happy to say that I have just got a confirmation email to say that I have been renewed as a Microsoft MVP :-) &lt;a href="https://twitter.com/MVPAward?ref_src=twsrc%5Etfw"&gt;&amp;#64;MVPAward&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/MVPBuzz?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#MVPBuzz&lt;/a&gt; &lt;a href="https://t.co/3d2YXJMKzT"&gt;pic.twitter.com/3d2YXJMKzT&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gary Ewan Park (&amp;#64;gep13) &lt;a href="https://twitter.com/gep13/status/1145693764020817921?ref_src=twsrc%5Etfw"&gt;July 1, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content>
+		<summary>&lt;p&gt;I am very happy to announce that I have been renewed as a Microsoft MVP.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/new-chocolatey-github-organisations" />
 		<id>http://www.gep13.co.uk/blog/new-chocolatey-github-organisations</id>
@@ -1533,29 +1552,5 @@ else
 &lt;p&gt;I had no idea that Microsoft did this, and I really think it is a nice touch, to show appreciation to all the MVP's and Regional Directors.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Last week there was a flurry of pictures on Twitter and Facebook from the &lt;a href="https://www.microsoft.com/en-us/ignite"&gt;Microsoft Ignite&lt;/a&gt; Conference, and one in particular caught my eye.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/hacktoberfest-meetup-2018" />
-		<id>http://www.gep13.co.uk/blog/hacktoberfest-meetup-2018</id>
-		<title>Hacktoberfest Meetup 2018</title>
-		<updated>2018-09-26T00:00:00Z</updated>
-		<content>&lt;p&gt;Aberdeen Developers .Net User Group are proud to be hosting a Hacktoberfest event on the 4th October 2018.  Full details of the event can be found on the &lt;a href="https://www.meetup.com/Aberdeen-Developers-NET-User-Group/events/254881639/"&gt;Meetup page&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://secure.meetupstatic.com/photos/event/b/f/6/6/highres_474768998.jpeg" class="img-fluid" alt="Hacktoberfest" /&gt;&lt;/p&gt;
-&lt;h1 id="what-is-hacktoberfest"&gt;What is Hacktoberfest?&lt;/h1&gt;
-&lt;p&gt;For the last 4 years, DigitalOcean (in conjunction with GitHub) have been running an event called Hacktoberfest. It is a month long event where you are encouraged to contribute to Open Source Projects (hosted on GitHub) and in return you get some cool swag (typically a t-shirt and some stickers). All you have to do is submit 5 pull requests to projects on GitHub during the month of October. Registration for the event is completely free. More information on this event can be found here: &lt;a href="https://hacktoberfest.digitalocean.com/"&gt;https://hacktoberfest.digitalocean.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I have personally taken part in this event for the last three years, and I can vouch for the quality of the swag that you can get your hands on.&lt;/p&gt;
-&lt;h1 id="ok-so-what-do-i-get-out-of-it"&gt;Ok, so what do I get out of it?&lt;/h1&gt;
-&lt;p&gt;First up, you will need to &lt;a href="https://hacktoberfest.digitalocean.com/"&gt;register&lt;/a&gt; to indicate that you are going to be participating in the event.  If you open up five pull requests between October 1 and October 31, you will get a free, limited edition Hacktoberfest t-shirt. &lt;strong&gt;NOTE:&lt;/strong&gt; These pull requests do not need to be merged in order to be counted.  They just need to be opened during the time frame of the event.&lt;/p&gt;
-&lt;p&gt;In case you needed any further encouragement, you also have the ability to grab a free limited edition Microsoft t-shirt, which has been designed by &lt;a href="https://github.com/ashleymcnamara"&gt;Ashley McNamara&lt;/a&gt;.  This was announced by Microsoft in this &lt;a href="https://open.microsoft.com/2018/09/18/hacktoberfest-2018-microsoft/"&gt;blog post&lt;/a&gt;.  The rule for this t-shirt is simply to open a single pull request in one of the MANY open source repositories that Microsoft have.  A full list of these can be found in the linked blog post.&lt;/p&gt;
-&lt;h1 id="what-is-going-to-happen-at-the-event"&gt;What is going to happen at the event?&lt;/h1&gt;
-&lt;p&gt;The event is going to start with me doing a very brief introduction to contributing to Open Source.  This is something I have been involved in for almost 7 years now, and I am now actually working for a company based on the creation of Open Source software, so I have some great, and not so great, stories to tell about it.  We will walk through the basics of doing your first pull request, and answer any questions you might have.&lt;/p&gt;
-&lt;p&gt;With that out of the way, we will then jump straight into contributing to Open Source projects.  If you have a particular project in mind that's great.  If not, I can point you in the direction of some projects that I know need some help.&lt;/p&gt;
-&lt;h1 id="how-do-i-sign-up-for-the-event"&gt;How do I sign up for the event?&lt;/h1&gt;
-&lt;p&gt;Simply visit the &lt;a href="https://www.meetup.com/Aberdeen-Developers-NET-User-Group/events/254881639/"&gt;Meetup page&lt;/a&gt;, and indicate that you will be attending.  The number of registrations for this event is smaller than normal, but this is due to the space that we have access to.  So I would ask that you only attend the event if you have every intention of completing the Hacktoberfest event.&lt;/p&gt;
-&lt;h1 id="what-should-i-bring-with-me"&gt;What should I bring with me?&lt;/h1&gt;
-&lt;p&gt;The only thing that you are going to need in order to participate in this event is yourself, your laptop, and some ideas about the Open Source Projects that you would like to contribute to.  Drinks and some snacks will be being provided by &lt;a href="https://www.codify.ltd.uk/"&gt;Codify&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Hopefully see you there, and feel free to reach out with any questions you might have.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;Aberdeen Developers .Net User Group are proud to be hosting a Hacktoberfest event on the 4th October 2018.  Full details of the event can be found on the &lt;a href="https://www.meetup.com/Aberdeen-Developers-NET-User-Group/events/254881639/"&gt;Meetup page&lt;/a&gt;.&lt;/p&gt;</summary>
 	</entry>
 </feed>
