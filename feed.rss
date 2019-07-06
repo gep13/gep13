@@ -5,8 +5,8 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2019</copyright>
-		<pubDate>Sat, 06 Jul 2019 10:17:38 GMT</pubDate>
-		<lastBuildDate>Sat, 06 Jul 2019 10:17:38 GMT</lastBuildDate>
+		<pubDate>Sat, 06 Jul 2019 10:20:01 GMT</pubDate>
+		<lastBuildDate>Sat, 06 Jul 2019 10:20:01 GMT</lastBuildDate>
 		<item>
 			<title>MVP Renewal 2019</title>
 			<link>http://www.gep13.co.uk/blog/mvp-renewal-2019</link>
@@ -92,17 +92,17 @@
 			<pubDate>Thu, 06 Dec 2018 00:00:00 GMT</pubDate>
 		</item>
 		<item>
-			<title>Introducing the Chocolatey Azure DevOps Extension</title>
-			<link>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</guid>
-			<pubDate>Sun, 25 Nov 2018 00:00:00 GMT</pubDate>
-		</item>
-		<item>
 			<title>Introducing the Chocolatey VS Code Extension</title>
 			<link>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</guid>
+			<pubDate>Sun, 25 Nov 2018 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Introducing the Chocolatey Azure DevOps Extension</title>
+			<link>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</guid>
 			<pubDate>Sun, 25 Nov 2018 00:00:00 GMT</pubDate>
 		</item>
 		<item>
