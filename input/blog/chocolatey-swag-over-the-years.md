@@ -25,6 +25,10 @@ I might get the order of the creation of these wrong, or where they were given o
 
 This was the first official Chocolatey t-shirt which was created as part of the Chocolatey Kickstarter.
 
+![Chocolatey Experience - White](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-choco-experience-white-small.jpeg)
+
+This t-shirt was also available in white (I chose to go for the black version).  A photo of the white version was provided by [Jan Karger](https://twitter.com/punker76).
+
 ![Chocolatey Automation](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-choco-auto-small.png)
 
 Following on from the Kickstarter design, this became the default Chocolatey t-shirt for a long period of time.
