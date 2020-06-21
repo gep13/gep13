@@ -73,13 +73,13 @@ This was given out to attendees of Puppetize in 2019.
 
 ![Chocolatey Strawberry Back](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-strawberry-back-small.png)
 
-This was a limited edition run, created by Adil, but I don't recall exactly when this was given out.
+This was a limited edition run, created by [Adil](https://twitter.com/adilio), but I don't recall exactly when this was given out.
 
 ![Arc Reactor Blue](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-arcreactor-blue-small.png)
 
 ![Arc Reactor Grey](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-arcreactor-small.png)
 
-This is another Adil design, and it is available in blue and grey, and it is inspired by the arc reactor from Iron Man.  I believe I am right in saying that the blue one is only available to Employees and Contractors for Chocolatey.
+This is another [Adil](https://twitter.com/adilio) design, and it is available in blue and grey, and it is inspired by the arc reactor from Iron Man.  I believe I am right in saying that the blue one is only available to Employees and Contractors for Chocolatey.
 
 ## Hoodies
 
@@ -127,7 +127,7 @@ In keeping with the Willy Wonka theme of Chocolatey Fest, the Chocolatey Golden 
 
 ![Chocolatey Strawberry Large](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker5-small.png)
 
-This is a reasonably new design created by my colleague Adil.  It can be found in a couple different sizes.
+This is a reasonably new design created by my colleague [Adil](https://twitter.com/adilio).  It can be found in a couple different sizes.
 
 ## Sponsorship Swag
 
@@ -177,7 +177,7 @@ Manfred also took the time to create a sticker version of the t-shirt design tha
 
 ![Rob The Founder](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker4-small.png)
 
-This was created by Stevie and Adil for the Founder of Chocolatey, Rob Reynolds.
+This was created by Stevie and [Adil](https://twitter.com/adilio) for the Founder of Chocolatey, Rob Reynolds.
 
 ---
 
