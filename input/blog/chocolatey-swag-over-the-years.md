@@ -101,7 +101,7 @@ Inspired by the Microsoft MVP Jacket, there is an official Chocolatey Jacket ava
 
 ![Hat Front Left](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/hat2-small.png)
 
-This was created by my colleague Stevie, and I absolutely love it!  These were made in a very small quantity, and you should count yourself very lucky if you have one.  This is my go to hat!
+This was created by my colleague [Stevie](https://twitter.com/steviecoaster), and I absolutely love it!  These were made in a very small quantity, and you should count yourself very lucky if you have one.  This is my go to hat!
 
 ## Chocolate
 
@@ -177,7 +177,7 @@ Manfred also took the time to create a sticker version of the t-shirt design tha
 
 ![Rob The Founder](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker4-small.png)
 
-This was created by Stevie and [Adil](https://twitter.com/adilio) for the Founder of Chocolatey, Rob Reynolds.
+This was created by [Stevie](https://twitter.com/steviecoaster) and [Adil](https://twitter.com/adilio) for the Founder of Chocolatey, Rob Reynolds.
 
 ---
 
