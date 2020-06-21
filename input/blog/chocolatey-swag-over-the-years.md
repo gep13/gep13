@@ -65,15 +65,15 @@ This t-shirt was given out to attendees at ChefConf in 2019, both here in the UK
 
 This t-shirt was given out at the AnsibleFest conference in 2019.
 
-![Puppetize](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-puppetize-small.png)
-
-This was given out to attendees of Puppetize in 2019.
-
 ![Chocolatey Strawberry Front](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-strawberry-front-small.png)
 
 ![Chocolatey Strawberry Back](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-strawberry-back-small.png)
 
-This was a limited edition run, created by [Adil](https://twitter.com/adilio), but I don't recall exactly when this was given out.
+This was a limited edition run, featuring the "Config Management Strawberry Dipped in Chocolatey", created by [Adil](https://twitter.com/adilio).  This was given out in very limited numbers to attendees of both AnsibleFest and Puppetize.  There aren't many of these in the wild, so definitely a collectors item if you have one!
+
+![Puppetize](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-puppetize-small.png)
+
+This was given out to attendees of Puppetize in 2019.
 
 ![Arc Reactor Blue](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-arcreactor-blue-small.png)
 
