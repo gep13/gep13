@@ -17,7 +17,7 @@ I have been involved in the Chocolatey project in one way or another for a lot o
 
 It wasn't until I was clearing out a few things, and looking at other collections of swag that I had, that I thought it would be a good idea to collect all of it into one place.
 
-I might get the order of the creation of these wrong, or where they were given out, but I am hoping that Rob will be able to help out here to put them in the correct order, and also to provide more details.
+I might get the order of the creation of these wrong, or where they were given out, but I am hoping that [Rob](https://twitter.com/ferventcoder) will be able to help out here to put them in the correct order, and also to provide more details.
 
 ## T-Shirts
 
@@ -177,7 +177,7 @@ Created by [Manfred Wallner](https://twitter.com/schusterfredl) (a Chocolatey Co
 
 ![Rob The Founder](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker4-small.png)
 
-This was created by [Stevie](https://twitter.com/steviecoaster) and [Adil](https://twitter.com/adilio) for the Founder of Chocolatey, Rob Reynolds.
+This was created by [Stevie](https://twitter.com/steviecoaster) and [Adil](https://twitter.com/adilio) for the Founder of Chocolatey, [Rob Reynolds](https://twitter.com/ferventcoder).
 
 ---
 
