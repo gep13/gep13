@@ -157,11 +157,19 @@ If you attended the PowerShell Summit in 2018, you will find the Chocolatey Logo
 
 The Chocolatey Logo appears on pretty much all the WinOps t-shirts!
 
-## Unofficial
+## Unofficial - but still awesome
+
+### T-Shirts
 
 ![Chocolatey and Boxstarter](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-unofficial-small.png)
 
 Created by Manfred Wallner (a Chocolatey Community Member), this is a t-shirt showing the combination of Chocolatey and Boxstarter, which was the topic of his talk at the WinOps Conference.
+
+### Stickers
+
+![Chocolatey Boxstarter](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker-unofficial-boxstarter-small.png)
+
+Manfred also took the time to create a sticker version of the t-shirt design that he created.
 
 ![Rob The Founder](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker4-small.png)
 
