@@ -143,6 +143,10 @@ As a sponsor of the WinOps events, Chocolatey has appeared on their lanyards at 
 
 If you attended Chocolatey Fest, you may well have kept a hold of yours as well!
 
+![KCDC 2018](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/lanyard3.jpeg)
+
+Attendees of KCDC in 2018 were lucky enough to get one of these!
+
 ### Bags
 
 ![WinOps Bag](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sponsorswag-small.png)
