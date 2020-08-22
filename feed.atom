@@ -4,8 +4,28 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2020</rights>
-	<updated>2020-08-22T18:32:59Z</updated>
+	<updated>2020-08-22T18:39:44Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/how-to-verify-sql-server-connection-using-udl-file" />
+		<id>http://www.gep13.co.uk/blog/how-to-verify-sql-server-connection-using-udl-file</id>
+		<title>How to verify SQL Server connection using udl file</title>
+		<updated>2020-08-22T00:00:00Z</updated>
+		<content>&lt;p&gt;This is something that I always forget how to do, until that day when I really need it, so I thought I would create a blog post and a short video to remind myself how to do it.&lt;/p&gt;
+&lt;p&gt;Basically, when you need to test a connection to a SQL Server instance, create a new text file (doesn't matter what it is called) and change the extension to be &amp;quot;udl&amp;quot;.  With that done, double click on the file, and it should open up a Data Link Properties window.  In this window, provide the SQL Server connection details that you are trying to verify:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;server/instance name&lt;/li&gt;
+&lt;li&gt;Windows Authentication/SQL Server Authentication details&lt;/li&gt;
+&lt;li&gt;Database name&lt;/li&gt;
+&lt;li&gt;etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once you have provided all the details, simply click the Test Connection button, and things will either work, or they won't.  With this information, you can then populate the configuration file that you are trying to fill in, or perform the installation of the application that needs the information, or whatever it is, knowing that the details you have provided are correct.&lt;/p&gt;
+&lt;p&gt;This trick has saved me a number of times, and I hope that it helps you as well.&lt;/p&gt;
+&lt;p&gt;You can follow along with a short video where I show this in action below:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-N0K08q3jrw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;This is something that I always forget how to do, until that day when I really need it, so I thought I would create a blog post and a short video to remind myself how to do it.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/chocolatey-swag-over-the-years" />
 		<id>http://www.gep13.co.uk/blog/chocolatey-swag-over-the-years</id>
@@ -1715,46 +1735,5 @@ else
 &lt;p&gt;Are there any other notification systems that you feel should be catered for in Cake?  If so, feel free to reach out, or create your own.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;&lt;a href="https://www.nuget.org/packages/Cake.Discord/"&gt;Cake.Discord&lt;/a&gt; is an addin for Cake that allows you to send messages to a Discord Channel on a Server.  This allows for example sending a notification to a channel when a build fails, or succeeds.  Or perhaps when a new release of an application has been created.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/installing-mojave" />
-		<id>http://www.gep13.co.uk/blog/installing-mojave</id>
-		<title>Installing macOS Mojave</title>
-		<updated>2018-10-23T00:00:00Z</updated>
-		<content>&lt;p&gt;A few days ago, I got this notification on my Mac:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/should-i-do-this.jpg_large" class="img-fluid" alt="Should I do this" /&gt;&lt;/p&gt;
-&lt;p&gt;Since getting my Mac at the start of this year when I started working for Chocolatey Software, Inc, this is the first major operating system update that I have been presented with, so I was a little anxious.&lt;/p&gt;
-&lt;p&gt;I reached out to Twitter, and the overall responses seemed to be positive, so I thought I would go for it.&lt;/p&gt;
-&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Should I do this?  Any known problems? &lt;a href="https://t.co/hk9900cYZG"&gt;pic.twitter.com/hk9900cYZG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gary Ewan Park (&amp;#64;gep13) &lt;a href="https://twitter.com/gep13/status/1054355206048284672?ref_src=twsrc%5Etfw"&gt;October 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;After making sure that everything was backed up via Time Machine, and Backblaze, I clicked the install button...&lt;/p&gt;
-&lt;h2 id="how-did-it-go"&gt;How did it go?&lt;/h2&gt;
-&lt;p&gt;I am happy to say that overall, the process was fairly straight forward, as shown in the series to screenshots below.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/first-step.png" class="img-fluid" alt="First Step" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/dock-icon.png" class="img-fluid" alt="Dock Icon" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/getting-started.png" class="img-fluid" alt="Getting started" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/accept-the-license.png" class="img-fluid" alt="Accept the license" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/install-mojave.png" class="img-fluid" alt="Install Mojave" /&gt;&lt;/p&gt;
-&lt;p&gt;Where did I put that power cord?&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/give-me-power.png" class="img-fluid" alt="Give me power" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/give-me-access.png" class="img-fluid" alt="Give me access" /&gt;&lt;/p&gt;
-&lt;p&gt;How good is the Apple Random Number Generator?&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/10-minutes-remaining.png" class="img-fluid" alt="10 minutes remaining" /&gt;&lt;/p&gt;
-&lt;p&gt;Turns out it was pretty good!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/click-to-restart.png" class="img-fluid" alt="Click to restart" /&gt;&lt;/p&gt;
-&lt;p&gt;At this point, the Mac restarted a couple times, and proceeded to show the Apple Icon for about 30 minutes, while it did it's work.&lt;/p&gt;
-&lt;p&gt;After selecting a few options, including selecting the new Dark Theme, I was welcomed with this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/mojave-desktop.png" class="img-fluid" alt="Mojave Desktop" /&gt;&lt;/p&gt;
-&lt;p&gt;Having played with it for a little while now, everything seems to be working fine.  The only slight issue that I have noticed is that when starting up some applications, I see something that looks like the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/access-the-microphone.png" class="img-fluid" alt="Access the microphone" /&gt;&lt;/p&gt;
-&lt;p&gt;I believe in this latest version of the Operating System there are some additional permissions that applications need to request in order to continue doing what they were doing before.  I have seen this also pop up on applications like VMWare Fusion, Slack, etc.  Seems to be anything that has the ability to interact with the hardware of the machine.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;UPDATE: 24 Oct 2018&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;After switching on computer this morning, I was met with a slightly more scary warning from the Backblaze Application:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/23/backblaze-notification.png" class="img-fluid" alt="Backblaze notification" /&gt;&lt;/p&gt;
-&lt;p&gt;This was different from all the others as it required additional changes to the security settings to allow Backblaze to function as it had before.  Full details of this can be found in their blog post:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://help.backblaze.com/hc/en-us/articles/360009644134-MacOS-10-14-Mojave-FAQ-"&gt;https://help.backblaze.com/hc/en-us/articles/360009644134-MacOS-10-14-Mojave-FAQ-&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;With those changes made, everything seems to be working again.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;A few days ago, I got this notification on my Mac:&lt;/p&gt;</summary>
 	</entry>
 </feed>

@@ -4,8 +4,15 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2020</rights>
-	<updated>2020-08-22T18:33:14Z</updated>
+	<updated>2020-08-22T18:39:59Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/how-to-verify-sql-server-connection-using-udl-file" />
+		<id>http://www.gep13.co.uk/blog/how-to-verify-sql-server-connection-using-udl-file</id>
+		<title>How to verify SQL Server connection using udl file</title>
+		<updated>2020-08-22T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/chocolatey-swag-over-the-years" />
 		<id>http://www.gep13.co.uk/blog/chocolatey-swag-over-the-years</id>
@@ -137,13 +144,6 @@
 		<id>http://www.gep13.co.uk/blog/introducing-cake.discord-addin</id>
 		<title>Introducing the Cake.Discord Addin</title>
 		<updated>2018-10-28T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/installing-mojave" />
-		<id>http://www.gep13.co.uk/blog/installing-mojave</id>
-		<title>Installing macOS Mojave</title>
-		<updated>2018-10-23T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>
