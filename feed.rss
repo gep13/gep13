@@ -5,8 +5,15 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2020</copyright>
-		<pubDate>Sat, 22 Aug 2020 18:39:59 GMT</pubDate>
-		<lastBuildDate>Sat, 22 Aug 2020 18:39:59 GMT</lastBuildDate>
+		<pubDate>Mon, 24 Aug 2020 10:16:05 GMT</pubDate>
+		<lastBuildDate>Mon, 24 Aug 2020 10:16:05 GMT</lastBuildDate>
+		<item>
+			<title>Chocolatey in the Organisation Video Series</title>
+			<link>http://www.gep13.co.uk/blog/chocolatey-for-business-video-series</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/chocolatey-for-business-video-series</guid>
+			<pubDate>Mon, 24 Aug 2020 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>How to verify SQL Server connection using udl file</title>
 			<link>http://www.gep13.co.uk/blog/how-to-verify-sql-server-connection-using-udl-file</link>
@@ -139,13 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/chocolatey-error-hashes-do-not-match</guid>
 			<pubDate>Mon, 29 Oct 2018 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Introducing the Cake.Discord Addin</title>
-			<link>http://www.gep13.co.uk/blog/introducing-cake.discord-addin</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/introducing-cake.discord-addin</guid>
-			<pubDate>Sun, 28 Oct 2018 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>

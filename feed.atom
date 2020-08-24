@@ -4,8 +4,100 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2020</rights>
-	<updated>2020-08-22T18:39:44Z</updated>
+	<updated>2020-08-24T10:15:49Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/chocolatey-for-business-video-series" />
+		<id>http://www.gep13.co.uk/blog/chocolatey-for-business-video-series</id>
+		<title>Chocolatey in the Organisation Video Series</title>
+		<updated>2020-08-24T00:00:00Z</updated>
+		<content>&lt;h2 id="video-series"&gt;Video Series&lt;/h2&gt;
+&lt;p&gt;I quite often get asked questions around how to set up Chocolatey in the context of an Organisation, i.e. How do I create my own repository?  How can I internalize packages into my own feed?  How can I install Chocolatey offline?  And various others over the years.  A lot of this is already documented on the Chocolatey website, however, it can't always be the easiest to find, something that we are working on.&lt;/p&gt;
+&lt;p&gt;To help alleviate some of this, I decided to create a series of videos, where I would start with literally nothing installed, only the base operating system, and from there, start to create a collection of servers, all with the aim of setting up a best practices deployment of Chocolatey within an Organisation.&lt;/p&gt;
+&lt;p&gt;This series of videos now exists as a &lt;a href="https://www.youtube.com/playlist?list=PL84yg23i9GBjc1UBm8llOk_miWVqWk7kl"&gt;public playlist on YouTube&lt;/a&gt; and I have also captured the details of the series in the remainder of this blog post.&lt;/p&gt;
+&lt;p&gt;Please reach out if you have any questions, or if there are areas that haven't been covered in the series.&lt;/p&gt;
+&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
+&lt;p&gt;This is the first in a series of videos which is going to walk through setting up Chocolatey for usage within an Organisation.  This is based on the [documentation]https://chocolatey.org/docs/how-to-setup-offline-installation) on chocolatey.org.&lt;/p&gt;
+&lt;p&gt;This introductory video talks through what we are going to be doing in this series, and setting the scene for how things are going to work.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YDmMB83qV5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="prepare-for-internal-use"&gt;Prepare for internal use&lt;/h3&gt;
+&lt;p&gt;In this video, we look at the initial setup/download of all the components necessary to get Chocolatey up and running.&lt;/p&gt;
+&lt;p&gt;The details of what was carried out in this video can be found in the &lt;a href="https://chocolatey.org/docs/how-to-setup-offline-installation#exercise-0-prepare-for-internal-use"&gt;documentation&lt;/a&gt; on chocolatey.org.&lt;/p&gt;
+&lt;p&gt;To summarise, we installed Chocolatey on our workstation machine, and used Chocolatey Package Internalizer to download and internalize some packages that we will use in later parts of the Organisational setup.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zh_0eNSNBd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="internalize-and-install-bginfo"&gt;Internalize and install bginfo&lt;/h3&gt;
+&lt;p&gt;In this video, we look at internalizing and installing the bginfo utility.&lt;/p&gt;
+&lt;p&gt;But, as this video series expands and has multiple machines being used, being able to quickly identify which machine is which, based on the information displayed on the desktop will be useful.  To get this internalized, after a small hiccup, we used the Chocolatey for Business feature called Package Internalizer, which gave us a package that can be installed completely offline, without the need to reach out to the internet.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/2CA6HCmEPRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="install-chocolatey-without-network-access"&gt;Install Chocolatey without network access&lt;/h3&gt;
+&lt;p&gt;In this video, we look at how you can install Chocolatey on a machine that doesn't have an internet connection.&lt;/p&gt;
+&lt;p&gt;This process is &lt;a href="https://chocolatey.org/docs/how-to-setup-offline-installation#exercise-1-optional-set-up-chocolatey-installation-on-a-machine-without-network-access"&gt;documented&lt;/a&gt; on chocolatey.org.&lt;/p&gt;
+&lt;p&gt;The machine in question is the one which is going to be our Nexus Repository Server.  We start by copying the setup files from our workstation machine, and then edit the offline installation script to perform the installation fully offline.  We ensure that this is the case by disabling the network card on the machine.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/r4EgGsLvFog" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="install-and-configure-nexus"&gt;Install and configure Nexus&lt;/h3&gt;
+&lt;p&gt;In this video, we look at installing and configuring a Nexus Repository.&lt;/p&gt;
+&lt;p&gt;We start by downloading the nexus-repository package, and performing the installation.  Once that is done, we set up two nuget feeds (test-repository and prod-repository) which will be used later within our other configuration.  We also set up the NuGet Authentication Realm, and add the sources to our Chocolatey configuration, to make sure that everything is working as expected.&lt;/p&gt;
+&lt;p&gt;In this video, I mention &lt;a href="https://www.youtube.com/watch?v=UehkG1VHtz0"&gt;another video&lt;/a&gt; where I set up Nexus as a caching repository (using a proxy feed) for chocolatey.org.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/k7RX3r3dvz8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="push-packages-to-nexus-repository"&gt;Push packages to Nexus Repository&lt;/h3&gt;
+&lt;p&gt;In this video, we looked at moving all the nupkg's which we had in a local source (i.e. c:/choco-setup/packages) into our newly created Nexus Repository.&lt;/p&gt;
+&lt;p&gt;This required a little bit of setup in terms of opening the required firewall port, and also setting up our API Key within Chocolatey, but with that done, we were able to push all packages to both the Test, and Production Repositories within Nexus.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/1tyD6Kgh6VQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="create-a-package-for-chocolatey-license"&gt;Create a package for Chocolatey license&lt;/h3&gt;
+&lt;p&gt;In this video, we look at creating a Chocolatey Package for the Chocolatey License file.&lt;/p&gt;
+&lt;p&gt;In previous videos, we used the local Chocolatey installation script to copy the Chocolatey License file to the correct location.  By using a Chocolatey package to do this work it makes it very easy to install the license on client machines, and also makes it very easy to upgrade when a new license is required.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Hl6q3ke3CX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="install-chocolatey-on-client-machines"&gt;Install Chocolatey on client machines&lt;/h3&gt;
+&lt;p&gt;In this video, we look at what is necessary to complete the installation of Chocolatey onto a client machine, using all of the new infrastructure (Nexus, Jenkins, etc) that we now have in place.  This takes the form of a ClientSetup.ps1 file, which can be executed on any machine, which will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install Chocolatey&lt;/li&gt;
+&lt;li&gt;Configure Chocolatey with sources, etc&lt;/li&gt;
+&lt;li&gt;Install required packages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The content of this video covers the &lt;a href="https://chocolatey.org/docs/how-to-setup-offline-installation#exercise-6-installing-chocolatey-on-client-machines"&gt;documentation&lt;/a&gt; that is on the Chocolatey website.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/jiv34nkh5pg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="install-jenkins"&gt;Install Jenkins&lt;/h3&gt;
+&lt;p&gt;In this video, which is part of a series of videos focusing on using Chocolatey within an Organisation, we look at what is required to download and install Jenkins, a CI/CD platform, which will allow us to automate the usage of Chocolatey Package Internalizer.&lt;/p&gt;
+&lt;p&gt;The content of this video covers the &lt;a href="https://chocolatey.org/docs/how-to-setup-internal-package-repository"&gt;documentation&lt;/a&gt; that is on the Chocolatey website.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/TCdZFKk128k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="configuring-jenkins-part-1"&gt;Configuring Jenkins Part 1&lt;/h3&gt;
+&lt;p&gt;In this video, we look at configuring our new installation of Jenkins.  This will include the setup of three jobs within Jenkins which will perform the work of syncing between our internal repository and the Chocolatey Community Repository, as well as allowing the internalization of new packages into our internal repository.&lt;/p&gt;
+&lt;p&gt;This process is broken into two videos, since it takes a little while to setup, and we also ran into a small issue with the documentation (which has since been rectified) which meant things took a little longer than expected.&lt;/p&gt;
+&lt;p&gt;The content of this video covers the &lt;a href="https://chocolatey.org/docs/how-to-setup-internal-package-repository"&gt;documentation&lt;/a&gt; on the Chocolatey Website.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XiyzBIofDiE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="configuring-jenkins-part-2"&gt;Configuring Jenkins Part 2&lt;/h3&gt;
+&lt;p&gt;In this video, we look at configuring our new installation of Jenkins.  This will include the setup of three jobs within Jenkins which will perform the work of syncing between our internal repository and the Chocolatey Community Repository, as well as allowing the internalization of new packages into our internal repository.&lt;/p&gt;
+&lt;p&gt;This process is broken into two videos, since it takes a little while to setup, and we also ran into a small issue with the documentation (which has since been rectified) which meant things took a little longer than expected.&lt;/p&gt;
+&lt;p&gt;The content of this video covers the &lt;a href="https://chocolatey.org/docs/how-to-setup-internal-package-repository"&gt;documentation&lt;/a&gt; on the Chocolatey Website.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/erF1Er7p12E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="ccm-overview"&gt;CCM Overview&lt;/h3&gt;
+&lt;p&gt;In this video, we have a quick recap of what we have completed so far in this series, and then look ahead at what still needs to be done to setup and install Chocolatey Central Management.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/rn5RrMkYEtQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="set-up-ccm-database"&gt;Set up CCM Database&lt;/h3&gt;
+&lt;p&gt;In this video, we perform the steps that are necessary to install the Chocolatey Central Management Database.  Using SQL Server Management Studio, we verify that the schema and seed data is correctly deployed.  Installing the database is the first of three components that need to be installed in order to get started with CCM.&lt;/p&gt;
+&lt;p&gt;The content of this video covers what is &lt;a href="https://chocolatey.org/docs/central-management-setup-database"&gt;documented&lt;/a&gt; on the Chocolatey website.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/U39o6qzyigQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="set-up-ccm-service"&gt;Set up CCM Service&lt;/h3&gt;
+&lt;p&gt;In this video, we perform the steps necessary to install the Chocolatey Central Management Service.  This is the second CCM component, and after getting the CCM Database installed, we can move onto installing the Windows Service.&lt;/p&gt;
+&lt;p&gt;The content of this video covers what is &lt;a href="https://chocolatey.org/docs/central-management-setup-service"&gt;documented&lt;/a&gt; on the Chocolatey website.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/066fhfDNMpY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="set-up-ccm-web"&gt;Set up CCM Web&lt;/h3&gt;
+&lt;p&gt;In this video, we perform the steps required to install the Chocolatey Central Management Website.  This is the last component in the set of three that is required to run CCM.  We finish the video by logging into the website and changing the default password, and make sure that sending of email is working (for this we make use of the papercut application).&lt;/p&gt;
+&lt;p&gt;The contents of this video cover what is &lt;a href="https://chocolatey.org/docs/central-management-setup-web"&gt;documented&lt;/a&gt; on the Chocolatey website.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/vxhi0EJ5ZSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="set-up-client-for-ccm"&gt;Set up client for CCM&lt;/h3&gt;
+&lt;p&gt;In this video, we look at enrolling a client machine in our environment into both Chocolatey Central Management Reporting and Deployments.&lt;/p&gt;
+&lt;p&gt;This is as simple as running three Chocolatey commands, and once completed, and ensured that this is working, we add these commands into our ClientSetup.ps1 file, so that future client installations will automatically be added into Chocolatey Central Management.&lt;/p&gt;
+&lt;p&gt;The content of this video covers what is &lt;a href="https://chocolatey.org/docs/central-management-setup-client"&gt;documented&lt;/a&gt; on the Chocolatey website.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XrdaqSUgUgU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id="creating-ccm-deployments"&gt;Creating CCM Deployments&lt;/h3&gt;
+&lt;p&gt;In this video, we look at creating some CCM Deployments.&lt;/p&gt;
+&lt;p&gt;This uses the new Deployments functionality in Chocolatey Central Management 0.3.0.  We create two different deployments.  The first it to remediate some issues which we have found across the 7 machines within our environment, namely that the Chocolatey GUI package is outdated on one machine, and is also installed on a machine that it shouldn't be.  These issues are both fixed in the same deployment.  The second deployment is to installed the Notepad++ package on all the machines in the environment.&lt;/p&gt;
+&lt;p&gt;In both of these deployments we are able to watch in real time as the different steps are executed, and to see the logs from the installations.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Jpdz0SDvD4M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;I quite often get asked questions around how to set up Chocolatey in the context of an Organisation, i.e. How do I create my own repository?  How can I internalize packages into my own feed?  How can I install Chocolatey offline?  And various others over the years.  A lot of this is already documented on the Chocolatey website, however, it can't always be the easiest to find, something that we are working on.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/how-to-verify-sql-server-connection-using-udl-file" />
 		<id>http://www.gep13.co.uk/blog/how-to-verify-sql-server-connection-using-udl-file</id>
@@ -1658,82 +1750,5 @@ f5572cbcbc7848b235dcf21caf24ce26b9fb3839eb13db1a7170d20cdf834d' for checksum typ
 &lt;p&gt;Due to the fact that Chocolatey is secure by default, there are situations like this that do occur.  However, please bear in mind that Chocolatey is trying to protect you from what could be a malicious installer.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Earlier today on Twitter, I was asked this question:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-cake.discord-addin" />
-		<id>http://www.gep13.co.uk/blog/introducing-cake.discord-addin</id>
-		<title>Introducing the Cake.Discord Addin</title>
-		<updated>2018-10-28T00:00:00Z</updated>
-		<content>&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://www.nuget.org/packages/Cake.Discord/"&gt;Cake.Discord&lt;/a&gt; is an addin for Cake that allows you to send messages to a Discord Channel on a Server.  This allows for example sending a notification to a channel when a build fails, or succeeds.  Or perhaps when a new release of an application has been created.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; While it is possible to send much more complicated messages to a Discord server, this initial release of the addin only caters for the basic versions of the messages.&lt;/p&gt;
-&lt;h1 id="usage"&gt;Usage&lt;/h1&gt;
-&lt;p&gt;To get started using this addin, all you need to do is add the following to your Cake script:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;#addin &amp;quot;nuget:https://www.nuget.org/api/v2?package=Cake.Discord&amp;amp;version=0.1.0&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Depending on the currently released version, you might want to change the above to reflect the current version number. The above is shown to ensure that the best practice of pinning your Cake Addin version numbers is adhered to.&lt;/p&gt;
-&lt;p&gt;With that done, you can then send a basic message using something like the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;Information(&amp;quot;This is a 'normal' message...&amp;quot;);
-
-var postMessageResult = Discord.Chat.PostMessage(
-    webHookUrl:&amp;quot;https://your_web_hook_url&amp;quot;,
-    content:&amp;quot;This is a normal message.&amp;quot;
-);
-
-if (postMessageResult.Ok)
-{
-    Information(&amp;quot;Message {0} successfully sent&amp;quot;, postMessageResult.TimeStamp);
-}
-else
-{
-    Error(&amp;quot;Failed to send message: {0}&amp;quot;, postMessageResult.Error);
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It is also possible to send a more complex message using something like the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;Information(&amp;quot;This is a custom avatar and name message...&amp;quot;);
-
-var postMessageResult = Discord.Chat.PostMessage(
-    webHookUrl:&amp;quot;https://your_web_hook_url&amp;quot;,
-    content:&amp;quot;This is a custom avatar and name message.&amp;quot;,
-    messageSettings: new DiscordChatMessageSettings {
-        UserName = &amp;quot;gep13&amp;quot;,
-        AvatarUrl = new Uri(&amp;quot;https://avatars0.githubusercontent.com/u/1271146?s=400&amp;amp;v=4&amp;quot;)
-    }
-);
-
-if (postMessageResult.Ok)
-{
-    Information(&amp;quot;Message {0} successfully sent&amp;quot;, postMessageResult.TimeStamp);
-}
-else
-{
-    Error(&amp;quot;Failed to send message: {0}&amp;quot;, postMessageResult.Error);
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
-&lt;p&gt;You can find additional documentation for this addin here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cake-contrib.github.io/Cake.Discord/"&gt;https://cake-contrib.github.io/Cake.Discord/&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
-&lt;p&gt;The source code for this addin can be found here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Discord"&gt;https://github.com/cake-contrib/Cake.Discord&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="chat-room"&gt;Chat Room&lt;/h2&gt;
-&lt;p&gt;If you have any questions about this addin, then please feel to drop into the Gitter Chat room for all the addins and modules which exist in the &lt;a href="https://github.com/cake-contrib"&gt;cake-contrib organisation&lt;/a&gt; on GitHub:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gitter.im/cake-contrib/Lobby?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/cake-contrib/Lobby.svg" class="img-fluid" alt="Join the chat at https://gitter.im/cake-contrib/Lobby" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="other-notification-addins"&gt;Other Notification Addins&lt;/h2&gt;
-&lt;p&gt;This addin adds to the collection of addins which help with sending notifications out to the various platforms that exist.  For example, there are addins to help with sending notifications to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.CakeMail/"&gt;CakeMail&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Email/"&gt;Email&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Gitter/"&gt;Gitter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.HipChat/"&gt;HipChat&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Ninglin/Cake.Jira/"&gt;Jira&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.MicrosoftTeams/"&gt;Microsoft Teams&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.SendGrid/"&gt;SendGrid&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Slack/"&gt;Slack&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Twitter/"&gt;Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Are there any other notification systems that you feel should be catered for in Cake?  If so, feel free to reach out, or create your own.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;&lt;a href="https://www.nuget.org/packages/Cake.Discord/"&gt;Cake.Discord&lt;/a&gt; is an addin for Cake that allows you to send messages to a Discord Channel on a Server.  This allows for example sending a notification to a channel when a build fails, or succeeds.  Or perhaps when a new release of an application has been created.&lt;/p&gt;</summary>
 	</entry>
 </feed>
