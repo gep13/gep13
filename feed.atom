@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2021</rights>
-	<updated>2021-01-23T20:11:59Z</updated>
+	<updated>2021-01-23T20:22:42Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vs-release-0.3.0" />
@@ -143,6 +143,22 @@
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/vWwO9lP5BG0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/stream-number-100" />
+		<id>http://www.gep13.co.uk/blog/stream-number-100</id>
+		<title>Stream Number 100</title>
+		<updated>2020-09-21T00:00:00Z</updated>
+		<content>&lt;p&gt;On tonights stream, which was stream 100 (quite a milestone) I was joined by &lt;a href="https://twitter.com/mkevenaar"&gt;Maurice Kevenaar&lt;/a&gt;, who was showing us how to install/setup/use his new chocolatey-diff tool:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/chocolatey-community/chocolatey-diff"&gt;https://github.com/chocolatey-community/chocolatey-diff&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is a PowerShell module, which makes it possible to quickly identify the differences between two package versions for a Chocolatey Package. This is especially useful for moderators who are reviewing packages in the moderation queue.&lt;/p&gt;
+&lt;p&gt;We showed how this can be used on both Windows and Mac.&lt;/p&gt;
+&lt;p&gt;There were some issues with Twitch this evening which is a little unfortunate, but we made the most of it.  Maurice and I were able to continue chatting even though the connection to Twitch was failing.&lt;/p&gt;
+&lt;h2 id="recording"&gt;Recording&lt;/h2&gt;
+&lt;p&gt;You can find the recording of the stream here:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/6fAn3vysBdk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;On tonights stream, which was stream 100 (quite a milestone) I was joined by &lt;a href="https://twitter.com/mkevenaar"&gt;Maurice Kevenaar&lt;/a&gt;, who was showing us how to install/setup/use his new chocolatey-diff tool:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0" />
@@ -586,6 +602,18 @@
 &lt;p&gt;And that is it for another year!  Overhaul, it has been a very enjoyable year, and looking forward to doing more of the same in 2020.  I hope 2019 was good for all of you as well, and I look forward to talking to you all in 2010!&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;This was a blog post that was meant to be written at the start of January, but with one thing or another, it didn't get done, but finally able to publish it, so here goes...&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/stream-number-50" />
+		<id>http://www.gep13.co.uk/blog/stream-number-50</id>
+		<title>Stream Number 50</title>
+		<updated>2019-09-20T00:00:00Z</updated>
+		<content>&lt;p&gt;Tonight was stream number 50 (quite a milestone), and we spent it working on Cake.Recipe.  Having a lot of fun doing the weekly streams, and starting to get into a flow of doing them!&lt;/p&gt;
+&lt;h2 id="recording"&gt;Recording&lt;/h2&gt;
+&lt;p&gt;You can find a recording of the stream here:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/FB-iCHmmdR4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Tonight was stream number 50 (quite a milestone), and we spent it working on Cake.Recipe.  Having a lot of fun doing the weekly streams, and starting to get into a flow of doing them!&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/mvp-renewal-2019" />
@@ -1226,111 +1254,5 @@ This is a work in progress repository, and isn't currently actively being used.&
 &lt;/ul&gt;
 </content>
 		<summary>&lt;p&gt;I am very happy to announce the 0.8.0 Release of the &lt;a href="https://github.com/GitTools/GitReleaseManager"&gt;GitReleaseManager&lt;/a&gt;.  This is an important release as it brings with it a .Net Global Tool version of the tool.  Now, you can install it using:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-cake-recipe-vscode-extension" />
-		<id>http://www.gep13.co.uk/blog/introducing-cake-recipe-vscode-extension</id>
-		<title>Introducing the Cake.Recipe VS Code Extension</title>
-		<updated>2018-12-29T00:00:00Z</updated>
-		<content>&lt;p&gt;This is an announcement blog post for the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.cakerecipe-vscode"&gt;Cake.Recipe VS Code Extension&lt;/a&gt; that I created recently.&lt;/p&gt;
-&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe"&gt;Cake.Recipe&lt;/a&gt; is a very opinionated set of &lt;a href="https://cakebuild.net/"&gt;Cake&lt;/a&gt; scripts that are intended to be used across multiple projects.  Making use of a set of conventions, and project specific information, it is possible to run common build tasks over and over again, without the need to re-define them each time, for each project.  These scripts are housed within a NuGet package, that is restored into the local tools folder when Cake executes.&lt;/p&gt;
-&lt;p&gt;In order to make this happen, it is necessary to create a small entry script (I refer to it as the recipe.cake file), which defines the project specific information.  In the past, I have simply copied this file from a previous project, and changed it as necessary.  This new VS Code extension creates this file on the fly, after you have provided some information.&lt;/p&gt;
-&lt;h1 id="installation"&gt;Installation&lt;/h1&gt;
-&lt;p&gt;Installing the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.cakerecipe-vscode"&gt;Cake.Recipe Extension for VS Code&lt;/a&gt; is simple, it installs in the same way as any other extension.  Open Extensions from the left hand side section of VS Code, or select View | Extensions.  Then do a search for &amp;quot;Cake.Recipe&amp;quot; and the extension with an author of &amp;quot;Gary Ewan Park&amp;quot; should be returned.  Go ahead and install the extension:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Extension-Install.png" class="img-fluid" alt="Cake.Recipe Extension Install" /&gt;&lt;/p&gt;
-&lt;p&gt;When prompted, click the Reload button.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Extension-Reload.png" class="img-fluid" alt="Cake.Recipe Extension Reload" /&gt;&lt;/p&gt;
-&lt;h1 id="usage"&gt;Usage&lt;/h1&gt;
-&lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
-&lt;p&gt;In this initial release, there is only 1 command available:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Extension-Commands.png" class="img-fluid" alt="Cake.Recipe Extension Commands" /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cake.Recipe: Add default recipe.cake file&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Executing this command will prompt you for some information.  Firstly, the name that you want to give to the script (which defaults to &lt;code&gt;recipe.cake&lt;/code&gt;, but which can be anything):&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Command-Build-Script.png" class="img-fluid" alt="Cake.Recipe Command Build Script" /&gt;&lt;/p&gt;
-&lt;p&gt;Then you will be asked for the name of the folder that contains the Source Code that is to be built with Cake.Recipe.  This is one of the conventions that Cake.Recipe is based off of.  This defaults to a folder called &lt;code&gt;Source&lt;/code&gt; but again, it can be anything that you like:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Command-Source-Folder.png" class="img-fluid" alt="Cake.Recipe Command Source Folder" /&gt;&lt;/p&gt;
-&lt;p&gt;The third piece of information is the name of the GitHub Owner/Organisation that houses the repository that your project lives in.  Again, this is a convention, but it is assumed that you are using source control, and at the minute, Cake.Recipe has really only be tested against GitHub.  That is not to say that it wouldn't work, if you housed the code elsewhere, I just can't say that it will:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Command-GitHub-Owner.png" class="img-fluid" alt="Cake.Recipe Command GitHub Owner" /&gt;&lt;/p&gt;
-&lt;p&gt;The final piece of information is the name of the repository where the code is hosted on GitHub:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Command-GitHub-Repository.png" class="img-fluid" alt="Cake.Recipe Command GitHub Repository" /&gt;&lt;/p&gt;
-&lt;p&gt;With all of these pieces of information, the recipe.cake file is generated (here, I used a value of &lt;code&gt;cake-contrib&lt;/code&gt; and &lt;code&gt;Cake.Twitter&lt;/code&gt; and the GitHub information):&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/29/CakeRecipe-Command-Generated-File.png" class="img-fluid" alt="Cake.Recipe Command Generated File" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; The generated file, like Cake.Recipe itself, it quite opinionated, and it is how I normally build a project using Cake.Recipe.  There are likely things that you will need to change depending on how you need to execute the build, but this is intended as a place to start.&lt;/p&gt;
-&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
-&lt;p&gt;You can find additional documentation for this extension here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gep13.github.io/cakerecipe-vscode/"&gt;https://gep13.github.io/cakerecipe-vscode/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;:  At the time of writing this blog post, there is little to no documentation, but the scaffolding is there to get some added, so if you are interested, please feel free to jump in and help.&lt;/p&gt;
-&lt;h1 id="resources"&gt;Resources&lt;/h1&gt;
-&lt;p&gt;If you are interested in hearing about new functions that are being added into the Extension, there is a YouTube &lt;a href="https://www.youtube.com/playlist?list=PL84yg23i9GBgVQXtp9G2BEkcR6v-nCsoH"&gt;playlist&lt;/a&gt;, where I will push short videos of the new functionality as each version is released.&lt;/p&gt;
-&lt;p&gt;The introductory video for this first release is here:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/f7Ogy05im4M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
-&lt;p&gt;The source code for the Cake.Recipe VS Code Extension can be found here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/gep13/cakerecipe-vscode"&gt;https://github.com/gep13/cakerecipe-vscode&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="chat-room"&gt;Chat Room&lt;/h1&gt;
-&lt;p&gt;If you have any questions about this Extension (or any of the other OSS work that I do), then please feel to drop into the Gitter Chat room:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gitter.im/gep13-oss/community?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/gep13-oss/community.svg" class="img-fluid" alt="Join the chat at https://gitter.im/gep13-oss/community" /&gt;&lt;/a&gt;&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;This is an announcement blog post for the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.cakerecipe-vscode"&gt;Cake.Recipe VS Code Extension&lt;/a&gt; that I created recently.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-ci-cd-assets-repository-and-vscode-extension" />
-		<id>http://www.gep13.co.uk/blog/introducing-ci-cd-assets-repository-and-vscode-extension</id>
-		<title>Introducing the CI/CD Assets Repository and VS Code Extension</title>
-		<updated>2018-12-28T00:00:00Z</updated>
-		<content>&lt;p&gt;This is an announcement blog post for the &lt;a href="https://github.com/gep13/CI-CD-assets"&gt;repository&lt;/a&gt; and &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.ci-cd-assets-vscode"&gt;VS Code Extension&lt;/a&gt; that I created yesterday.&lt;/p&gt;
-&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
-&lt;p&gt;Every time I setup a new repository, I have to try to remember what steps I took to get everything up and running last time I created a project.  This includes setting up Continuous Integration, Documentation, Releases, etc.  All the things that we don't want to think about when we are actually writing code, and excited about getting something shipped.  Normally, what I do is look at the last project that I created, and copy pretty much everything from there.  This is &amp;quot;ok&amp;quot;, but not ideal.  After giving it some thought, I decided to create a &lt;a href="https://github.com/gep13/CI-CD-assets"&gt;repository&lt;/a&gt;, which will house all the assets that I typically include in a new project.  That way, as things change over time, I can keep them updated in one place, ready for starting a new project.  With that done, I decided that I needed an &amp;quot;easy&amp;quot; way to get these into my new project.  I have seen people use things like yeoman to do this sort of thing, but I wanted something that wasn't quite as involved, and simply let's me grab the things that I need (as these may change on a per project basis).  What I settled on was a &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.ci-cd-assets-vscode"&gt;VS Code Extension&lt;/a&gt;, that can provide some commands that can download these assets into the current working directory.&lt;/p&gt;
-&lt;h1 id="installation"&gt;Installation&lt;/h1&gt;
-&lt;p&gt;Installing the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.ci-cd-assets-vscode"&gt;CI/CD Assets Extension for VS Code&lt;/a&gt; is simple, it installs in the same way as any other extension.  Open Extensions from the left hand side section of VS Code, or select View | Extensions.  Then do a search for &amp;quot;CI/CD&amp;quot; and the extension with an author of &amp;quot;Gary Ewan Park&amp;quot; should be returned.  Go ahead and install the extension:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/28/CI-CD-Assets-Extension-Install.png" class="img-fluid" alt="CI/CD Assets Extension Install" /&gt;&lt;/p&gt;
-&lt;p&gt;When prompted, click the Reload button.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/28/CI-CD-Assets-Extension-Reload.png" class="img-fluid" alt="CI/CD Assets Extension Reload" /&gt;&lt;/p&gt;
-&lt;h1 id="usage"&gt;Usage&lt;/h1&gt;
-&lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
-&lt;p&gt;In this initial release, there are 10 commands available:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/28/CI-CD-Assets-Extension-Commands.png" class="img-fluid" alt="CI/CD Assets Extension Commands" /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;CICD: Download .editorconfig file&lt;/li&gt;
-&lt;li&gt;CICD: Download .appveyor.yml file&lt;/li&gt;
-&lt;li&gt;CICD: Download .gitattributes file&lt;/li&gt;
-&lt;li&gt;CICD: Download .gitignore file&lt;/li&gt;
-&lt;li&gt;CICD: Download .mergify.yml file&lt;/li&gt;
-&lt;li&gt;CICD: Download .travis.yml file&lt;/li&gt;
-&lt;li&gt;CICD: Download GitReleaseManager.yaml file&lt;/li&gt;
-&lt;li&gt;CICD: Download config.wyam file&lt;/li&gt;
-&lt;li&gt;CICD: Download .github files&lt;/li&gt;
-&lt;li&gt;CICD: Download all files&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Each one of these commands (with the exception of the final two), download a single file on the root of the current workspace.  For example, executing the &lt;code&gt;CICD: Download .appveyor.yml file&lt;/code&gt; command results in the file at this &lt;a href="https://github.com/gep13/CI-CD-assets/blob/master/.appveyor.yml"&gt;URL&lt;/a&gt; being downloaded into the current workspace.  If a file with that name already exists in the current workspace, you will be prompted whether it should be overwritten or not:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/28/CI-CD-Assets-Extension-Overwrite.png" class="img-fluid" alt="CI/CD Assets Extension Overwrite" /&gt;&lt;/p&gt;
-&lt;p&gt;At this point, you can choose to cancel the operation by clicking the small cross at the top of the pop-up, or you can continue the operation by clicking the Overwrite button.  If you choose to proceed, you should see the following when completed:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/28/CI-CD-Assets-Extension-Download-Complete.png" class="img-fluid" alt="CI/CD Assets Extension Download Complete" /&gt;&lt;/p&gt;
-&lt;p&gt;The final two commands are slightly different.  &lt;code&gt;CICD: Download .github files&lt;/code&gt; will download all the files in the .github folder &lt;a href="https://github.com/gep13/CI-CD-assets/tree/master/.github"&gt;here&lt;/a&gt; and also create the .github folder if it doesn't exist, and the final command downloads all the files from the repository.  This latter command is useful if you want to grab everything and get started.&lt;/p&gt;
-&lt;h1 id="settings"&gt;Settings&lt;/h1&gt;
-&lt;p&gt;Now, the files that I have placed into the CI/CD Assets are very much configured to the way that I operate, and they are unlikely to fit exactly what &amp;quot;you&amp;quot; want.  I will happily accept PR's to the files if they fit with how I want to operate, but more likely, you are going to want to use your own files.  This is possible via the settings for this VS Code Extension.  By default, each of the commands use the URL's which are pointed at the CI/CD Assets Repository:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/28/CI-CD-Assets-Extension-Settings.png" class="img-fluid" alt="CI/CD Assets Extension Settings" /&gt;&lt;/p&gt;
-&lt;p&gt;However, you can override these download URL's with your own, and continue to use the Commands that are included within this extension.&lt;/p&gt;
-&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
-&lt;p&gt;You can find additional documentation for this extension here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gep13.github.io/CI-CD-assets-vscode/"&gt;https://gep13.github.io/CI-CD-assets-vscode/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;:  At the time of writing this blog post, there is little to no documentation, but the scaffolding is there to get some added, so if you are interested, please feel free to jump in and help.&lt;/p&gt;
-&lt;h1 id="resources"&gt;Resources&lt;/h1&gt;
-&lt;p&gt;If you are interested in hearing about new functions that are being added into the Extension, there is a YouTube &lt;a href="https://www.youtube.com/playlist?list=PL84yg23i9GBjZXVmLgZfNcc9Nhz4aGdto"&gt;playlist&lt;/a&gt;, where I will push short videos of the new functionality as each version is released.&lt;/p&gt;
-&lt;p&gt;The introductory video for this first release is here:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/libl83OBs6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
-&lt;p&gt;The source code for CI/CD Assets can be found here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/gep13/CI-CD-assets"&gt;https://github.com/gep13/CI-CD-assets&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This houses all the assets that are intended to be consumed when starting a new project.  The source code for the CI/CD Assets VS Code Extension can be found here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/gep13/CI-CD-assets-vscode"&gt;https://github.com/gep13/CI-CD-assets-vscode&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="chat-room"&gt;Chat Room&lt;/h1&gt;
-&lt;p&gt;If you have any questions about this Extension (or any of the other OSS work that I do), then please feel to drop into the Gitter Chat room:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gitter.im/gep13-oss/community?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/gep13-oss/community.svg" class="img-fluid" alt="Join the chat at https://gitter.im/gep13-oss/community" /&gt;&lt;/a&gt;&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;This is an announcement blog post for the &lt;a href="https://github.com/gep13/CI-CD-assets"&gt;repository&lt;/a&gt; and &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.ci-cd-assets-vscode"&gt;VS Code Extension&lt;/a&gt; that I created yesterday.&lt;/p&gt;</summary>
 	</entry>
 </feed>
