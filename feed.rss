@@ -5,8 +5,8 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2021</copyright>
-		<pubDate>Sat, 23 Jan 2021 20:56:53 GMT</pubDate>
-		<lastBuildDate>Sat, 23 Jan 2021 20:56:53 GMT</lastBuildDate>
+		<pubDate>Sat, 23 Jan 2021 21:13:46 GMT</pubDate>
+		<lastBuildDate>Sat, 23 Jan 2021 21:13:46 GMT</lastBuildDate>
 		<item>
 			<title>Cake Visual Studio Extension Release 0.3.0</title>
 			<link>http://www.gep13.co.uk/blog/cake-vs-release-0.3.0</link>
@@ -15,17 +15,17 @@
 			<pubDate>Mon, 21 Dec 2020 00:00:00 GMT</pubDate>
 		</item>
 		<item>
-			<title>Cake Visual Studio Code Extension Release 1.0.0</title>
-			<link>http://www.gep13.co.uk/blog/cake-vscode-release-1.0.0</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/cake-vscode-release-1.0.0</guid>
-			<pubDate>Tue, 01 Dec 2020 00:00:00 GMT</pubDate>
-		</item>
-		<item>
 			<title>Cake.VsCode.Recipe Release 0.4.0</title>
 			<link>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0</guid>
+			<pubDate>Tue, 01 Dec 2020 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Cake Visual Studio Code Extension Release 1.0.0</title>
+			<link>http://www.gep13.co.uk/blog/cake-vscode-release-1.0.0</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/cake-vscode-release-1.0.0</guid>
 			<pubDate>Tue, 01 Dec 2020 00:00:00 GMT</pubDate>
 		</item>
 		<item>
@@ -78,6 +78,13 @@
 			<pubDate>Wed, 09 Sep 2020 00:00:00 GMT</pubDate>
 		</item>
 		<item>
+			<title>ClipImg VsCode Extension Release 0.2.0</title>
+			<link>http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.0</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.0</guid>
+			<pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate>
+		</item>
+		<item>
 			<title>ClipImg VsCode Extension Release 0.2.1</title>
 			<link>http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.1</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
@@ -89,13 +96,6 @@
 			<link>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0</guid>
-			<pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>ClipImg VsCode Extension Release 0.2.0</title>
-			<link>http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.0</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.0</guid>
 			<pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate>
 		</item>
 		<item>
@@ -120,6 +120,13 @@
 			<pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate>
 		</item>
 		<item>
+			<title>Chocolatey Azure DevOps Extension Release 0.3.2</title>
+			<link>http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.2</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.2</guid>
+			<pubDate>Wed, 22 Jul 2020 00:00:00 GMT</pubDate>
+		</item>
+		<item>
 			<title>Chocolatey swag over the years</title>
 			<link>http://www.gep13.co.uk/blog/chocolatey-swag-over-the-years</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
@@ -134,18 +141,11 @@
 			<pubDate>Mon, 15 Jun 2020 00:00:00 GMT</pubDate>
 		</item>
 		<item>
-			<title>2019 - A Retrospective</title>
-			<link>http://www.gep13.co.uk/blog/2019-a-retrospective</link>
+			<title>Chocolatey Azure DevOps Extension Release 0.3.0</title>
+			<link>http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.0</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/2019-a-retrospective</guid>
-			<pubDate>Sat, 25 Jan 2020 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Cake.Recipe Release 1.0.0</title>
-			<link>http://www.gep13.co.uk/blog/cake-recipe-release-1.1.1</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/cake-recipe-release-1.1.1</guid>
-			<pubDate>Mon, 21 Oct 2019 00:00:00 GMT</pubDate>
+			<guid>http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.0</guid>
+			<pubDate>Mon, 01 Jun 2020 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>

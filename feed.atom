@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2021</rights>
-	<updated>2021-01-23T20:56:38Z</updated>
+	<updated>2021-01-23T21:13:31Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vs-release-0.3.0" />
@@ -44,6 +44,26 @@
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/fG93MjnxHoo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;After working on it for a little bit during my Monday night streams, I am happy to announce that we have shipped the 0.3.0 release of the Cake Extension for Visual Studio.  This includes support for Visual Studio 2029.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0</id>
+		<title>Cake.VsCode.Recipe Release 0.4.0</title>
+		<updated>2020-12-01T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="breaking-change"&gt;Breaking change&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/15"&gt;&lt;strong&gt;#15&lt;/strong&gt;&lt;/a&gt; Switch to using GitHub Token for GitReleaseManager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="improvement"&gt;Improvement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/13"&gt;&lt;strong&gt;#13&lt;/strong&gt;&lt;/a&gt; Add parameter for Chocolatey package ID&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/FcJpyQKAfCk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vscode-release-1.0.0" />
@@ -91,26 +111,6 @@
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/7Ba-pAHzO9w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;The 1.0.0 release of the Cake Extension for Visual Studio Code has been a little while in the making, but I am excited to finally get it released.  There have been some amazing contributions to it from the community, so huge thanks for all the help!&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0" />
-		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0</id>
-		<title>Cake.VsCode.Recipe Release 0.4.0</title>
-		<updated>2020-12-01T00:00:00Z</updated>
-		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
-&lt;h3 id="breaking-change"&gt;Breaking change&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/15"&gt;&lt;strong&gt;#15&lt;/strong&gt;&lt;/a&gt; Switch to using GitHub Token for GitReleaseManager&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="improvement"&gt;Improvement&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/13"&gt;&lt;strong&gt;#13&lt;/strong&gt;&lt;/a&gt; Add parameter for Chocolatey package ID&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
-&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/FcJpyQKAfCk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.3.0" />
@@ -329,6 +329,24 @@
 		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
+		<link href="http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.0" />
+		<id>http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.0</id>
+		<title>ClipImg VsCode Extension Release 0.2.0</title>
+		<updated>2020-09-08T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="features"&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/210"&gt;&lt;strong&gt;#210&lt;/strong&gt;&lt;/a&gt; On Windows if PNG present in clipboard use it's data&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/202"&gt;&lt;strong&gt;#202&lt;/strong&gt;&lt;/a&gt; Make markdown tag/image url configurable&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/201"&gt;&lt;strong&gt;#201&lt;/strong&gt;&lt;/a&gt; Make blob filename configurable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/tby0ZTavFlE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
 		<link href="http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.1" />
 		<id>http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.1</id>
 		<title>ClipImg VsCode Extension Release 0.2.1</title>
@@ -361,24 +379,6 @@
 &lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
 &lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/SERxyr2n--c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.0" />
-		<id>http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.0</id>
-		<title>ClipImg VsCode Extension Release 0.2.0</title>
-		<updated>2020-09-08T00:00:00Z</updated>
-		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
-&lt;h3 id="features"&gt;Features&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/210"&gt;&lt;strong&gt;#210&lt;/strong&gt;&lt;/a&gt; On Windows if PNG present in clipboard use it's data&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/202"&gt;&lt;strong&gt;#202&lt;/strong&gt;&lt;/a&gt; Make markdown tag/image url configurable&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/201"&gt;&lt;strong&gt;#201&lt;/strong&gt;&lt;/a&gt; Make blob filename configurable&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
-&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/tby0ZTavFlE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
@@ -521,6 +521,22 @@
 		<summary>&lt;p&gt;This is something that I always forget how to do, until that day when I really need it, so I thought I would create a blog post and a short video to remind myself how to do it.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
+		<link href="http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.2" />
+		<id>http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.2</id>
+		<title>Chocolatey Azure DevOps Extension Release 0.3.2</title>
+		<updated>2020-07-22T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="bug"&gt;Bug&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/chocolatey-community/chocolatey-azuredevops/issues/61"&gt;&lt;strong&gt;#61&lt;/strong&gt;&lt;/a&gt; Install Chocolatey Task fails&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/l6XvC5G2Rx8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
 		<link href="http://www.gep13.co.uk/blog/chocolatey-swag-over-the-years" />
 		<id>http://www.gep13.co.uk/blog/chocolatey-swag-over-the-years</id>
 		<title>Chocolatey swag over the years</title>
@@ -632,234 +648,22 @@
 		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/2019-a-retrospective" />
-		<id>http://www.gep13.co.uk/blog/2019-a-retrospective</id>
-		<title>2019 - A Retrospective</title>
-		<updated>2020-01-25T00:00:00Z</updated>
-		<content>&lt;p&gt;This was a blog post that was meant to be written at the start of January, but with one thing or another, it didn't get done, but finally able to publish it, so here goes...&lt;/p&gt;
-&lt;p&gt;At the start of &lt;a href="https://www.gep13.co.uk/blog/2018-a-retrospective"&gt;last years retrospective blog post&lt;/a&gt; I mentioned the old cliché of saying that the year had passed very quickly.  Well here I am a year on, saying exactly the same thing, if not even quicker!&lt;/p&gt;
-&lt;p&gt;Our eldest child has moved into Primary 2 and is loving it.  It is great to see her learning so any things, and soaking it all in.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Alivia.png" class="img-fluid" alt="Alivia" /&gt;&lt;/p&gt;
-&lt;p&gt;Our youngest will be starting nursery in the first quarter of 2020, and I still can't quite believe it!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Amelia-The-Tiger.png" class="img-fluid" alt="Amelia The Tiger" /&gt;&lt;/p&gt;
-&lt;p&gt;Working from home still allows me to help out with school/activity drop offs and pickups, so I am still in a fortunate position where I get to spend much more time with the children than I otherwise would if I had a typical office job.  I am very grateful for that opportunity, and I honestly couldn't see myself going back to working from an office.&lt;/p&gt;
-&lt;p&gt;Having said that, the daily commute can be a little hazardous sometimes!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Office-Commute.png" class="img-fluid" alt="Office-Commute" /&gt;&lt;/p&gt;
-&lt;h2 id="looking-back-on-2019"&gt;Looking back on 2019&lt;/h2&gt;
-&lt;p&gt;If I thought &lt;a href="https://www.gep13.co.uk/blog/2018-a-retrospective"&gt;2018&lt;/a&gt; was busy, 2019 has been even more busy!  I have done a number of work and personal trips, totalling 48,382 km, and visiting 3 countries and 11 cities.  It has all been a little bit of a blur!  One of the reasons that I like to write these blog posts is to look back on what I have done, and where I have been.&lt;/p&gt;
-&lt;h2 id="working-at-chocolatey"&gt;Working at Chocolatey&lt;/h2&gt;
-&lt;p&gt;It has now been two years that I have been working full time for Chocolatey, and I am still thoroughly enjoying it.  Working remotely has had it challenges, but I believe what both I, the family, and also work, have settled into a nice routine, and it has been working out really well.  The additional time at home with the family is amazing, and I wouldn't change it for the world!  The converted garage, which is now the office, is working out really well, also on the colder mornings, espeically over Winter, it has been a thought to go outside to turn the heating on, and it does take a little while for the room to get up to temperature!&lt;/p&gt;
-&lt;p&gt;One of the main things that I have been working on this year at Chocolatey is our new Chocolatey Central Management offering, and in June, after a beta period, we released the first 0.1.0 version.  This initial release was all about bringing the available information for each machine using Chocolatey, i.e. the list of packages installed, which ones are outdated, etc, to one central location, which can then be reported on.  This has been a very interesting project to work on, and it has been great to see it ship to our customers.  There are many exciting plans for other modules which are going to be added to CCM, and I am looking forward to working on them in 2020.&lt;/p&gt;
-&lt;p&gt;Throughout 2019, the Chocolatey Team has been expanding, and it has been great getting to know and working with everyone.  The in person events throughout the year have been a great opportunity to concrete the relationships.  Although we chat every day on standup, there is no real substitute to chatting in person.&lt;/p&gt;
-&lt;h2 id="archery"&gt;Archery&lt;/h2&gt;
-&lt;p&gt;Back when I was at University, I was a member of both the University Basketball Team, as well as the Archery Team (even for a couple of years being the Captain of the Team).  While I haven't played Basketball in a LONG time, I have always thought about starting Archery again.  Back at the start of 2019, I found out that there was actually a local Archery club in my home town, something which I never knew.  I decided that I would go along, and I have been a regular attendee ever since.  In July, I made a trip to London to visit the Quicks Archery store, just outside London, and I bought my own bow.&lt;/p&gt;
-&lt;p&gt;I am still not quite back at the same level as I was when I shot in the University team, but things are getting better.  At the end of December, I scored 506 in a Portsmouth round (60 arrows at 20 yards (18 metres)).  I was very happy to crack the 500 barrier, something which I had got close to a couple other times through the year.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Archery-Not-Bad.png" class="img-fluid" alt="Archery Not Bad" /&gt;&lt;/p&gt;
-&lt;p&gt;I have also decided that my quiver is the perfect place to put some of the pins that I have been collecting over the years:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Archery-Quiver.png" class="img-fluid" alt="Archery Quiver" /&gt;&lt;/p&gt;
-&lt;h2 id="speaking-tour"&gt;Speaking Tour&lt;/h2&gt;
-&lt;p&gt;Starting in January, and going into February, I &lt;a href="https://www.gep13.co.uk/blog/2019-speaking-tour"&gt;went on the road&lt;/a&gt; and presented at a number of .Net User Groups.  This included talks on Chocolatey, Cake, and also a new talk on using Packer, Vagrant and Terraform.  This was my second time doing this, and again, I thoroughly enjoyed it.  I don't have any immediate plans to do anything like this in 2020, but things might change here, and I will keep you all posted.&lt;/p&gt;
-&lt;h2 id="trips"&gt;Trips&lt;/h2&gt;
-&lt;p&gt;One of the reasons that 2019 seems to have been a complete blur is that I did a number of trips.  There were 7 in total, which saw me visiting the States 4 times!  So far for 2020, I have 2 trips booked to visit the States again, but hoping to not do quite as many trips this year, I think I am getting too old for it :smile:!&lt;/p&gt;
-&lt;h3 id="mvp-summit"&gt;MVP Summit&lt;/h3&gt;
-&lt;p&gt;Last year, I wasn't able to attend the MVP Summit, and when I was renewed again, I thought I better take the opportunity to go at least once, in case I don't get renewed again.  This was my first time visiting the Microsoft Campus on Redmond, and for a long time &amp;quot;Microsoft Fanboy&amp;quot; this was a huge thing for me.  The campus itself is HUGE, and it is difficult to grasp the scale of it until you have visited.  What made attending the MVP Summit even more special for me this year was that all members of the Cake Team were in attendance.  I had met a couple of the team before in person, but this was the first time meeting the majority of them, and the first time that we had all been in one place.  This made it very special.  One evening we had a Cake get together and worked on some of the open issues on the GitHub repository.  Being in the same place made certain discussions far easier.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Cake-Team-And-Friends.png" class="img-fluid" alt="Cake Team and Friends" /&gt;&lt;/p&gt;
-&lt;p&gt;Whilst walking around the campus, there is a section where all the various Microsoft products and remembered forever in the pavement of the walkway.  Couldn't help snapping a photo of this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Microsoft-Sourcesafe-Pavement.png" class="img-fluid" alt="Microsoft SourceSafe" /&gt;&lt;/p&gt;
-&lt;p&gt;I was also able to grab some time to go and visit a friend who works on Campus, and I thought the visitors badge was pretty cool:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Microsoft-Visitor-Badge.png" class="img-fluid" alt="Microsoft Visitor Badge" /&gt;&lt;/p&gt;
-&lt;p&gt;We weren't able to get into them, but we also went and found the Microsoft Treehouse meeting rooms that we had been told about.  I have to say, they are very impressive:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Microsoft-Treehouse.png" class="img-fluid" alt="Microsoft-Treehouse" /&gt;&lt;/p&gt;
-&lt;p&gt;While I had a great time at the Summit, it was a LONG week, with lots to take in, so at the end of the week, I was ready to go home.  Wandering around during the summit was great fun, as it meant that you had the opportunity to speak/meet lots of people, most of which I have only interacted with online, it was great to meet people in person.&lt;/p&gt;
-&lt;p&gt;Some of the Cake Team made a visit to the Space Needle, which I have to say was really good.  We were there on a very nice day, so the views from the top were stunning!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Space-Needle.png" class="img-fluid" alt="Space Needle" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Looking-Down.png" class="img-fluid" alt="Looking Down" /&gt;&lt;/p&gt;
-&lt;p&gt;I have already decided to attend the MVP Summit again this year, so looking forward to meeting everyone again in person!&lt;/p&gt;
-&lt;h3 id="chefconf"&gt;ChefConf&lt;/h3&gt;
-&lt;p&gt;The first work trip for 2019 took me to Seattle to attend Chef Conf.  Chocolatey was a sponsor of this event, and I spent most of my time working on the booth and chatting to folks either already using Chocolatey, or who were going to be using it.  All in all, it was a great event!  I got to meet in person for the first time Stevie, who recently joined the company, so it was great getting to know him.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Setting-Up-At-Chef-Conf.png" class="img-fluid" alt="Setting Up at Chef Conf" /&gt;&lt;/p&gt;
-&lt;p&gt;While I was there, I also presented my talk on Chocolatey and Chef, and I am happy to say that I got a lot of good feedback from the event.&lt;/p&gt;
-&lt;h3 id="chefconf-london"&gt;ChefConf London&lt;/h3&gt;
-&lt;p&gt;Following on from the Chef Conf in Seattle, I also attended the Chef Conf London event.  Once again, Chocolatey was a sponsor at the event, and I was working on the booth chatting about all things Chocolatey.&lt;/p&gt;
-&lt;p&gt;I presented the same Chocolatey and Chef talk that I did in Seattle, and once again, I am happy to say that I got a lot of great feedback from it.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Talk-At-Chef-Conf.png" class="img-fluid" alt="Talk at Chef Conf" /&gt;&lt;/p&gt;
-&lt;h3 id="hack-yourself-first"&gt;Hack Yourself First&lt;/h3&gt;
-&lt;p&gt;I have been a long time follower of both Scott Helme and Troy Hunt, and when I found out that Scott was going to be giving Troy's &amp;quot;Hack Yourself First&amp;quot; course, I jumped at the chance to attend.  Scott was doing the conference in a couple of places, including Glasgow, which would have been easier to get to for me, but I opted to attend the London event.  This was for an alterior motive though!  Since starting Archery earlier this year, I decided that I wanted to buy my own bow, so I added an extra day and hire a car (it was amazing) to allow me to travel to the Quicks Archery store just outside London so that I could buy a bow.  I spent a good few hours at the store deciding on what to get, and I am not disappointed with it:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/The-Hire-Car.png" class="img-fluid" alt="The Hire Car" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/The-Bow-Bits.png" class="img-fluid" alt="The Bow Bits" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/The-Bow-Assembled.png" class="img-fluid" alt="The Bow Assembled" /&gt;&lt;/p&gt;
-&lt;p&gt;But anyway, back to the course...&lt;/p&gt;
-&lt;p&gt;It was very good, and very well presented.  To say that I have walked away more scared than when I went in pretty much sums it up, but I do feel a little bit better equipped at recognizing and dealing with certain types of problems that we all face on our day to day usage of the Internet.  If you are interested at all in the topics of hacking, and security, then I would definitely recommend that you check up this session if Scott decides to do them again.&lt;/p&gt;
-&lt;h3 id="kcdc"&gt;KCDC&lt;/h3&gt;
-&lt;p&gt;I had heard so many good things about this conference, so when I found out that my talk submission had been accepted, I was very excited to attend.  This event did not disappoint!  The venue and the quality of the sessions on offer were very high, and I would thoroughly recommend anyone to check out this event!  The prize give aways at the end of the event were quite simply amazing, so if you do go, make sure to stay all the way to the end for your chance to win.&lt;/p&gt;
-&lt;p&gt;They also do REALLY cool t-shirts:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/KCDC.png" class="img-fluid" alt="KCDC" /&gt;&lt;/p&gt;
-&lt;p&gt;Given the fact that the Chocolatey office is SO close to this event, I hired a car and drove up to meet Rob and to see the Chocolatey office in person.  When I &lt;em&gt;finally&lt;/em&gt; got there (the whole ordeal of hiring a car and actually getting to where I needed to be is a LONG story), it was great to meet up with Rob and to be shown around the office.  Rob has worked really hard on putting the office together, and I have to say that it is looking really good.  I am looking forward to heading back to the office later this year to meet up with the rest of the team!&lt;/p&gt;
-&lt;p&gt;This was only one of the problems that I had on this trip:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/No-GPS.png" class="img-fluid" alt="No GPS" /&gt;&lt;/p&gt;
-&lt;p&gt;But I got there:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Chocolatey-Office.png" class="img-fluid" alt="Chocolatey Office" /&gt;&lt;/p&gt;
-&lt;p&gt;But damn it was hot:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Its-hot.png" class="img-fluid" alt="Its hot" /&gt;&lt;/p&gt;
-&lt;h3 id="winops-london"&gt;WinOps London&lt;/h3&gt;
-&lt;p&gt;Continuing the tradition of attending WinOps (this is now my fifth time), I attended with my collegues Paul and Mukesh.  Chocolatey was a sponsor of the event, so we had a booth there to chat to folks.  Similar to last year, some of the Chocolatey Community members based in Europe attended the event, so it was great to catch up with them, as well as to finally meet some folks in person, like Maurice and Kim.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Chocolatey-Folks-At-WinOps.png" class="img-fluid" alt="Chocolatey Folks at WinOps" /&gt;&lt;/p&gt;
-&lt;p&gt;While at the conference, Paul and I presented our workshop on using Chocolatey within the Organisation, and I am happy to say that we got some really good feedback on it.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/WinOps-Workshop.png" class="img-fluid" alt="WinOps Workshop" /&gt;&lt;/p&gt;
-&lt;h3 id="microsoft-ignite"&gt;Microsoft Ignite&lt;/h3&gt;
-&lt;p&gt;This was my first time attending a large Microsoft event, and to say that it is a different scale is a little bit of an understatement!  The events that I normally attend cap out at around 500 folks, but Microsoft Ignite had something like over 20000 attendees!  It was HUGE!!!&lt;/p&gt;
-&lt;p&gt;Chocolatey was a sponsor of the event, so I spent most of my time on our booth chatting to folks about Chocolatey, giving out t-shirts (with the new Ark Reactor design created by Adil), and answering questions on Chocolatey.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/How-Many-Tshirts.png" class="img-fluid" alt="How Many T-Shirts" /&gt;&lt;/p&gt;
-&lt;p&gt;The booth was very busy for the whole event, but I did get some time to wander round the venue to check out the rest of the complex, including finding my name on the MVP Wall:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/MVP-Wall.png" class="img-fluid" alt="MVP Wall" /&gt;&lt;/p&gt;
-&lt;p&gt;There was also a VERY cool coin press, which allowed you to create the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Pressed-Pennies.png" class="img-fluid" alt="Pressed Pennies" /&gt;&lt;/p&gt;
-&lt;p&gt;These are a great addition to my collection!!&lt;/p&gt;
-&lt;p&gt;On the Thursday night, all attendees were welcomed to Universal Studios, and the whole team went along to go on some of the rides.  It was all great fun, thoroughly enjoyed it!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Universal-Studios.png" class="img-fluid" alt="Universal Studios" /&gt;&lt;/p&gt;
-&lt;h2 id="microsoft-mvp"&gt;Microsoft MVP&lt;/h2&gt;
-&lt;p&gt;In &lt;a href="https://www.gep13.co.uk/blog/mvp-renewal-2019"&gt;July&lt;/a&gt;, I was once again renewed as a Microsoft MVP.  I am still humbled to be included in such a group of incredible people!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/MVP-Profile.png" class="img-fluid" alt="MVP Profile" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/MVP-Award.png" class="img-fluid" alt="MVP Award" /&gt;&lt;/p&gt;
-&lt;p&gt;It was great fun to get the MVP package delivered, and to add another year onto the award.  The instructions still crack me up!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/MVP-Instructions.png" class="img-fluid" alt="MVP Instructions" /&gt;&lt;/p&gt;
-&lt;h2 id="open-source-contributions"&gt;Open Source Contributions&lt;/h2&gt;
-&lt;p&gt;I have been very happy to see the download counts on some of my Visual Studio Code and Azure DevOps extensions increasing over the year, especially the Chocolatey ones.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Visual-Studio-Marketplace.png" class="img-fluid" alt="Visual Studio Marketplace" /&gt;&lt;/p&gt;
-&lt;p&gt;At one point, one of my extensions was even trending on the marketplace front page :smile:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Visual-Studio-Marketplace-Trending.png" class="img-fluid" alt="Visual Studio Marketplace Trending" /&gt;&lt;/p&gt;
-&lt;h3 id="cake"&gt;Cake&lt;/h3&gt;
-&lt;p&gt;Cake continues to grow, and in 2019, we had 7 releases.  It has been interesting to watch how the .Net Core Global Tool has been out pacing the full .Net Framework version.  For example, at the time of writing this blog post, the 0.36.0 version (which shipped 2 weeks ago) of the .Net Global Tool has been downloaded 87,253 times, where as the full .Net Framework version has been downloaded 38,365 times.  The .Net Global tool has well over double the amount of downloads.&lt;/p&gt;
-&lt;p&gt;We, the Cake team, recently had a team meeting, and we have been discussing releasing, finally, a 1.0.0, release of Cake.  This is something that I think we are &amp;quot;close&amp;quot; to doing, so keep an eye on that shipping.  Realistically, this won't change anything in your day to day usage of Cake, but it is something that we have been discussing doing for a while, so it will be good to finally ship it!&lt;/p&gt;
-&lt;h3 id="cake-contrib"&gt;Cake Contrib&lt;/h3&gt;
-&lt;p&gt;The Cake-Contrib Organisation has continued to grow through 2019, now there are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;83 people are now a member of the Organisation on GitHub&lt;/li&gt;
-&lt;li&gt;168 Repositories now in the Organisation&lt;/li&gt;
-&lt;li&gt;277 Packages associated with the cake-contrib user on NuGet.org&lt;/li&gt;
-&lt;li&gt;16,702,987 downloads of addins and modules associated with the cake-contrib user&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Getting all the Cake Contrib addins into one place, and all maintainers working together was a main focus of mine through 2019.  A lot of the streams that I did on Twitch was centred on this topic, mainly due to the amazing work of &lt;a href="https://github.com/Jericho"&gt;Jericho&lt;/a&gt; on the &lt;a href="https://github.com/cake-contrib/Cake.AddinDiscoverer"&gt;Cake.AddinDiscover&lt;/a&gt;, which provides a &lt;a href="https://github.com/cake-contrib/Home/blob/master/Audit_for_Cake_0.33.0.md"&gt;daily report&lt;/a&gt; of the current state of the addins.  On this topic, I was very happy to see Jericho welcomed into the Cake Maintainer team.&lt;/p&gt;
-&lt;h3 id="gitreleasemanager"&gt;GitReleaseManager&lt;/h3&gt;
-&lt;p&gt;For a long time, GitReleaseManager has been in maintenance mode, as it &amp;quot;just&amp;quot; works for what I needed it for.  However, in 2019, it has seen a lot of work, getting new features, including shipping as a .Net Global Tool.  Huge thanks here to Artur and Kim for the nudge to invest time in this tool again.&lt;/p&gt;
-&lt;h3 id="gitversion"&gt;GitVersion&lt;/h3&gt;
-&lt;p&gt;I haven't really been involved in the day to day running of the GitVersion project for a while, I have left that in the hands of Artur and Asbjørn who have been doing an amazing job, but I have been doing some work in the background.  Including making sure that all team members have access to everything that is required, like passwords, and access to different systems.  In addition, I set up a Slack Team to allow chatting within the team.  Finally, I worked on converting the documentation for GitVersion to use Wyam and for it to be hosted on GitHub pages.  This was a little bit of work, but I am happy with the end results.&lt;/p&gt;
-&lt;h3 id="github-organisations"&gt;GitHub Organisations&lt;/h3&gt;
-&lt;p&gt;Throughout 2019, I made a concerted effort of move all of my Open Source contributions into one of a few GitHub Organisations and to not leave them in my own personal GitHub account.  The idea behind this effort was to allow for the continuity of these projects, should something happen to me.  In the GitHub Organisations that I have created, I have ensured that there are multiple owners added to the Organisation, in some cases, these people don't make active contributions to the repositories in the Organisation, but they are people that I trust to do the right thing with the repositories if/when required.  This is quite a morbid thing to think about, but having been in a situation where we were forced to decide what to do after the death of a Cake Community member, I wanted to make sure that my &amp;quot;house&amp;quot; was in order.&lt;/p&gt;
-&lt;p&gt;I also set up a number of Organisations for Chocolatey, and moved some repositories around, to make it clear about what projects were actively supported by Chocolatey, and which ones are community driven efforts.&lt;/p&gt;
-&lt;h3 id="nuget-profile"&gt;NuGet Profile&lt;/h3&gt;
-&lt;p&gt;In 2019, I worked on creating a few new Cake Addins, mainly ones that are being used at work.  As a result, I have a few more packages than last year, and the total download count for all packages has almost doubled!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/NuGet-Profile.png" class="img-fluid" alt="NuGet Profile" /&gt;&lt;/p&gt;
-&lt;h3 id="chocolatey-profile"&gt;Chocolatey Profile&lt;/h3&gt;
-&lt;p&gt;As I am writing this, I am not entirely sure why my number of packages on Chocolatey has gone down by one, but as mentioned in last years post, the continued increase in the popularity of Chocolatey is certainly helping my download count number here!&lt;/p&gt;
-&lt;p&gt;It would be rude of me not to mention again the overhaul that the Chocolatey Community Repository received in 2019.  It is looking so good now!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Chocolatey-Profile.png" class="img-fluid" alt="Chocolatey Profile" /&gt;&lt;/p&gt;
-&lt;h2 id="net-foundation"&gt;.NET Foundation&lt;/h2&gt;
-&lt;p&gt;In 2019, I became a fully signed up member of the .Net Foundation.  I also put myself forward to nomination in the Board of Directors for the Foundation, but I wasn't selected to become member.&lt;/p&gt;
-&lt;h2 id="github-contributions"&gt;GitHub Contributions&lt;/h2&gt;
-&lt;p&gt;I think it is fair to say that I might have got carried away again in 2019 when it comes to GitHub!  Contributions more than doubled in 2019 compared to the previous year.  In part this was a result of my day to day job, but also due in part to the regular streaming that I have been doing on Twitch.  This has given me the opportunity to work on a number of projects, and I am very grateful for dedicated time that I am allowed to do this!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/GitHub-Profile.png" class="img-fluid" alt="GitHub Profile" /&gt;&lt;/p&gt;
-&lt;p&gt;I was also lucky enough to be one of the people who were sent the following to celebrate 100 million repositories being created on GitHub.  It takes pride of place on my desk at work:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/100-million-repos.png" class="img-fluid" alt="100 Million Repos" /&gt;&lt;/p&gt;
-&lt;h2 id="hacktoberfest"&gt;Hacktoberfest&lt;/h2&gt;
-&lt;p&gt;Once again, continuing the yearly tradition (I think this is now my fifth year), I took part in Hacktoberfest, and was able to complete the event, which resulted in me obtaining some very cool swag:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Hacktoberfest-Swag.png" class="img-fluid" alt="Hacktoberfest Swag" /&gt;&lt;/p&gt;
-&lt;p&gt;There was an &lt;a href="https://circleci.com/blog/join-the-party-get-your-hacktoberfest-prs-with-circleci-orbs/"&gt;additional give away this year from the folks at CircleCI&lt;/a&gt;, I was able to get in on the action here, and grab myself another free t-shirt!  What can I say, I am a sucker for a free t-shirt!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Orbtoberfest-Swag.png" class="img-fluid" alt="Orbtoberfest Swag" /&gt;&lt;/p&gt;
-&lt;h2 id="pull-requests"&gt;24 Pull Requests&lt;/h2&gt;
-&lt;p&gt;A notable absence in 2019, at least in my mind, was that there wasn't a 24 Pull Requests event.  I have taken part in this event every year since 2015, but this year Andrew decided that he was going to take a break.&lt;/p&gt;
-&lt;p&gt;There was actually an issue created looking for a &lt;a href="https://github.com/24pullrequests/24pullrequests/issues/2469"&gt;new maintainer&lt;/a&gt; to step up to help.  However, I don't think anyone came forward to help with this, and as a result, it was decided to take a year off.  Hopefully, this will be back in 2020.&lt;/p&gt;
-&lt;h2 id="stack-overflow-contributions"&gt;Stack Overflow Contributions&lt;/h2&gt;
-&lt;p&gt;Similar to last year, I have continued to answer questions on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Chocolatey&lt;/li&gt;
-&lt;li&gt;Cake&lt;/li&gt;
-&lt;li&gt;GitFlow&lt;/li&gt;
-&lt;li&gt;GitVersion&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As a result, my overall reputation has gone up to 11021 (an increase of 3985).  However, that quite large jump isn't just from me answering questions.  &lt;a href="https://stackoverflow.blog/2019/11/13/were-rewarding-the-question-askers/"&gt;Stack Overflow recently changed the rules&lt;/a&gt; so that instead of getting 5 points for an upvote on a question, you would instead get 10 points.  This was back dated, and as a result of my &lt;a href="https://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-default-editor-for-git"&gt;question here&lt;/a&gt; I got a big jump in overall points.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Stack-Overflow-Reputation.png" class="img-fluid" alt="Stack Overflow Reputation" /&gt;&lt;/p&gt;
-&lt;p&gt;I also saw an increase in the numbers of badges that I have been awarded:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Stack-Overflow-Badges.png" class="img-fluid" alt="Stack Overflow Badges" /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;4 Silver&lt;/li&gt;
-&lt;li&gt;8 Bronze&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;And my impact increased to 331k (an increase of 106k):&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Stack-Overflow-Impact.png" class="img-fluid" alt="Stack Overflow Impact" /&gt;&lt;/p&gt;
-&lt;h2 id="youtube-videos"&gt;YouTube videos&lt;/h2&gt;
-&lt;p&gt;The main focus in 2019 for my YouTube channel was to serve as an archive for the live streams that I have been doing on Twitch, however, I did upload a number of short videos for releases to projects that I have been working on.  One of the things that I have been working on this year is an update to Chocolatey GUI as well as updating the documentation for it.  Along with that, I am planning on creating a number of tutorial videos to show how new functionality works.  So keep an eye out for those being published to the channel.&lt;/p&gt;
-&lt;p&gt;For one reason or another, I have a backlog of streams to upload to YouTube.  This is on my list of things to do, and I will hopefully get to that soon.&lt;/p&gt;
-&lt;p&gt;I don't seem to have noted this in last years blog post, but I now have 115 subscribers to the channel.  If you want to get notifications about new videos being published, be sure to subscribe.&lt;/p&gt;
-&lt;h2 id="twitch"&gt;Twitch&lt;/h2&gt;
-&lt;p&gt;In 2018, I started streaming on Twitch, and aside from some breaks for travelling and a couple other things, I have been streaming regularly throughout 2019 on a Monday evening (8PM my local time), and Friday lunch times (12PM my local time).  You can find my &lt;a href="https://www.twitch.tv/gep13"&gt;Twitch channel here&lt;/a&gt;.  It is no exaggeration to say that I have got a LOT out of doing this.  I am hopeful that viewers of the stream are also getting something out of it as well :smile:.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Twitch-Profile.png" class="img-fluid" alt="Twitch Profile" /&gt;&lt;/p&gt;
-&lt;p&gt;During the streams we have worked on projects like:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cake.Recipe&lt;/li&gt;
-&lt;li&gt;Updating Cake-Contrib Addins&lt;/li&gt;
-&lt;li&gt;GitReleaseManager&lt;/li&gt;
-&lt;li&gt;Chocolatey VSCode Extension&lt;/li&gt;
-&lt;li&gt;Poshbot&lt;/li&gt;
-&lt;li&gt;A secret project called devgep (that still needs to be finished)&lt;/li&gt;
-&lt;li&gt;Chocolatey&lt;/li&gt;
-&lt;li&gt;Cake&lt;/li&gt;
-&lt;li&gt;Chef Client&lt;/li&gt;
-&lt;li&gt;numerous other things&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I was also lucky enough to bring guests onto the stream, like:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Rob Reynolds&lt;/li&gt;
-&lt;li&gt;Mattias Karlsson&lt;/li&gt;
-&lt;li&gt;Maurice Kevenaar&lt;/li&gt;
-&lt;li&gt;Martin Björkström&lt;/li&gt;
-&lt;li&gt;Patrik Svensson&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These dedicated time slots for doing &amp;quot;stuff&amp;quot; has been great, and it has helped me focus on shipping some of the projects that I work on.  The &amp;quot;pairing&amp;quot; sessions that happen during the stream are amazing, and I think it is fair to say that I learn something new on every stream.  I am very grateful to the regular attendees on the stream, and I hope to work with you all more in 2020 on various projects!&lt;/p&gt;
-&lt;p&gt;In March 2019, I was invited to become a Twitch Affiliate, which I am happy to say I took them up on.  In addition, I was invited to join the &lt;a href="https://www.twitch.tv/team/livecoders"&gt;Live Coders Team&lt;/a&gt; on Twitch.&lt;/p&gt;
-&lt;h2 id="aberdeen-developers"&gt;Aberdeen Developers&lt;/h2&gt;
-&lt;p&gt;Aberdeen Developers is still going strong, but I have had very little involvement in the group in 2019.  &lt;a href="https://twitter.com/nyami"&gt;Douglas Cameron&lt;/a&gt; has once again been the driving force behind it.  I have just helped out on the sidelines where/where I can.&lt;/p&gt;
-&lt;p&gt;This year saw 6 events (one of them I presented), including talks on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://youtu.be/CWlURN0pFnI"&gt;Immutable Infrastructure&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://youtu.be/FxOSm6NUVnY"&gt;Bots&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://youtu.be/Acqcg5MQbaU"&gt;Vue.JS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://youtu.be/GBOV5zyFVVM"&gt;Aurelia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://youtu.be/AYdlDbnSHNU"&gt;C# 8&lt;/a&gt; (with Jon Skeet!!)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Jon-Skeet-ADNUG.png" class="img-fluid" alt="Jon Skeet at ADNUG" /&gt;&lt;/p&gt;
-&lt;p&gt;In 2019, the group started streaming their events on &lt;a href="https://www.twitch.tv/adnuguk"&gt;Twitch&lt;/a&gt; and uploading the videos to their &lt;a href="https://www.youtube.com/channel/UCRnxcmrSrc4TWKqakE4EViw"&gt;YouTube Channel&lt;/a&gt;.  So if you are not able to make it along in person, then you always have the opportunity to watch the sessions back again.&lt;/p&gt;
-&lt;p&gt;Being able to buy this equipment was a result of the successful &lt;a href="https://www.gofundme.com/aberdeen-developers-net-user-group"&gt;gofundme&lt;/a&gt; campaign which we ran.  We are very thankful to everyone who contributed to this!&lt;/p&gt;
-&lt;h2 id="chocolatey-hat"&gt;Chocolatey Hat&lt;/h2&gt;
-&lt;p&gt;It would be completely wrong of me not to mention that absolutely amazing Chocolatey Hat that I got this year.  This was desgined and sourced by Stevie, and it is my goto hat nowadays, I love it!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Choco-Hat-Front.png" class="img-fluid" alt="Choco Hat Front" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Choco-Hat-Back.png" class="img-fluid" alt="Choco Hat Back" /&gt;&lt;/p&gt;
-&lt;h2 id="organ-donation"&gt;Organ Donation&lt;/h2&gt;
-&lt;p&gt;Slightly morbid topic of conversation, but this year I signed up to be an organ donar.  This is something I have been thinking about for a while, and I finally got around to it this year.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Organ-Donar.png" class="img-fluid" alt="Organ Donar" /&gt;&lt;/p&gt;
-&lt;h2 id="irn-bru-1901"&gt;Irn-Bru 1901&lt;/h2&gt;
-&lt;p&gt;This year also saw the release of a special edition of Irn-Bru, using the original (full sugar) recipe from 1901.  It is very tasty!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/1901.png" class="img-fluid" alt="1901" /&gt;&lt;/p&gt;
-&lt;h2 id="office-hours"&gt;Office Hours&lt;/h2&gt;
-&lt;p&gt;I was hoping to continue to provide help to anyone that wanted it in 2019, but unfortunately, the officehours.io service which I had been using closed its doors, and as a result, I wasn't able to use it.&lt;/p&gt;
-&lt;h2 id="thats-a-wrap"&gt;That's a wrap&lt;/h2&gt;
-&lt;p&gt;And that is it for another year!  Overhaul, it has been a very enjoyable year, and looking forward to doing more of the same in 2020.  I hope 2019 was good for all of you as well, and I look forward to talking to you all in 2010!&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;This was a blog post that was meant to be written at the start of January, but with one thing or another, it didn't get done, but finally able to publish it, so here goes...&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-recipe-release-1.1.1" />
-		<id>http://www.gep13.co.uk/blog/cake-recipe-release-1.1.1</id>
-		<title>Cake.Recipe Release 1.0.0</title>
-		<updated>2019-10-21T00:00:00Z</updated>
+		<link href="http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.0" />
+		<id>http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.0</id>
+		<title>Chocolatey Azure DevOps Extension Release 0.3.0</title>
+		<updated>2020-06-01T00:00:00Z</updated>
 		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
-&lt;h3 id="bug"&gt;Bug&lt;/h3&gt;
+&lt;h3 id="feature"&gt;Feature&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/476"&gt;&lt;strong&gt;#476&lt;/strong&gt;&lt;/a&gt; Include AssemblySemVer in BuildParameters&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/chocolatey-community/chocolatey-azuredevops/issues/13"&gt;&lt;strong&gt;#13&lt;/strong&gt;&lt;/a&gt; Create a Task to install/upgrade Chocolatey itself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="improvement"&gt;Improvement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/chocolatey-community/chocolatey-azuredevops/pull/46"&gt;&lt;strong&gt;#46&lt;/strong&gt;&lt;/a&gt; Move array from ArrayList to a generic in chocolatey.ps1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
 &lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/kVZU_Bdi9ZM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/EnxYBz7MbLs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
