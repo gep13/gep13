@@ -209,7 +209,7 @@ Getting all the Cake Contrib addins into one place, and all maintainers working 
 
 ### GitReleaseManager
 
-For a long time, GitReleaseManager has been in maintenance mode, as it "just" works for what I needed it for.  However, in 2019, it has seeen a lot of work, getting new features, including shipping as a .Net Global Tool.  Huge thanks here to Artur and Kim for the nudge to invest time in this tool again.
+For a long time, GitReleaseManager has been in maintenance mode, as it "just" works for what I needed it for.  However, in 2019, it has seen a lot of work, getting new features, including shipping as a .Net Global Tool.  Huge thanks here to Artur and Kim for the nudge to invest time in this tool again.
 
 ### GitVersion
 
@@ -274,7 +274,7 @@ Similar to last year, I have continued to answer questions on:
 * GitFlow
 * GitVersion
 
-As a result, my overall reputation has gone up to (an increase of).  However, that quite large jump isn't just from me answering questions.  [Stack Overflow recently changed the rules](https://stackoverflow.blog/2019/11/13/were-rewarding-the-question-askers/) so that instead of getting 5 points for an upvote on a question, you would instead get 10 points.  This was back dated, and as a result of my [question here](https://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-default-editor-for-git) I got a big jump in overall points.
+As a result, my overall reputation has gone up to 11021 (an increase of 3985).  However, that quite large jump isn't just from me answering questions.  [Stack Overflow recently changed the rules](https://stackoverflow.blog/2019/11/13/were-rewarding-the-question-askers/) so that instead of getting 5 points for an upvote on a question, you would instead get 10 points.  This was back dated, and as a result of my [question here](https://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-default-editor-for-git) I got a big jump in overall points.
 
 ![Stack Overflow Reputation](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Stack-Overflow-Reputation.png)
 
@@ -285,7 +285,7 @@ I also saw an increase in the numbers of badges that I have been awarded:
 * 4 Silver
 * 8 Bronze
 
-And my impact increased to (an increase of 106k):
+And my impact increased to 331k (an increase of 106k):
 
 ![Stack Overflow Impact](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Stack-Overflow-Impact.png)
 
