@@ -2,8 +2,9 @@
 Title: ClipImg VsCode Extension Release 0.2.2
 Published: 09/09/2020
 Tags:
-- cake
-- cake.recipe
+- clipimg
+- vscode
+- extension
 - release
 ---
 
