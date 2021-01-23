@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2021</rights>
-	<updated>2021-01-23T20:44:51Z</updated>
+	<updated>2021-01-23T20:56:38Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vs-release-0.3.0" />
@@ -44,26 +44,6 @@
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/fG93MjnxHoo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;After working on it for a little bit during my Monday night streams, I am happy to announce that we have shipped the 0.3.0 release of the Cake Extension for Visual Studio.  This includes support for Visual Studio 2029.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0" />
-		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0</id>
-		<title>Cake.VsCode.Recipe Release 0.4.0</title>
-		<updated>2020-12-01T00:00:00Z</updated>
-		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
-&lt;h3 id="breaking-change"&gt;Breaking change&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/15"&gt;&lt;strong&gt;#15&lt;/strong&gt;&lt;/a&gt; Switch to using GitHub Token for GitReleaseManager&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="improvement"&gt;Improvement&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/13"&gt;&lt;strong&gt;#13&lt;/strong&gt;&lt;/a&gt; Add parameter for Chocolatey package ID&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
-&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/FcJpyQKAfCk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vscode-release-1.0.0" />
@@ -111,6 +91,26 @@
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/7Ba-pAHzO9w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;The 1.0.0 release of the Cake Extension for Visual Studio Code has been a little while in the making, but I am excited to finally get it released.  There have been some amazing contributions to it from the community, so huge thanks for all the help!&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0</id>
+		<title>Cake.VsCode.Recipe Release 0.4.0</title>
+		<updated>2020-12-01T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="breaking-change"&gt;Breaking change&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/15"&gt;&lt;strong&gt;#15&lt;/strong&gt;&lt;/a&gt; Switch to using GitHub Token for GitReleaseManager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="improvement"&gt;Improvement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/13"&gt;&lt;strong&gt;#13&lt;/strong&gt;&lt;/a&gt; Add parameter for Chocolatey package ID&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/FcJpyQKAfCk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.3.0" />
@@ -311,6 +311,40 @@
 		<summary>&lt;p&gt;On tonights stream, which was stream 100 (quite a milestone) I was joined by &lt;a href="https://twitter.com/mkevenaar"&gt;Maurice Kevenaar&lt;/a&gt;, who was showing us how to install/setup/use his new chocolatey-diff tool:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
+		<link href="http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.2" />
+		<id>http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.2</id>
+		<title>ClipImg VsCode Extension Release 0.2.2</title>
+		<updated>2020-09-09T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="documentation"&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/218"&gt;&lt;strong&gt;#218&lt;/strong&gt;&lt;/a&gt; Should generate CHANGELOG.md on release&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/215"&gt;&lt;strong&gt;#215&lt;/strong&gt;&lt;/a&gt; Table formatting isn't quite right in readme&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/214"&gt;&lt;strong&gt;#214&lt;/strong&gt;&lt;/a&gt; Add devlead to software authors in Chocolatey nuspec file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/tYdI9P14fJ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.1" />
+		<id>http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.1</id>
+		<title>ClipImg VsCode Extension Release 0.2.1</title>
+		<updated>2020-09-08T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="bug"&gt;Bug&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/212"&gt;&lt;strong&gt;#212&lt;/strong&gt;&lt;/a&gt; Blob content type needs to be set to image/png during upload&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/DarxhU_HJMk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0" />
 		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0</id>
 		<title>Cake.VsCode.Recipe Release 0.2.0</title>
@@ -327,6 +361,50 @@
 &lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
 &lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/SERxyr2n--c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.0" />
+		<id>http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.0</id>
+		<title>ClipImg VsCode Extension Release 0.2.0</title>
+		<updated>2020-09-08T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="features"&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/210"&gt;&lt;strong&gt;#210&lt;/strong&gt;&lt;/a&gt; On Windows if PNG present in clipboard use it's data&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/202"&gt;&lt;strong&gt;#202&lt;/strong&gt;&lt;/a&gt; Make markdown tag/image url configurable&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/201"&gt;&lt;strong&gt;#201&lt;/strong&gt;&lt;/a&gt; Make blob filename configurable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/tby0ZTavFlE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.1.0" />
+		<id>http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.1.0</id>
+		<title>ClipImg VsCode Extension Release 0.1.0</title>
+		<updated>2020-09-07T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="feature"&gt;Feature&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/12"&gt;&lt;strong&gt;#12&lt;/strong&gt;&lt;/a&gt; Create command to grab clipboard contents and upload file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="improvements"&gt;Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/46"&gt;&lt;strong&gt;#46&lt;/strong&gt;&lt;/a&gt; Update to new GitHub Organisation location&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/5"&gt;&lt;strong&gt;#5&lt;/strong&gt;&lt;/a&gt; Switch to using InversifyJS for IoC&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/issues/4"&gt;&lt;strong&gt;#4&lt;/strong&gt;&lt;/a&gt; Switch to using the new VSCode Extension package for Chocolatey&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="security"&gt;Security&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/gep13-oss/clipimg-vscode/pull/105"&gt;&lt;strong&gt;#105&lt;/strong&gt;&lt;/a&gt; &lt;a href="#security"&gt;Security&lt;/a&gt; Bump https-proxy-agent from 2.2.2 to 2.2.4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/D27oA7K0MqE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
@@ -784,68 +862,5 @@
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/kVZU_Bdi9ZM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/stream-number-50" />
-		<id>http://www.gep13.co.uk/blog/stream-number-50</id>
-		<title>Stream Number 50</title>
-		<updated>2019-09-20T00:00:00Z</updated>
-		<content>&lt;p&gt;Tonight was stream number 50 (quite a milestone), and we spent it working on Cake.Recipe.  Having a lot of fun doing the weekly streams, and starting to get into a flow of doing them!&lt;/p&gt;
-&lt;h2 id="recording"&gt;Recording&lt;/h2&gt;
-&lt;p&gt;You can find a recording of the stream here:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/FB-iCHmmdR4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-		<summary>&lt;p&gt;Tonight was stream number 50 (quite a milestone), and we spent it working on Cake.Recipe.  Having a lot of fun doing the weekly streams, and starting to get into a flow of doing them!&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-recipe-release-1.1.0" />
-		<id>http://www.gep13.co.uk/blog/cake-recipe-release-1.1.0</id>
-		<title>Cake.Recipe Release 1.0.0</title>
-		<updated>2019-09-07T00:00:00Z</updated>
-		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
-&lt;h3 id="feature"&gt;Feature&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/395"&gt;&lt;strong&gt;#395&lt;/strong&gt;&lt;/a&gt; Support ability to push to GitHub Package Repository using User/Password&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
-&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/c_KNxLcfE7Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-recipe-release-1.0.1" />
-		<id>http://www.gep13.co.uk/blog/cake-recipe-release-1.0.1</id>
-		<title>Cake.Recipe Release 1.0.1</title>
-		<updated>2019-09-03T00:00:00Z</updated>
-		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
-&lt;h3 id="bug"&gt;Bug&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/312"&gt;&lt;strong&gt;#312&lt;/strong&gt;&lt;/a&gt; NUnit testing library is detected as xUnit&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
-&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/UMxc7csvm4A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/mvp-renewal-2019" />
-		<id>http://www.gep13.co.uk/blog/mvp-renewal-2019</id>
-		<title>MVP Renewal 2019</title>
-		<updated>2019-07-02T00:00:00Z</updated>
-		<content>&lt;p&gt;I am very happy to announce that I have been renewed as a Microsoft MVP.&lt;/p&gt;
-&lt;!--excerpt--&gt;
-&lt;p&gt;Yesterday was sort of a weird day for me.  I had no expectations of being renewed as a Microsoft MVP, and I was very happy to receive the email from the MVP Global Administator to say that I was being renewed.&lt;/p&gt;
-&lt;p&gt;Watching Twitter throughout the day, and talking to some OSS colleagues who were also waiting to see if they were being renewed, the tension grew throughout the day.&lt;/p&gt;
-&lt;p&gt;At 13:39 I received the following email:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/07/02/mvp_renewal_2019.png" class="img-fluid" alt="MVP Renewal 2019" /&gt;&lt;/p&gt;
-&lt;p&gt;This will be my third year as a Microsoft MVP.  It was also this year that I was able to attend the MVP Summit in Redmond, and I am looking forward to attending this Summit again next year.&lt;/p&gt;
-&lt;p&gt;I just wanted to say congratulations to all the MVP's who were renewed this year, and to any MVP's who were no renewed &lt;strong&gt;thank you&lt;/strong&gt; for your contributions to the Community, they are very much appreciated!&lt;/p&gt;
-&lt;p&gt;I tweeted about this here:&lt;/p&gt;
-&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Very happy to say that I have just got a confirmation email to say that I have been renewed as a Microsoft MVP :-) &lt;a href="https://twitter.com/MVPAward?ref_src=twsrc%5Etfw"&gt;&amp;#64;MVPAward&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/MVPBuzz?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#MVPBuzz&lt;/a&gt; &lt;a href="https://t.co/3d2YXJMKzT"&gt;pic.twitter.com/3d2YXJMKzT&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gary Ewan Park (&amp;#64;gep13) &lt;a href="https://twitter.com/gep13/status/1145693764020817921?ref_src=twsrc%5Etfw"&gt;July 1, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-</content>
-		<summary>&lt;p&gt;I am very happy to announce that I have been renewed as a Microsoft MVP.&lt;/p&gt;</summary>
 	</entry>
 </feed>
