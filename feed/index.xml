@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2021</rights>
-	<updated>2021-01-23T21:13:46Z</updated>
+	<updated>2021-01-23T21:36:26Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vs-release-0.3.0" />
@@ -77,6 +77,13 @@
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0</id>
+		<title>Cake.VsCode.Recipe Release 0.2.0</title>
+		<updated>2020-09-08T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
+	<entry>
 		<link href="http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.0" />
 		<id>http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.0</id>
 		<title>ClipImg VsCode Extension Release 0.2.0</title>
@@ -87,13 +94,6 @@
 		<link href="http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.1" />
 		<id>http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.1</id>
 		<title>ClipImg VsCode Extension Release 0.2.1</title>
-		<updated>2020-09-08T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0" />
-		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0</id>
-		<title>Cake.VsCode.Recipe Release 0.2.0</title>
 		<updated>2020-09-08T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
@@ -119,31 +119,31 @@
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.2" />
-		<id>http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.2</id>
-		<title>Chocolatey Azure DevOps Extension Release 0.3.2</title>
-		<updated>2020-07-22T00:00:00Z</updated>
+		<link href="http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-2.1.0" />
+		<id>http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-2.1.0</id>
+		<title>Cake Azure DevOps Extension Release 2.1.0</title>
+		<updated>2020-08-13T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/chocolatey-swag-over-the-years" />
-		<id>http://www.gep13.co.uk/blog/chocolatey-swag-over-the-years</id>
-		<title>Chocolatey swag over the years</title>
-		<updated>2020-06-20T00:00:00Z</updated>
+		<link href="http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-2.0.1" />
+		<id>http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-2.0.1</id>
+		<title>Cake Azure DevOps Extension Release 2.0.1</title>
+		<updated>2020-08-12T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-recipe-release-1.1.2" />
-		<id>http://www.gep13.co.uk/blog/cake-recipe-release-1.1.2</id>
-		<title>Cake.Recipe Release 1.0.0</title>
-		<updated>2020-06-15T00:00:00Z</updated>
+		<link href="http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-1.0.0" />
+		<id>http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-1.0.0</id>
+		<title>Cake Azure DevOps Extension Release 1.0.0</title>
+		<updated>2020-08-10T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.0" />
-		<id>http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.0</id>
-		<title>Chocolatey Azure DevOps Extension Release 0.3.0</title>
-		<updated>2020-06-01T00:00:00Z</updated>
+		<link href="http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-2.0.0" />
+		<id>http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-2.0.0</id>
+		<title>Cake Azure DevOps Extension Release 2.0.0</title>
+		<updated>2020-08-10T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>

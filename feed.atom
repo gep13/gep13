@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2021</rights>
-	<updated>2021-01-23T21:13:31Z</updated>
+	<updated>2021-01-23T21:36:10Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vs-release-0.3.0" />
@@ -329,6 +329,26 @@
 		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0</id>
+		<title>Cake.VsCode.Recipe Release 0.2.0</title>
+		<updated>2020-09-08T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="bug"&gt;Bug&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/7"&gt;&lt;strong&gt;#7&lt;/strong&gt;&lt;/a&gt; One comma should be enough&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="improvement"&gt;Improvement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/3"&gt;&lt;strong&gt;#3&lt;/strong&gt;&lt;/a&gt; Add release notes to nuspec on tagged build&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/SERxyr2n--c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
 		<link href="http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.0" />
 		<id>http://www.gep13.co.uk/blog/clipimg-vscode-extension-release-0.2.0</id>
 		<title>ClipImg VsCode Extension Release 0.2.0</title>
@@ -359,26 +379,6 @@
 &lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
 &lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/DarxhU_HJMk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0" />
-		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0</id>
-		<title>Cake.VsCode.Recipe Release 0.2.0</title>
-		<updated>2020-09-08T00:00:00Z</updated>
-		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
-&lt;h3 id="bug"&gt;Bug&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/7"&gt;&lt;strong&gt;#7&lt;/strong&gt;&lt;/a&gt; One comma should be enough&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="improvement"&gt;Improvement&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/3"&gt;&lt;strong&gt;#3&lt;/strong&gt;&lt;/a&gt; Add release notes to nuspec on tagged build&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
-&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/SERxyr2n--c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
@@ -521,149 +521,71 @@
 		<summary>&lt;p&gt;This is something that I always forget how to do, until that day when I really need it, so I thought I would create a blog post and a short video to remind myself how to do it.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.2" />
-		<id>http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.2</id>
-		<title>Chocolatey Azure DevOps Extension Release 0.3.2</title>
-		<updated>2020-07-22T00:00:00Z</updated>
-		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
-&lt;h3 id="bug"&gt;Bug&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/chocolatey-community/chocolatey-azuredevops/issues/61"&gt;&lt;strong&gt;#61&lt;/strong&gt;&lt;/a&gt; Install Chocolatey Task fails&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
-&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/l6XvC5G2Rx8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/chocolatey-swag-over-the-years" />
-		<id>http://www.gep13.co.uk/blog/chocolatey-swag-over-the-years</id>
-		<title>Chocolatey swag over the years</title>
-		<updated>2020-06-20T00:00:00Z</updated>
-		<content>&lt;p&gt;I have been involved in the Chocolatey project in one way or another for a lot of years, and in that time, I have collected a lot of Chocolatey swag.&lt;/p&gt;
-&lt;p&gt;It wasn't until I was clearing out a few things, and looking at other collections of swag that I had, that I thought it would be a good idea to collect all of it into one place.&lt;/p&gt;
-&lt;p&gt;I might get the order of the creation of these wrong, or where they were given out, but I am hoping that &lt;a href="https://twitter.com/ferventcoder"&gt;Rob&lt;/a&gt; will be able to help out here to put them in the correct order, and also to provide more details.&lt;/p&gt;
-&lt;h2 id="t-shirts"&gt;T-Shirts&lt;/h2&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-choco-experience-small.png" class="img-fluid" alt="Chocolatey Experience" /&gt;&lt;/p&gt;
-&lt;p&gt;This was the first official Chocolatey t-shirt which was created as part of the Chocolatey Kickstarter.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-choco-experience-white-small.jpeg" class="img-fluid" alt="Chocolatey Experience - White" /&gt;&lt;/p&gt;
-&lt;p&gt;This t-shirt was also available in white (I chose to go for the black version).  A photo of the white version was provided by &lt;a href="https://twitter.com/punker76"&gt;Jan Karger&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-choco-auto-small.png" class="img-fluid" alt="Chocolatey Automation" /&gt;&lt;/p&gt;
-&lt;p&gt;Following on from the Kickstarter design, this became the default Chocolatey t-shirt for a long period of time.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-chocoio-small.png" class="img-fluid" alt="Chocolatey.io" /&gt;&lt;/p&gt;
-&lt;p&gt;This was a slight variation on the default t-shirt.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-chocoio-colour-small.png" class="img-fluid" alt="Chocolatey.io colour" /&gt;&lt;/p&gt;
-&lt;p&gt;I don't think many of these ones were made, but it is one of my favourites.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-chocofest-front-small.png" class="img-fluid" alt="Chocolatey Fest Front" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-chocofest-back-small.png" class="img-fluid" alt="Chocolatey Fest Back" /&gt;&lt;/p&gt;
-&lt;p&gt;This was the official t-shirt of the inaugural Chocolatey Conference, Chocolatey Fest, in 2018.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-polo-grey-small.png" class="img-fluid" alt="Grey Polo Shirt" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-polo-navy-small.png" class="img-fluid" alt="Navy Polo Shirt" /&gt;&lt;/p&gt;
-&lt;p&gt;These ones are polo-shirts, which are only available to Chocolatey Employees and Contractors.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-pshsummit-small.png" class="img-fluid" alt="PSH Summit" /&gt;&lt;/p&gt;
-&lt;p&gt;This was given out to attendees of PSH Summit in 2019.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-chefconf-small.png" class="img-fluid" alt="ChefConf" /&gt;&lt;/p&gt;
-&lt;p&gt;This t-shirt was given out to attendees at ChefConf in 2019, both here in the UK, and in the USA.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-ansiblefest-small.png" class="img-fluid" alt="AnsibleFest" /&gt;&lt;/p&gt;
-&lt;p&gt;This t-shirt was given out at the AnsibleFest conference in 2019.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-strawberry-front-small.png" class="img-fluid" alt="Chocolatey Strawberry Front" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-strawberry-back-small.png" class="img-fluid" alt="Chocolatey Strawberry Back" /&gt;&lt;/p&gt;
-&lt;p&gt;This was a limited edition run, featuring the &amp;quot;Config Management Strawberry Dipped in Chocolatey&amp;quot;, created by &lt;a href="https://twitter.com/adilio"&gt;Adil&lt;/a&gt;.  This was given out in very limited numbers to attendees of both AnsibleFest and Puppetize.  There aren't many of these in the wild, so definitely a collectors item if you have one!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-puppetize-small.png" class="img-fluid" alt="Puppetize" /&gt;&lt;/p&gt;
-&lt;p&gt;This was given out to attendees of Puppetize in 2019.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-arcreactor-blue-small.png" class="img-fluid" alt="Arc Reactor Blue" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-arcreactor-small.png" class="img-fluid" alt="Arc Reactor Grey" /&gt;&lt;/p&gt;
-&lt;p&gt;This is another &lt;a href="https://twitter.com/adilio"&gt;Adil&lt;/a&gt; design, and it is available in blue and grey, and it is inspired by the arc reactor from Iron Man.  I believe I am right in saying that the blue one is only available to Employees and Contractors for Chocolatey.&lt;/p&gt;
-&lt;h2 id="hoodies"&gt;Hoodies&lt;/h2&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/hoodie-small.png" class="img-fluid" alt="Hoodie" /&gt;&lt;/p&gt;
-&lt;p&gt;This was available to some Kickstarter backers, depending on what level you backed the project with.&lt;/p&gt;
-&lt;h2 id="jacket"&gt;Jacket&lt;/h2&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/jacket-small.png" class="img-fluid" alt="Jacket" /&gt;&lt;/p&gt;
-&lt;p&gt;Inspired by the Microsoft MVP Jacket, there is an official Chocolatey Jacket available to Chocolatey Employees and Contractors.  This is an amazing quality jacket!&lt;/p&gt;
-&lt;h2 id="hat"&gt;Hat&lt;/h2&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/hat-small.png" class="img-fluid" alt="Hat Back" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/hat1-small.png" class="img-fluid" alt="Hat Front Right" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/hat2-small.png" class="img-fluid" alt="Hat Front Left" /&gt;&lt;/p&gt;
-&lt;p&gt;This was created by my colleague &lt;a href="https://twitter.com/steviecoaster"&gt;Stevie&lt;/a&gt;, and I absolutely love it!  These were made in a very small quantity, and you should count yourself very lucky if you have one.  This is my go to hat!&lt;/p&gt;
-&lt;h2 id="chocolate"&gt;Chocolate&lt;/h2&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/chocolate-small.png" class="img-fluid" alt="Chocolate" /&gt;&lt;/p&gt;
-&lt;p&gt;Oh yes, in addition to creating a Package Manager for Windows, we have also created some Chocolate.  This was given out to attendees at Chocolatey Fest in 2018.&lt;/p&gt;
-&lt;h2 id="stickers"&gt;Stickers&lt;/h2&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker-small.png" class="img-fluid" alt="Chocolatey Sticker" /&gt;&lt;/p&gt;
-&lt;p&gt;We have literally given out 1000's of these at various conferences over the years!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker3-small.png" class="img-fluid" alt="Chocolatey Fest" /&gt;&lt;/p&gt;
-&lt;p&gt;This sticker was given out to all attendees at Chocolatey inaugural conference Chocolatey Fest, in 2018.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker2-small.png" class="img-fluid" alt="Chocolatey Golden Ticket" /&gt;&lt;/p&gt;
-&lt;p&gt;In keeping with the Willy Wonka theme of Chocolatey Fest, the Chocolatey Golden Ticket sticker was created.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker1-small.png" class="img-fluid" alt="Chocolatey Strawberry" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker5-small.png" class="img-fluid" alt="Chocolatey Strawberry Large" /&gt;&lt;/p&gt;
-&lt;p&gt;This is a reasonably new design created by my colleague &lt;a href="https://twitter.com/adilio"&gt;Adil&lt;/a&gt;.  It can be found in a couple different sizes.&lt;/p&gt;
-&lt;h2 id="sponsorship-swag"&gt;Sponsorship Swag&lt;/h2&gt;
-&lt;h3 id="lanyards"&gt;Lanyards&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/lanyard1-small.png" class="img-fluid" alt="WinOps Lanyard" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/lanyard-small.png" class="img-fluid" alt="WinOps Lanyard" /&gt;&lt;/p&gt;
-&lt;p&gt;As a sponsor of the WinOps events, Chocolatey has appeared on their lanyards at least a couple of times.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/lanyard2-small.png" class="img-fluid" alt="Chocolatey Fest Lanyard" /&gt;&lt;/p&gt;
-&lt;p&gt;If you attended Chocolatey Fest, you may well have kept a hold of yours as well!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/lanyard3.jpeg" class="img-fluid" alt="KCDC 2018" /&gt;&lt;/p&gt;
-&lt;p&gt;Attendees of KCDC in 2018 were lucky enough to get one of these!&lt;/p&gt;
-&lt;h3 id="bags"&gt;Bags&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sponsorswag-small.png" class="img-fluid" alt="WinOps Bag" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sponsorswag4-small.png" class="img-fluid" alt="WinOps Bag" /&gt;&lt;/p&gt;
-&lt;p&gt;The Chocolatey logo has appeared on a number of WinOps bag which are given out to all attendees.&lt;/p&gt;
-&lt;h3 id="t-shirts-1"&gt;T-Shirts&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sponsorswag3-small.png" class="img-fluid" alt="PowerShell Summit" /&gt;&lt;/p&gt;
-&lt;p&gt;If you attended the PowerShell Summit in 2018, you will find the Chocolatey Logo on the back!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sponsorswag6-small.png" class="img-fluid" alt="WinOps" /&gt;&lt;/p&gt;
-&lt;p&gt;The Chocolatey Logo appears on pretty much all the WinOps t-shirts!&lt;/p&gt;
-&lt;h2 id="unofficial-but-still-awesome"&gt;Unofficial - but still awesome&lt;/h2&gt;
-&lt;h3 id="t-shirts-2"&gt;T-Shirts&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-unofficial-small.png" class="img-fluid" alt="Chocolatey and Boxstarter" /&gt;&lt;/p&gt;
-&lt;p&gt;Created by &lt;a href="https://twitter.com/schusterfredl"&gt;Manfred Wallner&lt;/a&gt; (a Chocolatey Community Member), this is a t-shirt showing the combination of Chocolatey and Boxstarter, which was the topic of his talk at the WinOps Conference.&lt;/p&gt;
-&lt;h3 id="stickers-1"&gt;Stickers&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker-unofficial-boxstarter-small.png" class="img-fluid" alt="Chocolatey Boxstarter" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://twitter.com/schusterfredl"&gt;Manfred&lt;/a&gt; also took the time to create a sticker version of the t-shirt design that he created.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker4-small.png" class="img-fluid" alt="Rob The Founder" /&gt;&lt;/p&gt;
-&lt;p&gt;This was created by &lt;a href="https://twitter.com/steviecoaster"&gt;Stevie&lt;/a&gt; and &lt;a href="https://twitter.com/adilio"&gt;Adil&lt;/a&gt; for the Founder of Chocolatey, &lt;a href="https://twitter.com/ferventcoder"&gt;Rob Reynolds&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;If you have made it this far, thanks for reading.  If you are aware of any other Chocolatey Swag, please let me know, I would love to hear about it!&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;I have been involved in the Chocolatey project in one way or another for a lot of years, and in that time, I have collected a lot of Chocolatey swag.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-recipe-release-1.1.2" />
-		<id>http://www.gep13.co.uk/blog/cake-recipe-release-1.1.2</id>
-		<title>Cake.Recipe Release 1.0.0</title>
-		<updated>2020-06-15T00:00:00Z</updated>
-		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
-&lt;h3 id="bug"&gt;Bug&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/528"&gt;&lt;strong&gt;#528&lt;/strong&gt;&lt;/a&gt; Messages sent twice to Gitter while using integration tests&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
-&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/aqRV5ks7pvE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.0" />
-		<id>http://www.gep13.co.uk/blog/chocolatey-azure-devops-extension-release-0.3.0</id>
-		<title>Chocolatey Azure DevOps Extension Release 0.3.0</title>
-		<updated>2020-06-01T00:00:00Z</updated>
+		<link href="http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-2.1.0" />
+		<id>http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-2.1.0</id>
+		<title>Cake Azure DevOps Extension Release 2.1.0</title>
+		<updated>2020-08-13T00:00:00Z</updated>
 		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
 &lt;h3 id="feature"&gt;Feature&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/chocolatey-community/chocolatey-azuredevops/issues/13"&gt;&lt;strong&gt;#13&lt;/strong&gt;&lt;/a&gt; Create a Task to install/upgrade Chocolatey itself&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="improvement"&gt;Improvement&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/chocolatey-community/chocolatey-azuredevops/pull/46"&gt;&lt;strong&gt;#46&lt;/strong&gt;&lt;/a&gt; Move array from ArrayList to a generic in chocolatey.ps1&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vso/issues/46"&gt;&lt;strong&gt;#46&lt;/strong&gt;&lt;/a&gt; Support for &amp;quot;Queue with Diagnostics&amp;quot;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
 &lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/EnxYBz7MbLs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Ki-SZ3d_kzw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-2.0.1" />
+		<id>http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-2.0.1</id>
+		<title>Cake Azure DevOps Extension Release 2.0.1</title>
+		<updated>2020-08-12T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="bug"&gt;Bug&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vso/issues/68"&gt;&lt;strong&gt;#68&lt;/strong&gt;&lt;/a&gt; Don't include VstsTaskSdk in vsix&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/x2oKA_-6PEE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-1.0.0" />
+		<id>http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-1.0.0</id>
+		<title>Cake Azure DevOps Extension Release 1.0.0</title>
+		<updated>2020-08-10T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="improvements"&gt;Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vso/issues/63"&gt;&lt;strong&gt;#63&lt;/strong&gt;&lt;/a&gt; Release major version of the extension&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vso/issues/58"&gt;&lt;strong&gt;#58&lt;/strong&gt;&lt;/a&gt; Use Token for GRM, rather than username/password&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Qfq2Ug5xUrw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-2.0.0" />
+		<id>http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-2.0.0</id>
+		<title>Cake Azure DevOps Extension Release 2.0.0</title>
+		<updated>2020-08-10T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="breaking-change"&gt;Breaking Change&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vso/issues/14"&gt;&lt;strong&gt;#14&lt;/strong&gt;&lt;/a&gt; Add support for non-Windows agents&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="features"&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vso/issues/43"&gt;&lt;strong&gt;#43&lt;/strong&gt;&lt;/a&gt; Supporting Cake 0.25's #module directives&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/umE-bZs9WHY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
