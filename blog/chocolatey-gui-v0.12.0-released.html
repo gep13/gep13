@@ -1,0 +1,271 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+        <title>Gary Ewan Park - Chocolatey GUI v0.12.0 released</title>
+        <meta name="description" content="Ramblings and Ponderings of a Microsoft Fan Boy..." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+
+        <link type="application/rss+xml" rel="alternate" title="Gary Ewan Park" href="/feed.rss" />
+                <link type="application/atom+xml" rel="alternate" title="Gary Ewan Park" href="/feed.atom" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/css/highlight.css" rel="stylesheet">
+        <link href="/assets/css/clean-blog.css" rel="stylesheet" />
+        <link href="/assets/css/master.css" rel="stylesheet" />
+        <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
+
+
+        <meta name="application-name" content="Gary Ewan Park" />
+        <meta name="msapplication-tooltip" content="Gary Ewan Park" />
+        <meta name="msapplication-starturl" content="/" />
+
+        <meta property="og:title" content="Gary Ewan Park - Chocolatey GUI v0.12.0 released" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.gep13.co.uk/blog/chocolatey-gui-v0.12.0-released" />
+        <!-- TODO: More social graph meta tags -->
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>     
+        <script src="/assets/js/highlight.pack.js"></script>   
+        <script src="/assets/js/clean-blog.js"></script>
+        <script src="/assets/js/d3.v3.min.js"></script>
+        <script src="/assets/js/trianglify.min.js"></script>
+        <script src="/assets/js/please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
+                
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+                <script src="/assets/js/html5shiv.js"></script>
+                <script src="/assets/js/respond.min.js"></script>
+        <![endif]-->
+        
+        
+
+
+        </head>
+        <body>
+                
+                <!-- Navigation -->
+                <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+                        <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header page-scroll">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="/">Gary Ewan Park</a>
+                                </div>
+                        
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="navbar-collapse">
+                                        <ul class="nav navbar-nav navbar-right">
+                                                <li><a href="/about">About</a></li>
+<li><a href="/projects">Projects</a></li>
+<li><a href="/talks">Talks</a></li>
+<li><a href="/blog">Archive</a></li>
+<li><a href="/contact">Contact</a></li>
+<li><a href="/tags">Tags</a></li> 
+                                        </ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container -->
+                </nav>
+                
+                <!-- Page Header -->
+                <header class="intro-header" id="intro-header">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-md-12">
+
+    
+<div class="post-heading">
+    <h1>Chocolatey GUI v0.12.0 released</h1>
+    <div class="meta">        
+Published on 28 February 2015<br>    </div>
+        <div class="tags">
+                    <a role="button" href="/tags/chocolateygui" class="btn btn-default btn-xs">chocolateygui</a>
+                    <a role="button" href="/tags/release" class="btn btn-default btn-xs">release</a>
+        </div>     
+</div>
+                                        </div>
+                                </div>
+                        </div>
+                </header>
+                
+                <!-- Main Content -->
+                <div class="container">
+                        <div class="row">
+                                <div id="content" class="col-md-12">
+                                        
+
+<h2 id="release-notes">Release Notes</h2>
+<p>This release is a complete re-architecture of ChocolateyGUI, switching from a Windows Forms Application to a WPF Application.  All credit goes to <a href="https://github.com/RichiCoder1">Richard Simpson</a> for the amazing amount of work put into this.  In addition, we have added a more stringent build process, making use of tools like FxCop, StyleCop, DupFinder and InspectCode, as well as Continuous Integration services like AppVeyor and TeamCity CodeBetter.</p>
+<h3 id="features">Features</h3>
+<ul>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/189"><strong>#189</strong></a> Administrator Issues</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/185"><strong>#185</strong></a> Right click context menu for packages should show &quot;Details&quot;</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/177"><strong>#177</strong></a> A feature under the menu strip to be able to refresh package lists.</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/163"><strong>#163</strong></a> Add EditorConfig File</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/125"><strong>#125</strong></a> [Feature] Add Raygun.io to application</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/122"><strong>#122</strong></a> Should be able to cancel Update All</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/121"><strong>#121</strong></a> Change &quot;Updating all packages.&quot;</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/118"><strong>#118</strong></a> Add Maintainers to Package View</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/114"><strong>#114</strong></a> [Suggestion] Provide context menu for common actions</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/113"><strong>#113</strong></a> [Suggestion] Ability to do update all</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/112"><strong>#112</strong></a> [Suggestion] Provide additional information in Local Grid</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/111"><strong>#111</strong></a> [Suggestion] Rename &quot;Local&quot; to &quot;This PC&quot;</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/110"><strong>#110</strong></a> [Suggestion] Change the way the application starts up</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/109"><strong>#109</strong></a> Fill out support for alernate package sources</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/106"><strong>#106</strong></a> Add a way to show all updates or maybe sort by last updated</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/101"><strong>#101</strong></a> Navigate back to Local Source List after uninstalling or updating a package.</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/96"><strong>#96</strong></a> Implement Package Service</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/94"><strong>#94</strong></a> Add Package View Page</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/92"><strong>#92</strong></a> ChocolateyGUI should show license information for packages</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/91"><strong>#91</strong></a> Update Readme with information about contributing</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/90"><strong>#90</strong></a> Update Wix package to include output from WPF Project</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/81"><strong>#81</strong></a> Update information in Help | About Page</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/40"><strong>#40</strong></a> .Net Framework 4.0 Dependency</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/32"><strong>#32</strong></a> chocolatey allows you to do a force update</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/9"><strong>#9</strong></a> Add better search via the odata feed</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/8"><strong>#8</strong></a> Add paging to the available packages list</li>
+</ul>
+<h3 id="improvements">Improvements</h3>
+<ul>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/200"><strong>#200</strong></a> Correct Line Endings Configuration for repository</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/199"><strong>#199</strong></a> Add a title in the taskbar</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/196"><strong>#196</strong></a> Fix AppVeyor Build</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/195"><strong>#195</strong></a> Add AppVeyor notifications</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/pull/191"><strong>#191</strong></a> Checkbox replaced with tick/cross chars</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/180"><strong>#180</strong></a> Adding Build Caching in AppVeyor</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/172"><strong>#172</strong></a> Update the Build and Testing Process</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/168"><strong>#168</strong></a> Fix Code Analysis Issues</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/160"><strong>#160</strong></a> Setup ReSharper Duplicate Checker</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/159"><strong>#159</strong></a> Setup ReSharper Code Inspections</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/158"><strong>#158</strong></a> Setup Code Analysis</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/157"><strong>#157</strong></a> Setup StyleCop</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/152"><strong>#152</strong></a> Add Deployment Task to Chocolatey</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/151"><strong>#151</strong></a> Add Deployment Task to MyGet</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/149"><strong>#149</strong></a> Inspect AppVeyor Environment Variables to decide what action should be taken</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/148"><strong>#148</strong></a> Add Solution Folders for BuildScripts and appveyor.yml file</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/146"><strong>#146</strong></a> Only run GitVersion UpdateAssemblyInfo if on AppVeyor</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/144"><strong>#144</strong></a> Setup Build Caching in AppVeyor to speed up build</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/142"><strong>#142</strong></a> Add appveyor.yml to control build process</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/140"><strong>#140</strong></a> Add GitVersion to source code and execute from psake</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/135"><strong>#135</strong></a> Update MahApps.Metro version.</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/98"><strong>#98</strong></a> Implement Logging</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/89"><strong>#89</strong></a> Create MyGet Build Service for the wpf-refresh branch</li>
+</ul>
+<h3 id="bugs">Bugs</h3>
+<ul>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/204"><strong>#204</strong></a> Unable to add source</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/201"><strong>#201</strong></a> Uninstall script doesn't wait for the uninstaller to finish</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/198"><strong>#198</strong></a> Installation broken in latest release</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/193"><strong>#193</strong></a> Not all installed packages get listed</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/174"><strong>#174</strong></a> Fix Broken Markdown.cs</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/127"><strong>#127</strong></a> Potential issue with &quot;INSTALLED&quot; checkbox</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/126"><strong>#126</strong></a> Unable to run latest ChocolateyGUI package from MyGet</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/123"><strong>#123</strong></a> When not running ChocolateyGUI, each package update present UAC prompt</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/120"><strong>#120</strong></a> Index was outside the bounds of the array</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/117"><strong>#117</strong></a> [BUG] Packages appear twice in Local Tab</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/116"><strong>#116</strong></a> [BUG] Delete button can't always be seen</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/105"><strong>#105</strong></a> Details Page: Items not quite lined up</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/104"><strong>#104</strong></a> Problem with searching when on second page of results</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/100"><strong>#100</strong></a> Remove packages from Local package list when they're uninstalled</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/97"><strong>#97</strong></a> Fix cuninst of ChocolateyGUI</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/85"><strong>#85</strong></a> Unable to get packages and package information from behind proxy.</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/70"><strong>#70</strong></a> Problem adding new package source</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/67"><strong>#67</strong></a> Unhandled Exception</li>
+</ul>
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript" src="/assets/js/disqus.js"></script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+                                </div>
+                        </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Footer -->
+                <footer>
+                        <div class="container">
+        <div class="row">
+                <div class="col-md-12">
+                <ul class="list-inline text-center">
+                        <li>
+                        <a href="https://twitter.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="https://github.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                </ul>
+                <p class="copyright text-muted">
+                        Copyright © 2021 by Gary Ewan Park. The opinions expressed herein are my own and do not represent those of my employer or any other third-party views in any way. This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
+                        <br />
+                        <a href="/feed.rss"><i class="fa fa-rss"></i> RSS Feed</a> | <a href="/feed.atom"><i class="fa fa-rss"></i> Atom Feed</a>
+                        <br />
+                        <a href="https://github.com/gep13/gep13.github.io"><i class="fa fa-github"></i> This Site on GitHub</a> | <strong><a href="https://wyam.io">Generated by Wyam</a></strong>
+                </p>
+                </div>
+        </div>
+</div>
+                </footer> 
+
+                <script type="text/javascript" src="/assets/js/google.js"></script>
+<script type="text/javascript" src="/assets/js/anchor.min.js"></script>
+<script type="text/javascript" src="/assets/js/clipboard.min.js"></script>
+<script type="text/javascript" src="/assets/js/anchor.js"></script>
+
+                <script>hljs.initHighlightingOnLoad();</script>
+
+                        <script type="text/javascript">                
+                                // Header background                        
+                                var colors = Please.make_color({
+                                        colors_returned: 3,
+                                        saturation: .6
+                                });
+                                var t = new Trianglify({
+                                        x_gradient: colors,
+                                        y_gradient: ["#FFFFFF"]
+                                });
+                                var header = document.getElementById("intro-header");
+                                var pattern = t.generate(header.clientWidth, header.clientHeight);
+                                header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
+                        </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
+        </body>
+</html>
+

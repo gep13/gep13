@@ -1,0 +1,284 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+        <title>Gary Ewan Park - Chocolatey GUI v0.17.0 released</title>
+        <meta name="description" content="Ramblings and Ponderings of a Microsoft Fan Boy..." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+
+        <link type="application/rss+xml" rel="alternate" title="Gary Ewan Park" href="/feed.rss" />
+                <link type="application/atom+xml" rel="alternate" title="Gary Ewan Park" href="/feed.atom" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/css/highlight.css" rel="stylesheet">
+        <link href="/assets/css/clean-blog.css" rel="stylesheet" />
+        <link href="/assets/css/master.css" rel="stylesheet" />
+        <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
+
+
+        <meta name="application-name" content="Gary Ewan Park" />
+        <meta name="msapplication-tooltip" content="Gary Ewan Park" />
+        <meta name="msapplication-starturl" content="/" />
+
+        <meta property="og:title" content="Gary Ewan Park - Chocolatey GUI v0.17.0 released" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.gep13.co.uk/blog/chocolatey-gui-v0.17.0-released" />
+        <!-- TODO: More social graph meta tags -->
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>     
+        <script src="/assets/js/highlight.pack.js"></script>   
+        <script src="/assets/js/clean-blog.js"></script>
+        <script src="/assets/js/d3.v3.min.js"></script>
+        <script src="/assets/js/trianglify.min.js"></script>
+        <script src="/assets/js/please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
+                
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+                <script src="/assets/js/html5shiv.js"></script>
+                <script src="/assets/js/respond.min.js"></script>
+        <![endif]-->
+        
+        
+
+
+        </head>
+        <body>
+                
+                <!-- Navigation -->
+                <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+                        <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header page-scroll">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="/">Gary Ewan Park</a>
+                                </div>
+                        
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="navbar-collapse">
+                                        <ul class="nav navbar-nav navbar-right">
+                                                <li><a href="/about">About</a></li>
+<li><a href="/projects">Projects</a></li>
+<li><a href="/talks">Talks</a></li>
+<li><a href="/blog">Archive</a></li>
+<li><a href="/contact">Contact</a></li>
+<li><a href="/tags">Tags</a></li> 
+                                        </ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container -->
+                </nav>
+                
+                <!-- Page Header -->
+                <header class="intro-header" id="intro-header">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-md-12">
+
+    
+<div class="post-heading">
+    <h1>Chocolatey GUI v0.17.0 released</h1>
+    <div class="meta">        
+Published on 26 March 2020<br>    </div>
+        <div class="tags">
+                    <a role="button" href="/tags/chocolateygui" class="btn btn-default btn-xs">chocolateygui</a>
+                    <a role="button" href="/tags/release" class="btn btn-default btn-xs">release</a>
+        </div>     
+</div>
+                                        </div>
+                                </div>
+                        </div>
+                </header>
+                
+                <!-- Main Content -->
+                <div class="container">
+                        <div class="row">
+                                <div id="content" class="col-md-12">
+                                        
+
+<h2 id="release-notes">Release Notes</h2>
+<h3 id="features">Features</h3>
+<ul>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/710"><strong>#710</strong></a> Add ability to show/hide download count on remote source view</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/698"><strong>#698</strong></a> Create and publish additional NuGet packages for Chocolatey GUI</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/679"><strong>#679</strong></a> Provide integration with chocolateygui.extension</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/673"><strong>#673</strong></a> Create commands to allow purging of caches from CLI</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/671"><strong>#671</strong></a> Provide ability to purge Outdated Package cache file</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/629"><strong>#629</strong></a> Separate the app.manifest from the exe [Customer]</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/627"><strong>#627</strong></a> Provide ability to hide packages that are known to already be installed when viewing sources</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/624"><strong>#624</strong></a> Provide ability to refresh cached icons for packages when there are known changes to icon</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/603"><strong>#603</strong></a> Remove admin only sources/repos</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/592"><strong>#592</strong></a> Allow setting of Chocolatey GUI settings via Chocolatey package parameter</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/588"><strong>#588</strong></a> Search in all available repositories</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/569"><strong>#569</strong></a> Hide Download Counters</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/432"><strong>#432</strong></a> Limit non-admin list to self service only</li>
+</ul>
+<h3 id="c4b-features">C4B Features</h3>
+<ul>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/705"><strong>#705</strong></a> Add footer with information about current version in bottom left hand corner</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/704"><strong>#704</strong></a> Add ability to strong name sign the output of the build</li>
+</ul>
+<h3 id="bugs">Bugs</h3>
+<ul>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/716"><strong>#716</strong></a> PackageParameters are not working (when installing Chocolatey GUI via Chocolatey)</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/709"><strong>#709</strong></a> Context menu not displayed</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/686"><strong>#686</strong></a> Correctly handle incorrect license installation</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/676"><strong>#676</strong></a> Packages with pre-release versioning never found on list/search</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/674"><strong>#674</strong></a> Empty icon doesn't appear on local source view</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/661"><strong>#661</strong></a> IsPrerelease property is never set</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/656"><strong>#656</strong></a> nuspec - Remove the upper bound dependency on Chocolatey</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/653"><strong>#653</strong></a> Fix prerelease packages not being correctly labeled as &quot;outdated&quot;</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/652"><strong>#652</strong></a> Tile View - Nitpick inconsistent spacing</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/643"><strong>#643</strong></a> Fix NotSupportedException:'System.NotSupportedException: UriTypeConverter cannot convert from (null) when viewing Package Details</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/632"><strong>#632</strong></a> nuspec - Add .NET Framework 4.x Dependency [Customer]</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/620"><strong>#620</strong></a> Unable to update source after making a change to another source [Customer]</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/618"><strong>#618</strong></a> Tile selection for Remote Sources is not being used</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/610"><strong>#610</strong></a> Unable to install a package that uses 64bit PowerShell Modules</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/593"><strong>#593</strong></a> Fix locking of generated packages.config file when exporting package list</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/590"><strong>#590</strong></a> Next/Previous First/Last buttons remain disabled when using Simple.Server [Customer]</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/589"><strong>#589</strong></a> Chocolatey GUI icon is a blank image</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/585"><strong>#585</strong></a> GUI misses update that shows in CLI</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/584"><strong>#584</strong></a> Chocolatey GUI crashes when opening details page for Rufus package</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/578"><strong>#578</strong></a> Chocolatey GUI crashes when viewing Package Details</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/573"><strong>#573</strong></a> Package shows as installed in GUI when it did not actually install [Customer]</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/568"><strong>#568</strong></a> Chocolatey GUI crashes on startup if all sources are disabled.</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/563"><strong>#563</strong></a> Chocolatey GUI v0.16.0 uninstall errors (but uninstalls)</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/562"><strong>#562</strong></a> Fix links in Settings/About page that result in &quot;Page Not Found&quot; errors</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/558"><strong>#558</strong></a> Fix icon not showing up in gallery</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/550"><strong>#550</strong></a> Package source link for ChocolateyGUI 0.15.0 in nuspec is wrong</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/548"><strong>#548</strong></a> Context Menu Position issue in the package details.</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/525"><strong>#525</strong></a> On Load of any source, outdated is running (logging) every time</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/506"><strong>#506</strong></a> Fix issue where Latest Version is not showing</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/502"><strong>#502</strong></a> Disable &quot;Show Only Packages with Updates&quot; while information is still loaded</li>
+</ul>
+<h3 id="improvements">Improvements</h3>
+<ul>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/711"><strong>#711</strong></a> Prelease label should not be red as this suggests an error, which isn't the case</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/682"><strong>#682</strong></a> Move Windows specific code into another Common library</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/680"><strong>#680</strong></a> Remove tilting chocolatey logo</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/675"><strong>#675</strong></a> Split CLI functionality into separate exe</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/672"><strong>#672</strong></a> Allow &quot;safe&quot; Chocolatey operations to happen in parallel</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/670"><strong>#670</strong></a> Update to Chocolatey.Lib 0.10.15</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/668"><strong>#668</strong></a> Ensure all dialogs shown in Chocolatey GUI have localised text on buttons</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/665"><strong>#665</strong></a> Do not display password in source settings screen</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/651"><strong>#651</strong></a> Tile View - Prevent Version text overlap</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/633"><strong>#633</strong></a> Ensure that icons maintain their aspect ratio</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/pull/612"><strong>#612</strong></a> Improve UI for Feature and Settings lists</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/pull/608"><strong>#608</strong></a> Upgrade MahApps.Metro and MahApps.Metro.IconPacks</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/607"><strong>#607</strong></a> Remove multiple uses of SetCustomLogging</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/606"><strong>#606</strong></a> Don't allow navigation to settings or about screen while dialog is open</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/605"><strong>#605</strong></a> Improve the descriptions/explanations used for Chocolatey GUI settings</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/598"><strong>#598</strong></a> Provide separate settings and about views</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/574"><strong>#574</strong></a> Chocolatey GUI not found in the PATH</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/564"><strong>#564</strong></a> Chocolatey GUI pulls download stats only from the community feed</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/530"><strong>#530</strong></a> Move version on Package view to the left column</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/528"><strong>#528</strong></a> Improve UI by reducing flashing when modal appears</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/501"><strong>#501</strong></a> Package description should use all available client space</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/431"><strong>#431</strong></a> Add different background for outdated packages</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/430"><strong>#430</strong></a> Package details view is missing the 'Gallery' link</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/422"><strong>#422</strong></a> Current prerelease does not display any versioning information in the ABOUT screen</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/356"><strong>#356</strong></a> Fix rendering of headings in package description</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/270"><strong>#270</strong></a> Add option to show package id column</li>
+</ul>
+<h3 id="documentation">Documentation</h3>
+<ul>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/pull/729"><strong>#729</strong></a> Add Czech language map</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/issues/693"><strong>#693</strong></a> Fix typo in readme</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/pull/634"><strong>#634</strong></a> Added Chinese language map</li>
+<li><a href="https://github.com/chocolatey/ChocolateyGUI/pull/583"><strong>#583</strong></a> Fix typo in about page</li>
+</ul>
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript" src="/assets/js/disqus.js"></script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+                                </div>
+                        </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Footer -->
+                <footer>
+                        <div class="container">
+        <div class="row">
+                <div class="col-md-12">
+                <ul class="list-inline text-center">
+                        <li>
+                        <a href="https://twitter.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="https://github.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                </ul>
+                <p class="copyright text-muted">
+                        Copyright © 2021 by Gary Ewan Park. The opinions expressed herein are my own and do not represent those of my employer or any other third-party views in any way. This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
+                        <br />
+                        <a href="/feed.rss"><i class="fa fa-rss"></i> RSS Feed</a> | <a href="/feed.atom"><i class="fa fa-rss"></i> Atom Feed</a>
+                        <br />
+                        <a href="https://github.com/gep13/gep13.github.io"><i class="fa fa-github"></i> This Site on GitHub</a> | <strong><a href="https://wyam.io">Generated by Wyam</a></strong>
+                </p>
+                </div>
+        </div>
+</div>
+                </footer> 
+
+                <script type="text/javascript" src="/assets/js/google.js"></script>
+<script type="text/javascript" src="/assets/js/anchor.min.js"></script>
+<script type="text/javascript" src="/assets/js/clipboard.min.js"></script>
+<script type="text/javascript" src="/assets/js/anchor.js"></script>
+
+                <script>hljs.initHighlightingOnLoad();</script>
+
+                        <script type="text/javascript">                
+                                // Header background                        
+                                var colors = Please.make_color({
+                                        colors_returned: 3,
+                                        saturation: .6
+                                });
+                                var t = new Trianglify({
+                                        x_gradient: colors,
+                                        y_gradient: ["#FFFFFF"]
+                                });
+                                var header = document.getElementById("intro-header");
+                                var pattern = t.generate(header.clientWidth, header.clientHeight);
+                                header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
+                        </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
+        </body>
+</html>
+
