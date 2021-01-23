@@ -5,14 +5,49 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2021</copyright>
-		<pubDate>Sat, 23 Jan 2021 19:53:11 GMT</pubDate>
-		<lastBuildDate>Sat, 23 Jan 2021 19:53:11 GMT</lastBuildDate>
+		<pubDate>Sat, 23 Jan 2021 20:12:13 GMT</pubDate>
+		<lastBuildDate>Sat, 23 Jan 2021 20:12:13 GMT</lastBuildDate>
 		<item>
 			<title>Cake Visual Studio Extension Release 0.3.0</title>
 			<link>http://www.gep13.co.uk/blog/cake-vs-release-0.3.0</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/cake-vs-release-0.3.0</guid>
 			<pubDate>Mon, 21 Dec 2020 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Cake.VsCode.Recipe Release 0.4.0</title>
+			<link>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0</guid>
+			<pubDate>Tue, 01 Dec 2020 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Cake Visual Studio Code Extension Release 1.0.0</title>
+			<link>http://www.gep13.co.uk/blog/cake-vscode-release-1.0.0</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/cake-vscode-release-1.0.0</guid>
+			<pubDate>Tue, 01 Dec 2020 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Cake.VsCode.Recipe Release 0.3.0</title>
+			<link>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.3.0</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.3.0</guid>
+			<pubDate>Sun, 22 Nov 2020 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Cake.VsCode.Recipe Release 0.2.1</title>
+			<link>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.1</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.1</guid>
+			<pubDate>Mon, 16 Nov 2020 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Cake.VsCode.Recipe Release 0.2.0</title>
+			<link>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0</guid>
+			<pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate>
 		</item>
 		<item>
 			<title>Chocolatey in the Organisation Video Series</title>
@@ -64,6 +99,13 @@
 			<pubDate>Sun, 17 Feb 2019 00:00:00 GMT</pubDate>
 		</item>
 		<item>
+			<title>Cake.VsCode.Recipe Release 0.1.0</title>
+			<link>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.1.0</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.1.0</guid>
+			<pubDate>Sun, 17 Feb 2019 00:00:00 GMT</pubDate>
+		</item>
+		<item>
 			<title>2019 Speaking Tour</title>
 			<link>http://www.gep13.co.uk/blog/2019-speaking-tour</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
@@ -104,48 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/introducing-ci-cd-assets-repository-and-vscode-extension</guid>
 			<pubDate>Fri, 28 Dec 2018 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Using Cake GitHub Action</title>
-			<link>http://www.gep13.co.uk/blog/using-cake-github-action</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/using-cake-github-action</guid>
-			<pubDate>Sat, 15 Dec 2018 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Getting started with GitHub Actions</title>
-			<link>http://www.gep13.co.uk/blog/getting-started-with-github-actions</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/getting-started-with-github-actions</guid>
-			<pubDate>Fri, 14 Dec 2018 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Introducing the Cake.Wyam.Recipe Package</title>
-			<link>http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe</guid>
-			<pubDate>Thu, 06 Dec 2018 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Introducing the Chocolatey Azure DevOps Extension</title>
-			<link>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</guid>
-			<pubDate>Sun, 25 Nov 2018 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Introducing the Chocolatey VS Code Extension</title>
-			<link>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</guid>
-			<pubDate>Sun, 25 Nov 2018 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Stack Overflow Reputation History</title>
-			<link>http://www.gep13.co.uk/blog/stack-overflow-reputation-history</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/stack-overflow-reputation-history</guid>
-			<pubDate>Sun, 04 Nov 2018 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>

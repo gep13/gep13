@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2021</rights>
-	<updated>2021-01-23T19:52:56Z</updated>
+	<updated>2021-01-23T20:11:59Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vs-release-0.3.0" />
@@ -44,6 +44,125 @@
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/fG93MjnxHoo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;After working on it for a little bit during my Monday night streams, I am happy to announce that we have shipped the 0.3.0 release of the Cake Extension for Visual Studio.  This includes support for Visual Studio 2029.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0</id>
+		<title>Cake.VsCode.Recipe Release 0.4.0</title>
+		<updated>2020-12-01T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="breaking-change"&gt;Breaking change&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/15"&gt;&lt;strong&gt;#15&lt;/strong&gt;&lt;/a&gt; Switch to using GitHub Token for GitReleaseManager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="improvement"&gt;Improvement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/13"&gt;&lt;strong&gt;#13&lt;/strong&gt;&lt;/a&gt; Add parameter for Chocolatey package ID&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/FcJpyQKAfCk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-release-1.0.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-release-1.0.0</id>
+		<title>Cake Visual Studio Code Extension Release 1.0.0</title>
+		<updated>2020-12-01T00:00:00Z</updated>
+		<content>&lt;p&gt;The 1.0.0 release of the Cake Extension for Visual Studio Code has been a little while in the making, but I am excited to finally get it released.  There have been some amazing contributions to it from the community, so huge thanks for all the help!&lt;/p&gt;
+&lt;p&gt;## Release Notes&lt;/p&gt;
+&lt;h3 id="features"&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/99"&gt;&lt;strong&gt;#99&lt;/strong&gt;&lt;/a&gt; Add DocumentSymbolProvider for Cake Scripts to enable breadcrumb and outline functionality&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/81"&gt;&lt;strong&gt;#81&lt;/strong&gt;&lt;/a&gt; Add descriptions and enum values to vscode cake settings on package.json&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/32"&gt;&lt;strong&gt;#32&lt;/strong&gt;&lt;/a&gt; Add ProblemMatcher to new TaskProvider&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="bugs"&gt;Bugs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/354"&gt;&lt;strong&gt;#354&lt;/strong&gt;&lt;/a&gt; &amp;quot;debug task&amp;quot; codelens doesn't work&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/308"&gt;&lt;strong&gt;#308&lt;/strong&gt;&lt;/a&gt; Cannot read property 'Tools' of undefined while trying to debug&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/105"&gt;&lt;strong&gt;#105&lt;/strong&gt;&lt;/a&gt; Clicking &amp;quot;run task&amp;quot; should also save the file if needed&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/93"&gt;&lt;strong&gt;#93&lt;/strong&gt;&lt;/a&gt; Adding a tool/addin from the commandlet reformats the cake file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="improvements"&gt;Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/461"&gt;&lt;strong&gt;#461&lt;/strong&gt;&lt;/a&gt; cake.taskRunner.launchCommand still defaults to using a bootstrapper&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/460"&gt;&lt;strong&gt;#460&lt;/strong&gt;&lt;/a&gt; When installing .Net Global Tool check if newer version exists and prompt for installation&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/pull/472"&gt;&lt;strong&gt;#456&lt;/strong&gt;&lt;/a&gt; Bump adm-zip from 0.5.0 to 0.5.1&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/pull/454"&gt;&lt;strong&gt;#454&lt;/strong&gt;&lt;/a&gt; Bump typescript from 4.0.5 to 4.1.2&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/438"&gt;&lt;strong&gt;#438&lt;/strong&gt;&lt;/a&gt; &amp;quot;Run Task&amp;quot; shows potentially confusing options, when multiple cake files are present&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/432"&gt;&lt;strong&gt;#432&lt;/strong&gt;&lt;/a&gt; Ability to download bootstrappers for all supported runners&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/429"&gt;&lt;strong&gt;#429&lt;/strong&gt;&lt;/a&gt; 'Add [tool|addin] from nuget' should save the Cake script if it's already open.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/pull/420"&gt;&lt;strong&gt;#420&lt;/strong&gt;&lt;/a&gt; Bump xml2js from 0.4.19 to 0.4.23&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/409"&gt;&lt;strong&gt;#409&lt;/strong&gt;&lt;/a&gt; Does not support Bootstrapping for .NET Core Tool out of box&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/376"&gt;&lt;strong&gt;#376&lt;/strong&gt;&lt;/a&gt; Debug should use Cake.Tool instead of Cake.CoreCLR&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/pull/339"&gt;&lt;strong&gt;#339&lt;/strong&gt;&lt;/a&gt; Bump request from 2.88.0 to 2.88.2&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/issues/143"&gt;&lt;strong&gt;#143&lt;/strong&gt;&lt;/a&gt; Allow for files other then build.ps1/build.sh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="security"&gt;Security&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/pull/401"&gt;&lt;strong&gt;#401&lt;/strong&gt;&lt;/a&gt; Bump node-fetch from 2.6.0 to 2.6.1&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/pull/392"&gt;&lt;strong&gt;#392&lt;/strong&gt;&lt;/a&gt; &lt;a href="#security"&gt;Security&lt;/a&gt; Bump lodash from 4.17.15 to 4.17.20&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vscode/pull/285"&gt;&lt;strong&gt;#285&lt;/strong&gt;&lt;/a&gt; &lt;a href="#security"&gt;Security&lt;/a&gt; Bump https-proxy-agent from 2.2.1 to 2.2.3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/7Ba-pAHzO9w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;The 1.0.0 release of the Cake Extension for Visual Studio Code has been a little while in the making, but I am excited to finally get it released.  There have been some amazing contributions to it from the community, so huge thanks for all the help!&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.3.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.3.0</id>
+		<title>Cake.VsCode.Recipe Release 0.3.0</title>
+		<updated>2020-11-22T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="improvement"&gt;Improvement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/9"&gt;&lt;strong&gt;#9&lt;/strong&gt;&lt;/a&gt; Update to latest Cake, addin and tool versions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/gs4YbLLuQUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.1" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.1</id>
+		<title>Cake.VsCode.Recipe Release 0.2.1</title>
+		<updated>2020-11-16T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="bug"&gt;Bug&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/2"&gt;&lt;strong&gt;#2&lt;/strong&gt;&lt;/a&gt; Don't attempt to create Choco Package when there is no nuspec file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/vWwO9lP5BG0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0</id>
+		<title>Cake.VsCode.Recipe Release 0.2.0</title>
+		<updated>2020-09-08T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="bug"&gt;Bug&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/7"&gt;&lt;strong&gt;#7&lt;/strong&gt;&lt;/a&gt; One comma should be enough&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="improvement"&gt;Improvement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/3"&gt;&lt;strong&gt;#3&lt;/strong&gt;&lt;/a&gt; Add release notes to nuspec on tagged build&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/SERxyr2n--c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/chocolatey-for-business-video-series" />
@@ -695,6 +814,22 @@ Build.Run();
 		<summary>&lt;p&gt;This post is about the newly released &lt;a href="https://www.nuget.org/packages/Cake.VsCode.Recipe/"&gt;Cake.VsCode.Recipe&lt;/a&gt; package.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.1.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.1.0</id>
+		<title>Cake.VsCode.Recipe Release 0.1.0</title>
+		<updated>2019-02-17T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="feature"&gt;Feature&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/1"&gt;&lt;strong&gt;#1&lt;/strong&gt;&lt;/a&gt; Generate nupkg with set of opinionated scripts for publishing VS Code Extension&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/1uNI67JgIZQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
 		<link href="http://www.gep13.co.uk/blog/2019-speaking-tour" />
 		<id>http://www.gep13.co.uk/blog/2019-speaking-tour</id>
 		<title>2019 Speaking Tour</title>
@@ -1197,535 +1332,5 @@ This is a work in progress repository, and isn't currently actively being used.&
 &lt;p&gt;&lt;a href="https://gitter.im/gep13-oss/community?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/gep13-oss/community.svg" class="img-fluid" alt="Join the chat at https://gitter.im/gep13-oss/community" /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;This is an announcement blog post for the &lt;a href="https://github.com/gep13/CI-CD-assets"&gt;repository&lt;/a&gt; and &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.ci-cd-assets-vscode"&gt;VS Code Extension&lt;/a&gt; that I created yesterday.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/using-cake-github-action" />
-		<id>http://www.gep13.co.uk/blog/using-cake-github-action</id>
-		<title>Using Cake GitHub Action</title>
-		<updated>2018-12-15T00:00:00Z</updated>
-		<content>&lt;p&gt;In &lt;a href="https://www.gep13.co.uk/blog/getting-started-with-github-actions"&gt;yesterdays blog post&lt;/a&gt; I described how I had been able to create a custom GitHub Action to execute a target from a  &lt;a href="https://cakebuild.net/"&gt;Cake&lt;/a&gt; script.  To follow up on that, I thought it would be good to show how you can actually make use of this custom action, to achieve something useful in terms of a GitHub Action.&lt;/p&gt;
-&lt;h2 id="what-are-we-going-to-do"&gt;What are we going to do?&lt;/h2&gt;
-&lt;p&gt;Almost exclusively on the Open Source projects that I work on, I use GitHub Milestones to collect the Issues/Pull Requests that are going to be included in any given release.  Once everything is ready, I release the &amp;quot;bits&amp;quot; of the project, and then I close the Milestone.  Wouldn't it be good if the act of closing a Milestone were to trigger a notification to Twitter, to let people know that the release is ready.  I think so...&lt;/p&gt;
-&lt;h2 id="milestone-event"&gt;Milestone event&lt;/h2&gt;
-&lt;p&gt;Of the &lt;a href="https://developer.github.com/actions/creating-workflows/workflow-configuration-options/#events-supported-in-workflow-files"&gt;28 events&lt;/a&gt; that can trigger the workflow of a GitHub Action, one of them is the &lt;a href="https://developer.github.com/v3/activity/events/types/#milestoneevent"&gt;milestone event&lt;/a&gt;, which will trigger:&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;Any time a milestone is created, closed, opened, edited, or deleted.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Now, we only want the Tweet to be sent out when a milestone is closed, but based on the documentation, we should be able to inspect the event payload (which is a JSON file), to see more details about the event, specifically, the &lt;code&gt;action&lt;/code&gt; property, which will either be:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;created&lt;/li&gt;
-&lt;li&gt;closed&lt;/li&gt;
-&lt;li&gt;opened&lt;/li&gt;
-&lt;li&gt;edited&lt;/li&gt;
-&lt;li&gt;deleted&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="parsing-the-json-file"&gt;Parsing the JSON file&lt;/h2&gt;
-&lt;p&gt;When it comes to parsing JSON files in .NET, the obvious choice is to use &lt;a href="https://www.nuget.org/packages/Newtonsoft.Json/"&gt;Newtonsoft.Json&lt;/a&gt;.  And in terms of Cake, a community member, &lt;a href="https://github.com/redth"&gt;redth&lt;/a&gt; has already done the work of creating a Cake Addin (&lt;a href="https://www.nuget.org/packages/Cake.Json/"&gt;Cake.Json&lt;/a&gt;) to make this incredibly simple.  Parsing a JSON file is as simple as:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;var json = ParseJsonFromFile(&amp;quot;&amp;lt;path to JSON file&amp;gt;&amp;quot;);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="sending-a-tweet"&gt;Sending a Tweet&lt;/h2&gt;
-&lt;p&gt;In the same way that parsing a JSON file in Cake is a one-liner, the same is true of sending a Tweet.  Using the &lt;a href="https://www.nuget.org/packages/Cake.Twitter/"&gt;Cake.Twitter&lt;/a&gt; addin, sending a tweet is as simple as:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;TwitterSendTweet(&amp;quot;oAuthConsumerKey&amp;quot;, &amp;quot;oAuthConsumerSecret&amp;quot;, &amp;quot;accessToken&amp;quot;, &amp;quot;accessTokenSecret&amp;quot;, &amp;quot;The text for the Tweet you want to send&amp;quot;);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;div class="alert alert-info"&gt;&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In order to get the above keys and tokens, you will need to create a developer account on Twitter.&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id="event-data"&gt;Event data&lt;/h2&gt;
-&lt;p&gt;Based on the &lt;a href="https://developer.github.com/actions/creating-github-actions/accessing-the-runtime-environment/#environment-variables"&gt;documentation&lt;/a&gt; GitHub Actions provides an environment variable which contains the path to a file, which has all the JSON payload of the event which triggered the workflow.  By inspecting this environment variable, and reading the contents of the file, we can figure out whether the event was a milestone being closed.&lt;/p&gt;
-&lt;h2 id="putting-it-all-together"&gt;Putting it all together...&lt;/h2&gt;
-&lt;p&gt;In the previous blog post, we left the workflow of our action triggering off a &lt;code&gt;push&lt;/code&gt; event, with a single environment variable and argument.  It was defined as follows:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-shell"&gt;workflow &amp;quot;New workflow&amp;quot; {
-  on = &amp;quot;push&amp;quot;
-  resolves = [&amp;quot;cake test&amp;quot;]
-}
-
-
-action &amp;quot;cake test&amp;quot; {
-    uses = &amp;quot;gep13/cake-actions/task&amp;#64;master&amp;quot;
-
-    env = {
-        CAKE_SCRIPT = &amp;quot;./build.cake&amp;quot;
-    }
-
-    args =[&amp;quot;Default&amp;quot;]
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To make our workflow trigger on a milestone event, we will need to change the &lt;code&gt;on&lt;/code&gt; parameter, and we will also need to add some &lt;a href="https://developer.github.com/actions/creating-workflows/storing-secrets/"&gt;secrets&lt;/a&gt; to the definition, which will store the Twitter Keys and Tokens, so that we can actually send the Tweet.  After updating, the workflow then looks like the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-shell"&gt;workflow &amp;quot;New workflow&amp;quot; {
-  resolves = [&amp;quot;cake test&amp;quot;]
-  on = &amp;quot;milestone&amp;quot;
-}
-
-action &amp;quot;cake test&amp;quot; {
-  uses = &amp;quot;gep13/cake-actions/task&amp;#64;master&amp;quot;
-  env = {
-    CAKE_SCRIPT = &amp;quot;./build.cake&amp;quot;
-  }
-  args = [&amp;quot;Default&amp;quot;]
-  secrets = [&amp;quot;TWITTER_CONSUMER_KEY&amp;quot;, &amp;quot;TWITTER_CONSUMER_SECRET&amp;quot;, &amp;quot;TWITTER_ACCESS_TOKEN&amp;quot;, &amp;quot;TWITTER_ACCESS_TOKEN_SECRET&amp;quot;]
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Which &amp;quot;looks&amp;quot; like the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/15/workflow-with-secrets.png" class="img-fluid" alt="Workflow with secrets" /&gt;&lt;/p&gt;
-&lt;h2 id="the-cake-script"&gt;The Cake Script&lt;/h2&gt;
-&lt;p&gt;With the workflow defined, now we can turn our attention to the Cake Script itself.  This will need to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Add the Cake.Json and Cake.Twitter addins&lt;/li&gt;
-&lt;li&gt;Grab the required environment variables&lt;/li&gt;
-&lt;li&gt;Parse the event JSON file&lt;/li&gt;
-&lt;li&gt;Inspect the action variable to see if the milestone is closed&lt;/li&gt;
-&lt;li&gt;Send the tweet if required&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The end result (which likely needs some additional error checking, but which works for what is trying to be shown here) looks like the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;#addin &amp;quot;nuget:https://www.nuget.org/api/v2?package=Cake.Twitter&amp;amp;version=0.9.0&amp;quot;
-#addin &amp;quot;nuget:https://www.nuget.org/api/v2?package=Cake.Json&amp;amp;version=3.0.1&amp;quot;
-
-var target = Argument(&amp;quot;target&amp;quot;, &amp;quot;Default&amp;quot;);
-
-Task(&amp;quot;Default&amp;quot;)
-  .Does(() =&amp;gt;
-{
-  var oAuthConsumerKey        = EnvironmentVariable(&amp;quot;TWITTER_CONSUMER_KEY&amp;quot;);
-  var oAuthConsumerSecret     = EnvironmentVariable(&amp;quot;TWITTER_CONSUMER_SECRET&amp;quot;);
-  var accessToken             = EnvironmentVariable(&amp;quot;TWITTER_ACCESS_TOKEN&amp;quot;);
-  var accessTokenSecret       = EnvironmentVariable(&amp;quot;TWITTER_ACCESS_TOKEN_SECRET&amp;quot;);
-  var githubEventPath         = EnvironmentVariable(&amp;quot;GITHUB_EVENT_PATH&amp;quot;);
-
-  if(string.IsNullOrEmpty(githubEventPath))
-  {
-    throw new Exception(&amp;quot;Unable to find GitHub Event Path&amp;quot;);
-  }
-
-  try
-  {
-    var json = ParseJsonFromFile(githubEventPath);
-
-    Information(json);
-
-    JToken value;
-    if (json.TryGetValue(&amp;quot;action&amp;quot;, out value))
-    {
-      Information(value);
-
-      if(value.ToString() == &amp;quot;closed&amp;quot;)
-      {
-        TwitterSendTweet(oAuthConsumerKey, oAuthConsumerSecret, accessToken, accessTokenSecret, &amp;quot;This tweet was sent as a result of a milestone being closed on a repository, thanks to &amp;#64;gitHub Actions.  Blog post to follow later...&amp;quot;);
-
-        Information(&amp;quot;Tweet sent&amp;quot;);
-      }
-      else
-      {
-        Information(&amp;quot;No tweet sent, as milestone wasn't closed&amp;quot;);
-      }
-    }
-  }
-  catch(Exception ex)
-  {
-      Error(&amp;quot;{0}&amp;quot;, ex);
-  }
-});
-
-RunTarget(target);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="lets-run-it"&gt;Let's run it...&lt;/h2&gt;
-&lt;p&gt;With all of the above checked into my test repository, I went ahead and created a new milestone.  Looking at the logs, I saw the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/15/milestone-created-event-payload.png" class="img-fluid" alt="Milestone created event payload" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/15/milestone-created-no-tweet.png" class="img-fluid" alt="Milestone created no tweet" /&gt;&lt;/p&gt;
-&lt;p&gt;I then went ahead and closed the milestone.  Checking the logs, I then saw the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/15/milestone-closed-event-payload.png" class="img-fluid" alt="Milestone closed event payload" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/15/milestone-closed-tweet-sent.png" class="img-fluid" alt="Milestone closed tweet sent" /&gt;&lt;/p&gt;
-&lt;p&gt;Too good to be true...&lt;/p&gt;
-&lt;p&gt;Checking Twitter, I then saw the following:&lt;/p&gt;
-&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;This tweet was sent as a result of a milestone being closed on a repository, thanks to &lt;a href="https://twitter.com/github?ref_src=twsrc%5Etfw"&gt;&amp;#64;gitHub&lt;/a&gt; Actions.  Blog post to follow later...&lt;/p&gt;&amp;mdash; Gary Ewan Park (&amp;#64;gep13) &lt;a href="https://twitter.com/gep13/status/1073905256164077568?ref_src=twsrc%5Etfw"&gt;December 15, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;I honestly didn't think that this would &amp;quot;just&amp;quot; work the first time, but it did!  I am really starting to like this system, and the integration of Cake means that I have access to a huge library of addins for doing a huge number of things.&lt;/p&gt;
-&lt;h2 id="doing-more-stuff"&gt;Doing more stuff&lt;/h2&gt;
-&lt;p&gt;This is just one example of what you can do as the result of an event coming from your repository.  At last count, there are &lt;a href="https://github.com/cake-contrib/Home/blob/master/Audit_for_Cake_0.28.0.md"&gt;240 different addins for Cake&lt;/a&gt; that means that there are lots of &amp;quot;things&amp;quot; that you can do based on these events being triggered.  When it comes to sending out notifications, there are addins for sending messages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;to Discord&lt;/li&gt;
-&lt;li&gt;to Slack&lt;/li&gt;
-&lt;li&gt;to Gitter&lt;/li&gt;
-&lt;li&gt;via email&lt;/li&gt;
-&lt;li&gt;via SendGrid&lt;/li&gt;
-&lt;li&gt;the list goes on&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I would encourage you to take a look at the list of addins, and have a think about the actions that you can add to your repository.&lt;/p&gt;
-&lt;h2 id="after-thoughts"&gt;After thoughts&lt;/h2&gt;
-&lt;p&gt;After doing the above, I found the &lt;a href="https://github.com/actions/bin/tree/master/filter"&gt;following&lt;/a&gt; which I &amp;quot;think&amp;quot; I would be able to use to filter the milestone event to only trigger on closed events, but I haven't yet tested to see if this would be possible.  Part of me quite likes containing all the logic in the Cake script, but I guess there is a higher overhead to pay to use the Docker container for Cake if it isn't actually required.  Something to look into for future tests.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;In &lt;a href="https://www.gep13.co.uk/blog/getting-started-with-github-actions"&gt;yesterdays blog post&lt;/a&gt; I described how I had been able to create a custom GitHub Action to execute a target from a  &lt;a href="https://cakebuild.net/"&gt;Cake&lt;/a&gt; script.  To follow up on that, I thought it would be good to show how you can actually make use of this custom action, to achieve something useful in terms of a GitHub Action.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/getting-started-with-github-actions" />
-		<id>http://www.gep13.co.uk/blog/getting-started-with-github-actions</id>
-		<title>Getting started with GitHub Actions</title>
-		<updated>2018-12-14T00:00:00Z</updated>
-		<content>&lt;p&gt;On Wednesday evening, I got a very pleasant email from GitHub, telling me that I had been given access to the GitHub Actions Beta.  This is something that I have been looking forward to for a while now, ever since I signed up for it.  I am a big user of Continuous Integration Systems for building the various Open Source projects that I work on, but I really like the idea of doing smaller, precise actions, as a result of other &amp;quot;things&amp;quot; happening on a repository.&lt;/p&gt;
-&lt;p&gt;I was even more impatient to get started with the Beta when I saw &lt;a href="https://twitter.com/devblackops"&gt;Brandon Olin&lt;/a&gt; tweet this:&lt;/p&gt;
-&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Getting my feet wet with GitHub Actions and having some fun with psake.&lt;br&gt;&lt;br&gt;Check out my generic psake task runner here: &lt;a href="https://t.co/lNvKwmDasE"&gt;https://t.co/lNvKwmDasE&lt;/a&gt;&lt;br&gt;&lt;br&gt;Still WIP but making progress. &lt;a href="https://t.co/8tPnxxWmtR"&gt;pic.twitter.com/8tPnxxWmtR&lt;/a&gt;&lt;/p&gt;&amp;mdash; Brandon Olin (&amp;#64;devblackops) &lt;a href="https://twitter.com/devblackops/status/1072036355855671297?ref_src=twsrc%5Etfw"&gt;December 10, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;As I wanted to do the same thing for &lt;a href="https://cakebuild.net/"&gt;Cake&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="alert alert-info"&gt;&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I have to give a huge thanks to Brandon for the work that he did in creating the psake GitHub Action, as I was able to use this as the starting point for Cake GitHub Action.&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id="getting-started"&gt;Getting Started&lt;/h2&gt;
-&lt;p&gt;There is some fairly comprehensive documentation on getting started with GitHub Actions on &lt;a href="https://developer.github.com/actions"&gt;the site&lt;/a&gt;, so I am not going to repeat that here, but rather focus on what was necessary to specifically get a Cake script executing as a result of a GitHub Action.&lt;/p&gt;
-&lt;div class="alert alert-info"&gt;&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In addition to the above documentation site, you can also find the source code for the out of the box actions on &lt;a href="https://github.com/actions"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id="docker-ftw"&gt;Docker FTW!&lt;/h2&gt;
-&lt;p&gt;The starting point for any new GitHub Action is a Dockerfile.  This is what is going to be used to actually execute the action.  In the case of the psake GitHub Action, it uses &lt;a href="https://hub.docker.com/r/microsoft/powershell/"&gt;Microsoft's PowerShell Docker Image&lt;/a&gt; as it already has PowerShell installed, so all that is left is to install and execute psake.  In the case of Cake, there is already an image on the Docker Hub that has &lt;a href="https://hub.docker.com/r/cakebuild/cake"&gt;Cake&lt;/a&gt; installed, and ready to be used.  As a result the &lt;a href="https://github.com/gep13/cake-actions/blob/master/task/Dockerfile"&gt;Dockerfile&lt;/a&gt; for the Cake GitHub Action is relatively straight forward:&lt;/p&gt;
-&lt;div class="alert alert-info"&gt;&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following is likely to change.  What is shown here is from the initial proof of concept action, just to see how things work&lt;/p&gt;
-&lt;/div&gt;
-&lt;pre&gt;&lt;code class="language-shell"&gt;FROM cakebuild/cake:v0.30.0-2.1-sdk as base
-
-FROM base as cake-build
-LABEL &amp;quot;com.github.actions.name&amp;quot;         = &amp;quot;Cake task&amp;quot;
-LABEL &amp;quot;com.github.actions.description&amp;quot;  = &amp;quot;Run Cake task&amp;quot;
-LABEL &amp;quot;com.github.actions.icon&amp;quot;         = &amp;quot;box&amp;quot;
-LABEL &amp;quot;com.github.actions.color&amp;quot;        = &amp;quot;yellow&amp;quot;
-
-LABEL &amp;quot;repository&amp;quot; = &amp;quot;https://github.com/gep13/cake-actions&amp;quot;
-LABEL &amp;quot;homepage&amp;quot;   = &amp;quot;https://github.com/cake-build/cake&amp;quot;
-LABEL &amp;quot;maintainer&amp;quot; = &amp;quot;Gary Ewan Park &amp;lt;gep13&amp;#64;gep13.co.uk&amp;gt;&amp;quot;
-
-ADD entrypoint.sh  /entrypoint.sh
-
-RUN chmod +x /entrypoint.sh
-
-ENTRYPOINT [&amp;quot;/entrypoint.sh&amp;quot;]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;All that is really being done here is specifying the base image to use, and then configuring the information about the image, and then adding the entry point for when the container is executed.&lt;/p&gt;
-&lt;h2 id="entry-point"&gt;Entry Point&lt;/h2&gt;
-&lt;p&gt;With the Dockerfile defined, I then moved onto the entry point script for when the container is executed.  This ended up looking like the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-shell"&gt;#!/bin/sh
-
-set -eu
-
-cake --version
-
-cake $CAKE_SCRIPT --target=$*
-
-exit $?
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now, this really needs some work in terms of error handling, etc, but again, just a proof of concept to show how things work.&lt;/p&gt;
-&lt;p&gt;Since Cake is already available on the Docker image, it can be invoked directly.  So the first thing that is being done in this shell script is to run &lt;code&gt;cake --version&lt;/code&gt; so that information about what version of Cake is being used is output to the log.  After that, cake is being executed against a named script (which will be read from an Environment Variable &lt;code&gt;CAKE_SCRIPT&lt;/code&gt;), and then a specific target (which will come from an argument specified in the workflow).&lt;/p&gt;
-&lt;p&gt;With both of those things created, the Cake GitHub Action is complete, and ready to be tested.  You can see the complete action &lt;a href="https://github.com/gep13/cake-actions/tree/master/task"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="creating-the-workflow"&gt;Creating the workflow&lt;/h2&gt;
-&lt;p&gt;During the beta, GitHub Actions are only available on private repositories, so I can't link to the example repository that I am using, but I will walk you through what I did.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Open the GitHub repository, and click on the new Actions tab.&lt;/li&gt;
-&lt;li&gt;Click the &lt;code&gt;Create a new workflow&lt;/code&gt; button.  This will create a file called &lt;code&gt;main.workflow&lt;/code&gt; in the &lt;code&gt;.github&lt;/code&gt; folder&lt;/li&gt;
-&lt;li&gt;Since we will be using a custom GitHub Action, switch away from the visual editor by clicking on &lt;code&gt;Edit new file&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Enter the following&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class="language-shell"&gt;workflow &amp;quot;New workflow&amp;quot; {
-  on = &amp;quot;push&amp;quot;
-  resolves = [&amp;quot;cake test&amp;quot;]
-}
-
-
-action &amp;quot;cake test&amp;quot; {
-    uses = &amp;quot;gep13/cake-actions/task&amp;#64;master&amp;quot;
-
-    env = {
-        CAKE_SCRIPT = &amp;quot;./build.cake&amp;quot;
-    }
-
-    args =[&amp;quot;Default&amp;quot;]
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;This defines a new &lt;code&gt;cake test&lt;/code&gt; action, which is triggered when a push happens on the repository&lt;/li&gt;
-&lt;li&gt;This action uses the custom action located at &lt;code&gt;gep13/cake-actions/task&amp;#64;master&lt;/code&gt; &lt;strong&gt;NOTE:&lt;/strong&gt; here master indicates that the contents of the current master branch should be used.  Once running properly, you are probably going to want to use a named tag, to pin to a specific version of the action, so that you know that is won't change over time.  For example, &lt;code&gt;gep13/cake-actions/task&amp;#64;0.1.0&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Then a new environment variable is defined called &lt;code&gt;CAKE_SCRIPT&lt;/code&gt; with a value of &lt;code&gt;./build.cake&lt;/code&gt;.  This correlates to a file called build.cake which needs to be located in the root of the repository where the action is being used&lt;/li&gt;
-&lt;li&gt;Finally, the arguments to pass into Cake are defined.  Here, we are setting this to Default.  When passed into Cake, this will be changed to &lt;code&gt;--target=Default&lt;/code&gt;  &lt;strong&gt;NOTE:&lt;/strong&gt; This part of the entrypoint.sh really needs some work, again, just a proof of concept&lt;/li&gt;
-&lt;li&gt;Save and commit the changes to the main.workflow&lt;/li&gt;
-&lt;li&gt;Now that these parts are in place, we need a build.cake file.  A simple one would be the following, which writes out Hello World! to the console output:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class="language-shell"&gt;var target = Argument(&amp;quot;target&amp;quot;, &amp;quot;Default&amp;quot;);
-
-Task(&amp;quot;Default&amp;quot;)
-  .Does(() =&amp;gt;
-{
-  Information(&amp;quot;Hello World!&amp;quot;);
-});
-
-RunTarget(target);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;Switch back to the Visual Editor, and you should see something that looks like the following:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/14/workflow-in-visual-editor.png" class="img-fluid" alt="Workflow in Visual Editor" /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Make another change to the repository, and push the changes.  This will then trigger the workflow, and as a result, execute the action&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/14/workflow-execution-start.png" class="img-fluid" alt="Workflow execution state" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/14/workflow-execution-end.png" class="img-fluid" alt="Workflow execution end" /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The action starts by downloading the Docker image that is required for it to execute the action, and then it executes the two Cake commands that are defined in the action.  i.e. &lt;code&gt;cake --version&lt;/code&gt; followed by &lt;code&gt;cake ./build.cake --target=Default&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;We can then see the &lt;code&gt;Hello World!&lt;/code&gt; being output within the Default task.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="chaining-actions"&gt;Chaining Actions&lt;/h2&gt;
-&lt;p&gt;As shown in Brandon's image above, it would be possible to chain multiple cake actions together to form the entire workflow, with each one executing a particular task within the Cake script.  However, it is more likely that I would put this orchestration into the Cake script itself.  However, both options are definitely possible, so the choice is up to the end user.&lt;/p&gt;
-&lt;h2 id="going-forward"&gt;Going forward&lt;/h2&gt;
-&lt;p&gt;As mentioned, some work is required to move this from a proof of concept to a hardened, re-usable, GitHub Action.  This will happen in due course, and the &lt;code&gt;cake-actions&lt;/code&gt; repository will likely move under the cake-build Organisation on GitHub.&lt;/p&gt;
-&lt;p&gt;I really like the idea of defining my &amp;quot;work&amp;quot; in a Cake script, and then being able to re-use them in various repositories, triggered off of a number of different triggers.  There are currently &lt;a href="https://developer.github.com/actions/creating-workflows/workflow-configuration-options/#events-supported-in-workflow-files"&gt;28 different events&lt;/a&gt; that your workflow can trigger off.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/14/workflow-triggers.png" class="img-fluid" alt="Workflow Event Triggers" /&gt;&lt;/p&gt;
-&lt;h2 id="overall-impression"&gt;Overall Impression&lt;/h2&gt;
-&lt;p&gt;Overall, I have to say that I am very impressed with GitHub Actions.  Things &amp;quot;just&amp;quot; worked, which is exactly what you want.  I can totally see how these small, precise actions, can be applied to the events being triggered on my repositories.  Right now, there are a number of manual steps for the Cake release process, and I can see a huge percentage of these being replaced with GitHub Actions.  I am very much looking forward to GitHub Actions coming out of beta.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;On Wednesday evening, I got a very pleasant email from GitHub, telling me that I had been given access to the GitHub Actions Beta.  This is something that I have been looking forward to for a while now, ever since I signed up for it.  I am a big user of Continuous Integration Systems for building the various Open Source projects that I work on, but I really like the idea of doing smaller, precise actions, as a result of other "things" happening on a repository.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe" />
-		<id>http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe</id>
-		<title>Introducing the Cake.Wyam.Recipe Package</title>
-		<updated>2018-12-06T00:00:00Z</updated>
-		<content>&lt;p&gt;This is another of those announcement blog posts that is a little on the &amp;quot;late&amp;quot; side.  This post is about the &lt;a href="https://www.nuget.org/packages/Cake.Wyam.Recipe/"&gt;Cake.Wyam.Recipe&lt;/a&gt; package, which was first released back in May 2017.  Now, in it's sixth release, I thought it was about time to tell people about it.  Better late than never...&lt;/p&gt;
-&lt;h2 id="what-is-it"&gt;What is it?&lt;/h2&gt;
-&lt;p&gt;Cake.Wyam.Recipe, whose source code can be found &lt;a href="https://github.com/cake-contrib/Cake.Wyam.Recipe"&gt;here&lt;/a&gt; is an opinionated set of scripts for &lt;a href="https://cakebuild.net/"&gt;Cake&lt;/a&gt;, specifically around the automation, and usage of &lt;a href="https://wyam.io/"&gt;Wyam&lt;/a&gt;.  As most of you will be aware, I am a maintainer of the Cake project, and I have been a long time user of Wyam (in fact, Wyam is used to generate this blog), so it should come as no real surprise to you that I wanted a way to reliably, and consistently, generate documentation via Wyam.&lt;/p&gt;
-&lt;h2 id="why-is-this-needed"&gt;Why is this needed?&lt;/h2&gt;
-&lt;p&gt;Across a number of projects that I work on, I found myself writing the same build steps over and over again for creating documentation for these projects.  This could be in the form of a blog where Wyam is being used to generate the content, or when documenting an API via the source code files for the project.  In each of these projects, I was writing almost EXACTLY the same code, but with simply a few changes here and there for project specific configuration.  After a few rounds of making a modification to one projects build scripts, only to have to duplicate that work in the other projects, I decided it was time to centralize these scripts into one location.  And that is where the Cake.Wyam.Recipe package comes in.&lt;/p&gt;
-&lt;h2 id="what-does-it-do"&gt;What does it do?&lt;/h2&gt;
-&lt;p&gt;In addition to wrapping the calls to Wyam to actually generate the documentation, Cake.Wyam.Recipe encompasses the complete process of publishing the documentation.  In my case, this is GitHub Pages (however, there would be nothing to stop it being extended to publish to something like Netlify, I simply haven't had the need).  The tasks that are executed by Cake.Wyam.Recipe are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Print-AppVeyor-Environment-Variables
-&lt;ul&gt;
-&lt;li&gt;Really a helper task.  When running on AppVeyor, it will print out all the Environment Variables used by AppVeyor.  These can be useful when debugging issues with the build process.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Clear-AppVeyor-Cache
-&lt;ul&gt;
-&lt;li&gt;Another helper method.  In order to speed up build times, AppVeyor allows heavy caching of files.  From time to time, it is helpful to bust this cache, again for the purposes of debugging.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Show-Info
-&lt;ul&gt;
-&lt;li&gt;Similar to Print-AppVeyor-Environment-Variables, this task prints out information about the current configuration of Cake.Wyam.Recipe itself&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Clean-Documentation
-&lt;ul&gt;
-&lt;li&gt;Tidies up the generated documentation folder, ready for re-building it&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Build-Documentation
-&lt;ul&gt;
-&lt;li&gt;Uses Wyam to build the documentation, based on the configuration that has been applied&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Publish-Documentation
-&lt;ul&gt;
-&lt;li&gt;Takes the generated documentation, and publishes it to GitHub Pages.  This will use KuduSync to verify that there are actually differences in the newly generated files, compared to what is already published, and will only publish if there are differences&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Purge-Cloudflare-Cache
-&lt;ul&gt;
-&lt;li&gt;I normally always use Cloudflare in front of my documentation sites, and after pushing out new documentation, it is sometimes necessary to purge the cache, so that this new documentation can be seen immediately&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Preview-Documentation
-&lt;ul&gt;
-&lt;li&gt;When running locally, Wyam has the ability to serve the content from a webserver, which can then be viewed.  In addition, when changes are made to the documentation, it will immediately re-build and show the changes.  This is very useful when iterating over a change&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;With all of these top level tasks taken care of, it is just a case of installing Cake.Wyam.Recipe into my build process for the project I am working on, and configuring the project specific details.&lt;/p&gt;
-&lt;h2 id="installation"&gt;Installation&lt;/h2&gt;
-&lt;p&gt;Installing Cake.Wyam.Recipe into a build is done using Cake's &lt;code&gt;load&lt;/code&gt; pre-processor directive.  It is as simple as this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#load nuget:https://www.nuget.org/api/v2?package=Cake.Wyam.Recipe&amp;amp;version=0.6.0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Here, I am telling Cake to go to NuGet and find version 0.6.0 of Cake.Wyam.Recipe, and load the scripts that it contains.  Cake will download the nupkg, extract the files into the tools folder, and then iterate through all of the &lt;code&gt;.cake&lt;/code&gt; files contained within it, into the current build.  This saves a lot of time and effort by not having to do this manually.  Then, when a new version of Cake.Wyam.Recipe is released, all that has to be done is to change the version number, and a project has the latest and greatest scripts available.&lt;/p&gt;
-&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
-&lt;p&gt;With that done, all that is required is to configure the project specific details.  For example:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Environment.SetVariableNames();
-
-BuildParameters.SetParameters(context: Context,
-                            buildSystem: BuildSystem,
-                            title: &amp;quot;gep13&amp;quot;,
-                            repositoryOwner: &amp;quot;gep13&amp;quot;,
-                            repositoryName: &amp;quot;gep13&amp;quot;,
-                            appVeyorAccountName: &amp;quot;GaryEwanPark&amp;quot;,
-                            webHost: &amp;quot;gep13.co.uk&amp;quot;,
-                            shouldPurgeCloudflareCache: true);
-
-BuildParameters.PrintParameters(Context);
-
-Build.Run();
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;A lot of things in Cake.Wyam.Recipe are done via Environment Variables.  For example, storing the credentials that are used to commit and push changes to GitHub Pages, purging Cloudflare cache, etc.  Out of the box, Cake.Wyam.Recipe expects these variables to be a certain name, but it is possible to override these to your own preferences.  In the script above, calling &lt;code&gt;Environment.SetVariableNames();&lt;/code&gt; simply sets these to the default values.&lt;/p&gt;
-&lt;p&gt;With that done, calling &lt;code&gt;SetParameters&lt;/code&gt; allows setting up specific information, such as the name of the project, etc.  It would also be possible to specify the Theme and Recipe to use within the Wyam execution, however, in my case, the default values of Blog and CleanBlog, are exactly what I need, so these values don't need to be changed.&lt;/p&gt;
-&lt;p&gt;Then it is simply a case of printing the parameters (purely optional), and then running the build, and job done.&lt;/p&gt;
-&lt;p&gt;So, when testing locally, all that is required is to execute either:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;./build.ps1
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;or&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;./build.sh
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Doing either of these will cause the default Preview-Documentation task to be executed, and on completion, you will have a webserver running to preview your changes.&lt;/p&gt;
-&lt;p&gt;In a CI context, you would do something like:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;.\build.ps1 -Target &amp;quot;AppVeyor&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Which would execute a different path which would cause the Publish-Documentation Task to be called, rather than preview.&lt;/p&gt;
-&lt;h2 id="additional-example"&gt;Additional example&lt;/h2&gt;
-&lt;p&gt;Another example of where Cake.Wyam.Recipe is used is on this website:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Issues.Website/blob/develop/build.cake"&gt;https://github.com/cake-contrib/Cake.Issues.Website/blob/develop/build.cake&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Here, the Task Graph that is provided by Cake.Wyam.Recipe is extended to include some additional functionality, but the core components of it are still available.  They have simply been augmented to include additional tasks.&lt;/p&gt;
-&lt;h2 id="documentation"&gt;Documentation&lt;/h2&gt;
-&lt;p&gt;You can find additional documentation for this package here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cake-contrib.github.io/Cake.Wyam.Recipe/"&gt;https://cake-contrib.github.io/Cake.Wyam.Recipe/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="source-code"&gt;Source Code&lt;/h2&gt;
-&lt;p&gt;The source code for this Extension can be found here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.Wyam.Recipe"&gt;https://github.com/cake-contrib/Cake.Wyam.Recipe&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="chat-room"&gt;Chat Room&lt;/h2&gt;
-&lt;p&gt;If you have any questions about this package, then please feel to drop into the Gitter Chat room:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gitter.im/cake-contrib/Lobby?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/cake-contrib/Lobby.svg" class="img-fluid" alt="Join the chat at https://gitter.im/cake-contrib/Lobby" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="thanks"&gt;Thanks&lt;/h2&gt;
-&lt;p&gt;I have to say a huge thank you to &lt;a href="https://twitter.com/hereispascal"&gt;Pascal Berger&lt;/a&gt; who has helped out a LOT with the creation of this package.  Thank you!&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;This is another of those announcement blog posts that is a little on the "late" side.  This post is about the &lt;a href="https://www.nuget.org/packages/Cake.Wyam.Recipe/"&gt;Cake.Wyam.Recipe&lt;/a&gt; package, which was first released back in May 2017.  Now, in it's sixth release, I thought it was about time to tell people about it.  Better late than never...&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension" />
-		<id>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</id>
-		<title>Introducing the Chocolatey Azure DevOps Extension</title>
-		<updated>2018-11-25T00:00:00Z</updated>
-		<content>&lt;p&gt;Unlike my last &lt;a href="https://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension"&gt;blog post&lt;/a&gt;, this announcement is up to date!  Yesterday, I released the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops"&gt;Chocolatey Extension for Azure DevOps&lt;/a&gt; which helps to execute Chocolatey commands as part of your Azure DevOps Pipelines.&lt;/p&gt;
-&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
-&lt;p&gt;The &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops"&gt;Chocolatey Extension for Azure DevOpsVS Code&lt;/a&gt; helps with the execution of Chocolatey commands as part of your Azure DevOps Pipelines.  All of the main Chocolatey commands, including &lt;code&gt;pack&lt;/code&gt;, &lt;code&gt;push&lt;/code&gt;, &lt;code&gt;install&lt;/code&gt;, &lt;code&gt;upgrade&lt;/code&gt; are covered, and also the ability to run any custom Chocolatey commands.&lt;/p&gt;
-&lt;h1 id="why-is-this-needed"&gt;Why is this needed?&lt;/h1&gt;
-&lt;h2 id="isnt-there-already-some-chocolatey-azure-devops-extensions"&gt;Isn't there already some Chocolatey Azure DevOps Extensions?&lt;/h2&gt;
-&lt;p&gt;Yes, this is absolutely correct, there are.  Unfortunately, one of them doesn't currently work correctly and doesn't seem to be being maintained, and the other focuses on only a couple Chocolatey commands.  As a result, I decided that I would create another Chocolatey Extension, modelled on the existing NuGet Extension, which allows the execution of any Chocolatey Command.  In addition, creating a Azure DevOps extension for Chocolatey was one of those itches that had to be scratched, and I hope it is useful for you.  I also feel that this is a good compliment for the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode"&gt;Chocolatey VS Code Extension&lt;/a&gt; which I have also created.&lt;/p&gt;
-&lt;h2 id="isnt-chocolatey-already-installed-on-the-azure-build-agents"&gt;Isn't Chocolatey already installed on the Azure Build Agents?&lt;/h2&gt;
-&lt;p&gt;Yes, this is also absolutely true.  As a result, it is possible to use a normal PowerShell Task to execute Chocolatey.  This Extension simply makes that process a little easier, by showing you the expected inputs to each command.&lt;/p&gt;
-&lt;h1 id="installation"&gt;Installation&lt;/h1&gt;
-&lt;p&gt;Installing the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops"&gt;Chocolatey Extension for Azure DevOps&lt;/a&gt; is simple.  Go to the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops"&gt;extension page&lt;/a&gt; in the marketplace and click the &lt;code&gt;Get it free&lt;/code&gt; button:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Get-It-Free.png" class="img-fluid" alt="Chocolatey Get It Free" /&gt;&lt;/p&gt;
-&lt;p&gt;You will then be prompted which Organisation you would like to install the Extension into.&lt;/p&gt;
-&lt;h1 id="usage"&gt;Usage&lt;/h1&gt;
-&lt;p&gt;Once installed, create a Pipeline (if you don't already have one), and choose the option to add a new Task.  You will find the Chocolatey Task under the Build section, or you can use the search.  Once found, select the option to add the task:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Add-New-Task.png" class="img-fluid" alt="Chocolatey Add New Task" /&gt;&lt;/p&gt;
-&lt;p&gt;With that done, drill into the options for the task, and select what command you want to use:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Task.png" class="img-fluid" alt="Chocolatey Task" /&gt;&lt;/p&gt;
-&lt;p&gt;You have the option to pick from the following commands:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;apikey&lt;/li&gt;
-&lt;li&gt;config&lt;/li&gt;
-&lt;li&gt;custom&lt;/li&gt;
-&lt;li&gt;feature&lt;/li&gt;
-&lt;li&gt;install&lt;/li&gt;
-&lt;li&gt;pack&lt;/li&gt;
-&lt;li&gt;push&lt;/li&gt;
-&lt;li&gt;source&lt;/li&gt;
-&lt;li&gt;upgrade&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;All required arguments for each command are marked as required, and the Azure DevOps Task will illustrate this in the usual way.&lt;/p&gt;
-&lt;h1 id="notes"&gt;Notes&lt;/h1&gt;
-&lt;p&gt;Currently, this extension assumes that Chocolatey is already installed on the Build Agent executing this build.  The Task will check to see if Chocolatey can be located before attempting to execute, however, if it is not there, it will throw an exception, which will fail the build.  There is an open issue &lt;a href="https://github.com/gep13/chocolatey-azuredevops/issues/13"&gt;here&lt;/a&gt;, for adding an additional task to install/upgrade Chocolatey, similar to the NuGet Tool Installer task.&lt;/p&gt;
-&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
-&lt;p&gt;You can find additional documentation for this extension here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gep13.github.io/chocolatey-azuredevops/"&gt;https://gep13.github.io/chocolatey-azuredevops/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;:  At the time of writing this blog post, there is little to no documentation, but the scaffolding is there to get some added, so if you are interested, please feel free to jump in and help.&lt;/p&gt;
-&lt;h1 id="resources"&gt;Resources&lt;/h1&gt;
-&lt;p&gt;If you are interested in hearing about new functions that are being added into the Extension, I have a YouTube Playlist &lt;a href="https://www.youtube.com/playlist?list=PL84yg23i9GBhGahFf5-41vOJhn3D-6EUU"&gt;here&lt;/a&gt;, where I will push short videos of the new functionality as each version is released.&lt;/p&gt;
-&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
-&lt;p&gt;The source code for this Extension can be found here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/gep13/chocolatey-azuredevops"&gt;https://github.com/gep13/chocolatey-azuredevops&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="chat-room"&gt;Chat Room&lt;/h1&gt;
-&lt;p&gt;If you have any questions about this Extension, then please feel to drop into the Gitter Chat room:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gitter.im/gep13-oss/community?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/gep13-oss/community.svg" class="img-fluid" alt="Join the chat at https://gitter.im/gep13-oss/community" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="thanks"&gt;Thanks&lt;/h1&gt;
-&lt;p&gt;Huge thank you to the following people who helped review early versions of this extension, and provided feedback on how it can be improved:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://twitter.com/devlead"&gt;Mattias Karlsson&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://twitter.com/hereispascal"&gt;Pascal Berger&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://twitter.com/onovotny"&gt;Oren Novotny&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As well as the creators of the &lt;a href="https://github.com/Microsoft/azure-pipelines-tasks/tree/master/Tasks/NuGetCommandV2"&gt;NuGet Extension for Azure DevOps&lt;/a&gt;, which provided a very solid basis on which to develop the Chocolatey version.&lt;/p&gt;
-&lt;p&gt;A special thanks to &lt;a href="https://twitter.com/camsoper"&gt;Cam Soper&lt;/a&gt; for helping out with some of the questions I had &lt;a href="https://twitter.com/camsoper/status/1061718818467274753"&gt;regarding some specifics&lt;/a&gt; around Azure Devops Tasks.&lt;/p&gt;
-&lt;p&gt;In addition, I would like to thank the authors of the existing Chocolatey Extensions for Azure DevOps, which also helped in shaping this implementation.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;Unlike my last &lt;a href="https://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension"&gt;blog post&lt;/a&gt;, this announcement is up to date!  Yesterday, I released the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops"&gt;Chocolatey Extension for Azure DevOps&lt;/a&gt; which helps to execute Chocolatey commands as part of your Azure DevOps Pipelines.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension" />
-		<id>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</id>
-		<title>Introducing the Chocolatey VS Code Extension</title>
-		<updated>2018-11-25T00:00:00Z</updated>
-		<content>&lt;p&gt;This announcement blog post is a &amp;quot;little&amp;quot; late.  The first version of this &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode"&gt;VS Code Extension&lt;/a&gt; was created back in January 2016, however, it is only recently that it has been given a new lease of life, with some additional functionality around executing Chocolatey commands from within VS Code.  As a result, I thought this was a good time to introduce it properly.&lt;/p&gt;
-&lt;h1 id="what-is-it"&gt;What is it?&lt;/h1&gt;
-&lt;p&gt;The &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode"&gt;Chocolatey Extension for VS Code&lt;/a&gt; brings with it a number of commands and snippets to help with the creation and packaging of Chocolatey packages.  There are plans for adding more commands into the extension as time permits, and if you are interested in helping out with adding more functionality, please feel free to get in touch.&lt;/p&gt;
-&lt;h1 id="why-is-this-needed"&gt;Why is this needed?&lt;/h1&gt;
-&lt;p&gt;When getting started with Chocolatey, it can be a little daunting to get up to speed with the various commands that are required to create, pack and push, Chocolatey packages.  While there is extensive documentation to guide you through this process, it can be a little overwhelming.  This extension is an attempt to help with some of these tasks, to help guide you through this process, via the use of snippets, and most recently, commands.&lt;/p&gt;
-&lt;h1 id="installation"&gt;Installation&lt;/h1&gt;
-&lt;p&gt;Installing the &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode"&gt;Chocolatey Extension for VS Code&lt;/a&gt; is simple, it installs in the same way as any other extension.  Open Extensions from the left hand side section of VS Code, or select View | Extensions.  Then do a search for &amp;quot;chocolatey&amp;quot; and the extension with an author of &amp;quot;Gary Ewan Park&amp;quot; should be returned.  Go ahead and install the extension:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Extension-Install.png" class="img-fluid" alt="Chocolatey Extension Install" /&gt;&lt;/p&gt;
-&lt;p&gt;When prompted, click the Reload button.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Extension-Reload.png" class="img-fluid" alt="Chocolatey Extension Reload" /&gt;&lt;/p&gt;
-&lt;h1 id="usage"&gt;Usage&lt;/h1&gt;
-&lt;h2 id="snippets"&gt;Snippets&lt;/h2&gt;
-&lt;p&gt;While you are editing your Chocolatey Packaging scripts, you can begin typing the word &lt;code&gt;choco&lt;/code&gt; and it will bring up some snippets to help with the creation of some of the Chocolatey Helper methods, as shown here:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Snippets.png" class="img-fluid" alt="Chocolatey Snippets" /&gt;&lt;/p&gt;
-&lt;p&gt;After selecting one, you will then have the option of pressing the tab key on your keyboard, to start stepping through the various parameters, filling in the ones that are required.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Snippet-Output.png" class="img-fluid" alt="Chocolatey Snippet Output" /&gt;&lt;/p&gt;
-&lt;p&gt;The snippets that are generated are based on the Chocolatey Best Practices from the output of the default template from the &lt;code&gt;choco new&lt;/code&gt; command.&lt;/p&gt;
-&lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
-&lt;p&gt;If you open the command palette for VS Code, and type &lt;code&gt;choco&lt;/code&gt;, you will be met with two commands:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Create new Chocolatey Package&lt;/li&gt;
-&lt;li&gt;Pack Chocolatey Package(s)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Commands.png" class="img-fluid" alt="Chocolatey Commands" /&gt;&lt;/p&gt;
-&lt;p&gt;The first will take as an input the name of the Chocolatey Package that you want to create, and it will then execute the &lt;code&gt;choco new&lt;/code&gt; command, placing the output into the root of the current workspace which is open in VS Code.  You can see the output here:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-New-Output.png" class="img-fluid" alt="Chocolatey New Output" /&gt;&lt;/p&gt;
-&lt;p&gt;The second command will look through the current workspace, and find any &lt;code&gt;*.nuspec&lt;/code&gt; files that are contained with it.  Then, you can either select an individual nuspec file, or all of them, to then execute the &lt;code&gt;choco pack&lt;/code&gt; command on them.  You will be prompted for any additional arguments that you would like to pass into this command.  For example, you might want to pass something like the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-sh"&gt;--output-directory=&amp;quot;'c:/temp'&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To have the generated &lt;code&gt;*.nupkg&lt;/code&gt; files placed into a different directory, rather than being generated next to the nuspec file.&lt;/p&gt;
-&lt;h1 id="notes"&gt;Notes&lt;/h1&gt;
-&lt;p&gt;While you can install this extension in VS Code running on other operating systems, it will only work in its entirity on a Windows Machine.  Attempting to run the commands on another operating system, will result in the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/25/Chocolatey-Not-Installed.png" class="img-fluid" alt="Chocolatey Not Installed" /&gt;&lt;/p&gt;
-&lt;h1 id="documentation"&gt;Documentation&lt;/h1&gt;
-&lt;p&gt;You can find additional documentation for this extension here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gep13.github.io/chocolatey-vscode/"&gt;https://gep13.github.io/chocolatey-vscode/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;:  At the time of writing this blog post, there is little to no documentation, but the scaffolding is there to get some added, so if you are interested, please feel free to jump in and help.&lt;/p&gt;
-&lt;h1 id="resources"&gt;Resources&lt;/h1&gt;
-&lt;p&gt;If you are interested in hearing about new functions that are being added into the Extension, I have a YouTube Playlist &lt;a href="https://www.youtube.com/playlist?list=PL84yg23i9GBhIhNG4LaeXNHwxZYJaSqgj"&gt;here&lt;/a&gt;, where I will push short videos of the new functionality as each version is released.&lt;/p&gt;
-&lt;h1 id="source-code"&gt;Source Code&lt;/h1&gt;
-&lt;p&gt;The source code for this Extension can be found here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/gep13/chocolatey-vscode"&gt;https://github.com/gep13/chocolatey-vscode&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="chat-room"&gt;Chat Room&lt;/h1&gt;
-&lt;p&gt;If you have any questions about this Extension, then please feel to drop into the Gitter Chat room:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gitter.im/gep13-oss/community?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/gep13-oss/community.svg" class="img-fluid" alt="Join the chat at https://gitter.im/gep13-oss/community" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="thanks"&gt;Thanks&lt;/h1&gt;
-&lt;p&gt;The execution of the Chocolatey commands in this extension would not have been possible without the amazing work of the &lt;a href="https://github.com/felixrieseberg/vsc-ember-cli"&gt;Ember CLI VS Code extension&lt;/a&gt;, as this was used as the basis for creating this feature in this extension. Huge thanks to &lt;a href="Fhttps://github.com/felixrieseber"&gt;Felix Rieseberg&lt;/a&gt;.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;This announcement blog post is a "little" late.  The first version of this &lt;a href="https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-vscode"&gt;VS Code Extension&lt;/a&gt; was created back in January 2016, however, it is only recently that it has been given a new lease of life, with some additional functionality around executing Chocolatey commands from within VS Code.  As a result, I thought this was a good time to introduce it properly.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/stack-overflow-reputation-history" />
-		<id>http://www.gep13.co.uk/blog/stack-overflow-reputation-history</id>
-		<title>Stack Overflow Reputation History</title>
-		<updated>2018-11-04T00:00:00Z</updated>
-		<content>&lt;p&gt;Anyone that knows me, knows that I like numbers.  I like to track numbers over time, and see how things are changing.  Are they getting better?  Worse?&lt;/p&gt;
-&lt;p&gt;So with this in mind, a couple months ago, I was looking at my Stack Overflow profile, and I was curious about how, if at all, my reputation points (you know, those Internet points, that don't really mean anything to anyone, but it is still nice to have them?!?), had changed over time.&lt;/p&gt;
-&lt;h1 id="the-problem"&gt;The Problem&lt;/h1&gt;
-&lt;p&gt;On the main Stack Overflow Profile page, you are met with this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/04/Stack-Overflow-Reputation.png" class="img-fluid" alt="Stack Overflow Reputation" /&gt;&lt;/p&gt;
-&lt;p&gt;Now, granted, I can hover over this little bar graph, and I see a tooltip for what is was at a particular point in time, but it isn't very clear on what date it correlates to.&lt;/p&gt;
-&lt;h1 id="what-did-you-do"&gt;What did you do?&lt;/h1&gt;
-&lt;p&gt;So, I went googling, thinking that this must be something that can be done better.  Stack Overflow is made by a bunch of developers, who likely also like numbers.  What I turned up was that there is a REST API for getting additional information back from Stack Overflow, but in all honesty, I didn't want to have to go to that length to have to get this information.  I even sent out a Tweet about it, as I thought that this &lt;strong&gt;must&lt;/strong&gt; be possible:&lt;/p&gt;
-&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;&lt;a href="https://twitter.com/jonskeet?ref_src=twsrc%5Etfw"&gt;&amp;#64;jonskeet&lt;/a&gt; random question for you... Do you know if this is possible? &lt;a href="https://t.co/pYggrm2lUv"&gt;https://t.co/pYggrm2lUv&lt;/a&gt; It was suggested that it was, but I didn&amp;#39;t get a follow up.  Thanks in advance!&lt;/p&gt;&amp;mdash; Gary Ewan Park (&amp;#64;gep13) &lt;a href="https://twitter.com/gep13/status/975662609176387584?ref_src=twsrc%5Etfw"&gt;March 19, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;h1 id="what-was-the-outcome"&gt;What was the outcome?&lt;/h1&gt;
-&lt;p&gt;After a bit of digging, I found that you can get MUCH more information on your Network Profile page, rather than simply your Stack Overflow Profile page.  For those that aren't aware, you can get to this from here:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/04/Link-To-Network-Profile.png" class="img-fluid" alt="Link to Network Profile" /&gt;&lt;/p&gt;
-&lt;p&gt;And once there, if you click on the reputation tab, you get a much larger line graph, with much more detail about your reputation, and on what day it changed, etc.  So now you can rejoice in more data than you will ever need on these particular Internet Points.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/11/04/Network-Profile-Reputation.png" class="img-fluid" alt="Network Profile Reputation" /&gt;&lt;/p&gt;
-&lt;p&gt;This post is mainly for me to remember where I can get this information again if I ever need it, and I thought that is might be useful to other like minded, numbers oriented people.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;Anyone that knows me, knows that I like numbers.  I like to track numbers over time, and see how things are changing.  Are they getting better?  Worse?&lt;/p&gt;</summary>
 	</entry>
 </feed>

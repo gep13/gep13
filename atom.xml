@@ -4,13 +4,48 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2021</rights>
-	<updated>2021-01-23T19:53:11Z</updated>
+	<updated>2021-01-23T20:12:13Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vs-release-0.3.0" />
 		<id>http://www.gep13.co.uk/blog/cake-vs-release-0.3.0</id>
 		<title>Cake Visual Studio Extension Release 0.3.0</title>
 		<updated>2020-12-21T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0</id>
+		<title>Cake.VsCode.Recipe Release 0.4.0</title>
+		<updated>2020-12-01T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-release-1.0.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-release-1.0.0</id>
+		<title>Cake Visual Studio Code Extension Release 1.0.0</title>
+		<updated>2020-12-01T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.3.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.3.0</id>
+		<title>Cake.VsCode.Recipe Release 0.3.0</title>
+		<updated>2020-11-22T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.1" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.1</id>
+		<title>Cake.VsCode.Recipe Release 0.2.1</title>
+		<updated>2020-11-16T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.0</id>
+		<title>Cake.VsCode.Recipe Release 0.2.0</title>
+		<updated>2020-09-08T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
@@ -63,6 +98,13 @@
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.1.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.1.0</id>
+		<title>Cake.VsCode.Recipe Release 0.1.0</title>
+		<updated>2019-02-17T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
+	<entry>
 		<link href="http://www.gep13.co.uk/blog/2019-speaking-tour" />
 		<id>http://www.gep13.co.uk/blog/2019-speaking-tour</id>
 		<title>2019 Speaking Tour</title>
@@ -102,48 +144,6 @@
 		<id>http://www.gep13.co.uk/blog/introducing-ci-cd-assets-repository-and-vscode-extension</id>
 		<title>Introducing the CI/CD Assets Repository and VS Code Extension</title>
 		<updated>2018-12-28T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/using-cake-github-action" />
-		<id>http://www.gep13.co.uk/blog/using-cake-github-action</id>
-		<title>Using Cake GitHub Action</title>
-		<updated>2018-12-15T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/getting-started-with-github-actions" />
-		<id>http://www.gep13.co.uk/blog/getting-started-with-github-actions</id>
-		<title>Getting started with GitHub Actions</title>
-		<updated>2018-12-14T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe" />
-		<id>http://www.gep13.co.uk/blog/introducing-cake-wyam-recipe</id>
-		<title>Introducing the Cake.Wyam.Recipe Package</title>
-		<updated>2018-12-06T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension" />
-		<id>http://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension</id>
-		<title>Introducing the Chocolatey Azure DevOps Extension</title>
-		<updated>2018-11-25T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension" />
-		<id>http://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension</id>
-		<title>Introducing the Chocolatey VS Code Extension</title>
-		<updated>2018-11-25T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/stack-overflow-reputation-history" />
-		<id>http://www.gep13.co.uk/blog/stack-overflow-reputation-history</id>
-		<title>Stack Overflow Reputation History</title>
-		<updated>2018-11-04T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>
