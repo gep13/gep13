@@ -4,9 +4,16 @@
 		<title>Gary Ewan Park</title>
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-		<copyright>2020</copyright>
-		<pubDate>Mon, 24 Aug 2020 10:16:05 GMT</pubDate>
-		<lastBuildDate>Mon, 24 Aug 2020 10:16:05 GMT</lastBuildDate>
+		<copyright>2021</copyright>
+		<pubDate>Sat, 23 Jan 2021 19:53:11 GMT</pubDate>
+		<lastBuildDate>Sat, 23 Jan 2021 19:53:11 GMT</lastBuildDate>
+		<item>
+			<title>Cake Visual Studio Extension Release 0.3.0</title>
+			<link>http://www.gep13.co.uk/blog/cake-vs-release-0.3.0</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/cake-vs-release-0.3.0</guid>
+			<pubDate>Mon, 21 Dec 2020 00:00:00 GMT</pubDate>
+		</item>
 		<item>
 			<title>Chocolatey in the Organisation Video Series</title>
 			<link>http://www.gep13.co.uk/blog/chocolatey-for-business-video-series</link>
@@ -139,13 +146,6 @@
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/stack-overflow-reputation-history</guid>
 			<pubDate>Sun, 04 Nov 2018 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Chocolatey Package Error - Checksums do not match</title>
-			<link>http://www.gep13.co.uk/blog/chocolatey-error-hashes-do-not-match</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/chocolatey-error-hashes-do-not-match</guid>
-			<pubDate>Mon, 29 Oct 2018 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>

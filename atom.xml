@@ -3,9 +3,16 @@
 	<link rel="self" href="http://www.gep13.co.uk/" />
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
-	<rights>2020</rights>
-	<updated>2020-08-24T10:16:05Z</updated>
+	<rights>2021</rights>
+	<updated>2021-01-23T19:53:11Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vs-release-0.3.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vs-release-0.3.0</id>
+		<title>Cake Visual Studio Extension Release 0.3.0</title>
+		<updated>2020-12-21T00:00:00Z</updated>
+		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/chocolatey-for-business-video-series" />
 		<id>http://www.gep13.co.uk/blog/chocolatey-for-business-video-series</id>
@@ -137,13 +144,6 @@
 		<id>http://www.gep13.co.uk/blog/stack-overflow-reputation-history</id>
 		<title>Stack Overflow Reputation History</title>
 		<updated>2018-11-04T00:00:00Z</updated>
-		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/chocolatey-error-hashes-do-not-match" />
-		<id>http://www.gep13.co.uk/blog/chocolatey-error-hashes-do-not-match</id>
-		<title>Chocolatey Package Error - Checksums do not match</title>
-		<updated>2018-10-29T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 </feed>

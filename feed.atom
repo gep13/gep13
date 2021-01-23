@@ -3,9 +3,48 @@
 	<link rel="self" href="http://www.gep13.co.uk/" />
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
-	<rights>2020</rights>
-	<updated>2020-08-24T10:15:49Z</updated>
+	<rights>2021</rights>
+	<updated>2021-01-23T19:52:56Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vs-release-0.3.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vs-release-0.3.0</id>
+		<title>Cake Visual Studio Extension Release 0.3.0</title>
+		<updated>2020-12-21T00:00:00Z</updated>
+		<content>&lt;p&gt;After working on it for a little bit during my Monday night streams, I am happy to announce that we have shipped the 0.3.0 release of the Cake Extension for Visual Studio.  This includes support for Visual Studio 2029.&lt;/p&gt;
+&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="breaking-changes"&gt;Breaking changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vs/issues/115"&gt;&lt;strong&gt;#115&lt;/strong&gt;&lt;/a&gt; Remove usage of Experimental option passed to Cake&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vs/issues/114"&gt;&lt;strong&gt;#114&lt;/strong&gt;&lt;/a&gt; Remove support for Visual Studio 2015&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="features"&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vs/issues/110"&gt;&lt;strong&gt;#110&lt;/strong&gt;&lt;/a&gt; Add support for Visual Studio 2019&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vs/pull/105"&gt;&lt;strong&gt;#105&lt;/strong&gt;&lt;/a&gt; Initial support for overriding the location of cake.exe the TRX uses&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vs/issues/104"&gt;&lt;strong&gt;#104&lt;/strong&gt;&lt;/a&gt; Add solution item template&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vs/pull/103"&gt;&lt;strong&gt;#103&lt;/strong&gt;&lt;/a&gt; Update to new VS2019 SDKs and APIs. Migrate to an AsyncPackage load.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vs/issues/79"&gt;&lt;strong&gt;#79&lt;/strong&gt;&lt;/a&gt; Add an option to set the &amp;quot;cake.exe&amp;quot; absolute or relative path&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="bugs"&gt;Bugs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vs/issues/121"&gt;&lt;strong&gt;#121&lt;/strong&gt;&lt;/a&gt; Exception when cake.config file doesn't exist&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vs/issues/97"&gt;&lt;strong&gt;#97&lt;/strong&gt;&lt;/a&gt; Unable to add a binding to the Project Open event&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="improvements"&gt;Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vs/issues/120"&gt;&lt;strong&gt;#120&lt;/strong&gt;&lt;/a&gt; Switch to using consistent -- arguments&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vs/issues/119"&gt;&lt;strong&gt;#119&lt;/strong&gt;&lt;/a&gt; Add download commands for additional bootstrapper files&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vs/issues/118"&gt;&lt;strong&gt;#118&lt;/strong&gt;&lt;/a&gt; Add missing preprocessor key words&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vs/issues/116"&gt;&lt;strong&gt;#116&lt;/strong&gt;&lt;/a&gt; Support usage of .Net Tool for Cake&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vs/issues/101"&gt;&lt;strong&gt;#101&lt;/strong&gt;&lt;/a&gt; Update extension to use new VSSDK APIs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/fG93MjnxHoo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;After working on it for a little bit during my Monday night streams, I am happy to announce that we have shipped the 0.3.0 release of the Cake Extension for Visual Studio.  This includes support for Visual Studio 2029.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/chocolatey-for-business-video-series" />
 		<id>http://www.gep13.co.uk/blog/chocolatey-for-business-video-series</id>
@@ -323,7 +362,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Getting all the Cake Contrib addins into one place, and all maintainers working together was a main focus of mine through 2019.  A lot of the streams that I did on Twitch was centred on this topic, mainly due to the amazing work of &lt;a href="https://github.com/Jericho"&gt;Jericho&lt;/a&gt; on the &lt;a href="https://github.com/cake-contrib/Cake.AddinDiscoverer"&gt;Cake.AddinDiscover&lt;/a&gt;, which provides a &lt;a href="https://github.com/cake-contrib/Home/blob/master/Audit_for_Cake_0.33.0.md"&gt;daily report&lt;/a&gt; of the current state of the addins.  On this topic, I was very happy to see Jericho welcomed into the Cake Maintainer team.&lt;/p&gt;
 &lt;h3 id="gitreleasemanager"&gt;GitReleaseManager&lt;/h3&gt;
-&lt;p&gt;For a long time, GitReleaseManager has been in maintenance mode, as it &amp;quot;just&amp;quot; works for what I needed it for.  However, in 2019, it has seeen a lot of work, getting new features, including shipping as a .Net Global Tool.  Huge thanks here to Artur and Kim for the nudge to invest time in this tool again.&lt;/p&gt;
+&lt;p&gt;For a long time, GitReleaseManager has been in maintenance mode, as it &amp;quot;just&amp;quot; works for what I needed it for.  However, in 2019, it has seen a lot of work, getting new features, including shipping as a .Net Global Tool.  Huge thanks here to Artur and Kim for the nudge to invest time in this tool again.&lt;/p&gt;
 &lt;h3 id="gitversion"&gt;GitVersion&lt;/h3&gt;
 &lt;p&gt;I haven't really been involved in the day to day running of the GitVersion project for a while, I have left that in the hands of Artur and Asbjørn who have been doing an amazing job, but I have been doing some work in the background.  Including making sure that all team members have access to everything that is required, like passwords, and access to different systems.  In addition, I set up a Slack Team to allow chatting within the team.  Finally, I worked on converting the documentation for GitVersion to use Wyam and for it to be hosted on GitHub pages.  This was a little bit of work, but I am happy with the end results.&lt;/p&gt;
 &lt;h3 id="github-organisations"&gt;GitHub Organisations&lt;/h3&gt;
@@ -359,7 +398,7 @@
 &lt;li&gt;GitFlow&lt;/li&gt;
 &lt;li&gt;GitVersion&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;As a result, my overall reputation has gone up to (an increase of).  However, that quite large jump isn't just from me answering questions.  &lt;a href="https://stackoverflow.blog/2019/11/13/were-rewarding-the-question-askers/"&gt;Stack Overflow recently changed the rules&lt;/a&gt; so that instead of getting 5 points for an upvote on a question, you would instead get 10 points.  This was back dated, and as a result of my &lt;a href="https://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-default-editor-for-git"&gt;question here&lt;/a&gt; I got a big jump in overall points.&lt;/p&gt;
+&lt;p&gt;As a result, my overall reputation has gone up to 11021 (an increase of 3985).  However, that quite large jump isn't just from me answering questions.  &lt;a href="https://stackoverflow.blog/2019/11/13/were-rewarding-the-question-askers/"&gt;Stack Overflow recently changed the rules&lt;/a&gt; so that instead of getting 5 points for an upvote on a question, you would instead get 10 points.  This was back dated, and as a result of my &lt;a href="https://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-default-editor-for-git"&gt;question here&lt;/a&gt; I got a big jump in overall points.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Stack-Overflow-Reputation.png" class="img-fluid" alt="Stack Overflow Reputation" /&gt;&lt;/p&gt;
 &lt;p&gt;I also saw an increase in the numbers of badges that I have been awarded:&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Stack-Overflow-Badges.png" class="img-fluid" alt="Stack Overflow Badges" /&gt;&lt;/p&gt;
@@ -367,7 +406,7 @@
 &lt;li&gt;4 Silver&lt;/li&gt;
 &lt;li&gt;8 Bronze&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;And my impact increased to (an increase of 106k):&lt;/p&gt;
+&lt;p&gt;And my impact increased to 331k (an increase of 106k):&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Stack-Overflow-Impact.png" class="img-fluid" alt="Stack Overflow Impact" /&gt;&lt;/p&gt;
 &lt;h2 id="youtube-videos"&gt;YouTube videos&lt;/h2&gt;
 &lt;p&gt;The main focus in 2019 for my YouTube channel was to serve as an archive for the live streams that I have been doing on Twitch, however, I did upload a number of short videos for releases to projects that I have been working on.  One of the things that I have been working on this year is an update to Chocolatey GUI as well as updating the documentation for it.  Along with that, I am planning on creating a number of tutorial videos to show how new functionality works.  So keep an eye out for those being published to the channel.&lt;/p&gt;
@@ -1688,67 +1727,5 @@ Build.Run();
 &lt;p&gt;This post is mainly for me to remember where I can get this information again if I ever need it, and I thought that is might be useful to other like minded, numbers oriented people.&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Anyone that knows me, knows that I like numbers.  I like to track numbers over time, and see how things are changing.  Are they getting better?  Worse?&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/chocolatey-error-hashes-do-not-match" />
-		<id>http://www.gep13.co.uk/blog/chocolatey-error-hashes-do-not-match</id>
-		<title>Chocolatey Package Error - Checksums do not match</title>
-		<updated>2018-10-29T00:00:00Z</updated>
-		<content>&lt;p&gt;Earlier today on Twitter, I was asked this question:&lt;/p&gt;
-&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;&lt;a href="https://twitter.com/gep13?ref_src=twsrc%5Etfw"&gt;&amp;#64;gep13&lt;/a&gt; I tried installing &lt;a href="https://twitter.com/JuliaLanguage?ref_src=twsrc%5Etfw"&gt;&amp;#64;JuliaLanguage&lt;/a&gt; but I get this error: &lt;a href="https://t.co/QEvqqayjSU"&gt;https://t.co/QEvqqayjSU&lt;/a&gt;&lt;br&gt;I would appreciate if you could help&lt;/p&gt;&amp;mdash; Foad Sojoodi Farimani (&amp;#64;fsfarimani) &lt;a href="https://twitter.com/fsfarimani/status/1056873572344356864?ref_src=twsrc%5Etfw"&gt;October 29, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;I started to write a response, but I realised that it was going to take more than 240 characters to explain, so I thought I would write a blog post about it instead.&lt;/p&gt;
-&lt;h1 id="the-error"&gt;The Error&lt;/h1&gt;
-&lt;p&gt;The error that is being reported by Chocolatey is this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/10/29/checksums-do-not-match.png" class="img-fluid" alt="Checksums do not match" /&gt;&lt;/p&gt;
-&lt;p&gt;I verified that I was getting the same error message by testing the installation on the local Chocolatey Testing Environment.&lt;/p&gt;
-&lt;h1 id="what-does-this-mean"&gt;What does this mean?&lt;/h1&gt;
-&lt;p&gt;That's great, but what does that actually mean?  Let's break this log down a little bit...&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;Progress: 100% - Completed download of C:\Users\Administrator\AppData\Local\Temp\chocolatey\Julia\1.0.0\julia-1.0.0-win64.exe
-(52.83 MB).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This tells us that Chocolatey successfully went into the chocolateyInstall.ps1 file and found the download URL that the package maintainer put in there.  Notice that it has downloaded the 64-bit version of this installer, since I ran it on a 64-bit operating system.&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;Download of julia-1.0.0-win64.exe (52.83 MB) completed.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This tells us that Chocolatey was successfully able to download a file from the specified URL.&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;Error - hashes do not match. Actual value was '001874185A26F598ABE2E7FC287CACF66387C68CAA3251F5AA6EF97FB22020DD'.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This is where things start to go wrong.  When the download of a file has been completed, Chocolatey will take a checksum (i.e. a hash) of the file.  This can then be compared to the checksum (if provided) by the package maintainer.  In this case, the package maintainer expected the checksum of the file to be &lt;code&gt;3bf5572cbcbc7848b235dcf21caf24ce26b9fb3839eb13db1a7170d20cdf834d&lt;/code&gt; but it was actually &lt;code&gt;001874185A26F598ABE2E7FC287CACF66387C68CAA3251F5AA6EF97FB22020DD&lt;/code&gt;.  Since Chocolatey is secure by default, the installation of the package immediately exits, and an error is thrown:&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;ERROR: Checksum for 'C:\Users\Administrator\AppData\Local\Temp\chocolatey\Julia\1.0.0\julia-1.0.0-win64.exe' did not meet '3b
-f5572cbcbc7848b235dcf21caf24ce26b9fb3839eb13db1a7170d20cdf834d' for checksum type 'sha256'.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id="why-do-we-need-checksums"&gt;Why do we need checksums?&lt;/h1&gt;
-&lt;p&gt;Chocolatey introduced the concept of checksums for package installation to provide some assurance to the end users of Chocolatey that the application installers that are being downloaded are correct/valid.  At the time of creating a package, we ask package maintainers to include the checksum for the files that are being downloaded, so that at installation time, this checksum can be asserted to ensure that what is being installed is what is expected.  This protects the user from any malicious tampering of the application installer.  When creating the package, the maintainer can sometimes find the published checksum of the files on the vendor website, or they can calculate the checksum of the file(s) themselves once they have tested to make sure that it is installed correctly.&lt;/p&gt;
-&lt;h1 id="so-why-did-this-go-wrong"&gt;So why did this go wrong?&lt;/h1&gt;
-&lt;p&gt;Now, all of this makes perfect sense, and will work flawlessly, until one of two common things happen.&lt;/p&gt;
-&lt;p&gt;Firstly, some packages (like Google Chrome) don't included versioned URL's for their application installer.  As a result, you can only ever download the Chrome installer from one location, namely &lt;code&gt;https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi&lt;/code&gt;.  As a result, whenever Google push out a new version of Chrome, which happens quite frequently, the most recent package version of Chrome on Chocolatey.org is immediately broken.  This is due to the fact that the checksum within the Chocolatey package is still the checksum for the old installer available at that URL, which has now been replaced with the new one.  In the case of the Google Chrome package, it is part of the &lt;a href="https://github.com/chocolatey/chocolatey-coreteampackages"&gt;Core Team Packages&lt;/a&gt; which checks for new package versions every 6 hours, and automatically pushes out a new package when detected.  As a result of this, the Google Chrome package is normally only &amp;quot;broken&amp;quot; for a short period of time.&lt;/p&gt;
-&lt;p&gt;The second way that checksums will break is if vendor &amp;quot;change&amp;quot; the application installer once it has been published, without changing the version number.  Unfortunately, this happens more often than you would think.  Let's walk this through...&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A vendor creates a new version of their application, let's call it 1.0.0, and publishes it to their website.&lt;/li&gt;
-&lt;li&gt;A Chocolatey Package maintainer spots that there is a new version pf the application, and sets about creating the Chocolatey package.  They download the installer, test that it is all working, and then calculate the checksum, update their packaging scripts, run &lt;code&gt;choco pack&lt;/code&gt; and push the package version to Chocolatey.org&lt;/li&gt;
-&lt;li&gt;The automated checks on Chocolatey.org then kick in to make sure that the package does indeed download and install correctly, including verifying that the hashes match.&lt;/li&gt;
-&lt;li&gt;The package is then moved to human moderation, and the package is ultimately approved.&lt;/li&gt;
-&lt;li&gt;Some time later, the vendor then notices that there is a problem with the installer, and rather than increment the version number, they simply re-build the installer, and replace it on their website.&lt;/li&gt;
-&lt;li&gt;To anyone installing the application directly from the website, there are no problems.  However, to anyone installing the Chocolatey package, there will be error, as the checksum on the file which is downloaded, compared to the checksum in the Chocolatey package, will no longer match.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Since we know that the package in question completed the automated installation test, we know that at one point the checksum on the installer did match what is in the package, however, this installer no longer has this checksum.&lt;/p&gt;
-&lt;h1 id="what-can-i-do-about-it"&gt;What can I do about it?&lt;/h1&gt;
-&lt;p&gt;The best way to fix this problem would be to reach out to the maintainers of the package and ask them to push a new package version that includes the correct checksum.  In the case of this package, there is actually a new version of the application available, so this package is due to be updated.  If there wasn't a new version available, then the maintainer could push a new package version using what is known as the &lt;a href="https://chocolatey.org/docs/create-packages#package-fix-version-notation"&gt;package fix notation&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If this isn't an option, or you need the installation &amp;quot;right&amp;quot; now, you have two options, both of which are mentioned in the error message above.  The first would be to run this command:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-powershell"&gt;choco install julia --checksum64 001874185A26F598ABE2E7FC287CACF66387C68CAA3251F5AA6EF97FB22020DD
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The checksum in question is actually reported from Chocolatey, so what you need to ascertain is whether you trust that checksum.  To be safe, you would probably want to go to the vendor download page and verify this yourself.&lt;/p&gt;
-&lt;p&gt;The final option would be to run the command:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-powershell"&gt;choco install julia --ignore-checksums
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This is by far the least secure method, and it isn't one that I recommend.&lt;/p&gt;
-&lt;h1 id="summary"&gt;Summary&lt;/h1&gt;
-&lt;p&gt;Due to the fact that Chocolatey is secure by default, there are situations like this that do occur.  However, please bear in mind that Chocolatey is trying to protect you from what could be a malicious installer.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;Earlier today on Twitter, I was asked this question:&lt;/p&gt;</summary>
 	</entry>
 </feed>
