@@ -5,8 +5,8 @@
 		<link>http://www.gep13.co.uk/</link>
 		<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 		<copyright>2021</copyright>
-		<pubDate>Sat, 23 Jan 2021 20:22:57 GMT</pubDate>
-		<lastBuildDate>Sat, 23 Jan 2021 20:22:57 GMT</lastBuildDate>
+		<pubDate>Sat, 23 Jan 2021 20:45:06 GMT</pubDate>
+		<lastBuildDate>Sat, 23 Jan 2021 20:45:06 GMT</lastBuildDate>
 		<item>
 			<title>Cake Visual Studio Extension Release 0.3.0</title>
 			<link>http://www.gep13.co.uk/blog/cake-vs-release-0.3.0</link>
@@ -36,11 +36,32 @@
 			<pubDate>Sun, 22 Nov 2020 00:00:00 GMT</pubDate>
 		</item>
 		<item>
+			<title>Cake.Recipe Release 2.1.0</title>
+			<link>http://www.gep13.co.uk/blog/cake-recipe-release-2.1.0</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/cake-recipe-release-2.1.0</guid>
+			<pubDate>Thu, 19 Nov 2020 00:00:00 GMT</pubDate>
+		</item>
+		<item>
 			<title>Cake.VsCode.Recipe Release 0.2.1</title>
 			<link>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.1</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.1</guid>
 			<pubDate>Mon, 16 Nov 2020 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Cake.Recipe Release 2.0.1</title>
+			<link>http://www.gep13.co.uk/blog/cake-recipe-release-2.0.1</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/cake-recipe-release-2.0.1</guid>
+			<pubDate>Fri, 09 Oct 2020 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Cake.Recipe Release 2.0.0</title>
+			<link>http://www.gep13.co.uk/blog/cake-recipe-release-2.0.0</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/cake-recipe-release-2.0.0</guid>
+			<pubDate>Mon, 05 Oct 2020 00:00:00 GMT</pubDate>
 		</item>
 		<item>
 			<title>Stream Number 100</title>
@@ -78,11 +99,25 @@
 			<pubDate>Sat, 20 Jun 2020 00:00:00 GMT</pubDate>
 		</item>
 		<item>
+			<title>Cake.Recipe Release 1.0.0</title>
+			<link>http://www.gep13.co.uk/blog/cake-recipe-release-1.1.2</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/cake-recipe-release-1.1.2</guid>
+			<pubDate>Mon, 15 Jun 2020 00:00:00 GMT</pubDate>
+		</item>
+		<item>
 			<title>2019 - A Retrospective</title>
 			<link>http://www.gep13.co.uk/blog/2019-a-retrospective</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/2019-a-retrospective</guid>
 			<pubDate>Sat, 25 Jan 2020 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Cake.Recipe Release 1.0.0</title>
+			<link>http://www.gep13.co.uk/blog/cake-recipe-release-1.1.1</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/cake-recipe-release-1.1.1</guid>
+			<pubDate>Mon, 21 Oct 2019 00:00:00 GMT</pubDate>
 		</item>
 		<item>
 			<title>Stream Number 50</title>
@@ -92,60 +127,25 @@
 			<pubDate>Fri, 20 Sep 2019 00:00:00 GMT</pubDate>
 		</item>
 		<item>
+			<title>Cake.Recipe Release 1.0.0</title>
+			<link>http://www.gep13.co.uk/blog/cake-recipe-release-1.1.0</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/cake-recipe-release-1.1.0</guid>
+			<pubDate>Sat, 07 Sep 2019 00:00:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Cake.Recipe Release 1.0.1</title>
+			<link>http://www.gep13.co.uk/blog/cake-recipe-release-1.0.1</link>
+			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
+			<guid>http://www.gep13.co.uk/blog/cake-recipe-release-1.0.1</guid>
+			<pubDate>Tue, 03 Sep 2019 00:00:00 GMT</pubDate>
+		</item>
+		<item>
 			<title>MVP Renewal 2019</title>
 			<link>http://www.gep13.co.uk/blog/mvp-renewal-2019</link>
 			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
 			<guid>http://www.gep13.co.uk/blog/mvp-renewal-2019</guid>
 			<pubDate>Tue, 02 Jul 2019 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>New Chocolatey GitHub Organisations</title>
-			<link>http://www.gep13.co.uk/blog/new-chocolatey-github-organisations</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/new-chocolatey-github-organisations</guid>
-			<pubDate>Wed, 17 Apr 2019 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Introducing the Cake.VsCode.Recipe Package</title>
-			<link>http://www.gep13.co.uk/blog/introducing-cake-vscode-recipe</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/introducing-cake-vscode-recipe</guid>
-			<pubDate>Sun, 17 Feb 2019 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>Cake.VsCode.Recipe Release 0.1.0</title>
-			<link>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.1.0</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.1.0</guid>
-			<pubDate>Sun, 17 Feb 2019 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>2019 Speaking Tour</title>
-			<link>http://www.gep13.co.uk/blog/2019-speaking-tour</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/2019-speaking-tour</guid>
-			<pubDate>Sat, 12 Jan 2019 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>What are all the Chocolatey repositories for?</title>
-			<link>http://www.gep13.co.uk/blog/what-are-all-the-chocolatey-repositories-for</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/what-are-all-the-chocolatey-repositories-for</guid>
-			<pubDate>Fri, 11 Jan 2019 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>2018 - A Retrospective</title>
-			<link>http://www.gep13.co.uk/blog/2018-a-retrospective</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/2018-a-retrospective</guid>
-			<pubDate>Tue, 01 Jan 2019 00:00:00 GMT</pubDate>
-		</item>
-		<item>
-			<title>GitReleaseManager Release 0.8.0</title>
-			<link>http://www.gep13.co.uk/blog/gitreleasemanager-release-0.8.0</link>
-			<description>Ramblings and Ponderings of a Microsoft Fan Boy...</description>
-			<guid>http://www.gep13.co.uk/blog/gitreleasemanager-release-0.8.0</guid>
-			<pubDate>Sun, 30 Dec 2018 00:00:00 GMT</pubDate>
 		</item>
 	</channel>
 </rss>

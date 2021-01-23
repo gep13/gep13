@@ -1,0 +1,335 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+        <title>Gary Ewan Park - Cake.Recipe Release 1.0.0</title>
+        <meta name="description" content="Ramblings and Ponderings of a Microsoft Fan Boy..." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+
+        <link type="application/rss+xml" rel="alternate" title="Gary Ewan Park" href="/feed.rss" />
+                <link type="application/atom+xml" rel="alternate" title="Gary Ewan Park" href="/feed.atom" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/css/highlight.css" rel="stylesheet">
+        <link href="/assets/css/clean-blog.css" rel="stylesheet" />
+        <link href="/assets/css/master.css" rel="stylesheet" />
+        <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
+
+
+        <meta name="application-name" content="Gary Ewan Park" />
+        <meta name="msapplication-tooltip" content="Gary Ewan Park" />
+        <meta name="msapplication-starturl" content="/" />
+
+        <meta property="og:title" content="Gary Ewan Park - Cake.Recipe Release 1.0.0" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.gep13.co.uk/blog/cake-recipe-release-1.0.0" />
+        <!-- TODO: More social graph meta tags -->
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>     
+        <script src="/assets/js/highlight.pack.js"></script>   
+        <script src="/assets/js/clean-blog.js"></script>
+        <script src="/assets/js/d3.v3.min.js"></script>
+        <script src="/assets/js/trianglify.min.js"></script>
+        <script src="/assets/js/please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
+                
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+                <script src="/assets/js/html5shiv.js"></script>
+                <script src="/assets/js/respond.min.js"></script>
+        <![endif]-->
+        
+        
+
+
+        </head>
+        <body>
+                
+                <!-- Navigation -->
+                <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+                        <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header page-scroll">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="/">Gary Ewan Park</a>
+                                </div>
+                        
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="navbar-collapse">
+                                        <ul class="nav navbar-nav navbar-right">
+                                                <li><a href="/about">About</a></li>
+<li><a href="/projects">Projects</a></li>
+<li><a href="/talks">Talks</a></li>
+<li><a href="/blog">Archive</a></li>
+<li><a href="/contact">Contact</a></li>
+<li><a href="/tags">Tags</a></li> 
+                                        </ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container -->
+                </nav>
+                
+                <!-- Page Header -->
+                <header class="intro-header" id="intro-header">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-md-12">
+
+    
+<div class="post-heading">
+    <h1>Cake.Recipe Release 1.0.0</h1>
+    <div class="meta">        
+Published on 23 April 2019<br>    </div>
+        <div class="tags">
+                    <a role="button" href="/tags/cake" class="btn btn-default btn-xs">cake</a>
+                    <a role="button" href="/tags/cakerecipe" class="btn btn-default btn-xs">cake.recipe</a>
+                    <a role="button" href="/tags/release" class="btn btn-default btn-xs">release</a>
+        </div>     
+</div>
+                                        </div>
+                                </div>
+                        </div>
+                </header>
+                
+                <!-- Main Content -->
+                <div class="container">
+                        <div class="row">
+                                <div id="content" class="col-md-12">
+                                        
+
+<h2 id="release-notes">Release Notes</h2>
+<p><strong>NOTE:</strong> Version 1.0.0 of Cake.Recipe is intended to <strong>only</strong> be used with Cake 0.32.1.  Using anything else will result in an error being thrown during the Setup phase of the build.  This coupling between Cake.Recipe and Cake is a requirement, and future releases of Cake.Recipe will support different versions of Cake.</p>
+<h3 id="breaking-changes">Breaking changes</h3>
+<ul>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/223"><strong>#223</strong></a> Cake 0.28.0 CakeTaskBuild API breaking change</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/pull/218"><strong>#218</strong></a> removes <ActionTask> from tasks.cake</li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/310"><strong>#310</strong></a> Add helper task for creating default labels using GitReleaseManager</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/219"><strong>#219</strong></a> Integrate Cake.Issues</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/153"><strong>#153</strong></a> Add support for running integration tests</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/149"><strong>#149</strong></a> Add Cake.Graph tasks to Cake.Recipe</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/127"><strong>#127</strong></a> Support for Transifex</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/105"><strong>#105</strong></a> Add Cake.Codecov</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/101"><strong>#101</strong></a> Support a build that only builds nuget packages</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/92"><strong>#92</strong></a> Add Cake.CodeAnalysisReporting</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/88"><strong>#88</strong></a> Provide ability to insert custom tasks into build process</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/68"><strong>#68</strong></a> Add support for Fixie.</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/30"><strong>#30</strong></a> Add execution of GitLink</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/26"><strong>#26</strong></a> Add option to automatically load reports in browser</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/23"><strong>#23</strong></a> Include documentation generation using Wyam</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/22"><strong>#22</strong></a> Upload reports to artifacts</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/21"><strong>#21</strong></a> Allow ability to control whether publishing steps happen</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/20"><strong>#20</strong></a> Add ability to download releasenotes</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/10"><strong>#10</strong></a> Add .NET core Support</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/8"><strong>#8</strong></a> Add support for Cake.MicrosoftTeams</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/7"><strong>#7</strong></a> Add suport for VS test</li>
+</ul>
+<h3 id="bugs">Bugs</h3>
+<ul>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/306"><strong>#306</strong></a> Fix issue with replacing Cake.Recipe for integration tests</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/304"><strong>#304</strong></a> Fix Integration Tests</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/296"><strong>#296</strong></a> Transifex appears to require credentials for pulling translations</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/246"><strong>#246</strong></a> Sending message to Gitter is broken</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/245"><strong>#245</strong></a> Sending message to Twitter is broken</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/238"><strong>#238</strong></a> clearcache broken</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/210"><strong>#210</strong></a> tools/<em>.csproj are included when packing by var projects = GetFiles(BuildParameters.SourceDirectoryPath + &quot;/**/</em>.csproj&quot;)</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/194"><strong>#194</strong></a> MSTest unit test fail.</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/166"><strong>#166</strong></a> Add FrameworkPathOverride when running on Mono</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/161"><strong>#161</strong></a> Exceptions thrown by OpenCover should cause the unit test task to fail</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/160"><strong>#160</strong></a> DirectoryNotFoundException in DotNetCore-Test</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/155"><strong>#155</strong></a> Modify integration test logic</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/137"><strong>#137</strong></a> Problem running unit tests</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/129"><strong>#129</strong></a> Using custom solution file path throws an error when using gitlink</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/126"><strong>#126</strong></a> DotNetCore restore should set Version</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/122"><strong>#122</strong></a> Uses deleted version of GitLink</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/119"><strong>#119</strong></a> Error in DupFinder &quot;Project 'nuspec' root directory doesn't exist&quot;</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/108"><strong>#108</strong></a> Analyze Task should run after Build</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/95"><strong>#95</strong></a> Fix issue with GitLink when building in x64 mode</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/76"><strong>#76</strong></a> Typo in fixie implemntation</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/51"><strong>#51</strong></a> Fix loading of Reports on error</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/38"><strong>#38</strong></a> Only run GitLink when not a PR</li>
+</ul>
+<h3 id="improvements">Improvements</h3>
+<ul>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/358"><strong>#358</strong></a> Update nuspec metadata</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/354"><strong>#354</strong></a> Setup task fails on certain linux distros when GitVersion is enabled</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/353"><strong>#353</strong></a> Change wording on messages to indicate that NuGet packages are almost ready</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/307"><strong>#307</strong></a> Update Cake.Incubator to 3.1.0</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/pull/295"><strong>#295</strong></a> Use PackageReference when checking if it's test project</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/247"><strong>#247</strong></a> Use Cake.Recipe with custom branch names</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/221"><strong>#221</strong></a> Ability to configure TreatWarningsAsErrors property</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/204"><strong>#204</strong></a> Allow running GitVersion on non Windows Platform</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/198"><strong>#198</strong></a> Update wyam version to 1.2</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/196"><strong>#196</strong></a> Upgrade version of Cake.Graph to 0.4.0 and switch to Mermaid syntax</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/pull/189"><strong>#189</strong></a> Adds generic packages directory.</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/187"><strong>#187</strong></a> Only run Chocolatey Tasks when running on Windows</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/184"><strong>#184</strong></a> OpenCover only works on Windows</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/182"><strong>#182</strong></a> DupFinder and InspectCode only run on Windows</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/180"><strong>#180</strong></a> Add support for XBuild</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/177"><strong>#177</strong></a> Respect Cake config</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/174"><strong>#174</strong></a> Remove hard coding of Cake.Example.Tests</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/pull/173"><strong>#173</strong></a> Improve default coverage filter</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/168"><strong>#168</strong></a> Display version number during setup</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/165"><strong>#165</strong></a> Make Twitter and Gitter announcements messages configurable</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/157"><strong>#157</strong></a> Remove dependency on Cake.CodeAnalysisReporting</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/145"><strong>#145</strong></a> InspectCode &amp; DupFinder give warning for projects set for latest version of Visual Studio</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/144"><strong>#144</strong></a> Pass Platform Target to ParseProject</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/143"><strong>#143</strong></a> Allow setting of MSBuild Version to use for build</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/140"><strong>#140</strong></a> Add Cake.Recipe integration tests</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/138"><strong>#138</strong></a> Can't specify NuGet feeds</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/136"><strong>#136</strong></a> Cake.Recipe do not work with cake 0.21.0+</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/132"><strong>#132</strong></a> Add support for custom paths to test projects</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/pull/131"><strong>#131</strong></a> Update GitVersion configuration to allow access to private repositories from AppVeyor.</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/121"><strong>#121</strong></a> Not all dependencies are present in _PublishedApplications for netcoreapp</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/120"><strong>#120</strong></a> Would it be possible to use the Cake Contrib Icon for your NuGet Package?</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/117"><strong>#117</strong></a> Should be able to control whether or not to run DupFinder and InspectCode</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/109"><strong>#109</strong></a> Refactor UploadCoverageReportTask</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/106"><strong>#106</strong></a> Treat Upload-Coverage-Report as a publishing step</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/104"><strong>#104</strong></a> Document Publishing issue when there are no changes to commit</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/103"><strong>#103</strong></a> Make Cake.Recipe use Cake.Recipe to build itself</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/102"><strong>#102</strong></a> Add boolean values to control whether attempts should be made on publishing tasks</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/97"><strong>#97</strong></a> Ignore shproj</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/91"><strong>#91</strong></a> Don't include global namespace in Wyam generated documentation</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/90"><strong>#90</strong></a> Add Title to Wyam generated site</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/89"><strong>#89</strong></a> GitReleaseManager - pre-release flag</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/pull/86"><strong>#86</strong></a> Only commit and push if local changes exist</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/85"><strong>#85</strong></a> Clean up nupkg files left in tools folder</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/84"><strong>#84</strong></a> Support ability to only load the tools that are actually required</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/82"><strong>#82</strong></a> Extend ToolSettings for additional DupFinder settings</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/79"><strong>#79</strong></a> Don't notify Gitter/Twitter for beta releases</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/67"><strong>#67</strong></a> Allow tagging of release and hotfix branches to also trigger deployments</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/pull/63"><strong>#63</strong></a> Support restoring from the same MyGet feed packages are pushed to</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/58"><strong>#58</strong></a> Store build log in build artifacts</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/56"><strong>#56</strong></a> Update to latest Cake.Wyam</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/55"><strong>#55</strong></a> Add default region name for DupFinder overrides</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/pull/54"><strong>#54</strong></a> Update Cake.Git to the latest version</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/pull/53"><strong>#53</strong></a> Update Cake.Slack to latest version</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/50"><strong>#50</strong></a> Find and execute VSTests</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/49"><strong>#49</strong></a> Preserve folder structure when copying files</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/46"><strong>#46</strong></a> Correctly handle when there is no DotSettings file present</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/45"><strong>#45</strong></a> Make MSBuild CPU Count a BuildParameter</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/44"><strong>#44</strong></a> Set MSBuild to use max # of CPUs when building</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/39"><strong>#39</strong></a> Infer Wyam Variables from other input values</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/34"><strong>#34</strong></a> Handle errors in project parsing</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/32"><strong>#32</strong></a> Allow ability to control Wyam Configuration File</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/31"><strong>#31</strong></a> Remove hard coding of docs</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/28"><strong>#28</strong></a> Provide ability to force documentation publishing</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/27"><strong>#27</strong></a> Only generate documentation when docs folder exists</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/24"><strong>#24</strong></a> Update to latest ReSharper Command Line Tools</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/19"><strong>#19</strong></a> Provide ability to specify PlatformTarget for MSBuild</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/18"><strong>#18</strong></a> Remove dependency on gep13.ApplicationRunner and gep13.xUnitRunner</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/16"><strong>#16</strong></a> Remove the need to set all project level variables</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/15"><strong>#15</strong></a> Remove the need to settings build actions</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/14"><strong>#14</strong></a> Add a ToolSettings class for allow settings of tool configuration</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/13"><strong>#13</strong></a> Make Parameters static, similar to Environment</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/12"><strong>#12</strong></a> Move all environment variables to separate class</li>
+</ul>
+<h3 id="documentation">Documentation</h3>
+<ul>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/357"><strong>#357</strong></a> Include recommended version of Cake in Release Notes</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/300"><strong>#300</strong></a> Document requirements for using Cake.Recipe on different OSes</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/190"><strong>#190</strong></a> Add documentation for code coverage reporting issues with .Net Core</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/71"><strong>#71</strong></a> Add documentation how to create a release</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/pull/52"><strong>#52</strong></a> Fix typo</li>
+<li><a href="https://github.com/cake-contrib/Cake.Recipe/issues/42"><strong>#42</strong></a> Correct missing Wyam settings on force publish</li>
+</ul>
+<h2 id="release-video">Release Video</h2>
+<p>Here is a short video highlighting what is included in this release:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hrs9F79eAFI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript" src="/assets/js/disqus.js"></script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+                                </div>
+                        </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Footer -->
+                <footer>
+                        <div class="container">
+        <div class="row">
+                <div class="col-md-12">
+                <ul class="list-inline text-center">
+                        <li>
+                        <a href="https://twitter.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="https://github.com/gep13">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                        </li>
+                </ul>
+                <p class="copyright text-muted">
+                        Copyright © 2021 by Gary Ewan Park. The opinions expressed herein are my own and do not represent those of my employer or any other third-party views in any way. This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
+                        <br />
+                        <a href="/feed.rss"><i class="fa fa-rss"></i> RSS Feed</a> | <a href="/feed.atom"><i class="fa fa-rss"></i> Atom Feed</a>
+                        <br />
+                        <a href="https://github.com/gep13/gep13.github.io"><i class="fa fa-github"></i> This Site on GitHub</a> | <strong><a href="https://wyam.io">Generated by Wyam</a></strong>
+                </p>
+                </div>
+        </div>
+</div>
+                </footer> 
+
+                <script type="text/javascript" src="/assets/js/google.js"></script>
+<script type="text/javascript" src="/assets/js/anchor.min.js"></script>
+<script type="text/javascript" src="/assets/js/clipboard.min.js"></script>
+<script type="text/javascript" src="/assets/js/anchor.js"></script>
+
+                <script>hljs.initHighlightingOnLoad();</script>
+
+                        <script type="text/javascript">                
+                                // Header background                        
+                                var colors = Please.make_color({
+                                        colors_returned: 3,
+                                        saturation: .6
+                                });
+                                var t = new Trianglify({
+                                        x_gradient: colors,
+                                        y_gradient: ["#FFFFFF"]
+                                });
+                                var header = document.getElementById("intro-header");
+                                var pattern = t.generate(header.clientWidth, header.clientHeight);
+                                header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
+                        </script>
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
+        </body>
+</html>
+

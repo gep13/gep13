@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2021</rights>
-	<updated>2021-01-23T20:22:42Z</updated>
+	<updated>2021-01-23T20:44:51Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vs-release-0.3.0" />
@@ -129,6 +129,30 @@
 		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-recipe-release-2.1.0" />
+		<id>http://www.gep13.co.uk/blog/cake-recipe-release-2.1.0</id>
+		<title>Cake.Recipe Release 2.1.0</title>
+		<updated>2020-11-19T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="bugs"&gt;Bugs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/725"&gt;&lt;strong&gt;#725&lt;/strong&gt;&lt;/a&gt; GitReleaseManager is searching for too many artifacts to upload&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/724"&gt;&lt;strong&gt;#724&lt;/strong&gt;&lt;/a&gt; Builds are failing on GitHub due to usage of set-env&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/719"&gt;&lt;strong&gt;#719&lt;/strong&gt;&lt;/a&gt; Tagged commits on Hotfix branch do not use the correct semantic version number&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="improvements"&gt;Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/721"&gt;&lt;strong&gt;#721&lt;/strong&gt;&lt;/a&gt; Reference to tool GitVersion.Tool in toolsettings.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/716"&gt;&lt;strong&gt;#716&lt;/strong&gt;&lt;/a&gt; Reference to tool ReportGenerator in toolsettings.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/715"&gt;&lt;strong&gt;#715&lt;/strong&gt;&lt;/a&gt; Reference to tool dotnet-reportgenerator-globaltool in toolsettings.cake needs to be updated&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="documentation"&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/702"&gt;&lt;strong&gt;#702&lt;/strong&gt;&lt;/a&gt; TeamCity documentation is missing under CI-Systems&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.1" />
 		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.2.1</id>
 		<title>Cake.VsCode.Recipe Release 0.2.1</title>
@@ -143,6 +167,132 @@
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/vWwO9lP5BG0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-recipe-release-2.0.1" />
+		<id>http://www.gep13.co.uk/blog/cake-recipe-release-2.0.1</id>
+		<title>Cake.Recipe Release 2.0.1</title>
+		<updated>2020-10-09T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="bugs"&gt;Bugs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/708"&gt;&lt;strong&gt;#708&lt;/strong&gt;&lt;/a&gt; Publishing steps other than nuget are not attempted when pushing tags directly&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/706"&gt;&lt;strong&gt;#706&lt;/strong&gt;&lt;/a&gt; Publishing of package to GitHub Packages repository fails&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/701"&gt;&lt;strong&gt;#701&lt;/strong&gt;&lt;/a&gt; Update mention of 0.32.1 in nuspec file&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-recipe-release-2.0.0" />
+		<id>http://www.gep13.co.uk/blog/cake-recipe-release-2.0.0</id>
+		<title>Cake.Recipe Release 2.0.0</title>
+		<updated>2020-10-05T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="breaking-changes"&gt;Breaking changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/604"&gt;&lt;strong&gt;#604&lt;/strong&gt;&lt;/a&gt; Parameter shouldRunGitVersion should be renamed&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/603"&gt;&lt;strong&gt;#603&lt;/strong&gt;&lt;/a&gt; shouldRunGitVersion should be true by default&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/581"&gt;&lt;strong&gt;#581&lt;/strong&gt;&lt;/a&gt; Remove GitHub Password usage&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/559"&gt;&lt;strong&gt;#559&lt;/strong&gt;&lt;/a&gt; Enable publishing to codecov.io by default&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/557"&gt;&lt;strong&gt;#557&lt;/strong&gt;&lt;/a&gt; Remove usage of ReSharperReports&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/555"&gt;&lt;strong&gt;#555&lt;/strong&gt;&lt;/a&gt; Switch away from ContinuousIntegration target name&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/550"&gt;&lt;strong&gt;#550&lt;/strong&gt;&lt;/a&gt; Remove support and tasks for Fixie unit tests&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/548"&gt;&lt;strong&gt;#548&lt;/strong&gt;&lt;/a&gt; Enable deterministic builds when running on a CI system&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/523"&gt;&lt;strong&gt;#523&lt;/strong&gt;&lt;/a&gt; When building .Net Core projects prefer .Net Global Tool when available&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/448"&gt;&lt;strong&gt;#448&lt;/strong&gt;&lt;/a&gt; Don't always delete nupkgs at the end of the build&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/446"&gt;&lt;strong&gt;#446&lt;/strong&gt;&lt;/a&gt; Remove GitLink from Cake.Recipe execution&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/401"&gt;&lt;strong&gt;#401&lt;/strong&gt;&lt;/a&gt; Reference to tool GitVersion.CommandLine in tools.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/359"&gt;&lt;strong&gt;#359&lt;/strong&gt;&lt;/a&gt; Remove Cake.Graph from Cake.Recipe execution&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/313"&gt;&lt;strong&gt;#313&lt;/strong&gt;&lt;/a&gt; Support Cake 0.33.0&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/259"&gt;&lt;strong&gt;#259&lt;/strong&gt;&lt;/a&gt; Using of Cake.Recipe is tightly coupled with AppVeyor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="features"&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/pull/696"&gt;&lt;strong&gt;#696&lt;/strong&gt;&lt;/a&gt; Add rule URL resolver for CakeContrib-Guidelines&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/615"&gt;&lt;strong&gt;#615&lt;/strong&gt;&lt;/a&gt; Add possibility to generate documentation on source-changes&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/599"&gt;&lt;strong&gt;#599&lt;/strong&gt;&lt;/a&gt; Allow specifying which CI platform should be used for publishing&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/598"&gt;&lt;strong&gt;#598&lt;/strong&gt;&lt;/a&gt; Allow disabling or overriding the framework path override&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/597"&gt;&lt;strong&gt;#597&lt;/strong&gt;&lt;/a&gt; Support passing argument to toggle between stable and pre-release release notes&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/571"&gt;&lt;strong&gt;#571&lt;/strong&gt;&lt;/a&gt; Create task for enabling coverlet and adding the necessary workaround for enabling deterministic build&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/531"&gt;&lt;strong&gt;#531&lt;/strong&gt;&lt;/a&gt; Create build provider for GitHub Actions&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/464"&gt;&lt;strong&gt;#464&lt;/strong&gt;&lt;/a&gt; Create Local Build Provider&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/462"&gt;&lt;strong&gt;#462&lt;/strong&gt;&lt;/a&gt; Create TeamCity BuildProvider&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/356"&gt;&lt;strong&gt;#356&lt;/strong&gt;&lt;/a&gt; Add support for code coverage using coverlet&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/309"&gt;&lt;strong&gt;#309&lt;/strong&gt;&lt;/a&gt; Allow skipping Choco task&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/214"&gt;&lt;strong&gt;#214&lt;/strong&gt;&lt;/a&gt; Be able to override tools version&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/188"&gt;&lt;strong&gt;#188&lt;/strong&gt;&lt;/a&gt; Add TravisCI Task&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/9"&gt;&lt;strong&gt;#9&lt;/strong&gt;&lt;/a&gt; Add support for Email Notifications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="bugs"&gt;Bugs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/687"&gt;&lt;strong&gt;#687&lt;/strong&gt;&lt;/a&gt; Publishing Docs no longer works, when repositoryName is not specified explicitly&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/684"&gt;&lt;strong&gt;#684&lt;/strong&gt;&lt;/a&gt; When previewing wyam documentation, the source-code documentation is missing&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/677"&gt;&lt;strong&gt;#677&lt;/strong&gt;&lt;/a&gt; Publishing docs to github-pages does not work, when title and repositoryName do not match&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/pull/661"&gt;&lt;strong&gt;#661&lt;/strong&gt;&lt;/a&gt; (maint) Add missing string split options&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/524"&gt;&lt;strong&gt;#524&lt;/strong&gt;&lt;/a&gt; Problem uploading Coverlet Coverage reports to coveralls.io&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/520"&gt;&lt;strong&gt;#520&lt;/strong&gt;&lt;/a&gt; Pass API Key when pushing to Azure DevOps&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/506"&gt;&lt;strong&gt;#506&lt;/strong&gt;&lt;/a&gt; DotNetCore-Pack creates unix incompatible .net core global tools if version has uppercase characters&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/502"&gt;&lt;strong&gt;#502&lt;/strong&gt;&lt;/a&gt; Restoring packages for .NET Core only restores for debug builds&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/492"&gt;&lt;strong&gt;#492&lt;/strong&gt;&lt;/a&gt; 429 Conflict when pushing packages&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/397"&gt;&lt;strong&gt;#397&lt;/strong&gt;&lt;/a&gt; FileNotFound exception when running integration tests&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/80"&gt;&lt;strong&gt;#80&lt;/strong&gt;&lt;/a&gt; Nupkg uploaded to wrong GitHub release&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/60"&gt;&lt;strong&gt;#60&lt;/strong&gt;&lt;/a&gt; Fix usage of Cake.Recipe on Travis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="improvements"&gt;Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/697"&gt;&lt;strong&gt;#697&lt;/strong&gt;&lt;/a&gt; Reference to tool JetBrains.ReSharper.CommandLineTools in toolsettings.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/pull/690"&gt;&lt;strong&gt;#690&lt;/strong&gt;&lt;/a&gt; Update Cake.Issues.Recipe to 0.4.3&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/675"&gt;&lt;strong&gt;#675&lt;/strong&gt;&lt;/a&gt; Reference to addin Cake.Transifex in addins.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/667"&gt;&lt;strong&gt;#667&lt;/strong&gt;&lt;/a&gt; Reference to tool ReportGenerator in toolsettings.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/666"&gt;&lt;strong&gt;#666&lt;/strong&gt;&lt;/a&gt; Reference to addin Cake.Kudu in addins.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/665"&gt;&lt;strong&gt;#665&lt;/strong&gt;&lt;/a&gt; Reference to tool dotnet-reportgenerator-globaltool in toolsettings.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/656"&gt;&lt;strong&gt;#656&lt;/strong&gt;&lt;/a&gt; Reference to tool codecov in toolsettings.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/655"&gt;&lt;strong&gt;#655&lt;/strong&gt;&lt;/a&gt; Reference to tool Codecov.Tool in toolsettings.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/650"&gt;&lt;strong&gt;#650&lt;/strong&gt;&lt;/a&gt; Reference to addin Cake.Coverlet in addins.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/628"&gt;&lt;strong&gt;#628&lt;/strong&gt;&lt;/a&gt; Builds fail on Linux systems requiring a different version of LibGit2 when running under .NET Core cake&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/626"&gt;&lt;strong&gt;#626&lt;/strong&gt;&lt;/a&gt; Restore the NuGet tool when no existing executable can be found&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/619"&gt;&lt;strong&gt;#619&lt;/strong&gt;&lt;/a&gt; Reference to tool GitVersion.Tool in toolsettings.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/614"&gt;&lt;strong&gt;#614&lt;/strong&gt;&lt;/a&gt; Reference to addin Cake.Email in addins.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/578"&gt;&lt;strong&gt;#578&lt;/strong&gt;&lt;/a&gt; When building source code when not using git, build should still succeed&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/568"&gt;&lt;strong&gt;#568&lt;/strong&gt;&lt;/a&gt; Create log file when running dotnet build&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/536"&gt;&lt;strong&gt;#536&lt;/strong&gt;&lt;/a&gt; Allow ability to override check for supported Cake version&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/535"&gt;&lt;strong&gt;#535&lt;/strong&gt;&lt;/a&gt; Should be able to control whether or not to run Coveralls&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/533"&gt;&lt;strong&gt;#533&lt;/strong&gt;&lt;/a&gt; Support any patch release of Cake for the current major-minor version&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/527"&gt;&lt;strong&gt;#527&lt;/strong&gt;&lt;/a&gt; Upload coverage reports to AppVeyor&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/522"&gt;&lt;strong&gt;#522&lt;/strong&gt;&lt;/a&gt; Update defaults to nuget push sources&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/521"&gt;&lt;strong&gt;#521&lt;/strong&gt;&lt;/a&gt; Fix Non Deterministic error shown in NuGet Package Explorer&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/519"&gt;&lt;strong&gt;#519&lt;/strong&gt;&lt;/a&gt; Allow usage of more then one prerelease nuget source that uses username/password&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/514"&gt;&lt;strong&gt;#514&lt;/strong&gt;&lt;/a&gt; Reference to tool Fixie in toolsettings.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/513"&gt;&lt;strong&gt;#513&lt;/strong&gt;&lt;/a&gt; Update default wyam edit url to use develop property&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/504"&gt;&lt;strong&gt;#504&lt;/strong&gt;&lt;/a&gt; Reference to tool GitReleaseManager in toolsettings.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/499"&gt;&lt;strong&gt;#499&lt;/strong&gt;&lt;/a&gt; Reference to tool KuduSync.NET in toolsettings.cake needs to be updated&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/452"&gt;&lt;strong&gt;#452&lt;/strong&gt;&lt;/a&gt; Tasks defined in GitReleaseManager.cake do not support 2FA&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/447"&gt;&lt;strong&gt;#447&lt;/strong&gt;&lt;/a&gt; Remove reference to MyGet and change terminology around NuGet and Chocolatey&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/379"&gt;&lt;strong&gt;#379&lt;/strong&gt;&lt;/a&gt; Use msbuild on unix when it is installed&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/374"&gt;&lt;strong&gt;#374&lt;/strong&gt;&lt;/a&gt; Do not restore packages during DotNetCore-Build task&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/370"&gt;&lt;strong&gt;#370&lt;/strong&gt;&lt;/a&gt; Allow users to specify directory to restore packages to for .NET Core&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/366"&gt;&lt;strong&gt;#366&lt;/strong&gt;&lt;/a&gt; Latest version of Codecov provides support for unix&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/299"&gt;&lt;strong&gt;#299&lt;/strong&gt;&lt;/a&gt; Trigger notifications (twitter, gitter, etc.) upon successful nuget task, not just on successful build&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/252"&gt;&lt;strong&gt;#252&lt;/strong&gt;&lt;/a&gt; Use binary logging for MSBuild&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/250"&gt;&lt;strong&gt;#250&lt;/strong&gt;&lt;/a&gt; Add Cake.Issues.PullRequests.AppVeyor&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/217"&gt;&lt;strong&gt;#217&lt;/strong&gt;&lt;/a&gt; Versioning - Add ability to override generating versioning information&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/215"&gt;&lt;strong&gt;#215&lt;/strong&gt;&lt;/a&gt; Remove use of deprecated CustomProjectParserResult.OutputPath&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/152"&gt;&lt;strong&gt;#152&lt;/strong&gt;&lt;/a&gt; Target Cake.Tool&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/112"&gt;&lt;strong&gt;#112&lt;/strong&gt;&lt;/a&gt; Enable option to build source nuget packages&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/62"&gt;&lt;strong&gt;#62&lt;/strong&gt;&lt;/a&gt; Publish all artifacts to AppVeyor for PRs&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/48"&gt;&lt;strong&gt;#48&lt;/strong&gt;&lt;/a&gt; Should be able to not include SourceFiles - Wyam&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="documentation"&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/680"&gt;&lt;strong&gt;#680&lt;/strong&gt;&lt;/a&gt; Publishing Documentation from GitHub Actions fails when running on Windows OS&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/pull/672"&gt;&lt;strong&gt;#672&lt;/strong&gt;&lt;/a&gt; (docs) Minor fixes to documentation&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/612"&gt;&lt;strong&gt;#612&lt;/strong&gt;&lt;/a&gt; Document upgrade path from 1.x of Cake.Recipe to 2.x&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/pull/475"&gt;&lt;strong&gt;#475&lt;/strong&gt;&lt;/a&gt; Remove Graph documentation&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/371"&gt;&lt;strong&gt;#371&lt;/strong&gt;&lt;/a&gt; Add documentation about known issue regarding xunit tests when targeting .NET Full Framework&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/151"&gt;&lt;strong&gt;#151&lt;/strong&gt;&lt;/a&gt; Include all available options commented out in setup.cake&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/36"&gt;&lt;strong&gt;#36&lt;/strong&gt;&lt;/a&gt; Add documentation about what Cake.Recipe is and is not&lt;/li&gt;
+&lt;/ul&gt;
+</content>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/stream-number-100" />
@@ -388,6 +538,22 @@
 		<summary>&lt;p&gt;I have been involved in the Chocolatey project in one way or another for a lot of years, and in that time, I have collected a lot of Chocolatey swag.&lt;/p&gt;</summary>
 	</entry>
 	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-recipe-release-1.1.2" />
+		<id>http://www.gep13.co.uk/blog/cake-recipe-release-1.1.2</id>
+		<title>Cake.Recipe Release 1.0.0</title>
+		<updated>2020-06-15T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="bug"&gt;Bug&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/528"&gt;&lt;strong&gt;#528&lt;/strong&gt;&lt;/a&gt; Messages sent twice to Gitter while using integration tests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/aqRV5ks7pvE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
 		<link href="http://www.gep13.co.uk/blog/2019-a-retrospective" />
 		<id>http://www.gep13.co.uk/blog/2019-a-retrospective</id>
 		<title>2019 - A Retrospective</title>
@@ -604,6 +770,22 @@
 		<summary>&lt;p&gt;This was a blog post that was meant to be written at the start of January, but with one thing or another, it didn't get done, but finally able to publish it, so here goes...&lt;/p&gt;</summary>
 	</entry>
 	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-recipe-release-1.1.1" />
+		<id>http://www.gep13.co.uk/blog/cake-recipe-release-1.1.1</id>
+		<title>Cake.Recipe Release 1.0.0</title>
+		<updated>2019-10-21T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="bug"&gt;Bug&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/476"&gt;&lt;strong&gt;#476&lt;/strong&gt;&lt;/a&gt; Include AssemblySemVer in BuildParameters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/kVZU_Bdi9ZM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
 		<link href="http://www.gep13.co.uk/blog/stream-number-50" />
 		<id>http://www.gep13.co.uk/blog/stream-number-50</id>
 		<title>Stream Number 50</title>
@@ -614,6 +796,38 @@
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/FB-iCHmmdR4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;Tonight was stream number 50 (quite a milestone), and we spent it working on Cake.Recipe.  Having a lot of fun doing the weekly streams, and starting to get into a flow of doing them!&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-recipe-release-1.1.0" />
+		<id>http://www.gep13.co.uk/blog/cake-recipe-release-1.1.0</id>
+		<title>Cake.Recipe Release 1.0.0</title>
+		<updated>2019-09-07T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="feature"&gt;Feature&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/395"&gt;&lt;strong&gt;#395&lt;/strong&gt;&lt;/a&gt; Support ability to push to GitHub Package Repository using User/Password&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/c_KNxLcfE7Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-recipe-release-1.0.1" />
+		<id>http://www.gep13.co.uk/blog/cake-recipe-release-1.0.1</id>
+		<title>Cake.Recipe Release 1.0.1</title>
+		<updated>2019-09-03T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="bug"&gt;Bug&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.Recipe/issues/312"&gt;&lt;strong&gt;#312&lt;/strong&gt;&lt;/a&gt; NUnit testing library is detected as xUnit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/UMxc7csvm4A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/mvp-renewal-2019" />
@@ -633,626 +847,5 @@
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 </content>
 		<summary>&lt;p&gt;I am very happy to announce that I have been renewed as a Microsoft MVP.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/new-chocolatey-github-organisations" />
-		<id>http://www.gep13.co.uk/blog/new-chocolatey-github-organisations</id>
-		<title>New Chocolatey GitHub Organisations</title>
-		<updated>2019-04-17T00:00:00Z</updated>
-		<content>&lt;p&gt;I have been thinking a LOT about GitHub Organisations lately.  These thought processes are related to the sustainability and maintainability of GitHub repositories/projects.&lt;/p&gt;
-&lt;p&gt;The most recent thing that spurred this was detailed in a Twitter thread that I created here:&lt;/p&gt;
-&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Thread on OSS... A couple weeks ago, I was contacted about a couple &lt;a href="https://twitter.com/cakebuildnet?ref_src=twsrc%5Etfw"&gt;&amp;#64;cakebuildnet&lt;/a&gt; addins, which appeared to have stopped being maintained.  It was suggested that we could fork the addin&amp;#39;s into the &lt;a href="https://twitter.com/cakecontrib?ref_src=twsrc%5Etfw"&gt;&amp;#64;cakecontrib&lt;/a&gt; Organisation and continue development there.  I was hesitant to... 1/n&lt;/p&gt;&amp;mdash; Gary Ewan Park (&amp;#64;gep13) &lt;a href="https://twitter.com/gep13/status/1115340392197709824?ref_src=twsrc%5Etfw"&gt;April 8, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;The upshot of this was a successful outcome, where the repository in question was transferred into a GitHub Organisation, which is maintained by multiple people, meaning that more people can help out with ongoing changes to these repositories.&lt;/p&gt;
-&lt;p&gt;This got me thinking about my own GitHub profile, as I have a growing number of my own repositories that are starting to get more and more contributions from other people.  I have added these contributors as collaborators on the repository, but they don't have full access to the repositories.  The ability to add this access, to the best of my knowledge, only comes with adding the contributors to an organisation.&lt;/p&gt;
-&lt;h2 id="what-does-this-have-to-do-with-chocolatey"&gt;What does this have to do with Chocolatey?&lt;/h2&gt;
-&lt;p&gt;Some of the most recent repositories that I have been working on are focused on Chocolatey, specifically:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/gep13/chocolatey-vs"&gt;chocolatey-vs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/gep13/chocolatey-vscode"&gt;chocolatey-vscode&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/gep13/chocolatey-azuredevops"&gt;chocolatey-azuredevops&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;While these started out as my own &amp;quot;pet&amp;quot; projects, they are starting to gain more traction and contributions, and it makes sense to move them into the correct Organisation.  This will likely ultimately be the &lt;a href="https://github.com/chocolatey"&gt;chocolatey&lt;/a&gt; Organisation on GitHub, but it started a discussion between myself and Chocolatey Founder, &lt;a href="https://twitter.com/ferventcoder"&gt;Rob Reynolds&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The repositories in the chocolatey GitHub Organisation fall into three distinct categories:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;repositories that are actively being worked on by the core Chocolatey Contributors&lt;/li&gt;
-&lt;li&gt;repositories that are actively being worked on by the wider Chocolatey Community&lt;/li&gt;
-&lt;li&gt;repositories that are no longer being worked on&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Having identified these distinctions, the following changes are going to happen...&lt;/p&gt;
-&lt;h2 id="new-github-organisations"&gt;New GitHub Organisations&lt;/h2&gt;
-&lt;p&gt;Two new GitHub Organisations have been created:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/chocolatey-archive"&gt;chocolatey-archive&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;This is going to house all Chocolatey repositories that are no longer being worked on, but which are being kept around for reference purposes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/chocolatey-community"&gt;chocolatey-community&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;This is going to house all Chocolatey repositories that are being worked on by the wider Chocolatey Community&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The existing &lt;a href="https://github.com/chocolatey"&gt;chocolatey&lt;/a&gt; Organisation will remain, and will house all the repositories that are actively being developed by the core Chocolatey Contributors.&lt;/p&gt;
-&lt;h2 id="what-is-going-to-happen-now"&gt;What is going to happen now?&lt;/h2&gt;
-&lt;p&gt;I have already moved all the required repositories into the &lt;a href="https://github.com/chocolatey-archive"&gt;chocolatey-archive&lt;/a&gt; Organisation.&lt;/p&gt;
-&lt;p&gt;Over the next week or so, I will begin moving repositories into the new &lt;a href="https://github.com/chocolatey-community"&gt;chocolatey-community&lt;/a&gt; Organisation.  To facilitate this, I will also be sending out invitations to Chocolatey Community members to join the new Organisation, and assigning them into teams in the new organisation.  If you are already a member of the chocolatey Organisation, you will likely be invited to the new Organisation as well.  If I can ask you to keep an eye out for this invitation so that I can assign members into the various teams I will create, I would appreciate it.&lt;/p&gt;
-&lt;p&gt;We hope that this re-organisation of the repositories associated with Chocolatey will help to explain what they are for, and who is actively working on the various projects.&lt;/p&gt;
-&lt;p&gt;For more information about the Chocolatey repositories that exist, you can read an earlier &lt;a href="https://www.gep13.co.uk/blog/what-are-all-the-chocolatey-repositories-for"&gt;blog post&lt;/a&gt; that I wrote on this subject.&lt;/p&gt;
-&lt;p&gt;Please feel free to reach out if you have any questions about any of these changes.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;I have been thinking a LOT about GitHub Organisations lately.  These thought processes are related to the sustainability and maintainability of GitHub repositories/projects.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/introducing-cake-vscode-recipe" />
-		<id>http://www.gep13.co.uk/blog/introducing-cake-vscode-recipe</id>
-		<title>Introducing the Cake.VsCode.Recipe Package</title>
-		<updated>2019-02-17T00:00:00Z</updated>
-		<content>&lt;p&gt;This post is about the newly released &lt;a href="https://www.nuget.org/packages/Cake.VsCode.Recipe/"&gt;Cake.VsCode.Recipe&lt;/a&gt; package.&lt;/p&gt;
-&lt;h2 id="what-is-it"&gt;What is it?&lt;/h2&gt;
-&lt;p&gt;Cake.VsCode.Recipe, whose source code can be found &lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe"&gt;here&lt;/a&gt; is an opinionated set of scripts for &lt;a href="https://cakebuild.net/"&gt;Cake&lt;/a&gt;, specifically around the creation and publishing of an extension to the &lt;a href="https://marketplace.visualstudio.com/vscode"&gt;Visual Studio Code Marketplace&lt;/a&gt;.  As most of you will be aware, I am a maintainer of the Cake project, and I have a growing &lt;a href="https://marketplace.visualstudio.com/publishers/gep13"&gt;collection of extensions&lt;/a&gt; for Visual Studio Code, so it should come as no real surprise to you that I wanted a way to reliably, and consistently, build and publish these extensions.&lt;/p&gt;
-&lt;h2 id="why-is-this-needed"&gt;Why is this needed?&lt;/h2&gt;
-&lt;p&gt;Across the Visual Studio Code extensions that I have created, and work on, I found myself writing the same build steps over and over again for building and publishing them.  In each of these projects, I was writing almost EXACTLY the same code, but with simply a few changes here and there for project specific configuration.  After a few rounds of making a modification to one projects build scripts, only to have to duplicate that work in the other projects, I decided it was time to centralize these scripts into one location.  And that is where the Cake.VsCode.Recipe package comes in.&lt;/p&gt;
-&lt;h2 id="what-does-it-do"&gt;What does it do?&lt;/h2&gt;
-&lt;p&gt;In addition to wrapping the calls to build a Visual Studio Code extension, Cake.VsCode.Recipe encompasses the complete process of publishing the extension.  In my case, this includes the creation of a Chocolatey package, which makes it incredible simple to get the extension installed on a new machine in an automated way.  The tasks that are executed by Cake.VsCode.Recipe are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Print-AppVeyor-Environment-Variables
-&lt;ul&gt;
-&lt;li&gt;Really a helper task.  When running on AppVeyor, it will print out all the Environment Variables used by AppVeyor.  These can be useful when debugging issues with the build process.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Export-Release-Notes
-&lt;ul&gt;
-&lt;li&gt;Can be used to export the set of generated release notes for the project, and include in the released artifacts.  This isn't enabled by default.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Clear-AppVeyor-Cache
-&lt;ul&gt;
-&lt;li&gt;Another helper method.  In order to speed up build times, AppVeyor allows heavy caching of files.  From time to time, it is helpful to bust this cache, again for the purposes of debugging.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Show-Info
-&lt;ul&gt;
-&lt;li&gt;Similar to Print-AppVeyor-Environment-Variables, this task prints out information about the current configuration of Cake.VsCode.Recipe itself&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Clean
-&lt;ul&gt;
-&lt;li&gt;Tidies up the generated artifacts, ready for re-building it&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Update-Project-Json-Version
-&lt;ul&gt;
-&lt;li&gt;This uses the output from GitVersion, to update the projects Json file with the asserted version number.  This is ultimately used to version the generated vsix and nupkg file.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Npm-Install
-&lt;ul&gt;
-&lt;li&gt;Based on the contents of the package.json file, run &lt;code&gt;npm install&lt;/code&gt; to install all required dependencies.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Install-TypeScript
-&lt;ul&gt;
-&lt;li&gt;In order to successfully build the Visual Studio Code extension, it is necessary to have the tsc tool installed.  This task uses npm to install this tool globally.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Install-Vsce
-&lt;ul&gt;
-&lt;li&gt;vsce is the tool that is used to actually publish an extension to the Visual Studio Code Marketplace.  Again, use npm to install this globally.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Package-Extension
-&lt;ul&gt;
-&lt;li&gt;This task builds and packages the Visual Studio Code extension.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Create-Chocolatey-Package
-&lt;ul&gt;
-&lt;li&gt;Once the vsix file is generated, create an embedded Chocolatey Package, with the vsix file contained within it, making it very simple to install it on a new machine.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Upload-AppVeyor-Artifacts
-&lt;ul&gt;
-&lt;li&gt;All artifacts from the build, i.e. the vsix and nupkg files, are uploaded to AppVeyor for later usage.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Publish-GitHub-Release
-&lt;ul&gt;
-&lt;li&gt;When a release of the extension is made, upload assets to the created GitHub release, again, for later usage.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Publish-Extension
-&lt;ul&gt;
-&lt;li&gt;When a release of the extension is made, publish the generated vsix file to the Visual Studio Code Marketplace.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Publish-Chocolatey-Package
-&lt;ul&gt;
-&lt;li&gt;When a release of the extension is made, publish the genereated nupkg file to Chocolatey.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Clean-Documentation
-&lt;ul&gt;
-&lt;li&gt;Clean any/all documentation for the project&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Deploy-Graph-Documentation
-&lt;ul&gt;
-&lt;li&gt;Scan the Cake dependency graph and generate some documentation around what tasks are included in the Recipe.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Publish-Documentation
-&lt;ul&gt;
-&lt;li&gt;Takes the generated documentation, and publishes it to GitHub Pages.  This will use KuduSync to verify that there are actually differences in the newly generated files, compared to what is already published, and will only publish if there are differences&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Preview-Documentation
-&lt;ul&gt;
-&lt;li&gt;When running locally, Wyam has the ability to serve the content from a webserver, which can then be viewed.  In addition, when changes are made to the documentation, it will immediately re-build and show the changes.  This is very useful when iterating over a change&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;With all of these top level tasks taken care of, it is just a case of installing Cake.VsCode.Recipe into my build process for the project I am working on, and configuring the project specific details&lt;/p&gt;
-&lt;h2 id="installation"&gt;Installation&lt;/h2&gt;
-&lt;p&gt;Installing Cake.VsCode.Recipe into a build is done using Cake's &lt;code&gt;load&lt;/code&gt; pre-processor directive.  It is as simple as this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#load nuget:https://www.nuget.org/api/v2?package=Cake.VsCode.Recipe&amp;amp;version=0.1.0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Here, I am telling Cake to go to NuGet and find version 0.1.0 of Cake.VsCode.Recipe, and load the scripts that it contains.  Cake will download the nupkg, extract the files into the tools folder, and then iterate through all of the &lt;code&gt;.cake&lt;/code&gt; files contained within it, into the current build.  This saves a lot of time and effort by not having to do this manually.  Then, when a new version of Cake.VsCode.Recipe is released, all that has to be done is to change the version number, and a project has the latest and greatest scripts available.&lt;/p&gt;
-&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
-&lt;p&gt;With that done, all that is required is to configure the project specific details.  For example:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Environment.SetVariableNames();
-
-BuildParameters.SetParameters(context: Context,
-                            buildSystem: BuildSystem,
-                            title: &amp;quot;CI-CD-assets-vscode&amp;quot;,
-                            repositoryOwner: &amp;quot;gep13&amp;quot;,
-                            repositoryName: &amp;quot;CI-CD-assets-vscode&amp;quot;,
-                            appVeyorAccountName: &amp;quot;GaryEwanPark&amp;quot;,
-                            shouldRunGitVersion: true);
-
-BuildParameters.PrintParameters(Context);
-
-Build.Run();
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;A lot of things in Cake.VsCode.Recipe are done via Environment Variables.  For example, storing the credentials that are used to commit and push changes to GitHub Pages, publishing to Chocolatey and Visual Studio Code Marketplace, etc.  Out of the box, Cake.VsCode.Recipe expects these variables to be a certain name, but it is possible to override these to your own preferences.  In the script above, calling &lt;code&gt;Environment.SetVariableNames();&lt;/code&gt; simply sets these to the default values.&lt;/p&gt;
-&lt;p&gt;With that done, calling &lt;code&gt;SetParameters&lt;/code&gt; allows setting up specific information, such as the name of the project, etc.&lt;/p&gt;
-&lt;p&gt;Then it is simply a case of printing the parameters (purely optional), and then running the build, and job done.&lt;/p&gt;
-&lt;p&gt;So, when testing locally, all that is required is to execute either:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;./build.ps1
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;or&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;./build.sh
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Doing either of these will cause the default Package-Extension task to be executed, and on completion, you will have a generated vsix file, that can be loaded into Visual Studio Code for testing.&lt;/p&gt;
-&lt;p&gt;In a CI context, you would do something like:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;.\build.ps1 -Target &amp;quot;AppVeyor&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Which would execute a different path which would cause the Publish Tasks to be called, which would, assuming it is a tagged release, result in publishing to both Chocolatey and Visual Studio Code Marketplace.&lt;/p&gt;
-&lt;h2 id="documentation"&gt;Documentation&lt;/h2&gt;
-&lt;p&gt;You can find additional documentation for this package here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cake-contrib.github.io/Cake.VsCode.Recipe/"&gt;https://cake-contrib.github.io/Cake.VsCode.Recipe/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="source-code"&gt;Source Code&lt;/h2&gt;
-&lt;p&gt;The source code for this Extension can be found here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe"&gt;https://github.com/cake-contrib/Cake.VsCode.Recipe&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="chat-room"&gt;Chat Room&lt;/h2&gt;
-&lt;p&gt;If you have any questions about this package, then please feel to drop into the Gitter Chat room:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gitter.im/cake-contrib/Lobby?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge"&gt;&lt;img src="https://badges.gitter.im/cake-contrib/Lobby.svg" class="img-fluid" alt="Join the chat at https://gitter.im/cake-contrib/Lobby" /&gt;&lt;/a&gt;&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;This post is about the newly released &lt;a href="https://www.nuget.org/packages/Cake.VsCode.Recipe/"&gt;Cake.VsCode.Recipe&lt;/a&gt; package.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.1.0" />
-		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.1.0</id>
-		<title>Cake.VsCode.Recipe Release 0.1.0</title>
-		<updated>2019-02-17T00:00:00Z</updated>
-		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
-&lt;h3 id="feature"&gt;Feature&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/1"&gt;&lt;strong&gt;#1&lt;/strong&gt;&lt;/a&gt; Generate nupkg with set of opinionated scripts for publishing VS Code Extension&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
-&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/1uNI67JgIZQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/2019-speaking-tour" />
-		<id>http://www.gep13.co.uk/blog/2019-speaking-tour</id>
-		<title>2019 Speaking Tour</title>
-		<updated>2019-01-12T00:00:00Z</updated>
-		<content>&lt;p&gt;Hot on the heels of the speaking tour that I did &lt;a href="https://www.gep13.co.uk/blog/2018-speaking-tour"&gt;this time last year&lt;/a&gt;, I have decided that I am going to do it all over again!  I was approached by the organisers of the HaintonDotNet User Groups to see if I would be interested in doing my Cake talk at their User Groups in Newcastle and Middlesborough.  I said that I would be, and off the back of that I was able to secure another talk at Sheffield again, and then on the way home, a stop at Glasgow.&lt;/p&gt;
-&lt;h2 id="dates-and-venues"&gt;Dates and venues&lt;/h2&gt;
-&lt;p&gt;All the details of the talks are shown below.&lt;/p&gt;
-&lt;h3 id="dotnetsheff-sheffield"&gt;dotnetsheff - Sheffield&lt;/h3&gt;
-&lt;p&gt;The first stop in the series has me visiting Sheffield on the 28th January 2019, to do a talk on &lt;a href="https://chocolatey.org"&gt;Chocolatey&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The registration website is here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.meetup.com/dotnetsheff/events/254791420/"&gt;https://www.meetup.com/dotnetsheff/events/254791420/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Thanks to Kevin for helping to set this up!&lt;/p&gt;
-&lt;h3 id="haintondotnet-north-east-newcastle"&gt;HaintonDotNet - North East - Newcastle&lt;/h3&gt;
-&lt;p&gt;The second stop has me visiting Newcastle to present a talk on &lt;a href="https://cakebuild.net"&gt;Cake&lt;/a&gt; on the 29th January 2019.&lt;/p&gt;
-&lt;p&gt;The registration website is here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.meetup.com/HaintonDotNetNE/events/srwglqyzcbmc/"&gt;https://www.meetup.com/HaintonDotNetNE/events/srwglqyzcbmc/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Thanks to Tom for helping to set this up!&lt;/p&gt;
-&lt;h3 id="haintondotnet-north-east-middlesborough"&gt;HaintonDotNet - North East - Middlesborough&lt;/h3&gt;
-&lt;p&gt;The third stop of the tour is Middlesborough to present the same talk on &lt;a href="https://cakebuild.net"&gt;Cake&lt;/a&gt; on the 30th January 2019.&lt;/p&gt;
-&lt;p&gt;The registration website is here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.meetup.com/HaintonDotNetNE/events/256030029/"&gt;https://www.meetup.com/HaintonDotNetNE/events/256030029/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Thanks again to Tom for helping to set this up!&lt;/p&gt;
-&lt;h3 id="scottish-powershell-and-devops-user-groups-glasgow"&gt;Scottish PowerShell and DevOps User Groups - Glasgow&lt;/h3&gt;
-&lt;p&gt;The final stop on the tour has me travelling to Glasgow to do a new talk on using &lt;a href="https://www.packer.io/"&gt;Packer&lt;/a&gt; and &lt;a href="https://www.terraform.io/"&gt;Terraform&lt;/a&gt; on the 31st January 2019.&lt;/p&gt;
-&lt;p&gt;The registration website is here:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.meetup.com/Scottish-PowerShell-User-Group/events/256369105/"&gt;https://www.meetup.com/Scottish-PowerShell-User-Group/events/256369105/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Thanks to Paul for helping to set this up!&lt;/p&gt;
-&lt;h2 id="the-map"&gt;The Map&lt;/h2&gt;
-&lt;p&gt;Roughly speaking, this will be around 900 miles of driving, and should take around 16 hours.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/12/google-map.png" class="img-fluid" alt="Google Map of the Tour" /&gt;&lt;/p&gt;
-&lt;p&gt;It's a good thing that I have just bought a couple new Audible books!&lt;/p&gt;
-&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Happy days!  Just used up two of my credits on two new &lt;a href="https://twitter.com/audible_com?ref_src=twsrc%5Etfw"&gt;&amp;#64;audible_com&lt;/a&gt; books!  Looking forward to listening to these! &lt;a href="https://t.co/ehjJ913bpX"&gt;pic.twitter.com/ehjJ913bpX&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gary Ewan Park (&amp;#64;gep13) &lt;a href="https://twitter.com/gep13/status/1082993766053629953?ref_src=twsrc%5Etfw"&gt;January 9, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-</content>
-		<summary>&lt;p&gt;Hot on the heels of the speaking tour that I did &lt;a href="https://www.gep13.co.uk/blog/2018-speaking-tour"&gt;this time last year&lt;/a&gt;, I have decided that I am going to do it all over again!  I was approached by the organisers of the HaintonDotNet User Groups to see if I would be interested in doing my Cake talk at their User Groups in Newcastle and Middlesborough.  I said that I would be, and off the back of that I was able to secure another talk at Sheffield again, and then on the way home, a stop at Glasgow.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/what-are-all-the-chocolatey-repositories-for" />
-		<id>http://www.gep13.co.uk/blog/what-are-all-the-chocolatey-repositories-for</id>
-		<title>What are all the Chocolatey repositories for?</title>
-		<updated>2019-01-11T00:00:00Z</updated>
-		<content>&lt;p&gt;I recently received a Tweet:&lt;/p&gt;
-&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;I hope you don&amp;#39;t mind me saying, but Chocolatey has a pretty confusing structure. one of the reasons I feel hesitant to report issues on github repos is that I&amp;#39;m not sure were to put them. the one I have just opened is for example in the wrong place :(&lt;/p&gt;&amp;mdash; Foad Sojoodi Farimani (&amp;#64;fsfarimani) &lt;a href="https://twitter.com/fsfarimani/status/1083460818929360896?ref_src=twsrc%5Etfw"&gt;January 10, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;Which got me thinking... There are 35 repositories in the &lt;a href="https://github.com/chocolatey"&gt;GitHub Organisation for Chocolatey&lt;/a&gt;, and if you are new to Chocolatey, it can daunting to know which repository is for what.  So I thought I would go through each repository, providing a short description about what it is.  In the absence of anything better, I have ordered the list based on how many stars it has on GitHub.&lt;/p&gt;
-&lt;p&gt;Let's get started...&lt;/p&gt;
-&lt;h2 id="choco"&gt;&lt;a href="https://github.com/chocolatey/choco"&gt;choco&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This is the main GitHub Repository for Chocolatey.
-It contains the source code for the Chocolatey CLI, which can be downloaded and installed using the &lt;a href="https://chocolatey.org/install"&gt;instructions on this page&lt;/a&gt;.
-If you encounter any problems with Chocolatey, this is likely the first place to come to see if it is a known issue, or to create a new one.
-If you are going to raise an issue, please ensure that you read the issue templates to see where the best place to get an answer to your question is.&lt;/p&gt;
-&lt;h2 id="chocolatey"&gt;&lt;a href="https://github.com/chocolatey/chocolatey"&gt;chocolatey&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This is the original GitHub Repository for the Chocolatey project.
-The first version of Chocolatey was written using PowerShell.
-In 2014, Chocolatey was rewritten in C# and the decision was taken to create a new repository.
-In all likelihood, you should never need to use this repository, and likely any issue that is created on this repository will need to be moved to the other repository mentioned above.
-It has been left active/visible for reference only.&lt;/p&gt;
-&lt;h2 id="boxstarter"&gt;&lt;a href="https://github.com/chocolatey/boxstarter"&gt;boxstarter&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository houses the source code for the Boxstarter project.
-&lt;a href="https://boxstarter.org/"&gt;Boxstarter&lt;/a&gt; is built on top of Chocolatey, and it brings with it repeatable, reboot resilient Windows environment installations.
-This project was originally started in 2012 by &lt;a href="https://twitter.com/mwrockx"&gt;Matt Wrock&lt;/a&gt;, but in 2018 this project &lt;a href="https://chocolatey.org/blog/boxstarter-moves-under-chocolatey-github-organization"&gt;moved&lt;/a&gt; under the Chocolatey GitHub Organisation.
-You would use this repository for anything related to the Boxstarter project.&lt;/p&gt;
-&lt;h2 id="chocolateygui"&gt;&lt;a href="https://github.com/chocolatey/ChocolateyGUI"&gt;ChocolateyGUI&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository houses the source code for the Chocolatey GUI project.
-Chocolatey GUI is a WPF application that works alongside Chocolatey, and provides a visual interface to interact with Chocolatey.
-This includes the ability to list/install/upgrade/uninstall Chocolatey Packages.
-As well as the ability to add/remove Chocolatey Sources, and enable/disable Chocolatey features.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/11/chocolatey-gui.png" class="img-fluid" alt="Chocolatey GUI" /&gt;&lt;/p&gt;
-&lt;h2 id="chocolatey.org"&gt;&lt;a href="https://github.com/chocolatey/chocolatey.org"&gt;chocolatey.org&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository houses the source code for the Chocolatey Community Repository, i.e. &lt;a href="https://chocolatey.org/"&gt;chocolatey.org&lt;/a&gt;.
-This is an ASP.NET MVC application, and you would use this repository to ask any questions about the website itself.
-&lt;strong&gt;NOTE:&lt;/strong&gt; You should not use this repository to report problems with a particular Chocolatey package.
-That should be done by following up with the package maintainer directly.&lt;/p&gt;
-&lt;h2 id="chocolatey-coreteampackages"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-coreteampackages"&gt;chocolatey-coreteampackages&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository houses the source code for all the packages on chocolatey.org that are maintained by the &lt;a href="https://chocolatey.org/profiles/chocolatey"&gt;chocolatey&lt;/a&gt; user.
-This repository is maintained by a dedicated set of volunteers.
-It makes use of the &lt;a href="https://github.com/majkinetor/au"&gt;AU&lt;/a&gt; updating system.
-As a result, all packages in this repository are checked for new versions every 6 hours, meaning that hundreds of packages are constantly kept up to date.&lt;/p&gt;
-&lt;h2 id="chocolatey-cookbook"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-cookbook"&gt;chocolatey-cookbook&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository houses the source code for the &lt;a href="https://www.chef.io/"&gt;Chef&lt;/a&gt; Cookbook.
-This allows the installation and maintenance of Chocolatey Packages using Chef.
-You can find out more information about using this &lt;a href="https://docs.chef.io/resource_chocolatey_package.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="cchoco"&gt;&lt;a href="https://github.com/chocolatey/cChoco"&gt;cChoco&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository houses the source code for the Chocolatey DSC Resource.
-This allows you to easy install Chocolatey packages while making use of DSC.&lt;/p&gt;
-&lt;h2 id="puppet-chocolatey"&gt;&lt;a href="https://github.com/chocolatey/puppet-chocolatey"&gt;puppet-chocolatey&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository used to house the official module for working with Chocolatey in Puppet, however, this has since been forked and is now maintained &lt;a href="https://github.com/puppetlabs/puppetlabs-chocolatey"&gt;here&lt;/a&gt;.
-As a result, there should be no need to interact with this repository, and at some point, it will likely be archived.
-This module allow the installation of Chocolatey, management of Chocolatey config and features, and also install/update of packages.&lt;/p&gt;
-&lt;h2 id="choco-wiki"&gt;&lt;a href="https://github.com/chocolatey/choco-wiki"&gt;choco-wiki&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository is a clone of the Wiki that is available &lt;a href="https://github.com/chocolatey/choco/wiki"&gt;here&lt;/a&gt;.
-This allows us to accept contributions to the Wiki in a way that can be administrated.
-The contents of this repository are ultimately rendered in the website &lt;a href="https://chocolatey.org/docs"&gt;here&lt;/a&gt;.
-If you want/need to change any documentation in this section of the website, this is where a PR would be raised, or issue created.&lt;/p&gt;
-&lt;h2 id="chocolatey-test-environment"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-test-environment"&gt;chocolatey-test-environment&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository houses the local Chocolatey Test Environment, which is essentially a vagrant setup which allows you to test your Chocolatey packages.
-This is the same test environment that is used by the automated moderation process when you submit a package to chocolatey.org.
-If you are running into any issues with packages failing when you push them to chocolatey.org, this is the recommended way to figure out what is going on.
-For more information about the moderation process for chocolatey.org you can watch this video:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/35JiK0AdGqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h2 id="chocolatey-oneget"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-oneget"&gt;chocolatey-oneget&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository houses the source code for the OneGet (a.k.a Package Management) Provider for Chocolatey.
-If you are interested in helping with this provider, this is where you would start, as we are looking for help with this provider.
-Please take note of the warnings in the readme of this repository.&lt;/p&gt;
-&lt;h2 id="shimgen"&gt;&lt;a href="https://github.com/chocolatey/shimgen"&gt;shimgen&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;One of the tools that ships with Chocolatey is called shimgen.
-Shimgen is a tool that makes batch redirection not suck so much by generating shims that point to target executable files.
-Shimgen is a commercial tool provided by RealDimensions Software, LLC (RDS) for free use with the Chocolatey client.
-This repository serves as a location to raise any issues with the shimgen tool.
-It does not house the source code for this tool.&lt;/p&gt;
-&lt;h2 id="chocolatey-package-requests"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-package-requests"&gt;chocolatey-package-requests&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;There is no source code in this repository.
-Rather, this repository houses a list of issues for software applications that people would like to see added to chocolatey.org.
-The idea is that anyone interested in helping with the creation of a Chocolatey package can select one from this list.&lt;/p&gt;
-&lt;h2 id="chocolateytemplates"&gt;&lt;a href="https://github.com/chocolatey/chocolateytemplates"&gt;chocolateytemplates&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This is an older repository that houses a set of warmup templates for creating Chocolatey packages.
-As of today, creating a Chocolatey package is best done using the &lt;a href="https://chocolatey.org/docs/commands-new"&gt;choco new&lt;/a&gt;, so most likely you will not need to use it.&lt;/p&gt;
-&lt;h2 id="simple-server"&gt;&lt;a href="https://github.com/chocolatey/simple-server"&gt;simple-server&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository houses the source code for a website known as the Chocolatey Simple Server, which is also known as chocolatey.server.
-This is an application that you can use to house Chocolatey packages locally in your environment, rather than using chocolatey.org.
-This is similar to applications like Nexus, Artifactory or ProGet.
-However, this is a very basic application, that doesn't have all the features of these other applications.&lt;/p&gt;
-&lt;h2 id="chocolatey-packages-template"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-packages-template"&gt;chocolatey-packages-template&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;If you are interested in maintaining your own Chocolatey Packages, this repository houses a sample for how to setup your own repository.
-The idea would be that you fork this repository, and tailor it to your own needs.
-This repository has the suggested setup for both ketarin and AU, both of which are described &lt;a href="https://chocolatey.org/docs/automatic-packages"&gt;here&lt;/a&gt;.
-As of today, the main recommendation for automatic packaging is AU, as such, if you are starting your own repository, perhaps best to start with this &lt;a href="https://github.com/majkinetor/au-packages-template"&gt;template&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="package-validator"&gt;&lt;a href="https://github.com/chocolatey/package-validator"&gt;package-validator&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository houses the source code for the package-validator windows service.
-This is one of the automatic moderation processes that all packages submitted to chocolatey.org go through.
-For more information on this, see the video further up in this blog post.
-You would raise issues here if you find any problems with this service.&lt;/p&gt;
-&lt;h2 id="package-verifier"&gt;&lt;a href="https://github.com/chocolatey/package-verifier"&gt;package-verifier&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository houses the source code for the package-verifier windows service.
-This is one of the automatic moderation processes that all packages submitted to chocolatey.org go through.
-For more information on this, see the video further up in this blog post.
-You would raise issues here if you find any problems with this service.&lt;/p&gt;
-&lt;h2 id="nuget-chocolatey"&gt;&lt;a href="https://github.com/chocolatey/nuget-chocolatey"&gt;nuget-chocolatey&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository houses a copy of the NuGet Source Code.
-Chocolatey is built on top of the NuGet Client libraries, and as such, it maintains a copy of those libraries, as some changes had to be made to make it work for Chocolatey.
-As changes are made in the upstream NuGet Source Code, the relevant changes will be pulled into this repository so that they can be used in Chocolatey.&lt;/p&gt;
-&lt;h2 id="puppet-chocolatey_server"&gt;&lt;a href="https://github.com/chocolatey/puppet-chocolatey_server"&gt;puppet-chocolatey_server&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository houses the source code for a Puppet Module that can be used to automatically install/configure the chocolatey.server package.
-This means, assuming you are using Puppet, you can very quickly get up and running with this application.&lt;/p&gt;
-&lt;h2 id="puppet-chocolatey-handsonlab"&gt;&lt;a href="https://github.com/chocolatey/puppet-chocolatey-handsonlab"&gt;puppet-chocolatey-handsonlab&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This is the source code for a hands on lab that was hosted at PuppetConf 2013 regarding the chocolatey provider.&lt;/p&gt;
-&lt;h2 id="chocolatey-licensed-issues"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-licensed-issues"&gt;chocolatey-licensed-issues&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;There is no source code in this repository.
-Instead, this houses a list of issues that have been raised against the licensed versions of Chocolatey.
-This gives a means of allowing people interested in issues raised with the licensed versions to follow when these issues have been resolved.&lt;/p&gt;
-&lt;h2 id="chocobot-gitter"&gt;&lt;a href="https://github.com/chocolatey/chocobot-gitter"&gt;chocobot-gitter&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Within the various Gitter rooms that exist for Chocolatey, for example the &lt;a href="https://gitter.im/chocolatey/choco"&gt;main one&lt;/a&gt;, there is a Hubot instance running.
-This is really just a little bit of fun, as the Hubot instance doesn't actually have any automation capabilities.
-This repository contains the source code for the Hubot instance.&lt;/p&gt;
-&lt;h2 id="chocolatey-packages-recipes"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-package-recipes"&gt;chocolatey-packages-recipes&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Have you ever had to deal with a really hard application to package as a Chocolatey Package?
-Or, have you ever been very happy with the outcome of a package that you created?
-If so, and you are willing to share that work with others, this repository is a place to show them off.
-At the time of writing, this repository houses examples of how to package Office 365 and Visual Studio 2017.&lt;/p&gt;
-&lt;h2 id="package-cleanup"&gt;&lt;a href="https://github.com/chocolatey/package-cleanup"&gt;package-cleanup&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository houses the source code for the package-cleanup windows service.
-This is one of the automatic moderation processes that all packages submitted to chocolatey.org go through.
-For more information on this, see the video further up in this blog post.
-You would raise issues here if you find any problems with this service.&lt;/p&gt;
-&lt;h2 id="chocolatey-package-updater"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-package-updater"&gt;chocolatey-package-updater&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Similar to the shimgen repository, this repository houses an issues list for the chocolatey-package-updater tool.
-This tool is closed source, but free to use for maintaining Chocolatey packages.
-This is normally used when using the ketarin application to update packages.
-&lt;strong&gt;NOTE:&lt;/strong&gt; Currently, the recommended way to create automatically updating Chocolatey packages is to use &lt;a href="https://github.com/majkinetor/au"&gt;AU&lt;/a&gt;.
-As a result, it is unlikely, unless you are already using ketarin, that you will need to use this repository.&lt;/p&gt;
-&lt;h2 id="chocolatey.github.com"&gt;&lt;a href="https://github.com/chocolatey/chocolatey.github.com"&gt;chocolatey.github.com&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This is a deprecated repository, that no longer is used, and is kept around for reference only.
-It used to house the source code for a documentation site for Chocolatey, however, this is replaced with the &lt;a href="https://chocolatey.org/docs"&gt;docs site&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="chocolatey-book"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-book"&gt;chocolatey-book&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This repository hasn't really seen much traffic yet.
-The idea was that this repository would house a walkthrough book on house to use Chocolatey.
-If you are interested in helping with this effort, then definitely reach out.&lt;/p&gt;
-&lt;h2 id="chocolatey.web"&gt;&lt;a href="https://github.com/chocolatey/chocolatey.web"&gt;chocolatey.web&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Prior to making the decision to fork the NuGet Gallery to create the Chocolatey Community Repository, this repository was going to hold the source code for it.
-Originally, FubuMVC was being considered as the basis for the Chocolatey Community Repository.
-As you can see, it doesn't house much and is probably something we should move into an archive.&lt;/p&gt;
-&lt;h2 id="chocolatey-environments"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-environments"&gt;chocolatey-environments&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This is a reasonably new repository.
-The intention is that this will house example vagrant environments that can be used to test out the various parts of Chocolatey.
-The first example environment in this repository shows you how to setup a system for automated package internalization in your own environment.&lt;/p&gt;
-&lt;h2 id="nuget.server-chocolatey"&gt;&lt;a href="https://github.com/chocolatey/NuGet.Server-chocolatey"&gt;NuGet.Server-chocolatey&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Simple Server actually needs this repository for building up the binaries that it uses.
-This is a Chocolatey-specific fork to add enhancements to that repository so they can be used with Chocolatey Simple Server.&lt;/p&gt;
-&lt;h2 id="chocobot-slack"&gt;&lt;a href="https://github.com/chocolatey/chocobot-slack"&gt;chocobot-slack&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This is similar to the chocobot-gitter repository.
-The only difference being that this Hubot instance is for Slack, rather than Gitter.&lt;/p&gt;
-&lt;h2 id="cla-assistant"&gt;&lt;a href="https://github.com/chocolatey/cla-assistant"&gt;cla-assistant&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;In order to ensure that everyone that contributes to Chocolatey has signed the CLA that we have in place, we run this CLA assistant.&lt;/p&gt;
-&lt;h2 id="chocolatey-webhooks"&gt;&lt;a href="https://github.com/chocolatey/chocolatey-webhooks"&gt;chocolatey-webhooks&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;chocolatey-webhooks acts as a relay from GitHub and other services to Jira and Trello, so that events on a Github project automatically create and update Jira issues or Trello cards.
-This is a work in progress repository, and isn't currently actively being used.&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;I recently received a Tweet:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/2018-a-retrospective" />
-		<id>http://www.gep13.co.uk/blog/2018-a-retrospective</id>
-		<title>2018 - A Retrospective</title>
-		<updated>2019-01-01T00:00:00Z</updated>
-		<content>&lt;p&gt;When I was growing up, I always thought it was a cliché to hear people say that &lt;code&gt;the year has passed SO quickly&lt;/code&gt;, but this year, I got to witness this first hand.  2018 passed VERY quickly!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/The-Girls.png" class="img-fluid" alt="The Girls" /&gt;&lt;/p&gt;
-&lt;p&gt;It is hard to believe that our eldest child is away to Primary School and our youngest is almost 2!  Where has this time gone!?!?&lt;/p&gt;
-&lt;p&gt;One of the best side effects of now working from home is that I get to spend more time with these two incredible children, including doing things like the school drop offs, etc, things that I would never have been able to do in previous job.  I am very thankful for getting to spend more time with these two, as well as obviously my wife.&lt;/p&gt;
-&lt;h2 id="looking-back-on-2018"&gt;Looking back on 2018&lt;/h2&gt;
-&lt;p&gt;2018 as been a VERY busy year, in which there have been some highs, and some lows (there were two deaths in our family this year).&lt;/p&gt;
-&lt;p&gt;As per the &lt;a href="https://www.gep13.co.uk/blog/2017-a-retrospective"&gt;post&lt;/a&gt; that I did last year, this post is a brief recap, in no particular order, of some of the highlights of 2018.&lt;/p&gt;
-&lt;h2 id="started-working-at-chocolatey"&gt;Started working at Chocolatey&lt;/h2&gt;
-&lt;p&gt;In January, I started &lt;a href="https://www.gep13.co.uk/blog/and-so-the-adventure-begins"&gt;working for Chocolatey&lt;/a&gt; full time.  This was a huge step for me, and I am very happy to say that it has been going very well, and I am excited to see what 2019 has in store for us all.  Throughout 2018, the Chocolatey Team has expanded, and it is looking set to expand further in 2019.  Some very exciting times ahead.&lt;/p&gt;
-&lt;p&gt;As a result of starting to work from home, this saw a conversation of half of our garage from this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Office.png" class="img-fluid" alt="Office Before" /&gt;&lt;/p&gt;
-&lt;p&gt;into this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Office1.png" class="img-fluid" alt="Office After" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Office2.png" class="img-fluid" alt="Office After" /&gt;&lt;/p&gt;
-&lt;p&gt;It has been a busy year for Chocolatey, starting off with me travelling to Kansas to spend a week with Rob, as an introduction.  Since then we have been busy working on new releases across all Chocolatey components, with my main focus being on Chocolatey Central Management, which is now available in beta for customers to trial out.  In addition, we released a new version of &lt;a href="https://www.gep13.co.uk/blog/chocolatey-gui-v0.16.0-released"&gt;Chocolatey GUI&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="speaking-tour"&gt;Speaking Tour&lt;/h2&gt;
-&lt;p&gt;Starting in January, and going into February, I went &lt;a href="https://www.gep13.co.uk/blog/2018-speaking-tour"&gt;on the road&lt;/a&gt; and presented at a number of .Net User Groups.  This included talks on both Chocolatey and Cake.  This was my first time doing anything like this, but I had such a good time, that I am planning on doing the same thing in 2019.  Stay tuned for more information on this.&lt;/p&gt;
-&lt;h2 id="powershell-summit"&gt;PowerShell Summit&lt;/h2&gt;
-&lt;p&gt;I had heard a lot of good things about the PowerShell Summit, and I am happy to say that I wasn't disappointed.  This was a great event!  It was a chance to meet a lot of people from the community, far too many to mention here.  If you are on the fence about attending this event in 2019, I would definitely suggest that you jump at the chance while there are still tickets available.&lt;/p&gt;
-&lt;p&gt;Chocolatey was a sponsor at this event:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/PowerShellSummit-Sponsor.png" class="img-fluid" alt="PowerShell Summit Sponsor" /&gt;&lt;/p&gt;
-&lt;p&gt;and it was a great opportunity to speak to people who are currently using Chocolatey, and also to introduce it to people who are not yet using it.&lt;/p&gt;
-&lt;p&gt;It was on this trip that I saw one of the most bizarre things I have ever seen...&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/PowerShellSummit-BubbleGum.png" class="img-fluid" alt="PowerShell Summit Bubble Gum Wall" /&gt;&lt;/p&gt;
-&lt;p&gt;Yes, that is actually an entire wall covered in bubble gum.  The smell in that alley was crazy!&lt;/p&gt;
-&lt;h2 id="trip-to-sweden"&gt;Trip to Sweden&lt;/h2&gt;
-&lt;p&gt;In June, I made a trip to the DevOps Usergroup Gothenburg to visit my friend &lt;a href="https://twitter.com/devlead"&gt;Mattias Karlsson&lt;/a&gt; and present a talk on Chocolatey:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Dough-Sign.png" class="img-fluid" alt="DOUGH Sign" /&gt;&lt;/p&gt;
-&lt;p&gt;I had never been to Sweden before, and I thoroughly enjoyed this trip!&lt;/p&gt;
-&lt;h2 id="that-conference"&gt;That Conference&lt;/h2&gt;
-&lt;p&gt;Bottom line... this was a great event, and I would thoroughly recommend anyone attending it.  Everything about the conference was well organised, and the talks were very high quality.&lt;/p&gt;
-&lt;p&gt;At this event, I helped run a Chocolatey Workshop along with &lt;a href="https://twitter.com/ferventcoder"&gt;Rob Reynolds&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/ThatConference-Workshop.png" class="img-fluid" alt="That Conference Workshop" /&gt;&lt;/p&gt;
-&lt;p&gt;One of the highlights of the event had to be the bacon covered in chocolate:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/ThatConference-ChocolateyBacon.png" class="img-fluid" alt="That Conference Chocolate Bacon" /&gt;&lt;/p&gt;
-&lt;h2 id="chocolatey-fest-and-puppetize-live"&gt;Chocolatey Fest and Puppetize Live&lt;/h2&gt;
-&lt;p&gt;My fourth trip to the States in 2018 was to attend the inaugural &lt;a href="https://chocolateyfest.com/"&gt;Chocolatey Fest&lt;/a&gt; Conference and Puppetize Live events.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/ChocolateyFest-Registration.png" class="img-fluid" alt="Chocolatey Fest Registration" /&gt;&lt;/p&gt;
-&lt;p&gt;The feedback from the event was very positive, so all the hard work that went into the organistaion was definitely worth it.  There was even some signature Chocolatey coins:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/ChocolateyFest-Coin.png" class="img-fluid" alt="Chocolatey Fest Coin" /&gt;&lt;/p&gt;
-&lt;p&gt;At this event was also the first run of a &lt;a href="https://github.com/gep13/chocolatey-internalizer-workshop"&gt;Chocolatey Workshop&lt;/a&gt; that myself and &lt;a href="https://twitter.com/pauby"&gt;Paul Broadwith&lt;/a&gt; were doing.  This focused on how you can use Chocolatey internally within your Organisation, and ensure consistent and reliable installations by internalizing packages.&lt;/p&gt;
-&lt;h2 id="winops-conf"&gt;WinOps Conf&lt;/h2&gt;
-&lt;p&gt;This was my fourth year attending the WinOps Conference (this is getting to be a habit), and once again, it didn't disappoint.  Lots of conversations were had, and the talks that I attended were of a very high standard.  This year was slightly different in that I was presenting a &lt;a href="https://github.com/gep13/chocolatey-internalizer-workshop"&gt;workshop&lt;/a&gt; along with &lt;a href="https://twitter.com/pauby"&gt;Paul Broadwith&lt;/a&gt;.  This was our second time doing this workshop, and we incorporated a number of feedback points from our first outing, and I think it was a lot better this time around.&lt;/p&gt;
-&lt;p&gt;Chocolatey also had a booth at the event, where we were able to talk to lots of people interested in using Chocolatey.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/WinOps-Chocolatey.png" class="img-fluid" alt="WinOps Chocolatey" /&gt;&lt;/p&gt;
-&lt;h2 id="microsoft-mvp"&gt;Microsoft MVP&lt;/h2&gt;
-&lt;p&gt;In July, I was very happy to be informed that I was being renewed as a Microsoft MVP.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/MVP-Profile.png" class="img-fluid" alt="MVP Profile" /&gt;&lt;/p&gt;
-&lt;p&gt;In all honesty, this wasn't something that I was expecting, and I was very excited to get the email letting me know.  In August, the MVP Package arrived in the post, and I was able to add to my main MVP award:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/MVP-Award.png" class="img-fluid" alt="MVP Award" /&gt;&lt;/p&gt;
-&lt;p&gt;I thought the instructions on how to do this were very useful:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/MVP-Instructions.png" class="img-fluid" alt="MVP Instructions" /&gt;&lt;/p&gt;
-&lt;p&gt;However, the alternative version on Twitter was also very funny!&lt;/p&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Sorry &lt;a href="https://twitter.com/MVPAward?ref_src=twsrc%5Etfw"&gt;&amp;#64;MVPAward&lt;/a&gt;, I just had to do this. &lt;a href="https://t.co/kTiwoqYIO3"&gt;pic.twitter.com/kTiwoqYIO3&lt;/a&gt;&lt;/p&gt;&amp;mdash; diederik krols (&amp;#64;diederikkrols) &lt;a href="https://twitter.com/diederikkrols/status/1018059116596613120?ref_src=twsrc%5Etfw"&gt;July 14, 2018&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;I also very happy to be attending the MVP Summit in March.  I wasn't able to attend this in 2018 due to other commitments, and I heard from other MVP's that I know that it was very good, so excited about attending in 2019.&lt;/p&gt;
-&lt;h2 id="open-source-contributions"&gt;Open Source Contributions&lt;/h2&gt;
-&lt;p&gt;This year I am very happy to say that I shipped quite a few things (some which have been on the back burner for a while, and others that are brand new).  These included:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.gep13.co.uk/blog/introducing-cake.eazfuscator.net-addin"&gt;Cake.Eazfuscator.Net Addin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gep13.co.uk/blog/introducing-cake.discord-addin"&gt;Cake.Discord Addin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gep13.co.uk/blog/introducing-cake.dotnettool.module"&gt;Cake.DotNetTool.Module&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gep13.co.uk/blog/introducing-chocolatey-vscode-extension"&gt;Chocolatey VS Code Extension&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gep13.co.uk/blog/introducing-chocolatey-azure-devops-extension"&gt;Chocolatey Azure DevOps Extension&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gep13.co.uk/blog/introducing-ci-cd-assets-repository-and-vscode-extension"&gt;CI/CD Assets VS Code Extension&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gep13.co.uk/blog/introducing-cake-recipe-vscode-extension"&gt;Cake.Recipe VS Code Extension&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gep13.co.uk/blog/gitreleasemanager-release-0.8.0"&gt;GitReleaseManager 0.8.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In addition, I also got access to the &lt;a href="https://developer.github.com/actions/"&gt;GitHub Actions Beta&lt;/a&gt;, and I was able to create an &lt;a href="https://www.gep13.co.uk/blog/getting-started-with-github-actions"&gt;action specifically for Cake&lt;/a&gt;, which allows you to run a Cake script as a result of an action on your repository.  I showed an example of how you could &lt;a href="https://www.gep13.co.uk/blog/using-cake-github-action"&gt;send out a Tweet&lt;/a&gt;, based on a milestone being closed on your repository.&lt;/p&gt;
-&lt;p&gt;I seem to be on a little bit of a run of creating Visual Studio Code extensions.  They are very easy to create, and can be as complicated or simple as you want.  I have at least one more idea for another extension that I am going to try to find time for in 2019.  In terms of download numbers for the extensions, these can be seen here:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Visual-Studio-Marketplace.png" class="img-fluid" alt="Visual Studio Marketplace" /&gt;&lt;/p&gt;
-&lt;p&gt;I was secretly hoping to get to 3000 downloads for the Chocolatey VS Code Extension, but didn't quite get there in 2018, but hopefully this year!  I am very happy with the download number for the Chocolatey Azure DevOps Extension.  This was an &amp;quot;itch&amp;quot; that I had been wanting to scratch for a while to get a fully working Chocolatey implementation for Azure DevOps, and I was very happy to get it released.&lt;/p&gt;
-&lt;h3 id="cake"&gt;Cake&lt;/h3&gt;
-&lt;p&gt;Cake continued to go from strength to strength in 2018.  With 11 releases, which included the release of a &lt;a href="https://www.nuget.org/packages/Cake.Tool/"&gt;.Net Global Tool version of Cake&lt;/a&gt;, there was plenty of things to be excited about.  Since releasing this in August, it has been downloaded over 100000 times.  There are now also official &lt;a href="https://hub.docker.com/r/cakebuild/cake"&gt;Docker images available for Cake&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The Cake-Contrib Organisation continued to grow as well, now with:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;50 People now a member of the Organisation on GitHub&lt;/li&gt;
-&lt;li&gt;129 Repositories now in the Organisation&lt;/li&gt;
-&lt;li&gt;238 Packages associated with the cake-contrib user on NuGet.org&lt;/li&gt;
-&lt;li&gt;6,994,682 downloads of addins and modules associated with the cake-contrib user&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="nuget-profile"&gt;NuGet Profile&lt;/h3&gt;
-&lt;p&gt;I have a growing number of NuGet packages, and associated total download count:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/NuGet-Profile.png" class="img-fluid" alt="NuGet Profile" /&gt;&lt;/p&gt;
-&lt;h3 id="chocolatey-profile"&gt;Chocolatey Profile&lt;/h3&gt;
-&lt;p&gt;The number of downloads of Chocolatey packages that I help maintain has continued to grow this year:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Chocolatey-Profile.png" class="img-fluid" alt="Chocolatey Profile" /&gt;&lt;/p&gt;
-&lt;h2 id="github-contributions"&gt;GitHub Contributions&lt;/h2&gt;
-&lt;p&gt;Compared to last year, my GitHub Contributions are less this year (2423 compared to 3513)&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/GitHub-Contributions-2018.png" class="img-fluid" alt="GitHub Contributions 2018" /&gt;&lt;/p&gt;
-&lt;p&gt;However, in part, this was a conscious decision on my part.  In hindsight, I sort of got carried away last year, trying to obtain a perfect streak of GitHub Contributions.  This year, this was far from a goal, and instead, I opted to close the laptop and concentrate on other things.  I still like to think I made a difference with the contributions that were made.  More on this in other sections of this blog post.&lt;/p&gt;
-&lt;h2 id="hacktoberfest"&gt;Hacktoberfest&lt;/h2&gt;
-&lt;p&gt;Continuing the yearly tradition, I took part in Hacktoberfest, and was able to complete the event, which resulted in me obtaining some very cool swag:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Hacktoberfest-Swag.png" class="img-fluid" alt="Hacktoberfest Swag" /&gt;&lt;/p&gt;
-&lt;p&gt;In addition this year, Microsoft got in on the act, and provided an &lt;a href="https://twitter.com/ashleymcnamara"&gt;Ashley McNamara&lt;/a&gt; original t-shirt for a contribution in to a Microsoft GitHb Repository:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Hacktoberfest-Microsoft-Swag.png" class="img-fluid" alt="Hacktoberfest Microsoft Swag" /&gt;&lt;/p&gt;
-&lt;p&gt;This year, I witnessed first hand the darker side of Hacktoberfest.  This is where people contribute spam pull Requests to Open Source projects in order to obtain the free swag.  This puts an unnecessary burden on Open Source Maintainers, and it is a sad side effect of the event.  In an email from DigitalOcean after the event they stated that they are going to try to address this ahead of the next event, and I hope that they are able to do this.&lt;/p&gt;
-&lt;p&gt;As part of our local User Group, we ran a &lt;a href="https://www.meetup.com/Aberdeen-Developers-NET-User-Group/events/254881639/"&gt;Hacktoberfest event&lt;/a&gt; to introduce people to the event, and also to how to make contributions to Open Source Projects.&lt;/p&gt;
-&lt;h2 id="pull-requests"&gt;24 Pull Requests&lt;/h2&gt;
-&lt;p&gt;In addition to Hacktoberfest, I once again took part on the 24 Pull Requests event, and successfully completed it:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/24PullRequests-Complete.png" class="img-fluid" alt="24 Pull Requests Complete" /&gt;&lt;/p&gt;
-&lt;p&gt;I also manned the Gitter Room for the event similar to last year to address any questions that came up.&lt;/p&gt;
-&lt;p&gt;One slight difference in the event this year was that it wasn't just contributions in the form of pull requests that were accepted.  You were also able to manually contribute other contributions such as reviewing pull requests, asnwering Stack Overflow questions, speaking at User Group events, etc.  All of this was in order to try to make 24 Pull Requests more inclusive to everyone.  There is more detail on this in the &lt;a href="https://medium.com/&amp;#64;teabass/making-24-pull-requests-more-inclusive-for-2018-a64a1476335e"&gt;blog post&lt;/a&gt; about it.&lt;/p&gt;
-&lt;h2 id="stack-overflow-contributions"&gt;Stack Overflow Contributions&lt;/h2&gt;
-&lt;p&gt;Continuing on from last year, I continued to answer questions on Stack Overflow related to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cake&lt;/li&gt;
-&lt;li&gt;Chocolatey&lt;/li&gt;
-&lt;li&gt;GitFlow&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As a result, my reputation increased to 7086 (an increase of 2289).  Somewhat surprisingly to me, this put me into the top 2% overall on Stack Overflow:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Stack-Overflow-Reputation.png" class="img-fluid" alt="Stack Overflow Reputation" /&gt;&lt;/p&gt;
-&lt;p&gt;I also saw an increase in the numbers of badges that I have been awarded:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Stack-Overflow-Badges-Hat.png" class="img-fluid" alt="Stack Overflow Badges" /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;1 Gold&lt;/li&gt;
-&lt;li&gt;4 Silver&lt;/li&gt;
-&lt;li&gt;4 Bronze&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;And my impact increased to (an increase of 106k):&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Stack-Overflow-Impact.png" class="img-fluid" alt="Stack Overflow Impact" /&gt;&lt;/p&gt;
-&lt;h2 id="youtube-videos"&gt;YouTube Videos&lt;/h2&gt;
-&lt;p&gt;I made a concerted effort in 2018 to make more YouTube videos, and this resulted in quite a few new playlists being created.  These centred mainly on releases for the various Open Source Projects that I work on, but also showcasing some specific features on those tools.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/YouTube-Channel.png" class="img-fluid" alt="YouTube Channel" /&gt;&lt;/p&gt;
-&lt;p&gt;One major change in the most recent videos that I have created is that I have started appearing in the videos.  This was a big step for me, as I am not particurlay confident in this area, but I &amp;quot;think&amp;quot; they work.  In order to make this happen, I have purchased a green screen, and use the &lt;a href="https://obsproject.com/"&gt;OBS&lt;/a&gt; software to apply a chroma filter to the camera input so that I can &amp;quot;float&amp;quot; above the desktop.&lt;/p&gt;
-&lt;h2 id="twitch"&gt;Twitch&lt;/h2&gt;
-&lt;p&gt;If I thougth that putting myself into my YouTube videos was a big step, you can only imagine how scary it was to start doing live streams on Twitch, but I did it:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Twitch-Profile.jpeg" class="img-fluid" alt="Twitch Profile" /&gt;&lt;/p&gt;
-&lt;p&gt;So far, I have done two live streams, focusing on Chocolatey, and I have plans for continuing more in 2019, as well as focusing on other technologies such as Cake.  If you are interested in following along, you can join my stream &lt;a href="https://www.twitch.tv/gep13"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="aberdeen-developers"&gt;Aberdeen Developers&lt;/h2&gt;
-&lt;p&gt;Aberdeen Developers continued to host events in 2018 (mainly thanks to the work of &lt;a href="https://twitter.com/nyami"&gt;Douglas Cameron&lt;/a&gt;) but I helped out where I could.  This year, we hosted events on Azure Functions and Cosmos DB, Blockchain, and Artificial Intelligence.  In addition, we started what is being referred to as &lt;code&gt;.NET and Natter&lt;/code&gt; events, which are much more informal events without a speaker, but more of a chance for people to get to together to talk about things that interest them.&lt;/p&gt;
-&lt;p&gt;In December, we ran a &lt;a href="https://www.gofundme.com/aberdeen-developers-net-user-group"&gt;gofundme&lt;/a&gt; campaign with the aim to raise money for purchasing equipment to allow us to record, and potentially stream, our meetups.  I am very happy to say that we succeeded in meeting our funding target, and the equipment has now been purchased.  Now we simply need to figure out how to make it all work!&lt;/p&gt;
-&lt;p&gt;Thanks to the .NET Foundation, we were able to start using &lt;a href="https://www.meetup.com/Aberdeen-Developers-NET-User-Group/"&gt;meetup.com&lt;/a&gt; for hosting/advertising the events that we run.  This has turned out to be very successful.&lt;/p&gt;
-&lt;h2 id="office-hours"&gt;Office Hours&lt;/h2&gt;
-&lt;p&gt;In 2018, I kept my &lt;a href="https://officehours.io/people/gep13"&gt;officehours.io&lt;/a&gt; profile open, and as a result, I had 3 very interesting conversations with people on various topics:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Office-Hours.png" class="img-fluid" alt="Office Hours" /&gt;&lt;/p&gt;
-&lt;p&gt;The format of officehours.io takes a little bit of getting used to, but once you &amp;quot;grok&amp;quot; it, I think it is a very useful medium.&lt;/p&gt;
-&lt;p&gt;If you are interested in talking to me, feel free to reach out.&lt;/p&gt;
-&lt;h2 id="thats-a-wrap"&gt;That's a wrap&lt;/h2&gt;
-&lt;p&gt;And that, as they say, is that!  Once again, this year has FLOWN by, but it has been a very enjoyable year, and I am looking forward to more in 2019!  I hope 2018 was good to everyone!&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;When I was growing up, I always thought it was a cliché to hear people say that &lt;code&gt;the year has passed SO quickly&lt;/code&gt;, but this year, I got to witness this first hand.  2018 passed VERY quickly!&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/gitreleasemanager-release-0.8.0" />
-		<id>http://www.gep13.co.uk/blog/gitreleasemanager-release-0.8.0</id>
-		<title>GitReleaseManager Release 0.8.0</title>
-		<updated>2018-12-30T00:00:00Z</updated>
-		<content>&lt;p&gt;I am very happy to announce the 0.8.0 Release of the &lt;a href="https://github.com/GitTools/GitReleaseManager"&gt;GitReleaseManager&lt;/a&gt;.  This is an important release as it brings with it a .Net Global Tool version of the tool.  Now, you can install it using:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-shell"&gt;dotnet tool install GitReleaseManager.Tool -g
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id="installation"&gt;Installation&lt;/h1&gt;
-&lt;p&gt;You can now install GitReleaseManager on Windows as follows:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/30/GitReleaseManager-Windows-Install.png" class="img-fluid" alt="GitReleaseManager Windows Install" /&gt;&lt;/p&gt;
-&lt;p&gt;And also on Mac as the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/30/GitReleaseManager-Mac-Install.png" class="img-fluid" alt="GitReleaseManager Mac Install" /&gt;&lt;/p&gt;
-&lt;p&gt;In addition, it is still possible to install GitReleaseManager using Chocolatey with the command:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-shell"&gt;choco install gitreleasemanager.portable
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id="update-labels"&gt;Update Labels&lt;/h1&gt;
-&lt;p&gt;In addition to the .Net Global Tool, another feature was added to GitReleaseManager.  It is now possible to update a GitHub Repository with a pre-defined set of labels.  In this release, that pre-defined list is hard-coded into GitReleaseManager, however, in a future release, it will be possible to provide a file with the labels to use.&lt;/p&gt;
-&lt;h2 id="why-is-this-needed"&gt;Why is this needed?&lt;/h2&gt;
-&lt;p&gt;While a new GitHub repository comes with a set of existing labels:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/30/GitHub-Default-Labels.png" class="img-fluid" alt="GitHub Default Labels" /&gt;&lt;/p&gt;
-&lt;p&gt;These are not quite to my liking, and everytime I created a new Repository, I found I had to change them.  This ultimately resulted in a script which I would run to change them.  I then decided that this would make a sensible addition to GitReleaseManager.  As a result, you can now run the following command:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-shell"&gt;gitreleasemanager.exe label -o cake-contrib -r Cake.Twitter -u bob -p password
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To update the set of labels on the repository to the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2018/12/30/GitReleaseManager-Labels.png" class="img-fluid" alt="GitReleaseManager Labels" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This is a destructive operation, in the sense that it will delete all the existing labels on your repository.&lt;/p&gt;
-&lt;h1 id="thanks"&gt;Thanks&lt;/h1&gt;
-&lt;p&gt;I have to say a huge thank you to Artur (&lt;a href="https://github.com/arturcic"&gt;&amp;#64;arturcic&lt;/a&gt;) who worked on this release, and who was responsible for the creation of the .Net Global Tool.  Thank you!&lt;/p&gt;
-&lt;h1 id="release-information"&gt;Release Information&lt;/h1&gt;
-&lt;p&gt;Release notes for all GitReleaseManager releases can be found on the &lt;a href="https://github.com/GitTools/GitReleaseManager/releases"&gt;GitHub Repository Release Page&lt;/a&gt; but the specific additions for the 0.8.0 release are shown below:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Bugs&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/120"&gt;&lt;strong&gt;#120&lt;/strong&gt;&lt;/a&gt; URL parts incorrectly identifies the user and repository parts&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/119"&gt;&lt;strong&gt;#119&lt;/strong&gt;&lt;/a&gt; Correct issue with casing of label name&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/124"&gt;&lt;strong&gt;#124&lt;/strong&gt;&lt;/a&gt; Add support for adding default labels to issues on a repository&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/117"&gt;&lt;strong&gt;#117&lt;/strong&gt;&lt;/a&gt; Add Token option for CLI as alternative to user/password&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/116"&gt;&lt;strong&gt;#116&lt;/strong&gt;&lt;/a&gt; Add GitReleaseManager as Global Tool&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Improvements&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/121"&gt;&lt;strong&gt;#121&lt;/strong&gt;&lt;/a&gt; Include link to closed issues in milestone link&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/115"&gt;&lt;strong&gt;#115&lt;/strong&gt;&lt;/a&gt; Switch to new csproj format&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/GitTools/GitReleaseManager/issues/110"&gt;&lt;strong&gt;#110&lt;/strong&gt;&lt;/a&gt; Update project NuGet packages&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-		<summary>&lt;p&gt;I am very happy to announce the 0.8.0 Release of the &lt;a href="https://github.com/GitTools/GitReleaseManager"&gt;GitReleaseManager&lt;/a&gt;.  This is an important release as it brings with it a .Net Global Tool version of the tool.  Now, you can install it using:&lt;/p&gt;</summary>
 	</entry>
 </feed>
