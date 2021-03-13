@@ -12,17 +12,17 @@ At the start of [last years retrospective blog post](https://www.gep13.co.uk/blo
 
 Our eldest child has moved into Primary 2 and is loving it.  It is great to see her learning so any things, and soaking it all in.
 
-![Alivia](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Alivia.png)
+![Alivia](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Alivia.png){.img-responsive}
 
 Our youngest will be starting nursery in the first quarter of 2020, and I still can't quite believe it!
 
-![Amelia The Tiger](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Amelia-The-Tiger.png)
+![Amelia The Tiger](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Amelia-The-Tiger.png){.img-responsive}
 
 Working from home still allows me to help out with school/activity drop offs and pickups, so I am still in a fortunate position where I get to spend much more time with the children than I otherwise would if I had a typical office job.  I am very grateful for that opportunity, and I honestly couldn't see myself going back to working from an office.
 
 Having said that, the daily commute can be a little hazardous sometimes!
 
-![Office-Commute](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Office-Commute.png)
+![Office-Commute](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Office-Commute.png){.img-responsive}
 
 ## Looking back on 2019
 
@@ -42,11 +42,11 @@ Back when I was at University, I was a member of both the University Basketball 
 
 I am still not quite back at the same level as I was when I shot in the University team, but things are getting better.  At the end of December, I scored 506 in a Portsmouth round (60 arrows at 20 yards (18 metres)).  I was very happy to crack the 500 barrier, something which I had got close to a couple other times through the year.
 
-![Archery Not Bad](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Archery-Not-Bad.png)
+![Archery Not Bad](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Archery-Not-Bad.png){.img-responsive}
 
 I have also decided that my quiver is the perfect place to put some of the pins that I have been collecting over the years:
 
-![Archery Quiver](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Archery-Quiver.png)
+![Archery Quiver](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Archery-Quiver.png){.img-responsive}
 
 ## Speaking Tour
 
@@ -60,27 +60,27 @@ One of the reasons that 2019 seems to have been a complete blur is that I did a 
 
 Last year, I wasn't able to attend the MVP Summit, and when I was renewed again, I thought I better take the opportunity to go at least once, in case I don't get renewed again.  This was my first time visiting the Microsoft Campus on Redmond, and for a long time "Microsoft Fanboy" this was a huge thing for me.  The campus itself is HUGE, and it is difficult to grasp the scale of it until you have visited.  What made attending the MVP Summit even more special for me this year was that all members of the Cake Team were in attendance.  I had met a couple of the team before in person, but this was the first time meeting the majority of them, and the first time that we had all been in one place.  This made it very special.  One evening we had a Cake get together and worked on some of the open issues on the GitHub repository.  Being in the same place made certain discussions far easier.
 
-![Cake Team and Friends](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Cake-Team-And-Friends.png)
+![Cake Team and Friends](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Cake-Team-And-Friends.png){.img-responsive}
 
 Whilst walking around the campus, there is a section where all the various Microsoft products and remembered forever in the pavement of the walkway.  Couldn't help snapping a photo of this:
 
-![Microsoft SourceSafe](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Microsoft-Sourcesafe-Pavement.png)
+![Microsoft SourceSafe](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Microsoft-Sourcesafe-Pavement.png){.img-responsive}
 
 I was also able to grab some time to go and visit a friend who works on Campus, and I thought the visitors badge was pretty cool:
 
-![Microsoft Visitor Badge](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Microsoft-Visitor-Badge.png)
+![Microsoft Visitor Badge](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Microsoft-Visitor-Badge.png){.img-responsive}
 
 We weren't able to get into them, but we also went and found the Microsoft Treehouse meeting rooms that we had been told about.  I have to say, they are very impressive:
 
-![Microsoft-Treehouse](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Microsoft-Treehouse.png)
+![Microsoft-Treehouse](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Microsoft-Treehouse.png){.img-responsive}
 
 While I had a great time at the Summit, it was a LONG week, with lots to take in, so at the end of the week, I was ready to go home.  Wandering around during the summit was great fun, as it meant that you had the opportunity to speak/meet lots of people, most of which I have only interacted with online, it was great to meet people in person.
 
 Some of the Cake Team made a visit to the Space Needle, which I have to say was really good.  We were there on a very nice day, so the views from the top were stunning!
 
-![Space Needle](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Space-Needle.png)
+![Space Needle](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Space-Needle.png){.img-responsive}
 
-![Looking Down](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Looking-Down.png)
+![Looking Down](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Looking-Down.png){.img-responsive}
 
 I have already decided to attend the MVP Summit again this year, so looking forward to meeting everyone again in person!
 
@@ -88,7 +88,7 @@ I have already decided to attend the MVP Summit again this year, so looking forw
 
 The first work trip for 2019 took me to Seattle to attend Chef Conf.  Chocolatey was a sponsor of this event, and I spent most of my time working on the booth and chatting to folks either already using Chocolatey, or who were going to be using it.  All in all, it was a great event!  I got to meet in person for the first time Stevie, who recently joined the company, so it was great getting to know him.
 
-![Setting Up at Chef Conf](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Setting-Up-At-Chef-Conf.png)
+![Setting Up at Chef Conf](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Setting-Up-At-Chef-Conf.png){.img-responsive}
 
 While I was there, I also presented my talk on Chocolatey and Chef, and I am happy to say that I got a lot of good feedback from the event.
 
@@ -98,17 +98,17 @@ Following on from the Chef Conf in Seattle, I also attended the Chef Conf London
 
 I presented the same Chocolatey and Chef talk that I did in Seattle, and once again, I am happy to say that I got a lot of great feedback from it.
 
-![Talk at Chef Conf](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Talk-At-Chef-Conf.png)
+![Talk at Chef Conf](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Talk-At-Chef-Conf.png){.img-responsive}
 
 ### Hack Yourself First
 
 I have been a long time follower of both Scott Helme and Troy Hunt, and when I found out that Scott was going to be giving Troy's "Hack Yourself First" course, I jumped at the chance to attend.  Scott was doing the conference in a couple of places, including Glasgow, which would have been easier to get to for me, but I opted to attend the London event.  This was for an alterior motive though!  Since starting Archery earlier this year, I decided that I wanted to buy my own bow, so I added an extra day and hire a car (it was amazing) to allow me to travel to the Quicks Archery store just outside London so that I could buy a bow.  I spent a good few hours at the store deciding on what to get, and I am not disappointed with it:
 
-![The Hire Car](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/The-Hire-Car.png)
+![The Hire Car](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/The-Hire-Car.png){.img-responsive}
 
-![The Bow Bits](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/The-Bow-Bits.png)
+![The Bow Bits](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/The-Bow-Bits.png){.img-responsive}
 
-![The Bow Assembled](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/The-Bow-Assembled.png)
+![The Bow Assembled](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/The-Bow-Assembled.png){.img-responsive}
 
 But anyway, back to the course...
 
@@ -120,31 +120,31 @@ I had heard so many good things about this conference, so when I found out that 
 
 They also do REALLY cool t-shirts:
 
-![KCDC](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/KCDC.png)
+![KCDC](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/KCDC.png){.img-responsive}
 
 Given the fact that the Chocolatey office is SO close to this event, I hired a car and drove up to meet Rob and to see the Chocolatey office in person.  When I _finally_ got there (the whole ordeal of hiring a car and actually getting to where I needed to be is a LONG story), it was great to meet up with Rob and to be shown around the office.  Rob has worked really hard on putting the office together, and I have to say that it is looking really good.  I am looking forward to heading back to the office later this year to meet up with the rest of the team!
 
 This was only one of the problems that I had on this trip:
 
-![No GPS](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/No-GPS.png)
+![No GPS](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/No-GPS.png){.img-responsive}
 
 But I got there:
 
-![Chocolatey Office](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Chocolatey-Office.png)
+![Chocolatey Office](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Chocolatey-Office.png){.img-responsive}
 
 But damn it was hot:
 
-![Its hot](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Its-hot.png)
+![Its hot](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Its-hot.png){.img-responsive}
 
 ### WinOps London
 
 Continuing the tradition of attending WinOps (this is now my fifth time), I attended with my collegues Paul and Mukesh.  Chocolatey was a sponsor of the event, so we had a booth there to chat to folks.  Similar to last year, some of the Chocolatey Community members based in Europe attended the event, so it was great to catch up with them, as well as to finally meet some folks in person, like Maurice and Kim.
 
-![Chocolatey Folks at WinOps](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Chocolatey-Folks-At-WinOps.png)
+![Chocolatey Folks at WinOps](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Chocolatey-Folks-At-WinOps.png){.img-responsive}
 
 While at the conference, Paul and I presented our workshop on using Chocolatey within the Organisation, and I am happy to say that we got some really good feedback on it.
 
-![WinOps Workshop](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/WinOps-Workshop.png)
+![WinOps Workshop](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/WinOps-Workshop.png){.img-responsive}
 
 ### Microsoft Ignite
 
@@ -152,43 +152,43 @@ This was my first time attending a large Microsoft event, and to say that it is 
 
 Chocolatey was a sponsor of the event, so I spent most of my time on our booth chatting to folks about Chocolatey, giving out t-shirts (with the new Ark Reactor design created by Adil), and answering questions on Chocolatey.
 
-![How Many T-Shirts](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/How-Many-Tshirts.png)
+![How Many T-Shirts](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/How-Many-Tshirts.png){.img-responsive}
 
 The booth was very busy for the whole event, but I did get some time to wander round the venue to check out the rest of the complex, including finding my name on the MVP Wall:
 
-![MVP Wall](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/MVP-Wall.png)
+![MVP Wall](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/MVP-Wall.png){.img-responsive}
 
 There was also a VERY cool coin press, which allowed you to create the following:
 
-![Pressed Pennies](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Pressed-Pennies.png)
+![Pressed Pennies](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Pressed-Pennies.png){.img-responsive}
 
 These are a great addition to my collection!!
 
 On the Thursday night, all attendees were welcomed to Universal Studios, and the whole team went along to go on some of the rides.  It was all great fun, thoroughly enjoyed it!
 
-![Universal Studios](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Universal-Studios.png)
+![Universal Studios](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Universal-Studios.png){.img-responsive}
 
 ## Microsoft MVP
 
 In [July](https://www.gep13.co.uk/blog/mvp-renewal-2019), I was once again renewed as a Microsoft MVP.  I am still humbled to be included in such a group of incredible people!
 
-![MVP Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/MVP-Profile.png)
+![MVP Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/MVP-Profile.png){.img-responsive}
 
-![MVP Award](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/MVP-Award.png)
+![MVP Award](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/MVP-Award.png){.img-responsive}
 
 It was great fun to get the MVP package delivered, and to add another year onto the award.  The instructions still crack me up!
 
-![MVP Instructions](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/MVP-Instructions.png)
+![MVP Instructions](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/MVP-Instructions.png){.img-responsive}
 
 ## Open Source Contributions
 
 I have been very happy to see the download counts on some of my Visual Studio Code and Azure DevOps extensions increasing over the year, especially the Chocolatey ones.
 
-![Visual Studio Marketplace](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Visual-Studio-Marketplace.png)
+![Visual Studio Marketplace](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Visual-Studio-Marketplace.png){.img-responsive}
 
 At one point, one of my extensions was even trending on the marketplace front page :smile:
 
-![Visual Studio Marketplace Trending](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Visual-Studio-Marketplace-Trending.png)
+![Visual Studio Marketplace Trending](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Visual-Studio-Marketplace-Trending.png){.img-responsive}
 
 ### Cake
 
@@ -225,7 +225,7 @@ I also set up a number of Organisations for Chocolatey, and moved some repositor
 
 In 2019, I worked on creating a few new Cake Addins, mainly ones that are being used at work.  As a result, I have a few more packages than last year, and the total download count for all packages has almost doubled!
 
-![NuGet Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/NuGet-Profile.png)
+![NuGet Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/NuGet-Profile.png){.img-responsive}
 
 ### Chocolatey Profile
 
@@ -233,7 +233,7 @@ As I am writing this, I am not entirely sure why my number of packages on Chocol
 
 It would be rude of me not to mention again the overhaul that the Chocolatey Community Repository received in 2019.  It is looking so good now!
 
-![Chocolatey Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Chocolatey-Profile.png)
+![Chocolatey Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Chocolatey-Profile.png){.img-responsive}
 
 ## .NET Foundation
 
@@ -243,21 +243,21 @@ In 2019, I became a fully signed up member of the .Net Foundation.  I also put m
 
 I think it is fair to say that I might have got carried away again in 2019 when it comes to GitHub!  Contributions more than doubled in 2019 compared to the previous year.  In part this was a result of my day to day job, but also due in part to the regular streaming that I have been doing on Twitch.  This has given me the opportunity to work on a number of projects, and I am very grateful for dedicated time that I am allowed to do this!
 
-![GitHub Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/GitHub-Profile.png)
+![GitHub Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/GitHub-Profile.png){.img-responsive}
 
 I was also lucky enough to be one of the people who were sent the following to celebrate 100 million repositories being created on GitHub.  It takes pride of place on my desk at work:
 
-![100 Million Repos](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/100-million-repos.png)
+![100 Million Repos](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/100-million-repos.png){.img-responsive}
 
 ## Hacktoberfest
 
 Once again, continuing the yearly tradition (I think this is now my fifth year), I took part in Hacktoberfest, and was able to complete the event, which resulted in me obtaining some very cool swag:
 
-![Hacktoberfest Swag](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Hacktoberfest-Swag.png)
+![Hacktoberfest Swag](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Hacktoberfest-Swag.png){.img-responsive}
 
 There was an [additional give away this year from the folks at CircleCI](https://circleci.com/blog/join-the-party-get-your-hacktoberfest-prs-with-circleci-orbs/), I was able to get in on the action here, and grab myself another free t-shirt!  What can I say, I am a sucker for a free t-shirt!
 
-![Orbtoberfest Swag](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Orbtoberfest-Swag.png)
+![Orbtoberfest Swag](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Orbtoberfest-Swag.png){.img-responsive}
 
 ## 24 Pull Requests
 
@@ -276,18 +276,18 @@ Similar to last year, I have continued to answer questions on:
 
 As a result, my overall reputation has gone up to 11021 (an increase of 3985).  However, that quite large jump isn't just from me answering questions.  [Stack Overflow recently changed the rules](https://stackoverflow.blog/2019/11/13/were-rewarding-the-question-askers/) so that instead of getting 5 points for an upvote on a question, you would instead get 10 points.  This was back dated, and as a result of my [question here](https://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-default-editor-for-git) I got a big jump in overall points.
 
-![Stack Overflow Reputation](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Stack-Overflow-Reputation.png)
+![Stack Overflow Reputation](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Stack-Overflow-Reputation.png){.img-responsive}
 
 I also saw an increase in the numbers of badges that I have been awarded:
 
-![Stack Overflow Badges](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Stack-Overflow-Badges.png)
+![Stack Overflow Badges](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Stack-Overflow-Badges.png){.img-responsive}
 
 * 4 Silver
 * 8 Bronze
 
 And my impact increased to 331k (an increase of 106k):
 
-![Stack Overflow Impact](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Stack-Overflow-Impact.png)
+![Stack Overflow Impact](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Stack-Overflow-Impact.png){.img-responsive}
 
 ## YouTube videos
 
@@ -301,7 +301,7 @@ I don't seem to have noted this in last years blog post, but I now have 115 subs
 
 In 2018, I started streaming on Twitch, and aside from some breaks for travelling and a couple other things, I have been streaming regularly throughout 2019 on a Monday evening (8PM my local time), and Friday lunch times (12PM my local time).  You can find my [Twitch channel here](https://www.twitch.tv/gep13).  It is no exaggeration to say that I have got a LOT out of doing this.  I am hopeful that viewers of the stream are also getting something out of it as well :smile:.
 
-![Twitch Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Twitch-Profile.png)
+![Twitch Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Twitch-Profile.png){.img-responsive}
 
 During the streams we have worked on projects like:
 
@@ -340,7 +340,7 @@ This year saw 6 events (one of them I presented), including talks on:
 * [Aurelia](https://youtu.be/GBOV5zyFVVM)
 * [C# 8](https://youtu.be/AYdlDbnSHNU) (with Jon Skeet!!)
 
-![Jon Skeet at ADNUG](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Jon-Skeet-ADNUG.png)
+![Jon Skeet at ADNUG](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Jon-Skeet-ADNUG.png){.img-responsive}
 
 In 2019, the group started streaming their events on [Twitch](https://www.twitch.tv/adnuguk) and uploading the videos to their [YouTube Channel](https://www.youtube.com/channel/UCRnxcmrSrc4TWKqakE4EViw).  So if you are not able to make it along in person, then you always have the opportunity to watch the sessions back again.
 
@@ -350,21 +350,21 @@ Being able to buy this equipment was a result of the successful [gofundme](https
 
 It would be completely wrong of me not to mention that absolutely amazing Chocolatey Hat that I got this year.  This was desgined and sourced by Stevie, and it is my goto hat nowadays, I love it!
 
-![Choco Hat Front](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Choco-Hat-Front.png)
+![Choco Hat Front](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Choco-Hat-Front.png){.img-responsive}
 
-![Choco Hat Back](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Choco-Hat-Back.png)
+![Choco Hat Back](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Choco-Hat-Back.png){.img-responsive}
 
 ## Organ Donation
 
 Slightly morbid topic of conversation, but this year I signed up to be an organ donar.  This is something I have been thinking about for a while, and I finally got around to it this year.
 
-![Organ Donar](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Organ-Donar.png)
+![Organ Donar](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/Organ-Donar.png){.img-responsive}
 
 ## Irn-Bru 1901
 
 This year also saw the release of a special edition of Irn-Bru, using the original (full sugar) recipe from 1901.  It is very tasty!
 
-![1901](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/1901.png)
+![1901](https://gep13wpstorage.blob.core.windows.net/gep13/2020/02/01/1901.png){.img-responsive}
 
 ## Office Hours
 

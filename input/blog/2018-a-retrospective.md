@@ -8,7 +8,7 @@ Tags:
 
 When I was growing up, I always thought it was a cliché to hear people say that `the year has passed SO quickly`, but this year, I got to witness this first hand.  2018 passed VERY quickly!
 
-![The Girls](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/The-Girls.png)
+![The Girls](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/The-Girls.png){.img-responsive}
 
 It is hard to believe that our eldest child is away to Primary School and our youngest is almost 2!  Where has this time gone!?!?
 
@@ -26,13 +26,13 @@ In January, I started [working for Chocolatey](https://www.gep13.co.uk/blog/and-
 
 As a result of starting to work from home, this saw a conversation of half of our garage from this:
 
-![Office Before](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Office.png)
+![Office Before](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Office.png){.img-responsive}
 
 into this:
 
-![Office After](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Office1.png)
+![Office After](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Office1.png){.img-responsive}
 
-![Office After](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Office2.png)
+![Office After](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Office2.png){.img-responsive}
 
 It has been a busy year for Chocolatey, starting off with me travelling to Kansas to spend a week with Rob, as an introduction.  Since then we have been busy working on new releases across all Chocolatey components, with my main focus being on Chocolatey Central Management, which is now available in beta for customers to trial out.  In addition, we released a new version of [Chocolatey GUI](https://www.gep13.co.uk/blog/chocolatey-gui-v0.16.0-released).
 
@@ -46,13 +46,13 @@ I had heard a lot of good things about the PowerShell Summit, and I am happy to 
 
 Chocolatey was a sponsor at this event:
 
-![PowerShell Summit Sponsor](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/PowerShellSummit-Sponsor.png)
+![PowerShell Summit Sponsor](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/PowerShellSummit-Sponsor.png){.img-responsive}
 
 and it was a great opportunity to speak to people who are currently using Chocolatey, and also to introduce it to people who are not yet using it.
 
 It was on this trip that I saw one of the most bizarre things I have ever seen...
 
-![PowerShell Summit Bubble Gum Wall](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/PowerShellSummit-BubbleGum.png)
+![PowerShell Summit Bubble Gum Wall](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/PowerShellSummit-BubbleGum.png){.img-responsive}
 
 Yes, that is actually an entire wall covered in bubble gum.  The smell in that alley was crazy!
 
@@ -60,7 +60,7 @@ Yes, that is actually an entire wall covered in bubble gum.  The smell in that a
 
 In June, I made a trip to the DevOps Usergroup Gothenburg to visit my friend [Mattias Karlsson](https://twitter.com/devlead) and present a talk on Chocolatey:
 
-![DOUGH Sign](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Dough-Sign.png)
+![DOUGH Sign](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Dough-Sign.png){.img-responsive}
 
 I had never been to Sweden before, and I thoroughly enjoyed this trip!
 
@@ -70,21 +70,21 @@ Bottom line... this was a great event, and I would thoroughly recommend anyone a
 
 At this event, I helped run a Chocolatey Workshop along with [Rob Reynolds](https://twitter.com/ferventcoder):
 
-![That Conference Workshop](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/ThatConference-Workshop.png)
+![That Conference Workshop](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/ThatConference-Workshop.png){.img-responsive}
 
 One of the highlights of the event had to be the bacon covered in chocolate:
 
-![That Conference Chocolate Bacon](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/ThatConference-ChocolateyBacon.png)
+![That Conference Chocolate Bacon](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/ThatConference-ChocolateyBacon.png){.img-responsive}
 
 ## Chocolatey Fest and Puppetize Live
 
 My fourth trip to the States in 2018 was to attend the inaugural [Chocolatey Fest](https://chocolateyfest.com/) Conference and Puppetize Live events.
 
-![Chocolatey Fest Registration](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/ChocolateyFest-Registration.png)
+![Chocolatey Fest Registration](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/ChocolateyFest-Registration.png){.img-responsive}
 
 The feedback from the event was very positive, so all the hard work that went into the organistaion was definitely worth it.  There was even some signature Chocolatey coins:
 
-![Chocolatey Fest Coin](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/ChocolateyFest-Coin.png)
+![Chocolatey Fest Coin](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/ChocolateyFest-Coin.png){.img-responsive}
 
 At this event was also the first run of a [Chocolatey Workshop](https://github.com/gep13/chocolatey-internalizer-workshop) that myself and [Paul Broadwith](https://twitter.com/pauby) were doing.  This focused on how you can use Chocolatey internally within your Organisation, and ensure consistent and reliable installations by internalizing packages.
 
@@ -94,21 +94,21 @@ This was my fourth year attending the WinOps Conference (this is getting to be a
 
 Chocolatey also had a booth at the event, where we were able to talk to lots of people interested in using Chocolatey.
 
-![WinOps Chocolatey](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/WinOps-Chocolatey.png)
+![WinOps Chocolatey](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/WinOps-Chocolatey.png){.img-responsive}
 
 ## Microsoft MVP
 
 In July, I was very happy to be informed that I was being renewed as a Microsoft MVP.
 
-![MVP Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/MVP-Profile.png)
+![MVP Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/MVP-Profile.png){.img-responsive}
 
 In all honesty, this wasn't something that I was expecting, and I was very excited to get the email letting me know.  In August, the MVP Package arrived in the post, and I was able to add to my main MVP award:
 
-![MVP Award](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/MVP-Award.png)
+![MVP Award](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/MVP-Award.png){.img-responsive}
 
 I thought the instructions on how to do this were very useful:
 
-![MVP Instructions](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/MVP-Instructions.png)
+![MVP Instructions](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/MVP-Instructions.png){.img-responsive}
 
 However, the alternative version on Twitter was also very funny!
 
@@ -133,7 +133,7 @@ In addition, I also got access to the [GitHub Actions Beta](https://developer.gi
 
 I seem to be on a little bit of a run of creating Visual Studio Code extensions.  They are very easy to create, and can be as complicated or simple as you want.  I have at least one more idea for another extension that I am going to try to find time for in 2019.  In terms of download numbers for the extensions, these can be seen here:
 
-![Visual Studio Marketplace](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Visual-Studio-Marketplace.png)
+![Visual Studio Marketplace](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Visual-Studio-Marketplace.png){.img-responsive}
 
 I was secretly hoping to get to 3000 downloads for the Chocolatey VS Code Extension, but didn't quite get there in 2018, but hopefully this year!  I am very happy with the download number for the Chocolatey Azure DevOps Extension.  This was an "itch" that I had been wanting to scratch for a while to get a fully working Chocolatey implementation for Azure DevOps, and I was very happy to get it released.
 
@@ -152,19 +152,19 @@ The Cake-Contrib Organisation continued to grow as well, now with:
 
 I have a growing number of NuGet packages, and associated total download count:
 
-![NuGet Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/NuGet-Profile.png)
+![NuGet Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/NuGet-Profile.png){.img-responsive}
 
 ### Chocolatey Profile
 
 The number of downloads of Chocolatey packages that I help maintain has continued to grow this year:
 
-![Chocolatey Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Chocolatey-Profile.png)
+![Chocolatey Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Chocolatey-Profile.png){.img-responsive}
 
 ## GitHub Contributions
 
 Compared to last year, my GitHub Contributions are less this year (2423 compared to 3513)
 
-![GitHub Contributions 2018](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/GitHub-Contributions-2018.png)
+![GitHub Contributions 2018](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/GitHub-Contributions-2018.png){.img-responsive}
 
 However, in part, this was a conscious decision on my part.  In hindsight, I sort of got carried away last year, trying to obtain a perfect streak of GitHub Contributions.  This year, this was far from a goal, and instead, I opted to close the laptop and concentrate on other things.  I still like to think I made a difference with the contributions that were made.  More on this in other sections of this blog post.
 
@@ -172,11 +172,11 @@ However, in part, this was a conscious decision on my part.  In hindsight, I sor
 
 Continuing the yearly tradition, I took part in Hacktoberfest, and was able to complete the event, which resulted in me obtaining some very cool swag:
 
-![Hacktoberfest Swag](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Hacktoberfest-Swag.png)
+![Hacktoberfest Swag](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Hacktoberfest-Swag.png){.img-responsive}
 
 In addition this year, Microsoft got in on the act, and provided an [Ashley McNamara](https://twitter.com/ashleymcnamara) original t-shirt for a contribution in to a Microsoft GitHb Repository:
 
-![Hacktoberfest Microsoft Swag](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Hacktoberfest-Microsoft-Swag.png)
+![Hacktoberfest Microsoft Swag](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Hacktoberfest-Microsoft-Swag.png){.img-responsive}
 
 This year, I witnessed first hand the darker side of Hacktoberfest.  This is where people contribute spam pull Requests to Open Source projects in order to obtain the free swag.  This puts an unnecessary burden on Open Source Maintainers, and it is a sad side effect of the event.  In an email from DigitalOcean after the event they stated that they are going to try to address this ahead of the next event, and I hope that they are able to do this.
 
@@ -186,7 +186,7 @@ As part of our local User Group, we ran a [Hacktoberfest event](https://www.meet
 
 In addition to Hacktoberfest, I once again took part on the 24 Pull Requests event, and successfully completed it:
 
-![24 Pull Requests Complete](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/24PullRequests-Complete.png)
+![24 Pull Requests Complete](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/24PullRequests-Complete.png){.img-responsive}
 
 I also manned the Gitter Room for the event similar to last year to address any questions that came up.
 
@@ -202,11 +202,11 @@ Continuing on from last year, I continued to answer questions on Stack Overflow 
 
 As a result, my reputation increased to 7086 (an increase of 2289).  Somewhat surprisingly to me, this put me into the top 2% overall on Stack Overflow:
 
-![Stack Overflow Reputation](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Stack-Overflow-Reputation.png)
+![Stack Overflow Reputation](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Stack-Overflow-Reputation.png){.img-responsive}
 
 I also saw an increase in the numbers of badges that I have been awarded:
 
-![Stack Overflow Badges](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Stack-Overflow-Badges-Hat.png)
+![Stack Overflow Badges](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Stack-Overflow-Badges-Hat.png){.img-responsive}
 
 * 1 Gold
 * 4 Silver
@@ -214,13 +214,13 @@ I also saw an increase in the numbers of badges that I have been awarded:
 
 And my impact increased to (an increase of 106k):
 
-![Stack Overflow Impact](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Stack-Overflow-Impact.png)
+![Stack Overflow Impact](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Stack-Overflow-Impact.png){.img-responsive}
 
 ## YouTube Videos
 
 I made a concerted effort in 2018 to make more YouTube videos, and this resulted in quite a few new playlists being created.  These centred mainly on releases for the various Open Source Projects that I work on, but also showcasing some specific features on those tools.
 
-![YouTube Channel](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/YouTube-Channel.png)
+![YouTube Channel](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/YouTube-Channel.png){.img-responsive}
 
 One major change in the most recent videos that I have created is that I have started appearing in the videos.  This was a big step for me, as I am not particurlay confident in this area, but I "think" they work.  In order to make this happen, I have purchased a green screen, and use the [OBS](https://obsproject.com/) software to apply a chroma filter to the camera input so that I can "float" above the desktop.
 
@@ -228,7 +228,7 @@ One major change in the most recent videos that I have created is that I have st
 
 If I thougth that putting myself into my YouTube videos was a big step, you can only imagine how scary it was to start doing live streams on Twitch, but I did it:
 
-![Twitch Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Twitch-Profile.jpeg)
+![Twitch Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Twitch-Profile.jpeg){.img-responsive}
 
 So far, I have done two live streams, focusing on Chocolatey, and I have plans for continuing more in 2019, as well as focusing on other technologies such as Cake.  If you are interested in following along, you can join my stream [here](https://www.twitch.tv/gep13).
 
@@ -244,7 +244,7 @@ Thanks to the .NET Foundation, we were able to start using [meetup.com](https://
 
 In 2018, I kept my [officehours.io](https://officehours.io/people/gep13) profile open, and as a result, I had 3 very interesting conversations with people on various topics:
 
-![Office Hours](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Office-Hours.png)
+![Office Hours](https://gep13wpstorage.blob.core.windows.net/gep13/2019/01/01/Office-Hours.png){.img-responsive}
 
 The format of officehours.io takes a little bit of getting used to, but once you "grok" it, I think it is a very useful medium.
 

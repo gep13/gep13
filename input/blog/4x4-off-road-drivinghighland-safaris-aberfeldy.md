@@ -15,7 +15,7 @@ Which led me to [here](http://www.giftexperiencescotland.com/driving-vouchers/of
 
 So I ended up buying him this on the understanding that I would be the “other” person that he would be taking along with him (I made sure that this was understood very early in the process)
 
-![Highland Safari Aberfeldy](https://gep13wpstorage.blob.core.windows.net/gep13/2011/6/28/Photo_65094934-7CE5-2FDF-0208-CB9AB0984248.jpg)
+![Highland Safari Aberfeldy](https://gep13wpstorage.blob.core.windows.net/gep13/2011/6/28/Photo_65094934-7CE5-2FDF-0208-CB9AB0984248.jpg){.img-responsive}
 
 This last weekend (25th June), we travelled down to Dull, just west of Aberfeldy to the Highland Safaris Centre. For those of you who are interested, this is the [location](http://maps.google.com/maps?q=Highland+Safaris,+Aberfeldy,+United+Kingdom&hl=en&ll=56.618324,-3.934908&spn=0.037213,0.077162&sll=56.61719,-3.93744&sspn=0.009304,0.01929&geocode=CeGWL-mfSgx7FRLwXwMdV83D_ynxI6kX6aSISDE7st8IwrS1uw&z=14).
 
@@ -23,19 +23,19 @@ The Centre itself is very easy to find, and it has a small shop and Cafe. After 
 
 As promised, after 20 minutes or so we were ready to go. We were asked to stand in front of a map and told about the route that we were going to be taking, and what we were getting to do. However, there was no mention of us actually driving the land rover, and there also seemed to be more people coming along than I expected. I thought it was just my father and I. A quick word with the Instructor sorted everything out. Turns out there were two sets of “Park” checked in. One for a family highland safari (which had just been explained to us) and one for a 4x4 Driving Experience.
 
-![Our Landrover for the day](https://gep13wpstorage.blob.core.windows.net/gep13/2011/6/28/Photo_BF421791-BEE1-66D7-6DAC-1CB53C39D1E9.jpg)
+![Our Landrover for the day](https://gep13wpstorage.blob.core.windows.net/gep13/2011/6/28/Photo_BF421791-BEE1-66D7-6DAC-1CB53C39D1E9.jpg){.img-responsive}
 
 With all that sorted out, we were introduced to the machine that we would be getting to drive. _Ain’t she a beaut?_
 
 After our Instructor drove us to the starting point we then each took turns in driving over various sections of terrain including muddy sections of road, through water, and some very steep down hill sections. In total, between the two of us, we had 2 and a half hours of driving, which I felt was very good value for money.
 
-![Dad in Landrover](https://gep13wpstorage.blob.core.windows.net/gep13/2011/6/28/Photo_887318B5-1AD6-1509-14EC-9287D5B30A3E.jpg)
+![Dad in Landrover](https://gep13wpstorage.blob.core.windows.net/gep13/2011/6/28/Photo_887318B5-1AD6-1509-14EC-9287D5B30A3E.jpg){.img-responsive}
 
 Here is a photo of my dad driving through one of the sections of water. It wasn’t particularly deep, but still not something that you get to do in normal day to day driving.
 
 Along the way we got to see some stunning views (see below), the countryside and wildlife around Aberfeldy is stunning, and I would recommend that anyone go there for a visit. At one of the highest points on the drive, called the “View Point” we stopped to have a quick dram of a local Whisky (Dewar’s White Label) and as we were standing having a chat we saw two buzzards flying around overhead, it really was quite impressive.
 
-![Stunning View](https://gep13wpstorage.blob.core.windows.net/gep13/2011/6/28/Photo_67E19F6B-E072-4BB1-9AB1-260F6FF1AD0F.jpg)
+![Stunning View](https://gep13wpstorage.blob.core.windows.net/gep13/2011/6/28/Photo_67E19F6B-E072-4BB1-9AB1-260F6FF1AD0F.jpg){.img-responsive}
 
 For me, one of the most amazing parts of the day was the land rover itself. At one point while I was driving, I came up to a particularly steep section of track. The instructor then told me to put it into first gear, let it start to pull away, and then take both my feet off all the pedals, and just concentrate on steering. At first, I thought he was joking, but he was quite serious. In doing this, you then essentially let the engine take over, and it will control everything for you, allowing you to safely descend. This meant that it would maintain a constant speed and rate of descent by controlling the braking and acceleration. Now, you could argue that this takes some of the “fun” out of it, but if you had seen the steepness of the hill, I think you would have happily let the land rover take over as well!! It truly is an amazing piece of engineering.
 

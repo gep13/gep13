@@ -19,7 +19,7 @@ Early on in 2016, Lynn and I were very happy to announce the impedding arrival o
 
 After taking part in [Hacktoberfest](https://hacktoberfest.digitalocean.com/) and [24 Pull Requests](https://24pullrequests.com/) in 2015, I had a renewed vigour for contributing to the Open Source Community, and this continued through the whole of 2016.  Which can be seen in the chart below:
 
-![2016 GitHub Contributions](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/GitHub-Contributions.png)
+![2016 GitHub Contributions](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/GitHub-Contributions.png){.img-responsive}
 
 **NOTE:** The eagle eyed amongst you might notice a prolonged break at the end of June.  That was when I was on holiday in Portugal for my sister's wedding.
 
@@ -71,7 +71,7 @@ In the same way as I did in 2015, I participated in both [Hacktoberfest](https:/
 
 For those of you that don't know, Hacktoberfest is an online event ran by [DigitalOcean](https://www.digitalocean.com/).  The idea is simple, in the month of October, submit 4 or more Pull Requests to a project on GitHub.  Simples!  If you do this, you get an awesome t-shirt, as well as some swag, and of course, some bragging rights and internet points.
 
-![Hacktoberfest](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/hacktoberfest-swag.jpg)
+![Hacktoberfest](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/hacktoberfest-swag.jpg){.img-responsive}
 
 24 Pull Requests is similar, with the exception being that the target is 24 Pull Requests, and it is in the month of December.  Unfortunately, there isn't any swag associated with this particular contest, but I wouldn't let that put you off taking part.  This year, I was a little bit late in getting all my Pull Requests in, working right up until the last day.  In 2015, I was able to make 40 Pull Requests and complete in plenty of time.  Going to have to pull my socks up in 2017!
 
@@ -79,11 +79,11 @@ For those of you that don't know, Hacktoberfest is an online event ran by [Digit
 
 I have been an on/off user of Stack Overflow since joining in 2011.  Mainly as a consumer of answers, it is an invaluable resource.  In 2016 though, I made a concerted effort to try to provide answers to questions rather than simply use the existing answers.  This was mainly due to my increased involvement in the Open Source projects that I work on.  As a result, I have seen an significant increase in my Stack Overflow reputation this year:
 
-![Stack Overflow Reputation](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation.png)
+![Stack Overflow Reputation](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation.png){.img-responsive}
 
 And having just logged in just now, I have just seen that I am now in the following:
 
-![Stack Overflow Reputation Top 14% overall](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation-top.png)
+![Stack Overflow Reputation Top 14% overall](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-reputation-top.png){.img-responsive}
 
 To date, my top answer on Stack Overflow is:
 
@@ -99,7 +99,7 @@ It is still annoying though when you spend [a lot of time on an answer](http://s
 
 On the plus side, you can get access to some funny hats!!
 
-![Stack Overflow Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-profile.png)
+![Stack Overflow Profile](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/stackoverflow-profile.png){.img-responsive}
 
 ## TeamCity Plugin Contest
 
@@ -112,7 +112,7 @@ Along with the TeamCity Development Team, Wesley Higbee, Jeffrey Palermo and mys
 - Completeness
 - Code quality and documentation
 
-![TeamCity Coding Contest Judges](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/teamcity-plugin-contest.png)
+![TeamCity Coding Contest Judges](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/teamcity-plugin-contest.png){.img-responsive}
 
 I wasn't able to offer much in terms of judging Code Quality, as I have never done any Kotlin programming (although it is on my list of things to look at), but I was able to score the plugins in the other areas.  In all honesty, this was a lot of fun (although it did take quite a while to go through them all).  There were some amazing entries, and the end results can be seen [here](https://blog.jetbrains.com/teamcity/2016/12/teamcity-plugin-contest-2016-winners-announcement/).  Congratulations to the winners, and well done to everyone who took part!
 
@@ -120,13 +120,13 @@ I wasn't able to offer much in terms of judging Code Quality, as I have never do
 
 In May I was able to attend the WinOps Conference in London.  This is the second time that I have attended this conference, but this time I was there in a more official capacity.  [Chocolatey](https://chocolatey.org/) was the lanyard sponsor for the event, and I was there to answer any questions that anyone had on Chocolatey.
 
-![Chocolatey Lanyard Sponsor](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/chocolatey-lanyard-sponsor.jpg)
+![Chocolatey Lanyard Sponsor](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/chocolatey-lanyard-sponsor.jpg){.img-responsive}
 
 I was able to hang out on the Puppet booth, and to hand out some of the new Chocolatey Icon stickers which were released this year.
 
 I was also able to grab some time with Jeffrey Snover to discuss some of the newer features that have been coming out recently in Chocolatey.
 
-![WinOps 2016 Chocolatey Jeffrey Snover](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/winops-chocolatey-jsnover.jpg)
+![WinOps 2016 Chocolatey Jeffrey Snover](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/winops-chocolatey-jsnover.jpg){.img-responsive}
 
 **NOTE:** Image taken from Official WinOps Twitter Feed [here](https://twitter.com/winopsldn/status/735135079886950400).
 
@@ -136,7 +136,7 @@ The videos from this event can be seen on Channel 9 [here](https://channel9.msdn
 
 Anyone who follows me on Twitter will be aware that I have had a number of ongoing problems with my Microsoft Band 2.  I genuinely, really like this device, it does everything that I need, and more, however, it keeps breaking!
 
-![Microsoft Band strap split](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/microsoft-band.jpg)
+![Microsoft Band strap split](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/microsoft-band.jpg){.img-responsive}
 
 This year, I have had to return the device twice for the same problem, in the exact same location.  In December, the same thing happened again.  This time around though, after hearing that there are [no plans for Microsoft to continue with the device](https://www.thurrott.com/mobile/microsoft-band/82073/disbanded-microsoft-confirms-will-not-sell-band-3),  I have requested a refund from Microsoft, rather than a replacement.  I haven't yet heard whether this is going to go through or not, but I am hopeful.  A courier is picking up the device on the 4th January, so I should find out soon whether it will go through.  The next question is obviously what to replace it with?
 
@@ -161,7 +161,7 @@ This year the group hosted 8 events:
 
 The stand out event is ~~the one that I did~~ obviously the aptly named ScotNetRocks tour!  This featured the amazing Carl Franklin and Richard Campbell from the [.Net Rocks podcast](https://www.dotnetrocks.com/).  This event was done in conjunction with the guys from [Scottish Developers](https://scottishdevelopers.com/) and saw Carl and Richard visit Glasgow, Edinburgh, as well as Aberdeen.  The tour was a fantastic success, and the feedback that we got was amazing!  Once again, a huge thanks for the sponsors of the event, [Codify](http://www.codify.ltd.uk/), [Evoke IT](http://www.evokeit.com/) and [Lockheed Martin](http://www.lockheedmartin.co.uk/uk.html) without whom the event couldn't have happened!
 
-![ScotNetRocks Tour Aberdeen](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/scotnetrocks.jpg)
+![ScotNetRocks Tour Aberdeen](https://gep13wpstorage.blob.core.windows.net/gep13/2017/01/03/scotnetrocks.jpg){.img-responsive}
 
 ## Converted Blog to Wyam
 

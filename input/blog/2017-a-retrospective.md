@@ -16,7 +16,7 @@ As per the [post](https://www.gep13.co.uk/blog/2016-a-retrospective) that I did 
 
 On the 17th February, we welcomed our second child, [Amelia Mabel Park](https://www.gep13.co.uk/blog/amelia-mabel-park) into the world.  To say that the last 10 months have just flown by would be an understatement.  My wife and I have had so much fun watching Amelia grow and form her own little personality.  Alivia has taken to being a big sister very well, and she loves her little sister.
 
-![Alivia and Amelia](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/10/alivia-and-amelia.png)
+![Alivia and Amelia](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/10/alivia-and-amelia.png){.img-responsive}
 
 ## Microsoft MVP
 
@@ -26,13 +26,13 @@ In July, I was awarded the [Microsoft MVP Award](https://www.gep13.co.uk/blog/i-
 
 Following on from 2016's increased level of contributions to GitHub, I sort of got onto a little bit of a run in 2017, and once I got started, I didn't want to stop!
 
-![GitHub Contributions for 2017](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/10/GitHub-Contributions-2017.png)
+![GitHub Contributions for 2017](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/10/GitHub-Contributions-2017.png){.img-responsive}
 
 A couple months into the streak, I started wondering whether it would be possible to keep up the contributions for the entire year, and the rest as they say is history.
 
 The eagle eyed amongst you might notice that there is a blip on the 2nd March.  To be honest, I am not sure what happened here, as I did have a contribution on this day.  Shrug.
 
-![GitHub Contribution Blip](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/10/GitHub-Contribution-Blip.png)
+![GitHub Contribution Blip](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/10/GitHub-Contribution-Blip.png){.img-responsive}
 
 ## Podcasts
 
@@ -52,7 +52,7 @@ In what is now turning into a yearly tradition, I once again took part in [Hackt
 
 And here is the swag I mentioned:
 
-![Hacktoberfest 2017 Swag](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/11/hacktoberfest-2017-swag.png)
+![Hacktoberfest 2017 Swag](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/11/hacktoberfest-2017-swag.png){.img-responsive}
 
 ## 24 Pull Requests
 
@@ -72,17 +72,17 @@ All topics which are important to me, and which I think I am capable of answerin
 
 My Reputation on Stack Overflow increased to 4797 (an increase on 2074):
 
-![Stack Overflow Reputation](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/10/Reputation%20-%202018-01-03_14-24-06.png)
+![Stack Overflow Reputation](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/10/Reputation%20-%202018-01-03_14-24-06.png){.img-responsive}
 
 I also increased the number of badges which I have earned:
 
-![Stack Overflow Badges](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/10/Badges%20-%202018-01-03_14-24-56.png)
+![Stack Overflow Badges](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/10/Badges%20-%202018-01-03_14-24-56.png){.img-responsive}
 
 Including the `Fanatic` badge (which meant visiting the site on 100 consecutive days), which sort of went hand in hand with my GitHub Contribution streak.
 
 And according to the site, I have reached 87 thousand people:
 
-![Stack Overflow Impact](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/10/Impact%20-%202018-01-03_14-25-28.png)
+![Stack Overflow Impact](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/10/Impact%20-%202018-01-03_14-25-28.png){.img-responsive}
 
 ## YouTube Videos
 
@@ -102,7 +102,7 @@ I had loads of great conversations across the two days, and it was great to see 
 
 This was me chatting with [Steve Murawski](https://twitter.com/stevenmurawski) at the Chocolatey booth:
 
-![Chatting with Steve Murawski](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/11/winops-steve-murawski.jpg)
+![Chatting with Steve Murawski](https://gep13wpstorage.blob.core.windows.net/gep13/2018/01/11/winops-steve-murawski.jpg){.img-responsive}
 
 While in London, I was also able to attend the [PowerShell Dev Day](https://psday.uk/), which was also a great event.  I would encourage anyone to go to this!
 
