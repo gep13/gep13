@@ -4,8 +4,24 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2021</rights>
-	<updated>2021-01-24T21:14:13Z</updated>
+	<updated>2021-03-13T18:52:01Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/i-am-a-github-star" />
+		<id>http://www.gep13.co.uk/blog/i-am-a-github-star</id>
+		<title>I am a GitHub Star</title>
+		<updated>2021-03-13T00:00:00Z</updated>
+		<content>&lt;p&gt;I am very happy to announce that yesterday I got an email confirming that I had been accepted as a &lt;a href="https://stars.github.com/"&gt;GitHub Star&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For those of you who don't know, the GitHub Star Award is a program to...&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;Recognize those who go above and beyond. Lift up the people who inspire and educate your communities with the GitHub Stars program&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I knew that I had been nominated for the award since I was asked to provide some examples of contributions that I have made in the last year, but I was thrilled to find out that I had been accepted.  I am honoured to think that folks out there thought that I was worthy of this award, and I would like to thank them for nominating me!&lt;/p&gt;
+&lt;p&gt;You can see my GitHub Star profile &lt;a href="https://stars.github.com/profiles/gep13/"&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2021/03/13/github-star-profile.png" class="img-responsive img-fluid" alt="GitHub Star Profile" /&gt;&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;I am very happy to announce that yesterday I got an email confirming that I had been accepted as a &lt;a href="https://stars.github.com/"&gt;GitHub Star&lt;/a&gt;.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vs-release-0.3.0" />
 		<id>http://www.gep13.co.uk/blog/cake-vs-release-0.3.0</id>
@@ -565,23 +581,6 @@
 &lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
 &lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/x2oKA_-6PEE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-1.0.0" />
-		<id>http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-1.0.0</id>
-		<title>Cake Azure DevOps Extension Release 1.0.0</title>
-		<updated>2020-08-10T00:00:00Z</updated>
-		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
-&lt;h3 id="improvements"&gt;Improvements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vso/issues/63"&gt;&lt;strong&gt;#63&lt;/strong&gt;&lt;/a&gt; Release major version of the extension&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-build/cake-vso/issues/58"&gt;&lt;strong&gt;#58&lt;/strong&gt;&lt;/a&gt; Use Token for GRM, rather than username/password&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
-&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Qfq2Ug5xUrw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
