@@ -15,9 +15,9 @@ For those of you who don't know, the Microsoft MVP Award, it is...
 
 If you are interested, you can find out more about it [here](https://mvp.microsoft.com/en-us/Overview).
 
-For a long time, I have often "thought" about being a Microsoft MVP, but I honestly never thought that I would be given one, so I am very happy to have recieved this.
+For a long time, I have often "thought" about being a Microsoft MVP, but I honestly never thought that I would be given one, so I am very happy to have received this.
 
-When I found out the news yesterday, I was very excited.  I had literally just found out that a friend of mine, [Mattias](https://twitter.com/devlead/status/881201782109728768), had also been awarded with an MVP.  When I checked my email, I found that I too had recieved one.
+When I found out the news yesterday, I was very excited.  I had literally just found out that a friend of mine, [Mattias](https://twitter.com/devlead/status/881201782109728768), had also been awarded with an MVP.  When I checked my email, I found that I too had received one.
 
 I am looking forward to getting involved in the MVP Community, and continuing to contribute in the next year.
 
