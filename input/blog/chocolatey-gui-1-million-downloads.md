@@ -1,6 +1,6 @@
 ---
 Title: Chocolatey GUI - The Path to 1 million downloads
-Published: 09/03/2021
+Published: 09/04/2021
 Tags:
 - chocolateygui
 - milestone
