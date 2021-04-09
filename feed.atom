@@ -4,7 +4,7 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2021</rights>
-	<updated>2021-03-13T19:02:11Z</updated>
+	<updated>2021-04-09T21:17:09Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/i-am-a-github-star" />
@@ -21,6 +21,63 @@
 &lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2021/03/13/github-star-profile.png" class="img-responsive img-fluid" alt="GitHub Star Profile" /&gt;&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;I am very happy to announce that yesterday I got an email confirming that I had been accepted as a &lt;a href="https://stars.github.com/"&gt;GitHub Star&lt;/a&gt;.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/chocolatey-gui-1-million-downloads" />
+		<id>http://www.gep13.co.uk/blog/chocolatey-gui-1-million-downloads</id>
+		<title>Chocolatey GUI - The Path to 1 million downloads</title>
+		<updated>2021-03-09T00:00:00Z</updated>
+		<content>&lt;h2 id="million-downloads"&gt;1 MILLION DOWNLOADS!!!&lt;/h2&gt;
+&lt;p&gt;On the 30th March 2021 (with the help of the 0.18.1 release), the Chocolatey GUI package passed 1 million downloads on &lt;a href="https://community.chocolatey.org/packages/chocolateygui"&gt;community.chocolatey.org&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;With the release of the 0.18.1 version of Chocolatey GUI, the total downloads is now over 1 million! It&amp;#39;s a huge milestone, and I&amp;#39;m so happy that it&amp;#39;s got to this! Thanks to &lt;a href="https://twitter.com/chrissie1?ref_src=twsrc%5Etfw"&gt;&amp;#64;chrissie1&lt;/a&gt; &lt;a href="https://twitter.com/RichardSimp?ref_src=twsrc%5Etfw"&gt;&amp;#64;RichardSimp&lt;/a&gt; &lt;a href="https://twitter.com/punker76?ref_src=twsrc%5Etfw"&gt;&amp;#64;punker76&lt;/a&gt; and everyone else who has helped over the years! &lt;a href="https://t.co/8x6rbJ9bmu"&gt;https://t.co/8x6rbJ9bmu&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gary Ewan Park (&amp;#64;gep13) &lt;a href="https://twitter.com/gep13/status/1376870263023927300?ref_src=twsrc%5Etfw"&gt;March 30, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;This is a HUGE milestone for the project, and one that I wanted to mark, so I thought I would take you all on a little trip through the history of the project, explaining how we got to where we are today.&lt;/p&gt;
+&lt;p&gt;Over the years, we have had &lt;a href="https://github.com/chocolatey/ChocolateyGUI/graphs/contributors"&gt;34 different contributors&lt;/a&gt; to the project, and I am grateful to each and every one of you!  Obviously, I can't call out each contribution in this blog post, so I am called out the major changes that have happened over the years.&lt;/p&gt;
+&lt;h3 id="phase-1-the-windows-form-application"&gt;Phase 1 - The Windows Form Application&lt;/h3&gt;
+&lt;p&gt;On the 21st March 2011, the first &lt;a href="https://github.com/ferventcoder/nugetpackages/commit/d16ed7ac675395b3bb8ecee90fb13efb03d4b619"&gt;commit&lt;/a&gt; was made on the project that would become Chocolatey, and the first version (&lt;a href="https://community.chocolatey.org/packages/chocolatey/0.7.0.0"&gt;0.7.0.0&lt;/a&gt;) was published on the 23rd August 2011.&lt;/p&gt;
+&lt;p&gt;Hot on the heels of this, &lt;a href="https://twitter.com/chrissie1"&gt;Christian Baes&lt;/a&gt; decided that he wanted to start working on a GUI application that could be used alongside Chocolatey.  The first &lt;a href="https://github.com/chocolatey/ChocolateyGUI/commit/20f03855d47772d5c1058ea7ee42df2a06355d39"&gt;commit&lt;/a&gt; was made on the 11th September 2011, and the first version (&lt;a href="https://community.chocolatey.org/packages/ChocolateyGUI/0.0.1"&gt;0.0.1&lt;/a&gt;) was released on the 10th September 2011 (Yes, that isn't a typo, the first package was pushed before the first commit made it into the repository :smile:).&lt;/p&gt;
+&lt;p&gt;Chrissie &lt;a href="http://blogs.lessthandot.com/index.php/DesktopDev/MSTech/chocolatey-gui"&gt;blogged&lt;/a&gt; about this at the time, and captured some images of that first release.&lt;/p&gt;
+&lt;p&gt;A couple years later, and with some help from &lt;a href="https://twitter.com/miracula_de"&gt;Miracula&lt;/a&gt; a new version of the application was released that provided some new functionality.  Again, Chrissie captured details about this in his &lt;a href="http://blogs.lessthandot.com/index.php/SysAdmins/OS/Windows/all-new-chocolateygui"&gt;blog&lt;/a&gt; post.&lt;/p&gt;
+&lt;p&gt;At the time, the project was hosted on Chrissie's GitHub profile at &lt;a href="https://github.com/chrissie1/chocolatey-Explorer"&gt;https://github.com/chrissie1/chocolatey-Explorer&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id="phase-2-changing-hands"&gt;Phase 2 - Changing hands&lt;/h3&gt;
+&lt;p&gt;I started taking an interest in Chocolatey GUI at the start of 2013, with my first &lt;a href="https://github.com/chocolatey/ChocolateyGUI/commit/c722821573cafce6bfb50760618a8c1803e76e7f"&gt;commit&lt;/a&gt; being made on the 11th February 2013.&lt;/p&gt;
+&lt;p&gt;Whilst making contributions into the repository, I spoke with Chrissie and we came to an agreement that we should move the repository into my GitHub profile, where I could continue the maintenance on the project.&lt;/p&gt;
+&lt;p&gt;Around 16th October 2013 the repository was moved to gep13 GitHub profile. We can see where some of this work got &lt;a href="https://github.com/chocolatey/ChocolateyGUI/commit/6e75615ea3b8190dcf85fb8f2150fce66a7cb3dc"&gt;started&lt;/a&gt; and we established a Google Group for answering questions related to the application.&lt;/p&gt;
+&lt;p&gt;At this time, you could find the project source code at &lt;a href="https://github.com/gep13/chocolatey-explorer"&gt;https://github.com/gep13/chocolatey-explorer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After discussions with &lt;a href="https://twitter.com/ferventcoder"&gt;Rob Reynolds&lt;/a&gt;, it was decided that it would be a good idea to bring the project into the Chocolatey GitHub Organisation, where the maintenance effort could be continued.  At the beginning of 2014, the transfer was completed, and the repository was renamed to be ChocolateyGUI. You can see where the &lt;a href="https://github.com/chocolatey/ChocolateyGUI/commit/333eeebdac9a53f91818135329e8e074984ba893#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5"&gt;readme&lt;/a&gt; was updated to reflect this.&lt;/p&gt;
+&lt;p&gt;From then on, the project could be found at &lt;a href="https://github.com/chocolatey/ChocolateyGUI"&gt;https://github.com/chocolatey/ChocolateyGUI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You have to hand it to GitHub that each of the URL's continues to be re-directed to the correct place!&lt;/p&gt;
+&lt;h3 id="phase-3-switching-to-wpf"&gt;Phase 3 - Switching to WPF&lt;/h3&gt;
+&lt;p&gt;On the 16th September 2014, &lt;a href="https://twitter.com/RichardSimp"&gt;Richard Simpson&lt;/a&gt; made his first &lt;a href="https://github.com/chocolatey/ChocolateyGUI/commit/2d9bab432f58230f6c15f387608d58657201e536"&gt;commit&lt;/a&gt; in the repository.  This was the start of a transition from the Windows Forms Application to use WPF, and on the 28th September 2015, version 0.12.0 was released.&lt;/p&gt;
+&lt;h3 id="phase-4-ui-and-functionality-improvements"&gt;Phase 4 - UI and functionality improvements&lt;/h3&gt;
+&lt;p&gt;On the 27th September 2017, &lt;a href="https://twitter.com/punker76"&gt;Jan Karger&lt;/a&gt; made his first &lt;a href="https://github.com/chocolatey/ChocolateyGUI/commit/57c847387fe82d31a67a959ed049d3f5d9599b49"&gt;commit&lt;/a&gt; into the repository.&lt;/p&gt;
+&lt;p&gt;Since this first commit, Jan has worked on a number of the most sought after features within Chocolatey GUI, for example the &lt;a href="https://docs.chocolatey.org/en-us/chocolatey-gui/setup/configuration/features/default-to-tile-view-for-local-source"&gt;Tile View&lt;/a&gt; for packages, as well as the &lt;a href="https://docs.chocolatey.org/en-us/chocolatey-gui/setup/configuration/features/default-to-dark-mode"&gt;Dark Mode&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id="phase-5-the-future"&gt;Phase 5 - The future&lt;/h3&gt;
+&lt;p&gt;There are a number of improvements and changes that I would like to see added to Chocolatey GUI, so keep your eyes peeled for new versions shipping!  Here's to the next 1 million downloads!&lt;/p&gt;
+&lt;h3 id="chocolatey-gui-in-pictures"&gt;Chocolatey GUI in pictures&lt;/h3&gt;
+&lt;h4 id="version-0.0.5"&gt;Version 0.0.5&lt;/h4&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2021/04/09/ChocolateyGUI-0.0.5.png" class="img-responsive img-fluid" alt="Chocolatey GUI Version 0.0.5" /&gt;&lt;/p&gt;
+&lt;h4 id="version-0.1.0"&gt;Version 0.1.0&lt;/h4&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2021/04/09/ChocolateyGUI-0.1.0.png" class="img-responsive img-fluid" alt="Chocolatey GUI Version 0.1.0" /&gt;&lt;/p&gt;
+&lt;h4 id="version-0.11.0"&gt;Version 0.11.0&lt;/h4&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2021/04/09/ChocolateyGUI-0.11.0.png" class="img-responsive img-fluid" alt="Chocolatey GUI Version 0.11.0" /&gt;&lt;/p&gt;
+&lt;h4 id="version-0.12.4"&gt;Version 0.12.4&lt;/h4&gt;
+&lt;p&gt;The new WPF version of the application is released, with a colour palette that matched the Community website at the time.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2021/04/09/ChocolateyGUI-0.12.4.png" class="img-responsive img-fluid" alt="Chocolatey GUI Version 0.12.4" /&gt;&lt;/p&gt;
+&lt;h4 id="version-0.15.0"&gt;Version 0.15.0&lt;/h4&gt;
+&lt;p&gt;A new colour palette, along with a very cool (in my opinion) tilting logo, was introduced to the application. This mimics the tilting logo that was available on the Community website at the time.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2021/04/09/ChocolateyGUI-0.15.0.png" class="img-responsive img-fluid" alt="Chocolatey GUI Version 0.15.0" /&gt;&lt;/p&gt;
+&lt;h4 id="version-0.16.0"&gt;Version 0.16.0&lt;/h4&gt;
+&lt;p&gt;Tile View is now available, but it isn't enabled by default.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2021/04/09/ChocolateyGUI-0.16.0.png" class="img-responsive img-fluid" alt="Chocolatey GUI Version 0.16.0" /&gt;&lt;/p&gt;
+&lt;h4 id="version-0.17.3"&gt;Version 0.17.3&lt;/h4&gt;
+&lt;p&gt;The tilting logo was removed, and replaced with a static logo, and addition UI elements to indicate when packages are outdated was introduced.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2021/04/09/ChocolateyGUI-0.17.3.png" class="img-responsive img-fluid" alt="Chocolatey GUI Version 0.17.3" /&gt;&lt;/p&gt;
+&lt;h4 id="version-0.18.0"&gt;Version 0.18.0&lt;/h4&gt;
+&lt;p&gt;Tile view is enabled by default, and a new dark mode is introduced.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2021/04/09/ChocolateyGUI-0.18.0.png" class="img-responsive img-fluid" alt="Chocolatey GUI Version 0.18.0" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2021/04/09/ChocolateyGUI-0.18.0-dark.png" class="img-responsive img-fluid" alt="Chocolatey GUI Version 0.18.0 Dark Mode" /&gt;&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;On the 30th March 2021 (with the help of the 0.18.1 release), the Chocolatey GUI package passed 1 million downloads on &lt;a href="https://community.chocolatey.org/packages/chocolateygui"&gt;community.chocolatey.org&lt;/a&gt;:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vs-release-0.3.0" />
@@ -549,22 +606,6 @@
 &lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
 &lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Ki-SZ3d_kzw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/chocolatey-vscode-extension-release-0.7.2" />
-		<id>http://www.gep13.co.uk/blog/chocolatey-vscode-extension-release-0.7.2</id>
-		<title>Chocolatey VsCode Extension Release 0.7.2</title>
-		<updated>2020-08-12T00:00:00Z</updated>
-		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
-&lt;h3 id="bug"&gt;Bug&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/chocolatey-community/chocolatey-vscode/issues/404"&gt;&lt;strong&gt;#404&lt;/strong&gt;&lt;/a&gt; Invalid error shown when attempting to run Create new Chocolatey package&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
-&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/pkOsfj69kPA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
