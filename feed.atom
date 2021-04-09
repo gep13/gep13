@@ -4,29 +4,13 @@
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
 	<rights>2021</rights>
-	<updated>2021-04-09T21:17:09Z</updated>
+	<updated>2021-04-09T21:20:48Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/i-am-a-github-star" />
-		<id>http://www.gep13.co.uk/blog/i-am-a-github-star</id>
-		<title>I am a GitHub Star</title>
-		<updated>2021-03-13T00:00:00Z</updated>
-		<content>&lt;p&gt;I am very happy to announce that yesterday I got an email confirming that I had been accepted as a &lt;a href="https://stars.github.com/"&gt;GitHub Star&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;For those of you who don't know, the GitHub Star Award is a program to...&lt;/p&gt;
-&lt;blockquote class="blockquote"&gt;
-&lt;p&gt;Recognize those who go above and beyond. Lift up the people who inspire and educate your communities with the GitHub Stars program&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I knew that I had been nominated for the award since I was asked to provide some examples of contributions that I have made in the last year, but I was thrilled to find out that I had been accepted.  I am honoured to think that folks out there thought that I was worthy of this award, and I would like to thank them for nominating me!&lt;/p&gt;
-&lt;p&gt;You can see my GitHub Star profile &lt;a href="https://stars.github.com/profiles/gep13/"&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2021/03/13/github-star-profile.png" class="img-responsive img-fluid" alt="GitHub Star Profile" /&gt;&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;I am very happy to announce that yesterday I got an email confirming that I had been accepted as a &lt;a href="https://stars.github.com/"&gt;GitHub Star&lt;/a&gt;.&lt;/p&gt;</summary>
-	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/chocolatey-gui-1-million-downloads" />
 		<id>http://www.gep13.co.uk/blog/chocolatey-gui-1-million-downloads</id>
 		<title>Chocolatey GUI - The Path to 1 million downloads</title>
-		<updated>2021-03-09T00:00:00Z</updated>
+		<updated>2021-04-09T00:00:00Z</updated>
 		<content>&lt;h2 id="million-downloads"&gt;1 MILLION DOWNLOADS!!!&lt;/h2&gt;
 &lt;p&gt;On the 30th March 2021 (with the help of the 0.18.1 release), the Chocolatey GUI package passed 1 million downloads on &lt;a href="https://community.chocolatey.org/packages/chocolateygui"&gt;community.chocolatey.org&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;With the release of the 0.18.1 version of Chocolatey GUI, the total downloads is now over 1 million! It&amp;#39;s a huge milestone, and I&amp;#39;m so happy that it&amp;#39;s got to this! Thanks to &lt;a href="https://twitter.com/chrissie1?ref_src=twsrc%5Etfw"&gt;&amp;#64;chrissie1&lt;/a&gt; &lt;a href="https://twitter.com/RichardSimp?ref_src=twsrc%5Etfw"&gt;&amp;#64;RichardSimp&lt;/a&gt; &lt;a href="https://twitter.com/punker76?ref_src=twsrc%5Etfw"&gt;&amp;#64;punker76&lt;/a&gt; and everyone else who has helped over the years! &lt;a href="https://t.co/8x6rbJ9bmu"&gt;https://t.co/8x6rbJ9bmu&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gary Ewan Park (&amp;#64;gep13) &lt;a href="https://twitter.com/gep13/status/1376870263023927300?ref_src=twsrc%5Etfw"&gt;March 30, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
@@ -80,6 +64,22 @@
 		<summary>&lt;p&gt;On the 30th March 2021 (with the help of the 0.18.1 release), the Chocolatey GUI package passed 1 million downloads on &lt;a href="https://community.chocolatey.org/packages/chocolateygui"&gt;community.chocolatey.org&lt;/a&gt;:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
+		<link href="http://www.gep13.co.uk/blog/i-am-a-github-star" />
+		<id>http://www.gep13.co.uk/blog/i-am-a-github-star</id>
+		<title>I am a GitHub Star</title>
+		<updated>2021-03-13T00:00:00Z</updated>
+		<content>&lt;p&gt;I am very happy to announce that yesterday I got an email confirming that I had been accepted as a &lt;a href="https://stars.github.com/"&gt;GitHub Star&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For those of you who don't know, the GitHub Star Award is a program to...&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;
+&lt;p&gt;Recognize those who go above and beyond. Lift up the people who inspire and educate your communities with the GitHub Stars program&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I knew that I had been nominated for the award since I was asked to provide some examples of contributions that I have made in the last year, but I was thrilled to find out that I had been accepted.  I am honoured to think that folks out there thought that I was worthy of this award, and I would like to thank them for nominating me!&lt;/p&gt;
+&lt;p&gt;You can see my GitHub Star profile &lt;a href="https://stars.github.com/profiles/gep13/"&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gep13wpstorage.blob.core.windows.net/gep13/2021/03/13/github-star-profile.png" class="img-responsive img-fluid" alt="GitHub Star Profile" /&gt;&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;I am very happy to announce that yesterday I got an email confirming that I had been accepted as a &lt;a href="https://stars.github.com/"&gt;GitHub Star&lt;/a&gt;.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vs-release-0.3.0" />
 		<id>http://www.gep13.co.uk/blog/cake-vs-release-0.3.0</id>
 		<title>Cake Visual Studio Extension Release 0.3.0</title>
@@ -117,26 +117,6 @@
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/fG93MjnxHoo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;After working on it for a little bit during my Monday night streams, I am happy to announce that we have shipped the 0.3.0 release of the Cake Extension for Visual Studio.  This includes support for Visual Studio 2029.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0" />
-		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0</id>
-		<title>Cake.VsCode.Recipe Release 0.4.0</title>
-		<updated>2020-12-01T00:00:00Z</updated>
-		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
-&lt;h3 id="breaking-change"&gt;Breaking change&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/15"&gt;&lt;strong&gt;#15&lt;/strong&gt;&lt;/a&gt; Switch to using GitHub Token for GitReleaseManager&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="improvement"&gt;Improvement&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/13"&gt;&lt;strong&gt;#13&lt;/strong&gt;&lt;/a&gt; Add parameter for Chocolatey package ID&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
-&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/FcJpyQKAfCk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vscode-release-1.0.0" />
@@ -184,6 +164,26 @@
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/7Ba-pAHzO9w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
 		<summary>&lt;p&gt;The 1.0.0 release of the Cake Extension for Visual Studio Code has been a little while in the making, but I am excited to finally get it released.  There have been some amazing contributions to it from the community, so huge thanks for all the help!&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0" />
+		<id>http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.4.0</id>
+		<title>Cake.VsCode.Recipe Release 0.4.0</title>
+		<updated>2020-12-01T00:00:00Z</updated>
+		<content>&lt;h2 id="release-notes"&gt;Release Notes&lt;/h2&gt;
+&lt;h3 id="breaking-change"&gt;Breaking change&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/15"&gt;&lt;strong&gt;#15&lt;/strong&gt;&lt;/a&gt; Switch to using GitHub Token for GitReleaseManager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="improvement"&gt;Improvement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cake-contrib/Cake.VsCode.Recipe/issues/13"&gt;&lt;strong&gt;#13&lt;/strong&gt;&lt;/a&gt; Add parameter for Chocolatey package ID&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="release-video"&gt;Release Video&lt;/h2&gt;
+&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/FcJpyQKAfCk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+		<summary>&lt;p&gt;Here is a short video highlighting what is included in this release:&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/cake-vscode-recipe-release-0.3.0" />
