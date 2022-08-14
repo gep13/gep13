@@ -79,7 +79,15 @@ This was given out to attendees of Puppetize in 2019.
 
 ![Arc Reactor Grey](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-arcreactor-small.png)
 
-This is another [Adil](https://twitter.com/adilio) design, and it is available in blue and grey, and it is inspired by the arc reactor from Iron Man.  I believe I am right in saying that the blue one is only available to Employees and Contractors for Chocolatey.
+![Arc Reactor Black](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-arcreactor-black.png)
+
+This is another [Adil](https://twitter.com/adilio) design, and it is available in blue and grey, and it is inspired by the arc reactor from Iron Man.  I believe I am right in saying that the blue and black ones are only available to Employees and Contractors for Chocolatey.
+
+![11th Birthday Colour](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-11th-birthday-colour-small.png)
+
+![11th Birthday White](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-11th-birthday-white-small.png)
+
+These t-shirts were created as part of the 11th Birthday celebrations for Chocolatey. Full praise goes to [Steph](https://twitter.com/st3phhays) for the creation of this design!
 
 ## Hoodies
 
@@ -102,6 +110,12 @@ Inspired by the Microsoft MVP Jacket, there is an official Chocolatey Jacket ava
 ![Hat Front Left](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/hat2-small.png)
 
 This was created by my colleague [Stevie](https://twitter.com/steviecoaster), and I absolutely love it!  These were made in a very small quantity, and you should count yourself very lucky if you have one.  This is my go to hat!
+
+![New Hat Front](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/new-hat-front.png)
+
+![New Hat Rear](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/new-hat-rear.png)
+
+Following on from his original creation, [Stevie](https://twitter.com/steviecoaster) then created another amazing hat! This is my new go to hat!
 
 ## Chocolate
 
@@ -128,6 +142,14 @@ In keeping with the Willy Wonka theme of Chocolatey Fest, the Chocolatey Golden 
 ![Chocolatey Strawberry Large](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker5-small.png)
 
 This is a reasonably new design created by my colleague [Adil](https://twitter.com/adilio).  It can be found in a couple different sizes.
+
+![11th Birthday](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker-birthday.png)
+
+Similar to the t-shirts there were made for the 11th Birthday celebrations, a limited run of stickers were created.
+
+![Holographic Arc Reactor](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker-arc-reactor-holographic.png)
+
+![Holographic Logo](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker-logo-holographic.png)
 
 ## Sponsorship Swag
 
@@ -182,6 +204,12 @@ Created by [Manfred Wallner](https://twitter.com/schusterfredl) (a Chocolatey Co
 ![Rob The Founder](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/sticker4-small.png)
 
 This was created by [Stevie](https://twitter.com/steviecoaster) and [Adil](https://twitter.com/adilio) for the Founder of Chocolatey, [Rob Reynolds](https://twitter.com/ferventcoder).
+
+### Posters
+
+![Choco Poster](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/poster.png)
+
+Inspired by some posters that I saw [Patrik Svensson](https://twitter.com/firstdrafthell) have made, I reached out to [Bartek](https://twitter.com/brtkdotse) who [created them](https://dekalfabriken.se/), and had him make one for Chocolatey. This poster takes pride of place on the wall in my office!
 
 ---
 
