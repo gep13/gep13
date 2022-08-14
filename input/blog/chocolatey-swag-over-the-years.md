@@ -79,7 +79,7 @@ This was given out to attendees of Puppetize in 2019.
 
 ![Arc Reactor Grey](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-arcreactor-small.png)
 
-![Arc Reactor Black](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-arcreactor-black.png)
+![Arc Reactor Black](https://gep13wpstorage.blob.core.windows.net/gep13/2020/06/20/tshirt-arcreactor-black-small.png)
 
 This is another [Adil](https://twitter.com/adilio) design, and it is available in blue and grey, and it is inspired by the arc reactor from Iron Man.  I believe I am right in saying that the blue and black ones are only available to Employees and Contractors for Chocolatey.
 
