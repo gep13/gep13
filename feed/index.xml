@@ -3,8 +3,8 @@
 	<link rel="self" href="http://www.gep13.co.uk/" />
 	<id>http://www.gep13.co.uk/</id>
 	<title>Gary Ewan Park</title>
-	<rights>2022</rights>
-	<updated>2022-08-14T14:52:11Z</updated>
+	<rights>2023</rights>
+	<updated>2023-06-12T19:55:19Z</updated>
 	<subtitle>Ramblings and Ponderings of a Microsoft Fan Boy...</subtitle>
 	<entry>
 		<link href="http://www.gep13.co.uk/blog/chocolatey-gui-1-million-downloads" />
@@ -140,9 +140,9 @@
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
 	<entry>
-		<link href="http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-2.0.1" />
-		<id>http://www.gep13.co.uk/blog/cake-azure-devops-extension-release-2.0.1</id>
-		<title>Cake Azure DevOps Extension Release 2.0.1</title>
+		<link href="http://www.gep13.co.uk/blog/chocolatey-vscode-extension-release-0.7.2" />
+		<id>http://www.gep13.co.uk/blog/chocolatey-vscode-extension-release-0.7.2</id>
+		<title>Chocolatey VsCode Extension Release 0.7.2</title>
 		<updated>2020-08-12T00:00:00Z</updated>
 		<summary>Ramblings and Ponderings of a Microsoft Fan Boy...</summary>
 	</entry>
