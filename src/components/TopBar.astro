@@ -1,0 +1,21 @@
+---
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const is = (p: string) => (p === '/' ? path === '/' : path === p || path.startsWith(p + '/'));
+const links = [
+  { href: '/about', label: 'About' },
+  { href: '/projects', label: 'Projects' },
+  { href: '/talks', label: 'Talks' },
+  { href: '/blog', label: 'Archive' },
+  { href: '/contact', label: 'Contact' },
+  { href: '/tags', label: 'Tags' },
+];
+---
+<div class="topbar">
+  <div class="wrap">
+    <a class="brand" href="/"><span class="dot"></span>gep13.co.uk</a>
+    <nav class="nav">
+      {links.map((l) => <a href={l.href} class={is(l.href) ? 'on' : ''}>{l.label}</a>)}
+      <button class="theme" id="themeToggle" aria-label="Switch theme">☾ espresso</button>
+    </nav>
+  </div>
+</div>

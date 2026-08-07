@@ -1,0 +1,4 @@
+# Preserve legacy Wyam feed URLs for existing subscribers.
+/feed.rss        /feed.xml   301
+/feed.atom       /atom.xml   301
+/feed/index.xml  /atom.xml   301

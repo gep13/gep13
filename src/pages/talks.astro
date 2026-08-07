@@ -1,0 +1,55 @@
+---
+import Base from '../layouts/Base.astro';
+import talks from '../data/talks.json';
+
+type Talk = {
+  date: string; year: number; event: string; title: string;
+  slides: string | null; recording: string | null; flag: string; language: string;
+};
+const all = talks as Talk[];
+
+const byYear = new Map<number, Talk[]>();
+for (const t of all) {
+  if (!byYear.has(t.year)) byYear.set(t.year, []);
+  byYear.get(t.year)!.push(t);
+}
+const years = [...byYear.keys()].sort((a, b) => b - a);
+const fmtDate = (d: string) =>
+  new Date(d).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+---
+<Base title="Talks — gep13.co.uk">
+  <div class="wrap">
+    <header class="arch-head">
+      <span class="eyebrow">Talks</span>
+      <h1>{all.length} talks given</h1>
+      <p class="sub">
+        Presentations at user groups, conferences, and podcasts, {years[years.length - 1]} → {years[0]}.
+        Aggregated from <a href="https://github.com/gep13-talks/public-speaking" style="color:var(--amber)">gep13-talks/public-speaking</a>.
+      </p>
+    </header>
+
+    <section>
+      {years.map((y) => (
+        <div class="year-group">
+          <div class="year-sep">
+            <span class="y">{y}</span><span class="line"></span>
+            <span class="n">{byYear.get(y)!.length} talk{byYear.get(y)!.length === 1 ? '' : 's'}</span>
+          </div>
+          {byYear.get(y)!.map((t) => (
+            <div class="talk">
+              <span class="talk-date">{fmtDate(t.date)} <span class="flag">{t.flag}</span></span>
+              <span class="talk-main">
+                <span class="talk-title">{t.title}</span>
+                <span class="talk-event">{t.event}</span>
+              </span>
+              <span class="talk-links">
+                {t.slides && <a href={t.slides}>slides</a>}
+                {t.recording && <a href={t.recording}>recording</a>}
+              </span>
+            </div>
+          ))}
+        </div>
+      ))}
+    </section>
+  </div>
+</Base>

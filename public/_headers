@@ -1,0 +1,8 @@
+# Cloudflare Pages response headers. Version-controlled CSP — replaces the
+# opaque dashboard rule that previously broke Disqus. Tuned for giscus
+# (GitHub Discussions comments) + Google Analytics; fonts are self-hosted.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: https:; font-src 'self'; style-src 'self' 'unsafe-inline' https://giscus.app; script-src 'self' https://giscus.app https://www.googletagmanager.com; connect-src 'self' https://giscus.app https://api.github.com https://www.google-analytics.com; frame-src https://giscus.app https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com https://www.kickstarter.com; base-uri 'self'; form-action 'self' https://getsimpleform.com; upgrade-insecure-requests

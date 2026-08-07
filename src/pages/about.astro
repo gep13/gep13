@@ -1,0 +1,47 @@
+---
+import Base from '../layouts/Base.astro';
+
+// Personal links carried over from the current site (_SocialLinks), with
+// Twitter switched to Bluesky per Gary.
+const socials = [
+  { label: 'GitHub (gep13)', href: 'https://github.com/gep13' },
+  { label: 'Bluesky (gep13.co.uk)', href: 'https://bsky.app/profile/gep13.co.uk' },
+  { label: 'Stack Overflow', href: 'https://stackoverflow.com/users/671491/gary-ewan-park' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/gep13' },
+  { label: 'Keybase (gep13)', href: 'https://keybase.io/gep13' },
+  { label: 'Flickr (gep13)', href: 'https://flickr.com/photos/gep13/' },
+  { label: 'Goodreads (gep13)', href: 'https://www.goodreads.com/gep13' },
+];
+---
+<Base title="About — gep13.co.uk">
+  <div class="wrap">
+    <header class="post-head">
+      <span class="eyebrow">About</span>
+      <h1 class="post-title">Gary Ewan Park</h1>
+    </header>
+    <div class="page">
+      <article class="prose">
+        <p>My name is Gary Ewan Park and I work as a <strong>Principal Software Developer</strong> at <a href="https://chocolatey.org/">Chocolatey Software, Inc.</a>, up here in Aberdeen. If you want to get in touch, there are social links at the bottom of this page, as well as a <a href="/contact">contact form</a>.</p>
+
+        <p>I first started coding at University — well, I say coding, but what I mean of course is <a href="https://www.mathworks.co.uk/">MATLAB</a> — and at my first job I started using the wonderful VB6. As time progressed I moved onto VB.Net in Visual Studio 2003, and when I started using Visual Studio 2005 I switched to C#. That wasn't because I didn't “like” VB.Net, but as I got into Web Forms development I saw a lot of syntax similarities between C# and JavaScript, and it seemed to make more sense to use C#. These days I'm happy to converse in either. As I'm always saying, it doesn't matter about the syntax of the language — it's an understanding of the framework, and what you're trying to achieve, that matters.</p>
+
+        <p>I graduated from the University of Aberdeen with a First Class Honours degree in Electrical and Electronic Engineering. Looking back, a Computer Science degree might have served me better — but knowing the hardware side helps you understand what the software is trying to control.</p>
+
+        <p>In addition to coding, I love automating things. Especially automated deployment of code and infrastructure. Automate all the things!</p>
+
+        <p>For my sins, I'm a self-confessed Microsoft fan boy. I think the .NET platform is a great thing to build on, and I really can't get enough of it. I'm always happy to talk at length about anything geek-related, so if you have questions, feel free to get in touch.</p>
+
+        <p>Outside of work I like <a href="https://www.strava.com/athletes/gep13">running</a> on a semi-regular basis. I used to be an archer at University too, though I haven't done any since graduating — something I'd like to get back into.</p>
+
+        <p>On 1st July 2017 I was awarded a <a href="https://mvp.microsoft.com/en-us/PublicProfile/5002701">Microsoft MVP</a> award, and I'm happy to say I've been re-awarded every year since. On 12th March 2021 I was awarded a <a href="https://stars.github.com/profiles/gep13/">GitHub Star</a>.</p>
+      </article>
+
+      <aside class="social-card">
+        <h4>Find me around the web</h4>
+        <ul class="social-list">
+          {socials.map((s) => <li><a href={s.href}>{s.label}</a></li>)}
+        </ul>
+      </aside>
+    </div>
+  </div>
+</Base>

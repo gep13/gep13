@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Page not found — gep13.co.uk">
+  <div class="wrap">
+    <section class="notfound">
+      <p class="invoke"><span class="prompt">$</span> dotnet cake --target=Find</p>
+      <p class="nf-status"><span style="color:var(--amber)">✗</span> Task &ldquo;Find&rdquo; failed — <b>404</b>, page not found</p>
+      <h1 class="nf-title">Nothing to see here, move along</h1>
+      <p class="nf-sub">The target you asked for isn't in the build. It may have moved, or never existed.</p>
+      <div class="nf-links">
+        <a href="/">← Home</a>
+        <a href="/blog">Browse the archive</a>
+      </div>
+    </section>
+  </div>
+</Base>

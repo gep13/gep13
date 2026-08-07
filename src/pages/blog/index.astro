@@ -1,0 +1,62 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { tagSlug } from '../../lib/tags';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
+);
+const readTime = (body: string) => Math.max(1, Math.round((body?.split(/\s+/).length ?? 0) / 200));
+
+const byYear = new Map<number, typeof posts>();
+for (const p of posts) {
+  const y = p.data.pubDate.getFullYear();
+  if (!byYear.has(y)) byYear.set(y, []);
+  byYear.get(y)!.push(p);
+}
+const years = [...byYear.keys()].sort((a, b) => b - a);
+
+const tagCounts = new Map<string, number>();
+for (const p of posts) for (const t of p.data.tags) tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1);
+const topTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 14);
+---
+<Base title="Archive — gep13.co.uk">
+  <div class="wrap">
+    <header class="arch-head">
+      <span class="eyebrow">The full manifest</span>
+      <h1>{posts.length} targets, one archive</h1>
+      <p class="sub">Everything published to gep13.co.uk, {years[years.length - 1]} → {years[0]}. Every line is a post.</p>
+    </header>
+
+    {topTags.length > 0 && (
+      <section style="padding-bottom:0">
+        <p class="sec-label" style="margin-bottom:1rem">Most-used tags</p>
+        <div class="status-row">
+          {topTags.map(([t, n]) => (
+            <a class="chip" href={`/tags/${tagSlug(t)}`}>{t} <b>{n}</b></a>
+          ))}
+          <a class="chip" href="/tags">all tags →</a>
+        </div>
+      </section>
+    )}
+
+    <section>
+      {years.map((y) => (
+        <div class="year-group">
+          <div class="year-sep">
+            <span class="y">{y}</span><span class="line"></span>
+            <span class="n">{byYear.get(y)!.length} target{byYear.get(y)!.length === 1 ? '' : 's'}</span>
+          </div>
+          {byYear.get(y)!.map((p) => (
+            <a class="atask" href={`/blog/${p.id}`}>
+              <span class="t-status">✓</span>
+              <span class="t-read">{readTime(p.body ?? '')} min</span>
+              <span class="t-title">{p.data.title}</span>
+              <span class="t-tags">{p.data.tags.slice(0, 2).map((t) => <span class="tag">{t}</span>)}</span>
+            </a>
+          ))}
+        </div>
+      ))}
+    </section>
+  </div>
+</Base>
