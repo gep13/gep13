@@ -10,6 +10,10 @@ export default defineConfig({
   site: 'https://www.gep13.co.uk',
   trailingSlash: 'ignore',
   build: { format: 'directory' },
+  // Astro 7 changed the compressHTML default from `true` to `'jsx'`, which alters
+  // whitespace handling between inline elements. Pin `true` to preserve the exact
+  // pre-v7 rendering across the 485 posts (revisit 'jsx' deliberately if wanted).
+  compressHTML: true,
   markdown: {
     // remarkDirective parses :::note blocks; remarkCallouts styles them.
     remarkPlugins: [remarkDirective, remarkCallouts],
