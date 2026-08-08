@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { groupByTag, tagSlug } from '../../lib/tags';
+
+const posts = await getCollection('blog');
+const groups = groupByTag(posts);
+const tags = [...groups.values()]
+  .map((g) => ({ label: g.label, slug: tagSlug(g.label), n: g.posts.length }))
+  .sort((a, b) => b.n - a.n || a.label.localeCompare(b.label));
+const max = Math.max(...tags.map((t) => t.n), 1);
+---
+<Base title="Tags — gep13.co.uk">
+  <div class="wrap">
+    <header class="arch-head">
+      <span class="eyebrow">Tags</span>
+      <h1>{tags.length} tags</h1>
+      <p class="sub">Every topic across the archive, sized by how often it appears.</p>
+    </header>
+    <section>
+      <div class="status-row">
+        {tags.map((t) => (
+          <a class="chip" href={`/tags/${t.slug}`}
+             style={`font-size:${(0.74 + (t.n / max) * 0.5).toFixed(2)}rem`}>
+            {t.label} <b>{t.n}</b>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</Base>

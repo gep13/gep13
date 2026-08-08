@@ -1,0 +1,492 @@
+[
+  {
+    "date": "2025-12-11",
+    "year": 2025,
+    "event": ".NET Rocks",
+    "title": "Package Management in 2026",
+    "slides": null,
+    "recording": "https://www.dotnetrocks.com/details/1980",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2025-04-26",
+    "year": 2025,
+    "event": "DDDSW 2025",
+    "title": "DDDSW 2025",
+    "slides": "https://gep13-talks.github.io/GitHubReleaseDemos/",
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2024-02-07",
+    "year": 2024,
+    "event": "Swetugg Stockholm",
+    "title": "Swetugg Stockholm",
+    "slides": "https://gep13-talks.github.io/GitHubReleaseDemos/",
+    "recording": null,
+    "flag": "🇸🇪",
+    "language": "English"
+  },
+  {
+    "date": "2023-11-17",
+    "year": 2023,
+    "event": "Unhandled Exception",
+    "title": "Unhandled Exception Podcast Interview",
+    "slides": null,
+    "recording": "https://unhandledexceptionpodcast.com/posts/0063-chocolatey/",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2023-10-27",
+    "year": 2023,
+    "event": "Swetugg Göteborg",
+    "title": "Swetugg Göteborg",
+    "slides": "https://gep13-talks.github.io/GitHubReleaseDemos/",
+    "recording": null,
+    "flag": "🇸🇪",
+    "language": "English"
+  },
+  {
+    "date": "2023-08-17",
+    "year": 2023,
+    "event": ".NET Rocks",
+    "title": "Chocolatey in 2023",
+    "slides": null,
+    "recording": "https://www.dotnetrocks.com/details/1859",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2022-03-23",
+    "year": 2022,
+    "event": "RunAsRadio",
+    "title": "Chocolatey for Business",
+    "slides": null,
+    "recording": "https://runasradio.com/Shows/Show/820",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2021-11-03",
+    "year": 2021,
+    "event": "Coffee and Open Source",
+    "title": "Coffee and Open Source Interview",
+    "slides": null,
+    "recording": "https://www.coffeeandopensource.com/streams.html?date=2021-11-03/",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2021-10-23",
+    "year": 2021,
+    "event": "Hacktoberfest Scotland",
+    "title": "Getting started with Open Source Software - a Beginners Guide",
+    "slides": null,
+    "recording": "https://www.youtube.com/watch?v=tKdJmCvOHYU",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2021-02-03",
+    "year": 2021,
+    "event": "Scottish Developers",
+    "title": "A Piece of Cake",
+    "slides": "https://github.com/gep13-talks/BiteSizeCakeDemos/releases/download/scottishdevelopers2021/Scottish-Developers-2021.pptx",
+    "recording": "https://www.youtube.com/watch?v=gdfoXoe_xBs&list=PL84yg23i9GBiVpMWYN9sMZ0lGK8oqmAp6&index=7",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2020-11-12",
+    "year": 2020,
+    "event": ".NET Conf",
+    "title": "A Piece of Cake",
+    "slides": "https://github.com/gep13-talks/BiteSizeCakeDemos/releases/download/dotnetconf2020/a-piece-of-cake.pptx",
+    "recording": "https://www.youtube.com/watch?v=o38glTSZsVg",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2020-11-04",
+    "year": 2020,
+    "event": "12 Days of Chocolatey",
+    "title": "Chocolatey in the Organization",
+    "slides": null,
+    "recording": "https://chocolatey.org/resources/12-days-of-chocolatey/chocolatey-in-the-organization",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2020-11-03",
+    "year": 2020,
+    "event": "12 Days of Chocolatey",
+    "title": "Chocolatey Central Managements Deployments Scheduling, Semi-Connected Environments, and API",
+    "slides": null,
+    "recording": "https://chocolatey.zoom.us/rec/share/kx__8-8rmpcM865VJIWYi9G4ME531YR7fc9wCXntOPpLHoBHRzq-hpFumqicdaqf._23U15lBL4cf9_s6",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2020-10-10",
+    "year": 2020,
+    "event": "Hacktoberfest Scotland",
+    "title": "Control your GitHub Releases with GitVersion and GitReleaseManager",
+    "slides": null,
+    "recording": "https://www.youtube.com/watch?v=o1gmCLe6mfA",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2020-06-23",
+    "year": 2020,
+    "event": "Chocolatey Deployments",
+    "title": "Chocolatey Deployments - Easily Orchestrate Amazing Things!",
+    "slides": null,
+    "recording": "https://chocolatey.zoom.us/webinar/register/WN_MPT5b34zQnud8R0nGgpe5A",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2020-06-22",
+    "year": 2020,
+    "event": "Scotland OSUM!",
+    "title": "Ensuring longevity after unfortunate circumstances in OSS Projects",
+    "slides": null,
+    "recording": "https://scot-osum.gitlab.io/podcasts/2020/06/22/sosum-podcast-s01-ep02.html",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2020-03-05",
+    "year": 2020,
+    "event": "Chocolatey All Hands",
+    "title": "A Piece of Cake",
+    "slides": null,
+    "recording": null,
+    "flag": "🇺🇸",
+    "language": "English"
+  },
+  {
+    "date": "2019-09-23",
+    "year": 2019,
+    "event": "WinOps",
+    "title": "Managing Organizational Use Of Chocolatey",
+    "slides": null,
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2019-09-16",
+    "year": 2019,
+    "event": "DDD East Anglia",
+    "title": "Control your GitHub releases with GitVersion and GitReleaseManager",
+    "slides": null,
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2019-07-18",
+    "year": 2019,
+    "event": "KCDC",
+    "title": "A Piece of Cake",
+    "slides": null,
+    "recording": null,
+    "flag": "🇺🇸",
+    "language": "English"
+  },
+  {
+    "date": "2019-06-20",
+    "year": 2019,
+    "event": "ChefConf London",
+    "title": "Simplify Windows Software Packaging and Automation with Chocolatey",
+    "slides": null,
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2019-05-22",
+    "year": 2019,
+    "event": "ChefConf",
+    "title": "Simplify Windows Software Packaging and Automation with Chocolatey",
+    "slides": null,
+    "recording": "https://www.youtube.com/watch?v=HEJbNNIIy30",
+    "flag": "🇺🇸",
+    "language": "English"
+  },
+  {
+    "date": "2019-01-31",
+    "year": 2019,
+    "event": "Scottish PowerShell & Devops User Group",
+    "title": "How to create a system of Immutable Infrastructure",
+    "slides": null,
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2019-01-30",
+    "year": 2019,
+    "event": "HaintonDotNet - North East",
+    "title": "A Piece of Cake",
+    "slides": null,
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2019-01-29",
+    "year": 2019,
+    "event": "HaintonDotNet - North East",
+    "title": "A Piece of Cake",
+    "slides": null,
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2019-01-28",
+    "year": 2019,
+    "event": "dotnetsheff",
+    "title": "Adding a layer of Chocolate(y)",
+    "slides": null,
+    "recording": "https://www.youtube.com/watch?v=2ZAF9tgw4EY",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2019-01-24",
+    "year": 2019,
+    "event": "Aberdeen Developers .Net User Group",
+    "title": "How to create a system of Immutable Infrastructure",
+    "slides": null,
+    "recording": "https://www.youtube.com/watch?v=CWlURN0pFnI",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2018-11-15",
+    "year": 2018,
+    "event": "WinOps",
+    "title": "Setting Up Internal Chocolatey Deployments",
+    "slides": null,
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2018-10-08",
+    "year": 2018,
+    "event": "Chocolatey Fest",
+    "title": "Setting Up Internal Chocolatey Deployments",
+    "slides": null,
+    "recording": null,
+    "flag": "🇺🇸",
+    "language": "English"
+  },
+  {
+    "date": "2018-06-12",
+    "year": 2018,
+    "event": "DOUGH - DevOps Usergroup Gothenburg",
+    "title": "Mmmmm, Chocolatey Goodness!",
+    "slides": null,
+    "recording": null,
+    "flag": "🇸🇪",
+    "language": "English"
+  },
+  {
+    "date": "2018-02-19",
+    "year": 2018,
+    "event": "DDD Scotland",
+    "title": "Mmmmm, Chocolatey Goodness!",
+    "slides": null,
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2018-02-09",
+    "year": 2018,
+    "event": ".NET York",
+    "title": "A Piece of Cake",
+    "slides": null,
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2018-02-08",
+    "year": 2018,
+    "event": ".NET Sheffield",
+    "title": "A Piece of Cake",
+    "slides": null,
+    "recording": "https://www.youtube.com/watch?v=bOQLC2HXCzE",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2018-02-07",
+    "year": 2018,
+    "event": "London .NET User Group",
+    "title": "A Piece of Cake",
+    "slides": null,
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2018-02-06",
+    "year": 2018,
+    "event": ".NET Oxford",
+    "title": "A Piece of Cake",
+    "slides": null,
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2018-01-30",
+    "year": 2018,
+    "event": "KC .NET User Group",
+    "title": "A Piece of Cake",
+    "slides": null,
+    "recording": null,
+    "flag": "🇺🇸",
+    "language": "English"
+  },
+  {
+    "date": "2017-06-10",
+    "year": 2017,
+    "event": "DDD Reading",
+    "title": "Control your GitHub releases with GitVersion and GitReleaseManager",
+    "slides": null,
+    "recording": "https://www.youtube.com/watch?v=SlM02V1tkSc",
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2016-10-01",
+    "year": 2016,
+    "event": "DDD North",
+    "title": "A Piece of Cake",
+    "slides": "https://www.slideshare.net/gep13/a-piece-of-cake-ddd-north",
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2016-09-03",
+    "year": 2016,
+    "event": "DDD11",
+    "title": "A Piece of Cake",
+    "slides": "https://www.slideshare.net/gep13/a-piece-of-cake-ddd11-reading",
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2016-07-13",
+    "year": 2016,
+    "event": ".NET Rocks",
+    "title": "Understanding Cake",
+    "slides": null,
+    "recording": "https://www.dotnetrocks.com/?show=1321",
+    "flag": "🇳🇴",
+    "language": "English"
+  },
+  {
+    "date": "2016-06-09",
+    "year": 2016,
+    "event": "NDC Oslo",
+    "title": "A Piece of Cake",
+    "slides": "https://www.slideshare.net/gep13/having-your-cake-and-eating-it-too-ndc-oslo-2016",
+    "recording": "https://www.youtube.com/watch?v=zZIyEn4jF2U&feature=youtu.be",
+    "flag": "🇳🇴",
+    "language": "English"
+  },
+  {
+    "date": "2016-05-14",
+    "year": 2016,
+    "event": "DDD Scotland",
+    "title": "Having your Cake, and eating to too!",
+    "slides": "https://www.slideshare.net/gep13/having-your-cake-and-eating-it-too-dddscotland",
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2016-04-21",
+    "year": 2016,
+    "event": "Aberdeen Developers .Net User Group",
+    "title": "Having your Cake, and eating to too!",
+    "slides": "https://www.slideshare.net/gep13/having-your-cake-and-eating-it-too",
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2015-10-22",
+    "year": 2015,
+    "event": "Aberdeen Developers .Net User Group",
+    "title": "Semantic Versioning with GitVersion",
+    "slides": "http://www.slideshare.net/gep13/semantic-versioning-with-gitversion-take-2",
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2015-09-17",
+    "year": 2015,
+    "event": "ScotSoft2015",
+    "title": "Semantic Versioning with GitVersion",
+    "slides": "http://www.slideshare.net/gep13/semantic-versioning-with-gitversion",
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2013-11-23",
+    "year": 2013,
+    "event": "DunDDD",
+    "title": "Continuous Integration 101",
+    "slides": "https://www.slideshare.net/gep13/continuous-integration-101",
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2013-01-28",
+    "year": 2013,
+    "event": "Aberdeen Developers .Net User Group",
+    "title": "Mmmmm, Chocolatey Goodness!",
+    "slides": "https://www.slideshare.net/gep13/mmmm-chocolatey-goodness",
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2012-10-13",
+    "year": 2012,
+    "event": "DDDNorth",
+    "title": "Getting started with caliburn.micro and windows phone 7",
+    "slides": "https://www.slideshare.net/gep13/getting-started-with-caliburnmicro-and-windows-phone-7",
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  },
+  {
+    "date": "2012-05-26",
+    "year": 2012,
+    "event": "DDD South West",
+    "title": "StyleCop breaking down the barriers to entry",
+    "slides": "https://www.slideshare.net/gep13/style-cop-breaking-down-the-barriers-to-entry",
+    "recording": null,
+    "flag": "🇬🇧",
+    "language": "English"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "name": "gep13",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "talks": "node scripts/build-talks.mjs"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.11",
+    "@fontsource/ibm-plex-mono": "^5.1.0",
+    "@fontsource/newsreader": "^5.1.0",
+    "astro": "^5.6.0",
+    "rehype-autolink-headings": "^7.1.0",
+    "rehype-slug": "^6.0.0",
+    "remark-directive": "^4.0.0",
+    "unist-util-visit": "^5.1.0"
+  }
+}

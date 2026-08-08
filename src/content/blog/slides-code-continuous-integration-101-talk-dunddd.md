@@ -1,0 +1,28 @@
+---
+title: "Slides and code from Continuous Integration 101 talk at DunDDD"
+pubDate: 2013-12-02
+tags:
+  - "ci"
+  - "continuous integration"
+  - "dunddd"
+  - "teamcity"
+---
+# Continuous Integration 101
+
+On Saturday 23rd November 2013, I presented a talk entitled "Continuous Integration 101" at the [DunDDD Conference in Dundee](http://dun.dddscotland.com/).  The abstract for the talk was as follows:
+
+> It is well understood that "Continuous Integration" is a development best practice, however, it is also something that is not often implemented within development teams. Typical reasons include:
+>
+> - It is difficult to set up
+> - It is difficult to maintain
+>- It takes too long
+>
+> In this session we will look at how you can incrementally work your way to fully implementing Continuous Integration into your development process. This talk will focus on using TeamCity as the Continuous Integration Server and psake build engine.
+
+Overall, I was quite happy with how the talk went, and it seems to go down quite well.  There was a fair bit of interaction with the audience, with several questions, which I hope that I was able to answer.  If there are any follow-up questions, then please feel free to get in touch, and I will do my best to respond.
+
+# slides and code
+
+If you are interested in seeing the slides from the talk, they are [available on SlideShare](https://www.slideshare.net/gep13/continuous-integration-101).
+
+If you want to check out what little code was used during the presentation, you can find it [here](http://gep13.me/CIDemos).

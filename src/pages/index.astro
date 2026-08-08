@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const all = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
+);
+const recent = all.slice(0, 10);
+const readTime = (body: string) => Math.max(1, Math.round((body?.split(/\s+/).length ?? 0) / 200));
+const years = all.map((p) => p.data.pubDate.getFullYear());
+const span = years.length ? `${Math.min(...years)} → ${Math.max(...years)}` : '—';
+---
+<Base title="Gary Ewan Park — gep13.co.uk">
+  <header class="hero">
+    <div class="wrap">
+      <p class="invoke"><span class="prompt">$</span> dotnet cake --target=Read<span class="cursor"></span></p>
+      <h1 class="name">Gary Ewan&nbsp;Park</h1>
+      <p class="tagline">Ramblings and ponderings of a Microsoft fan boy</p>
+      <p class="bio">By day I make a living as a <strong>Principal Software Developer</strong> at <strong>Chocolatey</strong>. I maintain open-source build tooling — <strong>Cake</strong>, <strong>Chocolatey</strong>, <strong>GitReleaseManager</strong> — and I write about the craft of shipping software. Husband, father, and a perennial tinkerer with the build.</p>
+      <div class="status-row">
+        <span class="chip"><b>{all.length}</b> posts</span>
+        <span class="chip">{span}</span>
+        <span class="chip ok"><span>✓</span> build succeeded</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <div class="sec-head">
+        <span class="sec-label">Recent posts</span>
+        <span class="sec-note">latest {recent.length} · reading time as duration</span>
+      </div>
+      <div class="manifest">
+        <div class="m-scroll">
+          <div class="col-head"><span></span><span>Year</span><span>Read</span><span>Title</span><span>Tags</span></div>
+          {recent.map((p) => (
+            <a class="task" href={`/blog/${p.id}`}>
+              <span class="t-status">✓</span>
+              <span class="t-year">{p.data.pubDate.getFullYear()}</span>
+              <span class="t-read">{readTime(p.body ?? '')} min</span>
+              <span class="t-title">{p.data.title}</span>
+              <span class="t-tags">{p.data.tags.slice(0, 2).map((t) => <span class="tag">{t}</span>)}</span>
+            </a>
+          ))}
+        </div>
+        <div class="summary">
+          <span><span class="lead">Build succeeded.</span></span>
+          <span><b>{all.length}</b> targets</span>
+          <span><b>0</b> errors</span>
+          <span><b>0</b> warnings</span>
+        </div>
+      </div>
+      <p class="more"><a href="/blog">Browse the full archive by year or tag →</a></p>
+    </section>
+  </main>
+</Base>

@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { groupByTag } from '../../lib/tags';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  const groups = groupByTag(posts);
+  return [...groups.entries()].map(([slug, g]) => ({
+    params: { tag: slug },
+    props: {
+      label: g.label,
+      posts: g.posts.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()),
+    },
+  }));
+}
+
+const { label, posts } = Astro.props;
+const readTime = (body: string) => Math.max(1, Math.round((body?.split(/\s+/).length ?? 0) / 200));
+---
+<Base title={`Tag: ${label} — gep13.co.uk`}>
+  <div class="wrap">
+    <header class="arch-head">
+      <span class="eyebrow"><a href="/tags" style="color:var(--amber)">Tags</a> / {label}</span>
+      <h1>{posts.length} post{posts.length === 1 ? '' : 's'} tagged &ldquo;{label}&rdquo;</h1>
+    </header>
+    <section>
+      {posts.map((p) => (
+        <a class="atask" href={`/blog/${p.id}`}>
+          <span class="t-status">✓</span>
+          <span class="t-read">{p.data.pubDate.getFullYear()}</span>
+          <span class="t-title">{p.data.title}</span>
+          <span class="t-read">{readTime(p.body ?? '')} min</span>
+        </a>
+      ))}
+    </section>
+  </div>
+</Base>

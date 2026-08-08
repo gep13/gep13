@@ -1,0 +1,27 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Contact — gep13.co.uk">
+  <div class="wrap">
+    <header class="post-head">
+      <span class="eyebrow">Contact</span>
+      <h1 class="post-title">Get in touch</h1>
+    </header>
+
+    <div class="page">
+      <div class="contact-col">
+        <p class="contact-intro">Use any of the links on the <a href="/about">about page</a> to reach me, or send a message with the form below.</p>
+
+        <p id="thank-you" class="thanks">Thanks for getting in touch — I'll reply as soon as I can.</p>
+
+        <form action="https://getsimpleform.com/messages?form_api_token=1d1302c59aefb2d17cab29b91f47bee9" method="post" class="contact-form">
+          <input type="hidden" name="redirect_to" value="https://www.gep13.co.uk/contact#thank-you" />
+          <label>Your name<input name="name" type="text" required autocomplete="name" /></label>
+          <label>Email address<input name="email" type="email" required autocomplete="email" /></label>
+          <label>Your message<textarea name="message" rows="8" required></textarea></label>
+          <button type="submit">Send message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</Base>

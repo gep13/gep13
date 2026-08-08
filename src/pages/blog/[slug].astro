@@ -1,0 +1,94 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { tagSlug } from '../../lib/tags';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  const sorted = [...posts].sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+  return sorted.map((post, i) => ({
+    params: { slug: post.id },
+    props: { post, newer: sorted[i - 1] ?? null, older: sorted[i + 1] ?? null },
+  }));
+}
+
+const { post, newer, older } = Astro.props;
+const { Content, headings } = await render(post);
+const readTime = Math.max(1, Math.round((post.body?.split(/\s+/).length ?? 0) / 200));
+const dateStr = post.data.pubDate.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+const toc = headings.filter((h) => h.depth === 2 || h.depth === 1);
+---
+<Base title={`${post.data.title} — gep13.co.uk`}>
+  <div class="wrap">
+    <header class="post-head">
+      <nav class="crumb">
+        <a href="/">gep13.co.uk</a><span class="sep">/</span>
+        <a href="/blog">blog</a><span class="sep">/</span>
+        <span class="here">{post.id}</span>
+      </nav>
+      <h1 class="post-title">{post.data.title}</h1>
+      <div class="post-meta">
+        <span>{dateStr}</span><span>·</span><span>{readTime} min read</span><span>·</span>
+        <span class="ok">✓ published</span>
+        {post.data.tags.length > 0 && <span>·</span>}
+        {post.data.tags.map((t) => <a class="tag tag-link" href={`/tags/${tagSlug(t)}`}>{t}</a>)}
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="rail">
+        {toc.length > 0 && (
+          <>
+            <h4>Build steps</h4>
+            <ul class="steps">
+              {toc.map((h, i) => (
+                <li class={i === 0 ? 'on' : ''}><a href={`#${h.slug}`}>{h.text.replace(/#+$/, '')}</a></li>
+              ))}
+            </ul>
+          </>
+        )}
+      </aside>
+
+      <article class="prose">
+        <Content />
+
+        <nav class="postnav" aria-label="More posts">
+          {newer && (
+            <a href={`/blog/${newer.id}`}>
+              <span class="dir">← Newer</span>
+              <span class="pt">{newer.data.title}</span>
+              <span class="yr">{newer.data.pubDate.getFullYear()}</span>
+            </a>
+          )}
+          {older && (
+            <a href={`/blog/${older.id}`}>
+              <span class="dir">Older →</span>
+              <span class="pt">{older.data.title}</span>
+              <span class="yr">{older.data.pubDate.getFullYear()}</span>
+            </a>
+          )}
+        </nav>
+
+        <section class="comments">
+          <div class="comments-head"><span class="badge">giscus</span><span>Comments load from GitHub Discussions</span></div>
+          <script src="https://giscus.app/client.js"
+            data-repo="gep13/gep13"
+            data-repo-id="MDEwOlJlcG9zaXRvcnkyMzU1MzA3OA=="
+            data-category="Comments"
+            data-category-id="DIC_kwDOAWdkNs4DC7EI"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="preferred_color_scheme"
+            data-lang="en"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            is:inline
+            async></script>
+        </section>
+      </article>
+    </div>
+  </div>
+</Base>

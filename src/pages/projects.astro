@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+
+const projects = [
+  {
+    name: 'Cake',
+    tagline: 'C# Make — a cross-platform build automation system.',
+    website: 'https://cakebuild.net/',
+    source: 'https://github.com/cake-build/cake',
+    social: { label: 'Bluesky', href: 'https://bsky.app/profile/cakebuild.net' },
+  },
+  {
+    name: 'Chocolatey',
+    tagline: 'The package manager for Windows.',
+    website: 'https://chocolatey.org/',
+    source: 'https://github.com/chocolatey/choco',
+    social: { label: 'Bluesky', href: 'https://bsky.app/profile/chocolatey.org' },
+  },
+  {
+    name: 'GitReleaseManager',
+    tagline: 'Create and export releases for software hosted on GitHub.',
+    website: null,
+    source: 'https://github.com/GitTools/GitReleaseManager',
+    social: { label: 'Twitter', href: 'https://x.com/git_tools' },
+  },
+];
+---
+<Base title="Projects — gep13.co.uk">
+  <div class="wrap">
+    <header class="arch-head">
+      <span class="eyebrow">Projects</span>
+      <h1>Open source I work on</h1>
+      <p class="sub">The tools I maintain and contribute to. Automate all the things.</p>
+    </header>
+
+    <section>
+      <div class="project-grid">
+        {projects.map((p) => (
+          <article class="project">
+            <h2>{p.name}</h2>
+            <p class="proj-tag">{p.tagline}</p>
+            <div class="proj-links">
+              {p.website && <a href={p.website}>Website ↗</a>}
+              <a href={p.source}>Source ↗</a>
+              <a href={p.social.href}>{p.social.label} ↗</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  </div>
+</Base>
