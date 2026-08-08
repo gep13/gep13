@@ -71,7 +71,22 @@ const toc = headings.filter((h) => h.depth === 2 || h.depth === 1);
 
         <section class="comments">
           <div class="comments-head"><span class="badge">giscus</span><span>Comments load from GitHub Discussions</span></div>
-          <p class="giscus-note">In production a giscus thread mounts here — one discussion per post, no trackers, no CSP gymnastics.</p>
+          <script src="https://giscus.app/client.js"
+            data-repo="gep13/gep13"
+            data-repo-id="MDEwOlJlcG9zaXRvcnkyMzU1MzA3OA=="
+            data-category="Comments"
+            data-category-id="DIC_kwDOAWdkNs4DC7EI"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="preferred_color_scheme"
+            data-lang="en"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            is:inline
+            async></script>
         </section>
       </article>
     </div>

@@ -9,9 +9,21 @@
     return s ? s : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
   }
   function paint() { btn.textContent = cur() === 'dark' ? '☀ paper' : '☾ espresso'; }
+  // Keep the giscus comment iframe in step with the manual toggle. giscus
+  // loads with preferred_color_scheme (matches the page's initial OS theme);
+  // this only pushes the override when the reader flips the switch.
+  function syncGiscus() {
+    var frame = document.querySelector('iframe.giscus-frame');
+    if (!frame) return;
+    frame.contentWindow.postMessage(
+      { giscus: { setConfig: { theme: cur() } } },
+      'https://giscus.app'
+    );
+  }
   btn.addEventListener('click', function () {
     document.documentElement.setAttribute('data-theme', cur() === 'dark' ? 'light' : 'dark');
     paint();
+    syncGiscus();
   });
   paint();
 })();
