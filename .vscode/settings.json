@@ -6,6 +6,25 @@
     "cakebuildnet",
     "cakecontrib"
   ],
-  "[markdown]": {
-  }
+  "[markdown]": {},
+
+  // Paste a screenshot (or drag an image file) into a blog post .md and VS Code
+  // copies it into the repo and inserts a relative ![](...) link automatically.
+  // Images land under src/assets/ so Astro OPTIMIZES them on build (WebP/AVIF,
+  // hashing, width/height) — that only happens for src/ assets, not public/.
+  //
+  // Layout: src/assets/blog/<post-slug>/<post-slug>-image.png
+  //   ${documentBaseName} = the post filename without .md (the slug / folder)
+  //   ${fileName}         = the pasted file's name (clipboard shots -> image.png,
+  //                         then image-1.png, image-2.png via nameIncrementally)
+  // Only applies to files under src/content/blog so other markdown is untouched.
+  //
+  // Tweak to taste — other useful vars: ${fileBaseName}, ${fileExtName},
+  // ${fileBaseNameHash}, ${documentDirName}. Alternatives:
+  //   flat folder : ".../src/assets/blog/${documentBaseName}-${fileName}"
+  //   no prefix   : ".../src/assets/blog/${documentBaseName}/${fileName}"
+  "markdown.copyFiles.destination": {
+    "/src/content/blog/**/*.md": "${documentWorkspaceFolder}/src/assets/blog/${documentBaseName}/${documentBaseName}-${fileName}"
+  },
+  "markdown.copyFiles.overwriteBehavior": "nameIncrementally"
 }
