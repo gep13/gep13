@@ -13,18 +13,22 @@
   // Images land under src/assets/ so Astro OPTIMIZES them on build (WebP/AVIF,
   // hashing, width/height) — that only happens for src/ assets, not public/.
   //
-  // Layout: src/assets/blog/<post-slug>/<post-slug>-image.png
-  //   ${documentBaseName} = the post filename without .md (the slug / folder)
-  //   ${fileName}         = the pasted file's name (clipboard shots -> image.png,
-  //                         then image-1.png, image-2.png via nameIncrementally)
-  // Only applies to files under src/content/blog so other markdown is untouched.
+  // Glob key is tail-anchored ("**/content/blog/**/*") so it matches regardless
+  // of workspace root or a leading slash — a "/src/content/blog/**/*" key can
+  // silently fail to match, and VS Code then falls back to dumping "image.png"
+  // next to the post. IMPORTANT: settings changes here need a window reload to
+  // take effect (Command Palette -> "Developer: Reload Window").
   //
-  // Tweak to taste — other useful vars: ${fileBaseName}, ${fileExtName},
-  // ${fileBaseNameHash}, ${documentDirName}. Alternatives:
-  //   flat folder : ".../src/assets/blog/${documentBaseName}-${fileName}"
-  //   no prefix   : ".../src/assets/blog/${documentBaseName}/${fileName}"
+  // Layout: src/assets/blog/<post-slug>/<pasted-name>
+  //   ${documentBaseName} = post filename without .md (the slug / folder)
+  //   ${fileName}         = pasted file name (clipboard shots -> image.png,
+  //                         then image-1.png, image-2.png via nameIncrementally)
+  // The built-in does NOT prompt for a name. To give an image a descriptive
+  // name: paste it, then rename the file FROM THE VS CODE EXPLORER (F2 there,
+  // not on disk) — updateLinksOnFileMove (below) rewrites the ![](...) link.
   "markdown.copyFiles.destination": {
-    "/src/content/blog/**/*.md": "${documentWorkspaceFolder}/src/assets/blog/${documentBaseName}/${documentBaseName}-${fileName}"
+    "**/content/blog/**/*": "${documentWorkspaceFolder}/src/assets/blog/${documentBaseName}/${fileName}"
   },
-  "markdown.copyFiles.overwriteBehavior": "nameIncrementally"
+  "markdown.copyFiles.overwriteBehavior": "nameIncrementally",
+  "markdown.updateLinksOnFileMove.enabled": "always"
 }

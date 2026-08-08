@@ -9,7 +9,8 @@
   "frontMatter.content.pageFolders": [
     {
       "title": "Blog",
-      "path": "[[workspace]]/src/content/blog"
+      "path": "[[workspace]]/src/content/blog",
+      "filePrefix": null
     }
   ],
   "frontMatter.content.autoUpdateDate": false,
@@ -19,6 +20,7 @@
     {
       "name": "default",
       "pageBundle": false,
+      "filePrefix": null,
       "previewPath": "blog",
       "fields": [
         {
