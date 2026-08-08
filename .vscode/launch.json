@@ -1,0 +1,23 @@
+{
+  // F5 → start the Astro dev server and open the site in the default browser.
+  // Uses "node-terminal" so the server runs in an integrated terminal WITHOUT
+  // attaching a debugger (correct for a long-running dev server). serverReadyAction
+  // watches the terminal output and opens the first localhost URL Astro prints.
+  // NOTE: the port is matched, never hardcoded — Astro falls back (4321 → 4322 → …)
+  // when a port is busy, so we open whatever it actually bound to.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Astro dev (F5 → browser)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run dev",
+      "cwd": "${workspaceFolder}",
+      "serverReadyAction": {
+        "pattern": "(https?://localhost:[0-9]+/?)",
+        "uriFormat": "%s",
+        "action": "openExternally"
+      }
+    }
+  ]
+}

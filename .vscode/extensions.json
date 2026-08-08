@@ -1,0 +1,6 @@
+{
+  // Recommended when opening this workspace. VS Code prompts to install these.
+  "recommendations": [
+    "astro-build.astro-vscode"
+  ]
+}

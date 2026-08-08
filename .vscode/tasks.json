@@ -1,0 +1,50 @@
+{
+  // Convenience tasks for the Astro site. The "astro: dev" background task lets
+  // you start the dev server from Run Task / Ctrl+Shift+B (it is the default
+  // build task) and is available for other tooling to depend on (e.g. Front
+  // Matter CMS). F5 (see launch.json) is self-contained and does NOT need this.
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "astro: dev",
+      "type": "npm",
+      "script": "dev",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "astro",
+        "pattern": { "regexp": "^$" },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*\\bastro\\b.*",
+          "endsPattern": ".*(watching for file changes|Local\\s+https?://).*"
+        }
+      },
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "always", "panel": "dedicated", "clear": true }
+    },
+    {
+      "label": "astro: build",
+      "type": "npm",
+      "script": "build",
+      "problemMatcher": [],
+      "group": "build",
+      "presentation": { "reveal": "always", "panel": "dedicated", "clear": true }
+    },
+    {
+      "label": "astro: preview",
+      "type": "npm",
+      "script": "preview",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "astro",
+        "pattern": { "regexp": "^$" },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*\\bastro\\b.*",
+          "endsPattern": ".*Local\\s+https?://.*"
+        }
+      },
+      "presentation": { "reveal": "always", "panel": "dedicated", "clear": true }
+    }
+  ]
+}
