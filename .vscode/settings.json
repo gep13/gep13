@@ -5,5 +5,7 @@
     "addins",
     "cakebuildnet",
     "cakecontrib"
-  ]
+  ],
+  "[markdown]": {
+  }
 }

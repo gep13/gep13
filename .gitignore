@@ -12,3 +12,6 @@ config.wyam.packages.xml
 node_modules/
 dist/
 .astro/
+
+# Front Matter CMS local caches (keep frontmatter.json + .frontmatter/ templates)
+.frontmatter/database/
