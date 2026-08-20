@@ -2,3 +2,6 @@
 /feed.rss        /feed.xml   301
 /feed.atom       /atom.xml   301
 /feed/index.xml  /atom.xml   301
+
+# Restore the legacy /lets-pair vanity redirect to the pairing Zoom room.
+/lets-pair       https://chocolatey.zoom.us/j/6875266204/   302
